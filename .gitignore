@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+etat/joueurs/
+node_modules/

@@ -1,0 +1,83 @@
+[
+  {
+    "width": 1536,
+    "height": 960,
+    "overflow": false,
+    "camps": [
+      {
+        "top": 56,
+        "bottom": 490.5,
+        "visible": true
+      },
+      {
+        "top": 498.5,
+        "bottom": 933,
+        "visible": true
+      }
+    ],
+    "cards": [
+      {
+        "w": 88,
+        "h": 96
+      },
+      {
+        "w": 88,
+        "h": 96
+      }
+    ]
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "overflow": false,
+    "camps": [
+      {
+        "top": 50,
+        "bottom": 392.5,
+        "visible": true
+      },
+      {
+        "top": 400.5,
+        "bottom": 743,
+        "visible": true
+      }
+    ],
+    "cards": [
+      {
+        "w": 88,
+        "h": 96
+      },
+      {
+        "w": 88,
+        "h": 96
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "overflow": false,
+    "camps": [
+      {
+        "top": 56,
+        "bottom": 550.5,
+        "visible": true
+      },
+      {
+        "top": 558.5,
+        "bottom": 1053,
+        "visible": true
+      }
+    ],
+    "cards": [
+      {
+        "w": 88,
+        "h": 96
+      },
+      {
+        "w": 88,
+        "h": 96
+      }
+    ]
+  }
+]

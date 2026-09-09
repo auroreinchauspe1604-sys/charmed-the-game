@@ -1,0 +1,56 @@
+[
+  {
+    "number": 1,
+    "id": "01-livre-des-ombres",
+    "title": "Livre des Ombres",
+    "description": "Cuir vert, parchemin et dessin du grenier.",
+    "source": "C:\\Users\\auror\\.codex\\generated_images\\01a07c97-fcdc-76b0-9e69-6f593b6a159c\\exec-d1655d25-5988-409e-8e60-6eebc9f7cd80.png",
+    "file": "01-livre-des-ombres.png",
+    "status": "proposition_non_integree"
+  },
+  {
+    "number": 2,
+    "id": "02-grenier-bougies",
+    "title": "Grenier à la bougie",
+    "description": "Bois sombre, photographie du grenier et lumière chaude.",
+    "source": "C:\\Users\\auror\\.codex\\generated_images\\01a07c97-fcdc-76b0-9e69-6f593b6a159c\\exec-c04f0ba8-52ec-4f31-abfb-40e18fef748f.png",
+    "file": "02-grenier-bougies.png",
+    "status": "proposition_non_integree"
+  },
+  {
+    "number": 3,
+    "id": "03-vitraux-manoir",
+    "title": "Vitraux du manoir",
+    "description": "Bordures de vitraux, lumière claire et gravures du manoir.",
+    "source": "C:\\Users\\auror\\.codex\\generated_images\\01a07c97-fcdc-76b0-9e69-6f593b6a159c\\exec-8242f9e5-0a0d-4844-b907-c4f076127fec.png",
+    "file": "03-vitraux-manoir.png",
+    "status": "proposition_non_integree"
+  },
+  {
+    "number": 4,
+    "id": "04-charmed-nocturne",
+    "title": "Charmed de nuit",
+    "description": "Grenier nocturne, prune sombre et texte ivoire.",
+    "source": "C:\\Users\\auror\\.codex\\generated_images\\01a07c97-fcdc-76b0-9e69-6f593b6a159c\\exec-5e7ac76a-ca9a-4ac8-8f8a-b948d1a48aa6.png",
+    "file": "04-charmed-nocturne.png",
+    "status": "proposition_non_integree"
+  },
+  {
+    "number": 5,
+    "id": "05-pages-sorcellerie",
+    "title": "Pages de sorcellerie",
+    "description": "Pages anciennes, dessins botaniques et encre sépia.",
+    "source": "C:\\Users\\auror\\.codex\\generated_images\\01a07c97-fcdc-76b0-9e69-6f593b6a159c\\exec-7d65b7f9-67be-4c3d-9b07-ce86317f5415.png",
+    "file": "05-pages-sorcellerie.png",
+    "status": "proposition_non_integree"
+  },
+  {
+    "number": 6,
+    "id": "06-mal-halliwell",
+    "title": "Mal / Halliwell — proposition supplémentaire",
+    "description": "En haut, un décor sombre évoquant le Mal ; en bas, le grenier des sœurs.",
+    "source": "C:\\Users\\auror\\.codex\\generated_images\\01a07c97-fcdc-76b0-9e69-6f593b6a159c\\exec-82eded8a-0f32-4cc7-a2ad-a0b3bb780a48.png",
+    "file": "06-mal-halliwell.png",
+    "status": "proposition_non_integree"
+  }
+]

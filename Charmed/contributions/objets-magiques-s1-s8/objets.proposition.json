@@ -1,0 +1,742 @@
+{
+  "version": 1,
+  "date": "2026-09-08",
+  "universe": "charmed-tv-1998",
+  "status": "proposition_separee_non_active",
+  "portee": "18 approfondissements d'objets importants, liés au catalogue existant de 80 fiches et aux 8 familles intégrées. Pas un nouveau catalogue exhaustif ni 18 objets inédits.",
+  "preuve": "Consultation ciblée de transcriptions non officielles et recherches par extraits secondaires ; aucun visionnage. Chaque source garde son niveau réel.",
+  "activation": "Aucun import runtime, aucune mutation de sauvegarde.",
+  "sources": {
+    "T0206": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e06&tv-show=charmed",
+      "titre": "S02E06",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Présentation de Kyle ; entraînement (volonté, deux mains) ; fin : objet brisé et fausse potion de courage.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0608": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e08&tv-show=charmed",
+      "titre": "S06E08",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Leo explique le rôle de transmission de Piper ; Mordaunt vole la puissance des chevaliers et vise Wyatt.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0116": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e16&tv-show=charmed",
+      "titre": "S01E16",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Livre : protection liée à l'épée, souvenir de Brianna ; fin : armes humaines distinguées de l'épée de cristal.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0623": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e23&tv-show=charmed",
+      "titre": "S06E23",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Barbas/Gideon : bouclier déjà percé, proposition de bénédiction complémentaire ; blessure de Chris et magie de Gideon.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0522": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e22&tv-show=charmed",
+      "titre": "S05E22",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Page combinant Oh My Goddess! parties 1 et 2 : origine des dieux dans le récit, pouvoirs rendus par les sœurs.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0718": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e18&tv-show=charmed",
+      "titre": "S07E18",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Transmission Nina/Hope ; Katya force l'ouverture, menace la gardienne ; Hope rappelle les maux.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0808": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e08&tv-show=charmed",
+      "titre": "S08E08",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Billie met la ceinture ; Leo invisible ; dégradation comportementale ; intervention de Leo, formule et retrait.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0117": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e17&tv-show=charmed",
+      "titre": "S01E17",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Nicholas explique la bénédiction de Patty ; Patty retire l'enchantement dans le passé ; confrontation au retour.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0508": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e08&tv-show=charmed",
+      "titre": "S05E08",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Bacarra boit une potion contenant le sang de Piper puis emporte le Livre ; répliques après le vol.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0717": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed",
+      "titre": "S07E17",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Piper et Leo miniaturisés par Wyatt ; leur hypothèse de protection ; résultat de localisation vers le manoir.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0320": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e20&tv-show=charmed",
+      "titre": "S03E20",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Amulette retirée à Leeza ; Leo explique les moitiés et la restriction envers le Mal ; formule nécessaire ; soupçon concernant Cole devenu humain.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "T0413": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e13&tv-show=charmed",
+      "titre": "S04E13",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "Vision initiale ; cinq cristaux orientés ; confrontation avec pouvoir pris à Paige ; inscription du contenant du Hollow et concours Bien/Mal.",
+      "verification": "Passages consultés, sans visionnage ; attributions et gestes parfois omis."
+    },
+    "FWITCH": {
+      "url": "https://charmed.fandom.com/wiki/Witch_Wars_(episode)/Script",
+      "titre": "Witch_Wars_(episode)/Script",
+      "niveau": "transcription_non_officielle_consultee",
+      "consulteLe": "2026-09-08",
+      "repere": "S06E21 : sections avec le pendule déplacé par Gideon, activation des Ronyx, transfert via l'athamé et discussion après la blessure de Phoebe.",
+      "verification": "Page ouverte et passages/didascalies consultés. Transcription de fans, sans certification d'authenticité ni vidéo."
+    },
+    "FTUATHA": {
+      "url": "https://charmed.fandom.com/wiki/Tuatha%27s_Wand",
+      "titre": "Tuatha%27s_Wand",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "repere": "S02E06 : ambre brisé et perte de magie ; ne pas étendre l'inventaire de pouvoirs à tous les porteurs.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FDRAGON": {
+      "url": "https://charmed.fandom.com/wiki/Enter_the_Demon/Script",
+      "titre": "Enter_the_Demon/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "repere": "S04E04 : âme de Piper capturée, retour dans le corps du Maître, capture de Yen-Lo.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FDRAGON-E": {
+      "url": "https://charmed.fandom.com/wiki/Enter_the_Demon",
+      "titre": "Enter_the_Demon",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "repere": "S04E04 : attribution des actions à Paige et à la lame ; le résumé de pouvoirs simplifie le corps receveur.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FURN": {
+      "url": "https://charmed.fandom.com/wiki/Urn_of_Divine_Powers",
+      "titre": "Urn_of_Divine_Powers",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "repere": "S05E22–E23 : réserve, transfert par Leo, retour de Phoebe/Paige et cas différent de Piper.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FCUPID": {
+      "url": "https://charmed.fandom.com/wiki/Forever_Charmed/Script",
+      "titre": "Forever_Charmed/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "repere": "S08E22 : prêt de Coop, pensée et amour, Leo tient la main de Piper, arrivée imprécise ; Dumain réclame la bague.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FFINAL": {
+      "url": "https://charmed.fandom.com/wiki/Forever_Charmed/Plot",
+      "titre": "Forever_Charmed/Plot",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "repere": "S08E22 : Piper, Patty et Penny chassent le Hollow des cinq femmes.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FRONYX": {
+      "url": "https://charmed.fandom.com/wiki/Ronyx_Crystal",
+      "titre": "Ronyx_Crystal",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "repere": "S06E21 : noirs pour observation, rouges pour projection ; déclaration d'ancienneté venant de Gideon.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FREPO": {
+      "url": "https://charmed.fandom.com/wiki/Repo_Manor/Script",
+      "titre": "Repo_Manor/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "repere": "S08E13 : Billie reçoit dollhouse sur la planchette ; imposteurs évitent le sujet.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FREPO-E": {
+      "url": "https://charmed.fandom.com/wiki/Repo_Manor",
+      "titre": "Repo_Manor",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "repere": "S08E13 : démon miniaturisant et enfermant les sœurs dans la réplique.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FCRYSTAL": {
+      "url": "https://charmed.fandom.com/wiki/Sight_Unseen/Script",
+      "titre": "Sight_Unseen/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "repere": "S03E05 : Prue décrit l'enchantement de cristaux de sidérite et son réseau.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    },
+    "FCRYSTAL-P": {
+      "url": "https://charmed.fandom.com/wiki/Sight_Unseen/Plot",
+      "titre": "Sight_Unseen/Plot",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "repere": "S03E05 : cristal témoin porté par Prue, qui doit briller au déclenchement du piège.",
+      "verification": "Extrait de recherche consulté ; ne vaut pas lecture intégrale de la page ni visionnage."
+    }
+  },
+  "fiches": [
+    {
+      "id": "objets-s1-s8:001",
+      "categorie": "objets",
+      "titre": "Livre des Ombres — protections et contournement",
+      "canon": "Livre familial de connaissances magiques, déjà documenté dans le corpus intégré. Cette fiche approfondit le vol par Bacarra, sans remplacer les autres périodes.",
+      "fonctionnement": "Bacarra utilise une potion contenant le sang de Piper puis emporte le Livre. Le dialogue insiste sur l'association de deux versions temporelles de l'attaquant. [T0508]",
+      "conditionsActivationEtPortee": "La potion et l'accès concret appartiennent au dispositif : ce n'est pas une permission générale donnée à tout être maléfique. Posséder, lire et exécuter une formule restent distincts.",
+      "contreMoyensEtVariantes": "Le précédent contredit une protection absolue contre tout vol. Il ne démontre pas que du sang seul, sans préparation, neutralise les défenses. [T0508]",
+      "limitesEtIncertitudes": "Mécanisme moléculaire ou moral exact de la potion non établi ; passage dans une chronologie modifiée. Ne pas distribuer le Livre à deux camps ni en faire une réponse omnisciente.",
+      "descriptionCarteProposee": "Livre familial de connaissances, formules et recettes magiques, doté de protections susceptibles d'être contournées dans des circonstances particulières.",
+      "sources": [
+        "T0508"
+      ],
+      "episodesReperes": [
+        "S05E08"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:001",
+        "integre": "objets:1"
+      },
+      "provenanceAjustements": "Renforce par consultation de dialogue le précédent S05E08 déjà signalé dans la fiche 001. Conserver les protections et autres exceptions de la base.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:002",
+      "categorie": "objets",
+      "titre": "Cristaux — confinement et signal d'alarme",
+      "canon": "Famille de dispositifs préparés ; le cristal tenu en main n'est pas nécessairement la cage elle-même.",
+      "fonctionnement": "Prue décrit un réseau de sidérite enchantée ; un cristal témoin doit s'illuminer au déclenchement. S04E13 décrit une autre installation à cinq cristaux. [FCRYSTAL, FCRYSTAL-P, T0413]",
+      "conditionsActivationEtPortee": "Enchantement, disposition et complétude du réseau comptent. Cinq cristaux ne constituent pas un nombre universel. Le Livre utilisé comme appât n'est pas démontré nécessaire à toute cage.",
+      "contreMoyensEtVariantes": "La confrontation S04E13 comporte un retrait de cristal par la Source avec le pouvoir acquis de Paige, déjà documenté dans la base. La vision d'ouverture est distincte de cette confrontation. [T0413]",
+      "limitesEtIncertitudes": "Décharges, alarme et confinement sont à différencier. Portée entre pièces, résistance à toute téléportation et sélectivité envers les humains non établies ici.",
+      "descriptionCarteProposee": "Cristaux préparés pour des dispositifs de confinement ou d'alarme ; certains réseaux comportent un cristal témoin signalant leur déclenchement.",
+      "sources": [
+        "FCRYSTAL",
+        "FCRYSTAL-P",
+        "T0413"
+      ],
+      "episodesReperes": [
+        "S03E05",
+        "S04E13"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:003",
+        "integre": "objets:3"
+      },
+      "provenanceAjustements": "Recoupe le témoin et l'enchantement déjà présents dans le catalogue 003 ; complément envisageable à la base intégrée objets:3, dont les configurations multiples sont conservées.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:003",
+      "categorie": "objets",
+      "titre": "Cristal de localisation — repère manipulable",
+      "canon": "Pendule de recherche, distinct d'un cristal de confinement ou d'une caméra Ronyx.",
+      "fonctionnement": "Dans Witch Wars, une didascalie montre Gideon déplaçant discrètement le résultat du pendule. Dans Scry Hard, un repère vers le manoir est suivi d'une discussion sur un piège possible. [FWITCH, T0717]",
+      "conditionsActivationEtPortee": "Un point indiqué n'authentifie pas l'auteur du signal, la sécurité du lieu ou l'absence d'interférence. Lien avec la cible, opérateur et contexte doivent rester identifiés.",
+      "contreMoyensEtVariantes": "Une manipulation surnaturelle du résultat est donc un contre-exemple à l'infaillibilité. Ce constat n'invalide pas toutes les recherches réalisées au pendule.",
+      "limitesEtIncertitudes": "La didascalie de fans exige un contrôle vidéo avant qualification de preuve directe. Ne pas tirer d'une réplique sur la recherche entre sorcières une interdiction absolue de toute autre cible.",
+      "descriptionCarteProposee": "Pendule employé dans les recherches magiques. Son indication dépend des conditions de recherche et peut subir une intervention extérieure.",
+      "sources": [
+        "FWITCH",
+        "T0717"
+      ],
+      "episodesReperes": [
+        "S06E21",
+        "S07E17"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:004",
+        "integre": "objets:4"
+      },
+      "provenanceAjustements": "Ajoute un précédent d'interférence volontaire S06E21 au signal provoqué déjà relevé pour S07E17.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:004",
+      "categorie": "objets",
+      "titre": "Bague de Coop — voyage temporel",
+      "canon": "Variante S8 de la famille des bagues de Cupidon ; ne pas la confondre avec l'exemplaire de S02E10.",
+      "fonctionnement": "Coop prête la bague à Piper. Il lui demande de penser à la personne et à son amour ; Leo accompagne Piper en lui tenant la main. L'arrivée ne correspond pas à la date souhaitée. [FCUPID]",
+      "conditionsActivationEtPortee": "Lien affectif et activation ne constituent pas un choix numérique de date. Le prêt permet un usage par une non-Cupidon, sans prouver que tout porteur dispose de toutes les fonctions.",
+      "contreMoyensEtVariantes": "La destination peut être imprécise. Le vol ultérieur par Dumain montre que la possession de l'objet est vulnérable ; pas d'auto-retour au propriétaire établi. [FCUPID]",
+      "limitesEtIncertitudes": "Extrait de transcription uniquement ; nombre maximal de voyageurs et fonctionnement sans lien affectif non déterminés. Ne pas ajouter des voyages temporels à la bague de S2 par analogie.",
+      "descriptionCarteProposee": "Bague de Coop permettant notamment de voyager dans le temps en suivant un lien d'amour ; la destination peut différer de celle recherchée.",
+      "sources": [
+        "FCUPID"
+      ],
+      "episodesReperes": [
+        "S08E22"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:005",
+        "integre": "objets:5"
+      },
+      "provenanceAjustements": "Consolide l'activation et le concours physique d'un accompagnant. Rapprocher de objets:5 sans créer une bague supplémentaire.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:005",
+      "categorie": "objets",
+      "titre": "Boîte du Hollow — contenant et variantes de confinement",
+      "canon": "Contenant du Hollow, entité qui absorbe la magie ; distinct de Pandore et du Nexus.",
+      "fonctionnement": "En S4, la lecture de son inscription avec le concours du Bien et du Mal permet le reconfinement. L'absorption relève de l'entité, pas de la boîte vide. [T0413]",
+      "conditionsActivationEtPortee": "Boîte accessible, inscription et intervenants constituent des moyens distincts. La posséder ne signifie ni maîtriser le Hollow ni acquérir personnellement tous les pouvoirs absorbés.",
+      "contreMoyensEtVariantes": "En S8, Piper, Patty et Penny chassent le Hollow par une formule. Ce précédent impose de contextualiser l'exigence Bien/Mal de S4 au lieu de l'universaliser. [FFINAL]",
+      "limitesEtIncertitudes": "La variante finale reste soutenue par extrait secondaire ; articulation exacte des deux rites à contrôler. Ne pas inventer une réparation de continuité ni un rituel synthétique.",
+      "descriptionCarteProposee": "Contenant associé au confinement du Hollow et à son inscription rituelle ; sa possession ne suffit pas à maîtriser l'entité absorbant la magie.",
+      "sources": [
+        "T0413",
+        "FFINAL"
+      ],
+      "episodesReperes": [
+        "S04E13",
+        "S08E22"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:006",
+        "integre": "objets:6"
+      },
+      "provenanceAjustements": "Traite la variante S8 laissée ouverte dans objets:6 ; signale l'arbitrage de portée, sans modifier les règles.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:006",
+      "categorie": "objets",
+      "titre": "Athamé absorbant les pouvoirs — Witch Wars",
+      "canon": "Lame particulière de Witch Wars, à distinguer d'un athamé rituel ordinaire.",
+      "fonctionnement": "Leo tue Clea avec la lame ; Phoebe la prend et reçoit des pouvoirs démoniaques. Son comportement devient agressif. [FWITCH]",
+      "conditionsActivationEtPortee": "L'acquisition implique cette lame et son contenu ; sa seule silhouette ne suffit pas à identifier sa fonction. L'arme ne rend pas son porteur invulnérable.",
+      "contreMoyensEtVariantes": "Paige poignarde Phoebe pour retirer ces pouvoirs, Leo prêt à guérir ; la conversation suivante confirme la blessure et la survie. Mort du donneur et extraction ne sont donc pas synonymes. [FWITCH]",
+      "limitesEtIncertitudes": "Pas de recette de fabrication, capacité de stockage ou extraction par simple effleurement établies. La guérison dépend de Leo, pas de la lame. Exclure l'Ancient Athame des comics.",
+      "descriptionCarteProposee": "Athamé particulier capable d'absorber et de transmettre des pouvoirs ; des capacités démoniaques transférées peuvent altérer le comportement du porteur.",
+      "sources": [
+        "FWITCH"
+      ],
+      "episodesReperes": [
+        "S06E21"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:028",
+        "integre": null
+      },
+      "provenanceAjustements": "Remplace un appui par extraits par une consultation de la transcription ; distingue intention de poignarder et confirmation ultérieure.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:007",
+      "categorie": "objets",
+      "titre": "Excalibur — détenteur et destinataire",
+      "canon": "Épée liée au destin de Wyatt ; Piper n'en est qu'une dépositaire temporaire malgré son retrait du rocher. [T0608]",
+      "fonctionnement": "Sa puissance consume Piper et altère ses choix. Mordaunt cherche à devenir assez puissant pour la manier en prenant les pouvoirs de ses chevaliers. [T0608]",
+      "conditionsActivationEtPortee": "Pouvoir retirer, transporter et manier durablement sont trois questions différentes. Le titre de roi revendiqué par un personnage n'est pas une preuve de légitimité.",
+      "contreMoyensEtVariantes": "La séparation de Piper et de l'épée fait partie de sa sauvegarde. Le projet de Mordaunt contre le bouclier de Wyatt reste un projet à distinguer d'une démonstration réussie. [T0608]",
+      "limitesEtIncertitudes": "Pas de seuil chiffré de corruption ni d'âge minimum magique inventé. Ne pas confondre la vision liée à Barbas en fin de S6 avec une histoire matérielle certaine de l'épée.",
+      "descriptionCarteProposee": "Excalibur — épée liée au destin de Wyatt. Un autre détenteur peut la déplacer, mais sa puissance peut consumer celui qui ne peut la maîtriser.",
+      "sources": [
+        "T0608"
+      ],
+      "episodesReperes": [
+        "S06E08"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:025",
+        "integre": null
+      },
+      "provenanceAjustements": "Précise le statut de Piper et sépare l'ambition de Mordaunt d'une capacité anti-bouclier démontrée.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:008",
+      "categorie": "objets",
+      "titre": "Baguette de Tuatha",
+      "canon": "Baguette liée à Tuatha et à Kyle Gwydion, l'Élu ; Tuatha est une sorcière maléfique, pas une espèce de démon. [T0206]",
+      "fonctionnement": "Kyle la fait agir par sa volonté. L'apprentissage implique confiance et, pour l'affrontement, prise à deux mains selon Leo. [T0206]",
+      "conditionsActivationEtPortee": "La volonté n'est pas un permis de réaliser tout souhait avec tout utilisateur. La prétendue potion de courage n'existe pas : les sœurs l'ont inventée pour l'encourager. [T0206]",
+      "contreMoyensEtVariantes": "Après la victoire, la baguette est brisée ; la fiche secondaire précise l'ambre cassé et la perte de magie. Un objet encore matériellement présent n'est donc pas nécessairement fonctionnel. [T0206, FTUATHA]",
+      "limitesEtIncertitudes": "La nécessité des deux mains hors combat n'est pas universelle : Kyle l'avait fait tourner autrement. Réparation et recharge non établies.",
+      "descriptionCarteProposee": "Baguette canalisant la volonté, liée à Tuatha et à l'Élu. Sa version brisée ne possède plus la magie de l'objet intact.",
+      "sources": [
+        "T0206",
+        "FTUATHA"
+      ],
+      "episodesReperes": [
+        "S02E06"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:022",
+        "integre": null
+      },
+      "provenanceAjustements": "Ajoute les gestes d'entraînement et la fausse potion ; conserve distincts réplique sur la casse et précision secondaire sur l'ambre.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:009",
+      "categorie": "objets",
+      "titre": "Lame du Dragon — âme capturée et corps d'accueil",
+      "canon": "Lame capable de capturer une âme ; l'effet ne se réduit pas à la blessure corporelle. [FDRAGON]",
+      "fonctionnement": "Yen-Lo capture l'âme de Piper alors qu'elle occupe le corps du Maître. Paige extrait cette âme et la replace d'abord dans le corps du Maître ; l'échange précédent doit rester suivi. [FDRAGON]",
+      "conditionsActivationEtPortee": "Corps, âme et arme sont trois éléments distincts. La télékinésie orbitale appartient à Paige ; Phoebe utilise ensuite la lame contre Yen-Lo. [FDRAGON]",
+      "contreMoyensEtVariantes": "L'âme retenue peut être récupérée dans la scène ; sa capture n'est pas une destruction irréversible établie. Aucun effacement d'âme comparable à l'Ancient Athame ajouté.",
+      "limitesEtIncertitudes": "CORRECTION proposée : le résumé de pouvoirs de la page d'épisode dit 'dans le corps de Piper', alors que les didascalies décrivent le corps du Maître à ce moment. Vérification vidéo prioritaire. [FDRAGON, FDRAGON-E]",
+      "descriptionCarteProposee": "Lame magique capable de retirer et de retenir une âme, indépendamment du corps qu'elle occupait.",
+      "sources": [
+        "FDRAGON",
+        "FDRAGON-E"
+      ],
+      "episodesReperes": [
+        "S04E04"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:026",
+        "integre": null
+      },
+      "provenanceAjustements": "Nuance importante du catalogue 026 : conserver l'âme et le corps corrects à chaque étape, sans fusionner extraction et échange final.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:010",
+      "categorie": "objets",
+      "titre": "Épée de cristal de Gabriel",
+      "canon": "Arme du Seigneur de la guerre Gabriel Statler ; les propriétés de son lien à l'épée ne deviennent pas celles de tout épéiste. [T0116]",
+      "fonctionnement": "Le Livre décrit son immunité aux armes humaines tant qu'il dispose de son épée. Celle-ci peut absorber une âme. [T0116]",
+      "conditionsActivationEtPortee": "La condition 'tant qu'il a son épée' est essentielle ; l'exploit passé de Brianna établit une séparation possible, sans en fournir un mode d'emploi universel.",
+      "contreMoyensEtVariantes": "Sa propre lame peut le blesser, contrairement aux armes humaines évoquées. L'invulnérabilité annoncée est donc limitée par la catégorie d'arme. [T0116]",
+      "limitesEtIncertitudes": "La capacité d'appeler l'épée, les limites du lien à un autre porteur et le sort détaillé des âmes réclament une revue complémentaire. Ni arme anti-tout ni protection transmissible garantie.",
+      "descriptionCarteProposee": "Épée de cristal liée à Gabriel, capable d'absorber des âmes et associée à sa protection contre les armes humaines.",
+      "sources": [
+        "T0116"
+      ],
+      "episodesReperes": [
+        "S01E16"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:027",
+        "integre": null
+      },
+      "provenanceAjustements": "Renforce la lecture conditionnelle de la protection et le contre-exemple de l'arme elle-même, déjà signalés en 027.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:011",
+      "categorie": "objets",
+      "titre": "Athamé enchanté de Gideon",
+      "canon": "Lame liée à la tentative de Gideon contre Wyatt, distincte de celle de Witch Wars.",
+      "fonctionnement": "Le dialogue indique le bouclier de Wyatt déjà percé. Gideon propose encore que Barbas bénisse l'athamé ; le moyen peut donc être renforcé au cours de l'intrigue. [T0623]",
+      "conditionsActivationEtPortee": "Ne pas confondre percée d'une protection donnée et pénétration de toute barrière. Une bénédiction proposée n'est pas, par elle-même, une propriété permanente démontrée.",
+      "contreMoyensEtVariantes": "Chris explique que la magie de Gideon cause sa blessure et que Gideon seul peut l'arrêter dans cette scène : ne pas garantir une guérison ordinaire immédiate. [T0623]",
+      "limitesEtIncertitudes": "Procédure de préparation et cause complète de l'effet sur Chris non auditées. Ne pas attribuer collecte de pouvoirs ou effacement des âmes à cette lame.",
+      "descriptionCarteProposee": "Lame enchantée liée au plan de Gideon contre la protection de Wyatt ; ses blessures peuvent comporter un effet magique particulier.",
+      "sources": [
+        "T0623"
+      ],
+      "episodesReperes": [
+        "S06E23"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:030",
+        "integre": null
+      },
+      "provenanceAjustements": "Ajoute la bénédiction complémentaire envisagée et la distinction blessure/magie ; garde les capacités précises à leur période.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:012",
+      "categorie": "objets",
+      "titre": "Amulettes jumelles de Leeza et Janna",
+      "canon": "Deux moitiés d'un charme protecteur, confiées séparément à des sorcières. [T0320]",
+      "fonctionnement": "Une moitié protège déjà mais Balthazar la prend à Leeza. Leo annonce une protection supérieure pour la réunion ; une formule est encore nécessaire à l'activation de l'ensemble. [T0320]",
+      "conditionsActivationEtPortee": "Leo précise que le charme ne protège pas un être maléfique. Détenir une moitié, réunir les deux et accomplir le rite ne sont pas des états équivalents. [T0320]",
+      "contreMoyensEtVariantes": "L'invincibilité annoncée n'est pas vérifiée contre tous les moyens. Le soupçon selon lequel Cole voudrait devenir humain pour s'en servir reste une accusation, pas la preuve de son intention. [T0320]",
+      "limitesEtIncertitudes": "Ne pas traduire 'maîtriser sa moitié démoniaque' par éligibilité certaine. Condition morale énoncée, retrait de pouvoirs et nature hybride demandent une appréciation séparée.",
+      "descriptionCarteProposee": "Deux amulettes complémentaires de protection, renforcées lorsqu'elles sont réunies et activées ; le charme est décrit comme ne protégeant pas le Mal.",
+      "sources": [
+        "T0320"
+      ],
+      "episodesReperes": [
+        "S03E20"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:012",
+        "integre": null
+      },
+      "provenanceAjustements": "Ajoute une restriction importante absente de la formulation courte 012 et relie explicitement l'objet au cas Cole sans valider les soupçons des sœurs.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:013",
+      "categorie": "objets",
+      "titre": "Bague d'immunité de Nicholas",
+      "canon": "Anneau enchanté sous la contrainte par Patty, destiné à protéger Nicholas contre les pouvoirs des sœurs. [T0117]",
+      "fonctionnement": "Nicholas revendique l'immunité procurée par cette bénédiction. Le pouvoir vient de l'enchantement de cet anneau, pas de toutes les bagues portées par un warlock. [T0117]",
+      "conditionsActivationEtPortee": "La cible de l'immunité est déterminée par le pacte de l'épisode ; ne pas élargir à toute magie et à toute arme.",
+      "contreMoyensEtVariantes": "Patty retire la bénédiction dans le passé. Au retour, les sœurs peuvent affronter Nicholas sans cette protection. Il s'agit d'un changement d'état magique, pas simplement d'une bague détruite. [T0117]",
+      "limitesEtIncertitudes": "Gestes exacts de retrait non établis ; on ne déduit pas que n'importe qui peut désenchanter n'importe quel objet. Le voyage temporel vient d'un autre moyen.",
+      "descriptionCarteProposee": "Bague enchantée pour protéger Nicholas contre les pouvoirs des Halliwell ; cette protection dépend de la bénédiction qui lui a été donnée.",
+      "sources": [
+        "T0117"
+      ],
+      "episodesReperes": [
+        "S01E17"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:010",
+        "integre": null
+      },
+      "provenanceAjustements": "Précise les bénéficiaires/cibles et le retrait d'enchantement ; améliore le repérage du contre-moyen de la fiche 010.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:014",
+      "categorie": "objets",
+      "titre": "Boîte de Pandore",
+      "canon": "Contient des maux surnaturels et passe de Nina à Hope après la mort de la gardienne précédente. [T0718]",
+      "fonctionnement": "Katya doit contraindre Hope à l'ouvrir ; elle veut ensuite supprimer celle qui peut rappeler son contenu. Le détenteur matériel ne possède donc pas nécessairement les prérogatives de la gardienne. [T0718]",
+      "conditionsActivationEtPortee": "Le retour des maux dépend de Hope dans ce récit. Les affirmations de Katya sur l'absence d'une prochaine gardienne sont des propos intéressés, pas une règle démographique universelle.",
+      "contreMoyensEtVariantes": "Hope réussit à rappeler les maux après avoir été encouragée à croire en elle. La mort de Katya seule ne referme pas causalement tout le problème. [T0718]",
+      "limitesEtIncertitudes": "Aucun rythme de diffusion, rayon d'effet ou indestructibilité absolue vérifiés. La mythologie adaptée dans Charmed n'est pas une source de mécanismes supplémentaires.",
+      "descriptionCarteProposee": "Boîte contenant des maux surnaturels, confiée à une gardienne dont le rôle comprend leur confinement et leur rappel.",
+      "sources": [
+        "T0718"
+      ],
+      "episodesReperes": [
+        "S07E18"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:035",
+        "integre": null
+      },
+      "provenanceAjustements": "Renforce la séparation détention/gardiennage et la causalité du reconfinement, à partir du dialogue consulté.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:015",
+      "categorie": "objets",
+      "titre": "Urne des pouvoirs divins",
+      "canon": "Réceptacle de puissances divines mobilisées lors de la menace des Titans. [FURN]",
+      "fonctionnement": "Leo libère la puissance pour transformer les sœurs ; il récupère ensuite celle de Phoebe et Paige. Piper connaît une sortie différente, liée à sa douleur. [FURN, T0522]",
+      "conditionsActivationEtPortee": "La réserve, l'intermédiaire et les bénéficiaires sont distincts. Rien n'établit une production infinie ou un transfert garanti par simple contact avec la céramique.",
+      "contreMoyensEtVariantes": "La perte d'humanité est un risque explicite de ces transformations. Le retour de Piper ne doit pas être raconté comme une application identique à celle de ses deux sœurs. [T0522, FURN]",
+      "limitesEtIncertitudes": "Les gestes exacts ne sont pas reconstruits ; la transcription S05E22 regroupe les deux parties. La fiche de l'urne est encore un extrait secondaire, pas une observation vidéo.",
+      "descriptionCarteProposee": "Urne contenant des puissances divines qui peuvent être transférées et reprises dans un rituel ; leurs effets dépassent la seule puissance offensive.",
+      "sources": [
+        "FURN",
+        "T0522"
+      ],
+      "episodesReperes": [
+        "S05E22",
+        "S05E23"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:040",
+        "integre": null
+      },
+      "provenanceAjustements": "Nuance le catalogue 040, trop global sur la reprise des pouvoirs par Leo : conserver le cas distinct de Piper.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:016",
+      "categorie": "objets",
+      "titre": "Cristaux Ronyx",
+      "canon": "Dispositifs d'observation et de projection exploités par l'émission démoniaque Witch Wars.",
+      "fonctionnement": "La source distingue les cristaux noirs d'observation des rouges de projection. Gideon accompagne secrètement la récitation de Phoebe d'un geste d'activation. [FRONYX, FWITCH]",
+      "conditionsActivationEtPortee": "Réseau, dispositif observateur et récepteur doivent être identifiés. La scène ne prouve pas que la formule seule fonctionne.",
+      "contreMoyensEtVariantes": "Le récit d'ancienneté vient de Gideon, acteur de la tromperie. Le reprendre comme histoire certaine effacerait cette réserve. [FRONYX]",
+      "limitesEtIncertitudes": "Enregistrement mentionné par la fiche secondaire, mais capacités de stockage, lecture différée, portée et franchissement des protections non audités. Pas de surveillance omnisciente du monde.",
+      "descriptionCarteProposee": "Cristaux employés pour observer et projeter des images, notamment dans un réseau de surveillance magique.",
+      "sources": [
+        "FRONYX",
+        "FWITCH"
+      ],
+      "episodesReperes": [
+        "S06E21"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:051",
+        "integre": null
+      },
+      "provenanceAjustements": "Relecture directe de la didascalie déjà mentionnée en 051 ; ne pas promouvoir la prétendue formule en recette prouvée.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:017",
+      "categorie": "objets",
+      "titre": "Maison de poupées Halliwell",
+      "canon": "Réplique du manoir servant de support à des situations de miniaturisation différentes.",
+      "fonctionnement": "S7 : Wyatt réduit ses parents ; ils interprètent son geste comme une protection. S8 : un démon enferme les sœurs dans la réplique. [T0717, FREPO-E]",
+      "conditionsActivationEtPortee": "Le support n'accomplit pas seul toutes les opérations. Utilisateur, réduction, confinement et éventuel détournement des pouvoirs doivent être identifiés séparément.",
+      "contreMoyensEtVariantes": "La communication extérieure reste possible en S8 : Billie reçoit un message sur la planchette. Captivité n'implique donc pas absence de tout canal. [FREPO]",
+      "limitesEtIncertitudes": "Pas de capacité native universelle de réduction ni d'interdiction absolue de sortie déduite. La destruction finale et le transfert de pouvoirs en S8 doivent être revus avant prescription d'un contre-moyen.",
+      "descriptionCarteProposee": "Réplique du manoir pouvant servir d'espace miniature de protection ou de captivité lorsqu'une magie appropriée y est appliquée.",
+      "sources": [
+        "T0717",
+        "FREPO",
+        "FREPO-E"
+      ],
+      "episodesReperes": [
+        "S07E17",
+        "S08E13"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:041",
+        "integre": null
+      },
+      "provenanceAjustements": "Sépare clairement deux usages et conserve l'exception de communication ; ne revendique pas une nouvelle identification.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    },
+    {
+      "id": "objets-s1-s8:018",
+      "categorie": "objets",
+      "titre": "Ceinture de Gaïa / d'Hippolyte",
+      "canon": "Ceinture dorée de Gaïa, donnée à Hippolyte selon le dialogue. Les deux noms renvoient ici au même objet. [T0808]",
+      "fonctionnement": "Elle transforme Billie, lui permet de rendre Leo invisible puis visible et influence son comportement ainsi que son entourage. [T0808]",
+      "conditionsActivationEtPortee": "Son port ne garantit pas la maîtrise. Sollal avertit Zira qu'elle serait détruite en la portant parce qu'elle est maléfique ; manipuler la porteuse est une autre opération. [T0808]",
+      "contreMoyensEtVariantes": "Le retrait combine l'intervention de Leo, une formule et l'action de Paige. Ce concours ne devient pas une méthode universelle de désenchantement. [T0808]",
+      "limitesEtIncertitudes": "Pas d'invincibilité absolue ou de portée chiffrée extrapolées. Le catalogue 049 rapporte aussi la destruction de Zira : le geste final mérite une revue vidéo. Les propos sur hommes/femmes restent fictionnels.",
+      "descriptionCarteProposee": "Ceinture conférant une grande puissance et une influence croissante sur sa porteuse ; elle est décrite comme dangereuse à porter pour un être maléfique.",
+      "sources": [
+        "T0808"
+      ],
+      "episodesReperes": [
+        "S08E08"
+      ],
+      "ficheExistante": {
+        "contribution": "Charmed/contributions/objets-magiques/objets.proposition.json#objets-magiques:049",
+        "integre": null
+      },
+      "provenanceAjustements": "Ajoute manifestations et retrait ; précise les variantes de nom et évite de transformer la rhétorique de l'épisode en règle générale.",
+      "observations": [],
+      "conditionsPourLeJeu": "Proposition documentaire : identifier exemplaire, détenteur, état, période et moyens effectivement présents. Aucun effet garanti par le seul nom de la ressource.",
+      "applicationProposee": "Connaissance de contexte à examiner pour l'Ange ; aucune distribution ni activation automatique.",
+      "statutProposition": "approfondissement_a_revoir",
+      "verification": "recherche_partielle_sans_visionnage",
+      "activation": "non_active_recherche",
+      "exactRecipe": null
+    }
+  ]
+}

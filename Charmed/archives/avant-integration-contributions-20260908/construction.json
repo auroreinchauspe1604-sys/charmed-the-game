@@ -1,0 +1,620 @@
+{
+  "version": 1,
+  "universe": "charmed-tv-1998",
+  "status": "working_reference",
+  "sources": [
+    {
+      "id": "p3",
+      "url": "https://charmed.fandom.com/wiki/P3",
+      "scope": "P3 ouvert par Piper à partir de la saison 2 ; exclure la suite en comics.",
+      "level": "secondary_search_excerpt"
+    },
+    {
+      "id": "school",
+      "url": "https://charmed.fandom.com/wiki/Magic_School",
+      "scope": "Lieu séparé, accès par portails soumis à autorisation ; périodes à préciser.",
+      "level": "secondary_search_excerpt"
+    },
+    {
+      "id": "mirror",
+      "url": "https://charmed.fandom.com/wiki/The_Bay_Mirror",
+      "scope": "Journal de San Francisco ; accès professionnel ne vaut pas accès à toutes les archives.",
+      "level": "secondary_search_excerpt"
+    },
+    {
+      "id": "phoebe-work",
+      "url": "https://fr.wikipedia.org/wiki/Phoebe_Halliwell",
+      "scope": "Travail au Bay Mirror de la saison 4 à la saison 8.",
+      "level": "secondary_search_excerpt"
+    },
+    {
+      "id": "magic-died",
+      "url": "https://charmed.fandom.com/wiki/The_Day_the_Magic_Died",
+      "scope": "Disparition temporaire de la magie autour de la naissance de Wyatt.",
+      "level": "secondary_search_excerpt"
+    },
+    {
+      "id": "summon-dead",
+      "url": "https://charmed.fandom.com/wiki/To_Summon_the_Dead",
+      "scope": "Invocation d'un esprit pour enquêter ; sans garantie de réponse ni résurrection.",
+      "level": "secondary_search_excerpt"
+    },
+    {
+      "id": "blue-moon",
+      "url": "https://charmed.fandom.com/wiki/Once_in_a_Blue_Moon/Plot",
+      "scope": "Transformation des sœurs dans le contexte de la lune bleue.",
+      "level": "secondary_search_excerpt"
+    }
+  ],
+  "entries": [
+    {
+      "id": "manor",
+      "kind": "place",
+      "title": "Manoir Halliwell",
+      "claim": "Lieu familial avec grenier et sous-sol ; le Nexus et le Livre ont leurs propres conditions.",
+      "sources": [
+        "magic:manor-nexus",
+        "magic:book"
+      ],
+      "minSeason": 1,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Accès au bâtiment",
+        "Accès à la pièce concernée",
+        "Présence et concours des occupants"
+      ],
+      "limit": "Être au manoir ne donne pas automatiquement accès au Livre ou au Nexus.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "attic",
+      "kind": "place",
+      "title": "Grenier du manoir",
+      "claim": "Le Livre des Ombres est habituellement conservé dans le grenier.",
+      "sources": [
+        "magic:book"
+      ],
+      "minSeason": 1,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Accès au grenier",
+        "Livre effectivement présent"
+      ],
+      "limit": "Le contenu d'une page n'est connu qu'après lecture ou transmission.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "p3",
+      "kind": "place",
+      "title": "P3",
+      "claim": "Club de Piper ; contexte professionnel et lieu de rencontres.",
+      "sources": [
+        "p3"
+      ],
+      "minSeason": 2,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Époque où le club existe",
+        "Horaire et accès définis dans le scénario"
+      ],
+      "limit": "Ni sanctuaire inviolable ni disponibilité permanente de Piper.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "bay-mirror",
+      "kind": "place",
+      "title": "Bay Mirror",
+      "claim": "Journal de San Francisco ; Phoebe y travaille à partir de la saison 4.",
+      "sources": [
+        "mirror",
+        "phoebe-work"
+      ],
+      "minSeason": 4,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Relation professionnelle à la date retenue",
+        "Accès au document ou à l'interlocuteur"
+      ],
+      "limit": "Élise Rothman n'est pas Élise Moreau, innocente inventée de la partie initiale.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "magic-school",
+      "kind": "place",
+      "title": "École de magie",
+      "claim": "Lieu dans un autre espace, accessible par des portails sous conditions.",
+      "sources": [
+        "school"
+      ],
+      "minSeason": 6,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Accès autorisé",
+        "Portail ou moyen de transport établi",
+        "Direction et situation de l'école à la date choisie"
+      ],
+      "limit": "La saison 6 est un repère de découverte par les sœurs, pas une date de création de l'école.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "book",
+      "kind": "object",
+      "title": "Livre des Ombres",
+      "claim": "Support de connaissances, formules et potions hérité de la lignée.",
+      "sources": [
+        "magic:book"
+      ],
+      "minSeason": 1,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Accès au Livre",
+        "Entrée pertinente existante",
+        "Lecture ou transmission"
+      ],
+      "limit": "La possession ne réalise pas le sort et le Livre ne disparaît pas matériellement après consultation.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "crystals",
+      "kind": "object",
+      "title": "Cristaux de cage",
+      "claim": "Cristaux enchantés employés dans un dispositif de confinement.",
+      "sources": [
+        "magic:crystals"
+      ],
+      "minSeason": 4,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Ensemble nécessaire",
+        "Disposition et enchantement",
+        "Cible dans la zone du piège"
+      ],
+      "limit": "Une cage n'est ni une localisation ni une destruction.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "scrying-crystal",
+      "kind": "object",
+      "title": "Cristal de localisation",
+      "claim": "Cristal utilisé avec une carte dans une méthode de recherche.",
+      "sources": [
+        "magic:scry"
+      ],
+      "minSeason": 7,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Moyen de localisation connu du pratiquant",
+        "Support adapté",
+        "Lien à la cible à justifier"
+      ],
+      "limit": "Le repère S07E17 prouve un usage, pas une première apparition ; rechercher les usages antérieurs si nécessaires.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "cupid-ring",
+      "kind": "object",
+      "title": "Bague de Cupidon",
+      "claim": "Artefact dont les usages dépendent du Cupidon et de la période.",
+      "sources": [
+        "magic:cupid-ring",
+        "magic:coop-finale"
+      ],
+      "minSeason": 2,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Bague présente",
+        "Utilisateur et usage autorisés",
+        "Mécanisme approprié"
+      ],
+      "limit": "Le voyage temporel observé avec Coop ne devient pas une fonction disponible pour tous dès S02.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "darklighter-crossbow",
+      "kind": "object",
+      "title": "Arbalète d'Être des ténèbres",
+      "claim": "Arme dont les projectiles empoisonnés menacent notamment les Êtres de lumière.",
+      "sources": [
+        "magic:darklighters"
+      ],
+      "minSeason": 1,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Arme",
+        "Projectile approprié",
+        "Tir atteignant réellement la cible"
+      ],
+      "limit": "Arme, poison, blessure et conséquence sont quatre faits distincts.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "belthazor-potion",
+      "kind": "method",
+      "title": "Préparation contre Balthazar",
+      "claim": "La méthode documentée exige un fragment de chair de la cible.",
+      "sources": [
+        "magic:belthazor"
+      ],
+      "minSeason": 3,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Identifier la bonne incarnation",
+        "Obtenir le fragment",
+        "Établir le reste de la recette",
+        "Préparer et appliquer"
+      ],
+      "limit": "Recette partielle ; pas de liste complète d'ingrédients inventée.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "power-stripping",
+      "kind": "method",
+      "title": "Retrait de pouvoirs",
+      "claim": "Black as Cole montre une potion retirant la part démoniaque de Cole.",
+      "sources": [
+        "magic:cole-human"
+      ],
+      "minSeason": 4,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Cible et pouvoirs concernés",
+        "Recette et préparation vérifiées",
+        "Application"
+      ],
+      "limit": "Ce précédent ne garantit ni destruction ni retrait de toute magie chez toute créature.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "summon-spirit",
+      "kind": "method",
+      "title": "Invocation d'un esprit",
+      "claim": "Une invocation peut servir à solliciter un mort pour une enquête.",
+      "sources": [
+        "summon-dead"
+      ],
+      "minSeason": 1,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Identité de l'esprit",
+        "Procédé documenté",
+        "Conditions de manifestation"
+      ],
+      "limit": "Un esprit invoqué n'est ni ressuscité ni obligé de savoir ou répondre ; épisode exact à recouper.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "healing-transfer",
+      "kind": "method",
+      "title": "Guérison après échange",
+      "claim": "Piper sauve Leo après un échange de pouvoirs dans Love Hurts.",
+      "sources": [
+        "magic:love-hurts-heal"
+      ],
+      "minSeason": 1,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Échange effectivement réalisé",
+        "Capacité de guérir disponible",
+        "Déclenchement et victime compatibles"
+      ],
+      "limit": "Le sauvetage n'accorde pas à Piper un pouvoir permanent de guérison.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "woogy-banish",
+      "kind": "method",
+      "title": "Bannissement du Woogyman",
+      "claim": "Phoebe retrouve la formule apprise auprès de Penny.",
+      "sources": [
+        "magic:woogy"
+      ],
+      "minSeason": 1,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Formule connue ou retrouvée",
+        "Cible pertinente",
+        "Exécution dans les conditions adéquates"
+      ],
+      "limit": "Bannir n'est pas prouver une destruction définitive.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "magic-outage",
+      "kind": "event",
+      "title": "Disparition temporaire de la magie",
+      "claim": "Événement de The Day the Magic Died autour de la naissance de Wyatt.",
+      "sources": [
+        "magic-died"
+      ],
+      "minSeason": 5,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Situation de l'épisode ou mécanisme canonique justifié"
+      ],
+      "limit": "Ne pas créer au hasard une nouvelle panne universelle en prétendant reproduire une règle générale.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "blue-moon",
+      "kind": "event",
+      "title": "Lune bleue",
+      "claim": "Dans Once in a Blue Moon, les sœurs sont transformées en créatures.",
+      "sources": [
+        "blue-moon"
+      ],
+      "minSeason": 7,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Contexte de transformation établi"
+      ],
+      "limit": "Toute pleine lune ne produit pas ce résultat.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "equinox",
+      "kind": "event",
+      "title": "Équinoxe d'automne",
+      "claim": "Witch Trial se déroule autour de l'équinoxe et de l'action d'Abraxas.",
+      "sources": [
+        "magic:itv-abraxas",
+        "magic:abraxas"
+      ],
+      "minSeason": 2,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Date et effet précis vérifiés séparément"
+      ],
+      "limit": "Le repère saisonnier reste à recouper ; aucun bonus chiffré ou pouvoir gratuit n'en découle.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "possession",
+      "kind": "alteration",
+      "title": "Possession",
+      "claim": "L'hôte et l'influence qui agit sur lui doivent rester distincts.",
+      "sources": [
+        "magic:source",
+        "magic:woogy"
+      ],
+      "minSeason": 1,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Agent",
+        "Accès à l'hôte",
+        "Effet documenté",
+        "Conditions de levée"
+      ],
+      "limit": "Posséder une cible ne prouve pas la connaissance de tous ses secrets ou tous ses pouvoirs.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "fury",
+      "kind": "alteration",
+      "title": "Transformation en Furie",
+      "claim": "La fumée exploite la colère refoulée de Piper.",
+      "sources": [
+        "magic:furies",
+        "magic:furies-analysis"
+      ],
+      "minSeason": 4,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Exposition",
+        "État émotionnel pertinent",
+        "Transformation constatée"
+      ],
+      "limit": "Séparer émotion, exposition, transformation et sauvetage.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "banshee",
+      "kind": "alteration",
+      "title": "Transformation en Banshee",
+      "claim": "Phoebe est transformée dans une situation de souffrance.",
+      "sources": [
+        "magic:banshee",
+        "magic:banshee-reversal"
+      ],
+      "minSeason": 3,
+      "status": "documented_partial",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Mécanisme d'exposition",
+        "Souffrance contextualisée",
+        "Transformation constatée"
+      ],
+      "limit": "La souffrance seule n'autorise pas le système à transformer un personnage.",
+      "recipe": null,
+      "proofAuthority": "background_only",
+      "unknowns": [
+        "Modalités complètes à vérifier avant un effet magique non déjà établi."
+      ]
+    },
+    {
+      "id": "document",
+      "kind": "information",
+      "title": "Document et lecture",
+      "claim": "Une ressource documentaire peut fournir un contenu exploité par une clé.",
+      "sources": [],
+      "minSeason": 1,
+      "status": "game_rule",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Document accessible",
+        "Lecteur et moyens nécessaires",
+        "Contenu préexistant fixé"
+      ],
+      "limit": "La suppression de la carte-document selon la règle de jeu n'est pas nécessairement la destruction physique du livre canonique.",
+      "recipe": null,
+      "proofAuthority": "gameplay",
+      "unknowns": []
+    },
+    {
+      "id": "testimony",
+      "kind": "information",
+      "title": "Témoignage",
+      "claim": "Une déclaration atteste d'abord ce que le témoin dit et sait.",
+      "sources": [],
+      "minSeason": 1,
+      "status": "game_rule",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Témoin accessible",
+        "Possibilité de communiquer",
+        "Origine de sa connaissance"
+      ],
+      "limit": "Témoigner ne garantit ni sincérité ni exactitude.",
+      "recipe": null,
+      "proofAuthority": "gameplay",
+      "unknowns": []
+    },
+    {
+      "id": "vision",
+      "kind": "information",
+      "title": "Vision et interprétation",
+      "claim": "La vision initiale du scénario fournit des fragments fixes d'un futur évitable.",
+      "sources": [],
+      "minSeason": 1,
+      "status": "game_rule",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Vision effectivement reçue",
+        "Contenu enregistré",
+        "Interprétation confrontée à des indices"
+      ],
+      "limit": "La vision ne doit pas être réécrite rétroactivement pour suivre l'idée du joueur.",
+      "recipe": null,
+      "proofAuthority": "gameplay",
+      "unknowns": []
+    },
+    {
+      "id": "observation",
+      "kind": "information",
+      "title": "Observation",
+      "claim": "Un fait constaté peut devenir une preuve pertinente pour un état.",
+      "sources": [],
+      "minSeason": 1,
+      "status": "game_rule",
+      "dateMeaning": "Période de référence prudente pour ce contexte ; pas date universelle d'apparition.",
+      "requirements": [
+        "Observateur",
+        "Présence ou moyen de perception",
+        "Portée et moment"
+      ],
+      "limit": "Observer une entrée ne permet pas de surveiller toute la ville.",
+      "recipe": null,
+      "proofAuthority": "gameplay",
+      "unknowns": []
+    }
+  ],
+  "preparationPolicy": {
+    "period": "Fixer saison et épisode, et préciser avant/pendant/après. Si l'insertion est large, ne pas inventer une précision.",
+    "original": "Déclarer les inventions et préserver les propriétés des éléments canoniques.",
+    "adaptation": "Séparer point de départ canonique, connaissances initiales et événements modifiés par le jeu. L'étendue des issues alternatives reste à valider.",
+    "calendar": "Prévoir événements publics et conséquences privées ; une publication peut distribuer un document sans révéler son contenu.",
+    "information": "Écrire les contenus avant la partie. Un secret ne devient connu qu'avec un accès justifié.",
+    "balance": "Construire au moins deux chemins de conception par camp ; compter poses, création de sous-états et préparation des attaques. Ne pas imposer ces chemins au joueur.",
+    "roots": "Objectifs = affirmations exigeantes, initialement vraies ou fausses. Toutes leurs conditions doivent être vraies pour gagner.",
+    "integration": "Corpus de fond ; ne pas convertir un manque documentaire en recette inventée."
+  }
+}

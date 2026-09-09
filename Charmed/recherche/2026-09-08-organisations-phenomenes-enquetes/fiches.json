@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "universe": "charmed-tv-1998",
+  "status": "recherche_separee_non_active",
+  "date": "2026-09-08",
+  "portee": "16 fiches dans quatre catégories supplémentaires. Certaines précisent des notions déjà présentes : elles ne sont pas toutes entièrement nouvelles.",
+  "preuve": "Les 16 fiches reposent sur des extraits indexés. Les ouvertures de plusieurs pages et transcriptions ont échoué. Aucun épisode visionné, aucune transcription intégrale certifiée. Les repères d’épisodes ne prouvent pas à eux seuls les mécanismes.",
+  "exclusions": [
+    "reboot 2018",
+    "comics",
+    "romans",
+    "fanfiction",
+    "théories de fans non attestées"
+  ],
+  "fiches": [
+    {
+      "id": "org-nettoyeurs",
+      "categorie": "organisations",
+      "titre": "Les Nettoyeurs",
+      "canon": "Dans Forget Me...Not, les Nettoyeurs effacent les traces de l’existence de Wyatt après une exposition de la magie.",
+      "episodesReperes": [
+        "S06E03"
+      ],
+      "conditionsPourLeJeu": "Identifier l’exposition, les témoins et la période. Leur intervention ne découle pas automatiquement de toute utilisation de magie.",
+      "limitesEtIncertitudes": "Leur apparition en saison 6 ne fournit pas une explication certaine de leur absence lors de crises antérieures. Ne pas inventer une règle rétroactive.",
+      "applicationProposee": "Une intrigue inédite peut porter sur la conservation d’une preuve ou la réparation d’une exposition, sans permettre au joueur d’effacer gratuitement ses erreurs.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Forget_Me...Not",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "org-tribunal",
+      "categorie": "organisations",
+      "titre": "Le Tribunal",
+      "canon": "Le Tribunal réunit des Fondateurs et des démons pour préserver le secret de la magie ; Barbas intervient contre les sœurs dans Crimes and Witch-Demeanors.",
+      "episodesReperes": [
+        "S06E19"
+      ],
+      "conditionsPourLeJeu": "Préciser le litige et les preuves accessibles aux intervenants, plutôt que supposer une connaissance complète des faits.",
+      "limitesEtIncertitudes": "Exclure le nouveau Tribunal, les Old Ones et les événements ultérieurs des comics. Ne pas confondre ce conseil avec l’Ange du destin qui arbitre notre interface.",
+      "applicationProposee": "Préparer une défense, retrouver un témoin ou réfuter une accusation peut fournir plusieurs sous-états utiles.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/The_Tribunal",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "org-confrerie",
+      "categorie": "organisations",
+      "titre": "Confrérie de l’Épine — Brotherhood of the Thorn",
+      "canon": "Cole a appartenu à cette société de démons de haut niveau. Lors de son infiltration, Vornac fait contrôler son récit par Klea.",
+      "episodesReperes": [
+        "S03E19"
+      ],
+      "conditionsPourLeJeu": "Distinguer ancien membre, infiltré accepté et membre actuellement digne de confiance aux yeux du groupe.",
+      "limitesEtIncertitudes": "Le titre français est un intitulé de travail ; le doublage reste à contrôler. L’appartenance passée ne garantit pas l’accès présent.",
+      "applicationProposee": "Une couverture peut être testée par l’adversaire. Une clé d’accès ne valide pas automatiquement un sous-état de confiance durable.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/The_Demon_Who_Came_in_from_the_Cold/Plot",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "org-avatars",
+      "categorie": "organisations",
+      "titre": "Les Avatars et leur projet",
+      "canon": "Les Avatars proposent un monde sans conflit et modifient la manière de penser pour faire accepter Utopia.",
+      "episodesReperes": [
+        "S07E13"
+      ],
+      "conditionsPourLeJeu": "Fixer la période, l’adhésion réelle des personnes et ce qu’elles savent du prix de ce projet.",
+      "limitesEtIncertitudes": "Ne pas assimiler absence de conflit, libre consentement et bien-être démontré. Aucun pouvoir d’Avatar n’est donné à un personnage par sa simple sympathie pour le projet.",
+      "applicationProposee": "Une partie peut opposer stabilité apparente et préservation du libre arbitre, avec des affirmations finales distinctes.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Avatars",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "phen-magie-dormante",
+      "categorie": "phenomenes",
+      "titre": "Disparition temporaire de la magie",
+      "canon": "The Day the Magic Died relie l’interruption de la magie à la prophétie entourant la naissance de l’enfant doublement béni.",
+      "episodesReperes": [
+        "S05E15"
+      ],
+      "conditionsPourLeJeu": "Utiliser le contexte de l’épisode ou établir explicitement une autre cause compatible ; examiner les moyens non magiques disponibles.",
+      "limitesEtIncertitudes": "Ne pas transformer toute naissance, panne électrique ou date du calendrier en arrêt de la magie. Les exceptions éventuelles exigent un contrôle de l’épisode.",
+      "applicationProposee": "Événement pouvant affecter les deux camps ; les plans dépendant de la magie doivent être réévalués, sans supprimer arbitrairement les faits déjà établis.",
+      "source": {
+        "url": "https://www.imdb.com/title/tt0539444/",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "phen-lune-bleue",
+      "categorie": "phenomenes",
+      "titre": "Lune bleue",
+      "canon": "Once in a Blue Moon associe un événement lunaire particulier à une transformation des sœurs en créatures bestiales.",
+      "episodesReperes": [
+        "S07E06"
+      ],
+      "conditionsPourLeJeu": "Vérifier la configuration lunaire et les personnages concernés avant de l’utiliser dans le calendrier.",
+      "limitesEtIncertitudes": "Ne pas appliquer cette transformation à chaque pleine lune ni à toutes les sorcières. Le calcul exact du cycle reste à vérifier dans les dialogues.",
+      "applicationProposee": "Le calendrier peut annoncer le phénomène ; ses effets précis nécessitent un mécanisme préparé, pas une improvisation au moment de résoudre une attaque.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Blue_Moon",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "phen-halloween",
+      "categorie": "phenomenes",
+      "titre": "Halloween et pratiques anciennes",
+      "canon": "Dans All Halliwell’s Eve, Eva explique que les démons circulent cette nuit-là et que le masque permet de dissimuler son identité ; les pratiques exigent connaissance et respect.",
+      "episodesReperes": [
+        "S03E04"
+      ],
+      "conditionsPourLeJeu": "Distinguer les pratiques montrées dans le contexte ancien de l’épisode des capacités ordinaires des sœurs à une autre période.",
+      "limitesEtIncertitudes": "Pas de multiplicateur universel de puissance ni d’invisibilité absolue obtenue en portant un masque.",
+      "applicationProposee": "Une fête peut modifier les possibilités de rencontre et de dissimulation ; elle ne rend pas tout projet magique automatiquement faisable.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/All_Halliwell%27s_Eve/Script",
+        "niveau": "extrait_indexe_transcription_non_officielle",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "phen-faille-temporelle",
+      "categorie": "phenomenes",
+      "titre": "Perturbation et passage temporel",
+      "canon": "Une perturbation temporelle peut créer un passage permettant de voyager dans le temps, comme dans A Witch in Time.",
+      "episodesReperes": [
+        "S05E08"
+      ],
+      "conditionsPourLeJeu": "Définir une cause, un emplacement et une période de destination compatibles avec le phénomène choisi.",
+      "limitesEtIncertitudes": "La fiche ne valide ni un voyage libre à n’importe quelle époque ni un mécanisme universel de réparation du passé.",
+      "applicationProposee": "Une faille peut être un enjeu de scénario. Elle ne permet pas au joueur d’annuler un coup du plateau sans règle spécifique validée.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Time_Ripple",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "alter-terra",
+      "categorie": "alterations",
+      "titre": "Possession : le cas de Terra",
+      "canon": "Terra utilise successivement des corps humains et possède Piper dans Coyote Piper.",
+      "episodesReperes": [
+        "S03E09"
+      ],
+      "conditionsPourLeJeu": "Distinguer corps, conscience qui agit, pouvoirs effectivement accessibles et moyen de possession attesté.",
+      "limitesEtIncertitudes": "Ce cas ne démontre pas que tous les esprits disposent du même accès aux capacités de leur hôte. Le remède exact doit être vérifié avant d’être proposé.",
+      "applicationProposee": "Le personnage apparent peut rester identique alors que l’auteur de ses actes change. Une rencontre avec son corps ne prouve pas l’accord de sa conscience.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Terra",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "alter-furie",
+      "categorie": "alterations",
+      "titre": "Transformation en Furie",
+      "canon": "La fumée d’une Furie transforme Piper ; l’épisode relie cette vulnérabilité à une colère refoulée.",
+      "episodesReperes": [
+        "S04E03"
+      ],
+      "conditionsPourLeJeu": "Examiner exposition, état émotionnel et contexte propre au personnage.",
+      "limitesEtIncertitudes": "Une émotion seule ne constitue pas une transformation automatique. Ne pas imposer cette vulnérabilité à n’importe quel personnage sans fondement.",
+      "applicationProposee": "Distinguer neutraliser une menace, libérer une sœur et traiter la cause de la transformation : les moyens et les faits attendus peuvent différer.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Fury",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "alter-banshee",
+      "categorie": "alterations",
+      "titre": "Banshee et douleur émotionnelle",
+      "canon": "Piper explique que la Banshee recherche les personnes en grande souffrance.",
+      "episodesReperes": [
+        "S03E21"
+      ],
+      "conditionsPourLeJeu": "Identifier la souffrance pertinente et le contact avec la créature ; ne pas réduire la scène à une simple baisse de points de vie.",
+      "limitesEtIncertitudes": "L’extrait vérifie le ciblage par la souffrance, pas toute la procédure de transformation ou de guérison. Ces étapes restent à confirmer.",
+      "applicationProposee": "Un personnage sincère peut être vulnérable sans être maléfique. Le but peut être sa protection plutôt que sa destruction.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Look_Who%27s_Barking/Script",
+        "niveau": "extrait_indexe_transcription_non_officielle",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "alter-mariage-sombre",
+      "categorie": "alterations",
+      "titre": "Corruption par un mariage maléfique",
+      "canon": "Dans Bride and Gloom, le mariage imposé à Prue par Dantalian avec Zile entraîne une transformation de Prue et de ses sœurs en warlocks.",
+      "episodesReperes": [
+        "S03E13"
+      ],
+      "conditionsPourLeJeu": "Vérifier le rituel, son lien magique et les personnes affectées, plutôt que généraliser aux relations amoureuses.",
+      "limitesEtIncertitudes": "Aimer un démon ou épouser un humain n’entraîne pas cet effet par défaut. Les propriétés du lien et sa rupture exigent le contexte de cet épisode.",
+      "applicationProposee": "Un verrou peut dépendre d’un lien précis. Le lever nécessite une solution qui traite ce lien, pas seulement un changement de lieu.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Warlock",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "info-localisation",
+      "categorie": "enquete-communication",
+      "titre": "Localisation au cristal",
+      "canon": "La localisation peut s’effectuer à l’aide d’un cristal et d’une carte pour rechercher une personne ou un objet.",
+      "episodesReperes": [],
+      "conditionsPourLeJeu": "Définir la cible, les moyens disponibles et les indices effectivement détenus. Vérifier la variante utilisée avant d’imposer un composant particulier.",
+      "limitesEtIncertitudes": "Localiser n’est ni observer toutes les activités ni lire les pensées. L’extrait ne garantit pas une réussite contre toute protection.",
+      "applicationProposee": "La clé produite peut établir un emplacement ; atteindre la cible et obtenir sa coopération demeurent d’autres questions.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Scrying",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "info-vision-faussee",
+      "categorie": "enquete-communication",
+      "titre": "Vision et manipulation",
+      "canon": "Rex provoque une fausse prémonition chez Phoebe pour l’attirer vers une scène destinée à incriminer Prue.",
+      "episodesReperes": [
+        "S01E10"
+      ],
+      "conditionsPourLeJeu": "Séparer contenu perçu, interprétation et éventuel mécanisme de manipulation attesté.",
+      "limitesEtIncertitudes": "Ne pas rendre toutes les visions arbitrairement fausses. Une manipulation exige un auteur et un moyen compatibles, préparés dans le scénario.",
+      "applicationProposee": "Le fait « Phoebe a vu cette scène » peut être vrai sans que l’accusation qu’elle semble suggérer soit prouvée.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Premonition",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "info-appel-lumiere",
+      "categorie": "enquete-communication",
+      "titre": "Appel d’un Être de lumière",
+      "canon": "Les Êtres de lumière entretiennent un lien avec leurs protégés et peuvent généralement répondre à leur appel.",
+      "episodesReperes": [],
+      "conditionsPourLeJeu": "Vérifier le lien réel, les capacités actuelles et la disponibilité de l’Être de lumière.",
+      "limitesEtIncertitudes": "« Généralement » n’est pas une garantie d’arrivée instantanée. Ne pas étendre ce lien à la localisation de n’importe quel ennemi.",
+      "applicationProposee": "L’appel peut ouvrir une communication ou permettre un secours ; il ne donne pas automatiquement au joueur une réponse complète des Fondateurs.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Whitelighter",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "info-projection",
+      "categorie": "enquete-communication",
+      "titre": "Projection astrale : variantes et observation",
+      "canon": "L’empathie temporaire de Prue augmente sa projection astrale et lui permet de rester éveillée dans son corps et dans sa forme astrale.",
+      "episodesReperes": [
+        "S03E06"
+      ],
+      "conditionsPourLeJeu": "Identifier la variante et les pouvoirs réellement possédés à la date de la partie.",
+      "limitesEtIncertitudes": "Cette exception ne définit pas sa capacité ordinaire et ne prouve ni invisibilité ni accès universel. Ne pas importer les évolutions des comics.",
+      "applicationProposee": "Une reconnaissance doit préciser ce qui observe, ce qui reste sur place et ce que cette forme peut réellement percevoir ou accomplir.",
+      "source": {
+        "url": "https://charmed.fandom.com/wiki/Astral_Projection",
+        "niveau": "extrait_indexe_secondaire",
+        "consulteLe": "2026-09-08"
+      },
+      "activation": "non_active_recherche"
+    }
+  ]
+}

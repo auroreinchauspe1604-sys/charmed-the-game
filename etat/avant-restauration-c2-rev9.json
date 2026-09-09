@@ -1,0 +1,445 @@
+{
+  "version": 3,
+  "ruleset": "charmed-soir-2026-09-08",
+  "revision": 9,
+  "day": 3,
+  "phase": "player",
+  "spent": {
+    "phoebe": false,
+    "commanditaire": false
+  },
+  "nextId": 5,
+  "title": "Le manoir assiégé",
+  "subgoalSlots": {
+    "phoebe": 3,
+    "commanditaire": 3
+  },
+  "resources": [
+    {
+      "id": "phoebe",
+      "title": "Phoebe Halliwell",
+      "category": "personnage",
+      "description": "Sorcière. Prémonitions.",
+      "icon": "✦",
+      "owner": "phoebe",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": true,
+      "preparation": false
+    },
+    {
+      "id": "piper",
+      "title": "Piper Halliwell",
+      "category": "personnage",
+      "description": "Sorcière. Fige et provoque des explosions moléculaires.",
+      "icon": "✦",
+      "owner": "phoebe",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": true,
+      "preparation": false
+    },
+    {
+      "id": "paige",
+      "title": "Paige Matthews",
+      "category": "personnage",
+      "description": "Sorcière et être de lumière. Éclipse et télékinésie à orbes.",
+      "icon": "✦",
+      "owner": "phoebe",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": true,
+      "preparation": false
+    },
+    {
+      "id": "livre",
+      "title": "Livre des Ombres",
+      "category": "objet",
+      "description": "Grimoire familial de connaissances, de formules et de recettes magiques.",
+      "icon": "📦",
+      "owner": "phoebe",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": true,
+      "preparation": false
+    },
+    {
+      "id": "grenier",
+      "title": "Grenier",
+      "category": "lieu",
+      "description": "Espace du manoir consacré aux recherches et préparations magiques.",
+      "icon": "⌂",
+      "owner": "phoebe",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": false,
+      "preparation": false
+    },
+    {
+      "id": "sous-sol",
+      "title": "Sous-sol",
+      "category": "lieu",
+      "description": "Lieu du manoir abritant le Nexus.",
+      "icon": "⌂",
+      "owner": "phoebe",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": false,
+      "preparation": false
+    },
+    {
+      "id": "cristaux",
+      "title": "Cristaux",
+      "category": "objet",
+      "description": "Cristaux magiques permettant de protéger un espace ou de confiner une cible.",
+      "icon": "📦",
+      "owner": "phoebe",
+      "availableDay": 1,
+      "heldBy": "c1",
+      "lost": false,
+      "consumed": false,
+      "unique": false,
+      "preparation": false
+    },
+    {
+      "id": "materiel",
+      "title": "Potions",
+      "category": "objet",
+      "description": "Potions offensives prêtes à utiliser contre les démons de bas grade.",
+      "icon": "📦",
+      "owner": "phoebe",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": false,
+      "preparation": false
+    },
+    {
+      "id": "zankou",
+      "title": "Zankou",
+      "category": "personnage",
+      "description": "Démon puissant et stratège. Dirige le siège du manoir.",
+      "icon": "✦",
+      "owner": "commanditaire",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": true,
+      "preparation": false
+    },
+    {
+      "id": "guetteur",
+      "title": "Guetteur",
+      "category": "personnage",
+      "description": "Démon de bas grade. Observe et transmet des informations.",
+      "icon": "✦",
+      "owner": "commanditaire",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": true,
+      "preparation": false,
+      "recoveryUntil": 2
+    },
+    {
+      "id": "eclaireur",
+      "title": "Éclaireur",
+      "category": "personnage",
+      "description": "Démon de bas grade. Reconnaît les accès et intervient sur le terrain.",
+      "icon": "✦",
+      "owner": "commanditaire",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": true,
+      "preparation": false,
+      "recoveryUntil": 1
+    },
+    {
+      "id": "repaire",
+      "title": "Repaire",
+      "category": "lieu",
+      "description": "Base de préparation et de coordination du camp de Zankou.",
+      "icon": "⌂",
+      "owner": "commanditaire",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": false,
+      "preparation": false
+    },
+    {
+      "id": "message",
+      "title": "Message anonyme",
+      "category": "objet",
+      "description": "Papier et enveloppe permettant de transmettre un message.",
+      "icon": "📦",
+      "owner": "commanditaire",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": false,
+      "preparation": false
+    },
+    {
+      "id": "outils",
+      "title": "Outils de passage",
+      "category": "objet",
+      "description": "Outils permettant de forcer ou d’aménager un accès matériel.",
+      "icon": "📦",
+      "owner": "commanditaire",
+      "availableDay": 1,
+      "heldBy": null,
+      "lost": false,
+      "consumed": false,
+      "unique": false,
+      "preparation": false
+    },
+    {
+      "id": "siege-j3-phoebe-avis",
+      "title": "Avis de travaux",
+      "icon": "📄",
+      "category": "objet",
+      "description": "Document public non encore consulté : horaires et périmètre des travaux du quartier, pas le plan intérieur du manoir.",
+      "owner": "phoebe",
+      "heldBy": null,
+      "availableDay": 3,
+      "lost": false,
+      "consumed": false
+    },
+    {
+      "id": "siege-j3-commanditaire-avis",
+      "title": "Avis de travaux",
+      "icon": "📄",
+      "category": "objet",
+      "description": "Document public non encore consulté : horaires et périmètre des travaux du quartier, pas le plan intérieur du manoir.",
+      "owner": "commanditaire",
+      "heldBy": null,
+      "availableDay": 3,
+      "lost": false,
+      "consumed": false
+    }
+  ],
+  "nodes": [
+    {
+      "id": "root-phoebe",
+      "owner": "phoebe",
+      "shortTitle": "Le manoir préservé",
+      "initialValue": true,
+      "title": "Le manoir demeure sous le contrôle des sœurs : Piper, Phoebe et Paige sont vivantes, le Livre des Ombres reste sous leur garde et aucun agent de Zankou ne contrôle le sous-sol ni le Nexus jusqu’au matin du jour 14.",
+      "type": "state",
+      "parent": null,
+      "goalMode": "maintain",
+      "status": "true",
+      "description": "Le manoir demeure sous le contrôle des sœurs : Piper, Phoebe et Paige sont vivantes, le Livre des Ombres reste sous leur garde et aucun agent de Zankou ne contrôle le sous-sol ni le Nexus jusqu’au matin du jour 14."
+    },
+    {
+      "id": "root-commanditaire",
+      "owner": "commanditaire",
+      "shortTitle": "Le sous-sol conquis",
+      "initialValue": false,
+      "title": "Zankou contrôle durablement le sous-sol du manoir, les sœurs ne peuvent plus y intervenir avant le matin du jour 14 et un accès effectif au lieu du Nexus est établi pour son camp.",
+      "type": "state",
+      "parent": null,
+      "goalMode": "achieve",
+      "status": "open",
+      "description": "Zankou contrôle durablement le sous-sol du manoir, les sœurs ne peuvent plus y intervenir avant le matin du jour 14 et un accès effectif au lieu du Nexus est établi pour son camp."
+    },
+    {
+      "id": "c1",
+      "owner": "phoebe",
+      "type": "key",
+      "title": "Protéger le Livre des Ombres par un bouclier de cristaux",
+      "description": "protéger le livre des ombres grace à la magie des cristaux qui forme un bouclier d'energie qui empeche les demons se passe le bouclier avec paige qui les dispo obtenier l'effet livre des ombre protége ",
+      "effect": "Paige dispose les cristaux autour du Livre des Ombres afin de former un bouclier d’énergie empêchant les démons de le traverser pour atteindre le Livre. Il s’agit de l’effet recherché, encore non réalisé.",
+      "target": "root-phoebe",
+      "scope": "main",
+      "discovery": true,
+      "pieces": [
+        "cristaux"
+      ],
+      "missing": 1,
+      "status": "preparing",
+      "createdDay": 1,
+      "delay": 0,
+      "dependsOn": [],
+      "recovery": {},
+      "maintainers": [],
+      "requiredCount": 2,
+      "dueDay": null
+    },
+    {
+      "id": "c2",
+      "owner": "commanditaire",
+      "type": "key",
+      "title": "Reconnaître l’accès extérieur au sous-sol",
+      "description": "L’Éclaireur rejoint les abords du manoir et reconnaît l’accès extérieur au sous-sol depuis l’extérieur. Il examine sa fermeture et les obstacles matériellement observables, puis rapporte ses constatations à Zankou pour préparer une ouverture. Il ne force pas l’entrée et ne prétend connaître ni l’intérieur ni les protections invisibles. L’effet recherché est une reconnaissance exploitable de cet accès ; aucun contrôle du sous-sol n’est revendiqué.",
+      "effect": "L’Éclaireur rejoint les abords du manoir pour examiner depuis l’extérieur la fermeture de l’accès au sous-sol et les obstacles matériellement observables, puis rapporter ses constatations à Zankou afin de préparer une ouverture. L’effet recherché est une reconnaissance exploitable de cet accès, sans forcer l’entrée, connaître l’intérieur ou les protections invisibles, ni revendiquer le contrôle du sous-sol. Ce résultat reste à constater.",
+      "target": "root-commanditaire",
+      "scope": "main",
+      "discovery": true,
+      "pieces": [
+        "eclaireur"
+      ],
+      "missing": 0,
+      "status": "acquired",
+      "createdDay": 1,
+      "delay": 0,
+      "dependsOn": [],
+      "recovery": {
+        "eclaireur": 0
+      },
+      "maintainers": [],
+      "requiredCount": 1,
+      "readyDay": 1,
+      "dueDay": 1,
+      "established": "L’Éclaireur a repéré l’accès extérieur au sous-sol, constaté sa fermeture et rapporté à Zankou sa reconnaissance de la partie matériellement observable depuis l’extérieur. Cette reconnaissance ne révèle ni l’intérieur ni les protections invisibles et n’établit aucun passage ouvert.",
+      "acquiredDay": 1,
+      "justification": "La reconnaissance ne supposait pas que l’Éclaireur soit invisible, silencieux ou passé inaperçu. Il a observé depuis l’extérieur les éléments visibles de l’accès, sans entrer ni forcer sa fermeture, puis rapporté ses observations. Piper pouvait le voir ou l’entendre : aucun fait acquis ne dit le contraire. Les traces découvertes n’établissent pas à elles seules une surveillance continue empêchant toute observation extérieure. Si Piper surveillait cet accès, la reconnaissance reste limitée à ce qui était observable sans franchir sa position ; aucune neutralisation ni diversion n’est revendiquée. La présence des sœurs au rez-de-chaussée ne rend donc pas nécessaire une infiltration pour obtenir le rapport limité annoncé."
+    },
+    {
+      "id": "c4",
+      "owner": "commanditaire",
+      "type": "key",
+      "title": "Observer la surveillance extérieure du manoir",
+      "description": "Le Guetteur observe depuis la rue les abords du manoir et rapporte à Zankou les présences et mouvements des défenseuses effectivement visibles depuis l’espace public. L’effet recherché est de connaître la surveillance extérieure observable afin de préparer une approche du sous-sol. Il ne prétend voir à travers les murs ni conclure qu’une pièce est vide parce que personne n’est visible.",
+      "effect": "Le Guetteur observe depuis la rue les abords du manoir afin de rapporter à Zankou les présences et mouvements des défenseuses effectivement visibles depuis l’espace public, pour préparer une approche du sous-sol. Le rapport recherché reste limité à cette observation : aucune vision à travers les murs ni déduction qu’une pièce est vide faute de présence visible. Ce résultat reste à constater lors de l’examen du soir.",
+      "target": "root-commanditaire",
+      "scope": "main",
+      "discovery": true,
+      "pieces": [
+        "guetteur"
+      ],
+      "missing": 0,
+      "status": "acquired",
+      "createdDay": 2,
+      "delay": 0,
+      "dependsOn": [],
+      "recovery": {
+        "guetteur": 0
+      },
+      "maintainers": [],
+      "requiredCount": 1,
+      "readyDay": 2,
+      "dueDay": 2,
+      "established": "Le Guetteur a observé les abords du manoir depuis la rue et transmis à Zankou un rapport limité au champ visible depuis l'espace public. Aucun déplacement précis des sœurs ni intervalle sans surveillance n'est établi par ce rapport ; leur répartition intérieure reste inconnue de cet observateur.",
+      "acquiredDay": 2
+    }
+  ],
+  "questions": [
+    {
+      "id": "c3",
+      "target": "c2",
+      "owner": "phoebe",
+      "text": "Comment a t-il pu ne pas etre vu par Piper qui reste pres de l'accaes exterieur depuis qu'elle a vu des trace pas ? Elle et phoebe sont au rez de chaussée? comment il a fait pour ne pas etre vu ni entendu ??",
+      "day": 2,
+      "answer": "La reconnaissance ne supposait pas que l’Éclaireur soit invisible, silencieux ou passé inaperçu. Il a observé depuis l’extérieur les éléments visibles de l’accès, sans entrer ni forcer sa fermeture, puis rapporté ses observations. Piper pouvait le voir ou l’entendre : aucun fait acquis ne dit le contraire. Les traces découvertes n’établissent pas à elles seules une surveillance continue empêchant toute observation extérieure. Si Piper surveillait cet accès, la reconnaissance reste limitée à ce qui était observable sans franchir sa position ; aucune neutralisation ni diversion n’est revendiquée. La présence des sœurs au rez-de-chaussée ne rend donc pas nécessaire une infiltration pour obtenir le rapport limité annoncé.",
+      "resolved": true,
+      "answerDueDay": 2,
+      "submittedDay": 2,
+      "opportunityPassed": true,
+      "reason": "La réponse explique entièrement la reconnaissance extérieure annoncée : observer la fermeture visible et en faire rapport ne suppose ni infiltration ni passage inaperçu. Même près de l’accès, Piper n’empêche pas à elle seule cette observation ; aucune intervention ayant interrompu la reconnaissance n’est établie. L’Éclaireur engagé suffit pour cet effet limité. Le dégel relève de l’examen du soir, sans élargir le fait acquis.",
+      "reviewedDay": 2
+    }
+  ],
+  "facts": [
+    "Piper, Phoebe et Paige sont vivantes et présentes au manoir.",
+    "Le Livre des Ombres est dans le grenier et sous la garde des sœurs.",
+    "Le sous-sol et ses accès intérieurs sont tenus par les sœurs ; aucun agent adverse ne s’y trouve.",
+    "Zankou ne contrôle pas le Nexus et ne détient aucun pouvoir volé aux sœurs.",
+    "L’Éclaireur a repéré l’accès extérieur au sous-sol, constaté sa fermeture et rapporté à Zankou sa reconnaissance de la partie matériellement observable depuis l’extérieur. Cette reconnaissance ne révèle ni l’intérieur ni les protections invisibles et n’établit aucun passage ouvert.",
+    "Zankou dispose du rapport de reconnaissance extérieure de l’Éclaireur sur l’accès fermé au sous-sol ; aucune ouverture ni occupation n’a été réalisée.",
+    "Le Guetteur a observé les abords du manoir depuis la rue et transmis à Zankou un rapport limité au champ visible depuis l'espace public. Aucun déplacement précis des sœurs ni intervalle sans surveillance n'est établi par ce rapport ; leur répartition intérieure reste inconnue de cet observateur.",
+    "Zankou a reçu le rapport d'observation extérieure du Guetteur ; celui-ci n'établit aucun créneau sans surveillance ni aucune connaissance de la répartition intérieure des sœurs.",
+    "L’avis de travaux est publié au matin du jour 3. Chaque camp dispose de son exemplaire, encore non consulté. Cette distribution n’établit aucune connaissance de son contenu."
+  ],
+  "result": null,
+  "radio": [
+    {
+      "day": 1,
+      "text": "Le manoir est encore à vous. Dans la nuit, une silhouette a observé la maison depuis le trottoir ; à l’aube, Piper découvre des traces près de l’accès extérieur. Paige retrouve le grenier intact et Phoebe remarque une enveloppe glissée sous la porte : « Vous ne pourrez pas garder chaque pièce à la fois. » Le Livre est à sa place. Le sous-sol est fermé. Le siège commence. Vous contrôlez les trois sœurs ; votre état initial est VRAI et doit être maintenu jusqu’au matin du jour 14. Trois emplacements de sous-états sont disponibles, sans solutions imposées."
+    },
+    {
+      "day": 2,
+      "text": "Reconnaître l’accès extérieur au sous-sol — réalisé : L’Éclaireur a repéré l’accès extérieur au sous-sol, constaté sa fermeture et rapporté à Zankou sa reconnaissance de la partie matériellement observable depuis l’extérieur. Cette reconnaissance ne révèle ni l’intérieur ni les protections invisibles et n’établit aucun passage ouvert.\nZankou dispose du rapport de reconnaissance extérieure de l’Éclaireur sur l’accès fermé au sous-sol ; aucune ouverture ni occupation n’a été réalisée."
+    },
+    {
+      "day": 3,
+      "text": "La réponse explique entièrement la reconnaissance extérieure annoncée : observer la fermeture visible et en faire rapport ne suppose ni infiltration ni passage inaperçu. Même près de l’accès, Piper n’empêche pas à elle seule cette observation ; aucune intervention ayant interrompu la reconnaissance n’est établie. L’Éclaireur engagé suffit pour cet effet limité. Le dégel relève de l’examen du soir, sans élargir le fait acquis.\nObserver la surveillance extérieure du manoir — réalisé : Le Guetteur a observé les abords du manoir depuis la rue et transmis à Zankou un rapport limité au champ visible depuis l'espace public. Aucun déplacement précis des sœurs ni intervalle sans surveillance n'est établi par ce rapport ; leur répartition intérieure reste inconnue de cet observateur.\nZankou a reçu le rapport d'observation extérieure du Guetteur ; celui-ci n'établit aucun créneau sans surveillance ni aucune connaissance de la répartition intérieure des sœurs.\nAvis de travaux : un exemplaire est ajouté à la main de Les sœurs Halliwell.\nAvis de travaux : un exemplaire est ajouté à la main de Zankou.\nL’avis de travaux est publié au matin du jour 3. Chaque camp dispose de son exemplaire, encore non consulté. Cette distribution n’établit aucune connaissance de son contenu."
+    }
+  ],
+  "arbitration": [
+    {
+      "day": 1,
+      "text": "Proposition enregistrée : Paige dispose les cristaux autour du Livre des Ombres afin de former un bouclier d’énergie empêchant les démons de le traverser pour atteindre le Livre. Il s’agit de l’effet recherché, encore non réalisé.\nVous pouvez encore renforcer cette contribution. Le verdict final est rendu en fin de journée ; une question non répondue la suspend."
+    },
+    {
+      "day": 1,
+      "text": "Proposition enregistrée : L’Éclaireur rejoint les abords du manoir pour examiner depuis l’extérieur la fermeture de l’accès au sous-sol et les obstacles matériellement observables, puis rapporter ses constatations à Zankou afin de préparer une ouverture. L’effet recherché est une reconnaissance exploitable de cet accès, sans forcer l’entrée, connaître l’intérieur ou les protections invisibles, ni revendiquer le contrôle du sous-sol. Ce résultat reste à constater.\nVous pouvez encore renforcer cette contribution. Le verdict final est rendu en fin de journée ; une question non répondue la suspend."
+    },
+    {
+      "day": 1,
+      "text": "Reconnaître l’accès extérieur au sous-sol — réalisé : L’Éclaireur a repéré l’accès extérieur au sous-sol, constaté sa fermeture et rapporté à Zankou sa reconnaissance de la partie matériellement observable depuis l’extérieur. Cette reconnaissance ne révèle ni l’intérieur ni les protections invisibles et n’établit aucun passage ouvert."
+    },
+    {
+      "day": 1,
+      "text": "Zankou dispose du rapport de reconnaissance extérieure de l’Éclaireur sur l’accès fermé au sous-sol ; aucune ouverture ni occupation n’a été réalisée."
+    },
+    {
+      "day": 2,
+      "text": "Réponse enregistrée. La carte reste suspendue jusqu’à son examen en fin de journée."
+    },
+    {
+      "day": 2,
+      "text": "Proposition enregistrée : Le Guetteur observe depuis la rue les abords du manoir afin de rapporter à Zankou les présences et mouvements des défenseuses effectivement visibles depuis l’espace public, pour préparer une approche du sous-sol. Le rapport recherché reste limité à cette observation : aucune vision à travers les murs ni déduction qu’une pièce est vide faute de présence visible. Ce résultat reste à constater lors de l’examen du soir.\nVous pouvez encore renforcer cette contribution. Le verdict final est rendu en fin de journée ; une question non répondue la suspend."
+    },
+    {
+      "day": 2,
+      "text": "La réponse explique entièrement la reconnaissance extérieure annoncée : observer la fermeture visible et en faire rapport ne suppose ni infiltration ni passage inaperçu. Même près de l’accès, Piper n’empêche pas à elle seule cette observation ; aucune intervention ayant interrompu la reconnaissance n’est établie. L’Éclaireur engagé suffit pour cet effet limité. Le dégel relève de l’examen du soir, sans élargir le fait acquis."
+    },
+    {
+      "day": 2,
+      "text": "Observer la surveillance extérieure du manoir — réalisé : Le Guetteur a observé les abords du manoir depuis la rue et transmis à Zankou un rapport limité au champ visible depuis l'espace public. Aucun déplacement précis des sœurs ni intervalle sans surveillance n'est établi par ce rapport ; leur répartition intérieure reste inconnue de cet observateur."
+    },
+    {
+      "day": 2,
+      "text": "Zankou a reçu le rapport d'observation extérieure du Guetteur ; celui-ci n'établit aucun créneau sans surveillance ni aucune connaissance de la répartition intérieure des sœurs."
+    },
+    {
+      "day": 3,
+      "text": "Piper peut surveiller l’extérieur, mais cela ne peut pas bloquer c4 : le Guetteur a déjà terminé son observation et transmis son rapport à Zankou au jour 2. Un verrou ne peut pas effacer cette connaissance acquise. Refus gratuit, Piper reste libre."
+    }
+  ],
+  "opponent": [
+    {
+      "day": 1,
+      "text": "Reconnaître l’accès extérieur au sous-sol"
+    },
+    {
+      "day": 2,
+      "text": "Observer la surveillance extérieure du manoir"
+    }
+  ],
+  "appliedEvents": [
+    "siege-j3"
+  ],
+  "lastRequest": "d5885a5d-c760-47c0-ad68-c8ce5df62cf7"
+}

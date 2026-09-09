@@ -1,0 +1,1612 @@
+{
+  "universe": "Charmed (1998), série télévisée originale",
+  "retrievedAt": "2026-09-08",
+  "source": "https://api.tvmaze.com/shows/506/episodes",
+  "attribution": "TVmaze — https://www.tvmaze.com/shows/506/charmed",
+  "license": "CC BY-SA, voir https://www.tvmaze.com/api#licensing",
+  "use": "Index de navigation uniquement. Aucun épisode marqué visionné ou audité sur la seule base de ces métadonnées. Ordre de diffusion TVmaze ; vérifier les divergences de numérotation des diffuseurs.",
+  "episodes": [
+    {
+      "id": "S01E01",
+      "season": 1,
+      "episode": 1,
+      "title": "Something Wicca This Way Comes",
+      "airdate": "1998-10-07",
+      "source": "https://www.tvmaze.com/episodes/46050/charmed-1x01-something-wicca-this-way-comes",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E02",
+      "season": 1,
+      "episode": 2,
+      "title": "I've Got You Under My Skin",
+      "airdate": "1998-10-14",
+      "source": "https://www.tvmaze.com/episodes/46051/charmed-1x02-ive-got-you-under-my-skin",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E03",
+      "season": 1,
+      "episode": 3,
+      "title": "Thank You for Not Morphing",
+      "airdate": "1998-10-21",
+      "source": "https://www.tvmaze.com/episodes/46052/charmed-1x03-thank-you-for-not-morphing",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E04",
+      "season": 1,
+      "episode": 4,
+      "title": "Dead Man Dating",
+      "airdate": "1998-10-28",
+      "source": "https://www.tvmaze.com/episodes/46053/charmed-1x04-dead-man-dating",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E05",
+      "season": 1,
+      "episode": 5,
+      "title": "Dream Sorcerer",
+      "airdate": "1998-11-04",
+      "source": "https://www.tvmaze.com/episodes/46054/charmed-1x05-dream-sorcerer",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E06",
+      "season": 1,
+      "episode": 6,
+      "title": "The Wedding from Hell",
+      "airdate": "1998-11-11",
+      "source": "https://www.tvmaze.com/episodes/46055/charmed-1x06-the-wedding-from-hell",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E07",
+      "season": 1,
+      "episode": 7,
+      "title": "The Fourth Sister",
+      "airdate": "1998-11-18",
+      "source": "https://www.tvmaze.com/episodes/46056/charmed-1x07-the-fourth-sister",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E08",
+      "season": 1,
+      "episode": 8,
+      "title": "The Truth Is Out There... and It Hurts",
+      "airdate": "1998-11-25",
+      "source": "https://www.tvmaze.com/episodes/46057/charmed-1x08-the-truth-is-out-there-and-it-hurts",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E09",
+      "season": 1,
+      "episode": 9,
+      "title": "The Witch Is Back",
+      "airdate": "1998-12-16",
+      "source": "https://www.tvmaze.com/episodes/46058/charmed-1x09-the-witch-is-back",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E10",
+      "season": 1,
+      "episode": 10,
+      "title": "Wicca Envy",
+      "airdate": "1999-01-13",
+      "source": "https://www.tvmaze.com/episodes/46059/charmed-1x10-wicca-envy",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E11",
+      "season": 1,
+      "episode": 11,
+      "title": "Feats of Clay",
+      "airdate": "1999-01-20",
+      "source": "https://www.tvmaze.com/episodes/46060/charmed-1x11-feats-of-clay",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E12",
+      "season": 1,
+      "episode": 12,
+      "title": "The Wendigo",
+      "airdate": "1999-02-03",
+      "source": "https://www.tvmaze.com/episodes/46061/charmed-1x12-the-wendigo",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E13",
+      "season": 1,
+      "episode": 13,
+      "title": "From Fear to Eternity",
+      "airdate": "1999-02-10",
+      "source": "https://www.tvmaze.com/episodes/46062/charmed-1x13-from-fear-to-eternity",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E14",
+      "season": 1,
+      "episode": 14,
+      "title": "Secrets and Guys",
+      "airdate": "1999-02-17",
+      "source": "https://www.tvmaze.com/episodes/46063/charmed-1x14-secrets-and-guys",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E15",
+      "season": 1,
+      "episode": 15,
+      "title": "Is There a Woogy in the House?",
+      "airdate": "1999-02-24",
+      "source": "https://www.tvmaze.com/episodes/46064/charmed-1x15-is-there-a-woogy-in-the-house",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E16",
+      "season": 1,
+      "episode": 16,
+      "title": "Which Prue Is It, Anyway?",
+      "airdate": "1999-03-03",
+      "source": "https://www.tvmaze.com/episodes/46065/charmed-1x16-which-prue-is-it-anyway",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E17",
+      "season": 1,
+      "episode": 17,
+      "title": "That '70s Episode",
+      "airdate": "1999-04-07",
+      "source": "https://www.tvmaze.com/episodes/46066/charmed-1x17-that-70s-episode",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E18",
+      "season": 1,
+      "episode": 18,
+      "title": "When Bad Warlocks Go Good",
+      "airdate": "1999-04-28",
+      "source": "https://www.tvmaze.com/episodes/46067/charmed-1x18-when-bad-warlocks-go-good",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E19",
+      "season": 1,
+      "episode": 19,
+      "title": "Out of Sight",
+      "airdate": "1999-05-05",
+      "source": "https://www.tvmaze.com/episodes/46068/charmed-1x19-out-of-sight",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E20",
+      "season": 1,
+      "episode": 20,
+      "title": "The Power of Two",
+      "airdate": "1999-05-12",
+      "source": "https://www.tvmaze.com/episodes/46069/charmed-1x20-the-power-of-two",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E21",
+      "season": 1,
+      "episode": 21,
+      "title": "Love Hurts",
+      "airdate": "1999-05-19",
+      "source": "https://www.tvmaze.com/episodes/46070/charmed-1x21-love-hurts",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S01E22",
+      "season": 1,
+      "episode": 22,
+      "title": "Déjà Vu All Over Again",
+      "airdate": "1999-05-26",
+      "source": "https://www.tvmaze.com/episodes/46071/charmed-1x22-deja-vu-all-over-again",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E01",
+      "season": 2,
+      "episode": 1,
+      "title": "Witch Trial",
+      "airdate": "1999-09-30",
+      "source": "https://www.tvmaze.com/episodes/46072/charmed-2x01-witch-trial",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E02",
+      "season": 2,
+      "episode": 2,
+      "title": "Morality Bites",
+      "airdate": "1999-10-07",
+      "source": "https://www.tvmaze.com/episodes/46073/charmed-2x02-morality-bites",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E03",
+      "season": 2,
+      "episode": 3,
+      "title": "The Painted World",
+      "airdate": "1999-10-14",
+      "source": "https://www.tvmaze.com/episodes/46074/charmed-2x03-the-painted-world",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E04",
+      "season": 2,
+      "episode": 4,
+      "title": "The Devil's Music",
+      "airdate": "1999-10-21",
+      "source": "https://www.tvmaze.com/episodes/46075/charmed-2x04-the-devils-music",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E05",
+      "season": 2,
+      "episode": 5,
+      "title": "She's a Man, Baby, a Man!",
+      "airdate": "1999-11-04",
+      "source": "https://www.tvmaze.com/episodes/46076/charmed-2x05-shes-a-man-baby-a-man",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E06",
+      "season": 2,
+      "episode": 6,
+      "title": "That Old Black Magic",
+      "airdate": "1999-11-11",
+      "source": "https://www.tvmaze.com/episodes/46077/charmed-2x06-that-old-black-magic",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E07",
+      "season": 2,
+      "episode": 7,
+      "title": "They're Everywhere",
+      "airdate": "1999-11-18",
+      "source": "https://www.tvmaze.com/episodes/46078/charmed-2x07-theyre-everywhere",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E08",
+      "season": 2,
+      "episode": 8,
+      "title": "P3 H2O",
+      "airdate": "1999-12-09",
+      "source": "https://www.tvmaze.com/episodes/46079/charmed-2x08-p3-h2o",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E09",
+      "season": 2,
+      "episode": 9,
+      "title": "Ms. Hellfire",
+      "airdate": "2000-01-13",
+      "source": "https://www.tvmaze.com/episodes/46080/charmed-2x09-ms-hellfire",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E10",
+      "season": 2,
+      "episode": 10,
+      "title": "Heartbreak City",
+      "airdate": "2000-01-20",
+      "source": "https://www.tvmaze.com/episodes/46081/charmed-2x10-heartbreak-city",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E11",
+      "season": 2,
+      "episode": 11,
+      "title": "Reckless Abandon",
+      "airdate": "2000-01-27",
+      "source": "https://www.tvmaze.com/episodes/46082/charmed-2x11-reckless-abandon",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E12",
+      "season": 2,
+      "episode": 12,
+      "title": "Awakened",
+      "airdate": "2000-02-03",
+      "source": "https://www.tvmaze.com/episodes/46083/charmed-2x12-awakened",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E13",
+      "season": 2,
+      "episode": 13,
+      "title": "Animal Pragmatism",
+      "airdate": "2000-02-10",
+      "source": "https://www.tvmaze.com/episodes/46084/charmed-2x13-animal-pragmatism",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E14",
+      "season": 2,
+      "episode": 14,
+      "title": "Pardon My Past",
+      "airdate": "2000-02-17",
+      "source": "https://www.tvmaze.com/episodes/46085/charmed-2x14-pardon-my-past",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E15",
+      "season": 2,
+      "episode": 15,
+      "title": "Give Me a Sign",
+      "airdate": "2000-02-24",
+      "source": "https://www.tvmaze.com/episodes/46086/charmed-2x15-give-me-a-sign",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E16",
+      "season": 2,
+      "episode": 16,
+      "title": "Murphy's Luck",
+      "airdate": "2000-03-30",
+      "source": "https://www.tvmaze.com/episodes/46087/charmed-2x16-murphys-luck",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E17",
+      "season": 2,
+      "episode": 17,
+      "title": "How to Make a Quilt Out of Americans",
+      "airdate": "2000-04-06",
+      "source": "https://www.tvmaze.com/episodes/46088/charmed-2x17-how-to-make-a-quilt-out-of-americans",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E18",
+      "season": 2,
+      "episode": 18,
+      "title": "Chick Flick",
+      "airdate": "2000-04-20",
+      "source": "https://www.tvmaze.com/episodes/46089/charmed-2x18-chick-flick",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E19",
+      "season": 2,
+      "episode": 19,
+      "title": "Ex Libris",
+      "airdate": "2000-04-27",
+      "source": "https://www.tvmaze.com/episodes/46090/charmed-2x19-ex-libris",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E20",
+      "season": 2,
+      "episode": 20,
+      "title": "Astral Monkey",
+      "airdate": "2000-05-04",
+      "source": "https://www.tvmaze.com/episodes/46091/charmed-2x20-astral-monkey",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E21",
+      "season": 2,
+      "episode": 21,
+      "title": "Apocalypse Not",
+      "airdate": "2000-05-11",
+      "source": "https://www.tvmaze.com/episodes/46092/charmed-2x21-apocalypse-not",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S02E22",
+      "season": 2,
+      "episode": 22,
+      "title": "Be Careful What You Witch For",
+      "airdate": "2000-05-18",
+      "source": "https://www.tvmaze.com/episodes/46093/charmed-2x22-be-careful-what-you-witch-for",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E01",
+      "season": 3,
+      "episode": 1,
+      "title": "The Honeymoon's Over",
+      "airdate": "2000-10-05",
+      "source": "https://www.tvmaze.com/episodes/46094/charmed-3x01-the-honeymoons-over",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E02",
+      "season": 3,
+      "episode": 2,
+      "title": "Magic Hour",
+      "airdate": "2000-10-12",
+      "source": "https://www.tvmaze.com/episodes/46095/charmed-3x02-magic-hour",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E03",
+      "season": 3,
+      "episode": 3,
+      "title": "Once Upon a Time",
+      "airdate": "2000-10-19",
+      "source": "https://www.tvmaze.com/episodes/46096/charmed-3x03-once-upon-a-time",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E04",
+      "season": 3,
+      "episode": 4,
+      "title": "All Halliwell's Eve",
+      "airdate": "2000-10-26",
+      "source": "https://www.tvmaze.com/episodes/46097/charmed-3x04-all-halliwells-eve",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E05",
+      "season": 3,
+      "episode": 5,
+      "title": "Sight Unseen",
+      "airdate": "2000-11-02",
+      "source": "https://www.tvmaze.com/episodes/46098/charmed-3x05-sight-unseen",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E06",
+      "season": 3,
+      "episode": 6,
+      "title": "Primrose Empath",
+      "airdate": "2000-11-09",
+      "source": "https://www.tvmaze.com/episodes/46099/charmed-3x06-primrose-empath",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E07",
+      "season": 3,
+      "episode": 7,
+      "title": "Power Outage",
+      "airdate": "2000-11-16",
+      "source": "https://www.tvmaze.com/episodes/46100/charmed-3x07-power-outage",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E08",
+      "season": 3,
+      "episode": 8,
+      "title": "Sleuthing with the Enemy",
+      "airdate": "2000-12-14",
+      "source": "https://www.tvmaze.com/episodes/46101/charmed-3x08-sleuthing-with-the-enemy",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E09",
+      "season": 3,
+      "episode": 9,
+      "title": "Coyote Piper",
+      "airdate": "2001-01-11",
+      "source": "https://www.tvmaze.com/episodes/46102/charmed-3x09-coyote-piper",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E10",
+      "season": 3,
+      "episode": 10,
+      "title": "We All Scream for Ice Cream",
+      "airdate": "2001-01-18",
+      "source": "https://www.tvmaze.com/episodes/46103/charmed-3x10-we-all-scream-for-ice-cream",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E11",
+      "season": 3,
+      "episode": 11,
+      "title": "Blinded by the Whitelighter",
+      "airdate": "2001-01-25",
+      "source": "https://www.tvmaze.com/episodes/46104/charmed-3x11-blinded-by-the-whitelighter",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E12",
+      "season": 3,
+      "episode": 12,
+      "title": "Wrestling with Demons",
+      "airdate": "2001-02-02",
+      "source": "https://www.tvmaze.com/episodes/46105/charmed-3x12-wrestling-with-demons",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E13",
+      "season": 3,
+      "episode": 13,
+      "title": "Bride and Gloom",
+      "airdate": "2001-02-08",
+      "source": "https://www.tvmaze.com/episodes/46106/charmed-3x13-bride-and-gloom",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E14",
+      "season": 3,
+      "episode": 14,
+      "title": "The Good, the Bad and the Cursed",
+      "airdate": "2001-02-15",
+      "source": "https://www.tvmaze.com/episodes/46107/charmed-3x14-the-good-the-bad-and-the-cursed",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E15",
+      "season": 3,
+      "episode": 15,
+      "title": "Just Harried",
+      "airdate": "2001-02-22",
+      "source": "https://www.tvmaze.com/episodes/46108/charmed-3x15-just-harried",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E16",
+      "season": 3,
+      "episode": 16,
+      "title": "Death Takes a Halliwell",
+      "airdate": "2001-03-15",
+      "source": "https://www.tvmaze.com/episodes/46109/charmed-3x16-death-takes-a-halliwell",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E17",
+      "season": 3,
+      "episode": 17,
+      "title": "Pre-Witched",
+      "airdate": "2001-03-22",
+      "source": "https://www.tvmaze.com/episodes/46110/charmed-3x17-pre-witched",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E18",
+      "season": 3,
+      "episode": 18,
+      "title": "Sin Francisco",
+      "airdate": "2001-04-19",
+      "source": "https://www.tvmaze.com/episodes/46111/charmed-3x18-sin-francisco",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E19",
+      "season": 3,
+      "episode": 19,
+      "title": "The Demon Who Came in from the Cold",
+      "airdate": "2001-04-26",
+      "source": "https://www.tvmaze.com/episodes/46112/charmed-3x19-the-demon-who-came-in-from-the-cold",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E20",
+      "season": 3,
+      "episode": 20,
+      "title": "Exit Strategy",
+      "airdate": "2001-05-03",
+      "source": "https://www.tvmaze.com/episodes/46113/charmed-3x20-exit-strategy",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E21",
+      "season": 3,
+      "episode": 21,
+      "title": "Look Who's Barking",
+      "airdate": "2001-05-10",
+      "source": "https://www.tvmaze.com/episodes/46114/charmed-3x21-look-whos-barking",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S03E22",
+      "season": 3,
+      "episode": 22,
+      "title": "All Hell Breaks Loose",
+      "airdate": "2001-05-17",
+      "source": "https://www.tvmaze.com/episodes/46115/charmed-3x22-all-hell-breaks-loose",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E01",
+      "season": 4,
+      "episode": 1,
+      "title": "Charmed Again, Part 1",
+      "airdate": "2001-10-04",
+      "source": "https://www.tvmaze.com/episodes/46116/charmed-4x01-charmed-again-part-1",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E02",
+      "season": 4,
+      "episode": 2,
+      "title": "Charmed Again, Part 2",
+      "airdate": "2001-10-04",
+      "source": "https://www.tvmaze.com/episodes/46117/charmed-4x02-charmed-again-part-2",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E03",
+      "season": 4,
+      "episode": 3,
+      "title": "Hell Hath No Fury",
+      "airdate": "2001-10-11",
+      "source": "https://www.tvmaze.com/episodes/46118/charmed-4x03-hell-hath-no-fury",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E04",
+      "season": 4,
+      "episode": 4,
+      "title": "Enter the Demon",
+      "airdate": "2001-10-18",
+      "source": "https://www.tvmaze.com/episodes/46119/charmed-4x04-enter-the-demon",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E05",
+      "season": 4,
+      "episode": 5,
+      "title": "Size Matters",
+      "airdate": "2001-10-25",
+      "source": "https://www.tvmaze.com/episodes/46120/charmed-4x05-size-matters",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E06",
+      "season": 4,
+      "episode": 6,
+      "title": "A Knight to Remember",
+      "airdate": "2001-11-01",
+      "source": "https://www.tvmaze.com/episodes/46121/charmed-4x06-a-knight-to-remember",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E07",
+      "season": 4,
+      "episode": 7,
+      "title": "Brain Drain",
+      "airdate": "2001-11-08",
+      "source": "https://www.tvmaze.com/episodes/46122/charmed-4x07-brain-drain",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E08",
+      "season": 4,
+      "episode": 8,
+      "title": "Black as Cole",
+      "airdate": "2001-11-15",
+      "source": "https://www.tvmaze.com/episodes/46123/charmed-4x08-black-as-cole",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E09",
+      "season": 4,
+      "episode": 9,
+      "title": "Muse to My Ears",
+      "airdate": "2001-12-13",
+      "source": "https://www.tvmaze.com/episodes/46124/charmed-4x09-muse-to-my-ears",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E10",
+      "season": 4,
+      "episode": 10,
+      "title": "A Paige from the Past",
+      "airdate": "2002-01-17",
+      "source": "https://www.tvmaze.com/episodes/46125/charmed-4x10-a-paige-from-the-past",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E11",
+      "season": 4,
+      "episode": 11,
+      "title": "Trial by Magic",
+      "airdate": "2002-01-24",
+      "source": "https://www.tvmaze.com/episodes/46126/charmed-4x11-trial-by-magic",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E12",
+      "season": 4,
+      "episode": 12,
+      "title": "Lost and Bound",
+      "airdate": "2002-01-31",
+      "source": "https://www.tvmaze.com/episodes/46127/charmed-4x12-lost-and-bound",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E13",
+      "season": 4,
+      "episode": 13,
+      "title": "Charmed and Dangerous",
+      "airdate": "2002-02-07",
+      "source": "https://www.tvmaze.com/episodes/46128/charmed-4x13-charmed-and-dangerous",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E14",
+      "season": 4,
+      "episode": 14,
+      "title": "The Three Faces of Phoebe",
+      "airdate": "2002-02-14",
+      "source": "https://www.tvmaze.com/episodes/46129/charmed-4x14-the-three-faces-of-phoebe",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E15",
+      "season": 4,
+      "episode": 15,
+      "title": "Marry-Go-Round",
+      "airdate": "2002-03-14",
+      "source": "https://www.tvmaze.com/episodes/46130/charmed-4x15-marry-go-round",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E16",
+      "season": 4,
+      "episode": 16,
+      "title": "The Fifth Halliwheel",
+      "airdate": "2002-03-21",
+      "source": "https://www.tvmaze.com/episodes/46131/charmed-4x16-the-fifth-halliwheel",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E17",
+      "season": 4,
+      "episode": 17,
+      "title": "Saving Private Leo",
+      "airdate": "2002-03-28",
+      "source": "https://www.tvmaze.com/episodes/46132/charmed-4x17-saving-private-leo",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E18",
+      "season": 4,
+      "episode": 18,
+      "title": "Bite Me",
+      "airdate": "2002-04-18",
+      "source": "https://www.tvmaze.com/episodes/46133/charmed-4x18-bite-me",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E19",
+      "season": 4,
+      "episode": 19,
+      "title": "We're Off to See the Wizard",
+      "airdate": "2002-04-25",
+      "source": "https://www.tvmaze.com/episodes/46134/charmed-4x19-were-off-to-see-the-wizard",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E20",
+      "season": 4,
+      "episode": 20,
+      "title": "Long Live the Queen",
+      "airdate": "2002-05-02",
+      "source": "https://www.tvmaze.com/episodes/46135/charmed-4x20-long-live-the-queen",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E21",
+      "season": 4,
+      "episode": 21,
+      "title": "Womb Raider",
+      "airdate": "2002-05-09",
+      "source": "https://www.tvmaze.com/episodes/46136/charmed-4x21-womb-raider",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S04E22",
+      "season": 4,
+      "episode": 22,
+      "title": "Witch Way Now?",
+      "airdate": "2002-05-16",
+      "source": "https://www.tvmaze.com/episodes/46137/charmed-4x22-witch-way-now",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E01",
+      "season": 5,
+      "episode": 1,
+      "title": "A Witch's Tail, Part 1",
+      "airdate": "2002-09-22",
+      "source": "https://www.tvmaze.com/episodes/46138/charmed-5x01-a-witchs-tail-part-1",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E02",
+      "season": 5,
+      "episode": 2,
+      "title": "A Witch's Tail, Part 2",
+      "airdate": "2002-09-22",
+      "source": "https://www.tvmaze.com/episodes/46139/charmed-5x02-a-witchs-tail-part-2",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E03",
+      "season": 5,
+      "episode": 3,
+      "title": "Happily Ever After",
+      "airdate": "2002-09-29",
+      "source": "https://www.tvmaze.com/episodes/46140/charmed-5x03-happily-ever-after",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E04",
+      "season": 5,
+      "episode": 4,
+      "title": "Siren Song",
+      "airdate": "2002-10-06",
+      "source": "https://www.tvmaze.com/episodes/46141/charmed-5x04-siren-song",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E05",
+      "season": 5,
+      "episode": 5,
+      "title": "Witches in Tights",
+      "airdate": "2002-10-13",
+      "source": "https://www.tvmaze.com/episodes/46142/charmed-5x05-witches-in-tights",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E06",
+      "season": 5,
+      "episode": 6,
+      "title": "The Eyes Have It",
+      "airdate": "2002-10-20",
+      "source": "https://www.tvmaze.com/episodes/46143/charmed-5x06-the-eyes-have-it",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E07",
+      "season": 5,
+      "episode": 7,
+      "title": "Sympathy for the Demon",
+      "airdate": "2002-11-03",
+      "source": "https://www.tvmaze.com/episodes/46144/charmed-5x07-sympathy-for-the-demon",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E08",
+      "season": 5,
+      "episode": 8,
+      "title": "A Witch in Time",
+      "airdate": "2002-11-10",
+      "source": "https://www.tvmaze.com/episodes/46145/charmed-5x08-a-witch-in-time",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E09",
+      "season": 5,
+      "episode": 9,
+      "title": "Sam I Am",
+      "airdate": "2002-11-17",
+      "source": "https://www.tvmaze.com/episodes/46146/charmed-5x09-sam-i-am",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E10",
+      "season": 5,
+      "episode": 10,
+      "title": "Y Tu Mummy También",
+      "airdate": "2003-01-05",
+      "source": "https://www.tvmaze.com/episodes/46147/charmed-5x10-y-tu-mummy-tambien",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E11",
+      "season": 5,
+      "episode": 11,
+      "title": "The Importance of Being Phoebe",
+      "airdate": "2003-01-12",
+      "source": "https://www.tvmaze.com/episodes/46148/charmed-5x11-the-importance-of-being-phoebe",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E12",
+      "season": 5,
+      "episode": 12,
+      "title": "Centennial Charmed",
+      "airdate": "2003-01-19",
+      "source": "https://www.tvmaze.com/episodes/46149/charmed-5x12-centennial-charmed",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E13",
+      "season": 5,
+      "episode": 13,
+      "title": "House Call",
+      "airdate": "2003-02-02",
+      "source": "https://www.tvmaze.com/episodes/46150/charmed-5x13-house-call",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E14",
+      "season": 5,
+      "episode": 14,
+      "title": "Sand Francisco Dreamin'",
+      "airdate": "2003-02-09",
+      "source": "https://www.tvmaze.com/episodes/46151/charmed-5x14-sand-francisco-dreamin",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E15",
+      "season": 5,
+      "episode": 15,
+      "title": "The Day the Magic Died",
+      "airdate": "2003-02-16",
+      "source": "https://www.tvmaze.com/episodes/46152/charmed-5x15-the-day-the-magic-died",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E16",
+      "season": 5,
+      "episode": 16,
+      "title": "Baby's First Demon",
+      "airdate": "2003-03-30",
+      "source": "https://www.tvmaze.com/episodes/46153/charmed-5x16-babys-first-demon",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E17",
+      "season": 5,
+      "episode": 17,
+      "title": "Lucky Charmed",
+      "airdate": "2003-04-06",
+      "source": "https://www.tvmaze.com/episodes/46154/charmed-5x17-lucky-charmed",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E18",
+      "season": 5,
+      "episode": 18,
+      "title": "Cat House",
+      "airdate": "2003-04-13",
+      "source": "https://www.tvmaze.com/episodes/46155/charmed-5x18-cat-house",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E19",
+      "season": 5,
+      "episode": 19,
+      "title": "Nymphs Just Want to Have Fun",
+      "airdate": "2003-04-20",
+      "source": "https://www.tvmaze.com/episodes/46156/charmed-5x19-nymphs-just-want-to-have-fun",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E20",
+      "season": 5,
+      "episode": 20,
+      "title": "Sense and Sense Ability",
+      "airdate": "2003-04-27",
+      "source": "https://www.tvmaze.com/episodes/46157/charmed-5x20-sense-and-sense-ability",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E21",
+      "season": 5,
+      "episode": 21,
+      "title": "Necromancing the Stone",
+      "airdate": "2003-05-04",
+      "source": "https://www.tvmaze.com/episodes/46158/charmed-5x21-necromancing-the-stone",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E22",
+      "season": 5,
+      "episode": 22,
+      "title": "Oh My Goddess (1)",
+      "airdate": "2003-05-11",
+      "source": "https://www.tvmaze.com/episodes/46159/charmed-5x22-oh-my-goddess-1",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S05E23",
+      "season": 5,
+      "episode": 23,
+      "title": "Oh My Goddess (2)",
+      "airdate": "2003-05-11",
+      "source": "https://www.tvmaze.com/episodes/46160/charmed-5x23-oh-my-goddess-2",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E01",
+      "season": 6,
+      "episode": 1,
+      "title": "Valhalley of the Dolls, Part 1",
+      "airdate": "2003-09-28",
+      "source": "https://www.tvmaze.com/episodes/46161/charmed-6x01-valhalley-of-the-dolls-part-1",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E02",
+      "season": 6,
+      "episode": 2,
+      "title": "Valhalley of the Dolls, Part 2",
+      "airdate": "2003-09-28",
+      "source": "https://www.tvmaze.com/episodes/46162/charmed-6x02-valhalley-of-the-dolls-part-2",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E03",
+      "season": 6,
+      "episode": 3,
+      "title": "Forget Me... Not",
+      "airdate": "2003-10-05",
+      "source": "https://www.tvmaze.com/episodes/46163/charmed-6x03-forget-me-not",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E04",
+      "season": 6,
+      "episode": 4,
+      "title": "The Power of Three Blondes",
+      "airdate": "2003-10-12",
+      "source": "https://www.tvmaze.com/episodes/46164/charmed-6x04-the-power-of-three-blondes",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E05",
+      "season": 6,
+      "episode": 5,
+      "title": "Love's a Witch",
+      "airdate": "2003-10-19",
+      "source": "https://www.tvmaze.com/episodes/46165/charmed-6x05-loves-a-witch",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E06",
+      "season": 6,
+      "episode": 6,
+      "title": "My Three Witches",
+      "airdate": "2003-10-26",
+      "source": "https://www.tvmaze.com/episodes/46166/charmed-6x06-my-three-witches",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E07",
+      "season": 6,
+      "episode": 7,
+      "title": "Soul Survivor",
+      "airdate": "2003-11-02",
+      "source": "https://www.tvmaze.com/episodes/46167/charmed-6x07-soul-survivor",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E08",
+      "season": 6,
+      "episode": 8,
+      "title": "Sword and the City",
+      "airdate": "2003-11-09",
+      "source": "https://www.tvmaze.com/episodes/46168/charmed-6x08-sword-and-the-city",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E09",
+      "season": 6,
+      "episode": 9,
+      "title": "Little Monsters",
+      "airdate": "2003-11-16",
+      "source": "https://www.tvmaze.com/episodes/46169/charmed-6x09-little-monsters",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E10",
+      "season": 6,
+      "episode": 10,
+      "title": "Chris-Crossed",
+      "airdate": "2003-11-23",
+      "source": "https://www.tvmaze.com/episodes/46170/charmed-6x10-chris-crossed",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E11",
+      "season": 6,
+      "episode": 11,
+      "title": "Witchstock",
+      "airdate": "2004-01-11",
+      "source": "https://www.tvmaze.com/episodes/46171/charmed-6x11-witchstock",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E12",
+      "season": 6,
+      "episode": 12,
+      "title": "Prince Charmed",
+      "airdate": "2004-01-18",
+      "source": "https://www.tvmaze.com/episodes/46172/charmed-6x12-prince-charmed",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E13",
+      "season": 6,
+      "episode": 13,
+      "title": "Used Karma",
+      "airdate": "2004-01-25",
+      "source": "https://www.tvmaze.com/episodes/46173/charmed-6x13-used-karma",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E14",
+      "season": 6,
+      "episode": 14,
+      "title": "The Legend of Sleepy Halliwell",
+      "airdate": "2004-02-08",
+      "source": "https://www.tvmaze.com/episodes/46174/charmed-6x14-the-legend-of-sleepy-halliwell",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E15",
+      "season": 6,
+      "episode": 15,
+      "title": "I Dream of Phoebe",
+      "airdate": "2004-02-15",
+      "source": "https://www.tvmaze.com/episodes/46175/charmed-6x15-i-dream-of-phoebe",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E16",
+      "season": 6,
+      "episode": 16,
+      "title": "The Courtship of Wyatt's Father",
+      "airdate": "2004-02-22",
+      "source": "https://www.tvmaze.com/episodes/46176/charmed-6x16-the-courtship-of-wyatts-father",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E17",
+      "season": 6,
+      "episode": 17,
+      "title": "Hyde School Reunion",
+      "airdate": "2004-03-14",
+      "source": "https://www.tvmaze.com/episodes/46177/charmed-6x17-hyde-school-reunion",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E18",
+      "season": 6,
+      "episode": 18,
+      "title": "Spin City",
+      "airdate": "2004-04-18",
+      "source": "https://www.tvmaze.com/episodes/46178/charmed-6x18-spin-city",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E19",
+      "season": 6,
+      "episode": 19,
+      "title": "Crimes and Witch-Demeanors",
+      "airdate": "2004-04-25",
+      "source": "https://www.tvmaze.com/episodes/46179/charmed-6x19-crimes-and-witch-demeanors",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E20",
+      "season": 6,
+      "episode": 20,
+      "title": "A Wrong Day's Journey Into Right",
+      "airdate": "2004-05-02",
+      "source": "https://www.tvmaze.com/episodes/46180/charmed-6x20-a-wrong-days-journey-into-right",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E21",
+      "season": 6,
+      "episode": 21,
+      "title": "Witch Wars",
+      "airdate": "2004-05-09",
+      "source": "https://www.tvmaze.com/episodes/46181/charmed-6x21-witch-wars",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E22",
+      "season": 6,
+      "episode": 22,
+      "title": "It's a Bad, Bad, Bad, Bad World, Part 1",
+      "airdate": "2004-05-16",
+      "source": "https://www.tvmaze.com/episodes/46182/charmed-6x22-its-a-bad-bad-bad-bad-world-part-1",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S06E23",
+      "season": 6,
+      "episode": 23,
+      "title": "It's a Bad, Bad, Bad, Bad World, Part 2",
+      "airdate": "2004-05-16",
+      "source": "https://www.tvmaze.com/episodes/46183/charmed-6x23-its-a-bad-bad-bad-bad-world-part-2",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E01",
+      "season": 7,
+      "episode": 1,
+      "title": "A Call to Arms",
+      "airdate": "2004-09-12",
+      "source": "https://www.tvmaze.com/episodes/46184/charmed-7x01-a-call-to-arms",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E02",
+      "season": 7,
+      "episode": 2,
+      "title": "The Bare Witch Project",
+      "airdate": "2004-09-19",
+      "source": "https://www.tvmaze.com/episodes/46185/charmed-7x02-the-bare-witch-project",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E03",
+      "season": 7,
+      "episode": 3,
+      "title": "Cheaper by the Coven",
+      "airdate": "2004-09-26",
+      "source": "https://www.tvmaze.com/episodes/46186/charmed-7x03-cheaper-by-the-coven",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E04",
+      "season": 7,
+      "episode": 4,
+      "title": "Charrrmed!",
+      "airdate": "2004-10-03",
+      "source": "https://www.tvmaze.com/episodes/46187/charmed-7x04-charrrmed",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E05",
+      "season": 7,
+      "episode": 5,
+      "title": "Styx Feet Under",
+      "airdate": "2004-10-10",
+      "source": "https://www.tvmaze.com/episodes/46188/charmed-7x05-styx-feet-under",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E06",
+      "season": 7,
+      "episode": 6,
+      "title": "Once in a Blue Moon",
+      "airdate": "2004-10-17",
+      "source": "https://www.tvmaze.com/episodes/46189/charmed-7x06-once-in-a-blue-moon",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E07",
+      "season": 7,
+      "episode": 7,
+      "title": "Someone to Witch Over Me",
+      "airdate": "2004-10-31",
+      "source": "https://www.tvmaze.com/episodes/46190/charmed-7x07-someone-to-witch-over-me",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E08",
+      "season": 7,
+      "episode": 8,
+      "title": "Charmed Noir",
+      "airdate": "2004-11-14",
+      "source": "https://www.tvmaze.com/episodes/46191/charmed-7x08-charmed-noir",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E09",
+      "season": 7,
+      "episode": 9,
+      "title": "There's Something About Leo",
+      "airdate": "2004-11-21",
+      "source": "https://www.tvmaze.com/episodes/46192/charmed-7x09-theres-something-about-leo",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E10",
+      "season": 7,
+      "episode": 10,
+      "title": "Witchness Protection",
+      "airdate": "2004-11-28",
+      "source": "https://www.tvmaze.com/episodes/46193/charmed-7x10-witchness-protection",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E11",
+      "season": 7,
+      "episode": 11,
+      "title": "Ordinary Witches",
+      "airdate": "2005-01-16",
+      "source": "https://www.tvmaze.com/episodes/46194/charmed-7x11-ordinary-witches",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E12",
+      "season": 7,
+      "episode": 12,
+      "title": "Extreme Makeover: World Edition",
+      "airdate": "2005-01-23",
+      "source": "https://www.tvmaze.com/episodes/46195/charmed-7x12-extreme-makeover-world-edition",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E13",
+      "season": 7,
+      "episode": 13,
+      "title": "Charmageddon",
+      "airdate": "2005-01-30",
+      "source": "https://www.tvmaze.com/episodes/46196/charmed-7x13-charmageddon",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E14",
+      "season": 7,
+      "episode": 14,
+      "title": "Carpe Demon",
+      "airdate": "2005-02-13",
+      "source": "https://www.tvmaze.com/episodes/46197/charmed-7x14-carpe-demon",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E15",
+      "season": 7,
+      "episode": 15,
+      "title": "Show Ghouls",
+      "airdate": "2005-02-20",
+      "source": "https://www.tvmaze.com/episodes/46198/charmed-7x15-show-ghouls",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E16",
+      "season": 7,
+      "episode": 16,
+      "title": "The Seven Year Witch",
+      "airdate": "2005-04-10",
+      "source": "https://www.tvmaze.com/episodes/46199/charmed-7x16-the-seven-year-witch",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E17",
+      "season": 7,
+      "episode": 17,
+      "title": "Scry Hard",
+      "airdate": "2005-04-17",
+      "source": "https://www.tvmaze.com/episodes/46200/charmed-7x17-scry-hard",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E18",
+      "season": 7,
+      "episode": 18,
+      "title": "Little Box of Horrors",
+      "airdate": "2005-04-24",
+      "source": "https://www.tvmaze.com/episodes/46201/charmed-7x18-little-box-of-horrors",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E19",
+      "season": 7,
+      "episode": 19,
+      "title": "Freaky Phoebe",
+      "airdate": "2005-05-01",
+      "source": "https://www.tvmaze.com/episodes/46202/charmed-7x19-freaky-phoebe",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E20",
+      "season": 7,
+      "episode": 20,
+      "title": "Imaginary Fiends",
+      "airdate": "2005-05-08",
+      "source": "https://www.tvmaze.com/episodes/46203/charmed-7x20-imaginary-fiends",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E21",
+      "season": 7,
+      "episode": 21,
+      "title": "Death Becomes Them",
+      "airdate": "2005-05-15",
+      "source": "https://www.tvmaze.com/episodes/46204/charmed-7x21-death-becomes-them",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S07E22",
+      "season": 7,
+      "episode": 22,
+      "title": "Something Wicca This Way Goes",
+      "airdate": "2005-05-22",
+      "source": "https://www.tvmaze.com/episodes/46205/charmed-7x22-something-wicca-this-way-goes",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E01",
+      "season": 8,
+      "episode": 1,
+      "title": "Still Charmed and Kicking",
+      "airdate": "2005-09-25",
+      "source": "https://www.tvmaze.com/episodes/46206/charmed-8x01-still-charmed-and-kicking",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E02",
+      "season": 8,
+      "episode": 2,
+      "title": "Malice in Wonderland",
+      "airdate": "2005-10-02",
+      "source": "https://www.tvmaze.com/episodes/46207/charmed-8x02-malice-in-wonderland",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E03",
+      "season": 8,
+      "episode": 3,
+      "title": "Run, Piper, Run",
+      "airdate": "2005-10-09",
+      "source": "https://www.tvmaze.com/episodes/46208/charmed-8x03-run-piper-run",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E04",
+      "season": 8,
+      "episode": 4,
+      "title": "Desperate Housewitches",
+      "airdate": "2005-10-16",
+      "source": "https://www.tvmaze.com/episodes/46209/charmed-8x04-desperate-housewitches",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E05",
+      "season": 8,
+      "episode": 5,
+      "title": "Rewitched",
+      "airdate": "2005-10-23",
+      "source": "https://www.tvmaze.com/episodes/46210/charmed-8x05-rewitched",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E06",
+      "season": 8,
+      "episode": 6,
+      "title": "Kill Billie: Vol. 1",
+      "airdate": "2005-10-30",
+      "source": "https://www.tvmaze.com/episodes/46211/charmed-8x06-kill-billie-vol-1",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E07",
+      "season": 8,
+      "episode": 7,
+      "title": "The Lost Picture Show",
+      "airdate": "2005-11-06",
+      "source": "https://www.tvmaze.com/episodes/46212/charmed-8x07-the-lost-picture-show",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E08",
+      "season": 8,
+      "episode": 8,
+      "title": "Battle of the Hexes",
+      "airdate": "2005-11-13",
+      "source": "https://www.tvmaze.com/episodes/46213/charmed-8x08-battle-of-the-hexes",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E09",
+      "season": 8,
+      "episode": 9,
+      "title": "Hulkus Pocus",
+      "airdate": "2005-11-20",
+      "source": "https://www.tvmaze.com/episodes/46214/charmed-8x09-hulkus-pocus",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E10",
+      "season": 8,
+      "episode": 10,
+      "title": "Vaya Con Leos",
+      "airdate": "2005-11-27",
+      "source": "https://www.tvmaze.com/episodes/46215/charmed-8x10-vaya-con-leos",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E11",
+      "season": 8,
+      "episode": 11,
+      "title": "Mr. & Mrs. Witch",
+      "airdate": "2006-01-08",
+      "source": "https://www.tvmaze.com/episodes/46216/charmed-8x11-mr-mrs-witch",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E12",
+      "season": 8,
+      "episode": 12,
+      "title": "Payback's a Witch",
+      "airdate": "2006-01-15",
+      "source": "https://www.tvmaze.com/episodes/46217/charmed-8x12-paybacks-a-witch",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E13",
+      "season": 8,
+      "episode": 13,
+      "title": "Repo Manor",
+      "airdate": "2006-01-22",
+      "source": "https://www.tvmaze.com/episodes/46218/charmed-8x13-repo-manor",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E14",
+      "season": 8,
+      "episode": 14,
+      "title": "12 Angry Zen",
+      "airdate": "2006-02-12",
+      "source": "https://www.tvmaze.com/episodes/46219/charmed-8x14-12-angry-zen",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E15",
+      "season": 8,
+      "episode": 15,
+      "title": "The Last Temptation of Christy",
+      "airdate": "2006-02-19",
+      "source": "https://www.tvmaze.com/episodes/46220/charmed-8x15-the-last-temptation-of-christy",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E16",
+      "season": 8,
+      "episode": 16,
+      "title": "Engaged and Confused",
+      "airdate": "2006-02-26",
+      "source": "https://www.tvmaze.com/episodes/46221/charmed-8x16-engaged-and-confused",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E17",
+      "season": 8,
+      "episode": 17,
+      "title": "Generation Hex",
+      "airdate": "2006-04-16",
+      "source": "https://www.tvmaze.com/episodes/46222/charmed-8x17-generation-hex",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E18",
+      "season": 8,
+      "episode": 18,
+      "title": "The Torn Identity",
+      "airdate": "2006-04-23",
+      "source": "https://www.tvmaze.com/episodes/46223/charmed-8x18-the-torn-identity",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E19",
+      "season": 8,
+      "episode": 19,
+      "title": "The Jung and the Restless",
+      "airdate": "2006-04-30",
+      "source": "https://www.tvmaze.com/episodes/46224/charmed-8x19-the-jung-and-the-restless",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E20",
+      "season": 8,
+      "episode": 20,
+      "title": "Gone with the Witches",
+      "airdate": "2006-05-07",
+      "source": "https://www.tvmaze.com/episodes/46225/charmed-8x20-gone-with-the-witches",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E21",
+      "season": 8,
+      "episode": 21,
+      "title": "Kill Billie: Vol. 2",
+      "airdate": "2006-05-14",
+      "source": "https://www.tvmaze.com/episodes/46226/charmed-8x21-kill-billie-vol-2",
+      "canonReview": "not_reviewed"
+    },
+    {
+      "id": "S08E22",
+      "season": 8,
+      "episode": 22,
+      "title": "Forever Charmed",
+      "airdate": "2006-05-21",
+      "source": "https://www.tvmaze.com/episodes/46227/charmed-8x22-forever-charmed",
+      "canonReview": "not_reviewed"
+    }
+  ]
+}

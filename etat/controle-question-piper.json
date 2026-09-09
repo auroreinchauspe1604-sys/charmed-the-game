@@ -1,0 +1,24 @@
+{
+  "question": {
+    "accepted": true,
+    "reason": "La question soulève un obstacle concret à la reconnaissance et à la transmission du rapport : Piper surveille l’accès extérieur, peut voir et atteindre l’Éclaireur, et dispose de son pouvoir explosif. Une interception est donc plausible sans devoir être déjà accomplie. Cela justifie la question sans préjuger de la réponse ni du résultat de la clé."
+  },
+  "answer": {
+    "accepted": false,
+    "reason": "La réponse ne traite pas l’interception possible avant l’examen de l’accès et la transmission du rapport. Le plateau établit que Piper surveille cet accès, peut voir et atteindre l’Éclaireur et dispose de son pouvoir explosif. Rester à l’extérieur et accepter d’être vu ne fournit aucun moyen concret de poursuivre la reconnaissance face à cette intervention. L’absence d’attaque déjà constatée ne permet pas de supposer Piper inactive. La réponse unique est donc insuffisante ; le retrait de c2 relève du verdict du soir, sans présumer la mort de l’Éclaireur.",
+    "sufficient": false,
+    "missing": 0,
+    "delay": 0,
+    "situationChanged": false,
+    "changeReason": "Aucun nouvel événement n’est établi par cette réponse.",
+    "dependsOn": [],
+    "canon": {
+      "status": "verified",
+      "facts": [
+        "character:piper-combustion",
+        "library:contrib:piper:4"
+      ],
+      "reason": "Les références fournies attestent la combustion moléculaire de Piper ; le plateau établit sa disponibilité et sa portée dans cette situation. Cette capacité rend l’interception plausible sans prouver qu’elle a déjà eu lieu."
+    }
+  }
+}

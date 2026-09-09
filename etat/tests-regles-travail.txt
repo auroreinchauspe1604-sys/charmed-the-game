@@ -1,0 +1,532 @@
+TAP version 13
+# Subtest: les faits revus possèdent des sources et passent le contrôle après leur épisode
+ok 1 - les faits revus possèdent des sources et passent le contrôle après leur épisode
+  ---
+  duration_ms: 594.9907
+  type: 'test'
+  ...
+# Subtest: la bibliothèque complète est privée à l’Ange ; pas transmise au camp adverse
+ok 2 - la bibliothèque complète est privée à l’Ange ; pas transmise au camp adverse
+  ---
+  duration_ms: 5.5174
+  type: 'test'
+  ...
+# Subtest: une lacune même accompagnée d’un refus ne devient pas une sanction
+ok 3 - une lacune même accompagnée d’un refus ne devient pas une sanction
+  ---
+  duration_ms: 21.0484
+  type: 'test'
+  ...
+# Subtest: un refus motivé sans lacune conserve la règle de réponse unique
+ok 4 - un refus motivé sans lacune conserve la règle de réponse unique
+  ---
+  duration_ms: 23.7045
+  type: 'test'
+  ...
+# Subtest: le brouillon inventorie ressources, objectifs, événements et épisodes sans certifier la recherche
+ok 5 - le brouillon inventorie ressources, objectifs, événements et épisodes sans certifier la recherche
+  ---
+  duration_ms: 0.5775
+  type: 'test'
+  ...
+# Subtest: les quatre dossiers spécialisés sont effectivement injectés avec leurs sources
+ok 6 - les quatre dossiers spécialisés sont effectivement injectés avec leurs sources
+  ---
+  duration_ms: 24.6834
+  type: 'test'
+  ...
+# Subtest: les nouvelles observations ne rendent pas les pouvoirs futurs disponibles avant leur épisode
+ok 7 - les nouvelles observations ne rendent pas les pouvoirs futurs disponibles avant leur épisode
+  ---
+  duration_ms: 16.2607
+  type: 'test'
+  ...
+# Subtest: le contexte de l’adversaire ne reçoit pas les biographies et solutions ajoutées
+ok 8 - le contexte de l’adversaire ne reçoit pas les biographies et solutions ajoutées
+  ---
+  duration_ms: 16.1293
+  type: 'test'
+  ...
+# Subtest: sources et identifiants des nouveaux faits restent uniques et résolubles
+ok 9 - sources et identifiants des nouveaux faits restent uniques et résolubles
+  ---
+  duration_ms: 8.3576
+  type: 'test'
+  ...
+# Subtest: lots terminés objets et démons accessibles uniquement à la direction
+ok 10 - lots terminés objets et démons accessibles uniquement à la direction
+  ---
+  duration_ms: 6.1062
+  type: 'test'
+  ...
+# Subtest: règles et journal v3, aucune migration silencieuse de v2
+ok 11 - règles et journal v3, aucune migration silencieuse de v2
+  ---
+  duration_ms: 5.8628
+  type: 'test'
+  ...
+# Subtest: une ressource suffit sur la voie principale si pertinente, résultat immédiat distinct du constat
+ok 12 - une ressource suffit sur la voie principale si pertinente, résultat immédiat distinct du constat
+  ---
+  duration_ms: 3.7864
+  type: 'test'
+  ...
+# Subtest: un seul coup, refus gratuit, gratuit après coup
+ok 13 - un seul coup, refus gratuit, gratuit après coup
+  ---
+  duration_ms: 1.9283
+  type: 'test'
+  ...
+# Subtest: aucun quota annoncé pour les contributions ouvertes
+ok 14 - aucun quota annoncé pour les contributions ouvertes
+  ---
+  duration_ms: 1.3735
+  type: 'test'
+  ...
+# Subtest: ajout pertinent et délai réel après préparation
+ok 15 - ajout pertinent et délai réel après préparation
+  ---
+  duration_ms: 0.9564
+  type: 'test'
+  ...
+# Subtest: nouvelle ressource peut remplir le besoin, pas de recette fermée
+ok 16 - nouvelle ressource peut remplir le besoin, pas de recette fermée
+  ---
+  duration_ms: 0.5697
+  type: 'test'
+  ...
+# Subtest: deux engagements de la même ressource sont interdits
+ok 17 - deux engagements de la même ressource sont interdits
+  ---
+  duration_ms: 0.679
+  type: 'test'
+  ...
+# Subtest: plusieurs clés sur un sous-état : pièces retenues jusqu’à preuve complète
+ok 18 - plusieurs clés sur un sous-état : pièces retenues jusqu’à preuve complète
+  ---
+  duration_ms: 2.0164
+  type: 'test'
+  ...
+# Subtest: récupération variable, sans effet sur le fait jaune acquis
+ok 19 - récupération variable, sans effet sur le fait jaune acquis
+  ---
+  duration_ms: 1.13
+  type: 'test'
+  ...
+# Subtest: usage unique consommé ; une personne ne peut pas être consommée
+ok 20 - usage unique consommé ; une personne ne peut pas être consommée
+  ---
+  duration_ms: 1.2648
+  type: 'test'
+  ...
+# Subtest: sous-états limités et phrase jamais action
+ok 21 - sous-états limités et phrase jamais action
+  ---
+  duration_ms: 1.1344
+  type: 'test'
+  ...
+# Subtest: une clé prête ne prouve pas un état, ni une clé destinée à une autre cible
+ok 22 - une clé prête ne prouve pas un état, ni une clé destinée à une autre cible
+  ---
+  duration_ms: 0.9325
+  type: 'test'
+  ...
+# Subtest: verrou permis sur racine, branche et chaque clé adverse, jamais soi
+ok 23 - verrou permis sur racine, branche et chaque clé adverse, jamais soi
+  ---
+  duration_ms: 0.6491
+  type: 'test'
+  ...
+# Subtest: un verrou ne regèle pas les anciennes pièces libérées et ne détruit pas le fait
+ok 24 - un verrou ne regèle pas les anciennes pièces libérées et ne détruit pas le fait
+  ---
+  duration_ms: 0.8512
+  type: 'test'
+  ...
+# Subtest: gardien nécessaire détruit : verrou tombe ; porte durable : auteur libéré
+ok 25 - gardien nécessaire détruit : verrou tombe ; porte durable : auteur libéré
+  ---
+  duration_ms: 0.8466
+  type: 'test'
+  ...
+# Subtest: clé spécifique réalisée lève seulement son verrou
+ok 26 - clé spécifique réalisée lève seulement son verrou
+  ---
+  duration_ms: 0.5631
+  type: 'test'
+  ...
+# Subtest: une question et une réponse soumise, refus terminal sans correction
+ok 27 - une question et une réponse soumise, refus terminal sans correction
+  ---
+  duration_ms: 1.1823
+  type: 'test'
+  ...
+# Subtest: réponse possible mais moyens manquants : dégel, préparation et chemin fixé
+ok 28 - réponse possible mais moyens manquants : dégel, préparation et chemin fixé
+  ---
+  duration_ms: 0.8123
+  type: 'test'
+  ...
+# Subtest: questions sur états également, pendant le bon passage
+ok 29 - questions sur états également, pendant le bon passage
+  ---
+  duration_ms: 0.9116
+  type: 'test'
+  ...
+# Subtest: suspension propagée aux dépendances sans suspendre les autres chemins
+ok 30 - suspension propagée aux dépendances sans suspendre les autres chemins
+  ---
+  duration_ms: 0.8463
+  type: 'test'
+  ...
+# Subtest: attaque : déclaration sans pièce, révélation seulement au matin avec nombre et date
+ok 31 - attaque : déclaration sans pièce, révélation seulement au matin avec nombre et date
+  ---
+  duration_ms: 1.4803
+  type: 'test'
+  ...
+# Subtest: attaque incomplète : échec obligatoire et avantage défenseur obligatoire
+ok 32 - attaque incomplète : échec obligatoire et avantage défenseur obligatoire
+  ---
+  duration_ms: 0.7567
+  type: 'test'
+  ...
+# Subtest: attaque : pas d’ajout après date, pas de nombre changé
+ok 33 - attaque : pas d’ajout après date, pas de nombre changé
+  ---
+  duration_ms: 0.5506
+  type: 'test'
+  ...
+# Subtest: attaque complète : vol transfère la cible et restitue les moyens
+ok 34 - attaque complète : vol transfère la cible et restitue les moyens
+  ---
+  duration_ms: 0.6447
+  type: 'test'
+  ...
+# Subtest: question avant échéance : droit à réponse préservé sans délai pour assembler
+ok 35 - question avant échéance : droit à réponse préservé sans délai pour assembler
+  ---
+  duration_ms: 0.8834
+  type: 'test'
+  ...
+# Subtest: question sans réponse : reste suspendue sans retrait automatique de la clé
+ok 36 - question sans réponse : reste suspendue sans retrait automatique de la clé
+  ---
+  duration_ms: 0.9716
+  type: 'test'
+  ...
+# Subtest: calendrier J3 : deux copies automatiques, libres, sans preuve et sans coup
+ok 37 - calendrier J3 : deux copies automatiques, libres, sans preuve et sans coup
+  ---
+  duration_ms: 1.4689
+  type: 'test'
+  ...
+# Subtest: ressource gratuite hors passage sauf Radio ; personnage unique non duplicable
+ok 38 - ressource gratuite hors passage sauf Radio ; personnage unique non duplicable
+  ---
+  duration_ms: 0.4759
+  type: 'test'
+  ...
+# Subtest: ingrédient perdu : potion impossible et aucun coup perdu
+ok 39 - ingrédient perdu : potion impossible et aucun coup perdu
+  ---
+  duration_ms: 0.2917
+  type: 'test'
+  ...
+# Subtest: objectif vrai mais encore attaquable : aucune victoire prématurée
+ok 40 - objectif vrai mais encore attaquable : aucune victoire prématurée
+  ---
+  duration_ms: 0.5385
+  type: 'test'
+  ...
+# Subtest: preuve complète assurée : victoire ; branches optionnelles non imposées
+ok 41 - preuve complète assurée : victoire ; branches optionnelles non imposées
+  ---
+  duration_ms: 0.4244
+  type: 'test'
+  ...
+# Subtest: maintien rompu ne se répare pas en victoire à la date finale
+ok 42 - maintien rompu ne se répare pas en victoire à la date finale
+  ---
+  duration_ms: 0.4698
+  type: 'test'
+  ...
+# Subtest: échéance sans vainqueur, aucun coup payé après échéance
+ok 43 - échéance sans vainqueur, aucun coup payé après échéance
+  ---
+  duration_ms: 0.53
+  type: 'test'
+  ...
+# Subtest: lot de résolutions incomplet refusé
+ok 44 - lot de résolutions incomplet refusé
+  ---
+  duration_ms: 0.3812
+  type: 'test'
+  ...
+# Subtest: journal : transaction atomique, verrou, rejeu et révision
+ok 45 - journal : transaction atomique, verrou, rejeu et révision
+  ---
+  duration_ms: 17.7225
+  type: 'test'
+  ...
+# Subtest: service : proposition sans résolution, jugement le soir puis bulletin du matin
+ok 46 - service : proposition sans résolution, jugement le soir puis bulletin du matin
+  ---
+  duration_ms: 22.9973
+  type: 'test'
+  ...
+# Subtest: service : panne du soir préserve les poses et ne produit aucun verdict partiel
+ok 47 - service : panne du soir préserve les poses et ne produit aucun verdict partiel
+  ---
+  duration_ms: 18.8383
+  type: 'test'
+  ...
+# Subtest: service : panne IA ne saute pas son tour
+ok 48 - service : panne IA ne saute pas son tour
+  ---
+  duration_ms: 9.0569
+  type: 'test'
+  ...
+# Subtest: arbitre reçoit le budget moteur sans ancien commentaire contradictoire
+ok 49 - arbitre reçoit le budget moteur sans ancien commentaire contradictoire
+  ---
+  duration_ms: 53.1964
+  type: 'test'
+  ...
+# Subtest: canon : références tardives et magie inconnue refusées, moyens ordinaires admis
+ok 50 - canon : références tardives et magie inconnue refusées, moyens ordinaires admis
+  ---
+  duration_ms: 21.653
+  type: 'test'
+  ...
+# Subtest: aucun usage implicite d’une carte non engagée dans le résultat
+ok 51 - aucun usage implicite d’une carte non engagée dans le résultat
+  ---
+  duration_ms: 0.8461
+  type: 'test'
+  ...
+# Subtest: une identité canonique ne se duplique pas avec un nom court
+ok 52 - une identité canonique ne se duplique pas avec un nom court
+  ---
+  duration_ms: 0.5011
+  type: 'test'
+  ...
+# Subtest: une ancienne preuve retirée ne donne pas de victoire par statut vrai resté affiché
+ok 53 - une ancienne preuve retirée ne donne pas de victoire par statut vrai resté affiché
+  ---
+  duration_ms: 0.4684
+  type: 'test'
+  ...
+# Subtest: attaque à échéance : une occasion de répondre non saisie ne prolonge pas la tentative
+ok 54 - attaque à échéance : une occasion de répondre non saisie ne prolonge pas la tentative
+  ---
+  duration_ms: 0.6257
+  type: 'test'
+  ...
+# Subtest: attaque : au moins une ressource libre en main, pour les deux camps, sans engagement automatique
+ok 55 - attaque : au moins une ressource libre en main, pour les deux camps, sans engagement automatique
+  ---
+  duration_ms: 0.538
+  type: 'test'
+  ...
+# Subtest: réponse enregistrée puis jugée uniquement le soir
+ok 56 - réponse enregistrée puis jugée uniquement le soir
+  ---
+  duration_ms: 0.6511
+  type: 'test'
+  ...
+# Subtest: état questionné non arbitré sans réponse, rejet conserve son objectif
+ok 57 - état questionné non arbitré sans réponse, rejet conserve son objectif
+  ---
+  duration_ms: 0.2551
+  type: 'test'
+  ...
+# Subtest: renfort pertinent possible sur clé prête, un coup et pas de double engagement
+ok 58 - renfort pertinent possible sur clé prête, un coup et pas de double engagement
+  ---
+  duration_ms: 0.2815
+  type: 'test'
+  ...
+# Subtest: adversaire ne reçoit pas la réponse privée ni les détails de pose
+ok 59 - adversaire ne reçoit pas la réponse privée ni les détails de pose
+  ---
+  duration_ms: 0.8255
+  type: 'test'
+  ...
+# Subtest: les 25 fiches de construction ont des sources et des conditions résolubles
+ok 60 - les 25 fiches de construction ont des sources et des conditions résolubles
+  ---
+  duration_ms: 3.4857
+  type: 'test'
+  ...
+# Subtest: Piper : combustion avant et après acquisition, sans anticipation en saison large
+ok 61 - Piper : combustion avant et après acquisition, sans anticipation en saison large
+  ---
+  duration_ms: 62.6085
+  type: 'test'
+  ...
+# Subtest: Phoebe : la privation reste bloquante et seule la prémonition est rétablie
+ok 62 - Phoebe : la privation reste bloquante et seule la prémonition est rétablie
+  ---
+  duration_ms: 43.3874
+  type: 'test'
+  ...
+# Subtest: une référence biographique ne permet plus Prue vivante après la transition
+ok 63 - une référence biographique ne permet plus Prue vivante après la transition
+  ---
+  duration_ms: 9.7168
+  type: 'test'
+  ...
+# Subtest: les connaissances adverses ne reçoivent ni le complot complet ni les fiches de solutions
+ok 64 - les connaissances adverses ne reçoivent ni le complot complet ni les fiches de solutions
+  ---
+  duration_ms: 13.6947
+  type: 'test'
+  ...
+# Subtest: l’arbitre reçoit les références sans publier le contexte dans le plateau
+ok 65 - l’arbitre reçoit les références sans publier le contexte dans le plateau
+  ---
+  duration_ms: 23.0828
+  type: 'test'
+  ...
+# Subtest: résolution : référence canonique inventée rejetée avant tout résultat
+ok 66 - résolution : référence canonique inventée rejetée avant tout résultat
+  ---
+  duration_ms: 35.0395
+  type: 'test'
+  ...
+# Subtest: résolution ordinaire garde un audit et reste recevable
+ok 67 - résolution ordinaire garde un audit et reste recevable
+  ---
+  duration_ms: 22.2998
+  type: 'test'
+  ...
+# Subtest: préparation : un brouillon ne démarre pas de partie et conserve les incertitudes
+ok 68 - préparation : un brouillon ne démarre pas de partie et conserve les incertitudes
+  ---
+  duration_ms: 25.6035
+  type: 'test'
+  ...
+# Subtest: les fiches renvoient à des personnages, sources et épisodes existants
+ok 69 - les fiches renvoient à des personnages, sources et épisodes existants
+  ---
+  duration_ms: 3.2293
+  type: 'test'
+  ...
+# Subtest: combustion de Piper : distinguer avant, pendant et après Exit Strategy
+ok 70 - combustion de Piper : distinguer avant, pendant et après Exit Strategy
+  ---
+  duration_ms: 1.2748
+  type: 'test'
+  ...
+# Subtest: la saison seule ne suffit pas à dater une capacité
+ok 71 - la saison seule ne suffit pas à dater une capacité
+  ---
+  duration_ms: 0.906
+  type: 'test'
+  ...
+# Subtest: une scène non située dans son épisode exige une précision
+ok 72 - une scène non située dans son épisode exige une précision
+  ---
+  duration_ms: 0.4535
+  type: 'test'
+  ...
+# Subtest: Prue : expérience empathique temporaire distincte de sa projection astrale
+ok 73 - Prue : expérience empathique temporaire distincte de sa projection astrale
+  ---
+  duration_ms: 0.5426
+  type: 'test'
+  ...
+# Subtest: la mort de Prue reste visible même lorsque ses acquisitions sont historiques
+ok 74 - la mort de Prue reste visible même lorsque ses acquisitions sont historiques
+  ---
+  duration_ms: 0.4267
+  type: 'test'
+  ...
+# Subtest: Phoebe : la restauration des visions ne restaure pas automatiquement les autres pouvoirs
+ok 75 - Phoebe : la restauration des visions ne restaure pas automatiquement les autres pouvoirs
+  ---
+  duration_ms: 0.8343
+  type: 'test'
+  ...
+# Subtest: Paige : guérison avec Leo et guérison autonome restent distinctes
+ok 76 - Paige : guérison avec Leo et guérison autonome restent distinctes
+  ---
+  duration_ms: 0.6596
+  type: 'test'
+  ...
+# Subtest: les comics et le reboot ne sont pas assimilés à la télévision originale
+ok 77 - les comics et le reboot ne sont pas assimilés à la télévision originale
+  ---
+  duration_ms: 0.8903
+  type: 'test'
+  ...
+# Subtest: la preuve incomplète reste visible et un personnage inconnu ne reçoit aucun profil inventé
+ok 78 - la preuve incomplète reste visible et un personnage inconnu ne reçoit aucun profil inventé
+  ---
+  duration_ms: 1.0129
+  type: 'test'
+  ...
+# Subtest: le bestiaire et les règles possèdent des références documentaires résolubles
+ok 79 - le bestiaire et les règles possèdent des références documentaires résolubles
+  ---
+  duration_ms: 3.4531
+  type: 'test'
+  ...
+# Subtest: le Nexus se consulte comme lieu de pouvoir, jamais comme démon
+ok 80 - le Nexus se consulte comme lieu de pouvoir, jamais comme démon
+  ---
+  duration_ms: 0.4089
+  type: 'test'
+  ...
+# Subtest: Javna et les anges sont des entrées distinctes de natures différentes
+ok 81 - Javna et les anges sont des entrées distinctes de natures différentes
+  ---
+  duration_ms: 1.3385
+  type: 'test'
+  ...
+# Subtest: un contre-moyen partiel ne devient ni recette inventée ni autorisation de coup
+ok 82 - un contre-moyen partiel ne devient ni recette inventée ni autorisation de coup
+  ---
+  duration_ms: 0.268
+  type: 'test'
+  ...
+# Subtest: une source par extrait conserve sa limite dans le contexte transmis
+ok 83 - une source par extrait conserve sa limite dans le contexte transmis
+  ---
+  duration_ms: 0.3105
+  type: 'test'
+  ...
+# Subtest: la consultation ne modifie pas le corpus partagé et refuse les fausses références
+ok 84 - la consultation ne modifie pas le corpus partagé et refuse les fausses références
+  ---
+  duration_ms: 0.459
+  type: 'test'
+  ...
+# Subtest: départ du siège et séparation du scénario précédent
+ok 85 - départ du siège et séparation du scénario précédent
+  ---
+  duration_ms: 4.0081
+  type: 'test'
+  ...
+# Subtest: objectif en maintien : aucune victoire automatique au premier jour
+ok 86 - objectif en maintien : aucune victoire automatique au premier jour
+  ---
+  duration_ms: 1.3111
+  type: 'test'
+  ...
+# Subtest: avis distribué une seule fois au matin 3 aux deux camps
+ok 87 - avis distribué une seule fois au matin 3 aux deux camps
+  ---
+  duration_ms: 1.1994
+  type: 'test'
+  ...
+1..87
+# tests 87
+# suites 0
+# pass 87
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 840.2497

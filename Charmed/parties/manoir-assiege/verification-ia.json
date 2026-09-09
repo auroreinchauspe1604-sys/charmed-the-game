@@ -1,0 +1,48 @@
+{
+  "scope": "Copies en mémoire uniquement, aucun coup joué dans le journal utilisateur.",
+  "proposal": {
+    "accepted": true,
+    "reason": "Affirmation constatable et pertinente pour coordonner la défense du sous-sol. Un emplacement est disponible et le coup du passage n’a pas été dépensé. Le sous-état commence faux.",
+    "sufficient": true,
+    "missing": 0,
+    "delay": 0,
+    "situationChanged": false,
+    "changeReason": "",
+    "dependsOn": [],
+    "canon": {
+      "status": "ordinary",
+      "facts": [],
+      "reason": "Objectif de connaissance sans effet magique revendiqué."
+    },
+    "title": "Les accès du sous-sol sont connus des trois sœurs.",
+    "effect": "Le sous-état sera vrai lorsque Piper, Phoebe et Paige connaîtront les accès du sous-sol. Sa création n’établit pas cette connaissance et ne protège pas les accès.",
+    "requiredCount": 0,
+    "resource": {
+      "title": "",
+      "description": "",
+      "category": "",
+      "icon": "",
+      "canonicalId": "",
+      "unique": false
+    },
+    "costs": []
+  },
+  "opponent": {
+    "moves": [
+      {
+        "type": "propose",
+        "kind": "subgoal",
+        "target": "root-commanditaire",
+        "resource": "",
+        "text": "Un accès matériel menant de l’extérieur au sous-sol est repéré, et ses obstacles physiques observables sont identifiés. Ce sous-état doit permettre de préparer une intrusion par un trajet reconnu. Il commence faux ; il ne suppose ni accès déjà ouvert, ni protection magique connue, ni neutralisation des sœurs."
+      },
+      {
+        "type": "end",
+        "kind": "",
+        "target": "",
+        "resource": "",
+        "text": "Je termine mon passage."
+      }
+    ]
+  }
+}

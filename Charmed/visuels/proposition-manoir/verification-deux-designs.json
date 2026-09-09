@@ -1,0 +1,182 @@
+[
+  {
+    "design": "01-livre-des-ombres",
+    "viewport": [
+      1536,
+      960
+    ],
+    "pageOverflow": false,
+    "panels": [
+      {
+        "name": "Le Livre des Ombres",
+        "overflow": false
+      },
+      {
+        "name": "🗓 Calendrier de la partie",
+        "overflow": false
+      },
+      {
+        "name": "Le tour",
+        "overflow": false
+      },
+      {
+        "name": "⚖️ L’arbitre",
+        "overflow": false
+      }
+    ],
+    "camps": [
+      true,
+      true
+    ]
+  },
+  {
+    "design": "01-livre-des-ombres",
+    "viewport": [
+      1366,
+      768
+    ],
+    "pageOverflow": false,
+    "panels": [
+      {
+        "name": "Le Livre des Ombres",
+        "overflow": false
+      },
+      {
+        "name": "🗓 Calendrier de la partie",
+        "overflow": false
+      },
+      {
+        "name": "Le tour",
+        "overflow": false
+      },
+      {
+        "name": "⚖️ L’arbitre",
+        "overflow": false
+      }
+    ],
+    "camps": [
+      true,
+      true
+    ]
+  },
+  {
+    "design": "01-livre-des-ombres",
+    "viewport": [
+      1920,
+      1080
+    ],
+    "pageOverflow": false,
+    "panels": [
+      {
+        "name": "Le Livre des Ombres",
+        "overflow": false
+      },
+      {
+        "name": "🗓 Calendrier de la partie",
+        "overflow": false
+      },
+      {
+        "name": "Le tour",
+        "overflow": false
+      },
+      {
+        "name": "⚖️ L’arbitre",
+        "overflow": false
+      }
+    ],
+    "camps": [
+      true,
+      true
+    ]
+  },
+  {
+    "design": "02-les-fondateurs",
+    "viewport": [
+      1536,
+      960
+    ],
+    "pageOverflow": false,
+    "panels": [
+      {
+        "name": "Les Fondateurs",
+        "overflow": false
+      },
+      {
+        "name": "🗓 Calendrier de la partie",
+        "overflow": false
+      },
+      {
+        "name": "Le tour",
+        "overflow": false
+      },
+      {
+        "name": "⚖️ L’arbitre",
+        "overflow": false
+      }
+    ],
+    "camps": [
+      true,
+      true
+    ]
+  },
+  {
+    "design": "02-les-fondateurs",
+    "viewport": [
+      1366,
+      768
+    ],
+    "pageOverflow": false,
+    "panels": [
+      {
+        "name": "Les Fondateurs",
+        "overflow": false
+      },
+      {
+        "name": "🗓 Calendrier de la partie",
+        "overflow": false
+      },
+      {
+        "name": "Le tour",
+        "overflow": false
+      },
+      {
+        "name": "⚖️ L’arbitre",
+        "overflow": false
+      }
+    ],
+    "camps": [
+      true,
+      true
+    ]
+  },
+  {
+    "design": "02-les-fondateurs",
+    "viewport": [
+      1920,
+      1080
+    ],
+    "pageOverflow": false,
+    "panels": [
+      {
+        "name": "Les Fondateurs",
+        "overflow": false
+      },
+      {
+        "name": "🗓 Calendrier de la partie",
+        "overflow": false
+      },
+      {
+        "name": "Le tour",
+        "overflow": false
+      },
+      {
+        "name": "⚖️ L’arbitre",
+        "overflow": false
+      }
+    ],
+    "camps": [
+      true,
+      true
+    ]
+  }
+]

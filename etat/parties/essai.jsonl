@@ -1,0 +1,3 @@
+{"camp": "noir", "coup": "viser", "id": "n-la-reine-est-assise-sur", "texte": "La reine est assise sur le Trone de Fer", "n": 1, "tour": 1}
+{"camp": "vert", "coup": "viser", "id": "v-le-trone-de-fer-est-a-no", "texte": "Le Trone de Fer est a nous", "n": 2, "tour": 1}
+{"camp": "arbitre", "coup": "tour", "n": 3, "tour": 2, "arrivees": [], "degeles": [], "menaces": [], "parees": [], "parades_tenues": [], "etats_arrives": [], "constatables": [], "inactifs": [], "branches_mortes": [], "jours": 2}

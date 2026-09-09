@@ -1,0 +1,403 @@
+{
+  "date": "2026-09-08T03:44:52.687Z",
+  "scope": "Essais IA sur E.initial() en mémoire, sans Store ni journal de partie.",
+  "results": [
+    {
+      "name": "moyen-ordinaire",
+      "passed": true,
+      "durationMs": 19656,
+      "result": {
+        "accepted": true,
+        "reason": "Nina est libre et propose de prêter un objet ordinaire accessible chez elle. Aucun doublon ni ingrédient consommé ; la proposition est gratuite.",
+        "sufficient": true,
+        "missing": 0,
+        "delay": 0,
+        "situationChanged": false,
+        "changeReason": "",
+        "dependsOn": [],
+        "canon": {
+          "status": "ordinary",
+          "facts": [],
+          "reason": "Objet ordinaire sans propriété magique."
+        },
+        "title": "Lampe torche de Nina",
+        "effect": "Fournit un moyen matériel d’éclairer un endroit sombre lors d’un usage ultérieur pertinent ; aucun éclairage ni résultat sur le plateau n’est réalisé par cette proposition.",
+        "requiredCount": 0,
+        "resource": {
+          "title": "Lampe torche de Nina",
+          "description": "Lampe torche ordinaire rangée chez Nina, qu’elle accepte de prêter maintenant pour éclairer un endroit sombre. Sans magie.",
+          "category": "objet",
+          "icon": "🔦",
+          "canonicalId": "lampe-torche-de-nina",
+          "unique": false
+        },
+        "costs": []
+      }
+    },
+    {
+      "name": "levitation-saison-1",
+      "passed": true,
+      "durationMs": 14062,
+      "result": {
+        "accepted": false,
+        "reason": "Phoebe ne possède pas la lévitation en saison 1. Le moyen proposé est incompatible avec la période : proposition refusée gratuitement, sans engagement de ressource ni réalisation.",
+        "sufficient": true,
+        "missing": 0,
+        "delay": 0,
+        "situationChanged": false,
+        "changeReason": "",
+        "dependsOn": [],
+        "canon": {
+          "status": "unverified",
+          "facts": [],
+          "reason": "La lévitation personnelle proposée contredit les capacités de Phoebe établies pour cette partie en saison 1."
+        },
+        "title": "Porter Élise hors de portée par lévitation",
+        "effect": "Effet proposé : Phoebe porte Élise hors de portée grâce à sa lévitation personnelle. Aucun effet réalisé ; la clé est refusée.",
+        "requiredCount": 0,
+        "resource": {
+          "title": "",
+          "description": "",
+          "category": "",
+          "icon": "",
+          "canonicalId": "",
+          "unique": false
+        },
+        "costs": []
+      }
+    },
+    {
+      "name": "resolution-sans-acte",
+      "passed": true,
+      "durationMs": 11436,
+      "result": {
+        "outcomes": [],
+        "states": [],
+        "facts": [],
+        "fallenLocks": [],
+        "victory": [
+          {
+            "root": "root-phoebe",
+            "allConditions": false,
+            "secure": false,
+            "reason": "Élise est vivante, mais l’empêchement de la tentative de meurtre n’est pas établi."
+          },
+          {
+            "root": "root-commanditaire",
+            "allConditions": false,
+            "secure": false,
+            "reason": "Élise est vivante ; la condition de mort n’est pas satisfaite."
+          }
+        ],
+        "canon": {
+          "status": "ordinary",
+          "facts": [],
+          "reason": "Aucun acte candidat à résoudre et aucun nouvel effet magique établi."
+        }
+      }
+    },
+    {
+      "name": "resolution-accord-nina",
+      "passed": true,
+      "durationMs": 17299,
+      "result": {
+        "result": {
+          "outcomes": [
+            {
+              "id": "c1",
+              "success": true,
+              "reason": "Nina peut donner son propre accord avec la seule ressource engagée. Aucun délai ni obstacle ne s’y oppose.",
+              "established": "Nina accepte d’accueillir Élise chez elle si Élise souhaite venir. L’accord d’Élise, son déplacement et sa sécurité ne sont pas établis.",
+              "usedResources": [
+                "nina"
+              ],
+              "losses": [],
+              "consume": [],
+              "recovery": [
+                {
+                  "id": "nina",
+                  "days": 0
+                }
+              ],
+              "maintainers": [],
+              "transfers": [],
+              "defenderBenefit": ""
+            }
+          ],
+          "states": [],
+          "facts": [
+            "Nina accepte d’accueillir Élise chez elle si Élise souhaite venir."
+          ],
+          "fallenLocks": [],
+          "victory": [
+            {
+              "root": "root-phoebe",
+              "allConditions": false,
+              "secure": false,
+              "reason": "Élise est vivante, mais la tentative annoncée n’est pas empêchée. Le seul accord de Nina ne constitue aucune protection effective."
+            },
+            {
+              "root": "root-commanditaire",
+              "allConditions": false,
+              "secure": false,
+              "reason": "Élise est vivante. Phoebe dispose encore de moyens libres et de temps avant l’échéance pour agir en sa faveur."
+            }
+          ],
+          "canon": {
+            "status": "ordinary",
+            "facts": [],
+            "reason": "Le résultat repose uniquement sur le consentement ordinaire de Nina."
+          }
+        },
+        "state": {
+          "version": 3,
+          "ruleset": "charmed-actees-2026-09-08",
+          "revision": 0,
+          "day": 1,
+          "phase": "player",
+          "spent": {
+            "phoebe": true,
+            "commanditaire": false
+          },
+          "nextId": 2,
+          "title": "Avant que la vision s'accomplisse",
+          "subgoalSlots": {
+            "phoebe": 3,
+            "commanditaire": 2
+          },
+          "resources": [
+            {
+              "id": "phoebe",
+              "title": "Phoebe Halliwell",
+              "icon": "🔮",
+              "category": "personnage",
+              "description": "Prémonitions liées à Phoebe, enquête et dialogue. Saison 1 : pas de lévitation, empathie, télékinésie ou pouvoir offensif inventé. Une vision n’est pas une réponse garantie à volonté.",
+              "owner": "phoebe",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "nina",
+              "title": "Nina",
+              "icon": "👩",
+              "category": "personnage",
+              "description": "Amie d’Élise : témoigner, avertir, accompagner. Ne connaît pas le commanditaire.",
+              "owner": "phoebe",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false,
+              "recoveryUntil": 1
+            },
+            {
+              "id": "jules",
+              "title": "Jules",
+              "icon": "🚕",
+              "category": "personnage",
+              "description": "Chauffeur : conduire à une destination connue et accessible.",
+              "owner": "phoebe",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "carnet",
+              "title": "Carnet de la vision",
+              "icon": "📓",
+              "category": "objet",
+              "description": "Notes de la vision initiale, pas un pouvoir autonome.",
+              "owner": "phoebe",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "dossier-reception",
+              "title": "Invitation d’Élise",
+              "icon": "✉️",
+              "category": "objet",
+              "description": "Invitation matérielle dans le sac d’Élise, destinée à la réception annoncée. Consultable avec son accord. Son contenu n’a pas encore été lu par Phoebe ; ce document ne contient ni la solution de l’enquête ni des renseignements inventés.",
+              "owner": "phoebe",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "refuge",
+              "title": "Chambre chez Nina",
+              "icon": "🏠",
+              "category": "lieu",
+              "description": "Refuge matériel ; Élise doit accepter d’y aller. Aucun bouclier magique.",
+              "owner": "phoebe",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "commanditaire",
+              "title": "Le commanditaire",
+              "icon": "🎭",
+              "category": "personnage",
+              "description": "Humain original, sans pouvoir magique. Cherche la mort d’Élise.",
+              "owner": "commanditaire",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "intermediaire",
+              "title": "Intermédiaire",
+              "icon": "🧥",
+              "category": "personnage",
+              "description": "Transmet une convocation et cherche des renseignements par des moyens ordinaires.",
+              "owner": "commanditaire",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "gardien",
+              "title": "Gardien",
+              "icon": "👁️",
+              "category": "personnage",
+              "description": "Surveille un accès précis de la galerie. Ne surveille pas toute la ville.",
+              "owner": "commanditaire",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "convocation",
+              "title": "Convocation",
+              "icon": "📨",
+              "category": "objet",
+              "description": "Moyen de rendez-vous ; n’oblige pas Élise à se déplacer.",
+              "owner": "commanditaire",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "acces-galerie",
+              "title": "Accès à la galerie",
+              "icon": "🗝️",
+              "category": "objet",
+              "description": "Accès matériel détenu par le camp adverse.",
+              "owner": "commanditaire",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false
+            },
+            {
+              "id": "elise",
+              "title": "Élise Moreau",
+              "icon": "🧣",
+              "category": "personnage",
+              "owner": "phoebe",
+              "description": "Innocente à protéger. Elle peut être visée, mais ne peut pas être engagée comme un moyen sans une action établissant son accord.",
+              "availableDay": 1,
+              "preparation": false,
+              "heldBy": null,
+              "lost": false,
+              "consumed": false,
+              "subject": true
+            }
+          ],
+          "nodes": [
+            {
+              "id": "root-phoebe",
+              "owner": "phoebe",
+              "title": "Élise est vivante et la tentative de meurtre annoncée est empêchée au plus tard au matin du jour 12.",
+              "type": "state",
+              "parent": null,
+              "goalMode": "achieve",
+              "status": "open",
+              "description": "Élise est vivante et la tentative de meurtre annoncée est empêchée au plus tard au matin du jour 12."
+            },
+            {
+              "id": "root-commanditaire",
+              "owner": "commanditaire",
+              "title": "Élise est morte au plus tard au matin du jour 12.",
+              "type": "state",
+              "parent": null,
+              "goalMode": "achieve",
+              "status": "open",
+              "description": "Élise est morte au plus tard au matin du jour 12."
+            },
+            {
+              "id": "c1",
+              "owner": "phoebe",
+              "type": "key",
+              "title": "Accord de Nina",
+              "description": "Nina donne à Phoebe son accord pour accueillir Élise chez elle si Élise souhaite venir. Cette contribution prouve seulement le consentement de Nina, pas le déplacement ou la sécurité d’Élise.",
+              "effect": "Nina accepte d’accueillir Élise si celle-ci souhaite venir.",
+              "target": "root-phoebe",
+              "scope": "main",
+              "discovery": true,
+              "pieces": [
+                "nina"
+              ],
+              "missing": 0,
+              "status": "acquired",
+              "createdDay": 1,
+              "delay": 0,
+              "dependsOn": [],
+              "recovery": {
+                "nina": 0
+              },
+              "maintainers": [],
+              "requiredCount": 1,
+              "readyDay": 1,
+              "dueDay": 1,
+              "established": "Nina accepte d’accueillir Élise chez elle si Élise souhaite venir. L’accord d’Élise, son déplacement et sa sécurité ne sont pas établis.",
+              "acquiredDay": 1
+            }
+          ],
+          "questions": [],
+          "facts": [
+            "Élise est vivante. Phoebe a reçu la vision initiale.",
+            "Nina accepte d’accueillir Élise chez elle si Élise souhaite venir. L’accord d’Élise, son déplacement et sa sécurité ne sont pas établis.",
+            "Nina accepte d’accueillir Élise chez elle si Élise souhaite venir."
+          ],
+          "result": null,
+          "radio": [
+            {
+              "day": 1,
+              "text": "En ramassant le foulard d’Élise Moreau, Phoebe voit une verrière étoilée, un rideau rouge et une enveloppe ouverte. « Tu n’aurais pas dû garder la copie. » Puis le bruit du verre. Élise a dans son sac une invitation à une réception prévue dans onze jours ; Phoebe ne l’a pas encore consultée. La vision cesse : Élise est devant toi, vivante. Tu ignores le lieu exact et qui lui veut du mal."
+            }
+          ],
+          "arbitration": [
+            {
+              "day": 1,
+              "text": "Moyens réunis : résolution immédiate.\nCondition visée : Nina accepte d’accueillir Élise si celle-ci souhaite venir.\nLa réalisation ne valide pas automatiquement la phrase entière de l’état."
+            }
+          ],
+          "opponent": [],
+          "appliedEvents": []
+        }
+      }
+    }
+  ]
+}

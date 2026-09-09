@@ -1,0 +1,133 @@
+{
+  "schema": "charmed-gameplay-capacity-1",
+  "capacities": {
+    "phoebe": 3,
+    "commanditaire": 2
+  },
+  "method": "Maximum des besoins de places de deux chemins causaux alternatifs par camp, avec calendrier séquentiel contrôlé. Estimation narrative sans opposition, pas une preuve d’équilibrage.",
+  "routes": [
+    {
+      "camp": "phoebe",
+      "title": "Mettre Élise à l’abri jusqu’à l’échéance",
+      "sufficiency": "Trois sous-objectifs, neuf coups : derniers moyens posés J9, première résolution possible J10. La victoire attend J12 : Élise doit être vivante et la protection effectivement empêcher la tentative. Un refuge simplement occupé ne suffit pas. Ce chemin suppose que les démarches établissent réellement les conditions indiquées.",
+      "branches": [
+        {
+          "condition": "Élise comprend la menace et accepte explicitement le départ et la protection jusqu’à J12.",
+          "contribution": "Création J1, Nina J2, carnet J3 ; constat J4. Nina présente les fragments déjà consignés, sans ajouter de révélation. Son concours et celui d’Élise doivent être établis.",
+          "resources": [
+            "nina",
+            "carnet"
+          ],
+          "attack": false
+        },
+        {
+          "condition": "Élise a effectivement rejoint la chambre chez Nina sans que son déplacement ait livré sa destination au camp adverse.",
+          "contribution": "Création J4, Jules J5, refuge J6 ; constat J7. Le transport concerne Élise consentante. Le constat exige un trajet accompli et des circonstances établies ; il ne confère aucune invisibilité.",
+          "resources": [
+            "jules",
+            "refuge"
+          ],
+          "attack": false
+        },
+        {
+          "condition": "Élise reste dans ce refuge, sans rendez-vous exposant, et les circonstances effectivement établies empêchent le commanditaire de l’atteindre avant le matin J12.",
+          "contribution": "Création J7, Phoebe J8, Nina J9 ; premier constat J10, contrôle final J12. Leur accompagnement organise les contacts et évite une nouvelle sortie dangereuse. La présence nécessaire reste mobilisée, ongoing=true. Si la destination est découverte ou qu’un accès meurtrier demeure possible, la protection n’est pas suffisante ; toute rupture rend explicitement l’état faux.",
+          "resources": [
+            "phoebe",
+            "nina"
+          ],
+          "attack": false
+        }
+      ],
+      "completionMorning": 10
+    },
+    {
+      "camp": "phoebe",
+      "title": "Obtenir le démantèlement volontaire du projet meurtrier",
+      "sufficiency": "Trois sous-objectifs, neuf coups, résolus au plus tôt J4, J7 et J10. Cette alternative humaine dépend de renseignements réellement obtenus et de décisions volontaires, jamais d’une persuasion garantie. Elle suffit seulement si tous les participants renoncent effectivement, qu’aucun exécutant autonome ne reste actif et qu’Élise demeure vivante jusqu’à J12.",
+      "branches": [
+        {
+          "condition": "Phoebe a identifié le responsable et un moyen réel de lui parler, ainsi que les participants dont dépend la tentative.",
+          "contribution": "Création J1, dossier de réception J2, Phoebe J3 ; constat J4. Les contacts permettent une enquête et des échanges, pas une identification automatique. Si les réponses obtenues ne permettent pas cette identification, la branche reste fausse.",
+          "resources": [
+            "dossier-reception",
+            "phoebe"
+          ],
+          "attack": false
+        },
+        {
+          "condition": "Le commanditaire a réellement renoncé au meurtre et transmis l’annulation de ses instructions aux complices identifiés.",
+          "contribution": "Création J4, Phoebe J5, carnet J6 ; constat J7. Phoebe peut exposer le danger et proposer une issue sans meurtre. Le carnet relate une vision : il ne constitue ni une preuve judiciaire ni un pouvoir de contrainte. Une simple promesse ne valide pas la branche.",
+          "resources": [
+            "phoebe",
+            "carnet"
+          ],
+          "attack": false
+        },
+        {
+          "condition": "Les complices ont reçu l’annulation, cessé leurs préparatifs et renoncé à agir eux-mêmes ; cette cessation tient jusqu’à J12.",
+          "contribution": "Création J7, Phoebe J8, Nina J9 ; premier constat J10. Les échanges doivent établir la cessation effective chez chaque participant identifié. Nina ne connaît pas initialement le commanditaire : les coordonnées utiles doivent provenir de l’enquête. Toute reprise constatée rend l’état faux ; si le suivi exige leur présence, ongoing=true jusqu’à J12.",
+          "resources": [
+            "phoebe",
+            "nina"
+          ],
+          "attack": false
+        }
+      ],
+      "completionMorning": 10
+    },
+    {
+      "camp": "commanditaire",
+      "title": "Préparer une rencontre meurtrière dans la galerie",
+      "sufficiency": "Deux sous-objectifs témoins, dont le second nécessite une attaque distincte. Son coup de création est compté séparément de la déclaration d’attaque. Une attaque résolue doit effectivement causer la mort ; aucune convocation ou création d’état ne la produit gratuitement. Chemin conditionnel sans opposition ; les faits et la faisabilité restent à arbitrer.",
+      "branches": [
+        {
+          "condition": "Élise a volontairement accepté un rendez-vous précis à la galerie, à une date compatible avec la préparation de l’attaque.",
+          "contribution": "Création J1, intermédiaire J2, convocation J3 ; constat J4. L’intermédiaire doit réellement lui transmettre l’invitation et obtenir sa réponse. L’accord n’établit pas encore sa présence future.",
+          "resources": [
+            "intermediaire",
+            "convocation"
+          ],
+          "attack": false
+        },
+        {
+          "condition": "Élise s’est effectivement présentée, le commanditaire a pu l’approcher et une agression physique mortelle a effectivement causé sa mort avant J12.",
+          "contribution": "Création du second sous-objectif J4, déclaration de l’attaque J5, accès à la galerie J6, gardien J7, commanditaire J8 ; résolution au plus tôt J9. L’accès permet l’entrée ; le gardien surveille uniquement l’accès désigné ; le commanditaire est l’auteur de l’agression. Une violence physique humaine, sans arme ajoutée ni pouvoir, doit être jugée matériellement réalisable dans la situation obtenue. Absence d’Élise, approche impossible ou violence insuffisante empêchent le constat de mort. Les personnes ne sont pas consommées.",
+          "resources": [
+            "acces-galerie",
+            "gardien",
+            "commanditaire"
+          ],
+          "attack": true
+        }
+      ],
+      "completionMorning": 9
+    },
+    {
+      "camp": "commanditaire",
+      "title": "Exploiter une venue indépendante à la réception",
+      "sufficiency": "Deux sous-objectifs témoins, dont le second nécessite une attaque distincte. Son coup de création est compté séparément de la déclaration d’attaque. Une attaque résolue doit effectivement causer la mort ; aucune convocation ou création d’état ne la produit gratuitement. Chemin conditionnel sans opposition ; les faits et la faisabilité restent à arbitrer.",
+      "branches": [
+        {
+          "condition": "Une venue prochaine d’Élise à la réception et un passage exploitable par l’accès surveillé ont été réellement établis assez tôt pour préparer l’attaque.",
+          "contribution": "Création J1, accès à la galerie J2, gardien J3 ; constat J4. Le gardien ne peut rapporter que ce qu’il a effectivement observé ou appris à cet accès. Il ne prédit pas un retour et ne localise pas Élise ailleurs. Faute d’information suffisante, la branche reste fausse.",
+          "resources": [
+            "acces-galerie",
+            "gardien"
+          ],
+          "attack": false
+        },
+        {
+          "condition": "Élise a réellement emprunté le passage annoncé après la préparation, les agresseurs ont pu l’atteindre et l’agression a effectivement causé sa mort avant J12.",
+          "contribution": "Création du second sous-objectif J4, déclaration de l’attaque J5, intermédiaire J6, commanditaire J7 ; résolution au plus tôt J8. Le concours de l’intermédiaire à une agression doit être établi : sa fonction de messager ne le garantit pas. Les deux humains doivent être matériellement capables de l’agression physique déclarée, sans arme inventée. Le passage doit rester accessible sans supposer un contrôle de toute la galerie. Une absence, un refus du complice ou une agression non mortelle ne satisfait pas l’objectif.",
+          "resources": [
+            "intermediaire",
+            "commanditaire"
+          ],
+          "attack": true
+        }
+      ],
+      "completionMorning": 8
+    }
+  ]
+}
