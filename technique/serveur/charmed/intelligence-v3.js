@@ -45,7 +45,7 @@ class Intelligence{
    // du jeu ne sont plus paraphrasées ici, elles sont lues dans le pointeur
    // regles. Ne subsiste que le contrat de sortie, qui relève du moteur.
    const REGLES=" LES RÈGLES DU JEU NE SONT PAS RECOPIÉES DANS CE MESSAGE : elles sont dans le pointeur regles, seule source de vérité. lire({pointeur:\"regles\"}) donne la table des sections ; lire({pointeur:\"regles\",chemin:\"/Partie 3 — 1.3 Proposition refusée\"}) en ouvre une, et un titre approximatif suffit ; chercher({pointeur:\"regles\",texte:\"attaque\"}) indique où un point est traité. AU PREMIER APPEL DE CETTE SESSION, lis Partie 3 section 0, Partie 3 section 1.3, Partie 4 section 2, Partie 4 section 3, Partie 4 section 5 et Partie 4 section 7 : elles fixent ce que tu peux exiger d une proposition, sur quoi un refus se fonde, ce que la connaissance de Charmed permet de conclure et ce que les deux camps savent. ENSUITE, avant chaque verdict, ouvre les sections qui portent sur l acte jugé — clé, verrou, attaque, question et réponse, sous-état, création de ressource, personnage, lieu, voie principale et branche. Ne tranche pas de mémoire un point dont tu ne viens pas de relire la règle. Si ce message et les règles semblent diverger, LES RÈGLES L EMPORTENT.";
-   const CONTRAT=" CONTRAT DE SORTIE — mécanique du moteur, à ne pas confondre avec les règles. reason : le motif, une ou deux phrases. missing : le NOMBRE de pièces encore nécessaires après celle-ci ; sufficient=true si et seulement si missing=0. mainCondition : la condition de l objectif initial que la contribution prétend établir, citée mot pour mot ; chaîne vide hors voie principale. delay : 0 si l acte peut se produire dès les moyens réunis, sinon le nombre de jours réellement nécessaires. dependsOn : ids des cartes réellement nécessaires, rien d automatique. locations : ids des lieux déterminants, liste vide sinon. requiredCount : entier supérieur ou égal à 1, réservé à une attaque déclarée sans première pièce. canon : ordinary si aucun mécanisme magique ne fonde le résultat ; verified avec les ids des faits du corpus pour un effet magique établi ; unverified si la documentation manque, ce qui ne bloque rien et signale seulement une incertitude ; contradicted seulement si une source du corpus établit explicitement l impossibilité, ids cités. Tout champ sans objet : liste vide, chaîne vide, nombre 0, booléen false.";
+   const CONTRAT=" CONTRAT DE SORTIE — mécanique du moteur, à ne pas confondre avec les règles. reason : le motif, une ou deux phrases. missing : le NOMBRE de pièces encore nécessaires après celle-ci ; sufficient=true si et seulement si missing=0. mainCondition : la condition de l objectif initial que la contribution prétend établir, citée mot pour mot ; chaîne vide hors voie principale. delay : 0 si l acte peut se produire dès les moyens réunis, sinon le nombre de jours réellement nécessaires. dependsOn : ids de CARTES déjà présentes sur le plateau — état, sous-état, clé, verrou ou attaque — dont la réalisation conditionne celle-ci. Jamais l id d une ressource, jamais la pièce que tu es en train de poser, jamais un id inventé : une ressource engagée n est pas une dépendance. Liste vide au moindre doute, et rien d automatique. locations : ids des lieux déterminants, liste vide sinon. requiredCount : entier supérieur ou égal à 1, réservé à une attaque déclarée sans première pièce. canon : ordinary si aucun mécanisme magique ne fonde le résultat ; verified avec les ids des faits du corpus pour un effet magique établi ; unverified si la documentation manque, ce qui ne bloque rien et signale seulement une incertitude ; contradicted seulement si une source du corpus établit explicitement l impossibilité, ids cités. Tout champ sans objet : liste vide, chaîne vide, nombre 0, booléen false.";
    const REGLES_JOUEUR=" LES RÈGLES DU JEU SONT DANS LE POINTEUR regles et elles font autorité. lire({pointeur:\"regles\"}) donne la table des sections ; lire({pointeur:\"regles\",chemin:\"/Partie 3 — 1.1 Actions payantes\"}) en ouvre une, un titre approximatif suffit ; chercher({pointeur:\"regles\",texte:\"verrou\"}) trouve où un point est traité. AU PREMIER PASSAGE DE CETTE SESSION, lis la Partie 1 puis la Partie 3 : tu sauras ce que coûte chaque action et ce qui rend une carte valable. Ensuite, relis la section concernée avant tout coup dont tu n es pas certain. Une action refusée par l arbitre ne te coûte rien ; un passage sans coup payant est perdu.";
    const isPreparation=input.role==='preparation';
    if(!isPreparation)input.instruction+=opponent?REGLES_JOUEUR:REGLES;
@@ -84,7 +84,21 @@ class Intelligence{
   return {...draft,subgoalSlots,status:'draft_not_started',requiresReview:true,researchReview:require('./bibliotheque').preparationReview(draft,spec)};
  }
  async judge(input,schema){
-  const verdict=await this.call(JSON.stringify({...input,canonReference:canon.context(scenario.canonPeriod)}),schema);
+  let verdict=await this.call(JSON.stringify({...input,canonReference:canon.context(scenario.canonPeriod)}),schema);
+  // Un id de carte inexistant dans dependsOn ou locations est une maladresse de
+  // rédaction, pas une décision d'arbitrage : le moteur la corrigerait par une
+  // erreur qui ferait perdre le coup au joueur. On écarte l'id et on continue.
+  const plateau=input.position;
+  if(plateau&&verdict&&typeof verdict==='object'){
+   const cartes=new Set((plateau.nodes||[]).map(n=>n.id));
+   const lieux=new Set((plateau.resources||[]).filter(r=>r.category==='lieu').map(r=>r.id));
+   const filtre=(champ,connus)=>{
+    if(!Array.isArray(verdict[champ]))return;
+    const gardes=verdict[champ].filter(id=>connus.has(id));
+    if(gardes.length!==verdict[champ].length)verdict={...verdict,[champ]:gardes};
+   };
+   filtre('dependsOn',cartes);filtre('locations',lieux);
+  }
   // Une lacune documentaire ne bloque plus rien : le verdict se prend sur le plateau.
   // L'incertitude est seulement signalée. Seule une contradiction établie refuse.
   if(verdict?.canon?.status==='unverified'){

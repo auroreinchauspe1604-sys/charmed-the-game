@@ -18,10 +18,17 @@ const fs = require('fs'), path = require('path');
 const { serve } = require('./agent-mcp');
 const sessions = require('./agent-session');
 
+// On vise le binaire réel et jamais le .cmd : passer par le shell Windows fait
+// massacrer les guillemets du schéma JSON par cmd.exe.
 function executable() {
   if (process.env.CHARMED_CLAUDE) return process.env.CHARMED_CLAUDE;
-  const local = path.join(process.env.APPDATA || '', 'npm', 'claude.cmd');
-  return fs.existsSync(local) ? local : 'claude';
+  const npm = path.join(process.env.APPDATA || '', 'npm');
+  for (const candidat of [
+    path.join(npm, 'node_modules', '@anthropic-ai', 'claude-code', 'bin', 'claude.exe'),
+    path.join(npm, 'node_modules', '@anthropic-ai', 'claude-code', 'cli.js'),
+    path.join(npm, 'claude.cmd')
+  ]) if (fs.existsSync(candidat)) return candidat;
+  return 'claude';
 }
 
 async function call(prompt, schema, { tools = [], timeoutMs = 300000, seed } = {}) {
@@ -53,13 +60,18 @@ async function call(prompt, schema, { tools = [], timeoutMs = 300000, seed } = {
       ...(previous.started ? ['--continue'] : ['--session-id', session.id]),
       '--output-format', 'stream-json', '--verbose',
       '--json-schema', JSON.stringify(schema),
-      '--mcp-config', configFile, '--strict-mcp-config', '--setting-sources', '',
+      // Forme accolée : passé en deux arguments, la valeur vide fait avaler
+      // l'option suivante par l'analyseur du CLI.
+      '--mcp-config', configFile, '--strict-mcp-config', '--setting-sources=',
       '--permission-mode', 'dontAsk',
       // Uniquement les appels du jeu : aucun accès au disque ni au web.
       '--allowedTools', 'mcp__charmed__*'];
 
     return await new Promise((resolve, reject) => {
-      const child = spawn(executable(), args, { cwd: session.dir, windowsHide: true, shell: executable().endsWith('.cmd'), stdio: ['pipe', 'pipe', 'pipe'] });
+      const bin = executable();
+      const commande = bin.endsWith('.js') ? process.execPath : bin;
+      const arguments_ = bin.endsWith('.js') ? [bin, ...args] : args;
+      const child = spawn(commande, arguments_, { cwd: session.dir, windowsHide: true, shell: bin.endsWith('.cmd'), stdio: ['pipe', 'pipe', 'pipe'] });
       let flux = '', resultat, erreur, stderr = '', expire = false;
       const timer = setTimeout(() => { expire = true; child.kill(); }, timeoutMs);
       child.stdout.on('data', chunk => {

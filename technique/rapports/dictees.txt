@@ -1,0 +1,49 @@
+
+==============================================================================
+1. Clé, voie principale, dictée brute
+Dictée : « disposition des cristaux autour du livre et des souer qui sont protége par le bouclier energique des critaux et leur permetttent de conserver le livre. les demon de peuvent pas franchir le bouclier »
+→ ACCEPTÉ — 45 s
+  Carte : [key] Bouclier de cristaux autour du Livre et des sœurs
+  Effet : Les cristaux sont disposés autour du Livre des Ombres et des sœurs. Ils forment un bouclier d'énergie qui les protège et permet aux sœurs de garder le Livre : les démons ne peuvent pas franchir ce bouclier tant que les cristaux restent en place.
+  Moyens encore nécessaires : 1 | statut : preparing
+  Ange  : Proposition enregistrée : Les cristaux sont disposés autour du Livre des Ombres et des sœurs. Ils forment un bouclier d'énergie qui les protège et permet aux sœurs de garder le Livre : les démons ne peuvent pas franchir ce bouclier tant que les cristaux restent en place.
+Vous pouvez encore renforcer cette contribution. Le verdict final est rendu en fin de journée ; une question non répondue la suspend.
+
+==============================================================================
+2. Ressource : trois mots
+Dictée : « creature magique allié »
+→ REFUSÉ (gratuitement) — 18 s
+  Ange  : La demande est ambiguë : « créature magique alliée » peut désigner des êtres très différents, qui donneraient des cartes différentes, et elle ne dit pas ce que les sœurs en attendent, ce qui empêche de juger son utilité sur le plateau. Précisez quelle créature vous voulez et ce qu'elle doit vous apporter. Ce refus ne vous coûte rien.
+
+==============================================================================
+3. Ressource : demande de concours
+Dictée : « Demander de l'aide aux fondateurs »
+→ ACCEPTÉ — 45 s
+  Ressource accordée : Les Fondateurs (disponible J2)
+  Ange  : Les Fondateurs sont une autorité canonique qui confie des missions et soutient les sorcières. Leur concours apporte aux sœurs assiégées un appui extérieur qui leur manque, mais pas une solution. Il faut une journée pour l'obtenir, parce qu'on ne peut pas se présenter devant eux à volonté : il faut les solliciter et attendre leur réponse. Ce concours ne vaut ni omniscience ni intervention sans moyens, et leurs membres ne sont pas toujours d'accord entre eux.
+
+==============================================================================
+4. Ressource : lacune documentaire assumée
+Dictée : « Etre magique -les fées »
+→ ACCEPTÉ — 30 s
+  Ressource accordée : Les fées (disponible J3)
+  Ange  : Les fées existent dans l'univers de Charmed. Petites et difficiles à percevoir, elles apportent aux sœurs assiégées une présence discrète et un concours qui leur manquent, sans pour autant régler une condition de l'objectif. Il faut deux jours pour obtenir leur aide, car les fées vivent hors du manoir, ne se montrent pas facilement aux adultes et doivent être approchées puis convaincues. Leur présence est admise à sa portée ordinaire, faute de fait détaillé dans le corpus.
+
+==============================================================================
+5. Verrou sur une ressource adverse ENGAGÉE (doit être accepté comme verrou)
+Dictée : « Paige s'orbe avec des potions et neutralise l'eclaireur ce qui empeche l'obstruction materielle des cirulation »
+→ ACCEPTÉ — 40 s
+  Carte : [lock] Paige neutralise l’Éclaireur
+  Effet : Paige arrive par orbes avec des potions et neutralise l'Éclaireur, ce qui l'empêche de réaliser l'obstruction matérielle des circulations reliant le grenier aux niveaux inférieurs.
+  Moyens encore nécessaires : 1 | statut : preparing
+  Ange  : Proposition enregistrée : Paige arrive par orbes avec des potions et neutralise l'Éclaireur, ce qui l'empêche de réaliser l'obstruction matérielle des circulations reliant le grenier aux niveaux inférieurs.
+Vous pouvez encore renforcer cette contribution. Le verdict final est rendu en fin de journée ; une question non répondue la suspend.
+
+==============================================================================
+6. Attaque sur cette même ressource engagée (doit être refusée : elle n’est pas en main)
+Dictée : « Neutralisation de l'eclaireuer par Paige à l'aide de potions »
+→ REFUSÉ ou ERREUR (0 s)
+  Une attaque vise une ressource libre dans la main adverse. Une ressource déjà engagée dans une contribution se bloque par un verrou.
+
+==============================================================================
+Fin des essais.
