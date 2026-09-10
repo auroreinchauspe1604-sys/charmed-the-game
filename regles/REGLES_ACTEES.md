@@ -424,6 +424,12 @@ Chaque verrou doit être ouvert, contourné ou neutralisé par une clé qui lui 
 
 Le verrou disparaît lorsque sa clé d’ouverture est réalisée ou lorsque les conditions indispensables à son maintien n’existent plus. Les conséquences durables déjà produites restent en place tant qu’une nouvelle action ne les modifie pas.
 
+**Le fait produit par un verrou n’est acquis que tant que le verrou tient.** Un verrou ne décrit pas un événement révolu mais une obstruction maintenue : lorsqu’il tombe, le fait qu’il avait établi cesse d’être vrai et quitte le plateau. L’interdiction cesse entièrement et immédiatement, et ce qu’elle empêchait redevient possible sans qu’aucune action nouvelle soit nécessaire — la contribution qu’il gelait reprend son cours à l’état où elle était.
+
+Une conséquence matérielle qui survit réellement à la chute du verrou doit être établie comme un fait à part entière lors de l’examen, avec son propre motif. Elle ne se déduit jamais du seul énoncé du verrou tombé.
+
+Un verrou contré avant d’être devenu actif n’a rien établi du tout : il n’a produit aucune conséquence, matérielle ou non.
+
 ## 5. Retirer une ressource d’une clé ou d’un verrou
 
 Pendant son passage, un camp peut consacrer son action payante à retirer l’une de ses ressources d’une clé ou d’un verrou en cours.
@@ -442,7 +448,19 @@ Son premier examen peut avoir lieu au soir du jour **J+1**. Si les conditions so
 
 Cette fenêtre garantit que le camp qui joue après la pose dispose d’un véritable passage pour réagir. L’ordre des camps ne peut donc pas permettre à une clé ou à un verrou d’être acquis sans possibilité de contestation.
 
-Chaque nouvelle ressource ajoutée à une clé ou à un verrou renouvelle cette fenêtre de réaction. Elle ne raccourcit jamais un délai réel plus long imposé par la nature de l’action.
+**La fenêtre de réaction s’ouvre une seule fois**, la première fois que la contribution devient prête. Une ressource ajoutée ensuite ne remet pas le compteur à zéro : le camp adverse a déjà disposé d’un passage entier pour réagir, et il lui reste la fin de la fenêtre. Un renfort ne raccourcit jamais un délai réel plus long imposé par la nature de l’action.
+
+Si une contribution redevient incomplète — retrait d’une ressource, justification jugée insuffisante — elle repart en préparation et une nouvelle fenêtre s’ouvrira lorsqu’elle sera de nouveau prête.
+
+### 6.1 Anticiper une contribution
+
+Une contribution peut être posée sur une autre **encore en cours**, sans attendre que celle-ci soit acquise. Le camp déclare la dépendance : la seconde carte annonce ce qu’elle fera une fois la première réalisée.
+
+La carte qui anticipe **attend le sort de celle qu’elle anticipe**. Elle n’est pas examinée d’avance et ne peut donc pas être refusée au motif que la première n’est pas encore acquise. Son propre examen a lieu dès que la première est tranchée.
+
+**Si la contribution anticipée tombe, celle qui l’anticipait tombe avec elle**, et rend ses ressources. Les deux s’éliminent ensemble : c’est le risque assumé par le camp qui anticipe, et la contrepartie du temps qu’il gagne.
+
+Une dépendance momentanément bloquée par un verrou actif fait patienter la carte qui l’anticipe, sans la faire tomber.
 
 Pendant la fenêtre de réaction, la contribution est prête mais son résultat n’est pas encore acquis. La situation antérieure continue de s’appliquer tant que le nouveau fait n’a pas été constaté.
 
@@ -972,4 +990,6 @@ Les questions qui restent réellement ouvertes sont présentées séparément à
 | 10 septembre 2026 | **Refonte de l’arbitrage.** La proposition se formule en une phrase naturelle ; l’Ange du destin ne demande jamais de complément et fonde tout refus sur un fait du plateau ; une lacune de bibliothèque ne bloque plus rien ; l’attaque est réservée aux ressources libres en main adverse et le verrou aux ressources engagées ; une clé doit produire un changement identifiable ; une ressource distribuée est un moyen et jamais une solution ; la création de ressource s’évalue sur la pertinence dans la partie. Détail complet et motifs dans `historique/MODIFICATIONS_2026-09-10.md`. | Règles validées par Aurore et appliquées au moteur, aux consignes d’arbitrage et au joueur adverse. |
 | 10 septembre 2026 | **Un acte composé n’est pas une ambiguïté** (Partie 3, §0) : une proposition qui enchaîne plusieurs effets liés, vise plusieurs objets ou se déroule en plusieurs temps donne une seule carte et n’est jamais refusée pour cette raison. | Règle écrite dans le document ; auparavant présente seulement dans les consignes d’arbitrage. |
 | 10 septembre 2026 | **La contre-clé se forme sur un verrou prêt** (Partie 3, §4) : un verrou prêt est contestable pendant son délai de réaction, comme une attaque révélée se défend avant sa résolution. La contre-clé ne produit aucun effet avant l’activation du verrou et tombe sans objet, ressources rendues, si le verrou n’est pas établi. | Règle validée par Aurore ; appliquée au moteur et à l’interface. |
+| 10 septembre 2026 | **Tempo.** La fenêtre de réaction s’ouvre une seule fois et ne se renouvelle plus à chaque renfort (Partie 3, §6). Une contribution peut être posée en anticipation d’une autre encore en cours : elle attend son sort au lieu d’être refusée d’avance, et tombe avec elle si celle-ci échoue (Partie 3, §6.1). Créer un sous-état reste payant, proposition examinée et écartée. | Règles validées par Aurore ; appliquées au moteur. |
+| 10 septembre 2026 | **Le fait produit par un verrou n’est acquis que tant que le verrou tient** (Partie 3, §4) : un verrou décrit une obstruction maintenue ; quand il tombe, son fait quitte le plateau et ce qu’il empêchait redevient possible sans action nouvelle. | Règle validée par Aurore ; appliquée au moteur. |
 | 10 septembre 2026 | **Ce qui est visible sur le plateau est connu des deux camps** (Partie 4, §5) : les cartes adverses posées, leur nature et leur description publique sont une connaissance commune, opposable à l’Ange du destin. | Règle nouvelle, issue de la contestation du verdict c4 du 10 septembre. |

@@ -141,6 +141,40 @@ Sept lignes ajoutées, reprenant les points 1 à 8 ci-dessus.
 | **Après** | La contre-clé se forme dès que le verrou est **prêt**. Elle ne produit aucun effet tant que le verrou n'est pas actif, et si le verrou n'est finalement pas établi, elle tombe sans objet et rend ses ressources — sans usure ni récupération. |
 | **Motif** | Un verrou prêt est contestable pendant son délai de réaction, comme une attaque révélée se défend avant sa résolution. L'attaque avait sa fenêtre de défense, le verrou n'en avait aucune : le camp visé devait attendre l'activation, puis subir le délai de sa propre clé. Le verrou en sortait disproportionné. |
 
+## 15. La fenêtre de réaction ne se renouvelle plus à chaque renfort
+
+**Modification** — Partie 3, section 6.
+
+| | |
+|---|---|
+| **Avant** | « Chaque nouvelle ressource ajoutée à une clé ou à un verrou renouvelle cette fenêtre de réaction. » Une clé à trois pièces posées sur trois jours n'était donc prête qu'au troisième, examinée le soir du quatrième, acquise le matin du cinquième. |
+| **Après** | La fenêtre s'ouvre **une seule fois**, à la première fois que la contribution devient prête. Un renfort ajouté ensuite ne remet pas le compteur à zéro. Un délai réel plus long imposé par la nature de l'acte reste respecté, et une contribution redevenue incomplète rouvrira une fenêtre en redevenant prête. |
+| **Motif** | Coût de tempo caché et cumulatif. Avec un coup payant par jour, il rendait un objectif à quatre conditions inatteignable en quatorze jours, et avantageait structurellement le camp qui n'a qu'à maintenir. |
+
+## 16. Anticiper une contribution
+
+**Ajout** — Partie 3, nouvelle section 6.1.
+
+| | |
+|---|---|
+| **Avant** | Une carte dépendant d'une autre encore en cours était examinée à sa date et **forcée à l'échec**, au motif que sa dépendance n'était pas acquise. Il fallait donc attendre l'annonce du matin avant d'enchaîner, soit deux jours par maillon. |
+| **Après** | Une contribution peut être posée sur une autre encore en cours en déclarant la dépendance. Elle **attend** le sort de celle-ci au lieu d'être refusée d'avance ; son examen a lieu dès que la première est tranchée. **Si la contribution anticipée tombe, celle qui l'anticipait tombe avec elle** et rend ses ressources. Une dépendance momentanément bloquée par un verrou fait patienter sans faire tomber. |
+| **Motif** | Proposé par Aurore. C'est la vraie réponse au problème de tempo : le camp gagne le temps d'attente contre le risque de tout perdre d'un coup. |
+
+## 17. Le fait d'un verrou n'est acquis que tant que le verrou tient
+
+**Ajout** — Partie 3, section 4.
+
+| | |
+|---|---|
+| **Avant** | Le fait établi par un verrou entrait dans les faits acquis et y restait après la chute du verrou. Le plateau conservait donc comme vraie une obstruction qui n'existait plus. |
+| **Après** | Un verrou décrit une obstruction **maintenue**, pas un événement révolu : quand il tombe, le fait qu'il avait établi cesse d'être vrai et quitte le plateau. Ce qu'il empêchait redevient possible sans action nouvelle. Une conséquence matérielle qui survit réellement doit être établie comme un fait à part entière, avec son propre motif. Un verrou contré avant d'être actif n'a rien établi du tout. |
+| **Motif** | Relevé par Aurore. Le verrou de la cuisine était tombé, et le plateau continuait d'affirmer que les sœurs ignoraient où était la réserve — alors qu'une prémonition acquise disait l'inverse. |
+
+## Examiné et écarté
+
+**Rendre gratuite la création d'un sous-état.** Proposé dans l'analyse du tempo, refusé par Aurore : créer un sous-état reste une action payante. Le gain de temps passe par la fenêtre de réaction et par l'anticipation, pas par la gratuité des déclarations d'intention.
+
 ---
 
 ## Où vivent désormais les règles

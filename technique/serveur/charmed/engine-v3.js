@@ -25,7 +25,13 @@ function scopeOf(s,target){const n=s.nodes.find(n=>n.id===target);if(n)return n.
 function subgoalOf(s,n){if(n.scope!=='subgoal')return null;let t=node(s,n.target);const seen=new Set();while(t.type!=='state'){requireRule(!seen.has(t.id),'Lien circulaire.');seen.add(t.id);t=node(s,t.target);}return t.parent?t.id:null;}
 function release(s,n,keep=[]){for(const id of [...(n.pieces||[]),...(n.defenders||[])]){const r=resource(s,id);if(r.heldBy===n.id&&!keep.includes(id)){r.heldBy=null;if(!r.lost&&!r.consumed)r.recoveryUntil=Math.max(r.recoveryUntil||0,s.day+(n.recovery?.[id]??0));}}}
 function refresh(s){for(const n of s.nodes){
- if(terminal(n)){release(s,n);continue;}
+ if(terminal(n)){
+  // Le fait produit par un verrou ne vaut que tant que le verrou tient : un
+  // verrou décrit une obstruction maintenue, pas un événement révolu. Quand il
+  // tombe, son fait quitte le plateau.
+  if(n.type==='lock'&&n.established&&!n.factWithdrawn){s.facts=s.facts.filter(f=>f!==n.established);n.factWithdrawn=true;}
+  release(s,n);continue;
+ }
  if(n.type==='lock'&&n.status==='active'){
   n.effectUnavailable=(n.maintainers||[]).some(id=>{const r=resource(s,id);return r.lost||r.consumed||r.owner!==n.owner||r.availableDay>s.day||r.recoveryUntil>s.day;});
   if(n.effectUnavailable){n.status='removed';release(s,n);}else release(s,n,n.maintainers||[]);
@@ -39,6 +45,11 @@ function refresh(s){for(const n of s.nodes){
   if(vise&&vise.type==='lock'&&vise.owner!==n.owner&&terminal(vise)){
    n.status='removed';n.voidReason='Le verrou visé n’a pas été établi : cette contre-clé est sans objet.';release(s,n);continue;
   }
+ }
+ // Une contribution posée en anticipation tombe avec celle qu'elle anticipait :
+ // si la première est refusée, les deux s'éliminent.
+ if(['key','lock','attack'].includes(n.type)&&!terminal(n)&&!['acquired','active','resolved'].includes(n.status)&&dependencyFailure(s,n)){
+  n.status='removed';n.voidReason='La contribution anticipée est tombée : celle-ci tombe avec elle.';release(s,n);continue;
  }
  if(n.type==='key'&&n.status==='acquired'&&!suspended(s,n.id)){
   // Un effet continu retient les pièces dont il dépend (bouclier de cristaux laissés
@@ -75,7 +86,14 @@ function place(s,camp,id,rid,p){const {n,r}=validatePlace(s,camp,id,rid);validat
  if(p.dependsOn)validateDependencies(s,n,p.dependsOn);
  spend(s,camp);n.pieces.push(rid);r.heldBy=id;n.requiredCount=total;n.missing=p.missing;n.delay=p.delay;
  if(p.situationChanged)s.arbitration.push({day:s.day,text:p.changeReason});
- if(p.sufficient){n.status='ready';n.readyDay=s.day;if(n.type!=='attack'){n.reactionThroughDay=s.day+1;n.dueDay=Math.max(n.dueDay||0,s.day+Math.max(1,p.delay));}}else if(n.type!=='attack'){n.status='preparing';n.dueDay=null;}
+ if(p.sufficient){
+  n.status='ready';
+  // La fenêtre de réaction s'ouvre la PREMIÈRE fois que la carte devient prête.
+  // Un renfort ajouté ensuite ne remet plus le compteur à zéro : l'adversaire a
+  // déjà eu son passage pour réagir. Un délai réel plus long reste respecté.
+  if(n.readyDay===undefined){n.readyDay=s.day;if(n.type!=='attack')n.reactionThroughDay=s.day+1;}
+  if(n.type!=='attack')n.dueDay=Math.max(n.dueDay||0,n.reactionThroughDay,s.day+Math.max(0,p.delay));
+ }else if(n.type!=='attack'){n.status='preparing';n.dueDay=null;}
 }
 function defend(s,camp,attackId,rid,text,p){checkTurn(s,camp,true);const n=node(s,attackId),target=resource(s,n.target),r=resource(s,rid);requireRule(n.type==='attack'&&n.owner!==camp&&!terminal(n)&&n.status!=='resolved','Choisissez une attaque adverse en cours.');requireRule(target.owner===camp,'Seul le camp de la cible peut la renforcer.');requireRule(s.day>=n.revealDay&&s.day<n.dueDay,'La défense directe se prépare après la révélation et avant la résolution.');requireRule(r.owner===camp&&availability(s,r)==='free','Cette ressource de défense n’est pas disponible.');requireRule(text?.trim().length>=8,'Expliquez comment cette ressource renforce la cible.');validateVerdict(p);requireRule(p.accepted,p.reason);spend(s,camp);n.defenders??=[];n.defenders.push(rid);r.heldBy=n.id;n.defensePlacements??=[];n.defensePlacements.push({resource:rid,text,day:s.day});return n;}
 function withdraw(s,camp,rid){checkTurn(s,camp,true);const r=resource(s,rid);requireRule(r.owner===camp&&r.heldBy,'Choisissez une ressource engagée dans une clé ou un verrou.');const n=node(s,r.heldBy);requireRule(['key','lock'].includes(n.type),'Les ressources d’une attaque ou de sa défense restent engagées jusqu’à la résolution.');spend(s,camp);r.heldBy=null;n.pieces=(n.pieces||[]).filter(id=>id!==rid);n.maintainers=(n.maintainers||[]).filter(id=>id!==rid);if(['acquired'].includes(n.status))return {resource:r,node:n};if(!n.pieces.length){n.status='removed';release(s,n);}else{n.status='preparing';n.missing=Math.max(1,n.requiredCount-n.pieces.length);n.dueDay=null;delete n.readyDay;delete n.reactionThroughDay;}refresh(s);return {resource:r,node:n};}
@@ -114,12 +132,22 @@ function answer(s,camp,id,text,p){submitAnswer(s,camp,id,text);adjudicateAnswer(
 function endPassage(s,camp){checkTurn(s,camp);for(const q of s.questions.filter(q=>!q.resolved&&node(s,q.target).owner===camp&&q.answerDueDay<=s.day))q.opportunityPassed=true;s.spent[camp]=true;s.phase=camp==='phoebe'?'ai':'morning';}
 
 function usable(s,n,day){return n.pieces.every(id=>{const r=resource(s,id);return !r.lost&&!r.consumed&&r.owner===n.owner&&r.availableDay<=day&&!(r.recoveryUntil>day)&&!blocks(s,id).length;});}
-function dependencyFailure(s,n,seen=new Set()){if(seen.has(n.id))return true;seen=new Set([...seen,n.id]);return dependents(n).some(id=>{const d=node(s,id);return terminal(d)||(d.type==='state'&&d.status!=='true')||(d.type==='key'&&d.status!=='acquired')||d.effectUnavailable||blocks(s,id).length||dependencyFailure(s,d,seen);});}
+// ANTICIPATION (10 septembre 2026). Une contribution peut être posée sur une
+// autre encore en cours : elle déclare la dépendance et ATTEND son sort au lieu
+// d'être examinée d'avance et refusée. Une dépendance encore indécise ou
+// momentanément bloquée fait patienter ; seule une dépendance réellement tombée
+// entraîne la chute de celle qui l'anticipait.
+const depAcquise=d=>(d.type==='state'&&d.status==='true')||(d.type==='key'&&d.status==='acquired')||(d.type==='lock'&&d.status==='active')||(d.type==='attack'&&d.status==='resolved');
+const depEmpechee=(s,d)=>!!d.effectUnavailable||blocks(s,d.id).length>0;
+function dependencyFailure(s,n,seen=new Set()){if(seen.has(n.id))return true;seen=new Set([...seen,n.id]);return dependents(n).some(id=>{const d=node(s,id);return terminal(d)||dependencyFailure(s,d,seen);});}
+function dependencyPending(s,n,seen=new Set()){if(seen.has(n.id))return false;seen=new Set([...seen,n.id]);return dependents(n).some(id=>{const d=node(s,id);if(terminal(d))return false;return !depAcquise(d)||depEmpechee(s,d)||dependencyPending(s,d,seen);});}
 
 function candidates(s,day){return s.nodes.filter(n=>{
   if(n.type==='state'||terminal(n)||['acquired','active','resolved'].includes(n.status)||n.dueDay===null||n.dueDay===undefined||n.dueDay>day)return false;
   if(n.type==='attack')return !pendingQuestions(s,n.id).some(q=>!q.opportunityPassed&&q.answerDueDay>=day);
   if(n.reactionThroughDay!==undefined&&(day<n.reactionThroughDay||s.phase!=='morning'||s.morningMessages!==undefined))return false;
+  // Une carte qui en anticipe une autre attend le sort de celle-ci.
+  if(dependencyPending(s,n))return false;
   return n.status==='ready'&&!suspended(s,n.id)&&!blocks(s,n.id).length;
  }).map(n=>({...clone(n),forcedFailure:n.type==='attack'&&(!n.deadlineReady&&n.deadlineReady!==undefined||n.status!=='ready'||!usable(s,n,day)||suspended(s,n.id)||blocks(s,n.id).length>0||dependencyFailure(s,n))||!usable(s,n,day)||dependencyFailure(s,n)}));}
 const morningCandidates=s=>candidates(s,s.day+1);

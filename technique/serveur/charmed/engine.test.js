@@ -98,7 +98,65 @@ test('question irrecevable : aucun gel ni droit consommé ; question recevable e
 test('panne de recevabilité : aucune question enregistrée',async()=>{const s=E.initial(),n=propose(s);s.phase='ai';const before=JSON.stringify(s);const service=new Service(null,{question:async()=>{throw Error('connexion');}});await assert.rejects(()=>service.execute(s,'commanditaire',{type:'question',target:n.id,text:'Comment franchissez-vous cet obstacle ?'}),/connexion/);assert.equal(JSON.stringify(s),before);});
 
 test('nouvelle contribution : jour de réaction complet identique aux deux camps',()=>{for(const camp of ['phoebe','commanditaire']){const s=E.initial();s.phase=camp==='phoebe'?'player':'ai';const r=s.resources.find(r=>r.owner===camp&&E.availability(s,r)==='free');const n=E.propose(s,camp,{kind:'key',target:'root-'+camp,resource:r.id,text:'Une preuve directe de la condition finale.'},plan());assert.equal(n.dueDay,2);s.phase='morning';assert.equal(E.immediateCandidates(s).length,0);E.prepareMorning(s);assert.equal(s.day,2);assert.equal(E.immediateCandidates(s).length,0);E.finishMorning(s,judgment());assert.equal(E.immediateCandidates(s).length,0);s.phase='morning';assert.equal(E.immediateCandidates(s).length,1);}});
-test('nouvelle pose : réaction renouvelée sans raccourcir un délai réel',()=>{const s=E.initial();const n=E.propose(s,'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Un effet avec délai réellement nécessaire.'},plan(0,{delay:4}));next(s);E.place(s,'phoebe',n.id,'carnet',means());assert.equal(n.reactionThroughDay,3);assert.equal(n.dueDay,5);s.phase='morning';assert.equal(E.immediateCandidates(s).length,0);});
+// Règle du 10/09/2026 : la fenêtre de réaction s'ouvre UNE fois. Un renfort
+// ajouté ensuite ne remet pas le compteur à zéro, et ne raccourcit pas non plus
+// un délai réel plus long imposé par la nature de l'acte.
+test('renfort : la fenêtre de réaction ne se renouvelle pas, le délai réel tient',()=>{
+ const s=E.initial();
+ const n=E.propose(s,'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Un effet avec délai réellement nécessaire.'},plan(0,{delay:4}));
+ assert.equal(n.readyDay,1);assert.equal(n.reactionThroughDay,2);assert.equal(n.dueDay,5);
+ next(s);E.place(s,'phoebe',n.id,'carnet',means());
+ assert.equal(n.readyDay,1);assert.equal(n.reactionThroughDay,2);assert.equal(n.dueDay,5);
+ s.phase='morning';assert.equal(E.immediateCandidates(s).length,0);
+});
+test('renfort sans délai : l’examen reste à la fenêtre ouverte par la première pose',()=>{
+ const s=E.initial();
+ const n=E.propose(s,'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Un acte immédiat une fois les moyens réunis.'},plan());
+ assert.equal(n.dueDay,2);
+ next(s);E.place(s,'phoebe',n.id,'carnet',means());
+ assert.equal(n.dueDay,2,'le renfort ne repousse plus l’examen d’une journée');
+});
+// Règle du 10/09/2026 : anticiper. Une contribution posée sur une autre encore
+// en cours attend son sort au lieu d'être refusée d'avance, et tombe avec elle
+// si celle-ci échoue.
+test('anticipation : la carte qui suit attend, puis tombe avec celle qu’elle anticipait',()=>{
+ const s=E.initial();
+ const premiere=propose(s);
+ next(s);
+ const seconde=E.propose(s,'phoebe',{kind:'key',target:'root-phoebe',resource:'carnet',text:'Ce que je ferai une fois le premier acte réalisé.'},plan(0,{dependsOn:[premiere.id]}));
+ assert.deepEqual(seconde.dependsOn,[premiere.id]);
+ // Tant que la première n'est pas tranchée, la seconde n'est pas examinée.
+ s.day=seconde.dueDay;s.phase='morning';delete s.morningMessages;
+ assert(!E.immediateCandidates(s).some(c=>c.id===seconde.id),'la carte anticipante ne doit pas être examinée d’avance');
+ // La première tombe : la seconde tombe avec elle et rend sa pièce.
+ premiere.status='failed';E.refresh(s);
+ assert.equal(E.node(s,seconde.id).status,'removed');
+ assert.match(E.node(s,seconde.id).voidReason,/tombe avec elle/);
+ assert.equal(E.resource(s,'carnet').heldBy,null);
+});
+test('anticipation : la carte qui suit est examinée dès que la première est acquise',()=>{
+ const s=E.initial();
+ const premiere=propose(s);
+ next(s);
+ const seconde=E.propose(s,'phoebe',{kind:'key',target:'root-phoebe',resource:'carnet',text:'Ce que je ferai une fois le premier acte réalisé.'},plan(0,{dependsOn:[premiere.id]}));
+ premiere.status='acquired';
+ s.day=Math.max(seconde.dueDay,premiere.dueDay||0);s.phase='morning';delete s.morningMessages;
+ assert(E.immediateCandidates(s).some(c=>c.id===seconde.id),'une fois la première acquise, la seconde s’examine');
+});
+// Règle du 10/09/2026 : un verrou décrit une obstruction maintenue. Son fait
+// n'est acquis que tant qu'il tient ; quand il tombe, le fait quitte le plateau.
+test('le fait d’un verrou quitte le plateau quand le verrou tombe',()=>{
+ const s=E.initial();
+ const enonce='La réserve est cachée dans un endroit que l’adversaire ignore.';
+ const verrou={id:'advl',owner:'commanditaire',type:'lock',scope:'main',target:'root-phoebe',title:'Obstruction',
+  effect:'La réserve est soustraite.',description:'Obstruction.',pieces:[],locations:[],missing:0,status:'active',
+  createdDay:1,delay:0,dependsOn:[],recovery:{},maintainers:[],established:enonce,readyDay:1,reactionThroughDay:2,dueDay:2};
+ s.nodes.push(verrou);s.facts.push(enonce);
+ E.refresh(s);
+ assert(s.facts.includes(enonce),'tant que le verrou tient, son fait reste');
+ verrou.status='removed';E.refresh(s);
+ assert(!s.facts.includes(enonce),'le verrou tombé, son fait quitte le plateau');
+});
 test('voie principale : refus si aucune condition directe identifiée par IA',async()=>{const {Intelligence}=require('./intelligence-v3');const ia=new Intelligence(async()=>({accepted:true,reason:'Préparation utile',mainCondition:''}));const verdict=await ia.plan(E.initial(),'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Une simple préparation.'});assert.equal(verdict.accepted,false);});
 
 // Règle du 10/09/2026 : un verrou prêt est contestable pendant son délai de
