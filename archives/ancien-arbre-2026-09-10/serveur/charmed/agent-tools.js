@@ -1,6 +1,8 @@
 'use strict';
 const fs=require('fs'),path=require('path');
-const rules=()=>fs.readFileSync(path.join(__dirname,'../../Charmed/REGLES_ACTEES.md'),'utf8');
+// Un seul fichier de règles pour tout le projet : regles/REGLES_ACTEES.md.
+// L'ancienne copie Charmed/REGLES_ACTEES.md (8 septembre) a été supprimée le 10 septembre.
+const rules=()=>fs.readFileSync(path.join(__dirname,'../../regles/REGLES_ACTEES.md'),'utf8');
 const object=properties=>({type:'object',properties,additionalProperties:false});
 const string={type:'string'};
 function position(board){if(!board)return board;const {arbitration,radio,opponent,...state}=board;return state;}

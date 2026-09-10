@@ -6,7 +6,7 @@ function routes(req,res,url){
  if(url==='/charmed'&&req.method==='GET'){fichierStatique(res,'charmed.html','text/html; charset=utf-8');return true;}
  if(!url.startsWith('/api/charmed'))return false;
  (async()=>{try{
-  if(req.method==='GET'&&url==='/api/charmed/rules')return envoyer(res,200,JSON.stringify({text:require('fs').readFileSync(path.join(RACINE,'Charmed/REGLES_ACTEES.md'),'utf8')}));
+  if(req.method==='GET'&&url==='/api/charmed/rules')return envoyer(res,200,JSON.stringify({text:require('fs').readFileSync(path.join(RACINE,'regles/REGLES_ACTEES.md'),'utf8')}));
   if(req.method==='GET'&&url==='/api/charmed/expertise'){
    const library=require('./bibliotheque').read();
    return envoyer(res,200,JSON.stringify({version:library.integrationVersion,characters:require('../../Charmed/canon/personnages.json').characters.length,integratedDossiers:library.dossiers.filter(d=>d.status==='integrated_documentary').map(d=>({id:d.id,count:d.fiches.length})),admissibleFacts:library.facts.length}));

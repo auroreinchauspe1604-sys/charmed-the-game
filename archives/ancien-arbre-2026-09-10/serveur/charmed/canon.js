@@ -30,7 +30,7 @@ function factsFor(p){
 }
 function context(period=1){const p=normalize(period);return {
  universe:base.universe,period:p,coverage:'Faits admissibles filtrés par période ; interruptions ponctuelles et portée à contrôler. Corpus partiel.',
- facts:factsFor(p),sources:[{id:'game:regles',type:'convention_de_jeu_validee',path:'Charmed/REGLES_ACTEES.md'},...base.sources,...people.sources.map(s=>({...s,id:'character:'+s.id})),...require('./bibliotheque').read().sources],
+ facts:factsFor(p),sources:[{id:'game:regles',type:'convention_de_jeu_validee',path:'regles/REGLES_ACTEES.md'},...base.sources,...people.sources.map(s=>({...s,id:'character:'+s.id})),...require('./bibliotheque').read().sources],
  constraints:['Un fait pertinent ne démontre pas toute une action. Confronter son sens exact aux moyens et à la situation.','Les biographies et bestiaires sont des références de fond, pas des pouvoirs disponibles sans conditions.','Une période large impose une vérification si la disponibilité dépend de l’épisode.'],
  unverified:base.unverified};}
 function verify(verdict,period=1){

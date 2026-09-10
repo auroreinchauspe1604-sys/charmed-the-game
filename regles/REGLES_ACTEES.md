@@ -157,7 +157,9 @@ Une carte Personnage indique :
 
 La carte ne détaille pas les pouvoirs que le personnage n’a plus, ne lui attribue pas une localisation accessoire et ne décrit pas à l’avance la manière de l’utiliser. Une localisation n’est indiquée que lorsqu’elle constitue un fait engagé et déterminant de la situation de départ ou du scénario.
 
-Une carte Personnage n’est nécessaire, comme une carte Lieu, que lorsqu’elle est réellement déterminante : l’effet annoncé doit être un acte qui ne peut pas se produire sans quelqu’un pour l’accomplir, et l’identité ou les capacités de cette personne doivent déterminer ce que l’acte produit. Un intervenant seulement plausible ou accessoire n’est pas exigé. Un effet matériel, automatique, déjà en place ou qui découle d’un dispositif existant n’en demande aucun.
+Une carte Personnage n’est nécessaire, comme une carte Lieu, que lorsqu’elle est réellement déterminante : l’effet annoncé doit être un acte qui ne peut pas se produire sans quelqu’un pour l’accomplir, et l’identité ou les capacités de cette personne doivent déterminer ce que l’acte produit. Un intervenant seulement plausible ou accessoire n’est pas exigé.
+
+**La nécessité d’un intervenant s’apprécie sur l’acte, jamais sur son effet.** Un ouvrage matériel exige quelqu’un pour le réaliser, même si le résultat se maintient ensuite tout seul : disposer des cristaux, bloquer une porte, poser des traverses ou aménager un accès sont des actes, et le dispositif qui en résulte peut durer sans personne. Un objet ne s’emploie pas de lui-même. En revanche, un effet déjà en place, automatique, ou qui découle d’un dispositif existant ne demande aucun intervenant pour se poursuivre. Cette règle vaut identiquement pour les deux camps.
 
 ### 4.2 Objet, formule, potion et autre moyen
 
