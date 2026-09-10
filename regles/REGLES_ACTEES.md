@@ -428,11 +428,13 @@ Chaque verrou doit être ouvert, contourné ou neutralisé par une clé qui lui 
 
 Le verrou disparaît lorsque sa clé d’ouverture est réalisée ou lorsque les conditions indispensables à son maintien n’existent plus. Les conséquences durables déjà produites restent en place tant qu’une nouvelle action ne les modifie pas.
 
-**Le fait produit par un verrou n’est acquis que tant que le verrou tient.** Un verrou ne décrit pas un événement révolu mais une obstruction maintenue : lorsqu’il tombe, le fait qu’il avait établi cesse d’être vrai et quitte le plateau. L’interdiction cesse entièrement et immédiatement, et ce qu’elle empêchait redevient possible sans qu’aucune action nouvelle soit nécessaire — la contribution qu’il gelait reprend son cours à l’état où elle était.
+**Un verrou qui tombe n’a pas eu lieu.** Un verrou ne décrit pas un événement révolu mais une obstruction maintenue ; lorsqu’il tombe, il ne laisse aucune trace. Le fait qu’il avait établi quitte le plateau, l’interdiction cesse entièrement et immédiatement, et ce qu’elle empêchait redevient possible sans qu’aucune action nouvelle soit nécessaire : la contribution qu’il gelait reprend son cours exactement à l’état où elle était avant lui. Aucune conséquence matérielle ne subsiste : il n’y a rien à conserver d’une obstruction qui n’a pas tenu.
 
-Une conséquence matérielle qui survit réellement à la chute du verrou doit être établie comme un fait à part entière lors de l’examen, avec son propre motif. Elle ne se déduit jamais du seul énoncé du verrou tombé.
+**La clé qui a ouvert le verrou quitte le plateau avec lui.** Elle était valable — c’est elle qui a fait tomber le verrou — mais elle n’a plus d’objet une fois l’obstruction effacée : elle est retirée sans être un échec, elle rend ses ressources sans usure ni récupération, et le fait qu’elle avait établi disparaît lui aussi. Les deux cartes s’annulent ensemble et le chemin qu’elles formaient est invalidé.
 
-Un verrou contré avant d’être devenu actif n’a rien établi du tout : il n’a produit aucune conséquence, matérielle ou non.
+Il en va de même de tout ce qui n’existait que par ce verrou : une carte dont la cible a ainsi quitté le plateau tombe à son tour, sans coûter d’échec à son camp.
+
+Un verrou contré avant d’être devenu actif n’a rien établi du tout, et sa contre-clé disparaît de la même manière.
 
 ## 5. Retirer une ressource d’une clé ou d’un verrou
 

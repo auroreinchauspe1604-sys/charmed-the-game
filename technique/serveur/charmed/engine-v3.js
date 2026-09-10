@@ -36,14 +36,19 @@ function refresh(s){for(const n of s.nodes){
   n.effectUnavailable=(n.maintainers||[]).some(id=>{const r=resource(s,id);return r.lost||r.consumed||r.owner!==n.owner||r.availableDay>s.day||r.recoveryUntil>s.day;});
   if(n.effectUnavailable){n.status='removed';release(s,n);}else release(s,n,n.maintainers||[]);
  }
- // Contre-clé formée avant l'activation du verrou : si le verrou n'est finalement
- // pas établi, elle est sans objet. Elle tombe et rend ses pièces, sans les user.
- // Une contre-clé DÉJÀ RÉALISÉE a fait son travail : c'est elle qui a fait
- // tomber le verrou. Elle ne devient jamais sans objet.
- if(n.type==='key'&&!terminal(n)&&n.status!=='acquired'){
+ // Un verrou qui tombe n'a pas eu lieu. La clé qui l'a ouvert était valable mais
+ // n'a plus d'objet : elle part avec lui, sans être un échec, en rendant ses
+ // pièces intactes, et le fait qu'elle avait établi disparaît aussi. Tout ce qui
+ // n'existait que par la carte disparue tombe à son tour.
+ if(['key','lock','attack'].includes(n.type)&&!terminal(n)){
   const vise=s.nodes.find(x=>x.id===n.target);
-  if(vise&&vise.type==='lock'&&vise.owner!==n.owner&&terminal(vise)){
-   n.status='removed';n.voidReason='Le verrou visé n’a pas été établi : cette contre-clé est sans objet.';release(s,n);continue;
+  if(vise&&terminal(vise)){
+   if(n.established&&!n.factWithdrawn){s.facts=s.facts.filter(f=>f!==n.established);n.factWithdrawn=true;}
+   n.status='removed';n.voided=true;
+   n.voidReason=vise.type==='lock'
+    ?'Le verrou visé n’a pas eu lieu : cette clé n’a plus d’objet et quitte le plateau avec lui.'
+    :'La carte visée a quitté le plateau : celle-ci tombe avec elle.';
+   n.recovery={};release(s,n);continue;
   }
  }
  // Une contribution posée en anticipation tombe avec celle qu'elle anticipait :

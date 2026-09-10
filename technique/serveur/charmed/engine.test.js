@@ -177,7 +177,7 @@ test('contre-clé : formable sur un verrou prêt, sans objet si le verrou n’es
  // Le verrou n'est pas établi : la contre-clé tombe et rend sa pièce intacte.
  verrou.status='failed';E.refresh(s);
  assert.equal(E.node(s,contre.id).status,'removed');
- assert.match(E.node(s,contre.id).voidReason,/sans objet/);
+ assert.match(E.node(s,contre.id).voidReason,/n.a pas eu lieu/);
  assert.equal(E.resource(s,mienne.id).heldBy,null);
  assert.ok(!(E.resource(s,mienne.id).recoveryUntil>s.day));
 });
