@@ -1,0 +1,58 @@
+{
+  "ep": "S01E16",
+  "titre": "Which Prue Is It, Anyway?",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Seigneur de guerre", "def": "Guerrier surnaturel de chair et de sang, immortel par réincarnation, fauteur de guerres, inséparable de son épée."},
+    {"type": "THING", "nom": "Épée de cristal", "def": "Arme-symbole qui rend son porteur immunisé aux armes des hommes et aspire l'âme/la magie."},
+    {"type": "NARRATIVE", "nom": "Code d'honneur", "def": "Un Seigneur de guerre disgracié doit reprendre ses capacités par le vol."},
+    {"type": "NARRATIVE", "nom": "Première-née", "def": "La sorcière aînée est réputée la plus puissante ; sa magie est convoitée."},
+    {"type": "THING", "nom": "Sort de multiplication", "def": "Incantation 'multiplier par trois' qui produit des doubles de la sorcière."},
+    {"type": "ACTOR", "nom": "Clone", "def": "Double d'une sorcière avec mémoire et pouvoirs mais sans âme ni magie propre."},
+    {"type": "THING", "nom": "Canal corporel", "def": "Partie du corps (mains, yeux) par laquelle une sorcière fait passer son pouvoir."}
+  ],
+  "liens": [
+    {"source": "Seigneur de guerre", "verbe": "SE RÉINCARNE", "cible": "Seigneur de guerre", "statut": "E", "ep": "S01E16", "preuve": "they get reincarnated in some other part of the world"},
+    {"source": "Épée de cristal", "verbe": "IMMUNISE CONTRE", "cible": "Armes des hommes", "statut": "E", "ep": "S01E16", "preuve": "as long as they have their sword, immune to the weapons of man"},
+    {"source": "Épée de cristal", "verbe": "ASPIRE", "cible": "Âme", "statut": "E", "ep": "S01E16", "preuve": "Where's her soul? Where's her magic?"},
+    {"source": "Épée de cristal", "verbe": "TRANSFÈRE", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E16", "preuve": "Not till I get what I came for. Your killer instinct"},
+    {"source": "Code d'honneur", "verbe": "OBLIGE À VOLER", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E16", "preuve": "when one of them is disgraced, he has to steal his abilities back"},
+    {"source": "Seigneur de guerre", "verbe": "CIBLE", "cible": "Première-née", "statut": "E", "ep": "S01E16", "preuve": "the magic of a first-born witch. They're supposed to be the strongest"},
+    {"source": "Séparation de l'épée", "verbe": "DISGRACIE", "cible": "Seigneur de guerre", "statut": "E", "ep": "S01E16", "preuve": "She used her power to take away his sword"},
+    {"source": "Épée de cristal", "verbe": "BLESSE", "cible": "Seigneur de guerre", "statut": "E", "ep": "S01E16", "preuve": "You cut me, witch!"},
+    {"source": "Épée de cristal", "verbe": "DÉTRUIT", "cible": "Seigneur de guerre", "statut": "E", "ep": "S01E16", "preuve": "My weapon. It's all yours. No! Peace at last"},
+    {"source": "Épée de cristal", "verbe": "N'EST PAS", "cible": "Armes des hommes", "statut": "E", "ep": "S01E16", "preuve": "That wouldn't include a crystal sword that sucks away your soul"},
+    {"source": "Canal corporel", "verbe": "CONDITIONNE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E16", "preuve": "She channels her power through her eyes, not her hands"},
+    {"source": "Entrave du canal", "verbe": "BLOQUE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E16", "preuve": "Your ancestor's power emanated from her hands. No doubt yours does too"},
+    {"source": "Sort de multiplication", "verbe": "CRÉE", "cible": "Clone", "statut": "E", "ep": "S01E16", "preuve": "Take my powers, blessed be. Multiply their strength by three"},
+    {"source": "Sort", "verbe": "RÉALISE LITTÉRALEMENT", "cible": "Formule", "statut": "E", "ep": "S01E16", "preuve": "I didn't cast the spell. Great. You're a clone", "note": "le sort a produit trois sorcières, pas une force triplée"},
+    {"source": "Clone", "verbe": "HÉRITE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E16", "preuve": "Two of us can certainly fight him off"},
+    {"source": "Clone", "verbe": "N'A PAS", "cible": "Âme", "statut": "E", "ep": "S01E16", "preuve": "She has none. Whoever this is, it's not the real witch"},
+    {"source": "Clone", "verbe": "PERSISTE TANT QUE", "cible": "Besoin", "statut": "E", "ep": "S01E16", "preuve": "We're only here as long as we're needed"},
+    {"source": "Clone", "verbe": "DISPARAÎT SANS", "cible": "Corps", "statut": "E", "ep": "S01E16", "preuve": "there's nothing but clothes on that slab"},
+    {"source": "Sorcière", "verbe": "RESSENT LA MORT DE", "cible": "Clone", "statut": "E", "ep": "S01E16", "preuve": "when she died, I felt like it was me"},
+    {"source": "Clone", "verbe": "EXPRIME", "cible": "Facette de la sorcière", "statut": "C", "ep": "S01E16", "preuve": "the side that doesn't get to come out and play enough"},
+    {"source": "Maison de la lignée", "verbe": "RENFORCE", "cible": "Pouvoir des Trois", "statut": "C", "ep": "S01E16", "preuve": "Home is where she has the power of three to protect her"},
+    {"source": "Pouvoir des Trois", "verbe": "REQUIS CONTRE", "cible": "Seigneur de guerre", "statut": "C", "ep": "S01E16", "preuve": "The Book said it requires the strength of three to take on Gabriel"},
+    {"source": "Attaque", "verbe": "FAIT CROÎTRE", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E16", "preuve": "my powers are still growing, and one day"},
+    {"source": "Prémonition", "verbe": "PEUT ÊTRE DÉJOUÉE PAR", "cible": "Sorcière", "statut": "E", "ep": "S01E16", "preuve": "Phoebe's had premonitions before, and we've affected the outcome"},
+    {"source": "Seigneur de guerre", "verbe": "ÉTUDIE", "cible": "Sorcière", "statut": "E", "ep": "S01E16", "preuve": "He's studied you. He knows you'll risk yourself"}
+  ],
+  "actions": [
+    {"acteur": "Seigneur de guerre", "action": "VOLER UNE CAPACITÉ", "preconditions": ["Épée en main", "Cible détentrice de la capacité"], "effet": "Transperce la cible ; l'épée aspire âme et magie", "cout": null, "limite": "Échoue sur un clone sans âme", "statut": "E", "ep": "S01E16", "preuve": "I've been tricked! She has none"},
+    {"acteur": "Seigneur de guerre", "action": "ENTRAVER LE CANAL", "preconditions": ["Connaître le canal corporel de la sorcière"], "effet": "Bloque le pouvoir", "cout": null, "limite": "Échoue si le canal réel diffère de celui de l'ancêtre", "statut": "E", "ep": "S01E16", "preuve": "I won't make that mistake again"},
+    {"acteur": "Sorcière", "action": "LANCER LE SORT DE MULTIPLICATION", "preconditions": ["Réciter l'incantation"], "effet": "Deux clones avec mémoires jusqu'au sort et pouvoirs", "cout": "Ressent leur mort ; traces laissées aux mortels", "limite": "Clones sans âme ; disparaissent quand le besoin cesse", "statut": "E", "ep": "S01E16", "preuve": "I do have all of Prue's memories up until she cast the spell"},
+    {"acteur": "Sorcière", "action": "RETOURNER L'ARME", "preconditions": ["Pouvoir télékinétique", "L'ennemi tient son épée"], "effet": "L'épée pénètre son propre porteur ; il est détruit", "cout": null, "limite": "Éloigner l'épée à des kilomètres dépasse le pouvoir actuel", "statut": "E", "ep": "S01E16", "preuve": "It worked. My weapon. Peace at last"},
+    {"acteur": "Sorcière", "action": "DÉPLACER", "preconditions": ["Objet dans le champ de pouvoir"], "effet": "Objet projeté", "cout": null, "limite": "Masse trop grande impossible (marbre)", "statut": "E", "ep": "S01E16", "preuve": "It's solid marble. It's too heavy for you"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Réunion des trois CONDITIONNE Pouvoir des Trois", "nouveau_statut": "C", "preuve": "It's not safe to split up"},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "Pheebs, let go. What did you see? I saw you die"},
+    {"lien": "Sort N'AGIT QUE SUR sa cible écrite", "nouveau_statut": "E", "preuve": "Multiply their strength by three", "note": "le sort exécute la lettre de la formule (trois Prue), pas l'intention"}
+  ],
+  "questions_ouvertes": [
+    "Le Seigneur de guerre détruit par sa propre épée se réincarne-t-il ?",
+    "Qu'a réellement volé le Seigneur de guerre au boxeur (instinct de tueur) ?",
+    "Un clone a-t-il un pouvoir propre ou emprunte-t-il celui de l'original ?",
+    "Que se passe-t-il si le Seigneur de guerre perd son épée sans être tué ?"
+  ]
+}

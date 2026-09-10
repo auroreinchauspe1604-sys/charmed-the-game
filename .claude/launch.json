@@ -17,6 +17,15 @@
         "scripts/jouer-infinite.cjs"
       ],
       "port": 3131
+    },
+    {
+      "name": "grand-dessein",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "scripts/jouer-grand-dessein.cjs",
+        "3132"
+      ],
+      "port": 3132
     }
   ]
 }

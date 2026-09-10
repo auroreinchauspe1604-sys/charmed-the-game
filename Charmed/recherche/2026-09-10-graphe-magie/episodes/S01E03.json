@@ -1,0 +1,56 @@
+{
+  "ep": "S01E03",
+  "titre": "Thank You for Not Morphing",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Métamorphe", "def": "Être maléfique capable de prendre toute apparence (animal, humain, proche des sorcières) pour s'infiltrer et s'emparer du Livre des Ombres."},
+    {"type": "ACTOR", "nom": "Parent mortel", "def": "Ascendant non magique de la lignée, sans pouvoir, qui peut néanmoins connaître le secret."},
+    {"type": "THING", "nom": "Amulette", "def": "Bijou de protection (pierres anciennes, montées par deux) qui préserve son porteur des sorts, malédictions et esprits."},
+    {"type": "THING", "nom": "Sort d'expulsion", "def": "Sort du Livre des Ombres qui chasse tout être présent dans la maison sauf les trois sœurs."},
+    {"type": "NARRATIVE", "nom": "Transmission matrilinéaire", "def": "L'art est transmis par les femmes de la lignée."},
+    {"type": "NARRATIVE", "nom": "Aimant à mal", "def": "Le Livre des Ombres attire le mal tant qu'on le possède et l'utilise."}
+  ],
+  "liens": [
+    {"source": "Métamorphe", "verbe": "PREND L'APPARENCE DE", "cible": "Innocent", "statut": "E", "ep": "S01E03", "preuve": "shape-shift into yourselves, and we'll get back to the Book later."},
+    {"source": "Métamorphe", "verbe": "PREND L'APPARENCE DE", "cible": "Parent mortel", "statut": "E", "ep": "S01E03", "preuve": "You're gonna shape-shift into me and try to get to the girls"},
+    {"source": "Métamorphe", "verbe": "CONVOITE", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E03", "preuve": "once we possess the Book, we get its powers."},
+    {"source": "Livre des Ombres", "verbe": "TRANSFÈRE SES POUVOIRS À", "cible": "Métamorphe", "statut": "C", "ep": "S01E03", "preuve": "once we possess the Book, we get its powers. We weaken theirs"},
+    {"source": "Maison de la lignée", "verbe": "RETIENT", "cible": "Livre des Ombres", "statut": "?", "ep": "S01E03", "preuve": "a man who can't get a simple book out of a house.", "note": "Le mal peut déplacer le Livre dans la maison mais pas le sortir ; il faut qu'une sœur le sorte."},
+    {"source": "Sorcière", "verbe": "PEUT SORTIR", "cible": "Livre des Ombres", "statut": "C", "ep": "S01E03", "preuve": "trick Prue into getting the Book out of the house"},
+    {"source": "Livre des Ombres", "verbe": "EST", "cible": "Aimant à mal", "statut": "C", "ep": "S01E03", "preuve": "That book is a magnet for evil."},
+    {"source": "Métamorphe", "verbe": "ÉVITE D'AFFRONTER", "cible": "Sorcière", "statut": "C", "ep": "S01E03", "preuve": "At their full strength, battling them would be unpleasant."},
+    {"source": "Transmission matrilinéaire", "verbe": "RÉGIT", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E03", "preuve": "It's passed on down through the female line."},
+    {"source": "Mort de la gardienne", "verbe": "DÉCLENCHE", "cible": "Éveil", "statut": "E", "ep": "S01E03", "preuve": "Must've happened when your grandmother died, right? Yep."},
+    {"source": "Contact", "verbe": "DÉCLENCHE", "cible": "prémonition", "statut": "E", "ep": "S01E03", "preuve": "I had a premonition about Dad when he hugged me."},
+    {"source": "Métamorphe", "verbe": "TROMPE", "cible": "prémonition", "statut": "E", "ep": "S01E03", "preuve": "The premonition. It wasn't Dad.", "note": "La prémonition montre l'apparence, pas l'identité réelle."},
+    {"source": "Métamorphe", "verbe": "NE COPIE PAS", "cible": "Secret", "statut": "E", "ep": "S01E03", "preuve": "only her real father would know what buttons to push.", "note": "La métamorphose copie le corps, pas les souvenirs."},
+    {"source": "Émotion", "verbe": "DÉCLENCHE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E03", "preuve": "Did you have to throw him so hard?"},
+    {"source": "Livre des Ombres", "verbe": "CONTIENT", "cible": "Sort d'expulsion", "statut": "E", "ep": "S01E03", "preuve": "Gotta find a spell and banish them."},
+    {"source": "Sort d'expulsion", "verbe": "N'AGIT QUE DANS", "cible": "Maison de la lignée", "statut": "E", "ep": "S01E03", "preuve": "When in the circle that is home ... Rid all beings from these walls"},
+    {"source": "Sort d'expulsion", "verbe": "ÉPARGNE", "cible": "Sorcière", "statut": "E", "ep": "S01E03", "preuve": "Save sisters three, now heed our call"},
+    {"source": "Sort d'expulsion", "verbe": "DÉTRUIT", "cible": "Métamorphe", "statut": "E", "ep": "S01E03", "preuve": "Rid all beings from these walls", "note": "Les métamorphes disparaissent pendant la récitation."},
+    {"source": "Sort d'expulsion", "verbe": "MENACE", "cible": "Parent mortel", "statut": "C", "ep": "S01E03", "preuve": "The spell will kill everyone, including Dad."},
+    {"source": "Amulette", "verbe": "PROTÈGE CONTRE", "cible": "Sort d'expulsion", "statut": "E", "ep": "S01E03", "preuve": "Prue, the protection ring. Phoebe, now.", "note": "Le parent mortel survit au sort une fois l'anneau remis."},
+    {"source": "Amulette", "verbe": "PROTÈGE CONTRE", "cible": "Esprit", "statut": "C", "ep": "S01E03", "preuve": "protect them against spells, curses, evil spirits."},
+    {"source": "Sort d'expulsion", "verbe": "EXIGE", "cible": "Réunion des trois", "statut": "?", "ep": "S01E03", "preuve": "Keep it going.", "note": "Commencé seul, achevé à trois en répétition."},
+    {"source": "Démon", "verbe": "TUE", "cible": "Ancêtre", "statut": "C", "ep": "S01E03", "preuve": "That's what your mother believed too. Before they killed her."},
+    {"source": "Gardienne", "verbe": "DÉCIDE", "cible": "Éveil", "statut": "C", "ep": "S01E03", "preuve": "She wanted you to find out you were witches when you grew up."}
+  ],
+  "actions": [
+    {"acteur": "Métamorphe", "action": "SE MÉTAMORPHOSER", "preconditions": [], "effet": "Prend la forme d'un animal ou d'une personne connue de la cible", "cout": null, "limite": "ne possède pas les souvenirs de la personne copiée ; ne peut sortir le Livre de la maison", "statut": "E", "ep": "S01E03", "preuve": "shape-shift into yourselves"},
+    {"acteur": "Métamorphe", "action": "S'INFILTRER", "preconditions": ["porte laissée ouverte ou invitation"], "effet": "Accède à la maison et au Livre", "cout": null, "limite": "doit tromper une sœur pour sortir le Livre", "statut": "E", "ep": "S01E03", "preuve": "Someone obviously left the front door open again."},
+    {"acteur": "Sorcière", "action": "EXPULSER TOUS LES ÊTRES", "preconditions": ["sort du Livre des Ombres", "être dans la maison", "récitation répétée à trois"], "effet": "Tout être non-sœur dans la maison est détruit ou chassé", "cout": "risque de tuer des innocents présents", "limite": "circonscrit aux murs de la maison", "statut": "E", "ep": "S01E03", "preuve": "Rid all beings from these walls Save sisters three"},
+    {"acteur": "Innocent", "action": "PORTER UNE AMULETTE", "preconditions": ["anneau de protection au doigt"], "effet": "Survit à un sort destructeur", "cout": null, "limite": null, "statut": "E", "ep": "S01E03", "preuve": "Prue, the protection ring."},
+    {"acteur": "Sorcière", "action": "TÉLÉKINÉSIE", "preconditions": ["colère"], "effet": "Projette violemment une personne", "cout": null, "limite": "involontaire", "statut": "E", "ep": "S01E03", "preuve": "Did you have to throw him so hard?"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Mort de la gardienne DÉCLENCHE Éveil", "nouveau_statut": "E", "preuve": "Must've happened when your grandmother died, right? Yep."},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "I had a premonition about Dad when he hugged me."},
+    {"lien": "Gardienne SCELLE Pouvoir individuel", "nouveau_statut": "C", "preuve": "She wanted you to find out you were witches when you grew up."}
+  ],
+  "questions_ouvertes": [
+    "Pourquoi le mal ne peut-il pas sortir le Livre de la maison : protection du Livre, de la maison ou règle de possession ?",
+    "Le sort d'expulsion tue-t-il réellement les mortels ou seulement les êtres maléfiques ?",
+    "Le sort d'expulsion aurait-il fonctionné récité par une seule sœur ?",
+    "Le parent mortel peut-il vraiment être tenu à l'écart par un sort de la gardienne (plaisanterie non confirmée) ?"
+  ]
+}

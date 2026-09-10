@@ -1,0 +1,58 @@
+{
+  "ep": "S01E18",
+  "titre": "When Bad Warlocks Go Good",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Demi-Warlock", "def": "Être né d'un parent warlock et d'un parent humain, porteur d'une nature warlock latente qu'il peut refuser ou embrasser."},
+    {"type": "ACTOR", "nom": "Coven maléfique", "def": "Trio de warlocks liés par le sang et une prophétie, dont l'union forme un 'triangle' de pouvoir : l'équivalent maléfique du Pouvoir des Trois."},
+    {"type": "THING", "nom": "Lignée warlock", "def": "Hérédité du sang qui transmet la nature warlock et se renforce à chaque génération."},
+    {"type": "THING", "nom": "Triangle de pouvoir", "def": "Lien de complétion entre trois warlocks d'une même lignée ; chaque pouvoir 'appelle' les autres et reste incomplet sans le troisième."},
+    {"type": "MOMENT", "nom": "Initiation warlock", "def": "Rite qui fait basculer un demi-warlock : il exige de tuer volontairement un mortel (ou une sorcière pour compléter un coven)."},
+    {"type": "MOMENT", "nom": "Rage", "def": "Émotion violente qui fait surgir la nature warlock enfouie d'un demi-warlock."},
+    {"type": "MOMENT", "nom": "Ordination sacrée", "def": "Vœu religieux qui fait perdre définitivement à un être sa nature et ses pouvoirs warlock."},
+    {"type": "THING", "nom": "Sort d'appel", "def": "Incantation latine qui attire un membre de la lignée vers ceux qui la prononcent."},
+    {"type": "THING", "nom": "Sort de perception", "def": "Sort qui altère la perception de la cible pour qu'elle ne voie en autrui qu'une chose à tuer."},
+    {"type": "NARRATIVE", "nom": "Loyauté de lignée", "def": "Règle du monde maléfique : celui qui trahit sa lignée (protège des sorcières) doit mourir."}
+  ],
+  "liens": [
+    {"source": "Lignée warlock", "verbe": "ENGENDRE", "cible": "Warlock", "statut": "E", "ep": "S01E18", "preuve": "A warlock naturally comes from two warlock parents"},
+    {"source": "Lignée warlock", "verbe": "ENGENDRE", "cible": "Demi-Warlock", "statut": "E", "ep": "S01E18", "preuve": "they're just my half brothers. I had a different mother"},
+    {"source": "Lignée warlock", "verbe": "SE RENFORCE À CHAQUE", "cible": "Naissance", "statut": "E", "ep": "S01E18", "preuve": "since the tenth century, each generation has grown stronger"},
+    {"source": "Prophétie", "verbe": "DÉSIGNE", "cible": "Coven maléfique", "statut": "E", "ep": "S01E18", "preuve": "Three brothers destined to become the most powerful force for evil"},
+    {"source": "Réunion des trois", "verbe": "CONDITIONNE", "cible": "Triangle de pouvoir", "statut": "E", "ep": "S01E18", "preuve": "Without his powers, we can't complete our triangle"},
+    {"source": "Triangle de pouvoir", "verbe": "ATTIRE", "cible": "Demi-Warlock", "statut": "E", "ep": "S01E18", "preuve": "Just at his approach, my power quickens"},
+    {"source": "Meurtre rituel", "verbe": "ACCOMPLIT", "cible": "Initiation warlock", "statut": "E", "ep": "S01E18", "preuve": "All it takes is the life of a mortal. And then your initiation is complete"},
+    {"source": "Meurtre rituel", "verbe": "EXIGE (pour compléter coven)", "cible": "Sorcière", "statut": "E", "ep": "S01E18", "preuve": "To complete the Rowe Coven you need to sacrifice a witch"},
+    {"source": "Initiation warlock", "verbe": "EXIGE", "cible": "Consentement", "statut": "E", "ep": "S01E18", "preuve": "We can't force him to kill an innocent"},
+    {"source": "Rage", "verbe": "DÉCLENCHE", "cible": "Demi-Warlock", "statut": "C", "ep": "S01E18", "preuve": "The rage turned me into a warlock"},
+    {"source": "Ordination sacrée", "verbe": "PRIVE DE POUVOIRS", "cible": "Demi-Warlock", "statut": "C", "ep": "S01E18", "preuve": "Embracing God in that way is the only way to lose my power"},
+    {"source": "Ordination sacrée", "verbe": "REND IMMUNISÉ CONTRE", "cible": "Initiation warlock", "statut": "C", "ep": "S01E18", "preuve": "Once he's been ordained, he's safe. He can never become a warlock"},
+    {"source": "Sang humain (mère)", "verbe": "RÉSISTE À", "cible": "Initiation warlock", "statut": "C", "ep": "S01E18", "preuve": "he can't be taken. His mother's blood is too strong in him"},
+    {"source": "Sort d'appel", "verbe": "ATTIRE", "cible": "Demi-Warlock", "statut": "E", "ep": "S01E18", "preuve": "The spell brought you here. But the rest you're gonna have to do"},
+    {"source": "Sort d'appel", "verbe": "NE CONTRAINT PAS", "cible": "Volonté", "statut": "E", "ep": "S01E18", "preuve": "the rest you're gonna have to do on your own"},
+    {"source": "Sort de perception", "verbe": "ALTÈRE", "cible": "Demi-Warlock", "statut": "E", "ep": "S01E18", "preuve": "a spell on me, to make me see your mortal body only"},
+    {"source": "Prémonition", "verbe": "DÉSIGNE", "cible": "Innocent", "statut": "C", "ep": "S01E18", "preuve": "That makes him the innocent that we're supposed to protect"},
+    {"source": "Livre des Ombres", "verbe": "N'A PAS DE SORT CONTRE", "cible": "Coven maléfique", "statut": "E", "ep": "S01E18", "preuve": "Nobody can find a spell or a weapon that can stop them"},
+    {"source": "Pouvoir individuel", "verbe": "DÉTRUIT", "cible": "Warlock", "statut": "?", "ep": "S01E18", "preuve": "Damn you, Brendan. No, Greg. Damn you."},
+    {"source": "Loyauté de lignée", "verbe": "CONDAMNE", "cible": "Demi-Warlock", "statut": "E", "ep": "S01E18", "preuve": "You're either with us or you are against us... Then you will die"},
+    {"source": "Warlock", "verbe": "SE FAIT PASSER POUR", "cible": "Humain", "statut": "E", "ep": "S01E18", "preuve": "Most people aren't attacked by warlocks / I'm not like most people"}
+  ],
+  "actions": [
+    {"acteur": "Coven maléfique", "action": "ATTISER LA NATURE ENFOUIE", "preconditions": ["cible = demi-warlock de la lignée", "proximité des frères"], "effet": "Fait monter l'envie de tuer chez la cible", "cout": null, "limite": "Ne peut pas forcer le meurtre : la cible doit choisir", "statut": "E", "ep": "S01E18", "preuve": "we can stir his inner nature... Make him wanna kill"},
+    {"acteur": "Warlock", "action": "LANCER UN SORT D'APPEL", "preconditions": ["incantation latine répétée", "lien de sang avec la cible"], "effet": "La cible vient physiquement au lieu du sort", "cout": null, "limite": "N'assure pas la conversion", "statut": "E", "ep": "S01E18", "preuve": "Fratrem nostrum reconciliate / The spell brought you here"},
+    {"acteur": "Warlock", "action": "ALTÉRER LA PERCEPTION", "preconditions": ["cible de la lignée"], "effet": "La cible ne voit plus qu'un corps mortel à tuer", "cout": null, "limite": "La cible peut résister par sa volonté", "statut": "E", "ep": "S01E18", "preuve": "They put a spell on me, to make me see your mortal body only"},
+    {"acteur": "Demi-Warlock", "action": "RENONCER PAR ORDINATION", "preconditions": ["vœu religieux complet", "n'avoir tué personne avant"], "effet": "Perte définitive des pouvoirs et de la nature warlock", "cout": "Renonce à la vie mondaine", "limite": "Doit survivre jusqu'au rite", "statut": "C", "ep": "S01E18", "preuve": "the only way to lose my power, my warlock nature, forever"},
+    {"acteur": "Demi-Warlock", "action": "TUER UN WARLOCK", "preconditions": ["utiliser ses propres pouvoirs warlock"], "effet": "Le warlock meurt", "cout": "Risque de basculer (les sorcières l'exhortent à ne pas user de ses pouvoirs)", "limite": null, "statut": "?", "ep": "S01E18", "preuve": "Don't use your powers. Give him a chance."},
+    {"acteur": "Sorcière", "action": "VAINCRE PAR LA PAROLE", "preconditions": ["cible ayant une nature bonne"], "effet": "La cible résiste au sort de perception et ne frappe pas", "cout": null, "limite": null, "statut": "?", "ep": "S01E18", "preuve": "You're good. You can't kill me. It's not who you are."}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Pouvoir des Trois DÉTRUIT Warlock", "nouveau_statut": "?", "preuve": "Let's just hope that the power of three can beat them — non testé contre le coven complet"},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "Whose pen is this? ... I just saw him being attacked by a warlock"},
+    {"lien": "Émotion DÉCLENCHE Pouvoir individuel", "nouveau_statut": "E", "preuve": "The rage turned me into a warlock (côté warlock)"}
+  ],
+  "questions_ouvertes": [
+    "Comment les deux warlocks frères sont-ils détruits ? Le dialogue indique seulement que le demi-warlock les frappe ; par quel pouvoir ?",
+    "L'ordination fait-elle perdre les pouvoirs ou seulement la 'nature' warlock ? Affirmé mais jamais observé.",
+    "Un sort d'appel par le sang fonctionne-t-il sur toute lignée, ou seulement dans un coven prophétisé ?",
+    "Le sacrifice d'une sorcière est-il requis pour tout coven maléfique ou seulement pour cette prophétie ?"
+  ]
+}

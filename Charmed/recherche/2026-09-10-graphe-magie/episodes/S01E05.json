@@ -1,0 +1,56 @@
+{
+  "ep": "S01E05",
+  "titre": "Dream Sorcerer",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Mortel augmenté", "def": "Humain sans nature magique qui obtient un pouvoir surnaturel par la science (drogue et machine à rêves)."},
+    {"type": "SPACE", "nom": "Plan onirique", "def": "Espace du rêve où un intrus peut entrer, altérer la scène et agir sur le corps du dormeur."},
+    {"type": "THING", "nom": "Sort d'attraction", "def": "Sort du Livre des Ombres qui attire un amant selon une liste de désirs écrite, réversible à tout moment."},
+    {"type": "THING", "nom": "Contre-sort", "def": "Renversement d'un sort, prévu par le Livre, qui efface l'effet et le souvenir chez les cibles."},
+    {"type": "NARRATIVE", "nom": "Amour non conjurable", "def": "Le sentiment amoureux véritable ne peut être produit par un sort ; le sort ne produit qu'obsession."},
+    {"type": "MOMENT", "nom": "Sommeil", "def": "État qui ouvre la victime à l'intrusion onirique ; la veille la protège."},
+    {"type": "MOMENT", "nom": "Mort onirique", "def": "Mourir dans le rêve entraîne la mort du corps réel."}
+  ],
+  "liens": [
+    {"source": "Mortel augmenté", "verbe": "ENTRE DANS", "cible": "Plan onirique", "statut": "E", "ep": "S01E05", "preuve": "The ability to project himself into someone else's dreams."},
+    {"source": "Composants rituels", "verbe": "PERMET", "cible": "Plan onirique", "statut": "E", "ep": "S01E05", "preuve": "Set the dream-inducement system to level 12.", "note": "Drogue + machine remplacent la magie."},
+    {"source": "Sommeil", "verbe": "CONDITIONNE", "cible": "Plan onirique", "statut": "E", "ep": "S01E05", "preuve": "I'm only safe if I stay awake. If I fall asleep, I'm dead."},
+    {"source": "Mortel augmenté", "verbe": "ALTÈRE", "cible": "Plan onirique", "statut": "E", "ep": "S01E05", "preuve": "In dreams, I can do anything. I can alter your dreams."},
+    {"source": "Mortel augmenté", "verbe": "LIT", "cible": "Secret", "statut": "E", "ep": "S01E05", "preuve": "I am in your unconscious. I know your every thought and desire."},
+    {"source": "Mortel augmenté", "verbe": "PARALYSE", "cible": "Sorcière", "statut": "E", "ep": "S01E05", "preuve": "You can't move out of the chair, can you? Because I don't want you to."},
+    {"source": "Mort onirique", "verbe": "CAUSE", "cible": "Mort", "statut": "E", "ep": "S01E05", "preuve": "if you die in your dreams, you die in real life"},
+    {"source": "Plan onirique", "verbe": "LAISSE DES MARQUES SUR", "cible": "Sorcière", "statut": "C", "ep": "S01E05", "preuve": "the marks on my back? ... they were there and now they've disappeared."},
+    {"source": "Pouvoir individuel", "verbe": "AGIT DANS", "cible": "Plan onirique", "statut": "E", "ep": "S01E05", "preuve": "Use your power against him. ... He's dead.", "note": "D'abord inopérant (\"You're powerless\"), puis mobilisé sous l'encouragement des sœurs."},
+    {"source": "Sorcière", "verbe": "ATTEINT", "cible": "Plan onirique", "statut": "?", "ep": "S01E05", "preuve": "We're here, Prue, right beside you. Can you hear us?", "note": "Les voix des sœurs au chevet parviennent à la dormeuse."},
+    {"source": "Pouvoir individuel", "verbe": "TUE", "cible": "Mortel augmenté", "statut": "E", "ep": "S01E05", "preuve": "I don't believe it. He's dead."},
+    {"source": "Livre des Ombres", "verbe": "NE COUVRE PAS", "cible": "Mortel augmenté", "statut": "C", "ep": "S01E05", "preuve": "there's no Dream Sorcerer stuff anywhere. ... Maybe he's a mortal."},
+    {"source": "Formule", "verbe": "N'AGIT PAS SUR", "cible": "Mortel augmenté", "statut": "E", "ep": "S01E05", "preuve": "You are not real. You don't exist. ... Yeah, well, not this time.", "note": "La formule maternelle contre les monstres échoue."},
+    {"source": "Livre des Ombres", "verbe": "CONTIENT", "cible": "Sort d'attraction", "statut": "E", "ep": "S01E05", "preuve": "I found this spell: How to attract a lover."},
+    {"source": "Sort d'attraction", "verbe": "EXIGE", "cible": "Composants rituels", "statut": "E", "ep": "S01E05", "preuve": "The spell calls for cayenne pepper, not black pepper.", "note": "Ingrédients + liste écrite des désirs + incantation ; version masculine exige un gâteau au miel sous l'aisselle."},
+    {"source": "Sort d'attraction", "verbe": "OBÉIT À", "cible": "Formule", "statut": "E", "ep": "S01E05", "preuve": "As I desire, so shall it be.", "note": "Le sort réalise littéralement ce qui est écrit."},
+    {"source": "Sort d'attraction", "verbe": "CRÉE", "cible": "Émotion", "statut": "E", "ep": "S01E05", "preuve": "Ever since I met you, I can't do anything. Eat, drink, sleep!", "note": "Effet : obsession, débordement sur tous les hommes, animaux."},
+    {"source": "Sort d'attraction", "verbe": "VIOLE", "cible": "Bénéfice personnel", "statut": "C", "ep": "S01E05", "preuve": "No personal gain, remember?"},
+    {"source": "Bénéfice personnel", "verbe": "DÉFORME", "cible": "Sort", "statut": "?", "ep": "S01E05", "preuve": "It wasn't real. Everything he said ... it was because of the spell."},
+    {"source": "Contre-sort", "verbe": "ANNULE", "cible": "Sort d'attraction", "statut": "E", "ep": "S01E05", "preuve": "the Book of Shadows says we could reverse the spell at any time."},
+    {"source": "Contre-sort", "verbe": "EFFACE LA MÉMOIRE DE", "cible": "Innocent", "statut": "E", "ep": "S01E05", "preuve": "And he didn't remember anything."},
+    {"source": "Sort", "verbe": "EXIGE", "cible": "Réunion des trois", "statut": "C", "ep": "S01E05", "preuve": "The big spells usually require all three of us.", "note": "Le sort d'attraction a marché à deux."},
+    {"source": "Amour non conjurable", "verbe": "LIMITE", "cible": "Sort", "statut": "C", "ep": "S01E05", "preuve": "love is a magic between two people that cannot be explained and cannot be conjured."}
+  ],
+  "actions": [
+    {"acteur": "Mortel augmenté", "action": "SAUTER DANS UN RÊVE", "preconditions": ["dormir sous drogue et machine", "la cible dort ou est inconsciente"], "effet": "Contrôle le décor du rêve, lit les pensées, paralyse, blesse et tue la cible", "cout": "dose croissante de drogue, sédation lourde", "limite": "inopérant si la cible reste éveillée ; le sauteur meurt s'il meurt dans le rêve", "statut": "E", "ep": "S01E05", "preuve": "It's an endless pool for the Dream Sorcerer."},
+    {"acteur": "Sorcière", "action": "LANCER UN SORT D'ATTRACTION", "preconditions": ["ingrédients exacts", "liste écrite des qualités désirées", "incantation à deux"], "effet": "L'homme décrit apparaît par coïncidences forcées et devient obsédé", "cout": "obsession envahissante, attraction généralisée, sentiments faux", "limite": "réversible à tout moment ; interdit par la règle du gain personnel", "statut": "E", "ep": "S01E05", "preuve": "I'm the queen, you're the bee. As I desire, so shall it be."},
+    {"acteur": "Sorcière", "action": "RENVERSER UN SORT", "preconditions": ["contre-sort prévu par le Livre"], "effet": "Effet annulé, cibles amnésiques", "cout": null, "limite": null, "statut": "E", "ep": "S01E05", "preuve": "We reversed the spell last night."},
+    {"acteur": "Sorcière", "action": "UTILISER SON POUVOIR EN RÊVE", "preconditions": ["volonté de se battre", "soutien des sœurs au chevet"], "effet": "Tue l'intrus dans le rêve et dans la réalité", "cout": null, "limite": "d'abord inhibée par la peur/paralysie", "statut": "E", "ep": "S01E05", "preuve": "Use your power, Prue. Come back to us."},
+    {"acteur": "Sorcière", "action": "RESTER ÉVEILLÉE", "preconditions": [], "effet": "Hors de portée de l'intrus onirique", "cout": "épuisement, accident", "limite": "non tenable", "statut": "E", "ep": "S01E05", "preuve": "You fell asleep at the wheel, hit a pole."}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Sort N'AGIT QUE SUR sa cible écrite (S01E01)", "nouveau_statut": "X", "preuve": "practically every guy in the bar was hitting on me", "note": "Le sort d'attraction déborde largement de la description écrite."},
+    {"lien": "Bénéfice personnel ANNULE Pouvoir individuel (S01E02)", "nouveau_statut": "?", "preuve": "It wasn't real.", "note": "Ici le sort égoïste fonctionne mais produit un résultat vicié plutôt que nul."},
+    {"lien": "Réunion des trois CONDITIONNE Sort", "nouveau_statut": "C", "preuve": "The big spells usually require all three of us."}
+  ],
+  "questions_ouvertes": [
+    "Pourquoi le pouvoir de la sorcière échoue-t-il d'abord dans le rêve : peur, volonté de l'intrus, ou nature du plan onirique ?",
+    "Les marques physiques laissées par le rêve sont-elles réelles (un seul témoin) ?",
+    "Un mortel à pouvoir échappe-t-il systématiquement au Livre des Ombres ?",
+    "Le Pouvoir des Trois aurait-il été nécessaire face à un démon équivalent ?"
+  ]
+}

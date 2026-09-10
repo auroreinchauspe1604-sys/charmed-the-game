@@ -1,0 +1,58 @@
+{
+  "ep": "S01E15",
+  "titre": "Is There a Woogy in the House?",
+  "noeuds_nouveaux": [
+    {"type": "SPACE", "nom": "Nexus spirituel", "def": "Point équidistant des cinq éléments, lieu de grand pouvoir pouvant basculer vers le bien ou le mal."},
+    {"type": "SPACE", "nom": "Sous-sol", "def": "Partie basse de la Maison de la lignée où une Ombre est retenue et d'où elle tire sa force."},
+    {"type": "ACTOR", "nom": "Ombre", "def": "Démon d'obscurité qui possède ceux qui entrent dans son antre et cherche à reprendre le nexus."},
+    {"type": "MOMENT", "nom": "Séisme", "def": "Tremblement de terre qui rompt le scellement d'une Ombre."},
+    {"type": "MOMENT", "nom": "Possession", "def": "Prise de contrôle d'une personne par un mal ; elle agit contre ses proches."},
+    {"type": "THING", "nom": "Lumière", "def": "Ce devant quoi les ombres reculent ; support du sort de bannissement."},
+    {"type": "THING", "nom": "Comptine-sort", "def": "Sort transmis sous forme d'histoire/rime enfantine."},
+    {"type": "NARRATIVE", "nom": "Naissance dans la maison", "def": "Être né sur le nexus rend plus lié à lui, donc plus influençable."},
+    {"type": "NARRATIVE", "nom": "Bénéfice personnel", "def": "Interdit d'user des pouvoirs pour un gain personnel."}
+  ],
+  "liens": [
+    {"source": "Nexus spirituel", "verbe": "SITUE", "cible": "Maison de la lignée", "statut": "E", "ep": "S01E15", "preuve": "Our house was built in the centre of a pentagram"},
+    {"source": "Nexus spirituel", "verbe": "PEUT BASCULER VERS", "cible": "Bien ou Mal", "statut": "C", "ep": "S01E15", "preuve": "a source of undeniable good or undeniable evil"},
+    {"source": "Ancêtre", "verbe": "A BÂTI SUR", "cible": "Nexus spirituel", "statut": "C", "ep": "S01E15", "preuve": "a reason why our family built the house there, to reclaim the spot"},
+    {"source": "Séisme", "verbe": "LIBÈRE", "cible": "Ombre", "statut": "E", "ep": "S01E15", "preuve": "You have freed me. And now you'll help take back the house"},
+    {"source": "Ombre", "verbe": "POSSÈDE", "cible": "Innocent", "statut": "E", "ep": "S01E15", "preuve": "He got a little rough with Piper"},
+    {"source": "Sous-sol", "verbe": "CONDITIONNE", "cible": "Possession", "statut": "E", "ep": "S01E15", "preuve": "she took a tour of the house including the basement"},
+    {"source": "Ombre", "verbe": "POSSÈDE", "cible": "Sorcière", "statut": "E", "ep": "S01E15", "preuve": "You must use your powers against your sisters"},
+    {"source": "Naissance dans la maison", "verbe": "REND VULNÉRABLE À", "cible": "Ombre", "statut": "C", "ep": "S01E15", "preuve": "You were the only one that was born in the house"},
+    {"source": "Ombre", "verbe": "DONNE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E15", "preuve": "Thanks for my new power"},
+    {"source": "Ombre", "verbe": "CONTRÔLE", "cible": "Maison de la lignée", "statut": "E", "ep": "S01E15", "preuve": "It's not just Phoebe we're fighting. It's the house"},
+    {"source": "Maison de la lignée", "verbe": "BLOQUE", "cible": "Sorcière", "statut": "E", "ep": "S01E15", "preuve": "If our powers can't get us into the house, what can?"},
+    {"source": "Maison de la lignée", "verbe": "REND INACCESSIBLE", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E15", "preuve": "we can't get to The Book of Shadows"},
+    {"source": "Pouvoir individuel", "verbe": "N'AGIT PAS SUR", "cible": "Sorcière", "statut": "E", "ep": "S01E15", "preuve": "Our powers don't work on good witches?"},
+    {"source": "Pouvoir individuel", "verbe": "N'AGIT PAS SUR", "cible": "Ombre", "statut": "E", "ep": "S01E15", "preuve": "my powers aren't working on it either"},
+    {"source": "Ombre", "verbe": "RECULE DEVANT", "cible": "Lumière", "statut": "E", "ep": "S01E15", "preuve": "Shadows retreat from the light. And they thrive in the darkness"},
+    {"source": "Comptine-sort", "verbe": "BANNIT", "cible": "Ombre", "statut": "E", "ep": "S01E15", "preuve": "Return to dark where shadows dwell. You cannot have this Halliwell"},
+    {"source": "Gardienne", "verbe": "TRANSMET PAR", "cible": "Comptine-sort", "statut": "E", "ep": "S01E15", "preuve": "It wasn't a story. It was a spell?"},
+    {"source": "Possession", "verbe": "N'EFFACE PAS", "cible": "Responsabilité", "statut": "E", "ep": "S01E15", "preuve": "back to normal, but that doesn't erase their actions"},
+    {"source": "Possession", "verbe": "LAISSE SUBSISTER", "cible": "Volonté", "statut": "C", "ep": "S01E15", "preuve": "hasn't completely beaten you. Otherwise, we would be dead"},
+    {"source": "Bannissement", "verbe": "N'EST PAS", "cible": "Destruction", "statut": "E", "ep": "S01E15", "preuve": "If Grams put away the shadow and it came back, he can come back"},
+    {"source": "Ombre", "verbe": "SE PROPAGE HORS DE", "cible": "Maison de la lignée", "statut": "E", "ep": "S01E15", "preuve": "What happens once evil has the house? It spreads"},
+    {"source": "Sorcière", "verbe": "AJOUTE À", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E15", "preuve": "Every witch before us has added to The Book of Shadows"},
+    {"source": "Bénéfice personnel", "verbe": "INTERDIT", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E15", "preuve": "I can't use my powers for personal gain"},
+    {"source": "Ombre", "verbe": "DÉRÈGLE", "cible": "Maison de la lignée", "statut": "?", "ep": "S01E15", "preuve": "It's 7:00? How can that be?"}
+  ],
+  "actions": [
+    {"acteur": "Ombre", "action": "POSSÉDER", "preconditions": ["Cible entrée dans le sous-sol"], "effet": "La cible agit avec violence contre autrui ; un sorcier possédé retourne ses pouvoirs contre ses sœurs", "cout": null, "limite": "Cible sorcière plus résistante ; possession incomplète au début", "statut": "E", "ep": "S01E15", "preuve": "You'll fight me at first. But in the end, you'll do everything I ask"},
+    {"acteur": "Ombre", "action": "DONNER UN POUVOIR", "preconditions": ["Sorcière possédée"], "effet": "Nouveau pouvoir actif (matérialiser un objet pensé)", "cout": "Disparaît avec le bannissement de l'Ombre", "limite": null, "statut": "E", "ep": "S01E15", "preuve": "I am gonna miss that new power"},
+    {"acteur": "Ombre", "action": "VERROUILLER LA MAISON", "preconditions": ["Contrôle du nexus"], "effet": "Les sorcières ne peuvent entrer ; l'accès au Livre est coupé", "cout": null, "limite": "Garde baissée l'instant où la maison laisse sortir quelqu'un", "statut": "E", "ep": "S01E15", "preuve": "The house is letting him out. This is the only second its guard is down"},
+    {"acteur": "Sorcière", "action": "BANNIR L'OMBRE", "preconditions": ["Lumière dirigée vers l'Ombre", "Réciter la comptine-sort"], "effet": "L'Ombre retourne dans le noir ; possédés redeviennent normaux", "cout": null, "limite": "Bannissement, pas destruction : peut revenir", "statut": "E", "ep": "S01E15", "preuve": "Go away and leave my sight and take with you this endless night"},
+    {"acteur": "Sorcière", "action": "ÉCRIRE DANS LE LIVRE", "preconditions": ["Mal vaincu mais non détruit"], "effet": "Avertit les sorcières suivantes", "cout": null, "limite": null, "statut": "E", "ep": "S01E15", "preuve": "We need to warn who comes next. It's our turn"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Gardienne SCELLE Pouvoir", "nouveau_statut": "E", "preuve": "Grams told you she got rid of the Woogyman in the basement", "note": "confirmé au sens : la Gardienne a scellé un mal dans la maison via un sort"},
+    {"lien": "Pouvoir individuel N'AGIT PAS SUR Sorcière", "nouveau_statut": "E", "preuve": "Our powers don't work on good witches"}
+  ],
+  "questions_ouvertes": [
+    "Le pouvoir de matérialisation vient-il de l'Ombre ou d'un potentiel latent de la sorcière ?",
+    "Pourquoi les pouvoirs n'agissent-ils pas sur une bonne sorcière même possédée ?",
+    "Le séisme est-il nécessaire à chaque libération de l'Ombre ?",
+    "Comment détruire définitivement l'Ombre plutôt que la bannir ?"
+  ]
+}

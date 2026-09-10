@@ -1,0 +1,59 @@
+{
+  "ep": "S01E12",
+  "titre": "The Wendigo",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Wendigo", "def": "Ancien mortel au cœur de glace, humain le jour, monstre la nuit, qui arrache et mange les cœurs de victimes AB négatif aux trois nuits de pleine lune."},
+    {"type": "MOMENT", "nom": "Blessure contaminante", "def": "Griffure du Wendigo qui transforme progressivement la victime en Wendigo."},
+    {"type": "MOMENT", "nom": "Trois nuits de pleine lune", "def": "Veille, nuit et lendemain de la pleine lune ; fenêtre d'attaque du Wendigo."},
+    {"type": "THING", "nom": "Feu", "def": "Élément que le Wendigo craint et qui fait fondre son cœur de glace."},
+    {"type": "NARRATIVE", "nom": "Origine par trahison", "def": "Un mortel trahi qui mange le cœur de son amante voit le sien devenir glace : naissance du monstre."},
+    {"type": "MOMENT", "nom": "Guérison par vanquish", "def": "Détruire le monstre contaminant rend la victime contaminée à son état humain."},
+    {"type": "THING", "nom": "Renvoi du Livre", "def": "Note de bas de page (« c.f. Desiderata ») liant une entrée du Livre à une autre."}
+  ],
+  "liens": [
+    {"source": "Origine par trahison", "verbe": "CRÉE", "cible": "Wendigo", "statut": "C", "ep": "S01E12", "preuve": "cut out her heart and ate it... his own heart turned to ice"},
+    {"source": "Wendigo", "verbe": "SE NOURRIT DE", "cible": "Cœur humain", "statut": "E", "ep": "S01E12", "preuve": "It survives by feeding on human hearts."},
+    {"source": "Trois nuits de pleine lune", "verbe": "DÉCLENCHE", "cible": "Wendigo", "statut": "E", "ep": "S01E12", "preuve": "The night before, the night after and the night of the full moon."},
+    {"source": "Wendigo", "verbe": "CHOISIT PAR", "cible": "Sang AB négatif", "statut": "E", "ep": "S01E12", "preuve": "all the victims were AB negative"},
+    {"source": "Wendigo", "verbe": "CHOISIT PAR", "cible": "Émotion", "statut": "C", "ep": "S01E12", "preuve": "attacks people in love or at least people with good hearts"},
+    {"source": "Nuit", "verbe": "TRANSFORME", "cible": "Wendigo", "statut": "E", "ep": "S01E12", "preuve": "looks like a normal person during the day, but transforms at night"},
+    {"source": "Wendigo", "verbe": "TUE SOUS FORME HUMAINE", "cible": "Innocent", "statut": "?", "ep": "S01E12", "preuve": "He should've been safe, it's not even night."},
+    {"source": "Feu", "verbe": "REPOUSSE", "cible": "Wendigo", "statut": "E", "ep": "S01E12", "preuve": "It's afraid of fire. / I grabbed a log from the fire, it freaked"},
+    {"source": "Feu", "verbe": "DÉTRUIT", "cible": "Wendigo", "statut": "?", "ep": "S01E12", "preuve": "melting its heart of ice / Do something. Do it!", "note": "fusil de détresse tiré ; geste final non décrit"},
+    {"source": "Blessure contaminante", "verbe": "TRANSFORME", "cible": "Sorcière", "statut": "E", "ep": "S01E12", "preuve": "it's the blood of the Wendigo, and you have to fight it"},
+    {"source": "Blessure contaminante", "verbe": "GUÉRIT ANORMALEMENT", "cible": "Sorcière", "statut": "E", "ep": "S01E12", "preuve": "where's your bandage? How did your wound heal?"},
+    {"source": "Blessure contaminante", "verbe": "PROVOQUE", "cible": "Émotion", "statut": "E", "ep": "S01E12", "preuve": "Do you always have to be in charge? I'm so sorry. What's happening to me?"},
+    {"source": "Volonté", "verbe": "FREINE", "cible": "Blessure contaminante", "statut": "C", "ep": "S01E12", "preuve": "It's so strong. / You're stronger. Fight it, Piper. / I'm okay."},
+    {"source": "Guérison par vanquish", "verbe": "ANNULE", "cible": "Blessure contaminante", "statut": "E", "ep": "S01E12", "preuve": "kill the Wendigo that slashed you by melting its heart of ice"},
+    {"source": "Sorcière", "verbe": "CONSERVE SOUS TRANSFORMATION", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E12", "preuve": "Wait, Piper froze it."},
+    {"source": "Pouvoir individuel", "verbe": "GÈLE", "cible": "Wendigo", "statut": "E", "ep": "S01E12", "preuve": "Wait, Piper froze it. Do something."},
+    {"source": "Pouvoir individuel", "verbe": "LIMITÉ À", "cible": "Pièce", "statut": "E", "ep": "S01E12", "preuve": "My power doesn't work outside the room I'm in"},
+    {"source": "Mortel", "verbe": "DEVIENT VOLONTAIREMENT", "cible": "Wendigo", "statut": "C", "ep": "S01E12", "preuve": "I took steps. I did what I needed to make myself strong."},
+    {"source": "Livre des Ombres", "verbe": "RENVOIE VIA", "cible": "Renvoi du Livre", "statut": "E", "ep": "S01E12", "preuve": "didn't you check this at the bottom of the page? 'c.f. Desiderata'"},
+    {"source": "Livre des Ombres", "verbe": "PRESCRIT", "cible": "Guérison par vanquish", "statut": "E", "ep": "S01E12", "preuve": "Wisdom, balance, unbecoming. ... unbecoming a Wendigo."},
+    {"source": "Contact", "verbe": "DÉCLENCHE", "cible": "Prémonition", "statut": "E", "ep": "S01E12", "preuve": "I just had a vision of the past... And this bracelet"},
+    {"source": "Prémonition", "verbe": "RÉVÈLE", "cible": "Wendigo", "statut": "E", "ep": "S01E12", "preuve": "I just saw who the Wendigo is."},
+    {"source": "Destin de protectrice", "verbe": "N'EMPÊCHE PAS", "cible": "Mort", "statut": "E", "ep": "S01E12", "preuve": "I'm not used to losing an innocent we're supposed to protect."},
+    {"source": "Destin de protectrice", "verbe": "DÉCLENCHE", "cible": "Contact", "statut": "C", "ep": "S01E12", "preuve": "It's no coincidence I got that flat."}
+  ],
+  "actions": [
+    {"acteur": "Wendigo", "action": "ATTAQUER", "preconditions": ["une des trois nuits de pleine lune", "victime AB négatif"], "effet": "Cœur arraché ; survivant griffé contaminé", "cout": null, "limite": "Repoussé par le feu ; trois victimes par cycle", "statut": "E", "ep": "S01E12", "preuve": "they're all killed in threes"},
+    {"acteur": "Wendigo", "action": "SE DISSIMULER", "preconditions": ["jour"], "effet": "Apparence humaine, infiltre les enquêteurs", "cout": null, "limite": "Découvrable par prémonition", "statut": "E", "ep": "S01E12", "preuve": "it looks like a normal person during the day"},
+    {"acteur": "Sorcière", "action": "VANQUISH PAR LE FEU", "preconditions": ["fusil de détresse", "Wendigo localisé, gelé"], "effet": "Wendigo détruit, contaminée guérie", "cout": "Munitions limitées (deux fusées)", "limite": "Deux Wendigos confondus : risque de frapper la sœur", "statut": "?", "ep": "S01E12", "preuve": "Just shoot and pray you hit the right one."},
+    {"acteur": "Sorcière", "action": "GELER", "preconditions": ["cible dans la même pièce/espace"], "effet": "Immobilise le Wendigo", "cout": null, "limite": "Ne franchit pas les parois (cabine)", "statut": "E", "ep": "S01E12", "preuve": "I was trapped in a phone booth."},
+    {"acteur": "Sorcière", "action": "CONFINER UNE SŒUR CONTAMINÉE", "preconditions": ["chaînes"], "effet": "Empêche la transformée d'agir", "cout": null, "limite": "Échoue : elle se libère", "statut": "E", "ep": "S01E12", "preuve": "we might have to confine you until we get back"},
+    {"acteur": "Sorcière", "action": "PRÉMONITION", "preconditions": ["contact avec un objet"], "effet": "Vision du passé (accident) ou du futur (Wendigo, lieu)", "cout": "Charge émotionnelle", "limite": null, "statut": "E", "ep": "S01E12", "preuve": "every time I touch something... it's just too emotional for me"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "I just had a vision of the past... And this bracelet"},
+    {"lien": "Croissance du pouvoir ÉLARGIT Prémonition (passé)", "nouveau_statut": "E", "preuve": "I just had a vision of the past. It was a terrible car accident."},
+    {"lien": "Pouvoir individuel (gel) N'AGIT QUE SUR mortels et êtres incarnés", "nouveau_statut": "E", "preuve": "Wait, Piper froze it."},
+    {"lien": "Minuit de pleine lune (S01E01)", "nouveau_statut": "E", "preuve": "La pleine lune est à nouveau un déclencheur : « three phases of the full moon »"}
+  ],
+  "questions_ouvertes": [
+    "Comment le Wendigo est-il finalement détruit : fusée tirée par télékinésie, feu direct ?",
+    "Le Wendigo peut-il tuer le jour sous forme humaine, sans arracher le cœur ?",
+    "La limite « même pièce » du gel est-elle une distance ou une cloison ?",
+    "Un mortel peut-il choisir de devenir Wendigo, et par quel rite ?"
+  ]
+}

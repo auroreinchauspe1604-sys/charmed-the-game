@@ -13,3 +13,7 @@ Les transcriptions consultées ne sont pas des scripts officiels authentifiés. 
 
 Pour chaque lot, son README indique les contrôles réalisés et les points à traiter avant intégration. La priorité suivante est de renforcer la preuve des mécanismes déjà recensés, puis de compléter les relations, motivations et chronologies nécessaires aux scénarios. Aucun travail futur n’est lancé automatiquement par cet index.
 
+
+| Lot | Contenu | Nombre | Niveau de vérification |
+| --- | --- | ---: | --- |
+| [Graphe causal de la magie, saison 1](2026-09-10-graphe-magie/README.md) | nœuds typés, liens verbaux, actions par acteur | 72 nœuds, 105 liens, 48 actions | extraits des 22 transcriptions de la saison 1, consolidés à la main |

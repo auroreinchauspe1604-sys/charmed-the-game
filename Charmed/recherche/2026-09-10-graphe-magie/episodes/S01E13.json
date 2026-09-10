@@ -1,0 +1,57 @@
+{
+  "ep": "S01E13",
+  "titre": "From Fear to Eternity",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Démon de la Peur", "def": "Démon cyclique qui se nourrit de la peur des sorcières et tue en retournant leur plus grande peur contre elles."},
+    {"type": "MOMENT", "nom": "Peur", "def": "État de terreur face à sa plus grande peur ; paralyse les pouvoirs d'une sorcière."},
+    {"type": "MOMENT", "nom": "Convergence d'énergie négative", "def": "Vendredi 13 particulier, tous les 1300 ans, où le Démon de la Peur peut apparaître."},
+    {"type": "MOMENT", "nom": "Minuit", "def": "Échéance temporelle qui clôt la fenêtre d'action d'un mal cyclique."},
+    {"type": "THING", "nom": "Amulette", "def": "Porte-bonheur acheté ; sans effet sur certains démons."},
+    {"type": "NARRATIVE", "nom": "Superstition", "def": "Croyance populaire dont l'effet, s'il existe, vient de l'énergie qu'on y met."},
+    {"type": "THING", "nom": "Amour", "def": "Nommé 'le plus grand de tous les pouvoirs' ; libère de la peur."},
+    {"type": "SPACE", "nom": "Monde souterrain", "def": "Lieu où un démon reste enfermé entre ses apparitions."},
+    {"type": "MOMENT", "nom": "Isolement", "def": "Être seul ; condition favorisant l'attaque d'un démon de la peur."}
+  ],
+  "liens": [
+    {"source": "Convergence d'énergie négative", "verbe": "PERMET L'APPARITION DE", "cible": "Démon de la Peur", "statut": "E", "ep": "S01E13", "preuve": "appears once every 1,300 years on Friday the 13th"},
+    {"source": "Démon de la Peur", "verbe": "SE NOURRIT DE", "cible": "Peur", "statut": "E", "ep": "S01E13", "preuve": "He feeds on the fears of witches for his survival"},
+    {"source": "Démon de la Peur", "verbe": "LIT", "cible": "Peur", "statut": "E", "ep": "S01E13", "preuve": "Your greatest fear is being buried alive in an earthquake"},
+    {"source": "Démon de la Peur", "verbe": "TUE PAR", "cible": "Peur", "statut": "E", "ep": "S01E13", "preuve": "kills by turning a witch's greatest fear against her"},
+    {"source": "Peur", "verbe": "PARALYSE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E13", "preuve": "in the face of our greatest fear our powers are paralyzed"},
+    {"source": "Peur", "verbe": "ARRÊTE LE CŒUR DE", "cible": "Sorcière", "statut": "E", "ep": "S01E13", "preuve": "Her heart gave out, just like the others"},
+    {"source": "Amulette", "verbe": "N'AGIT PAS SUR", "cible": "Démon de la Peur", "statut": "E", "ep": "S01E13", "preuve": "Amulets don't work with this demon"},
+    {"source": "Démon de la Peur", "verbe": "CIBLE", "cible": "Sorcière", "statut": "E", "ep": "S01E13", "preuve": "five women with ties to the occult found dead"},
+    {"source": "Meurtre rituel", "verbe": "LIBÈRE DU", "cible": "Monde souterrain", "statut": "C", "ep": "S01E13", "preuve": "if he can kill he'll be freed from the underworld", "note": "condition exacte (nombre/état civil des victimes) tronquée dans le dialogue"},
+    {"source": "Minuit", "verbe": "MET FIN À", "cible": "Démon de la Peur", "statut": "C", "ep": "S01E13", "preuve": "He's only a threat till midnight"},
+    {"source": "Isolement", "verbe": "FAVORISE", "cible": "Attaque", "statut": "C", "ep": "S01E13", "preuve": "maybe he only attacks when you're alone"},
+    {"source": "Refoulement", "verbe": "N'ANNULE PAS", "cible": "Peur", "statut": "E", "ep": "S01E13", "preuve": "You didn't release your fear of fire. You only repressed it"},
+    {"source": "Amour", "verbe": "LIBÈRE DE", "cible": "Peur", "statut": "E", "ep": "S01E13", "preuve": "trust in the greatest of all powers: Love"},
+    {"source": "Libération de la peur", "verbe": "REPOUSSE", "cible": "Démon de la Peur", "statut": "E", "ep": "S01E13", "preuve": "I'm not afraid anymore. No!"},
+    {"source": "Démon de la Peur", "verbe": "EST BANNI POUR", "cible": "Convergence d'énergie négative", "statut": "C", "ep": "S01E13", "preuve": "put him back in the bottle for another 1,300 years"},
+    {"source": "Esprit", "verbe": "ÉCRIT DANS", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E13", "preuve": "That wasn't there this morning. It's in Mom's handwriting"},
+    {"source": "Esprit", "verbe": "SE MANIFESTE PAR", "cible": "Odeur", "statut": "?", "ep": "S01E13", "preuve": "It's like sandalwood. Mom used to wear a fragrance like that"},
+    {"source": "Esprit", "verbe": "SAUVE", "cible": "Sorcière", "statut": "E", "ep": "S01E13", "preuve": "she took my hand and brought me to the surface"},
+    {"source": "Esprit", "verbe": "VISITE PAR", "cible": "Rêve", "statut": "C", "ep": "S01E13", "preuve": "I had a wonderful dream about Mom"},
+    {"source": "Ancêtre", "verbe": "AVERTIT PAR", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E13", "preuve": "she wanted to warn us against him"},
+    {"source": "Superstition", "verbe": "AGIT PAR", "cible": "Croyance", "statut": "C", "ep": "S01E13", "preuve": "people put energy into believing bad things will happen"},
+    {"source": "Prémonition", "verbe": "AVERTIT DE", "cible": "Attaque", "statut": "E", "ep": "S01E13", "preuve": "I just had a premonition. You could be in trouble"}
+  ],
+  "actions": [
+    {"acteur": "Démon de la Peur", "action": "TERRIFIER", "preconditions": ["Sorcière isolée", "Fenêtre du Vendredi 13 ouverte"], "effet": "Manifeste la plus grande peur de la sorcière ; ses pouvoirs se figent ; mort par arrêt cardiaque, cheveux blanchis", "cout": null, "limite": "Cesse à minuit ; échoue si la sorcière lâche sa peur", "statut": "E", "ep": "S01E13", "preuve": "You're frozen in fear!"},
+    {"acteur": "Démon de la Peur", "action": "LIRE LA PEUR", "preconditions": ["Cible en face de lui"], "effet": "Connaît la vraie peur profonde, pas celle que la cible croit avoir", "cout": null, "limite": null, "statut": "E", "ep": "S01E13", "preuve": "You mortals need to look deeper"},
+    {"acteur": "Sorcière", "action": "LÂCHER SA PEUR", "preconditions": ["Affronter la peur", "S'appuyer sur l'amour"], "effet": "Le démon est repoussé/banni, la sorcière retrouve ses pouvoirs", "cout": null, "limite": "Refouler ne suffit pas", "statut": "E", "ep": "S01E13", "preuve": "Save yourself. Save your sister. Don't be afraid"},
+    {"acteur": "Esprit", "action": "ÉCRIRE DANS LE LIVRE", "preconditions": ["Danger imminent pour la lignée"], "effet": "Une nouvelle ligne apparaît dans le Livre des Ombres", "cout": null, "limite": "Indice cryptique, pas de mode d'emploi", "statut": "E", "ep": "S01E13", "preuve": "To let go of your fear, trust in the greatest of all powers"},
+    {"acteur": "Esprit", "action": "INTERVENIR PHYSIQUEMENT", "preconditions": ["Sorcière au bord de la mort", "Peur relâchée"], "effet": "Ramène la sorcière à la surface", "cout": null, "limite": "Visible seulement par la sorcière concernée", "statut": "?", "ep": "S01E13", "preuve": "I wish I could've seen her"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Ancêtre ÉCRIT DANS Livre des Ombres", "nouveau_statut": "E", "preuve": "first time we've found anything Mom's written in the Book"},
+    {"lien": "Émotion DÉCLENCHE Pouvoir individuel", "nouveau_statut": "X", "preuve": "Your powers are frozen by your fear", "note": "la peur extrême BLOQUE le pouvoir au lieu de le déclencher"},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "I just had a premonition. You could be in trouble"}
+  ],
+  "questions_ouvertes": [
+    "Combien de meurtres (et de quel type de victime) libèrent le démon du monde souterrain ?",
+    "Le démon est-il détruit ou seulement renvoyé pour 1300 ans ?",
+    "L'esprit de l'ancêtre peut-il intervenir hors d'un danger mortel ?",
+    "Les superstitions ont-elles un effet magique réel ou seulement psychologique ?"
+  ]
+}

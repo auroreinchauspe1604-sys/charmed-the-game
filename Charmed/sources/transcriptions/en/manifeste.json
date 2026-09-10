@@ -1,0 +1,1647 @@
+{
+  "universe": "Charmed (1998), série télévisée originale",
+  "source": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php",
+  "attribution": "springfieldspringfield.co.uk — transcription de fans, dialogue seul",
+  "langue": "en",
+  "nature": "transcription de dialogue par des fans, sans nom de locuteur ni didascalie fiable",
+  "use": "Consultation locale pour le contrôle canonique. Une réplique citée reste une source de fans : elle appuie une vérification, elle ne vaut pas relevé officiel. Texte non redistribué par ce dépôt.",
+  "recupereLe": "2026-09-10",
+  "episodes": {
+    "S01E01": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e01",
+      "statut": "recupere",
+      "titre": "Something Wicca This Way Comes",
+      "mots": 4650,
+      "caracteres": 24282,
+      "sha256": "863917ef1219e7c20063b3d9f508fa885157d609843281b9dd7a9bcb0acd1efa",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E02": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e02",
+      "statut": "recupere",
+      "titre": "I've Got You Under My Skin",
+      "mots": 4369,
+      "caracteres": 22771,
+      "sha256": "a644a17ea92e70f2f6a3fe612ad6b2a69df27d47931a463a7ed844135a44ce17",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E03": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e03",
+      "statut": "recupere",
+      "titre": "Thank You for Not Morphing",
+      "mots": 4593,
+      "caracteres": 23230,
+      "sha256": "29ea78234aec6fe878d17516609bb61b230882486d6f5adb8602d7f009783aaa",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E04": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e04",
+      "statut": "recupere",
+      "titre": "Dead Man Dating",
+      "mots": 4606,
+      "caracteres": 23274,
+      "sha256": "05efc527358b1900576bc04216e1fa00a3ade820d08289eddb69322f732b0177",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E05": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e05",
+      "statut": "recupere",
+      "titre": "Dream Sorcerer",
+      "mots": 4411,
+      "caracteres": 22780,
+      "sha256": "e2c16d8cd1e8aca94374c5290811fcdc2dc0007878a8ed82f6c077726477f283",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E06": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e06",
+      "statut": "recupere",
+      "titre": "The Wedding from Hell",
+      "mots": 4434,
+      "caracteres": 23176,
+      "sha256": "67cdfb88f121eb96d487b8907d9a932abfb0ff87159fea8471bb0ad452458ba2",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E07": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e07",
+      "statut": "recupere",
+      "titre": "The Fourth Sister",
+      "mots": 4404,
+      "caracteres": 22333,
+      "sha256": "ff4ff99e6a61e7abdfd1ceebc10a1f274dbcf30fd36060eba63010cd063f389f",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E08": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e08",
+      "statut": "recupere",
+      "titre": "The Truth Is Out There... and It Hurts",
+      "mots": 4764,
+      "caracteres": 24184,
+      "sha256": "f15bfe170b4a6fe157b600b3d799a72c83fa7820de57c1189946a2be6340ee23",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E09": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e09",
+      "statut": "recupere",
+      "titre": "The Witch Is Back",
+      "mots": 4589,
+      "caracteres": 23463,
+      "sha256": "4cae3b3259a0fadab5c5bdc7996b62f8d05464477b9404fe300a40087fce7921",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E10": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e10",
+      "statut": "recupere",
+      "titre": "Wicca Envy",
+      "mots": 4707,
+      "caracteres": 24252,
+      "sha256": "10e333e59ae509aa21de2ab1a4dced231b266bda2ec12c8bcc77680bea942cda",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E11": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e11",
+      "statut": "recupere",
+      "titre": "Feats of Clay",
+      "mots": 4918,
+      "caracteres": 25161,
+      "sha256": "8ff7d4bffcaf9193571ddfbc4a8cda3df37b2a01120a6db38d76c121ce6786d1",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E12": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e12",
+      "statut": "recupere",
+      "titre": "The Wendigo",
+      "mots": 4734,
+      "caracteres": 24237,
+      "sha256": "3d0cd5fef6e9c4fa720a421fb2d1122c185a1a80655c64a96f7e1dabcca3937c",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E13": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e13",
+      "statut": "recupere",
+      "titre": "From Fear to Eternity",
+      "mots": 4168,
+      "caracteres": 21438,
+      "sha256": "2d594b2c44e1a40a39073ee8c9d26a6e2cd569d9725a945d68933bc0595339ce",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E14": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e14",
+      "statut": "recupere",
+      "titre": "Secrets and Guys",
+      "mots": 4683,
+      "caracteres": 23867,
+      "sha256": "a583af81e02addddc00ef692e548376b5b2e03ebc7611262198e2a0cf6061e37",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E15": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e15",
+      "statut": "recupere",
+      "titre": "Is There a Woogy in the House?",
+      "mots": 4482,
+      "caracteres": 23513,
+      "sha256": "5e2338aa9adb2b8f391701679ac3fb1851b4b100e04c17d93dfa7af1b71744f4",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E16": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e16",
+      "statut": "recupere",
+      "titre": "Which Prue Is It, Anyway?",
+      "mots": 5374,
+      "caracteres": 27912,
+      "sha256": "cc8206d21a5acf7a436af1c6f4d1eff66503cc9a8db31396170f32c85e0382b1",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E17": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e17",
+      "statut": "recupere",
+      "titre": "That '70s Episode",
+      "mots": 4684,
+      "caracteres": 23869,
+      "sha256": "5800f682c392f8d411527f1ee993ec74abd67993720321c84463f7161a8db5f8",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E18": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e18",
+      "statut": "recupere",
+      "titre": "When Bad Warlocks Go Good",
+      "mots": 4660,
+      "caracteres": 24180,
+      "sha256": "3e5e6f5aab1cb62015afa455d8142938a99ca30e87a20b80249b2deb19d30164",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E19": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e19",
+      "statut": "recupere",
+      "titre": "Out of Sight",
+      "mots": 4504,
+      "caracteres": 22851,
+      "sha256": "cd9d3b95477d4f3c2767aeac360c7e171baed51a028171a12b1fbda5dca85085",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E20": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e20",
+      "statut": "recupere",
+      "titre": "The Power of Two",
+      "mots": 5047,
+      "caracteres": 26191,
+      "sha256": "653ee049a4d12f2ae2d2669f11556e2f5c04b458e0470c4c9c08590f31c12059",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E21": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e21",
+      "statut": "recupere",
+      "titre": "Love Hurts",
+      "mots": 4910,
+      "caracteres": 24564,
+      "sha256": "c7969c79518cd215be8711bbda4fda6e2ed26d054a9d66bedb5e536682052553",
+      "recupereLe": "2026-09-09"
+    },
+    "S01E22": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s01e22",
+      "statut": "recupere",
+      "titre": "Déjà Vu All Over Again",
+      "mots": 4451,
+      "caracteres": 22855,
+      "sha256": "75f6a655f09fc6c590e0b96ba79e49b90a7ba3d3996963dd968cd043f6a9eb6b",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E01": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e01",
+      "statut": "recupere",
+      "titre": "Witch Trial",
+      "mots": 5090,
+      "caracteres": 26062,
+      "sha256": "12514f358af08b2a450fced64ad148357b4f802e6e695db9777e54c2f29d3d4c",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E02": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e02",
+      "statut": "recupere",
+      "titre": "Morality Bites",
+      "mots": 4737,
+      "caracteres": 24163,
+      "sha256": "d97216db1e97bf9859f755fad65097f2bffe67a163f24322929949dcc394e29f",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E03": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e03",
+      "statut": "recupere",
+      "titre": "The Painted World",
+      "mots": 5273,
+      "caracteres": 27174,
+      "sha256": "9e7196a7eadabcfabe73c816564f1c79d2a971dc1a48e1029918a25f347a5030",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E04": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e04",
+      "statut": "recupere",
+      "titre": "The Devil's Music",
+      "mots": 4855,
+      "caracteres": 24889,
+      "sha256": "fd84586ba8221383e118b30d908fefcab97e124b22267a19c4941571670c4859",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E05": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e05",
+      "statut": "recupere",
+      "titre": "She's a Man, Baby, a Man!",
+      "mots": 5197,
+      "caracteres": 26546,
+      "sha256": "a5c74f5a4fe4bcfb75a352a7925c6859014223e93382dfa662cd4bd58197cd8e",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E06": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e06",
+      "statut": "recupere",
+      "titre": "That Old Black Magic",
+      "mots": 4175,
+      "caracteres": 21269,
+      "sha256": "c7113d927476b429e362dfd891cc572d43e969e28155100a908f0193580f9cc2",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E07": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e07",
+      "statut": "recupere",
+      "titre": "They're Everywhere",
+      "mots": 4732,
+      "caracteres": 24354,
+      "sha256": "f20fe6881b364e86834401ec5086e04a6db2d6f751f505e6fba7049a85f99994",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E08": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e08",
+      "statut": "recupere",
+      "titre": "P3 H2O",
+      "mots": 4506,
+      "caracteres": 22789,
+      "sha256": "2660db8aa8090ee8b28d2722f48c128d7f9225e895aa3b56b07323b6591fe659",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E09": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e09",
+      "statut": "recupere",
+      "titre": "Ms. Hellfire",
+      "mots": 4767,
+      "caracteres": 24409,
+      "sha256": "ff6e65eb16cbb883082aaa20b6784fd5c6a071b3cf72e3f1a6eff69b22bd9a01",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E10": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e10",
+      "statut": "recupere",
+      "titre": "Heartbreak City",
+      "mots": 5192,
+      "caracteres": 26395,
+      "sha256": "f706ca5d8f0e38933531d1200ecb62e6ac3de42b3d65dfe081dd6c53bee99e3a",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E11": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e11",
+      "statut": "recupere",
+      "titre": "Reckless Abandon",
+      "mots": 5195,
+      "caracteres": 26642,
+      "sha256": "ab926eb99572c26d5c7257c0206dd076f918e42b2ae3d1826342e663ed4ba644",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E12": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e12",
+      "statut": "recupere",
+      "titre": "Awakened",
+      "mots": 4984,
+      "caracteres": 26239,
+      "sha256": "491889d31674b3f765f5e67ad8c589ed222885bcfc6e378e6bb2b06e4d0e78da",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E13": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e13",
+      "statut": "recupere",
+      "titre": "Animal Pragmatism",
+      "mots": 4842,
+      "caracteres": 24858,
+      "sha256": "0e8627890c0a865f76290add15c0b6ba4902b4d334cdecd605e1daef1aec01fe",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E14": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e14",
+      "statut": "recupere",
+      "titre": "Pardon My Past",
+      "mots": 4620,
+      "caracteres": 23836,
+      "sha256": "9e272bc2667b2c7a636202493871bb09b21ca2f5bfa00c91f0dab3b0ac6b96aa",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E15": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e15",
+      "statut": "recupere",
+      "titre": "Give Me a Sign",
+      "mots": 4653,
+      "caracteres": 24071,
+      "sha256": "41d23041488a47bea8647577c8ef533f062fe8c2bfd4cde401945c8fb50480c1",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E16": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e16",
+      "statut": "recupere",
+      "titre": "Murphy's Luck",
+      "mots": 4623,
+      "caracteres": 23458,
+      "sha256": "e8e9b01d0154ed5129c96253464865e16225eec4b4cff6dd915143f6e6bf9621",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E17": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e17",
+      "statut": "recupere",
+      "titre": "How to Make a Quilt Out of Americans",
+      "mots": 4316,
+      "caracteres": 21868,
+      "sha256": "81e44768d0933cee32e7171f64b91e7031509142c0bc66586348518255a0f9ff",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E18": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e18",
+      "statut": "recupere",
+      "titre": "Chick Flick",
+      "mots": 4613,
+      "caracteres": 23356,
+      "sha256": "6b099d5b618d2f9c0f3cf436029602976f9026a86babbed7701431718d248387",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E19": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e19",
+      "statut": "recupere",
+      "titre": "Ex Libris",
+      "mots": 4648,
+      "caracteres": 23711,
+      "sha256": "a125de0e82a014b48e48d3118322b4f72a4dfe0bb1cf527a4269c24ca2fc81c4",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E20": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e20",
+      "statut": "recupere",
+      "titre": "Astral Monkey",
+      "mots": 4363,
+      "caracteres": 22589,
+      "sha256": "1f7872324268d4456dbeac2dd90a0f082886bcd8ed95c9b83a46817cad08815b",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E21": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e21",
+      "statut": "recupere",
+      "titre": "Apocalypse Not",
+      "mots": 4899,
+      "caracteres": 25351,
+      "sha256": "6d7b33def45f82e6622d2ae72526410059a347932fb6d248338b7c8654cc9fe7",
+      "recupereLe": "2026-09-09"
+    },
+    "S02E22": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s02e22",
+      "statut": "recupere",
+      "titre": "Be Careful What You Witch For",
+      "mots": 4841,
+      "caracteres": 24454,
+      "sha256": "05f8e5107468ea065beb338878266b104fdf50812e1f6d044b6f2ae904bae2db",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E01": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e01",
+      "statut": "recupere",
+      "titre": "The Honeymoon's Over",
+      "mots": 4881,
+      "caracteres": 25261,
+      "sha256": "2e7a375c85eeea18b7504f8754b33aa009c3b0e42ad2d0aff37a50c11c78c3e6",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E02": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e02",
+      "statut": "recupere",
+      "titre": "Magic Hour",
+      "mots": 4818,
+      "caracteres": 24697,
+      "sha256": "5dae3ec3b66657ae9e9b8a9e1ec9c232b6960606b0df989cf2c907e6310b36db",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E03": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e03",
+      "statut": "recupere",
+      "titre": "Once Upon a Time",
+      "mots": 4426,
+      "caracteres": 22560,
+      "sha256": "52a410b2c207b116a890b2ca9450ecd72ac03862b5c6eb36c98f5ad72cb5c148",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E04": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e04",
+      "statut": "recupere",
+      "titre": "All Halliwell's Eve",
+      "mots": 4289,
+      "caracteres": 22236,
+      "sha256": "a2929faebebc05812d4d6b4b13f40454887ba2d9ed05f362db36edc7ef22df84",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E05": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e05",
+      "statut": "recupere",
+      "titre": "Sight Unseen",
+      "mots": 4561,
+      "caracteres": 23507,
+      "sha256": "0a705331b1a032e4fb72290158c90d7630b79743d803a204347d7972cce114fb",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E06": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e06",
+      "statut": "recupere",
+      "titre": "Primrose Empath",
+      "mots": 4595,
+      "caracteres": 23472,
+      "sha256": "9a4fb7a6c3fd0594479c923f639140a4bab48bbb35201fffd9f0c4b38513b1ea",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E07": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e07",
+      "statut": "recupere",
+      "titre": "Power Outage",
+      "mots": 4329,
+      "caracteres": 22230,
+      "sha256": "4f1864d49907c15705ae8a148c6f1806b28a63b99b90db6389fea86f0ef43b5f",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E08": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e08",
+      "statut": "recupere",
+      "titre": "Sleuthing with the Enemy",
+      "mots": 4278,
+      "caracteres": 21863,
+      "sha256": "d7ac5448f82e7015d345bcdc8d6ea084348ff947557f58eba2f1b218a69509b8",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E09": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e09",
+      "statut": "recupere",
+      "titre": "Coyote Piper",
+      "mots": 4760,
+      "caracteres": 24400,
+      "sha256": "cd36c9b8ce4db13578767204ef7816db68881e6cef136f1fd6dab32babe4a2b1",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E10": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e10",
+      "statut": "recupere",
+      "titre": "We All Scream for Ice Cream",
+      "mots": 5002,
+      "caracteres": 25427,
+      "sha256": "c7e74c538410c412b752e726a92022a5819415fde8b9269dadc3efad5de9c9be",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E11": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e11",
+      "statut": "recupere",
+      "titre": "Blinded by the Whitelighter",
+      "mots": 5448,
+      "caracteres": 28508,
+      "sha256": "b4c6e4d7453e8a1bede1fa9c97e81503e6a96f0b612190ee96cd125882a0697a",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E12": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e12",
+      "statut": "recupere",
+      "titre": "Wrestling with Demons",
+      "mots": 4799,
+      "caracteres": 24287,
+      "sha256": "da625de133a5a4003815e54d34df9beafb8458381eb6e29e7512a1889e7b5f40",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E13": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e13",
+      "statut": "recupere",
+      "titre": "Bride and Gloom",
+      "mots": 4455,
+      "caracteres": 23089,
+      "sha256": "421bba30e4b3c92e27806aaabd8ea92e11f80dcdfd779bfad43d68b117785f6a",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E14": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e14",
+      "statut": "recupere",
+      "titre": "The Good, the Bad and the Cursed",
+      "mots": 4712,
+      "caracteres": 24027,
+      "sha256": "0fd154f42c80f09a923913d0bd3d8e1c11f9e3c730645339c52ae4571ddda1c5",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E15": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e15",
+      "statut": "recupere",
+      "titre": "Just Harried",
+      "mots": 4482,
+      "caracteres": 22822,
+      "sha256": "265de58b6393ad4004b7808e143b70328ba85f11f58e661dc34f98309ed8770b",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E16": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e16",
+      "statut": "recupere",
+      "titre": "Death Takes a Halliwell",
+      "mots": 4359,
+      "caracteres": 22398,
+      "sha256": "566e2e09cd2a120f41db87bbbc9e41a0f05231482cc2515e4f1b10add6362cd4",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E17": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e17",
+      "statut": "recupere",
+      "titre": "Pre-Witched",
+      "mots": 5005,
+      "caracteres": 25509,
+      "sha256": "8dfbbad2190d8d6e24c806d69fd6b856ea432311a57e97c7a5d7272b269c7962",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E18": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e18",
+      "statut": "recupere",
+      "titre": "Sin Francisco",
+      "mots": 5345,
+      "caracteres": 27447,
+      "sha256": "a1bc047381505581bbab6146880e70e2ea0d1bcd03ba1d924e564e3dbe1625c1",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E19": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e19",
+      "statut": "recupere",
+      "titre": "The Demon Who Came in from the Cold",
+      "mots": 4849,
+      "caracteres": 24778,
+      "sha256": "df139f4d3236c0e2c01931935db1a03154a56895b9a550f239af7e110a99a32b",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E20": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e20",
+      "statut": "recupere",
+      "titre": "Exit Strategy",
+      "mots": 4659,
+      "caracteres": 23937,
+      "sha256": "3e655be4cb5bf7ee8048695e153d4ce5b1927105374279435a2110d54416c0ee",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E21": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e21",
+      "statut": "recupere",
+      "titre": "Look Who's Barking",
+      "mots": 4299,
+      "caracteres": 22219,
+      "sha256": "f9433b6547838cc4fb27fa3f18162f30cf025793ba4018ea61db23471f1fb4ae",
+      "recupereLe": "2026-09-09"
+    },
+    "S03E22": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s03e22",
+      "statut": "recupere",
+      "titre": "All Hell Breaks Loose",
+      "mots": 4499,
+      "caracteres": 23213,
+      "sha256": "1c705242dec91adc15383edccbbe6c94dbcefc61e628b40f0697e89ed2897e18",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E01": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e01",
+      "statut": "recupere",
+      "titre": "Charmed Again, Part 1",
+      "mots": 8610,
+      "caracteres": 43963,
+      "sha256": "bbadae8081ab46a2ea415f81da0cddbce41543ce9c5f2fdd8894d35b74b04ebf",
+      "recupereLe": "2026-09-09",
+      "relevePartageAvec": [
+        "S04E02"
+      ]
+    },
+    "S04E02": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e02",
+      "statut": "recupere",
+      "titre": "Charmed Again, Part 2",
+      "mots": 8610,
+      "caracteres": 43963,
+      "sha256": "bbadae8081ab46a2ea415f81da0cddbce41543ce9c5f2fdd8894d35b74b04ebf",
+      "recupereLe": "2026-09-09",
+      "relevePartageAvec": [
+        "S04E01"
+      ]
+    },
+    "S04E03": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e03",
+      "statut": "recupere",
+      "titre": "Hell Hath No Fury",
+      "mots": 4695,
+      "caracteres": 24179,
+      "sha256": "4b1562a531584519c35796f002c20b06b35505d4e09885cc3db9862326d966d7",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E04": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e04",
+      "statut": "recupere",
+      "titre": "Enter the Demon",
+      "mots": 4654,
+      "caracteres": 23967,
+      "sha256": "0865d7b2c91e4cc0d8b965a18873dda189076002b49a1ca16443f2ed876fa1fd",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E05": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e05",
+      "statut": "recupere",
+      "titre": "Size Matters",
+      "mots": 4333,
+      "caracteres": 21942,
+      "sha256": "93493728820d51137d18da9241d9212a652d48bc27419c0706d223e2dfc7317c",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E06": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e06",
+      "statut": "recupere",
+      "titre": "A Knight to Remember",
+      "mots": 4798,
+      "caracteres": 24530,
+      "sha256": "bf80e7ba13d2161d4c5cdeaa3fd96057783323300da7136cddb4b7b6295271de",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E07": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e07",
+      "statut": "recupere",
+      "titre": "Brain Drain",
+      "mots": 4750,
+      "caracteres": 24758,
+      "sha256": "4c62cf1d1030f4f5d1405852b96371219480f660ab386535b464a5e1e219f2ab",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E08": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e08",
+      "statut": "recupere",
+      "titre": "Black as Cole",
+      "mots": 4280,
+      "caracteres": 21874,
+      "sha256": "5573f39da4c73ef2757731abb41b87ca68467ae673375ed3aff230d44b206c77",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E09": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e09",
+      "statut": "recupere",
+      "titre": "Muse to My Ears",
+      "mots": 5175,
+      "caracteres": 26541,
+      "sha256": "ae10243754ff1116554050fa2a319c1c800553305d6db2cb76edb1905dff14af",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E10": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e10",
+      "statut": "recupere",
+      "titre": "A Paige from the Past",
+      "mots": 4825,
+      "caracteres": 24597,
+      "sha256": "0c2c19b8c3ce5bd55c80f2424b8fffb748595d2cbb43536f865095e45c3ab4cb",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E11": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e11",
+      "statut": "recupere",
+      "titre": "Trial by Magic",
+      "mots": 5438,
+      "caracteres": 27775,
+      "sha256": "c9287f9861581982aa2247573a736630086fd88581e123ff66e24d8658c61058",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E12": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e12",
+      "statut": "recupere",
+      "titre": "Lost and Bound",
+      "mots": 5296,
+      "caracteres": 26937,
+      "sha256": "91430445c56c555472057f977b39a059444ac85767ef74d5169240ec522ce369",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E13": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e13",
+      "statut": "recupere",
+      "titre": "Charmed and Dangerous",
+      "mots": 4094,
+      "caracteres": 21227,
+      "sha256": "1766386ea9ac8870fa8748ea389905cd25e16af9ea0d3e89213587b869bb77fd",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E14": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e14",
+      "statut": "recupere",
+      "titre": "The Three Faces of Phoebe",
+      "mots": 4862,
+      "caracteres": 24896,
+      "sha256": "6a2cb2c6d1554d1000208124e98d0d9e7fa380a7cfae665aab0d4c6b03e260d6",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E15": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e15",
+      "statut": "recupere",
+      "titre": "Marry-Go-Round",
+      "mots": 4434,
+      "caracteres": 22897,
+      "sha256": "92821c0e8e82c0b08834edf7d93b92e108e39191645a63559555d490a7bd5b5a",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E16": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e16",
+      "statut": "recupere",
+      "titre": "The Fifth Halliwheel",
+      "mots": 4504,
+      "caracteres": 23095,
+      "sha256": "5bafac2b499d6f7d696498bbc59ecdac3ce248416f18a8fe5279a02c56799821",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E17": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e17",
+      "statut": "recupere",
+      "titre": "Saving Private Leo",
+      "mots": 4656,
+      "caracteres": 23947,
+      "sha256": "b311499e307309552aea7fd2fcd13b21784dd59c5652d5e4b1210bb04a6c1f0b",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E18": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e18",
+      "statut": "recupere",
+      "titre": "Bite Me",
+      "mots": 4794,
+      "caracteres": 24770,
+      "sha256": "d500f658f253f957dae79ab2b4a8dd35b3e5ab6a3845e08e509dca216d08cb93",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E19": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e19",
+      "statut": "recupere",
+      "titre": "We're Off to See the Wizard",
+      "mots": 4365,
+      "caracteres": 22666,
+      "sha256": "ecdcd61cddbd0090fb8ff44d7ea814a2de3603b158539a844c4699d044e7a894",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E20": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e20",
+      "statut": "recupere",
+      "titre": "Long Live the Queen",
+      "mots": 4102,
+      "caracteres": 21065,
+      "sha256": "5a49d263f260b17d93f6fa67594b23afee970b1a09e19b54aebcd6f64278ba18",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E21": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e21",
+      "statut": "recupere",
+      "titre": "Womb Raider",
+      "mots": 4726,
+      "caracteres": 24299,
+      "sha256": "103adc91a70478e304c812172fe3e76f54cf8f2cc7f2221d6b2dcd48fb9aae20",
+      "recupereLe": "2026-09-09"
+    },
+    "S04E22": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s04e22",
+      "statut": "recupere",
+      "titre": "Witch Way Now?",
+      "mots": 4384,
+      "caracteres": 22944,
+      "sha256": "777953a978b20f0111c27025370afd1b88a9cf6b4629de3894503cb24282c11f",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E01": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e01",
+      "statut": "recupere",
+      "titre": "A Witch's Tail, Part 1",
+      "mots": 9750,
+      "caracteres": 50291,
+      "sha256": "b9443d918eb78deadcc52ce24236a8ec49b49022aa3cdf5ea9c333d98b9f901d",
+      "recupereLe": "2026-09-09",
+      "relevePartageAvec": [
+        "S05E02"
+      ]
+    },
+    "S05E02": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e02",
+      "statut": "recupere",
+      "titre": "A Witch's Tail, Part 2",
+      "mots": 9750,
+      "caracteres": 50291,
+      "sha256": "b9443d918eb78deadcc52ce24236a8ec49b49022aa3cdf5ea9c333d98b9f901d",
+      "recupereLe": "2026-09-09",
+      "relevePartageAvec": [
+        "S05E01"
+      ]
+    },
+    "S05E03": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e03",
+      "statut": "recupere",
+      "titre": "Happily Ever After",
+      "mots": 4938,
+      "caracteres": 25502,
+      "sha256": "ca851d120c6083a8a90460d71224f1755ea23b1e3c4482d6db8ad5a7b8a93f59",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E04": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e04",
+      "statut": "recupere",
+      "titre": "Siren Song",
+      "mots": 4967,
+      "caracteres": 25761,
+      "sha256": "689eb0dcf88685d81e26598c1806319fbd9ccc451915e508f3be460700f59e52",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E05": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e05",
+      "statut": "recupere",
+      "titre": "Witches in Tights",
+      "mots": 5010,
+      "caracteres": 25700,
+      "sha256": "635629b52ffe9728c0630054a9ab0b8118fc656fffcf448d8e7ebf467d4faa4e",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E06": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e06",
+      "statut": "recupere",
+      "titre": "The Eyes Have It",
+      "mots": 4681,
+      "caracteres": 24720,
+      "sha256": "291787feda227ade1e278ca3f4337819ba9d0f572be429aa0bd340a77e8c83b1",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E07": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e07",
+      "statut": "recupere",
+      "titre": "Sympathy for the Demon",
+      "mots": 4453,
+      "caracteres": 23263,
+      "sha256": "b85883e17732667f6c155391d002223355f949f8e381a8d96bff007e5c449df4",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E08": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e08",
+      "statut": "recupere",
+      "titre": "A Witch in Time",
+      "mots": 4901,
+      "caracteres": 25335,
+      "sha256": "ab68eba2143730c3b99a6364f90cd9f8654c3693ac53dc13bb08707c91a2ef4f",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E09": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e09",
+      "statut": "recupere",
+      "titre": "Sam I Am",
+      "mots": 4759,
+      "caracteres": 24607,
+      "sha256": "d77139bb5482e6b31f516a699002beff7886c6205198a051337694755a5ec0e1",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E10": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e10",
+      "statut": "recupere",
+      "titre": "Y Tu Mummy También",
+      "mots": 4534,
+      "caracteres": 23555,
+      "sha256": "b194bbf394bdd3c398d0b62ef864970e3a328ad054f8de047f381303a9f6dfc1",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E11": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e11",
+      "statut": "recupere",
+      "titre": "The Importance of Being Phoebe",
+      "mots": 5533,
+      "caracteres": 28258,
+      "sha256": "9b2b3a4be979517c83cc95644cfbb64695fe136bfada59a16e7a59027a384bf8",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E12": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e12",
+      "statut": "recupere",
+      "titre": "Centennial Charmed",
+      "mots": 4148,
+      "caracteres": 21651,
+      "sha256": "987160f39fae75e45081d6b075c93644346487de4a771f0ac9fbbe867bd8c58a",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E13": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e13",
+      "statut": "recupere",
+      "titre": "House Call",
+      "mots": 4638,
+      "caracteres": 24227,
+      "sha256": "01935bb504f1a645e84658ef404bf0d07da02458ee859a95f36671f5b26e9a8d",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E14": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e14",
+      "statut": "recupere",
+      "titre": "Sand Francisco Dreamin'",
+      "mots": 4489,
+      "caracteres": 23328,
+      "sha256": "959c1e369643764a51f09c96ce5e914a26f0efbf83458d1b81c531f824c96624",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E15": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e15",
+      "statut": "recupere",
+      "titre": "The Day the Magic Died",
+      "mots": 5392,
+      "caracteres": 28079,
+      "sha256": "fbd687651aba6bb5471a1358e47ed05b2b6ff6b95c5a6e7a44bc68956a58ad1c",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E16": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e16",
+      "statut": "recupere",
+      "titre": "Baby's First Demon",
+      "mots": 5485,
+      "caracteres": 28414,
+      "sha256": "d6f414fbb647fd969b04820a35e6bfda8309a26bd88f45858858ed5a9a6b7820",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E17": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e17",
+      "statut": "recupere",
+      "titre": "Lucky Charmed",
+      "mots": 5350,
+      "caracteres": 27384,
+      "sha256": "6a9de6927da3b723909ad4f442584f47b1f3f1031addb3db657a33cea21d1bd7",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E18": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e18",
+      "statut": "recupere",
+      "titre": "Cat House",
+      "mots": 4511,
+      "caracteres": 23009,
+      "sha256": "3ca3956c171dfd90a7ef10169ddf3c476fe4fa9003a0136b0cedb0a8c08b5311",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E19": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e19",
+      "statut": "recupere",
+      "titre": "Nymphs Just Want to Have Fun",
+      "mots": 5139,
+      "caracteres": 26356,
+      "sha256": "cb9ad16e2fb83e905e0eb193ff88aa19fc42cf60da49a9601e763d9667749e10",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E20": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e20",
+      "statut": "recupere",
+      "titre": "Sense and Sense Ability",
+      "mots": 4830,
+      "caracteres": 24461,
+      "sha256": "3dd81084987dee3c29faad0aca6c22248628706f82aa26f7c1a7174756912f88",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E21": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e21",
+      "statut": "recupere",
+      "titre": "Necromancing the Stone",
+      "mots": 5239,
+      "caracteres": 26721,
+      "sha256": "a2ba691f957fc1d09d945c9781b96df351bf52ef124ecb215f90d36f126d42f1",
+      "recupereLe": "2026-09-09"
+    },
+    "S05E22": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e22",
+      "statut": "recupere",
+      "titre": "Oh My Goddess (1)",
+      "mots": 10012,
+      "caracteres": 51795,
+      "sha256": "6ecd0209de27dda575421e3ca67f87cfd34379071c4dcd63a5f99de42abab1e9",
+      "recupereLe": "2026-09-09",
+      "relevePartageAvec": [
+        "S05E23"
+      ]
+    },
+    "S05E23": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s05e23",
+      "statut": "recupere",
+      "titre": "Oh My Goddess (2)",
+      "mots": 10012,
+      "caracteres": 51795,
+      "sha256": "6ecd0209de27dda575421e3ca67f87cfd34379071c4dcd63a5f99de42abab1e9",
+      "recupereLe": "2026-09-09",
+      "relevePartageAvec": [
+        "S05E22"
+      ]
+    },
+    "S06E01": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e01",
+      "statut": "recupere",
+      "titre": "Valhalley of the Dolls, Part 1",
+      "mots": 4337,
+      "caracteres": 23441,
+      "sha256": "3b83b785033229b184e72761d65bb2ae78b353a9ec9f73c7af78df9635bb603d",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E02": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e02",
+      "statut": "recupere",
+      "titre": "Valhalley of the Dolls, Part 2",
+      "mots": 4066,
+      "caracteres": 22091,
+      "sha256": "affc8d650c99ddbb2b1c455ea5da737f49e99d494d39ee59723af3f0d586a8b8",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E03": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e03",
+      "statut": "recupere",
+      "titre": "Forget Me... Not",
+      "mots": 5143,
+      "caracteres": 28245,
+      "sha256": "7c5b9e1c2f81f3b28f0ddf3008adc5abd942f30507badfb9cea14db374db5683",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E04": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e04",
+      "statut": "recupere",
+      "titre": "The Power of Three Blondes",
+      "mots": 5200,
+      "caracteres": 28616,
+      "sha256": "5087779f49ee0573c8511253405bc1e4d4e0db509b17bccc509f65a64eeb9e1e",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E05": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e05",
+      "statut": "recupere",
+      "titre": "Love's a Witch",
+      "mots": 4127,
+      "caracteres": 22837,
+      "sha256": "b0369f121b01668fdc678ac10ccd8784824366dd3886423eea208c2cb8516e5b",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E06": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e06",
+      "statut": "recupere",
+      "titre": "My Three Witches",
+      "mots": 4428,
+      "caracteres": 23994,
+      "sha256": "3181d054df317cbee9e11adbbdd9591cda8fc3c4d4de80208f3e8e6512e55e7e",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E07": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e07",
+      "statut": "recupere",
+      "titre": "Soul Survivor",
+      "mots": 4633,
+      "caracteres": 24924,
+      "sha256": "499632d1defab457eb57352c90a1ce768677c5efa78f6629a0b3a543d39c3ce0",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E08": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e08",
+      "statut": "recupere",
+      "titre": "Sword and the City",
+      "mots": 4364,
+      "caracteres": 23955,
+      "sha256": "c7c0e8138c2bbf672e3c7d886b3c205e9f310537e94deb81df4f067e3fcd4882",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E09": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e09",
+      "statut": "recupere",
+      "titre": "Little Monsters",
+      "mots": 4354,
+      "caracteres": 23291,
+      "sha256": "f535b802463acb8fff3bbf23baccdc1d274d6f64ee513552a5f5715d4b237a44",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E10": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e10",
+      "statut": "recupere",
+      "titre": "Chris-Crossed",
+      "mots": 4246,
+      "caracteres": 23028,
+      "sha256": "de910242727a8080eb0b15d8f5ba70e548cb654e7efd17c9911be8aaff044ba0",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E11": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e11",
+      "statut": "recupere",
+      "titre": "Witchstock",
+      "mots": 5127,
+      "caracteres": 27890,
+      "sha256": "1df5ad4058b1ae7fd4e8dca9d7bd2fa382c3bb8642f069774c085e5ff16e2915",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E12": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e12",
+      "statut": "recupere",
+      "titre": "Prince Charmed",
+      "mots": 4566,
+      "caracteres": 25218,
+      "sha256": "11db764a2014ddbc6532a2c4876a5ac655616cc15e697cbcaca44268532e6825",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E13": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e13",
+      "statut": "recupere",
+      "titre": "Used Karma",
+      "mots": 4419,
+      "caracteres": 24052,
+      "sha256": "af0b84c342b91372a9359f4cc15e6952a79e621e3615d25abb7856e8f3a0517b",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E14": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e14",
+      "statut": "recupere",
+      "titre": "The Legend of Sleepy Halliwell",
+      "mots": 4617,
+      "caracteres": 25385,
+      "sha256": "e2337d9ee15a90213781bb820dfea854b2fe836fac591ff03b2fb647b615b21d",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E15": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e15",
+      "statut": "recupere",
+      "titre": "I Dream of Phoebe",
+      "mots": 5080,
+      "caracteres": 27188,
+      "sha256": "de88c6e07cbee09cc4339f25f61309e42673a79b4bdcd525ddc472f371b45df4",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E16": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e16",
+      "statut": "recupere",
+      "titre": "The Courtship of Wyatt's Father",
+      "mots": 4337,
+      "caracteres": 23710,
+      "sha256": "3d361c2292d01957bb2af6af8f3e1f374817d1b9c600d2a1aaeb69cd9e5df5dd",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E17": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e17",
+      "statut": "recupere",
+      "titre": "Hyde School Reunion",
+      "mots": 4669,
+      "caracteres": 25228,
+      "sha256": "2a62db2dfc07566dc4325c7921661fd95c9f3df9f168c494c28e14496241e558",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E18": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e18",
+      "statut": "recupere",
+      "titre": "Spin City",
+      "mots": 4216,
+      "caracteres": 22702,
+      "sha256": "3a944413af3c2b3032c4e130879cc6664c788530bf73394e7ab2bc64a9ffeb88",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E19": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e19",
+      "statut": "recupere",
+      "titre": "Crimes and Witch-Demeanors",
+      "mots": 4745,
+      "caracteres": 26370,
+      "sha256": "408541628deb8848f6b6e7b3b76740d447b5875d86eb51fc50e0d8431b8cdfdf",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E20": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e20",
+      "statut": "recupere",
+      "titre": "A Wrong Day's Journey Into Right",
+      "mots": 4617,
+      "caracteres": 24918,
+      "sha256": "c46d1958dfe316c43595a868ad1be15cba708709361a41fbf9be97b151de641b",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E21": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e21",
+      "statut": "recupere",
+      "titre": "Witch Wars",
+      "mots": 5086,
+      "caracteres": 28614,
+      "sha256": "eee71aa549981db441c406bce9c0252d302d37b0a945c2c1a2f1b52abf28987f",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E22": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e22",
+      "statut": "recupere",
+      "titre": "It's a Bad, Bad, Bad, Bad World, Part 1",
+      "mots": 4737,
+      "caracteres": 26115,
+      "sha256": "2ed1d7befa860ab2f8fb502f61703f452f0e380c5539d8bd21b7c48bf8636415",
+      "recupereLe": "2026-09-09"
+    },
+    "S06E23": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s06e23",
+      "statut": "recupere",
+      "titre": "It's a Bad, Bad, Bad, Bad World, Part 2",
+      "mots": 4658,
+      "caracteres": 25678,
+      "sha256": "001885955120d9111f2c08d7035b5d3c12690f8dff3dbf875ae4261d8097c66d",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E01": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e01",
+      "statut": "recupere",
+      "titre": "A Call to Arms",
+      "mots": 4735,
+      "caracteres": 25748,
+      "sha256": "b5fdd591511b0668de1d29dbbf642a6f6100cdd693bf0ff873de11f8b271568d",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E02": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e02",
+      "statut": "recupere",
+      "titre": "The Bare Witch Project",
+      "mots": 4747,
+      "caracteres": 25964,
+      "sha256": "6f30efb52b7b6d2644a43104c72c15c066c31c0993ee006a09663b72f01b30c9",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E03": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e03",
+      "statut": "recupere",
+      "titre": "Cheaper by the Coven",
+      "mots": 4900,
+      "caracteres": 26687,
+      "sha256": "f5dd25594b525c6e61d9ccc50bcf1c8a1ea57f2f0bcec4a85886ec8daaa3cc69",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E04": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e04",
+      "statut": "recupere",
+      "titre": "Charrrmed!",
+      "mots": 4393,
+      "caracteres": 24216,
+      "sha256": "4560888eb8b9c9fb41bb23d3b5e010f28b00a33b97f12ead42d849c73534f6b8",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E05": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e05",
+      "statut": "recupere",
+      "titre": "Styx Feet Under",
+      "mots": 4512,
+      "caracteres": 24210,
+      "sha256": "f91b51e623a40c0a6be58b1dd98f403504a0b97429411c5bcb4f59955ca46613",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E06": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e06",
+      "statut": "recupere",
+      "titre": "Once in a Blue Moon",
+      "mots": 4422,
+      "caracteres": 23579,
+      "sha256": "28c32715d44e3646396a9337caa5e247b1c6ecb4809655b806819b96387ffb1c",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E07": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e07",
+      "statut": "recupere",
+      "titre": "Someone to Witch Over Me",
+      "mots": 3970,
+      "caracteres": 21687,
+      "sha256": "794dd2f73b864e9f0aa3b46954b4caff1ad0e130a741ff5375092709bc8f55e5",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E08": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e08",
+      "statut": "recupere",
+      "titre": "Charmed Noir",
+      "mots": 5147,
+      "caracteres": 27794,
+      "sha256": "c100ef36e7765dc0c03954d1acf192d55157b211c3f65d7d4f5959abbf343969",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E09": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e09",
+      "statut": "recupere",
+      "titre": "There's Something About Leo",
+      "mots": 4464,
+      "caracteres": 24375,
+      "sha256": "aaa6f5df7ee39792cc92942203ffe51db21605dba65a37e2c256b448c398d1d2",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E10": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e10",
+      "statut": "recupere",
+      "titre": "Witchness Protection",
+      "mots": 5135,
+      "caracteres": 27863,
+      "sha256": "e7fd1aa42295171c85a93a8c5f03f3f04511576b7190fb8ecd60e5d392883e88",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E11": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e11",
+      "statut": "recupere",
+      "titre": "Ordinary Witches",
+      "mots": 4339,
+      "caracteres": 23589,
+      "sha256": "2bcc57ad6e80ef763098b17e18acb05ce6feba0be765b1f2f7b5da83fdbbfeba",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E12": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e12",
+      "statut": "recupere",
+      "titre": "Extreme Makeover: World Edition",
+      "mots": 4457,
+      "caracteres": 24084,
+      "sha256": "9c837dda7e934cb34829a5984915b1c304206b2bf74d0794ae7b2fce50b8b075",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E13": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e13",
+      "statut": "recupere",
+      "titre": "Charmageddon",
+      "mots": 4562,
+      "caracteres": 24816,
+      "sha256": "af2fe9de4f65520de7043c7871603fad27fb89da42383f2b7fe6b9e78a80edfa",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E14": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e14",
+      "statut": "recupere",
+      "titre": "Carpe Demon",
+      "mots": 5795,
+      "caracteres": 31868,
+      "sha256": "1d50b58f25f96b57e870d02107f6b4515235bb08fe17c6052be52262a59754d4",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E15": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e15",
+      "statut": "recupere",
+      "titre": "Show Ghouls",
+      "mots": 4554,
+      "caracteres": 25007,
+      "sha256": "85c2c34773d82dd1235e3e7795f373860615d1e18a0fd071ac296fd1e30cda65",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E16": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e16",
+      "statut": "recupere",
+      "titre": "The Seven Year Witch",
+      "mots": 5043,
+      "caracteres": 27007,
+      "sha256": "ef22548fb715b6f92088b171033b8f7319408206c36e2386321883c1de9fb9bb",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E17": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e17",
+      "statut": "recupere",
+      "titre": "Scry Hard",
+      "mots": 4461,
+      "caracteres": 24222,
+      "sha256": "c4cf85456ac3939d0767077eef67eddbf32ea4ad5091e09935b2a786df1fff12",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E18": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e18",
+      "statut": "recupere",
+      "titre": "Little Box of Horrors",
+      "mots": 4248,
+      "caracteres": 22879,
+      "sha256": "b3edbac93c9f636fdb370a8e8982adb3cd78478571786b3b5f98029de17d08ff",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E19": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e19",
+      "statut": "recupere",
+      "titre": "Freaky Phoebe",
+      "mots": 4916,
+      "caracteres": 26930,
+      "sha256": "b86a67fe89714194e14f55f84691241573f2cce6ac6b9d33da417ebc18707b32",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E20": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e20",
+      "statut": "recupere",
+      "titre": "Imaginary Fiends",
+      "mots": 4748,
+      "caracteres": 26051,
+      "sha256": "018f365471252cac259b87549e5676a460ae73ac188f4e4b40b303f68d93e809",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E21": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e21",
+      "statut": "recupere",
+      "titre": "Death Becomes Them",
+      "mots": 5034,
+      "caracteres": 27157,
+      "sha256": "9e4a54fc21b00cf0e8534b209147c69d9acfe71cfdbf9542f37d5755a1f10c26",
+      "recupereLe": "2026-09-09"
+    },
+    "S07E22": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s07e22",
+      "statut": "recupere",
+      "titre": "Something Wicca This Way Goes",
+      "mots": 3917,
+      "caracteres": 21117,
+      "sha256": "4650839fbee0d892ad0c16a7446535bc9fb87eae80a1fc302cd6c88118f19c34",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E01": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e01",
+      "statut": "recupere",
+      "titre": "Still Charmed and Kicking",
+      "mots": 4757,
+      "caracteres": 25958,
+      "sha256": "c3d4bdc7689738d5be6a464370a4b433271a1e253a61f454e932d19044fcdc35",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E02": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e02",
+      "statut": "recupere",
+      "titre": "Malice in Wonderland",
+      "mots": 4905,
+      "caracteres": 27244,
+      "sha256": "a6802a8d203a7f4b3d59e4a4646e8aad9c07576d91b975d1aa96b1ce18546680",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E03": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e03",
+      "statut": "recupere",
+      "titre": "Run, Piper, Run",
+      "mots": 5233,
+      "caracteres": 28740,
+      "sha256": "6623fc9e3e48d35a68ffdd5296b33e6fe0f8e4557da7e0aba91342b551ef4548",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E04": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e04",
+      "statut": "recupere",
+      "titre": "Desperate Housewitches",
+      "mots": 4695,
+      "caracteres": 25959,
+      "sha256": "242967d453484ff5fab224e2e79c1af6be509c1b788a0496839f56ec2db426c1",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E05": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e05",
+      "statut": "recupere",
+      "titre": "Rewitched",
+      "mots": 4538,
+      "caracteres": 24834,
+      "sha256": "19fb595bbcee420383460899d30bb7b4bfeed69067b02ced7d55f24f39527109",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E06": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e06",
+      "statut": "recupere",
+      "titre": "Kill Billie: Vol. 1",
+      "mots": 4800,
+      "caracteres": 26452,
+      "sha256": "d723311c2005afb615975ad6e62cbaf06e5d0f089a56e0510d8f25c4ce0b90b9",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E07": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e07",
+      "statut": "recupere",
+      "titre": "The Lost Picture Show",
+      "mots": 4935,
+      "caracteres": 26958,
+      "sha256": "45f8dce7fbf52f1103244e158f7c575e1f740da8a46c477436519ac8c1eb9406",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E08": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e08",
+      "statut": "recupere",
+      "titre": "Battle of the Hexes",
+      "mots": 5302,
+      "caracteres": 28830,
+      "sha256": "e17e7071e5ca0d3254026d31ddc01486c3e1577d14e46c00be86204e7a503c8e",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E09": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e09",
+      "statut": "recupere",
+      "titre": "Hulkus Pocus",
+      "mots": 4626,
+      "caracteres": 25268,
+      "sha256": "b0af5c8d01c3bd1f945328c95104925b1411ce9a4ecb3f144bde2e4c4231391f",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E10": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e10",
+      "statut": "recupere",
+      "titre": "Vaya Con Leos",
+      "mots": 4812,
+      "caracteres": 25991,
+      "sha256": "c718ae7b1032cb5a4013ba5022a565c83f49216facf222ca95983268bcc6c739",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E11": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e11",
+      "statut": "recupere",
+      "titre": "Mr. & Mrs. Witch",
+      "mots": 4979,
+      "caracteres": 27622,
+      "sha256": "7d3352ebcb646d06709e0b88c461b72d50e3ad09fc1f6f086ac23fe2b1e399ab",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E12": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e12",
+      "statut": "recupere",
+      "titre": "Payback's a Witch",
+      "mots": 4885,
+      "caracteres": 26562,
+      "sha256": "a09d2613caccc51a81e35c67e02074b382767cbe40b79a30a59591ebdae164e9",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E13": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e13",
+      "statut": "recupere",
+      "titre": "Repo Manor",
+      "mots": 4731,
+      "caracteres": 25911,
+      "sha256": "e38c55fa4f9e5f6503a904c7b712f7fdf5430bfaaac590f0ef35056c72b6876a",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E14": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e14",
+      "statut": "recupere",
+      "titre": "12 Angry Zen",
+      "mots": 4363,
+      "caracteres": 24182,
+      "sha256": "520823eee5290d21031c4b32c0fe36753cc6182b9a90fa863ac3e23b2a3ffa5d",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E15": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e15",
+      "statut": "recupere",
+      "titre": "The Last Temptation of Christy",
+      "mots": 5158,
+      "caracteres": 28407,
+      "sha256": "bdc1dec24951d66f4e9dad34b0849f75c947ea4419727c8b0f7692c2b0969701",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E16": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e16",
+      "statut": "recupere",
+      "titre": "Engaged and Confused",
+      "mots": 4695,
+      "caracteres": 25868,
+      "sha256": "856a4f6d0d518367375408d331a545a3ea260f5d39be5e139148bb842e0ceccf",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E17": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e17",
+      "statut": "recupere",
+      "titre": "Generation Hex",
+      "mots": 4667,
+      "caracteres": 25449,
+      "sha256": "6a6192e05de117ac9879bf50130d73feb9071eb3e11e9f9330602b9ac4e2c964",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E18": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e18",
+      "statut": "recupere",
+      "titre": "The Torn Identity",
+      "mots": 5265,
+      "caracteres": 28161,
+      "sha256": "86b5747e7dc60c646c8f8c00f5ad6665835efc089e14cfe5222a4b05cbeea2ef",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E19": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e19",
+      "statut": "recupere",
+      "titre": "The Jung and the Restless",
+      "mots": 4825,
+      "caracteres": 26334,
+      "sha256": "4d77b8937f8121adbace1d01f6c057af690f084eee168a7808d864b8c23de381",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E20": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e20",
+      "statut": "recupere",
+      "titre": "Gone with the Witches",
+      "mots": 4474,
+      "caracteres": 25365,
+      "sha256": "08f30e90788f1cd1141cec5adad39186581a162f0f398f6a16bc9e2c952485dc",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E21": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e21",
+      "statut": "recupere",
+      "titre": "Kill Billie: Vol. 2",
+      "mots": 3815,
+      "caracteres": 21027,
+      "sha256": "cc411f31497d530c5c7c25abd99fa31d359b9cf76e197e448566e809f9ecd693",
+      "recupereLe": "2026-09-09"
+    },
+    "S08E22": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=charmed&episode=s08e22",
+      "statut": "recupere",
+      "titre": "Forever Charmed",
+      "mots": 4387,
+      "caracteres": 23954,
+      "sha256": "680e913083609f9f85299c17f6fb9e2cab7c5b1a66cb35f7114ee6a9856fd375",
+      "recupereLe": "2026-09-09"
+    }
+  },
+  "couverture": "178/178 épisodes de l'index",
+  "absents": [],
+  "relevesPartages": [
+    [
+      "S04E01",
+      "S04E02"
+    ],
+    [
+      "S05E01",
+      "S05E02"
+    ],
+    [
+      "S05E22",
+      "S05E23"
+    ]
+  ]
+}

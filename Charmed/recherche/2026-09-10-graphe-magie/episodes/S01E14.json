@@ -1,0 +1,56 @@
+{
+  "ep": "S01E14",
+  "titre": "Secrets and Guys",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Être de lumière", "def": "Messager-guide, 'ange gardien' des bonnes sorcières, envoyé par les Fondateurs."},
+    {"type": "ACTOR", "nom": "Fondateurs", "def": "Conseil d'Êtres de lumière aînés qui envoient les Êtres de lumière et sanctionnent leurs fautes."},
+    {"type": "ACTOR", "nom": "Jeune sorcier", "def": "Enfant né avec un pouvoir hérité de sa mère sorcière, vulnérable car sans guide."},
+    {"type": "THING", "nom": "Planche spirite", "def": "Objet qui transmet un appel à l'aide d'une personne dotée de pouvoirs."},
+    {"type": "THING", "nom": "Télépathie", "def": "Lien mental par lequel un Être de lumière contacte les sorcières qu'il guide."},
+    {"type": "NARRATIVE", "nom": "Interdit d'amour", "def": "Règle : Êtres de lumière et sorcières n'ont pas le droit de s'aimer."},
+    {"type": "MOMENT", "nom": "Convocation", "def": "Rappel soudain d'un Être de lumière par ses supérieurs."},
+    {"type": "ACTOR", "nom": "Mortel malveillant", "def": "Humain sans pouvoir qui exploite un sorcier par la contrainte."}
+  ],
+  "liens": [
+    {"source": "Fondateurs", "verbe": "ENVOIENT", "cible": "Être de lumière", "statut": "E", "ep": "S01E14", "preuve": "sent here to watch over you when you got your powers"},
+    {"source": "Être de lumière", "verbe": "GUIDE", "cible": "Sorcière", "statut": "E", "ep": "S01E14", "preuve": "guardian angels for good witches"},
+    {"source": "Être de lumière", "verbe": "TRANSMET PAR", "cible": "Planche spirite", "statut": "E", "ep": "S01E14", "preuve": "I made sure that Prue received his cry for help"},
+    {"source": "Planche spirite", "verbe": "TRANSMET", "cible": "Appel à l'aide", "statut": "E", "ep": "S01E14", "preuve": "it would have to be someone with powers"},
+    {"source": "Être de lumière", "verbe": "CONTACTE PAR", "cible": "Télépathie", "statut": "E", "ep": "S01E14", "preuve": "I can't reach either Max or Prue telepathically"},
+    {"source": "Être de lumière", "verbe": "LÉVITE", "cible": "Être de lumière", "statut": "E", "ep": "S01E14", "preuve": "most normal handymen use ladders to fix chandeliers"},
+    {"source": "Être de lumière", "verbe": "N'EST PAS", "cible": "Sorcière", "statut": "E", "ep": "S01E14", "preuve": "Are you a witch? No"},
+    {"source": "Interdit d'amour", "verbe": "SÉPARE", "cible": "Être de lumière", "statut": "E", "ep": "S01E14", "preuve": "whitelighters and witches aren't allowed to fall in love"},
+    {"source": "Secret", "verbe": "PROTÈGE", "cible": "Être de lumière", "statut": "E", "ep": "S01E14", "preuve": "keep my secret, or I could get in trouble"},
+    {"source": "Convocation", "verbe": "RAPPELLE", "cible": "Être de lumière", "statut": "E", "ep": "S01E14", "preuve": "I could be summoned at any moment"},
+    {"source": "Être de lumière", "verbe": "LAISSE AGIR", "cible": "Sorcière", "statut": "E", "ep": "S01E14", "preuve": "That's all I'm supposed to do. The rest is up to Prue"},
+    {"source": "Sorcière", "verbe": "TRANSMET PAR HÉRÉDITÉ", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E14", "preuve": "It's what she was. Then suddenly, Max starts having these powers"},
+    {"source": "Jeune sorcier", "verbe": "POSSÈDE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E14", "preuve": "Max is a budding good witch, new to the powers"},
+    {"source": "Règle morale", "verbe": "INTERDIT", "cible": "Usage du pouvoir pour le mal", "statut": "E", "ep": "S01E14", "preuve": "promise never to use my power for bad things"},
+    {"source": "Mortel malveillant", "verbe": "EXPLOITE", "cible": "Jeune sorcier", "statut": "E", "ep": "S01E14", "preuve": "Someone wants to take advantage of his gift"},
+    {"source": "Pouvoir individuel", "verbe": "AGIT SUR", "cible": "Machine", "statut": "E", "ep": "S01E14", "preuve": "turned off the arcade alarm system from across the street"},
+    {"source": "Pouvoir individuel", "verbe": "AGIT SANS", "cible": "Contact visuel", "statut": "E", "ep": "S01E14", "preuve": "psychokinesis. It means I can move things I can't see"},
+    {"source": "Secret", "verbe": "PROTÈGE", "cible": "Sorcière", "statut": "E", "ep": "S01E14", "preuve": "protect yourself by protecting your secret"},
+    {"source": "Esprit", "verbe": "PARLE À", "cible": "Innocent", "statut": "E", "ep": "S01E14", "preuve": "It's not time to be with your wife, Gordon"},
+    {"source": "Blessure mortelle", "verbe": "EST GUÉRIE SUR", "cible": "Innocent", "statut": "?", "ep": "S01E14", "preuve": "You're not bleeding. It's a miracle"},
+    {"source": "Menace sur un proche", "verbe": "CONTRAINT", "cible": "Jeune sorcier", "statut": "E", "ep": "S01E14", "preuve": "They'll kill my dad if I do"},
+    {"source": "Pouvoir individuel", "verbe": "AGIT SUR", "cible": "Mortel malveillant", "statut": "E", "ep": "S01E14", "preuve": "You saw what that chick did"}
+  ],
+  "actions": [
+    {"acteur": "Être de lumière", "action": "GUIDER", "preconditions": ["Envoyé par les Fondateurs", "Sorcière en danger"], "effet": "Fait parvenir un message/appel à la sorcière protégée", "cout": "Doit rester secret ; sanction sinon", "limite": "N'agit pas lui-même, laisse la sorcière résoudre", "statut": "E", "ep": "S01E14", "preuve": "We're really just messengers, guides"},
+    {"acteur": "Être de lumière", "action": "CONTACTER TÉLÉPATHIQUEMENT", "preconditions": ["Lien avec la sorcière"], "effet": "Localise ou joint une sorcière à distance", "cout": null, "limite": "Échoue parfois (cible injoignable)", "statut": "E", "ep": "S01E14", "preuve": "can't reach either Max or Prue telepathically"},
+    {"acteur": "Être de lumière", "action": "AIMER UNE SORCIÈRE", "preconditions": [], "effet": "Rupture de règle ; obligé de partir sans expliquer", "cout": "Séparation, ennuis avec les Fondateurs", "limite": null, "statut": "E", "ep": "S01E14", "preuve": "He fell in love with you, and that broke all the rules"},
+    {"acteur": "Jeune sorcier", "action": "APPELER À L'AIDE", "preconditions": ["Posséder un pouvoir"], "effet": "Message reçu sur une planche spirite chez d'autres sorcières", "cout": null, "limite": "Message court, peu d'informations", "statut": "E", "ep": "S01E14", "preuve": "Help Max. That's not a lot to go on"},
+    {"acteur": "Jeune sorcier", "action": "DÉSACTIVER À DISTANCE", "preconditions": ["Savoir où est le système"], "effet": "Coupe une alarme sans la voir", "cout": null, "limite": "Signal interrompu détectable après quelques minutes", "statut": "E", "ep": "S01E14", "preuve": "three minutes till the guards realize there's a signal interruption"},
+    {"acteur": "Esprit", "action": "APPARAÎTRE À UN MORTEL", "preconditions": ["Mortel au seuil de la mort"], "effet": "Le renvoie vers les vivants avec une consigne", "cout": null, "limite": null, "statut": "E", "ep": "S01E14", "preuve": "Raise the boy well. Heed Prue's advice"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Secret PROTÈGE Sorcière", "nouveau_statut": "E", "preuve": "protect yourself by protecting your secret"},
+    {"lien": "Naissance DONNE Pouvoir individuel (hérédité)", "nouveau_statut": "E", "preuve": "It's what she was"}
+  ],
+  "questions_ouvertes": [
+    "Qui a guéri la blessure par balle du père (Être de lumière ? Esprit ?) ?",
+    "Comment l'Être de lumière fait-il parvenir un message via la planche spirite ?",
+    "Quelle sanction précise frappe un Être de lumière qui enfreint l'interdit d'amour ?",
+    "Le pouvoir d'un enfant sorcier est-il actif dès la naissance ou apparaît-il à un âge donné ?"
+  ]
+}

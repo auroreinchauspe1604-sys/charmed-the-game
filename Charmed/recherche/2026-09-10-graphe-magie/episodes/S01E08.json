@@ -1,0 +1,55 @@
+{
+  "ep": "S01E08",
+  "titre": "The Truth Is Out There... and It Hurts",
+  "noeuds_nouveaux": [
+    {"type": "THING", "nom": "Sort de vérité", "def": "Sort du Livre qui oblige toute personne en contact avec les lanceurs à dire la vérité pendant 24 heures, après quoi les mortels oublient."},
+    {"type": "ACTOR", "nom": "Warlock du futur", "def": "Warlock envoyé depuis le futur pour tuer ceux qui contribueront à sa destruction ; tue par une brûlure au front qui blanchit les yeux."},
+    {"type": "NARRATIVE", "nom": "Bénéfice personnel", "def": "Règle wiccane : un sort lancé pour soi entraîne des conséquences que les lanceurs doivent subir."},
+    {"type": "NARRATIVE", "nom": "Hérédité du pouvoir", "def": "Les pouvoirs se transmettent par la lignée maternelle aux descendantes de sexe féminin."},
+    {"type": "MOMENT", "nom": "Fin du sort", "def": "Expiration de la durée fixée par les mots du sort ; efface les effets et la mémoire des mortels."},
+    {"type": "MOMENT", "nom": "Prémonition", "def": "Vision du futur reçue par une sorcière, qui désigne un innocent à sauver."}
+  ],
+  "liens": [
+    {"source": "Livre des Ombres", "verbe": "CONTIENT", "cible": "Sort de vérité", "statut": "E", "ep": "S01E08", "preuve": "Truth spell. What the?"},
+    {"source": "Sort de vérité", "verbe": "N'AGIT QUE SUR", "cible": "Maison de la lignée", "statut": "E", "ep": "S01E08", "preuve": "It said, 'those in this house.' I thought I was alone."},
+    {"source": "Sort de vérité", "verbe": "CONTRAINT", "cible": "Innocent", "statut": "E", "ep": "S01E08", "preuve": "everybody who comes into contact with us will have no choice"},
+    {"source": "Sort de vérité", "verbe": "CONTRAINT", "cible": "Sorcière", "statut": "E", "ep": "S01E08", "preuve": "if we get asked a question, we have to answer with the truth"},
+    {"source": "Sort de vérité", "verbe": "CONTRAINT", "cible": "Warlock du futur", "statut": "E", "ep": "S01E08", "preuve": "She's hiding the woman I was sent back to kill."},
+    {"source": "Incantation", "verbe": "FIXE", "cible": "Fin du sort", "statut": "E", "ep": "S01E08", "preuve": "From now until it's now again / Twenty-four-hour time limit."},
+    {"source": "Sort", "verbe": "NE PEUT ÊTRE ANNULÉ AVANT", "cible": "Fin du sort", "statut": "E", "ep": "S01E08", "preuve": "We have to undo it right now. Can't. Twenty-four-hour time limit."},
+    {"source": "Fin du sort", "verbe": "EFFACE LA MÉMOIRE DE", "cible": "Innocent", "statut": "E", "ep": "S01E08", "preuve": "You don't remember anything you said in the last 24 hours? No."},
+    {"source": "Fin du sort", "verbe": "N'EFFACE PAS LA MÉMOIRE DE", "cible": "Sorcière", "statut": "E", "ep": "S01E08", "preuve": "Everybody else has forgotten the truth, why do we still remember it?"},
+    {"source": "Bénéfice personnel", "verbe": "SANCTIONNE", "cible": "Sorcière", "statut": "C", "ep": "S01E08", "preuve": "Prue cast a spell for her own personal gain, now we deal with the fallout"},
+    {"source": "Sorcière", "verbe": "SE RÉVÈLE À", "cible": "Innocent", "statut": "E", "ep": "S01E08", "preuve": "I did that with my mind. My secret. I'm a witch."},
+    {"source": "Hérédité du pouvoir", "verbe": "TRANSMET", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E08", "preuve": "We inherited our powers from Mom and Grams. If they're girls, yes."},
+    {"source": "Sorcière", "verbe": "NE PEUT RENONCER À", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E08", "preuve": "is this something you can get rid of? No."},
+    {"source": "Prémonition", "verbe": "DÉSIGNE", "cible": "Innocent", "statut": "E", "ep": "S01E08", "preuve": "I had this vision for a reason. I am supposed to save her."},
+    {"source": "Destin de protectrice", "verbe": "EXCLUT", "cible": "Innocent", "statut": "C", "ep": "S01E08", "preuve": "There are no coincidences. I was supposed to see you"},
+    {"source": "Warlock du futur", "verbe": "TUE PAR", "cible": "Contact", "statut": "E", "ep": "S01E08", "preuve": "That burn on your forehead, that's how he does it."},
+    {"source": "Warlock du futur", "verbe": "PROVIENT DE", "cible": "Plan temporel futur", "statut": "C", "ep": "S01E08", "preuve": "Sent back from where? The future."},
+    {"source": "Livre des Ombres", "verbe": "N'IDENTIFIE PAS", "cible": "Warlock du futur", "statut": "E", "ep": "S01E08", "preuve": "a demon that the Book of Shadows says doesn't exist"},
+    {"source": "Warlock du futur", "verbe": "CRAINT", "cible": "Naissance", "statut": "C", "ep": "S01E08", "preuve": "The Parker child will... create the vaccine which will destroy us."},
+    {"source": "Pouvoir individuel", "verbe": "GÈLE", "cible": "Warlock du futur", "statut": "E", "ep": "S01E08", "preuve": "Prue, he's gonna unfreeze soon."},
+    {"source": "Sorcière", "verbe": "DÉTRUIT", "cible": "Warlock du futur", "statut": "?", "ep": "S01E08", "preuve": "I love it when they clean up after themselves.", "note": "warlock détruit après gel ; le geste (télékinésie, renvoi) n'est pas dit"},
+    {"source": "Réunion des trois", "verbe": "N'EST PAS REQUISE PAR", "cible": "Attaque", "statut": "E", "ep": "S01E08", "preuve": "I can't always be the power of three."}
+  ],
+  "actions": [
+    {"acteur": "Sorcière", "action": "LANCER LE SORT DE VÉRITÉ", "preconditions": ["Livre des Ombres", "lecture de l'incantation"], "effet": "Toute personne en contact avec les lanceurs dit la vérité ; les lanceurs aussi", "cout": "Les lanceurs gardent le souvenir de vérités blessantes (règle du bénéfice personnel)", "limite": "24 heures, non annulable, portée = présents dans la maison au lancement", "statut": "E", "ep": "S01E08", "preuve": "Those who now are in this house will hear the truth"},
+    {"acteur": "Warlock du futur", "action": "TUER PAR MARQUE AU FRONT", "preconditions": ["contact avec la victime"], "effet": "Brûlure cautérisée, yeux blanchis, mort sans blessure de sortie", "cout": null, "limite": null, "statut": "E", "ep": "S01E08", "preuve": "same cauterized mark on their forehead, eyes drained of colour"},
+    {"acteur": "Warlock du futur", "action": "VOYAGER DANS LE TEMPS", "preconditions": [], "effet": "Arrive dans le passé pour tuer les futurs créateurs d'un vaccin", "cout": null, "limite": "Ne sait pas où se cache sa cible", "statut": "C", "ep": "S01E08", "preuve": "I was sent back to kill. / The future."},
+    {"acteur": "Sorcière", "action": "GELER", "preconditions": ["cible présente"], "effet": "Immobilise le warlock", "cout": null, "limite": "Durée courte", "statut": "E", "ep": "S01E08", "preuve": "he's gonna unfreeze soon"},
+    {"acteur": "Sorcière", "action": "PRÉMONITION", "preconditions": [], "effet": "Vision d'un meurtre à venir, sans identité claire de la victime", "cout": null, "limite": "Détails flous, non rejouables", "statut": "E", "ep": "S01E08", "preuve": "If it's not on videotape, I can't exactly rewind it."},
+    {"acteur": "Sorcière", "action": "RÉVÉLER SON SECRET", "preconditions": ["démonstration du pouvoir"], "effet": "Le mortel apprend la nature de la sorcière", "cout": "Réaction imprévisible du mortel", "limite": "Effacé ici par la fin du sort", "statut": "E", "ep": "S01E08", "preuve": "Can you accept that I'm a witch? I don't think so"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Sort N'AGIT QUE SUR sa cible écrite", "nouveau_statut": "E", "preuve": "It said, 'those in this house.' I thought I was alone."},
+    {"lien": "Pouvoir individuel (gel) agit sur Warlock", "nouveau_statut": "E", "preuve": "he's gonna unfreeze soon"},
+    {"lien": "Pouvoir des Trois DÉTRUIT Warlock", "nouveau_statut": "?", "preuve": "Deux sœurs seules suffisent ici : « I can't always be the power of three »"}
+  ],
+  "questions_ouvertes": [
+    "Par quel geste exact le warlock du futur est-il détruit (télékinésie ? renvoi de son propre pouvoir ?)",
+    "Le Livre des Ombres ne connaît-il pas les êtres qui n'existent pas encore ?",
+    "La règle « bénéfice personnel » est-elle une sanction magique automatique ou une interprétation des sœurs ?",
+    "Les pouvoirs se transmettent-ils uniquement aux filles ?"
+  ]
+}

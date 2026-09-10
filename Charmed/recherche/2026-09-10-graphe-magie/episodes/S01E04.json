@@ -1,0 +1,54 @@
+{
+  "ep": "S01E04",
+  "titre": "Dead Man Dating",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Fantôme", "def": "Esprit d'un mort dont le corps n'a pas été enterré, invisible aux mortels, incapable de toucher."},
+    {"type": "ACTOR", "nom": "Gardien des enfers", "def": "Entité qui capture les âmes non enterrées et les emmène en enfer, sans égard au bien ou au mal."},
+    {"type": "ACTOR", "nom": "Esprit ancestral", "def": "Âme d'un défunt de la famille qui vient guider le mort vers l'au-delà."},
+    {"type": "THING", "nom": "Amulette", "def": "Objet de protection placé sur une porte qui interdit l'entrée aux fantômes."},
+    {"type": "NARRATIVE", "nom": "Mythe mortel", "def": "Légendes et rites traditionnels des mortels qui se révèlent vrais."},
+    {"type": "MOMENT", "nom": "Ouverture des portes des enfers", "def": "Période (mois des fantômes) où les esprits mauvais parcourent le monde et où le gardien chasse les âmes."},
+    {"type": "MOMENT", "nom": "Enterrement", "def": "Rite funéraire qui libère l'âme et la met hors de portée du gardien."}
+  ],
+  "liens": [
+    {"source": "Sorcière", "verbe": "PERÇOIT", "cible": "Fantôme", "statut": "E", "ep": "S01E04", "preuve": "You can see me? Both of you?"},
+    {"source": "Innocent", "verbe": "NE PERÇOIT PAS", "cible": "Fantôme", "statut": "E", "ep": "S01E04", "preuve": "I can see you, but no one else can? I'm dead."},
+    {"source": "Destin de protectrice", "verbe": "EXPLIQUE", "cible": "Fantôme", "statut": "C", "ep": "S01E04", "preuve": "Why else would we be able to see him?"},
+    {"source": "Fantôme", "verbe": "NE PEUT PAS TOUCHER", "cible": "Sorcière", "statut": "E", "ep": "S01E04", "preuve": "Pretend you can feel my hand on your skin."},
+    {"source": "Meurtre", "verbe": "CRÉE", "cible": "Fantôme", "statut": "E", "ep": "S01E04", "preuve": "I was murdered last night, I can prove it."},
+    {"source": "Ouverture des portes des enfers", "verbe": "LIBÈRE", "cible": "Gardien des enfers", "statut": "C", "ep": "S01E04", "preuve": "It's called Da Jui. When the gates of hell open."},
+    {"source": "Gardien des enfers", "verbe": "CAPTURE", "cible": "Fantôme", "statut": "E", "ep": "S01E04", "preuve": "If the gatekeeper, Yama, captures my soul before my body's properly buried"},
+    {"source": "Gardien des enfers", "verbe": "IGNORE", "cible": "Règle morale", "statut": "E", "ep": "S01E04", "preuve": "Yama doesn't care about good or evil. He just wants souls."},
+    {"source": "Enterrement", "verbe": "PROTÈGE", "cible": "Fantôme", "statut": "E", "ep": "S01E04", "preuve": "get Mark's family to give him a proper burial, and then he can move on"},
+    {"source": "Enterrement", "verbe": "LIBÈRE", "cible": "Fantôme", "statut": "E", "ep": "S01E04", "preuve": "I guess this really is goodbye."},
+    {"source": "Esprit ancestral", "verbe": "GUIDE", "cible": "Fantôme", "statut": "E", "ep": "S01E04", "preuve": "Who's that man? That's my dad."},
+    {"source": "Pouvoir individuel", "verbe": "GÈLE", "cible": "Gardien des enfers", "statut": "E", "ep": "S01E04", "preuve": "I panic, I put up both hands, and bad things tend to freeze."},
+    {"source": "Amulette", "verbe": "BLOQUE", "cible": "Fantôme", "statut": "E", "ep": "S01E04", "preuve": "He's got an amulet on the door. I can't go in."},
+    {"source": "Mythe mortel", "verbe": "EST VRAI", "cible": "Gardien des enfers", "statut": "E", "ep": "S01E04", "preuve": "All the Chinese fairy tales she told me growing up are true."},
+    {"source": "Contact", "verbe": "DÉCLENCHE", "cible": "prémonition", "statut": "E", "ep": "S01E04", "preuve": "Usually, when I touch someone, or I'm in the same general area"},
+    {"source": "Sorcière", "verbe": "DÉJOUE", "cible": "prémonition", "statut": "E", "ep": "S01E04", "preuve": "I saved that guy.", "note": "L'avenir vu peut être empêché par l'intervention de la sorcière."},
+    {"source": "prémonition", "verbe": "DÉPEND DE", "cible": "Objet-canal", "statut": "E", "ep": "S01E04", "preuve": "It doesn't happen without your briefcase.", "note": "Le détail vu conditionne l'événement."},
+    {"source": "Bénéfice personnel", "verbe": "ENTRAÎNE", "cible": "Sanction", "statut": "C", "ep": "S01E04", "preuve": "You can't use your powers for personal gain. Not without consequences."},
+    {"source": "Secret", "verbe": "INTERDIT", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E04", "preuve": "Our powers are supposed to be a secret, not a marketable job skill."},
+    {"source": "Destin de protectrice", "verbe": "RÉCOMPENSE", "cible": "Sorcière", "statut": "E", "ep": "S01E04", "preuve": "I had no idea what a rush it would be for me."},
+    {"source": "Gardien des enfers", "verbe": "CAPTURE", "cible": "Innocent", "statut": "E", "ep": "S01E04", "preuve": "Make a wish, you bastard.", "note": "Le fantôme du meurtrier est pris à son tour."}
+  ],
+  "actions": [
+    {"acteur": "Fantôme", "action": "CHERCHER DE L'AIDE", "preconditions": ["trouver un être capable de le voir (sorcière/psychique)"], "effet": "Communique avec les vivants", "cout": null, "limite": "ne peut toucher, ne peut entrer dans un lieu protégé par amulette", "statut": "E", "ep": "S01E04", "preuve": "I've tried communicating with every psychic in the city."},
+    {"acteur": "Gardien des enfers", "action": "CAPTURER UNE ÂME", "preconditions": ["corps non enterré", "portes des enfers ouvertes"], "effet": "L'âme est emmenée en enfer pour toujours", "cout": null, "limite": "échoue après enterrement ; peut être gelé brièvement", "statut": "E", "ep": "S01E04", "preuve": "he'll take me to hell. Forever."},
+    {"acteur": "Sorcière", "action": "GELER LE TEMPS", "preconditions": ["panique, mains levées"], "effet": "Gèle le gardien, des tireurs armés", "cout": null, "limite": "durée très courte", "statut": "E", "ep": "S01E04", "preuve": "How long's this last again? Not very."},
+    {"acteur": "Sorcière", "action": "DÉJOUER UNE PRÉMONITION", "preconditions": ["vision d'une mort", "intervention physique sur la scène vue"], "effet": "La victime survit", "cout": null, "limite": "la victime peut refuser d'être crue", "statut": "E", "ep": "S01E04", "preuve": "He thought I was out of my mind."},
+    {"acteur": "Sorcière", "action": "VENDRE SES PRÉMONITIONS", "preconditions": ["se faire passer pour psychique"], "effet": "Gain d'argent", "cout": "conséquences annoncées, non montrées", "limite": "pouvoir intermittent", "statut": "C", "ep": "S01E04", "preuve": "I never actually know when it's gonna work."},
+    {"acteur": "Innocent", "action": "PROTÉGER SA MAISON PAR AMULETTE", "preconditions": ["objet traditionnel de protection"], "effet": "Aucun fantôme ne peut entrer", "cout": null, "limite": null, "statut": "E", "ep": "S01E04", "preuve": "She's got the house protected against ghosts."}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "when I touch someone, or I'm in the same general area as them."},
+    {"lien": "Pouvoir individuel N'AGIT PAS SUR Sorcière (S01E02)", "nouveau_statut": "E", "preuve": "bad things tend to freeze", "note": "Le gel agit sur un être surnaturel non sorcier (gardien)."}
+  ],
+  "questions_ouvertes": [
+    "Le fantôme est-il visible des sorcières uniquement parce qu'il est un innocent à protéger, ou toute sorcière voit-elle tout fantôme ?",
+    "Le gardien des enfers n'agit-il que pendant le mois des fantômes ?",
+    "Quelle est la conséquence concrète de l'usage du pouvoir pour de l'argent ?",
+    "Un mortel mauvais mort et enterré échapperait-il aussi au gardien ?"
+  ]
+}

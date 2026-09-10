@@ -1,0 +1,62 @@
+{
+  "ep": "S01E21",
+  "titre": "Love Hurts",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Être de lumière", "def": "Ancien humain devenu immortel, guide des sorcières et des futurs êtres de lumière ; soigne les autres, occulte ses protégés, ne peut se soigner lui-même."},
+    {"type": "ACTOR", "nom": "Être des ténèbres", "def": "Contrepartie maléfique : séduit des innocentes pour engendrer le mal, tue par le toucher, abat les êtres de lumière par flèche empoisonnée."},
+    {"type": "ACTOR", "nom": "Futur être de lumière", "def": "Humain destiné à faire un grand bien puis à devenir être de lumière ; protégé par un être de lumière."},
+    {"type": "THING", "nom": "Flèche empoisonnée", "def": "Arme de l'être des ténèbres ; poison irréversible fait pour tuer les êtres de lumière, dangereux au toucher."},
+    {"type": "THING", "nom": "Occultation", "def": "Voile posé par un être de lumière qui rend une personne introuvable par un être des ténèbres, tant que le protecteur vit et garde ses forces."},
+    {"type": "THING", "nom": "Toucher de mort", "def": "Pouvoir de l'être des ténèbres logé dans ses mains, qui tue à volonté."},
+    {"type": "THING", "nom": "Sort d'échange de pouvoirs", "def": "Incantation qui fait passer les pouvoirs entre tous ceux présents ; réversible par la même incantation."},
+    {"type": "THING", "nom": "Déclencheur émotionnel", "def": "Émotion propre à chaque pouvoir (colère, amour, haine) sans laquelle un pouvoir emprunté ne s'active pas."},
+    {"type": "THING", "nom": "Toucher guérisseur", "def": "Pouvoir d'un être de lumière qui soigne autrui ; déclenché par l'amour."},
+    {"type": "NARRATIVE", "nom": "Interdit d'amour", "def": "Un être de lumière n'a pas le droit d'aimer une sorcière ; il peut renoncer à l'immortalité pour redevenir humain."},
+    {"type": "NARRATIVE", "nom": "Consentement de la proie", "def": "L'être des ténèbres ne 'gagne' que si sa proie vient de son plein gré."}
+  ],
+  "liens": [
+    {"source": "Être de lumière", "verbe": "GUIDE", "cible": "Sorcière", "statut": "E", "ep": "S01E21", "preuve": "He guides witches. And future whitelighters"},
+    {"source": "Être de lumière", "verbe": "OCCULTE", "cible": "Futur être de lumière", "statut": "E", "ep": "S01E21", "preuve": "I've made you invisible to him"},
+    {"source": "Occultation", "verbe": "DÉPEND DE", "cible": "Vie de l'Être de lumière", "statut": "E", "ep": "S01E21", "preuve": "you won't find her as long as I live"},
+    {"source": "Affaiblissement", "verbe": "DISSIPE", "cible": "Occultation", "statut": "E", "ep": "S01E21", "preuve": "My power is ebbing, and with it, my ability to cloak Daisy"},
+    {"source": "Être des ténèbres", "verbe": "LOCALISE PAR LA PENSÉE", "cible": "Proie", "statut": "E", "ep": "S01E21", "preuve": "all I had to do was think about her, then bang, I'd be there"},
+    {"source": "Être des ténèbres", "verbe": "SÉDUIT", "cible": "Innocent", "statut": "E", "ep": "S01E21", "preuve": "They seduce innocent women... create evil through reproduction"},
+    {"source": "Flèche empoisonnée", "verbe": "TUE", "cible": "Être de lumière", "statut": "E", "ep": "S01E21", "preuve": "the darklighter's poison can't be reversed. It's meant to kill whitelighters"},
+    {"source": "Flèche empoisonnée", "verbe": "INTERDIT", "cible": "Contact", "statut": "E", "ep": "S01E21", "preuve": "don't touch it. It's tipped with poison"},
+    {"source": "Toucher de mort", "verbe": "TUE", "cible": "Innocent", "statut": "E", "ep": "S01E21", "preuve": "His power is in his hands... he has the touch of death"},
+    {"source": "Toucher guérisseur", "verbe": "NE S'APPLIQUE PAS À", "cible": "Soi-même", "statut": "E", "ep": "S01E21", "preuve": "My power is for others. I can't use it on myself"},
+    {"source": "Sort d'échange de pouvoirs", "verbe": "TRANSFÈRE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E21", "preuve": "Let our powers cross the line... Switch the powers through the air"},
+    {"source": "Sort d'échange de pouvoirs", "verbe": "AFFECTE", "cible": "Tous les présents", "statut": "E", "ep": "S01E21", "preuve": "It switched all of our powers?"},
+    {"source": "Déclencheur émotionnel", "verbe": "CONDITIONNE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E21", "preuve": "maybe you have to find his trigger, not yours"},
+    {"source": "Colère", "verbe": "DÉCLENCHE", "cible": "Pouvoir individuel (télékinésie)", "statut": "E", "ep": "S01E21", "preuve": "it was anger that triggered it, so I need to push your buttons"},
+    {"source": "Amour", "verbe": "DÉCLENCHE", "cible": "Toucher guérisseur", "statut": "E", "ep": "S01E21", "preuve": "That love was the trigger? You had to find that out on your own"},
+    {"source": "Haine", "verbe": "DÉCLENCHE", "cible": "Toucher de mort", "statut": "E", "ep": "S01E21", "preuve": "It's hate. Hate is his trigger"},
+    {"source": "Toucher de mort (retourné)", "verbe": "DÉTRUIT", "cible": "Être des ténèbres", "statut": "E", "ep": "S01E21", "preuve": "Bring him to me, Phoebe... He's gone. You did it"},
+    {"source": "Amour", "verbe": "PERMET DE LOCALISER", "cible": "Proie occultée", "statut": "E", "ep": "S01E21", "preuve": "a place where you find love. - Wait, I can hear her"},
+    {"source": "Consentement de la proie", "verbe": "CONDITIONNE", "cible": "Victoire de l'Être des ténèbres", "statut": "E", "ep": "S01E21", "preuve": "You only win if I come willingly, and I never will"},
+    {"source": "Interdit d'amour", "verbe": "CONTRAINT", "cible": "Être de lumière", "statut": "E", "ep": "S01E21", "preuve": "Being with her broke the rules"},
+    {"source": "Être de lumière", "verbe": "PEUT REDEVENIR", "cible": "Humain", "statut": "C", "ep": "S01E21", "preuve": "I can become human again, Piper. I mean, if you want me to"},
+    {"source": "Mort d'un humain (bon)", "verbe": "OFFRE", "cible": "Devenir Être de lumière", "statut": "E", "ep": "S01E21", "preuve": "they offered me immortality and a chance to help special people"},
+    {"source": "Pouvoir emprunté", "verbe": "COÛTE", "cible": "Sorcière", "statut": "E", "ep": "S01E21", "preuve": "Having your power was like wearing a dress that was too tight"}
+  ],
+  "actions": [
+    {"acteur": "Être de lumière", "action": "OCCULTER UNE PERSONNE", "preconditions": ["protégé désigné"], "effet": "L'être des ténèbres ne peut plus la localiser", "cout": "Puissance continue", "limite": "Cesse à la mort ou à l'affaiblissement du protecteur", "statut": "E", "ep": "S01E21", "preuve": "You've been out of the cloak too long. Alec can find her"},
+    {"acteur": "Être de lumière", "action": "SOIGNER", "preconditions": ["toucher", "amour comme déclencheur"], "effet": "Guérison immédiate de blessure", "cout": null, "limite": "Ne marche pas sur soi", "statut": "E", "ep": "S01E21", "preuve": "I love you, Leo. Please hear me. - Piper!"},
+    {"acteur": "Être des ténèbres", "action": "TIRER UNE FLÈCHE EMPOISONNÉE", "preconditions": ["cible = être de lumière"], "effet": "Mort lente et irréversible de l'être de lumière", "cout": null, "limite": "Guérissable seulement par toucher guérisseur", "statut": "E", "ep": "S01E21", "preuve": "It's working its way through my system. It's just a matter of time"},
+    {"acteur": "Être des ténèbres", "action": "TUER PAR LE TOUCHER", "preconditions": ["contact des mains", "volonté / haine"], "effet": "Mort de la cible", "cout": null, "limite": null, "statut": "E", "ep": "S01E21", "preuve": "I've never used this on a witch before"},
+    {"acteur": "Sorcière", "action": "ÉCHANGER LES POUVOIRS", "preconditions": ["incantation", "présence des parties"], "effet": "Chacun reçoit le pouvoir d'un autre présent", "cout": "Perd son propre pouvoir ; doit trouver le déclencheur étranger", "limite": "Touche tous les présents, pas seulement deux", "statut": "E", "ep": "S01E21", "preuve": "It's a supernatural Freaky Friday"},
+    {"acteur": "Sorcière", "action": "RETOURNER LE POUVOIR D'UN DÉMON", "preconditions": ["échange de pouvoirs avec le démon", "ressentir son déclencheur (haine)"], "effet": "Le démon est détruit par son propre pouvoir", "cout": "Éprouver une haine extrême", "limite": null, "statut": "E", "ep": "S01E21", "preuve": "I can't believe how much hate that took"},
+    {"acteur": "Sorcière", "action": "LOCALISER UN PROTÉGÉ", "preconditions": ["pouvoir d'être de lumière", "état de paix/amour"], "effet": "Entend et voit où se trouve la personne", "cout": null, "limite": null, "statut": "E", "ep": "S01E21", "preuve": "She's screaming... He's pushing her past some trees"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Émotion DÉCLENCHE Pouvoir individuel", "nouveau_statut": "E", "preuve": "chaque pouvoir a son émotion propre : colère, amour, haine"},
+    {"lien": "Athamé TRANSFÈRE Pouvoir individuel", "nouveau_statut": "E", "preuve": "un sort peut aussi transférer les pouvoirs : Switch the powers through the air"},
+    {"lien": "Réunion des trois CONDITIONNE Pouvoir des Trois", "nouveau_statut": "X", "preuve": "I don't think we do. I think there's a better way — le démon est vaincu sans Pouvoir des Trois ; note: nuance, pas une contradiction stricte"}
+  ],
+  "questions_ouvertes": [
+    "Un être de lumière peut-il vraiment redevenir humain, et à quel prix ?",
+    "Le sort d'échange affecte-t-il tout être présent, y compris un démon involontaire ? (oui ici, mais portée exacte inconnue)",
+    "Comment un être de lumière mort par poison est-il ramené par le toucher guérisseur alors qu'il était déclaré mort ?",
+    "Une flèche d'être des ténèbres peut-elle tuer une sorcière ?"
+  ]
+}

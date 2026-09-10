@@ -1,0 +1,58 @@
+{
+  "ep": "S01E07",
+  "titre": "The Fourth Sister",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Esprit possesseur", "def": "Sorcière maléfique maudite dans sa propre dimension, qui n'apparaît que dans les reflets et possède des innocents pour voler le pouvoir d'une sorcière."},
+    {"type": "SPACE", "nom": "Dimension propre", "def": "Plan de bannissement où un être maudit est enfermé et d'où il ne peut agir que par un canal (reflet)."},
+    {"type": "THING", "nom": "Miroir", "def": "Objet-canal : surface réfléchissante par laquelle l'esprit apparaît, parle, transmet un pouvoir et prend possession."},
+    {"type": "THING", "nom": "Pouvoir conféré", "def": "Pouvoir prêté par un esprit à un hôte mortel, conditionné à l'obéissance, qui disparaît avec l'esprit."},
+    {"type": "MOMENT", "nom": "Conjuration", "def": "Appel rituel répété (« I conjure thee ») par lequel un mortel fait venir un esprit dans le reflet."},
+    {"type": "MOMENT", "nom": "Possession", "def": "Prise de contrôle du corps d'un hôte par un esprit, déclenchée par le contact avec le canal."},
+    {"type": "MOMENT", "nom": "Bris du reflet", "def": "Destruction physique du reflet dans lequel l'esprit se manifeste."},
+    {"type": "MOMENT", "nom": "Prémonition", "def": "Vision du futur reçue par une sorcière, qui déclenche son intervention."}
+  ],
+  "liens": [
+    {"source": "Conjuration", "verbe": "FAIT APPARAÎTRE", "cible": "Esprit possesseur", "statut": "E", "ep": "S01E07", "preuve": "I conjure thee, Kali. / I'm here, Aviva."},
+    {"source": "Esprit possesseur", "verbe": "SE MANIFESTE DANS", "cible": "Miroir", "statut": "E", "ep": "S01E07", "preuve": "she appears in reflections"},
+    {"source": "Dimension propre", "verbe": "ENFERME", "cible": "Esprit possesseur", "statut": "E", "ep": "S01E07", "preuve": "An evil sorceress cursed into her own dimension"},
+    {"source": "Esprit possesseur", "verbe": "CONFÈRE", "cible": "Pouvoir conféré", "statut": "E", "ep": "S01E07", "preuve": "Reach for the mirror, put out your hands, feel the power"},
+    {"source": "Pouvoir conféré", "verbe": "EXIGE", "cible": "Règle morale", "statut": "C", "ep": "S01E07", "preuve": "it's a sacred power... you must use it only as I say", "note": "obéissance à l'esprit posée comme condition, jamais vérifiée"},
+    {"source": "Émotion", "verbe": "DÉCLENCHE", "cible": "Pouvoir conféré", "statut": "?", "ep": "S01E07", "preuve": "I didn't mean to hurt her. / Your powers are growing."},
+    {"source": "Attaque", "verbe": "FAIT CROÎTRE", "cible": "Pouvoir conféré", "statut": "C", "ep": "S01E07", "preuve": "Your powers are growing."},
+    {"source": "Contact", "verbe": "DÉCLENCHE", "cible": "Possession", "statut": "E", "ep": "S01E07", "preuve": "Touch the mirror, and I'll go away too. / Hello, Aviva."},
+    {"source": "Esprit possesseur", "verbe": "POSSÈDE", "cible": "Innocent", "statut": "E", "ep": "S01E07", "preuve": "has the power to possess innocents and uses them as pawns"},
+    {"source": "Possession", "verbe": "VISE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E07", "preuve": "uses them as pawns to steal a witch's power"},
+    {"source": "Innocent", "verbe": "RÉSISTE À", "cible": "Pouvoir individuel", "statut": "?", "ep": "S01E07", "preuve": "You didn't freeze. / It's because I'm a witch too.", "note": "l'hôte investi ne gèle pas ; l'explication « witch too » n'est qu'une affirmation"},
+    {"source": "Pouvoir individuel", "verbe": "GÈLE", "cible": "Esprit possesseur", "statut": "E", "ep": "S01E07", "preuve": "Aviva doesn't freeze. Yeah, but Kali will."},
+    {"source": "Bris du reflet", "verbe": "DÉTRUIT", "cible": "Esprit possesseur", "statut": "E", "ep": "S01E07", "preuve": "to get rid of her, shatter her reflection"},
+    {"source": "Esprit possesseur", "verbe": "DÉTRUIT_PAR", "cible": "Miroir", "statut": "E", "ep": "S01E07", "preuve": "Get her to the mirror. / the demon's gone, Aviva. Forever."},
+    {"source": "Bris du reflet", "verbe": "ANNULE", "cible": "Pouvoir conféré", "statut": "E", "ep": "S01E07", "preuve": "I'm really gonna miss being a witch and having powers"},
+    {"source": "Réunion des trois", "verbe": "REND IMPÉNÉTRABLE", "cible": "Sorcière", "statut": "C", "ep": "S01E07", "preuve": "Together they're charmed, impenetrable. You must separate them."},
+    {"source": "Esprit possesseur", "verbe": "CHERCHE À REMPLACER", "cible": "Pouvoir des Trois", "statut": "C", "ep": "S01E07", "preuve": "You must take Prue's place in the power of three."},
+    {"source": "Éveil", "verbe": "REND VULNÉRABLE", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E07", "preuve": "since they're new to the craft... it has to be now"},
+    {"source": "Livre des Ombres", "verbe": "IDENTIFIE", "cible": "Esprit possesseur", "statut": "E", "ep": "S01E07", "preuve": "An evil sorceress cursed into her own dimension"},
+    {"source": "Livre des Ombres", "verbe": "PRESCRIT", "cible": "Bris du reflet", "statut": "E", "ep": "S01E07", "preuve": "Does it say anything about how to get rid of her? Yeah"},
+    {"source": "Prémonition", "verbe": "DÉCLENCHE", "cible": "Attaque", "statut": "E", "ep": "S01E07", "preuve": "I had a premonition that Aviva was going to hurt you"},
+    {"source": "Secret", "verbe": "S'IMPOSE À", "cible": "Innocent", "statut": "E", "ep": "S01E07", "preuve": "do not tell anyone about us... It's just our little secret."}
+  ],
+  "actions": [
+    {"acteur": "Innocent", "action": "CONJURER", "preconditions": ["Miroir", "formule répétée"], "effet": "L'esprit apparaît dans le reflet et parle", "cout": null, "limite": "L'esprit n'existe que dans le reflet", "statut": "E", "ep": "S01E07", "preuve": "I conjure thee, Kali. / I'm here, Aviva."},
+    {"acteur": "Esprit possesseur", "action": "CONFÉRER UN POUVOIR", "preconditions": ["hôte consentant", "contact des mains avec le miroir"], "effet": "L'hôte acquiert un pouvoir (chaleur/feu)", "cout": "Obéissance exigée", "limite": "Pouvoir perdu quand l'esprit est détruit", "statut": "E", "ep": "S01E07", "preuve": "It's the power of heat. Your hand is like the sun."},
+    {"acteur": "Esprit possesseur", "action": "POSSÉDER", "preconditions": ["hôte touche le miroir"], "effet": "L'esprit parle et agit par le corps de l'hôte", "cout": null, "limite": "L'esprit incarné peut être gelé et détruit", "statut": "E", "ep": "S01E07", "preuve": "Touch the mirror... / You're not Aviva."},
+    {"acteur": "Esprit possesseur", "action": "TRANSMETTRE UN POUVOIR À UNE SORCIÈRE", "preconditions": ["sorcière touche l'objet-canal", "hôte intermédiaire"], "effet": "La sorcière ressent le pouvoir", "cout": null, "limite": "Interrompu ; effet durable non établi", "statut": "?", "ep": "S01E07", "preuve": "She's giving it to you too. / Touch this."},
+    {"acteur": "Sorcière", "action": "GELER", "preconditions": ["cible présente"], "effet": "Immobilise mortels et esprit incarné", "cout": null, "limite": "Environ 20 secondes ; l'hôte investi ne gèle pas", "statut": "E", "ep": "S01E07", "preuve": "we have about 20 seconds until they unfreeze"},
+    {"acteur": "Sorcière", "action": "BRISER LE REFLET", "preconditions": ["esprit devant le miroir", "esprit gelé"], "effet": "Esprit détruit à jamais, hôte libéré, pouvoir conféré disparu", "cout": null, "limite": null, "statut": "E", "ep": "S01E07", "preuve": "the demon's gone, Aviva. Forever."},
+    {"acteur": "Sorcière", "action": "PRÉMONITION", "preconditions": [], "effet": "Vision d'une attaque imminente contre une sœur", "cout": null, "limite": null, "statut": "E", "ep": "S01E07", "preuve": "I had a premonition that Aviva was going to hurt you"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Pouvoir individuel (gel) N'AGIT QUE SUR mortels et êtres incarnés", "nouveau_statut": "E", "preuve": "Aviva doesn't freeze. Yeah, but Kali will."},
+    {"lien": "Réunion des trois CONDITIONNE Pouvoir des Trois", "nouveau_statut": "C", "preuve": "Together they're charmed, impenetrable. You must separate them."},
+    {"lien": "Attaque FAIT CROÎTRE Pouvoir individuel", "nouveau_statut": "C", "preuve": "Your powers are growing. (pouvoir conféré, non inné)"}
+  ],
+  "questions_ouvertes": [
+    "Pourquoi l'hôte investi par l'esprit ne gèle-t-il pas : parce qu'il est « sorcière », ou parce que le pouvoir conféré protège ?",
+    "Le pouvoir de chaleur peut-il être transmis durablement à une sorcière de lignée, ou seulement à un innocent ?",
+    "Un esprit incarné peut-il remplacer réellement une sœur dans le Pouvoir des Trois ?",
+    "Le pouvoir conféré s'est-il déclenché involontairement par la colère (chute de la tante) ?"
+  ]
+}

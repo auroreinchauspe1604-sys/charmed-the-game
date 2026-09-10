@@ -1,0 +1,62 @@
+{
+  "ep": "S01E09",
+  "titre": "The Witch Is Back",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Warlock copieur", "def": "Warlock dont le don est de copier le pouvoir d'une bonne sorcière lorsqu'elle l'utilise contre lui ; un pouvoir copié n'a plus d'effet sur lui."},
+    {"type": "THING", "nom": "Malédiction", "def": "Sort punitif à ingrédients qui enferme un être dans un objet pour l'éternité ; « not to be taken lightly »."},
+    {"type": "THING", "nom": "Objet-prison", "def": "Objet (médaillon, cœur d'étain) dans lequel un être est maudit et d'où il est libéré si une descendante y applique son pouvoir."},
+    {"type": "THING", "nom": "Sort d'appel du sang", "def": "Incantation qui ramène une ancêtre en chair et en os, avec ses pouvoirs, par le sang de ses descendantes."},
+    {"type": "THING", "nom": "Clignement", "def": "Pouvoir de déplacement instantané d'un lieu à un autre."},
+    {"type": "MOMENT", "nom": "Prémonition", "def": "Vision reçue au contact d'un objet ; désormais du passé comme du futur."},
+    {"type": "MOMENT", "nom": "Croissance du pouvoir", "def": "Élargissement d'un pouvoir inné avec le temps (voir le passé en plus du futur)."},
+    {"type": "ACTOR", "nom": "Warlock infiltré", "def": "Couple de warlocks vivant sous identité mortelle, servant un supérieur, cherchant à obtenir les pouvoirs par intermédiaire."}
+  ],
+  "liens": [
+    {"source": "Warlock copieur", "verbe": "COPIE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E09", "preuve": "copy the power of a good witch when it's used against him"},
+    {"source": "Pouvoir individuel", "verbe": "N'AGIT PLUS SUR", "cible": "Warlock copieur", "statut": "E", "ep": "S01E09", "preuve": "Once he's copied a power, it has no effect on him."},
+    {"source": "Pouvoir des Trois", "verbe": "NE PEUT DÉTRUIRE", "cible": "Warlock copieur", "statut": "C", "ep": "S01E09", "preuve": "Should he gain all three powers, he will be impossible to vanquish.", "note": "condition non atteinte"},
+    {"source": "Warlock copieur", "verbe": "NE PARTAGE PAS", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E09", "preuve": "I can share your powers, but you can't share mine."},
+    {"source": "Ancêtre", "verbe": "REPREND", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E09", "preuve": "I'm taking back the powers you stole from me."},
+    {"source": "Malédiction", "verbe": "ENFERME", "cible": "Warlock", "statut": "E", "ep": "S01E09", "preuve": "she cursed him into the pewter heart"},
+    {"source": "Objet-prison", "verbe": "LIBÈRE SI", "cible": "Contact", "statut": "E", "ep": "S01E09", "preuve": "I tricked you into using your power on me. Now I have it.", "note": "libération par le pouvoir d'une descendante appliqué à l'objet"},
+    {"source": "Objet-prison", "verbe": "SUSPEND", "cible": "Mort", "statut": "E", "ep": "S01E09", "preuve": "I have waited over 300 years for my revenge."},
+    {"source": "Malédiction", "verbe": "EXIGE", "cible": "Composants rituels", "statut": "E", "ep": "S01E09", "preuve": "as long as you have the ingredients I need"},
+    {"source": "Malédiction", "verbe": "EXIGE", "cible": "Incantation", "statut": "E", "ep": "S01E09", "preuve": "Outside of time, outside of gain / Know only sorrow, know only pain"},
+    {"source": "Malédiction", "verbe": "DOIT ÊTRE LANCÉE DANS", "cible": "Maison de la lignée", "statut": "C", "ep": "S01E09", "preuve": "they'll have to cast the spell at home"},
+    {"source": "Livre des Ombres", "verbe": "CONSERVE", "cible": "Malédiction", "statut": "E", "ep": "S01E09", "preuve": "Whatever you don't remember should be in the book."},
+    {"source": "Sort d'appel du sang", "verbe": "RAPPELLE", "cible": "Ancêtre", "statut": "E", "ep": "S01E09", "preuve": "the spell works by blood calling blood"},
+    {"source": "Sort d'appel du sang", "verbe": "EXIGE", "cible": "Réunion des trois", "statut": "E", "ep": "S01E09", "preuve": "Melinda Warren, blood of our blood... We summon thee"},
+    {"source": "Ancêtre", "verbe": "REVIENT AVEC", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E09", "preuve": "She will have her powers too. Our powers."},
+    {"source": "Incantation", "verbe": "RENVOIE", "cible": "Ancêtre", "statut": "E", "ep": "S01E09", "preuve": "Blood of our blood, we release you"},
+    {"source": "Contact", "verbe": "DÉCLENCHE", "cible": "Prémonition", "statut": "E", "ep": "S01E09", "preuve": "Can I see the locket? No! ... I just saw Melinda put him in."},
+    {"source": "Croissance du pouvoir", "verbe": "ÉLARGIT", "cible": "Prémonition", "statut": "E", "ep": "S01E09", "preuve": "You saw the past? But you only see the future. Not anymore."},
+    {"source": "Warlock", "verbe": "COPIE", "cible": "Clignement", "statut": "C", "ep": "S01E09", "preuve": "It's called blinking. He must've copied it from another witch."},
+    {"source": "Pouvoir individuel", "verbe": "TRAHIT", "cible": "Secret", "statut": "E", "ep": "S01E09", "preuve": "If I had used my powers, I would've proven Matthew's charge."},
+    {"source": "Sorcière", "verbe": "ENRICHIT", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E09", "preuve": "each generation of Warren witches has added to it"},
+    {"source": "Livre des Ombres", "verbe": "ENSEIGNE", "cible": "Sorcière", "statut": "C", "ep": "S01E09", "preuve": "sometimes you add to it, sometimes it teaches you"},
+    {"source": "Warlock infiltré", "verbe": "LIT L'ESPRIT DE", "cible": "Warlock", "statut": "E", "ep": "S01E09", "preuve": "Please stay out of my mind."},
+    {"source": "Warlock infiltré", "verbe": "SERT", "cible": "Supérieur démoniaque", "statut": "C", "ep": "S01E09", "preuve": "He's gonna be none too pleased to learn that we have failed."},
+    {"source": "Warlock", "verbe": "CHERCHE À VOLER", "cible": "Pouvoir des Trois", "statut": "E", "ep": "S01E09", "preuve": "We need Matthew to provide us with the sisters' powers."}
+  ],
+  "actions": [
+    {"acteur": "Warlock copieur", "action": "COPIER UN POUVOIR", "preconditions": ["une bonne sorcière utilise son pouvoir contre lui"], "effet": "Il acquiert ce pouvoir et y devient immunisé", "cout": null, "limite": "Ne copie que ce qui est utilisé contre lui ; refuser d'attaquer le bloque", "statut": "E", "ep": "S01E09", "preuve": "Freeze me, witch. / In your dreams."},
+    {"acteur": "Sorcière", "action": "LIBÉRER UN OBJET-PRISON", "preconditions": ["descendante de la lanceuse", "usage du pouvoir sur l'objet"], "effet": "L'être maudit sort, intact après des siècles", "cout": "Le prisonnier copie le pouvoir utilisé", "limite": null, "statut": "E", "ep": "S01E09", "preuve": "if you freed me from that locket, you are a descendant"},
+    {"acteur": "Sorcière", "action": "MAUDIRE", "preconditions": ["ingrédients (herbes, épices, plume de chouette tachetée)", "incantation", "Livre des Ombres"], "effet": "Le warlock est renfermé dans l'objet pour l'éternité", "cout": null, "limite": "Ne détruit pas : suspend ; peut être défait par une descendante", "statut": "E", "ep": "S01E09", "preuve": "This is for eternity."},
+    {"acteur": "Sorcière", "action": "APPELER UNE ANCÊTRE", "preconditions": ["sang des trois descendantes", "incantation"], "effet": "L'ancêtre revient vivante avec ses pouvoirs", "cout": "Une goutte de sang chacune", "limite": "Doit être renvoyée par l'incantation inverse ; peut être rappelée", "statut": "E", "ep": "S01E09", "preuve": "We can always bring her back."},
+    {"acteur": "Warlock", "action": "CLIGNER", "preconditions": [], "effet": "Se déplace instantanément, survit à une chute de 12 étages", "cout": null, "limite": null, "statut": "E", "ep": "S01E09", "preuve": "One minute in front of me, the next behind me, 12 stories down."},
+    {"acteur": "Ancêtre", "action": "REPRENDRE LES POUVOIRS COPIÉS", "preconditions": ["confrontation directe"], "effet": "Le warlock perd les pouvoirs copiés sur elle", "cout": null, "limite": "Ne reprend que ce qui a été copié sur elle", "statut": "E", "ep": "S01E09", "preuve": "I stripped him of all the powers he copied from me"},
+    {"acteur": "Warlock infiltré", "action": "LIRE LES PENSÉES", "preconditions": [], "effet": "Connaît les pensées d'un autre warlock", "cout": null, "limite": null, "statut": "E", "ep": "S01E09", "preuve": "Please stay out of my mind."}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "Can I see the locket? No! I think I just saw Melinda put him in."},
+    {"lien": "Athamé TRANSFÈRE Pouvoir individuel", "nouveau_statut": "X", "preuve": "Un warlock peut aussi obtenir un pouvoir par copie, sans athamé ni meurtre : « copy the power... when it's used against him »"},
+    {"lien": "Pouvoir des Trois DÉTRUIT Warlock", "nouveau_statut": "X", "preuve": "Ce warlock n'est pas détruit mais renfermé : « We curse him back into the locket. »"},
+    {"lien": "Attaque FAIT CROÎTRE Pouvoir individuel", "nouveau_statut": "E", "preuve": "We always knew that our powers would grow. (vision du passé)"}
+  ],
+  "questions_ouvertes": [
+    "Le gel a-t-il été utilisé au moment final, et le warlock l'a-t-il copié avant d'être maudit ?",
+    "Pourquoi la malédiction doit-elle être lancée à la maison : contrainte du sort ou déduction d'un warlock ?",
+    "Comment les warlocks infiltrés « suivent »-ils quelqu'un (capacité non maîtrisée) ?",
+    "Les sorcières peuvent-elles écrire leurs propres sorts dès maintenant ?"
+  ]
+}

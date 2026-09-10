@@ -1,0 +1,54 @@
+{
+  "ep": "S01E11",
+  "titre": "Feats of Clay",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Gardien d'objet", "def": "Entité non humaine liée à un objet maudit, qui se nourrit de l'avidité, punit de mort quiconque vole l'objet et ne peut être détruite."},
+    {"type": "THING", "nom": "Objet maudit", "def": "Objet dont le vol déclenche la vengeance d'un gardien ; la malédiction se réactive à chaque nouveau vol."},
+    {"type": "MOMENT", "nom": "Vol", "def": "Appropriation illégitime d'un objet maudit ; déclencheur de la punition."},
+    {"type": "MOMENT", "nom": "Acte désaltruiste", "def": "Sacrifice de soi par le coupable, qui annule la punition et fait disparaître le gardien."},
+    {"type": "THING", "nom": "Charme", "def": "Préparation (recette) qui modifie le tempérament d'un mortel ; dosable, réversible."},
+    {"type": "NARRATIVE", "nom": "Ne nuire à personne", "def": "Règle wiccane invoquée pour justifier un charme sur un mortel."},
+    {"type": "NARRATIVE", "nom": "Péchés capitaux", "def": "Entrée du Livre : les sept péchés et leurs correctifs."}
+  ],
+  "liens": [
+    {"source": "Vol", "verbe": "RÉVEILLE", "cible": "Gardien d'objet", "statut": "E", "ep": "S01E11", "preuve": "Not until somebody steals the urn."},
+    {"source": "Gardien d'objet", "verbe": "TUE", "cible": "Voleur", "statut": "E", "ep": "S01E11", "preuve": "Anyone who steals it ends up dead, a victim of The Guardian"},
+    {"source": "Gardien d'objet", "verbe": "SE NOURRIT DE", "cible": "Émotion", "statut": "E", "ep": "S01E11", "preuve": "she feeds off their greed / I waited for your fear to consume you"},
+    {"source": "Gardien d'objet", "verbe": "TUE PAR", "cible": "Piqûre venimeuse", "statut": "E", "ep": "S01E11", "preuve": "stung to death by a scorpion / Spider bites."},
+    {"source": "Gardien d'objet", "verbe": "ÉPARGNE", "cible": "Innocent", "statut": "E", "ep": "S01E11", "preuve": "I don't wanna harm you. I came for the thief."},
+    {"source": "Gardien d'objet", "verbe": "MENACE", "cible": "Sorcière", "statut": "C", "ep": "S01E11", "preuve": "So now there are more who will die."},
+    {"source": "Pouvoir individuel", "verbe": "N'AGIT PAS SUR", "cible": "Gardien d'objet", "statut": "E", "ep": "S01E11", "preuve": "our powers are useless against her"},
+    {"source": "Gardien d'objet", "verbe": "NE PEUT ÊTRE DÉTRUIT PAR", "cible": "Sorcière", "statut": "C", "ep": "S01E11", "preuve": "You cannot destroy me."},
+    {"source": "Acte désaltruiste", "verbe": "BANNIT", "cible": "Gardien d'objet", "statut": "E", "ep": "S01E11", "preuve": "A selfless act. Just like the Book of Shadows said."},
+    {"source": "Péchés capitaux", "verbe": "PRESCRIT", "cible": "Acte désaltruiste", "statut": "E", "ep": "S01E11", "preuve": "if Clay does something selfless, it'll even the score"},
+    {"source": "Livre des Ombres", "verbe": "N'IDENTIFIE PAS", "cible": "Gardien d'objet", "statut": "E", "ep": "S01E11", "preuve": "Nothing about Egyptian urns or greed demons."},
+    {"source": "Objet maudit", "verbe": "PERPÉTUE", "cible": "Vol", "statut": "C", "ep": "S01E11", "preuve": "How do you know anybody will? Somebody always does."},
+    {"source": "Contact", "verbe": "DÉCLENCHE", "cible": "Prémonition", "statut": "E", "ep": "S01E11", "preuve": "It is cursed. Oh, no. ... That premonition was definitely the future."},
+    {"source": "Prémonition", "verbe": "LOCALISE", "cible": "Innocent", "statut": "E", "ep": "S01E11", "preuve": "my vision, I think I know where he's going."},
+    {"source": "Charme", "verbe": "MODIFIE", "cible": "Innocent", "statut": "E", "ep": "S01E11", "preuve": "I put a charm on Doug... to boost his confidence"},
+    {"source": "Dosage", "verbe": "AMPLIFIE", "cible": "Charme", "statut": "E", "ep": "S01E11", "preuve": "I doubled the recipes... turn him into Tom Cruise"},
+    {"source": "Sorcière", "verbe": "INVERSE", "cible": "Charme", "statut": "E", "ep": "S01E11", "preuve": "I see you reversed the spell."},
+    {"source": "Ne nuire à personne", "verbe": "AUTORISE", "cible": "Charme", "statut": "C", "ep": "S01E11", "preuve": "not for personal gain and it fits into the whole harm-none thing"},
+    {"source": "Pouvoir individuel", "verbe": "COÛTE", "cible": "Fatigue", "statut": "E", "ep": "S01E11", "preuve": "I'm getting a little freeze frazzled. It's draining."},
+    {"source": "Croissance du pouvoir", "verbe": "AMÉLIORE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E11", "preuve": "I'm finally getting some control over the unfreezing."},
+    {"source": "Destin de protectrice", "verbe": "N'INCLUT PAS TOUJOURS", "cible": "Innocent", "statut": "C", "ep": "S01E11", "preuve": "maybe there are some things that we're not supposed to save"}
+  ],
+  "actions": [
+    {"acteur": "Gardien d'objet", "action": "PUNIR LE VOLEUR", "preconditions": ["objet volé", "avidité/peur du voleur"], "effet": "Mort par piqûre venimeuse, où que soit le voleur", "cout": null, "limite": "Ne frappe que les voleurs ; s'arrête après le dernier ; réveillé par tout nouveau vol", "statut": "E", "ep": "S01E11", "preuve": "You're being punished for your greed."},
+    {"acteur": "Innocent", "action": "ACTE DÉSALTRUISTE", "preconditions": ["être le coupable visé", "se sacrifier pour autrui"], "effet": "Le gardien disparaît, le voleur survit", "cout": null, "limite": null, "statut": "E", "ep": "S01E11", "preuve": "Phoebe, look out! A selfless act."},
+    {"acteur": "Sorcière", "action": "CHARMER UN MORTEL", "preconditions": ["recette", "intention non égoïste"], "effet": "Tempérament modifié (confiance)", "cout": null, "limite": "Dose doublée = effet excessif ; réversible", "statut": "E", "ep": "S01E11", "preuve": "Maybe I shouldn't have doubled the recipe."},
+    {"acteur": "Sorcière", "action": "GELER", "preconditions": [], "effet": "Immobilise en public, contrôle du dégel", "cout": "Épuisement si répété", "limite": "Inefficace sur le gardien", "statut": "E", "ep": "S01E11", "preuve": "It's draining."},
+    {"acteur": "Sorcière", "action": "PRÉMONITION", "preconditions": ["contact avec l'objet maudit"], "effet": "Vision du futur (mort du voleur, lieu)", "cout": null, "limite": null, "statut": "E", "ep": "S01E11", "preuve": "I have seen the future, and it's not bright."}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "It is cursed. Oh, no. / That premonition was definitely the future."},
+    {"lien": "Pouvoir des Trois DÉTRUIT tout mal", "nouveau_statut": "X", "preuve": "our powers are useless against her... that's never happened to us before"},
+    {"lien": "Bénéfice personnel SANCTIONNE Sorcière (S01E08)", "nouveau_statut": "C", "preuve": "Le charme « not for personal gain » a tourné mal sans sanction magique explicite"}
+  ],
+  "questions_ouvertes": [
+    "Pourquoi les pouvoirs des sorcières sont-ils sans effet sur le gardien : nature non démoniaque ? mission juste ?",
+    "Un acte désaltruiste bannit-il le gardien définitivement ou seulement pour ce cycle ?",
+    "Les sorcières protégeant un voleur deviennent-elles des cibles (« more who will die ») ?",
+    "Le charme est-il une potion ingérée ou un objet ? (recette non décrite)"
+  ]
+}

@@ -1,0 +1,1154 @@
+{
+ "genereLe": "2026-09-09",
+ "statut": "proposition",
+ "echelle": {
+  "0": "R0 — force ordinaire suffit",
+  "1": "R1 — potion générique ou détonation",
+  "2": "R2 — moyen nommé ou formule",
+  "3": "R3 — Pouvoir des Trois ou contexte exceptionnel"
+ },
+ "avertissement": "Typage proposé. Aucune recette exacte. Le levier documenté n’est pas une procédure jouable.",
+ "entrees": [
+  {
+   "id": "source",
+   "nom": "La Source du Mal",
+   "nature": "titre_et_incarnations",
+   "rang": 3,
+   "rangLibelle": "R3 — Pouvoir des Trois ou contexte exceptionnel",
+   "fentes": [
+    "teleportation",
+    "energie",
+    "autorite",
+    "absorption"
+   ],
+   "immunites": [
+    "Aucune immunité innée documentée ; l’absorption via le Néant est un moyen externe, pas un équipement."
+   ],
+   "confiance": "proposee",
+   "note": "Titre et incarnations distincts. Aucune règle de succession automatique.",
+   "levierDocumente": "Le lien avec la conjuratrice permet de supprimer ce retour en S8. Ce cas ne prouve pas que tuer un invocateur détruit toute créature invoquée. [T0804]",
+   "pouvoirsSource": "En S04E13, elle exploite le Néant pour absorber de la magie : ce moyen externe ne constitue pas son équipement inné. [T0413]",
+   "recetteExacte": null,
+   "episodes": [
+    "S04E13",
+    "S04E21",
+    "S08E04"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:source"
+  },
+  {
+   "id": "barbas",
+   "nom": "Barbas",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "terreur",
+    "teleportation"
+   ],
+   "immunites": [
+    "Les pouvoirs acquis en S5 ne sont pas maîtrisés instantanément."
+   ],
+   "confiance": "etablie",
+   "note": "Le levier de S1 est de surmonter la peur ; celui de S5 est le retrait des pouvoirs acquis. Les deux ne sont pas interchangeables.",
+   "levierDocumente": "Surmonter la peur est décisif en S1 ; le retrait des pouvoirs acquis structure S05E07. Une même réponse ne règle donc pas toutes ses versions. [T0113, T0507]",
+   "pouvoirsSource": "Exploite les peurs de ses victimes. En S5, obtient les pouvoirs retirés à Cole ; leur maîtrise n'est pas instantanée. [T0113, T0507]",
+   "recetteExacte": null,
+   "episodes": [
+    "S01E13",
+    "S05E07",
+    "S07E01"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:barbas"
+  },
+  {
+   "id": "zankou",
+   "nom": "Zankou",
+   "nature": "individu",
+   "rang": 3,
+   "rangLibelle": "R3 — Pouvoir des Trois ou contexte exceptionnel",
+   "fentes": [
+    "teleportation",
+    "deguisement",
+    "absorption",
+    "autorite"
+   ],
+   "immunites": [
+    "Non vulnérable à une formule quelconque."
+   ],
+   "confiance": "etablie",
+   "note": "Sa fin de S7 dépend d’un contexte destructeur exceptionnel lié au Nexus. Aucune méthode jouable répétable n’est établie.",
+   "levierDocumente": "Sa fin de S7 intervient lorsqu'il contient le Nexus et que celui-ci est détruit : contexte destructeur exceptionnel, pas vulnérabilité à n'importe quelle formule. [T0722]",
+   "pouvoirsSource": "Absorbe les moyens d'un métamorphe et utilise l'apparence d'autrui. Prémonition de Phoebe et pouvoirs de Piper sont acquis plus tard par potion. [F-ZANKOU, T0722]",
+   "recetteExacte": null,
+   "episodes": [
+    "S07E10",
+    "S07E22"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:zankou"
+  },
+  {
+   "id": "triad",
+   "nom": "La Triade",
+   "nature": "collectif",
+   "rang": 3,
+   "rangLibelle": "R3 — Pouvoir des Trois ou contexte exceptionnel",
+   "fentes": [
+    "autorite",
+    "teleportation",
+    "regeneration"
+   ],
+   "immunites": [
+    "La force du collectif ne se réduit pas aux corps présents ; retour sous forme d’esprits documenté."
+   ],
+   "confiance": "proposee",
+   "note": "Les potions de S08E22 ciblent le retour spirituel, sans prouver une impossibilité de tout retour.",
+   "levierDocumente": "Les potions de S08E22 ciblent leur retour spirituel. La documentation consultée ne suffit pas à transformer la victoire finale en impossibilité métaphysique de tout retour. [F-FINAL]",
+   "pouvoirsSource": "Collectif dont la force et la persistance ne se réduisent pas aux corps présents : retour sous forme d'esprits puis reconstitution évoqués explicitement. [T0821]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E07",
+    "S08E16",
+    "S08E21",
+    "S08E22"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:triad"
+  },
+  {
+   "id": "belthazor",
+   "nom": "Cole Turner / Balthazar (Belthazor)",
+   "nature": "hybride_individuel",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "teleportation",
+    "energie",
+    "deguisement"
+   ],
+   "immunites": [
+    "La modification du sang en S03E21 change la pertinence du contre-moyen antérieur."
+   ],
+   "confiance": "etablie",
+   "note": "Potion liée à Balthazar et potion de retrait des pouvoirs sont deux choses distinctes. Disponibilité selon l’état de Cole.",
+   "levierDocumente": "Potion liée à Balthazar et potion retirant les pouvoirs sont distinctes ; modification du sang par un alchimiste en S03E21 change la pertinence du contre-moyen antérieur. [T0321]",
+   "pouvoirsSource": "Téléportation démoniaque, attaques énergétiques et transformation ; leur disponibilité dépend de l'état. Maîtriser sa conduite ne signifie pas perdre toute magie. [T0308, T0408]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E08",
+    "S03E19",
+    "S03E20",
+    "S03E21",
+    "S04E08",
+    "S04E13",
+    "S05E12",
+    "S07E16"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:belthazor"
+  },
+  {
+   "id": "seer",
+   "nom": "La Prophétesse / Seer de la saison 4",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "premonition",
+    "teleportation",
+    "autorite"
+   ],
+   "immunites": [],
+   "confiance": "proposee",
+   "note": "L’affrontement après transfert tourne contre elle face aux trois sœurs ; ce n’est pas une recette contre toute voyante.",
+   "levierDocumente": "L'affrontement après transfert tourne contre elle face aux trois sœurs. Ne pas transformer cet événement en recette générique contre toutes les voyantes. [F-SEER]",
+   "pouvoirsSource": "Visions et manipulation de projets futurs ; orchestre l'emploi du Néant puis intervient dans le mariage de Cole. [T0413, T0415]",
+   "recetteExacte": null,
+   "episodes": [
+    "S04E13",
+    "S04E15",
+    "S04E21"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:seer"
+  },
+  {
+   "id": "kyra",
+   "nom": "Kyra",
+   "nature": "individu",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "premonition",
+    "teleportation"
+   ],
+   "immunites": [],
+   "confiance": "proposee",
+   "note": "Percevoir l’avenir ne protège pas de la tromperie : Zankou l’approche sous une fausse apparence et la tue.",
+   "levierDocumente": "Zankou l'approche sous une fausse apparence et la tue : percevoir l'avenir ne donne pas une protection automatique contre la tromperie. [T0710, F-ZANKOU]",
+   "pouvoirsSource": "Prémonitions et partage de vision avec Phoebe ; la téléportation est évoquée dans leur échange. [T0710]",
+   "recetteExacte": null,
+   "episodes": [
+    "S07E10"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:kyra"
+  },
+  {
+   "id": "shax",
+   "nom": "Shax",
+   "nature": "individu",
+   "rang": 3,
+   "rangLibelle": "R3 — Pouvoir des Trois ou contexte exceptionnel",
+   "fentes": [
+    "mobilite",
+    "force"
+   ],
+   "immunites": [
+    "Les tentatives partielles le repoussent sans le détruire."
+   ],
+   "confiance": "etablie",
+   "note": "Le Pouvoir des Trois reconstitué intervient dans sa défaite.",
+   "levierDocumente": "Les tentatives partielles repoussent Shax ; le Pouvoir des Trois reconstitué intervient dans sa défaite. [T0401]",
+   "pouvoirsSource": "Se déplace sous forme de vent et porte des attaques projetant violemment ses cibles. [T0322]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E22",
+    "S04E01",
+    "S04E02"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:shax"
+  },
+  {
+   "id": "tempus",
+   "nom": "Tempus",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "temps"
+   ],
+   "immunites": [
+    "L’arrêt de la boucle ne prouve pas sa mort."
+   ],
+   "confiance": "etablie",
+   "note": "Fente temporelle exceptionnelle, portée par cette carte seule. Le sort avançant le temps casse la boucle.",
+   "levierDocumente": "Le sort avançant le temps casse la boucle de S1 ; cet arrêt ne prouve pas la mort de Tempus à cette date. [T0122]",
+   "pouvoirsSource": "Recommence la séquence de S01E22 après les échecs de l'assassin ; avantage de mémoire pour celui-ci. [T0122]",
+   "recetteExacte": null,
+   "episodes": [
+    "S01E22",
+    "S03E22"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:tempus"
+  },
+  {
+   "id": "abraxas",
+   "nom": "Abraxas",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "savoir",
+    "regeneration"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Défait des effets antérieurs en lisant le Livre à rebours. Le levier est la récupération du Livre et l’interruption de la lecture.",
+   "levierDocumente": "La récupération du Livre et l'interruption de la lecture sont au centre de la résolution ; détails du rituel et de son accès à revérifier avant prescription. [T0201]",
+   "pouvoirsSource": "Lit ses textes à rebours, défait des effets antérieurs et fait revenir des adversaires déjà vaincus. [T0201]",
+   "recetteExacte": null,
+   "episodes": [
+    "S02E01"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:abraxas"
+  },
+  {
+   "id": "woogyman",
+   "nom": "Woogyman / Woogy",
+   "nature": "entite_possessive",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "possession"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Une formule transmise par Penny permet le renvoi. Expulser l’entité et détruire le Nexus sont deux opérations distinctes.",
+   "levierDocumente": "Une formule transmise par Penny permet le renvoi ; expulsion de l'entité et destruction du Nexus ne sont pas la même opération. [T0115, T0722]",
+   "pouvoirsSource": "Possède des personnes et se sert de Phoebe pour agir ; manifestations et création d'objet observées ne deviennent pas les pouvoirs naturels de Phoebe. [T0115]",
+   "recetteExacte": null,
+   "episodes": [
+    "S01E15"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:woogyman"
+  },
+  {
+   "id": "rodriguez",
+   "nom": "Inspecteur Rodriguez",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "energie",
+    "deguisement",
+    "autorite"
+   ],
+   "immunites": [
+    "Sa protection par Tempus est une condition séparée de ses moyens propres."
+   ],
+   "confiance": "etablie",
+   "note": "L’énergie renvoyée se retourne contre lui une fois la boucle rompue.",
+   "levierDocumente": "La sortie de la boucle permet un affrontement décisif ; l'énergie renvoyée se retourne contre lui. La protection de Tempus est une condition séparée. [T0122]",
+   "pouvoirsSource": "Attaques énergétiques ; bénéficie du recommencement temporel organisé par son allié. [T0122]",
+   "recetteExacte": null,
+   "episodes": [
+    "S01E22"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:rodriguez"
+  },
+  {
+   "id": "dumain",
+   "nom": "Dumain",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "teleportation"
+   ],
+   "immunites": [],
+   "confiance": "proposee",
+   "note": "Le voyage temporel du dénouement passe par la bague de Coop, pas par un pouvoir propre.",
+   "levierDocumente": "La confrontation finale implique ses versions présente et passée ; ne pas en déduire qu'il faut toujours tuer deux exemplaires d'un voyageur temporel. [F-DUMAIN]",
+   "pouvoirsSource": "Téléportation démoniaque ; le voyage temporel du dénouement passe par la bague de Coop. [F-DUMAIN]",
+   "recetteExacte": null,
+   "episodes": [
+    "S08E21",
+    "S08E22"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:dumain"
+  },
+  {
+   "id": "brotherhood-thorn",
+   "nom": "Confrérie de l'Épine / Brotherhood of the Thorn",
+   "nature": "organisation",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "deguisement",
+    "autorite",
+    "lien"
+   ],
+   "immunites": [
+    "Tuer ses chefs ne prouve pas l’extinction de l’organisation."
+   ],
+   "confiance": "proposee",
+   "note": "Organisation, pas individu. Les compétences appartiennent à des membres précis.",
+   "levierDocumente": "Une opération peut être déjouée et ses chefs tués sans que cela prouve l'extinction de toute l'organisation. [F-BROTHER]",
+   "pouvoirsSource": "Infiltration, substitution d'identité et opérations contre des entreprises ; les compétences appartiennent à des membres précis. [F-VORNAC]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E19",
+    "S03E20"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:brotherhood-thorn"
+  },
+  {
+   "id": "raynor",
+   "nom": "Raynor",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "energie",
+    "terreur",
+    "autorite"
+   ],
+   "immunites": [],
+   "confiance": "proposee",
+   "note": "Aucun pouvoir de contrôle universel et irrésistible n’est établi.",
+   "levierDocumente": "Cole se retourne contre lui après la manipulation. Aucun pouvoir de contrôle universel et irrésistible n'est établi. [T0320]",
+   "pouvoirsSource": "Intervient magiquement sur Cole tout en le travaillant psychologiquement. [T0320]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E19",
+    "S03E20"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:raynor"
+  },
+  {
+   "id": "vornac",
+   "nom": "Vornac",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "deguisement"
+   ],
+   "immunites": [],
+   "confiance": "proposee",
+   "note": "Aucune méthode universelle de détection des déguisements n’est établie.",
+   "levierDocumente": "Son imposture est déjouée dans l'épisode ; aucune méthode universelle de détection des déguisements établie. [T0319]",
+   "pouvoirsSource": "Prend une autre apparence dans l'opération ; le jeu des identités brouille la responsabilité des attaques. [T0319]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E19"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:vornac"
+  },
+  {
+   "id": "klea",
+   "nom": "Klea",
+   "nature": "individu",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "perception",
+    "teleportation"
+   ],
+   "immunites": [],
+   "confiance": "a-verifier",
+   "note": "Portée de son observation à distance et contre-sort propre laissés ouverts par le dossier.",
+   "levierDocumente": "Le dossier ne vérifie pas un contre-sort propre à Klea : laisser la recette et la portée de son observation ouvertes. [F-KLEA]",
+   "pouvoirsSource": "Observation à distance, désignée comme voyeurism dans la source secondaire, et téléportation. [F-KLEA]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E19"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:klea"
+  },
+  {
+   "id": "sykes",
+   "nom": "Sykes",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "force",
+    "energie"
+   ],
+   "immunites": [
+    "Résiste à une attaque énergétique de Cole."
+   ],
+   "confiance": "etablie",
+   "note": "Sa confrontation avec Balthazar est distincte de la potion qui retire ensuite les pouvoirs de Cole.",
+   "levierDocumente": "Sa confrontation avec Balthazar doit être distinguée de la potion qui retire ensuite les pouvoirs de Cole. [T0408]",
+   "pouvoirsSource": "Résiste à une attaque énergétique de Cole ; le duel conduit Cole à reprendre sa forme démoniaque. [F-SYKES]",
+   "recetteExacte": null,
+   "episodes": [
+    "S04E08"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:sykes"
+  },
+  {
+   "id": "krell",
+   "nom": "Krell",
+   "nature": "individu",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "pistage",
+    "force"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Le pistage a des limites contextuelles ; l’apparence humaine le complique. Pas un localisateur infaillible.",
+   "levierDocumente": "Le pistage a des limites contextuelles. Ne pas faire de Krell un localisateur infaillible à travers toute protection ou tout plan. [T0308]",
+   "pouvoirsSource": "Suit la trace démoniaque et tire parti du sang de sa cible ; l'apparence humaine complique le pistage. [T0308]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E08"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:krell"
+  },
+  {
+   "id": "andras",
+   "nom": "Andras",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "terreur",
+    "possession"
+   ],
+   "immunites": [
+    "La disparition du symptôme ne prouve pas la destruction du démon."
+   ],
+   "confiance": "etablie",
+   "note": "Amplifie une colère préexistante ; il ne la crée pas.",
+   "levierDocumente": "La confrontation vise à dissocier l'influence et le conflit familial. Une disparition du symptôme ne prouve pas à elle seule la destruction du démon. [T0307]",
+   "pouvoirsSource": "Amplifie une colère préexistante et peut prendre possession d'un hôte. [T0307]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E07"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:andras"
+  },
+  {
+   "id": "grimlocks",
+   "nom": "Grimlocks",
+   "nature": "espece",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "perception",
+    "force"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Repèrent les auras du bien. Une préparation à base de racine de schisandra intervient ; la recette complète n’est pas auditée.",
+   "levierDocumente": "Une préparation à base de racine de schisandra intervient contre eux ; la recette complète et ses quantités ne sont pas auditées. [T0119]",
+   "pouvoirsSource": "Repèrent les auras du bien et s'en servent pour étrangler leurs victimes. [T0119]",
+   "recetteExacte": null,
+   "episodes": [
+    "S01E19"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:grimlocks"
+  },
+  {
+   "id": "furies",
+   "nom": "Furies",
+   "nature": "espece_et_transformation",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "mobilite",
+    "terreur"
+   ],
+   "immunites": [
+    "Les pouvoirs de Piper échouent contre elles dans la scène observée."
+   ],
+   "confiance": "etablie",
+   "note": "Le retour de Piper passe par l’expression de sa douleur, pas par une formule de destruction.",
+   "levierDocumente": "Le retour de Piper passe par l'expression de sa douleur et l'aide de ses proches. Ce n'est pas une formule garantissant la destruction de toute Furie. [T0403]",
+   "pouvoirsSource": "Fumée, voix accusatrices et influence transformante sur une personne vulnérable. Les pouvoirs de Piper échouent contre elles dans la scène observée. [T0403]",
+   "recetteExacte": null,
+   "episodes": [
+    "S04E03"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:furies"
+  },
+  {
+   "id": "banshee",
+   "nom": "Banshee",
+   "nature": "espece_et_transformation",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "energie",
+    "perception"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Cri surnaturel et perception de la douleur. Une sorcière peut être transformée au lieu de subir le sort d’une victime ordinaire.",
+   "levierDocumente": "Soulager la douleur liée à Cole permet le retour de Phoebe avant un meurtre. Cela ne prouve pas une guérison verbale universelle. [T0321]",
+   "pouvoirsSource": "Cri surnaturel et perception de la douleur ; une sorcière peut être transformée au lieu de suivre le sort d'une victime ordinaire. [T0321]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E21"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:banshee"
+  },
+  {
+   "id": "lazarus",
+   "nom": "Démons Lazarus",
+   "nature": "espece",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "force",
+    "regeneration"
+   ],
+   "immunites": [
+    "Se reconstitue après destruction ; se renforce hors de la terre d’un cimetière."
+   ],
+   "confiance": "etablie",
+   "note": "Il faut traiter les restes et leur mise en terre. Aucune explosion ne vaut destruction définitive.",
+   "levierDocumente": "Il faut considérer les restes et leur mise en terre, et non compter toute explosion comme définitive. Aucun temps de résurrection exact ajouté. [T0415]",
+   "pouvoirsSource": "Se reconstitue après destruction ; se renforce à mesure qu'il reste hors de la terre d'un cimetière. [T0415]",
+   "recetteExacte": null,
+   "episodes": [
+    "S04E15"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:lazarus"
+  },
+  {
+   "id": "vinceres",
+   "nom": "Vinceres",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "force"
+   ],
+   "immunites": [
+    "Forte résistance physique."
+   ],
+   "confiance": "etablie",
+   "note": "L’afflux d’émotions issu de l’empathie l’immobilise. Ne pas en conclure que toute empathie tue tout démon.",
+   "levierDocumente": "Prue transforme l'empathie en moyen décisif dans cet épisode. Ne pas conclure que toute empathie tue instantanément tous les démons. [T0306]",
+   "pouvoirsSource": "Puissance physique et forte résistance ; l'afflux d'émotions provenant de l'empathie l'immobilise avant sa libération. [T0306]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E06"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:vinceres"
+  },
+  {
+   "id": "troxa",
+   "nom": "Troxa",
+   "nature": "individu",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "invisibilite"
+   ],
+   "immunites": [
+    "Invisible tant qu’aucun moyen ne le rend visible."
+   ],
+   "confiance": "etablie",
+   "note": "Le rendre visible permet de le viser ; ce n’est pas sa destruction.",
+   "levierDocumente": "Rendre Troxa visible permet de le viser, mais ne constitue pas en soi sa destruction. [T0305]",
+   "pouvoirsSource": "Invisibilité utilisée pour approcher ses cibles. [T0305]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E05"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:troxa"
+  },
+  {
+   "id": "ludlow",
+   "nom": "Ludlow",
+   "nature": "individu",
+   "rang": 3,
+   "rangLibelle": "R3 — Pouvoir des Trois ou contexte exceptionnel",
+   "fentes": [
+    "autorite",
+    "force"
+   ],
+   "immunites": [
+    "Résiste au feu."
+   ],
+   "confiance": "etablie",
+   "note": "Un sort collectif des sœurs le détruit. Recette non transcrite.",
+   "levierDocumente": "Un sort collectif des sœurs le détruit ; le caractère non rimé du texte n'empêche pas sa fonction. Recette non transcrite ici. [F-TYLER]",
+   "pouvoirsSource": "Résiste au feu de Tyler ; sa position de force dépasse ce qu'un simple incendie permet de résoudre. [F-LUDLOW, F-TYLER]",
+   "recetteExacte": null,
+   "episodes": [
+    "S04E12"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:ludlow"
+  },
+  {
+   "id": "masselin",
+   "nom": "Masselin",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "force"
+   ],
+   "immunites": [
+    "Une potion jetée sur la peau n’est pas établie comme efficace."
+   ],
+   "confiance": "etablie",
+   "note": "Le contre-moyen est introduit dans sa bouche : l’accès interne est déterminant.",
+   "levierDocumente": "Le contre-moyen est introduit dans sa bouche. Son accès interne compte ; le dossier ne prescrit ni quantités ni réussite d'une potion jetée sur la peau. [T0204]",
+   "pouvoirsSource": "Engloutit des victimes et les conserve prisonnières en lui ; leur souffrance participe à son fonctionnement. [T0204]",
+   "recetteExacte": null,
+   "episodes": [
+    "S02E04"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:masselin"
+  },
+  {
+   "id": "water-demon",
+   "nom": "Démon de l'eau",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "mobilite",
+    "force"
+   ],
+   "immunites": [
+    "Le gel est décrit comme inefficace contre lui."
+   ],
+   "confiance": "etablie",
+   "note": "L’électricité intervient dans le dénouement. Le dialogue pseudo-scientifique n’est pas une procédure réelle.",
+   "levierDocumente": "L'électricité intervient dans le dénouement. La formulation pseudo-scientifique du dialogue n'est pas un fait réel de chimie ; pas de procédure électrique réelle proposée. [F-WATER]",
+   "pouvoirsSource": "Agit à travers l'eau et peut noyer ses victimes ; le gel de Patty/Piper est décrit comme inefficace contre lui. [F-WATER, F-WATER-PLOT]",
+   "recetteExacte": null,
+   "episodes": [
+    "S02E08"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:water-demon"
+  },
+  {
+   "id": "illusion-demon",
+   "nom": "Démon de l'Illusion",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "deguisement",
+    "possession"
+   ],
+   "immunites": [
+    "Une disparition vers l’écran peut simuler une élimination."
+   ],
+   "confiance": "etablie",
+   "note": "La destruction de la pellicule dans le projecteur intervient dans sa défaite : support et accès importent.",
+   "levierDocumente": "La destruction de la pellicule dans le projecteur intervient dans sa défaite ; support et accès importent. [ACA-ILLUSION]",
+   "pouvoirsSource": "Entre dans les projections et en fait sortir des figures meurtrières. Une disparition vers l'écran peut simuler une élimination. [F-ILLUSION]",
+   "recetteExacte": null,
+   "episodes": [
+    "S02E18"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:illusion-demon"
+  },
+  {
+   "id": "imara",
+   "nom": "Imara",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "deguisement",
+    "possession"
+   ],
+   "immunites": [
+    "Détruire sans examen le corps démoniaque peut atteindre l’hôte."
+   ],
+   "confiance": "etablie",
+   "note": "Le rituel d’échange exige des cheveux fraîchement prélevés ; un cheveu ancien ne remplit pas la condition.",
+   "levierDocumente": "Le renversement de l'échange exige de reconstituer correctement la situation. Détruire sans examen le corps démoniaque peut atteindre Phoebe. [T0719, F-IMARA]",
+   "pouvoirsSource": "Rituel d'échange utilisant des cheveux fraîchement prélevés ; un simple cheveu ancien sur une brosse ne remplit pas la condition citée. [T0719]",
+   "recetteExacte": null,
+   "episodes": [
+    "S07E19"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:imara"
+  },
+  {
+   "id": "javna",
+   "nom": "Javna / Stefan",
+   "nature": "individu",
+   "rang": 3,
+   "rangLibelle": "R3 — Pouvoir des Trois ou contexte exceptionnel",
+   "fentes": [
+    "absorption"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Vole la force vitale. La Main de Fatima est employée par les trois sœurs ; le texte exact n’est pas reproduit.",
+   "levierDocumente": "La Main de Fatima est employée par les trois sœurs. Le texte exact n'est pas reproduit et aucune équivalence universelle n'est inventée. [T0102]",
+   "pouvoirsSource": "Vole la force vitale pour conserver sa jeunesse ; l'Œil maléfique intervient dans l'attaque. [T0102]",
+   "recetteExacte": null,
+   "episodes": [
+    "S01E02"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:javna"
+  },
+  {
+   "id": "drazi",
+   "nom": "Drazi",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "force"
+   ],
+   "immunites": [
+    "Une partie de sa protection vient de la bague dérobée."
+   ],
+   "confiance": "etablie",
+   "note": "Reprendre l’objet fait tomber une protection essentielle. Ne pas généraliser à tout démon portant une bague.",
+   "levierDocumente": "La reprise de l'objet fait tomber une protection essentielle. Le dossier ne généralise pas 'retirer toute bague rend tout démon mortel'. [F-DRAZI-SCRIPT]",
+   "pouvoirsSource": "S'en prend aux liens amoureux ; une partie de ses moyens et de sa protection vient de la bague dérobée. [F-DRAZI, F-DRAZI-SCRIPT]",
+   "recetteExacte": null,
+   "episodes": [
+    "S02E10"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:drazi"
+  },
+  {
+   "id": "siren",
+   "nom": "La Sirène / The Siren",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "terreur",
+    "energie"
+   ],
+   "immunites": [],
+   "confiance": "proposee",
+   "note": "Chant de séduction, baiser meurtrier et feu. Une potion est préparée et un sort envisagé, sans recette vérifiée.",
+   "levierDocumente": "Une potion est préparée et un sort envisagé ; leur mention ne vaut pas vérification d'une recette complète ni preuve que le sort a été lancé. [F-SIREN-SCRIPT]",
+   "pouvoirsSource": "Chant de séduction surnaturelle, baiser meurtrier et feu ; ses attaques atteignent aussi Cole dans l'épisode. [F-SIREN, F-SIREN-SCRIPT]",
+   "recetteExacte": null,
+   "episodes": [
+    "S05E04"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:siren"
+  },
+  {
+   "id": "gith",
+   "nom": "Gith",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "possession",
+    "terreur"
+   ],
+   "immunites": [],
+   "confiance": "proposee",
+   "note": "Crée des mondes de poche et se nourrit de l’énergie liée aux désirs. Déroulé final à contrôler.",
+   "levierDocumente": "La compréhension des désirs et la reconnexion entre les sœurs participent à la sortie du piège. Déroulé final à contrôler avant toute recette de résolution. [T0606]",
+   "pouvoirsSource": "Crée des mondes de poche et se nourrit de l'énergie liée aux désirs. [T0606]",
+   "recetteExacte": null,
+   "episodes": [
+    "S06E06"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:gith"
+  },
+  {
+   "id": "drake",
+   "nom": "Drake",
+   "nature": "ancien_demon",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "savoir",
+    "formule"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Ancien démon devenu humain conservant des pouvoirs. Humanité et absence de magie ne sont pas synonymes ici. Limite de durée contractuelle.",
+   "levierDocumente": "La résolution du conflit contractuel ne suffit pas à effacer toute limite de durée. Ne pas transformer le contrat en antidote à toute mortalité. [T0714]",
+   "pouvoirsSource": "Conserve des pouvoirs dans cette transformation : humanité et absence de magie ne sont donc pas synonymes dans ce cas. [T0714]",
+   "recetteExacte": null,
+   "episodes": [
+    "S07E14",
+    "S07E16"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:drake"
+  },
+  {
+   "id": "oracle-source",
+   "nom": "L'Oracle de la Source",
+   "nature": "individu",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "premonition"
+   ],
+   "immunites": [
+    "Protéger son maître n’est pas une immunité : elle meurt en interceptant une attaque."
+   ],
+   "confiance": "etablie",
+   "note": "Participe au dispositif d’illusion, dont le pouvoir structurant est attribué à la Source.",
+   "levierDocumente": "Elle intercepte l'attaque de Cole destinée à la Source et en meurt selon le résumé ; protection du maître n'est pas immunité. [F-ORACLE]",
+   "pouvoirsSource": "Participe au dispositif de l'illusion hospitalière imposée à Piper ; le pouvoir structurant du piège est attribué à la Source. [F-ORACLE]",
+   "recetteExacte": null,
+   "episodes": [
+    "S04E07"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:oracle-source"
+  },
+  {
+   "id": "seekers",
+   "nom": "Seekers / démons chercheurs",
+   "nature": "espece",
+   "rang": 3,
+   "rangLibelle": "R3 — Pouvoir des Trois ou contexte exceptionnel",
+   "fentes": [
+    "pistage",
+    "force"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Le Livre contient un sort du Pouvoir des Trois contre eux. La formule complète n’est pas auditée.",
+   "levierDocumente": "Le Livre contient un sort du Pouvoir des Trois contre eux. La formule complète n'est pas auditée ici ; Cole dit ignorer comment les détruire, ce qui limite son expertise dans cette scène. [T0316]",
+   "pouvoirsSource": "Détectent des traces démoniaques et extraient des informations en s'attaquant au cerveau de leurs victimes. [T0316]",
+   "recetteExacte": null,
+   "episodes": [
+    "S03E16"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:seekers"
+  },
+  {
+   "id": "jeric",
+   "nom": "Jeric",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "possession",
+    "force"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Momification et emprisonnement de l’esprit. L’extraction de l’âme et la sauvegarde de l’hôte sont distinctes de la mort du démon.",
+   "levierDocumente": "L'extraction de l'âme et la sauvegarde de l'hôte doivent être distinguées de la mort du démon. Jeric est détruit après le sauvetage de Phoebe selon le résumé. [F-JERIC]",
+   "pouvoirsSource": "Momification et emprisonnement de l'esprit ; participe à une opération de possession. [T0510]",
+   "recetteExacte": null,
+   "episodes": [
+    "S05E10"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:jeric"
+  },
+  {
+   "id": "zahn",
+   "nom": "Zahn",
+   "nature": "individu",
+   "rang": 2,
+   "rangLibelle": "R2 — moyen nommé ou formule",
+   "fentes": [
+    "energie",
+    "autorite"
+   ],
+   "immunites": [
+    "Ses pouvoirs acquis ne sont pas innés ni constants."
+   ],
+   "confiance": "proposee",
+   "note": "Le coffre des contrats est détruit avant son élimination ; ce résultat dépend des contrats de cet épisode.",
+   "levierDocumente": "Piper détruit le coffre des contrats avant l'élimination de Zahn ; Larry est ensuite dit sauvé. Ce résultat dépend des contrats de cet épisode, pas d'une loi générale sur tout pacte. [T0607]",
+   "pouvoirsSource": "Son arsenal a progressé depuis une ancienne description du Livre ; les pouvoirs acquis ne doivent pas être traités comme innés et constants. [T0607]",
+   "recetteExacte": null,
+   "episodes": [
+    "S06E07"
+   ],
+   "statutCorpus": "documented_partial",
+   "source": "demons-documentes:zahn"
+  },
+  {
+   "id": "angel-of-death",
+   "nom": "L’Ange de la Mort",
+   "nature": "entité neutre",
+   "rang": null,
+   "rangLibelle": "hors échelle",
+   "fentes": [
+    "autorite"
+   ],
+   "immunites": [
+    "N’est ni un démon ni un assassin au service d’un camp."
+   ],
+   "confiance": "etablie",
+   "note": "Ne pas le confondre avec Javna ni avec l’Ange du Destin. Une potion démoniaque ne prouve rien contre lui.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "magie-demons:beings"
+  },
+  {
+   "id": "angel-of-destiny",
+   "nom": "L’Ange du Destin",
+   "nature": "fonction surnaturelle",
+   "rang": null,
+   "rangLibelle": "hors échelle",
+   "fentes": [
+    "autorite"
+   ],
+   "immunites": [
+    "Ne remplace ni les Fondateurs ni l’arbitre du jeu."
+   ],
+   "confiance": "etablie",
+   "note": "Plusieurs anges au cours de la série ; ne pas fusionner leurs interventions en une permission illimitée.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "magie-demons:beings"
+  },
+  {
+   "id": "cupid",
+   "nom": "Cupidon",
+   "nature": "être lié à l’amour",
+   "rang": null,
+   "rangLibelle": "hors échelle",
+   "fentes": [
+    "teleportation",
+    "lien"
+   ],
+   "immunites": [
+    "Retirer la bague ne prive pas tous les Cupidons de tous leurs moyens."
+   ],
+   "confiance": "etablie",
+   "note": "Le Cupidon de la saison 2 est distinct de Coop en saison 8.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "magie-demons:beings"
+  },
+  {
+   "id": "darklighters",
+   "nom": "Les Êtres des ténèbres",
+   "nature": "espèce maléfique",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "teleportation",
+    "outil"
+   ],
+   "immunites": [
+    "Posséder une arbalète ne prouve ni l’empoisonnement du projectile ni que la cible a été touchée."
+   ],
+   "confiance": "etablie",
+   "note": "Distincts des Êtres de lumière. Ne pas importer le poison issu de l’arbre d’un autre dossier.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "magie-demons:beings"
+  },
+  {
+   "id": "commanditaire",
+   "nom": "Le commanditaire",
+   "nature": "humain",
+   "rang": 0,
+   "rangLibelle": "R0 — force ordinaire suffit",
+   "fentes": [
+    "autorite",
+    "force"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Original de scénario. Humain sans pouvoir magique.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "scenario:avant-la-vision"
+  },
+  {
+   "id": "intermediaire",
+   "nom": "Intermédiaire",
+   "nature": "humain",
+   "rang": 0,
+   "rangLibelle": "R0 — force ordinaire suffit",
+   "fentes": [
+    "mobilite",
+    "vecteur",
+    "lien"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Original de scénario. Moyens ordinaires uniquement.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "scenario:avant-la-vision"
+  },
+  {
+   "id": "gardien",
+   "nom": "Gardien",
+   "nature": "humain",
+   "rang": 0,
+   "rangLibelle": "R0 — force ordinaire suffit",
+   "fentes": [
+    "perception",
+    "presence",
+    "force"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Original de scénario. Surveille un accès précis, pas toute la ville.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "scenario:avant-la-vision"
+  },
+  {
+   "id": "guetteur",
+   "nom": "Guetteur",
+   "nature": "démon subalterne",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "perception",
+    "mobilite",
+    "vecteur"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Original de scénario. Aucun pouvoir supplémentaire acquis par son nom.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "scenario:manoir-assiege"
+  },
+  {
+   "id": "eclaireur",
+   "nom": "Éclaireur",
+   "nature": "démon subalterne",
+   "rang": 1,
+   "rangLibelle": "R1 — potion générique ou détonation",
+   "fentes": [
+    "perception",
+    "mobilite",
+    "force",
+    "outil"
+   ],
+   "immunites": [],
+   "confiance": "etablie",
+   "note": "Original de scénario. Pas de passe-muraille ni d’invisibilité accordés gratuitement.",
+   "levierDocumente": null,
+   "pouvoirsSource": null,
+   "recetteExacte": null,
+   "episodes": [],
+   "statutCorpus": "documented_partial",
+   "source": "scenario:manoir-assiege"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+  "ep": "S01E02",
+  "titre": "I've Got You Under My Skin",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Démon dévoreur", "def": "Démon qui se nourrit périodiquement de la force vitale des jeunes pour rester éternellement jeune, caché sous une apparence humaine."},
+    {"type": "THING", "nom": "Regard maléfique", "def": "Pouvoir de magie noire invoqué par le démon pour voler la force vitale par le regard."},
+    {"type": "THING", "nom": "Force vitale", "def": "Jeunesse et mémoire d'un être, volables et restituables."},
+    {"type": "THING", "nom": "Miroir", "def": "Objet-canal qui renvoie le regard maléfique vers son émetteur pendant l'incantation."},
+    {"type": "SPACE", "nom": "Lieu consacré", "def": "Église ou lieu sacré que les êtres maléfiques ne pourraient franchir."},
+    {"type": "NARRATIVE", "nom": "Loi mortelle", "def": "Croyance des mortels (religion, tribunaux) selon laquelle la sorcière est maléfique et doit mourir."},
+    {"type": "NARRATIVE", "nom": "Bénéfice personnel", "def": "Interdiction inscrite dans le Livre des Ombres d'utiliser les pouvoirs pour son propre gain."},
+    {"type": "MOMENT", "nom": "Bannissement", "def": "Renvoi d'un démon vers son lieu d'origine par incantation."},
+    {"type": "MOMENT", "nom": "Panique", "def": "Peur soudaine qui déclenche involontairement le gel du temps."}
+  ],
+  "liens": [
+    {"source": "Sorcière", "verbe": "NE CONTRÔLE PAS", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E02", "preuve": "None of us can control our powers."},
+    {"source": "Panique", "verbe": "DÉCLENCHE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E02", "preuve": "I could panic and freeze the entire restaurant."},
+    {"source": "Pouvoir individuel", "verbe": "N'AGIT PAS SUR", "cible": "Sorcière", "statut": "E", "ep": "S01E02", "preuve": "Guess it doesn't work on witches."},
+    {"source": "Pouvoir individuel", "verbe": "EST LIMITÉ EN PORTÉE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E02", "preuve": "It doesn't work out there either.", "note": "Le gel n'atteint que la pièce où se trouve la sorcière."},
+    {"source": "Pouvoir individuel", "verbe": "EST LIMITÉ EN DURÉE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E02", "preuve": "How long does it last? I don't know. Not long."},
+    {"source": "Pouvoir individuel", "verbe": "ATTIRE", "cible": "Warlock", "statut": "C", "ep": "S01E02", "preuve": "we don't want any more warlocks finding us."},
+    {"source": "Livre des Ombres", "verbe": "ÉNONCE", "cible": "Bénéfice personnel", "statut": "E", "ep": "S01E02", "preuve": "not supposed to use our powers for our own personal gain. That is what it says"},
+    {"source": "Bénéfice personnel", "verbe": "ANNULE", "cible": "Pouvoir individuel", "statut": "?", "ep": "S01E02", "preuve": "You can't intentionally use the powers for your own personal gain", "note": "Le couple aidé gagne la loterie, la sorcière qui a joué les mêmes numéros ne gagne rien."},
+    {"source": "Livre des Ombres", "verbe": "ÉNONCE", "cible": "Destin de protectrice", "statut": "E", "ep": "S01E02", "preuve": "To protect the innocent, just like the Book of Shadows says."},
+    {"source": "Loi mortelle", "verbe": "CONDAMNE", "cible": "Sorcière", "statut": "C", "ep": "S01E02", "preuve": "Thou shalt not suffer a witch to live."},
+    {"source": "Lieu consacré", "verbe": "REPOUSSE", "cible": "Démon", "statut": "C", "ep": "S01E02", "preuve": "evil beings can't go into a church"},
+    {"source": "Sorcière", "verbe": "ENTRE DANS", "cible": "Lieu consacré", "statut": "E", "ep": "S01E02", "preuve": "I'm good!", "note": "Une bonne sorcière franchit l'église sans dommage."},
+    {"source": "Démon dévoreur", "verbe": "INVOQUE", "cible": "Regard maléfique", "statut": "E", "ep": "S01E02", "preuve": "invoking a black-magic power of the evil eye to gain eternal youth"},
+    {"source": "Regard maléfique", "verbe": "VOLE", "cible": "Force vitale", "statut": "E", "ep": "S01E02", "preuve": "stealing the life force from the young"},
+    {"source": "Démon dévoreur", "verbe": "SE NOURRIT PÉRIODIQUEMENT", "cible": "Innocent", "statut": "E", "ep": "S01E02", "preuve": "Javna feeds one week out of every year"},
+    {"source": "Démon dévoreur", "verbe": "SE DÉGUISE EN", "cible": "Innocent", "statut": "E", "ep": "S01E02", "preuve": "Stefan, or whoever you are ... It's Javna."},
+    {"source": "Livre des Ombres", "verbe": "CONTIENT", "cible": "Incantation", "statut": "E", "ep": "S01E02", "preuve": "there must be some incantation to reverse it somehow. There is."},
+    {"source": "Incantation", "verbe": "EXIGE", "cible": "Réunion des trois", "statut": "E", "ep": "S01E02", "preuve": "The incantation only works with the three of us."},
+    {"source": "Incantation", "verbe": "INVOQUE", "cible": "Pouvoir des Trois", "statut": "E", "ep": "S01E02", "preuve": "Bend thy will to the power of three"},
+    {"source": "Miroir", "verbe": "RENVOIE", "cible": "Regard maléfique", "statut": "?", "ep": "S01E02", "preuve": "Prue, grab the mirror! Now."},
+    {"source": "Incantation", "verbe": "BANNIT", "cible": "Démon dévoreur", "statut": "E", "ep": "S01E02", "preuve": "to banish Javna back to wherever the hell he came from"},
+    {"source": "Bannissement", "verbe": "RESTAURE", "cible": "Force vitale", "statut": "E", "ep": "S01E02", "preuve": "She was one of Stefan's victims. Obviously doesn't remember."},
+    {"source": "Bannissement", "verbe": "EFFACE LA MÉMOIRE DE", "cible": "Innocent", "statut": "E", "ep": "S01E02", "preuve": "Obviously doesn't remember."},
+    {"source": "Émotion", "verbe": "DÉCLENCHE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E02", "preuve": "It just popped into my head."}
+  ],
+  "actions": [
+    {"acteur": "Sorcière", "action": "AVOIR UNE PRÉMONITION", "preconditions": ["proximité ou contact avec la cible"], "effet": "Vision d'un événement futur proche (approche d'une personne, numéros gagnants)", "cout": null, "limite": "involontaire, non contrôlable", "statut": "E", "ep": "S01E02", "preuve": "It's not like I can control it."},
+    {"acteur": "Sorcière", "action": "GELER LE TEMPS", "preconditions": ["panique ou stress"], "effet": "Tout ce qui est dans la pièce s'immobilise", "cout": null, "limite": "n'agit pas sur les sorcières ; durée brève ; ne dépasse pas la pièce", "statut": "E", "ep": "S01E02", "preuve": "Guess it doesn't work on witches."},
+    {"acteur": "Sorcière", "action": "UTILISER SON POUVOIR POUR SON GAIN", "preconditions": ["intention égoïste"], "effet": "Le gain ne se réalise pas pour la sorcière", "cout": "échec du gain", "limite": "interdit par le Livre des Ombres", "statut": "?", "ep": "S01E02", "preuve": "It's a good thing I didn't take the tags off that dress."},
+    {"acteur": "Démon dévoreur", "action": "VOLER LA FORCE VITALE", "preconditions": ["semaine annuelle de nourrissage", "victime jeune attirée sous fausse identité"], "effet": "La victime vieillit brutalement et perd la mémoire ; le démon reste jeune", "cout": null, "limite": "une semaine par an", "statut": "E", "ep": "S01E02", "preuve": "she's dying of old age at 25"},
+    {"acteur": "Sorcière", "action": "BANNIR UN DÉMON", "preconditions": ["les trois sœurs réunies", "incantation du Livre des Ombres", "miroir tenu face au démon"], "effet": "Démon détruit/renvoyé ; ses victimes retrouvent leur jeunesse", "cout": null, "limite": "requiert les trois", "statut": "E", "ep": "S01E02", "preuve": "The incantation only works with the three of us."}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Émotion DÉCLENCHE Pouvoir individuel", "nouveau_statut": "E", "preuve": "I could panic and freeze the entire restaurant."},
+    {"lien": "Réunion des trois CONDITIONNE Pouvoir des Trois", "nouveau_statut": "E", "preuve": "The incantation only works with the three of us."}
+  ],
+  "questions_ouvertes": [
+    "Le démon banni est-il détruit ou seulement renvoyé (le texte dit banni, la scène suggère une destruction) ?",
+    "Le miroir est-il indispensable ou seulement un support de l'incantation ?",
+    "Quelle est la sanction exacte du bénéfice personnel : simple non-effet ou punition ?",
+    "D'où viennent les pouvoirs : les sorcières ignorent si leur origine est bonne ou mauvaise."
+  ]
+}

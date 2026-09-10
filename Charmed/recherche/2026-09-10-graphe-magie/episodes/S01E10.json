@@ -1,0 +1,55 @@
+{
+  "ep": "S01E10",
+  "titre": "Wicca Envy",
+  "noeuds_nouveaux": [
+    {"type": "THING", "nom": "Projection astrale", "def": "Pouvoir de warlock : se transporter psychiquement, invisible, et implanter une pensée subliminale que la cible prend pour la sienne."},
+    {"type": "THING", "nom": "Sort de renoncement", "def": "Sort du Livre qui, lu à voix haute, retire à jamais les pouvoirs des lanceuses et efface ses propres mots du Livre."},
+    {"type": "THING", "nom": "Réceptacle de pouvoirs", "def": "Objet (lanterne) censé capturer les pouvoirs abandonnés pour les remettre à un warlock."},
+    {"type": "THING", "nom": "Illusion", "def": "Décor ou événement faux imposé aux sens (appartement, prémonition suggérée)."},
+    {"type": "MOMENT", "nom": "Échec du warlock", "def": "Manquement à la mission qui déclenche une punition venue d'en bas."},
+    {"type": "ACTOR", "nom": "Supérieur démoniaque", "def": "Puissance infernale non vue qui envoie les warlocks et les détruit s'ils échouent."},
+    {"type": "MOMENT", "nom": "Restitution des pouvoirs", "def": "Retour inexpliqué des pouvoirs abandonnés, par une cause extérieure."}
+  ],
+  "liens": [
+    {"source": "Projection astrale", "verbe": "IMPLANTE", "cible": "Pensée subliminale", "statut": "E", "ep": "S01E10", "preuve": "transport myself psychically and implant a subliminal thought"},
+    {"source": "Pensée subliminale", "verbe": "CONTRÔLE", "cible": "Sorcière", "statut": "E", "ep": "S01E10", "preuve": "Prue did exactly as I told her to."},
+    {"source": "Projection astrale", "verbe": "REND INVISIBLE", "cible": "Warlock", "statut": "E", "ep": "S01E10", "preuve": "she couldn't see me. No, I was invisible."},
+    {"source": "Pensée subliminale", "verbe": "FALSIFIE", "cible": "Prémonition", "statut": "E", "ep": "S01E10", "preuve": "You're having a premonition of Prue at work. She's in danger."},
+    {"source": "Warlock", "verbe": "PROJETTE", "cible": "Illusion", "statut": "C", "ep": "S01E10", "preuve": "It must've been an illusion. All of it."},
+    {"source": "Livre des Ombres", "verbe": "CONTIENT", "cible": "Sort de renoncement", "statut": "E", "ep": "S01E10", "preuve": "a special spell in The Book of Shadows that strips you of your powers forever"},
+    {"source": "Sort de renoncement", "verbe": "RETIRE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E10", "preuve": "If we read it aloud, it takes away all of our powers."},
+    {"source": "Sort de renoncement", "verbe": "EFFACE", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E10", "preuve": "Vanish the words / Vanish our powers ... Look."},
+    {"source": "Sort de renoncement", "verbe": "N'INDIQUE PAS", "cible": "Inversion", "statut": "E", "ep": "S01E10", "preuve": "Is there any way to reverse it? I don't know, it doesn't say."},
+    {"source": "Réceptacle de pouvoirs", "verbe": "CAPTURE", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E10", "preuve": "this device will capture those powers"},
+    {"source": "Restitution des pouvoirs", "verbe": "RESTAURE", "cible": "Pouvoir individuel", "statut": "?", "ep": "S01E10", "preuve": "Wait, we have our powers back? How? Doesn't matter."},
+    {"source": "Restitution des pouvoirs", "verbe": "RESTAURE", "cible": "Livre des Ombres", "statut": "?", "ep": "S01E10", "preuve": "It's all here. Everything. Just like before."},
+    {"source": "Être de lumière", "verbe": "CAUSE", "cible": "Restitution des pouvoirs", "statut": "C", "ep": "S01E10", "preuve": "Hey, you don't suppose Leo was the?", "note": "simple soupçon ; l'homme à tout faire dit venir de « pretty far »"},
+    {"source": "Échec du warlock", "verbe": "DÉCLENCHE", "cible": "Supérieur démoniaque", "statut": "E", "ep": "S01E10", "preuve": "I didn't fail, he did! No! Please, no!"},
+    {"source": "Supérieur démoniaque", "verbe": "DÉTRUIT", "cible": "Warlock", "statut": "?", "ep": "S01E10", "preuve": "What the hell was that? I think you just answered your own question."},
+    {"source": "Warlock", "verbe": "PROVIENT DE", "cible": "Enfer", "statut": "C", "ep": "S01E10", "preuve": "Go to hell. / I'd love to, darling. I miss it terribly."},
+    {"source": "Pouvoir des Trois", "verbe": "DISSUADE", "cible": "Warlock", "statut": "E", "ep": "S01E10", "preuve": "I have seen what you can do when confronted directly... I opted for blackmail."},
+    {"source": "Warlock", "verbe": "DIVISE", "cible": "Réunion des trois", "statut": "C", "ep": "S01E10", "preuve": "they're trying to divide us so we don't have the power of three"},
+    {"source": "Warlock", "verbe": "USURPE", "cible": "Innocent", "statut": "C", "ep": "S01E10", "preuve": "they killed two people, assumed their identities"},
+    {"source": "Pouvoir individuel", "verbe": "SE TRANSMET À", "cible": "Naissance", "statut": "C", "ep": "S01E10", "preuve": "Gifts given to us to protect and to pass on to the next generation."},
+    {"source": "Sorcière", "verbe": "PEUT ARRACHER", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E10", "preuve": "Getting rid of the relinquishment spell."},
+    {"source": "Pouvoir individuel", "verbe": "GÈLE", "cible": "Innocent", "statut": "E", "ep": "S01E10", "preuve": "I'll just keep freezing them until they give up."}
+  ],
+  "actions": [
+    {"acteur": "Warlock", "action": "PROJECTION ASTRALE", "preconditions": [], "effet": "Présence invisible ; implante une pensée que la cible exécute et croit sienne", "cout": null, "limite": "La cible garde un malaise (« I feel like calling a shrink »)", "statut": "E", "ep": "S01E10", "preuve": "implant a subliminal thought into Prue's brain"},
+    {"acteur": "Sorcière", "action": "LIRE LE SORT DE RENONCEMENT", "preconditions": ["Livre des Ombres", "lecture à voix haute par chacune"], "effet": "Pouvoirs retirés, mots du sort effacés du Livre", "cout": "Perte des pouvoirs, censée définitive", "limite": "Inversion inconnue ; restaurés ici par une cause extérieure", "statut": "E", "ep": "S01E10", "preuve": "From whence they came / Return them now / Vanish the words"},
+    {"acteur": "Warlock", "action": "FAIRE CHANTAGE", "preconditions": ["preuve fabriquée par manipulation mentale"], "effet": "Contraint les sorcières à renoncer sans combat", "cout": null, "limite": "Échoue si les pouvoirs reviennent", "statut": "E", "ep": "S01E10", "preuve": "That is why I opted for blackmail."},
+    {"acteur": "Supérieur démoniaque", "action": "PUNIR L'ÉCHEC", "preconditions": ["mission des warlocks échouée"], "effet": "Warlocks transformés puis emportés", "cout": null, "limite": null, "statut": "?", "ep": "S01E10", "preuve": "Why, Hannah, you've changed. ... No! Please, no!"},
+    {"acteur": "Sorcière", "action": "GELER", "preconditions": [], "effet": "Immobilise plusieurs mortels, répétable", "cout": null, "limite": "Durée imprévisible", "statut": "E", "ep": "S01E10", "preuve": "I never know how long this thing lasts."}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Sorcière NE PEUT RENONCER À Pouvoir individuel (S01E08)", "nouveau_statut": "X", "preuve": "a special spell in The Book of Shadows that strips you of your powers forever"},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "X", "preuve": "Une prémonition peut être fausse et induite : « Even my premonition. »"},
+    {"lien": "Réunion des trois CONDITIONNE Pouvoir des Trois", "nouveau_statut": "C", "preuve": "trying to divide us so that we don't have the power of three"}
+  ],
+  "questions_ouvertes": [
+    "Qui ou quoi a rendu les pouvoirs et restauré le Livre ?",
+    "La lanterne captait-elle vraiment les pouvoirs, ou n'était-ce qu'un bluff ?",
+    "Quelle force punit les warlocks qui échouent, et selon quelle règle ?",
+    "Geler un partenaire pour soi relève-t-il du bénéfice personnel ? Aucune sanction observée."
+  ]
+}

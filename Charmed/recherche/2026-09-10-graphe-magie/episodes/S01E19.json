@@ -1,0 +1,53 @@
+{
+  "ep": "S01E19",
+  "titre": "Out of Sight",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Grimlock", "def": "Démon souterrain nomade qui tue les forces du bien en voyant leur aura, grâce à une vue volée à des enfants."},
+    {"type": "THING", "nom": "Aura", "def": "Halo unique entourant un être selon sa bonté ; plus la personne est bonne, plus l'aura est forte et visible aux prédateurs."},
+    {"type": "THING", "nom": "Vue volée", "def": "Faculté de voir les auras, prise à un enfant innocent, qui ne dure que 24 h et que si l'enfant reste vivant."},
+    {"type": "THING", "nom": "Potion aveuglante", "def": "Potion à base de racine de Schisandra, seul moyen connu de détruire un Grimlock en l'aveuglant."},
+    {"type": "SPACE", "nom": "Souterrain", "def": "Réseau d'égouts / canalisations où vivent certains démons."},
+    {"type": "ACTOR", "nom": "Enquêteur mortel", "def": "Humain (journaliste, policier) qui cherche à prouver l'existence de la magie ; menace d'exposition du Secret."},
+    {"type": "NARRATIVE", "nom": "Exposition du Secret", "def": "Risque que le monde apprenne l'existence des sorcières ; jugé pire pour elles que le silence."},
+    {"type": "THING", "nom": "Canalisation par les mains", "def": "Évolution d'un pouvoir : il passe d'un déclenchement par le regard à un déclenchement par les mains."}
+  ],
+  "liens": [
+    {"source": "Grimlock", "verbe": "VOLE", "cible": "Vue volée", "statut": "E", "ep": "S01E19", "preuve": "able to do by stealing the sight of innocent children"},
+    {"source": "Vue volée", "verbe": "PERMET DE VOIR", "cible": "Aura", "statut": "E", "ep": "S01E19", "preuve": "killing powerful forces of good by seeing the unique auras"},
+    {"source": "Vue volée", "verbe": "EXPIRE APRÈS", "cible": "24 heures", "statut": "E", "ep": "S01E19", "preuve": "The stolen eyesight will last 24 hours"},
+    {"source": "Vue volée", "verbe": "DÉPEND DE", "cible": "Innocent (enfant vivant)", "statut": "E", "ep": "S01E19", "preuve": "but only if the children are alive"},
+    {"source": "Aura", "verbe": "RÉVÈLE", "cible": "Sorcière", "statut": "E", "ep": "S01E19", "preuve": "you're a good person. And that probably means you have a strong aura"},
+    {"source": "Grimlock", "verbe": "TUE PAR", "cible": "Strangulation à distance", "statut": "E", "ep": "S01E19", "preuve": "died in the middle of a crowd and nobody saw anyone lay a hand"},
+    {"source": "Potion aveuglante", "verbe": "DÉTRUIT", "cible": "Grimlock", "statut": "E", "ep": "S01E19", "preuve": "the only way to kill a Grimlock is to blind it with a potion"},
+    {"source": "Composants rituels", "verbe": "EXIGE", "cible": "Potion aveuglante", "statut": "E", "ep": "S01E19", "preuve": "gather Schisandra root"},
+    {"source": "Mort du Grimlock", "verbe": "RESTITUE", "cible": "Vue volée", "statut": "E", "ep": "S01E19", "preuve": "I can see! / Someone must've slayed those monsters"},
+    {"source": "Grimlock", "verbe": "HABITE", "cible": "Souterrain", "statut": "E", "ep": "S01E19", "preuve": "It's where these demons live"},
+    {"source": "Contact", "verbe": "DÉCLENCHE", "cible": "Prémonition (passé)", "statut": "E", "ep": "S01E19", "preuve": "were you wearing a sweatshirt with jeans... / Yeah"},
+    {"source": "Attaque", "verbe": "FAIT CROÎTRE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E19", "preuve": "first time you channelled it through your hands. Your power's growing"},
+    {"source": "Blessure", "verbe": "BLOQUE", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E19", "preuve": "You're too weak to use your powers"},
+    {"source": "Enquêteur mortel", "verbe": "MENACE", "cible": "Secret", "statut": "E", "ep": "S01E19", "preuve": "I've got the whole thing on tape"},
+    {"source": "Pouvoir individuel (gel)", "verbe": "N'AFFECTE PAS", "cible": "Enregistrement mécanique", "statut": "C", "ep": "S01E19", "preuve": "one of you stopped time... I've got the whole thing on tape"},
+    {"source": "Livre des Ombres", "verbe": "DÉCRIT", "cible": "Grimlock", "statut": "E", "ep": "S01E19", "preuve": "Here it is, auras. Grimlocks."},
+    {"source": "Exposition du Secret", "verbe": "AGGRAVE", "cible": "Destin de protectrice", "statut": "C", "ep": "S01E19", "preuve": "being outed would only make our lives worse"},
+    {"source": "Innocent", "verbe": "PEUT VOIR", "cible": "Démon", "statut": "E", "ep": "S01E19", "preuve": "I saw a creature with whirling eyes take David"}
+  ],
+  "actions": [
+    {"acteur": "Grimlock", "action": "VOLER LA VUE", "preconditions": ["enfant innocent capturé", "contact physique (étincelles bleues)"], "effet": "Le Grimlock voit les auras ; l'enfant devient aveugle", "cout": null, "limite": "24 h, tant que l'enfant vit ; la vue revient à la mort du Grimlock", "statut": "E", "ep": "S01E19", "preuve": "blue sparks hitting my face. My eyes felt like they were on fire"},
+    {"acteur": "Grimlock", "action": "ÉTRANGLER À DISTANCE", "preconditions": ["voir l'aura de la cible"], "effet": "Mort par strangulation sans contact visible", "cout": null, "limite": "Cible = force du bien à aura forte", "statut": "E", "ep": "S01E19", "preuve": "It's gotta be the Grimlocks, that's how they kill"},
+    {"acteur": "Sorcière", "action": "PRÉPARER UNE POTION", "preconditions": ["racine de Schisandra cueillie", "recette du Livre des Ombres", "temps de préparation"], "effet": "Aveugle et détruit le Grimlock", "cout": "Temps ; risque d'être suivie pendant la cueillette", "limite": "Seul moyen connu", "statut": "E", "ep": "S01E19", "preuve": "I will stay here and finish the potions"},
+    {"acteur": "Sorcière", "action": "APPELER UNE PRÉMONITION SUR UN TÉMOIN", "preconditions": ["contact avec une personne liée à l'événement"], "effet": "Vision d'un événement passé de cette personne", "cout": null, "limite": null, "statut": "E", "ep": "S01E19", "preuve": "were you running through water? Yes. I remember that"},
+    {"acteur": "Sorcière", "action": "GELER PUIS SE REPLACER", "preconditions": ["voir le piège avant que le temps reprenne"], "effet": "Reprend sa position d'origine avant le dégel", "cout": null, "limite": "Une caméra enregistre le saut, laissant une preuve", "statut": "E", "ep": "S01E19", "preuve": "Purse on right shoulder... She has another power"},
+    {"acteur": "Sorcière", "action": "USER DU POUVOIR CONTRE UN MORTEL HOSTILE", "preconditions": ["mortel menaçant le Secret"], "effet": "Projection/entrave sans blessure grave", "cout": "Renforce les soupçons", "limite": "Retenue : ne pas nuire gravement", "statut": "E", "ep": "S01E19", "preuve": "Bet that took a lot of self-control, huh? Not to use your powers"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Attaque FAIT CROÎTRE Pouvoir individuel", "nouveau_statut": "E", "preuve": "It was the first time you channelled it through your hands"},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "prémonition du passé au contact d'une victime : Brent, when they took you..."},
+    {"lien": "Innocent NE VOIT PAS Démon", "nouveau_statut": "X", "preuve": "Innocent et journaliste voient le Grimlock et le pouvoir ; note: contredit l'idée que les mortels ne perçoivent rien"}
+  ],
+  "questions_ouvertes": [
+    "Un mortel peut-il filmer un pouvoir de gel ? Le journaliste l'affirme mais la cassette n'est jamais vue.",
+    "Pourquoi une sorcière blessée ne peut-elle plus utiliser son pouvoir ? Faiblesse physique ou règle magique ?",
+    "L'aura est-elle visible seulement par la vue volée, ou par d'autres êtres ?",
+    "Comment le Grimlock a-t-il été tué en pratique ? (potion lancée, mais non décrit dans le dialogue)"
+  ]
+}

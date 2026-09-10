@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 etat/joueurs/
 node_modules/
+
+# Transcriptions sources : texte sous droit d'auteur, consultation locale, non redistribue
+Charmed/sources/transcriptions/**/*.txt

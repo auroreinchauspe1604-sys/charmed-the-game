@@ -1,0 +1,65 @@
+{
+  "ep": "S01E06",
+  "titre": "The Wedding from Hell",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Reine des enfers", "def": "Démone qui remonte tous les 200 ans pour épouser un innocent envoûté et enfanter un démon d'apparence humaine."},
+    {"type": "ACTOR", "nom": "Suivantes démoniaques", "def": "Démones accompagnant la reine, dévoreuses d'hommes, capables de tuer un mortel."},
+    {"type": "ACTOR", "nom": "Ordre secret", "def": "Confrérie mortelle (prêtres) vouée à empêcher le retour de la démone, armée d'un poignard rituel."},
+    {"type": "ACTOR", "nom": "Mortel pactisant", "def": "Mortel qui a passé un pacte avec un démon et en paie le prix par un proche."},
+    {"type": "THING", "nom": "Pacte", "def": "Accord entre démon et mortel : richesse, pouvoir ou jeunesse contre un prix humain différé."},
+    {"type": "THING", "nom": "Poignard rituel", "def": "Athamé ancien portant serment gravé, nécessaire pour vaincre/bannir la démone."},
+    {"type": "THING", "nom": "Sort d'envoûtement", "def": "Emprise de la démone sur un innocent, rompue par une déclaration d'amour scellée d'un baiser."},
+    {"type": "THING", "nom": "Idole de fertilité", "def": "Objet dont la seule présence favorise la conception."},
+    {"type": "THING", "nom": "Enfant démon", "def": "Rejeton d'un démon et d'un innocent, humain en apparence, démon en dedans."},
+    {"type": "MOMENT", "nom": "Mariage sanctifié", "def": "Union légale et religieuse exigée par la démone pour concevoir."},
+    {"type": "MOMENT", "nom": "Déclaration d'amour", "def": "Aveu d'amour vrai scellé d'un baiser qui brise l'envoûtement."}
+  ],
+  "liens": [
+    {"source": "Reine des enfers", "verbe": "REVIENT TOUS LES 200 ANS", "cible": "Reine des enfers", "statut": "E", "ep": "S01E06", "preuve": "She comes to Earth every 200 years."},
+    {"source": "Reine des enfers", "verbe": "ENVOÛTE", "cible": "Innocent", "statut": "E", "ep": "S01E06", "preuve": "find an innocent, put him under her spell and marry him"},
+    {"source": "Mariage sanctifié", "verbe": "CONDITIONNE", "cible": "Enfant démon", "statut": "E", "ep": "S01E06", "preuve": "marry him in a sanctified wedding. ... she needs Elliot to impregnate her."},
+    {"source": "Mariage sanctifié", "verbe": "EXIGE", "cible": "Loi mortelle", "statut": "E", "ep": "S01E06", "preuve": "The wedding won't be legal without it.", "note": "Certificat civil + officiant religieux."},
+    {"source": "Enfant démon", "verbe": "PARAÎT", "cible": "Innocent", "statut": "E", "ep": "S01E06", "preuve": "her child would look normal on the outside. But internally and mentally, her child would be pure demon."},
+    {"source": "Idole de fertilité", "verbe": "FAVORISE", "cible": "Enfant démon", "statut": "C", "ep": "S01E06", "preuve": "its mere presence would help a woman conceive."},
+    {"source": "Pacte", "verbe": "ACCORDE", "cible": "Bénéfice personnel", "statut": "E", "ep": "S01E06", "preuve": "You could've asked for eternal youth, Grace, instead of choosing wealth, power"},
+    {"source": "Pacte", "verbe": "COÛTE", "cible": "Innocent", "statut": "E", "ep": "S01E06", "preuve": "Say your son's had a change of heart. That was our deal, remember?"},
+    {"source": "Mortel pactisant", "verbe": "NE PEUT ROMPRE", "cible": "Pacte", "statut": "E", "ep": "S01E06", "preuve": "You should've thought about that before you agreed to our arrangement."},
+    {"source": "Reine des enfers", "verbe": "CONSERVE", "cible": "Force vitale", "statut": "E", "ep": "S01E06", "preuve": "you haven't aged in 20 years."},
+    {"source": "Suivantes démoniaques", "verbe": "DÉVORENT", "cible": "Innocent", "statut": "E", "ep": "S01E06", "preuve": "Stripper-eating bridesmaid ahead."},
+    {"source": "Suivantes démoniaques", "verbe": "TUENT", "cible": "Ordre secret", "statut": "E", "ep": "S01E06", "preuve": "Kirsten, killing a priest was not part of our deal!"},
+    {"source": "Ordre secret", "verbe": "COMBAT", "cible": "Reine des enfers", "statut": "E", "ep": "S01E06", "preuve": "he belonged to a secret order pledged to stop Hecate."},
+    {"source": "Poignard rituel", "verbe": "PORTE", "cible": "Formule", "statut": "E", "ep": "S01E06", "preuve": "I shall not rest until the demon is vanquished."},
+    {"source": "Poignard rituel", "verbe": "BANNIT", "cible": "Reine des enfers", "statut": "C", "ep": "S01E06", "preuve": "I still have to find the jewelled poignard to kill you with."},
+    {"source": "Ordre secret", "verbe": "ÉCHOUE SEUL CONTRE", "cible": "Reine des enfers", "statut": "E", "ep": "S01E06", "preuve": "I banish thee. Back to the underworld, Hecate. Not today, Trask."},
+    {"source": "Livre des Ombres", "verbe": "CONTIENT", "cible": "Reine des enfers", "statut": "E", "ep": "S01E06", "preuve": "The Book of Shadows says that the spell can be broken by a declaration of love"},
+    {"source": "Déclaration d'amour", "verbe": "ROMPT", "cible": "Sort d'envoûtement", "statut": "E", "ep": "S01E06", "preuve": "I love you, Elliot. ... Whoever you three are, thank you."},
+    {"source": "Sort d'envoûtement", "verbe": "EFFACE LA MÉMOIRE DE", "cible": "Innocent", "statut": "C", "ep": "S01E06", "preuve": "Elliot won't even know what you did until it's over."},
+    {"source": "Reine des enfers", "verbe": "INVOQUE", "cible": "Incantation", "statut": "E", "ep": "S01E06", "preuve": "By Asteria and Perses, open, sky, and do you worst!"},
+    {"source": "Sorcière", "verbe": "BANNIT", "cible": "Reine des enfers", "statut": "?", "ep": "S01E06", "preuve": "Prue, do something. ... We did that.", "note": "Poignard disparu, télékinésie employée ; mécanisme exact non dit."},
+    {"source": "Pouvoir individuel", "verbe": "EST LIMITÉ EN PORTÉE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E06", "preuve": "You have to be closer to the object you're trying to freeze."},
+    {"source": "prémonition", "verbe": "EST AMBIGUË", "cible": "Sorcière", "statut": "E", "ep": "S01E06", "preuve": "Did you see Piper? Yes, I saw her legs. Never saw her face?"},
+    {"source": "Warlock", "verbe": "VA EN", "cible": "Lieu scellé", "statut": "C", "ep": "S01E06", "preuve": "he is in demon hell, end of story."},
+    {"source": "Destin de protectrice", "verbe": "PLACE", "cible": "Sorcière", "statut": "C", "ep": "S01E06", "preuve": "I don't think it's a coincidence that you're catering the wedding."},
+    {"source": "Démon", "verbe": "INFILTRE", "cible": "Innocent", "statut": "C", "ep": "S01E06", "preuve": "You should know for whom we acquired this.", "note": "Des collaborateurs cachés fournissent l'idole à la démone et évitent la sorcière."}
+  ],
+  "actions": [
+    {"acteur": "Reine des enfers", "action": "PRENDRE UN INNOCENT POUR ÉPOUX", "preconditions": ["retour tous les 200 ans", "pacte antérieur avec la famille", "innocent envoûté", "mariage légal et sanctifié"], "effet": "Conception d'un enfant démon d'apparence humaine, héritier de richesse et pouvoir", "cout": null, "limite": "rompu si l'innocent reçoit une déclaration d'amour vrai scellée d'un baiser", "statut": "E", "ep": "S01E06", "preuve": "In 24 hours, Jade will be pregnant."},
+    {"acteur": "Mortel pactisant", "action": "PACTISER", "preconditions": ["démon proposant richesse, pouvoir ou jeunesse"], "effet": "Vie prospère 20 ans", "cout": "un proche livré à la démone", "limite": "irrévocable ; menace de mort si refus", "statut": "E", "ep": "S01E06", "preuve": "We're still on the second floor."},
+    {"acteur": "Ordre secret", "action": "BANNIR AVEC LE POIGNARD", "preconditions": ["poignard rituel", "formule de bannissement"], "effet": "Vise à renvoyer la démone aux enfers", "cout": "mort de l'officiant", "limite": "échoue seul face à la démone et ses suivantes", "statut": "E", "ep": "S01E06", "preuve": "Now, get rid of him."},
+    {"acteur": "Innocent", "action": "DÉCLARER SON AMOUR", "preconditions": ["amour vrai", "baiser", "présence de l'envoûté"], "effet": "Brise l'envoûtement", "cout": null, "limite": null, "statut": "E", "ep": "S01E06", "preuve": "the spell can be broken by a declaration of love, sealed with a kiss."},
+    {"acteur": "Sorcière", "action": "GELER LE TEMPS", "preconditions": ["proximité de la cible"], "effet": "Immobilise les suivantes", "cout": null, "limite": "échoue à distance", "statut": "E", "ep": "S01E06", "preuve": "I'm trying, it's not working! Yes, it is. Look, you froze the fly."},
+    {"acteur": "Sorcière", "action": "BANNIR LA DÉMONE", "preconditions": ["envoûtement rompu", "ciel ouvert par la démone", "télékinésie"], "effet": "Démone et suivantes renvoyées aux enfers", "cout": null, "limite": "poignard perdu au moment décisif", "statut": "?", "ep": "S01E06", "preuve": "Quick, we have to banish them back to the underworld. The poignard, it's gone."}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Pouvoir individuel EST LIMITÉ EN PORTÉE (S01E02)", "nouveau_statut": "E", "preuve": "You have to be closer to the object you're trying to freeze."},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "I found the box in the bathroom. ... I had a vision this morning", "note": "Vision déclenchée par le contact d'un objet lié à la scène."},
+    {"lien": "Pouvoir des Trois DÉTRUIT Warlock (S01E01)", "nouveau_statut": "C", "preuve": "he is in demon hell", "note": "Le warlock détruit est dit envoyé en enfer, pas anéanti."}
+  ],
+  "questions_ouvertes": [
+    "Comment exactement la démone est-elle bannie : télékinésie, poignard récupéré, ou le ciel qu'elle a ouvert se retourne-t-il contre elle ?",
+    "Le poignard est-il indispensable ou seulement l'outil de l'ordre mortel ?",
+    "Un enfant conçu avec un warlock serait-il un enfant démon (crainte non tranchée) ?",
+    "Qui sont les collaborateurs cachés qui fournissent l'idole et évitent la sorcière ?",
+    "Un pacte démoniaque est-il annulable par les sorcières ?"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "ep": "S01E17",
+  "titre": "That '70s Episode",
+  "noeuds_nouveaux": [
+    {"type": "THING", "nom": "Pacte", "def": "Accord magique par lequel une sorcière cède quelque chose (pouvoirs futurs) contre une vie."},
+    {"type": "THING", "nom": "Anneau béni", "def": "Bijou béni par une sorcière donnant immunité contre les pouvoirs de sa lignée ; peut être dé-béni."},
+    {"type": "THING", "nom": "Immunité", "def": "État rendant un être insensible à des pouvoirs précis."},
+    {"type": "THING", "nom": "Sort de voyage temporel", "def": "Sort ramenant à l'origine d'un lien ou renvoyant à son temps ; exige une puissance suffisante."},
+    {"type": "THING", "nom": "Liaison des pouvoirs", "def": "Sort qui suspend les pouvoirs d'enfants sorcières ; se défait automatiquement à la mort de la lanceuse."},
+    {"type": "NARRATIVE", "nom": "Destin", "def": "Le passé résiste au changement ; le modifier incorrectement défait tout ce qui a suivi."},
+    {"type": "NARRATIVE", "nom": "Interdit de connaître l'avenir", "def": "Règle : ne rien apprendre du futur, ne rien altérer hors de la mission."},
+    {"type": "MOMENT", "nom": "Naissance de la troisième", "def": "Moment où la lignée est complète et où les pouvoirs sont 'complets' ; point de vulnérabilité."},
+    {"type": "THING", "nom": "Sachet de sort", "def": "Composants (lavande, mimosa, chardon béni) accompagnant un sort d'annihilation."},
+    {"type": "ACTOR", "nom": "Enfant sorcière", "def": "Sorcière très jeune possédant déjà pouvoir, contrôle et visée."},
+    {"type": "ACTOR", "nom": "Enfant à naître", "def": "Fœtus sorcier dont le pouvoir se manifeste à travers sa mère."}
+  ],
+  "liens": [
+    {"source": "Pacte", "verbe": "CÈDE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E17", "preuve": "To spare her life, she gave up your future powers to me"},
+    {"source": "Sorcière", "verbe": "BÉNIT", "cible": "Anneau béni", "statut": "E", "ep": "S01E17", "preuve": "She blessed this ring, which gave me immunity from your powers"},
+    {"source": "Anneau béni", "verbe": "CONFÈRE", "cible": "Immunité", "statut": "E", "ep": "S01E17", "preuve": "immunity from your powers"},
+    {"source": "Immunité", "verbe": "BLOQUE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E17", "preuve": "You can't run from me!"},
+    {"source": "Warlock", "verbe": "VOLE PAR MEURTRE", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E17", "preuve": "kill you and take the powers on for my own to become invincible"},
+    {"source": "Naissance de la troisième", "verbe": "COMPLÈTE", "cible": "Pouvoir des Trois", "statut": "E", "ep": "S01E17", "preuve": "not until Phoebe's born and all your powers are complete"},
+    {"source": "Warlock", "verbe": "FAIT BOUILLIR LE SANG DE", "cible": "Sorcière", "statut": "E", "ep": "S01E17", "preuve": "Your blood is boiling. Soon your lungs will sear"},
+    {"source": "Dé-bénédiction", "verbe": "ANNULE", "cible": "Immunité", "statut": "E", "ep": "S01E17", "preuve": "unbless the ring and take away its immunity"},
+    {"source": "Sort de voyage temporel", "verbe": "RAMÈNE À", "cible": "Origine du lien", "statut": "E", "ep": "S01E17", "preuve": "turn back time to whence it was begun"},
+    {"source": "Sort de voyage temporel", "verbe": "EXIGE", "cible": "Pouvoir des Trois", "statut": "E", "ep": "S01E17", "preuve": "It's not the spell. Must be the power behind the spell"},
+    {"source": "Enfant sorcière", "verbe": "FORME", "cible": "Pouvoir des Trois", "statut": "E", "ep": "S01E17", "preuve": "If we can teach the girls the chant... The power of three"},
+    {"source": "Livre des Ombres", "verbe": "NE CONTIENT PAS", "cible": "Sort futur", "statut": "E", "ep": "S01E17", "preuve": "wherever here is, it's before the spell was written"},
+    {"source": "Voyage dans le temps", "verbe": "SUSPEND", "cible": "Pouvoir individuel", "statut": "C", "ep": "S01E17", "preuve": "maybe only one set of us can have powers at the same time"},
+    {"source": "Enfant sorcière", "verbe": "POSSÈDE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E17", "preuve": "These girls have major juice. They have control, they can aim"},
+    {"source": "Enfant à naître", "verbe": "DONNE", "cible": "Prémonition", "statut": "C", "ep": "S01E17", "preuve": "Where did that premonition come from if not from the unborn child"},
+    {"source": "Gardienne", "verbe": "LIE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E17", "preuve": "I'll have to bind their powers. Strip them from the young ones"},
+    {"source": "Mort de la gardienne", "verbe": "DÉLIE", "cible": "Pouvoir individuel", "statut": "E", "ep": "S01E17", "preuve": "unless I died, which would automatically unbind your powers"},
+    {"source": "Destin", "verbe": "RÉSISTE À", "cible": "Changement du passé", "statut": "C", "ep": "S01E17", "preuve": "Destiny always gets its own way"},
+    {"source": "Changement du passé", "verbe": "DÉFAIT", "cible": "Bien accompli", "statut": "C", "ep": "S01E17", "preuve": "the good that you've done, none of it may have ever happened"},
+    {"source": "Interdit de connaître l'avenir", "verbe": "LIMITE", "cible": "Voyage dans le temps", "statut": "C", "ep": "S01E17", "preuve": "We mustn't know about the future"},
+    {"source": "Retour temporel", "verbe": "REPREND À", "cible": "Instant du départ", "statut": "E", "ep": "S01E17", "preuve": "You will return at the exact moment you left"},
+    {"source": "Gel", "verbe": "EFFACE LA MÉMOIRE DE", "cible": "Innocent", "statut": "E", "ep": "S01E17", "preuve": "did Piper freeze you again? You won't remember a thing"},
+    {"source": "Sort", "verbe": "EXIGE", "cible": "Sachet de sort", "statut": "E", "ep": "S01E17", "preuve": "Spell pouch included. Lavender, mimosa, holy thistle"},
+    {"source": "Sort d'annihilation", "verbe": "DÉTRUIT", "cible": "Warlock", "statut": "E", "ep": "S01E17", "preuve": "Scatter its cells throughout time. Let this Nick no more exist"},
+    {"source": "Ancêtre", "verbe": "ÉCRIT DANS", "cible": "Livre des Ombres", "statut": "E", "ep": "S01E17", "preuve": "The Nicholas Must Die spell. That wasn't there before"},
+    {"source": "Bénéfice personnel", "verbe": "INTERDIT", "cible": "Connaissance du futur", "statut": "E", "ep": "S01E17", "preuve": "This is not the time for personal gain"},
+    {"source": "Warlock", "verbe": "SIMULE", "cible": "Vieillissement", "statut": "E", "ep": "S01E17", "preuve": "I had to appear to age over the years"},
+    {"source": "Warlock", "verbe": "EST PARALYSÉ PAR", "cible": "Gel", "statut": "E", "ep": "S01E17", "preuve": "Wouldn't have you freezing me, Patty. That would ruin everything"}
+  ],
+  "actions": [
+    {"acteur": "Sorcière", "action": "CONCLURE UN PACTE", "preconditions": ["Menace mortelle sur elle et son enfant à naître"], "effet": "Vie épargnée ; pouvoirs futurs de la lignée cédés ; anneau béni donné", "cout": "Immunité offerte à l'ennemi", "limite": "Le warlock attend que les pouvoirs soient complets", "statut": "E", "ep": "S01E17", "preuve": "I'd rather love you as mortal daughters than mourn you as dead witches"},
+    {"acteur": "Sorcière", "action": "DÉ-BÉNIR UN OBJET", "preconditions": ["Avoir l'objet en main", "Être la bénisseuse originelle"], "effet": "L'immunité disparaît", "cout": null, "limite": "Sans test, effet inconnu jusqu'à l'usage", "statut": "E", "ep": "S01E17", "preuve": "there wasn't time to test it"},
+    {"acteur": "Sorcière", "action": "VOYAGER DANS LE TEMPS", "preconditions": ["Sort d'annulation de lien", "Puissance suffisante (Pouvoir des Trois)"], "effet": "Transport à l'origine du lien ; retour à l'instant exact du départ", "cout": "Pouvoirs suspendus dans le passé", "limite": "Sans Pouvoir des Trois, déplacement de quelques secondes", "statut": "E", "ep": "S01E17", "preuve": "it moved them through time. Yeah, ten seconds"},
+    {"acteur": "Gardienne", "action": "LIER LES POUVOIRS", "preconditions": ["Enfants sorcières", "Sort"], "effet": "Pouvoirs suspendus, oubliés", "cout": null, "limite": "Se défait à la mort de la lanceuse", "statut": "E", "ep": "S01E17", "preuve": "cast a spell and suspend their... Your powers"},
+    {"acteur": "Warlock", "action": "BRÛLER DE L'INTÉRIEUR", "preconditions": ["Cible à portée", "Immunité aux contre-pouvoirs"], "effet": "Sang bouillant, organes surchauffés, mort", "cout": null, "limite": "Interrompu si la cible fuit ou disparaît", "statut": "E", "ep": "S01E17", "preuve": "Your organs will overheat, and death will come"},
+    {"acteur": "Sorcière", "action": "ANNIHILER UN WARLOCK", "preconditions": ["Immunité levée", "Sort dédié", "Sachet de composants"], "effet": "Le warlock cesse d'exister, ses cellules dispersées dans le temps", "cout": null, "limite": null, "statut": "E", "ep": "S01E17", "preuve": "Cleanse this evil from our midst"},
+    {"acteur": "Gardienne", "action": "ÉCRIRE UN SORT", "preconditions": ["Besoin identifié"], "effet": "Nouveau sort disponible, transmis via le Livre", "cout": null, "limite": "La puissance requise peut dépasser la lanceuse seule", "statut": "E", "ep": "S01E17", "preuve": "I'll write a new spell that will get you back to your own time"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Gardienne SCELLE Pouvoir individuel", "nouveau_statut": "E", "preuve": "As soon as Phoebe's born, I'll cast a spell and suspend their powers"},
+    {"lien": "Mort de la gardienne DÉCLENCHE Éveil", "nouveau_statut": "E", "preuve": "unless I died, which would automatically unbind your powers"},
+    {"lien": "Réunion des trois CONDITIONNE Pouvoir des Trois", "nouveau_statut": "E", "preuve": "Maybe we need the power of three. It doesn't exist yet"},
+    {"lien": "Naissance DONNE Pouvoir individuel", "nouveau_statut": "E", "preuve": "Wait, we had powers back then?"},
+    {"lien": "Pouvoir individuel N'AGIT PAS SUR Sorcière", "nouveau_statut": "C", "preuve": "when she sees that we don't freeze either"}
+  ],
+  "questions_ouvertes": [
+    "Un pacte peut-il être annulé autrement qu'en dé-bénissant l'objet ?",
+    "Pourquoi une seule paire de pouvoirs par époque ? Règle générale ou cas particulier ?",
+    "Le sort d'annihilation détruit-il définitivement ou disperse-t-il (retour possible) ?",
+    "La Gardienne a-t-elle écrit le sort d'annihilation de son vivant ou après sa mort ?"
+  ]
+}

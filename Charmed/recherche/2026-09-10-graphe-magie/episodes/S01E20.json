@@ -1,0 +1,62 @@
+{
+  "ep": "S01E20",
+  "titre": "The Power of Two",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Esprit maléfique", "def": "Âme d'un mortel mort qui reste entre vie et mort, apprend à briser le plan physique et ne peut être banni que sur le plan astral."},
+    {"type": "ACTOR", "nom": "Passeur d'âmes", "def": "Entité qui convoie les âmes en enfer, prise les âmes de sorcières et ne peut saisir une âme que devenue vulnérable (séparée du corps)."},
+    {"type": "SPACE", "nom": "Plan astral", "def": "Plan des esprits, seul lieu où un esprit maléfique peut être banni."},
+    {"type": "SPACE", "nom": "Lieu de mort (prison)", "def": "Lieu où un esprit reste piégé après sa mort, entouré d'eau qu'il ne peut franchir seul."},
+    {"type": "THING", "nom": "Corps-véhicule", "def": "Cadavre frais qu'un esprit maléfique doit posséder pour traverser l'eau."},
+    {"type": "THING", "nom": "Ectoplasme", "def": "Peau d'un esprit, invisible à l'œil, qui laisse une empreinte hors du spectre visible."},
+    {"type": "THING", "nom": "Potion d'appel des esprits", "def": "Mercure + acide + sang d'une victime, versés sur la tombe, pour attirer l'esprit."},
+    {"type": "THING", "nom": "Potion de mort temporaire", "def": "Mélange (oléandre, datura, sanguinaire) qui arrête le cœur ; réversible par réanimation sous 4 minutes."},
+    {"type": "THING", "nom": "Prémonition sur commande", "def": "Prémonition appelée volontairement sur un objet chargé d'énergie psychique."},
+    {"type": "THING", "nom": "Sort de vérité", "def": "Sort de 24 h dont la cible perd le souvenir ensuite."},
+    {"type": "MOMENT", "nom": "Mort de la sorcière (temporaire)", "def": "Passage de l'esprit de la sorcière sur le plan astral, condition pour y agir."}
+  ],
+  "liens": [
+    {"source": "Exécution", "verbe": "PIÈGE", "cible": "Esprit maléfique", "statut": "E", "ep": "S01E20", "preuve": "stuck here ever since they executed you. Thirty-six long years"},
+    {"source": "Eau", "verbe": "BLOQUE", "cible": "Esprit maléfique", "statut": "E", "ep": "S01E20", "preuve": "evil spirits need a dead body to transport them across water"},
+    {"source": "Corps-véhicule", "verbe": "PERMET DE FRANCHIR", "cible": "Eau", "statut": "E", "ep": "S01E20", "preuve": "There's your ride off the island. Hop in."},
+    {"source": "Esprit maléfique", "verbe": "APPREND À BRISER", "cible": "Plan physique", "statut": "C", "ep": "S01E20", "preuve": "I've learned how to do things... break the physical plane"},
+    {"source": "Esprit maléfique", "verbe": "TUE", "cible": "Innocent", "statut": "E", "ep": "S01E20", "preuve": "Victim was stabbed 13 times in the chest"},
+    {"source": "Esprit maléfique", "verbe": "LAISSE", "cible": "Ectoplasme", "statut": "C", "ep": "S01E20", "preuve": "Could be the ghost's ectoplasm. It's outside the visual spectrum"},
+    {"source": "Innocent", "verbe": "PEUT VOIR", "cible": "Esprit", "statut": "E", "ep": "S01E20", "preuve": "Witches aren't the only people that can see ghosts. Normal people can too"},
+    {"source": "Passeur d'âmes", "verbe": "CONVOITE", "cible": "Âme de sorcière", "statut": "E", "ep": "S01E20", "preuve": "I want a witch's. They're prize catches"},
+    {"source": "Mort de la sorcière (temporaire)", "verbe": "REND VULNÉRABLE À", "cible": "Passeur d'âmes", "statut": "E", "ep": "S01E20", "preuve": "the only way they can do that is to become vulnerable to me"},
+    {"source": "Sort (bannissement)", "verbe": "N'AGIT QUE SUR", "cible": "Plan astral", "statut": "E", "ep": "S01E20", "preuve": "an evil spirit can't be vanquished on the physical plane, only the astral plane"},
+    {"source": "Mort de la sorcière (temporaire)", "verbe": "CONDITIONNE", "cible": "Sort (bannissement)", "statut": "E", "ep": "S01E20", "preuve": "one of us would have to die for it to actually work"},
+    {"source": "Pouvoir des Trois", "verbe": "NE SUFFIT PAS CONTRE", "cible": "Esprit maléfique", "statut": "E", "ep": "S01E20", "preuve": "The power of three can't vanquish him"},
+    {"source": "Potion de mort temporaire", "verbe": "PERMET", "cible": "Mort de la sorcière (temporaire)", "statut": "E", "ep": "S01E20", "preuve": "Stops the heart immediately. Whoever takes it can be revived with CPR"},
+    {"source": "Potion de mort temporaire", "verbe": "LIMITE (4 min)", "cible": "Sorcière", "statut": "E", "ep": "S01E20", "preuve": "it has to be done within four minutes to avoid brain damage"},
+    {"source": "Potion d'appel des esprits", "verbe": "ATTIRE", "cible": "Esprit maléfique", "statut": "E", "ep": "S01E20", "preuve": "pour it over his grave... Visit your grave"},
+    {"source": "Sang de victime", "verbe": "EXIGÉ PAR", "cible": "Potion d'appel des esprits", "statut": "E", "ep": "S01E20", "preuve": "with the blood of one of the spirit's victims"},
+    {"source": "Incantation", "verbe": "BANNIT", "cible": "Esprit maléfique", "statut": "E", "ep": "S01E20", "preuve": "Ashes to ashes, spirit to spirit / Take his soul, banish this evil"},
+    {"source": "Pratique", "verbe": "PERMET", "cible": "Prémonition sur commande", "statut": "E", "ep": "S01E20", "preuve": "I've been practicing how to call a premonition, and I did it"},
+    {"source": "Objet chargé (arme)", "verbe": "DÉCLENCHE", "cible": "Prémonition sur commande", "statut": "E", "ep": "S01E20", "preuve": "if the psychic energy is strong enough on this, I should be able to see"},
+    {"source": "Prémonition", "verbe": "TRANSMET", "cible": "Émotion de la victime", "statut": "E", "ep": "S01E20", "preuve": "I didn't just see it, Prue, I felt it. Her pain, her terror"},
+    {"source": "Prémonition", "verbe": "PEUT ÊTRE ÉVITÉE PAR", "cible": "Sorcière", "statut": "E", "ep": "S01E20", "preuve": "we have stopped Phoebe's premonitions from coming true before"},
+    {"source": "Livre des Ombres", "verbe": "S'OUVRE SEUL SUR", "cible": "Sort", "statut": "E", "ep": "S01E20", "preuve": "it just sometimes does it on its own"},
+    {"source": "Sort de vérité", "verbe": "EFFACE", "cible": "Souvenir", "statut": "E", "ep": "S01E20", "preuve": "You just don't remember. Part of the spell."},
+    {"source": "Esprit de sorcière", "verbe": "PEUT ÊTRE ENTENDU PAR", "cible": "Mortel", "statut": "?", "ep": "S01E20", "preuve": "How could he hear you? - I don't know"}
+  ],
+  "actions": [
+    {"acteur": "Esprit maléfique", "action": "POSSÉDER UN CADAVRE", "preconditions": ["mort récente sur place"], "effet": "Traverse l'eau, quitte son lieu de mort", "cout": null, "limite": "Seulement pour le transport", "statut": "E", "ep": "S01E20", "preuve": "There's your ride off the island"},
+    {"acteur": "Esprit maléfique", "action": "TUER SUR LE PLAN PHYSIQUE", "preconditions": ["avoir appris à briser le plan physique"], "effet": "Coups de couteau réels sur un mortel", "cout": null, "limite": "Ne laisse qu'une empreinte ectoplasmique", "statut": "E", "ep": "S01E20", "preuve": "Solid thumbprint... matches up to Jackson Ward"},
+    {"acteur": "Passeur d'âmes", "action": "SAISIR UNE ÂME", "preconditions": ["âme séparée du corps"], "effet": "Emporte l'âme en enfer", "cout": null, "limite": "Échoue si l'âme réintègre le corps à temps", "statut": "E", "ep": "S01E20", "preuve": "it looks like your soul is safe. For now."},
+    {"acteur": "Sorcière", "action": "MOURIR TEMPORAIREMENT", "preconditions": ["potion de mort", "sœur prête à réanimer"], "effet": "Son esprit accède au plan astral et peut prononcer le sort", "cout": "Risque de mort définitive / lésions cérébrales après 4 min ; exposition au passeur d'âmes", "limite": "Fenêtre de 4 minutes", "statut": "E", "ep": "S01E20", "preuve": "Come on. Slow breaths. - Am I alive?"},
+    {"acteur": "Sorcière", "action": "APPELER UNE PRÉMONITION", "preconditions": ["objet chargé d'énergie psychique", "entraînement"], "effet": "Vision d'un événement futur", "cout": "Ressent la douleur de la victime", "limite": "Ne marche pas toujours", "statut": "E", "ep": "S01E20", "preuve": "If we're lucky. It doesn't always work."},
+    {"acteur": "Sorcière", "action": "ATTIRER UN ESPRIT À SA TOMBE", "preconditions": ["mercure, acide, sang d'une victime", "tombe/cendres de l'esprit"], "effet": "L'esprit vient vers les sorcières", "cout": "Il les attaque ensuite", "limite": null, "statut": "E", "ep": "S01E20", "preuve": "if it does work, he'll be coming after us"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Pouvoir des Trois DÉTRUIT Warlock (généralisé aux esprits)", "nouveau_statut": "X", "preuve": "The power of three can't vanquish him — les esprits maléfiques échappent au Pouvoir des Trois ; note: contredit l'idée d'une arme universelle"},
+    {"lien": "Sort N'AGIT QUE SUR sa cible écrite", "nouveau_statut": "E", "preuve": "le sort de bannissement n'agit que sur le plan astral, prononcé par un esprit"},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "prémonition appelée volontairement via un objet : évolution du déclencheur"}
+  ],
+  "questions_ouvertes": [
+    "Comment un mortel a-t-il pu entendre l'esprit d'une sorcière hors de son corps ?",
+    "Le passeur d'âmes peut-il être vaincu, ou seulement évité ?",
+    "Qu'a réellement 'appris' l'esprit pour agir sur le plan physique ? Le temps seul suffit-il ?",
+    "Le Livre des Ombres qui s'ouvre seul : intention propre ou main d'un Ancêtre ?"
+  ]
+}

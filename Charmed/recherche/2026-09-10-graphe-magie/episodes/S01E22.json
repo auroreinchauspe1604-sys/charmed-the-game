@@ -1,0 +1,62 @@
+{
+  "ep": "S01E22",
+  "titre": "Déjà Vu All Over Again",
+  "noeuds_nouveaux": [
+    {"type": "ACTOR", "nom": "Sorcier du temps", "def": "Sorcier du diable capable de manipuler le temps à volonté ; envoyé comme 'don' à un démon jugé digne."},
+    {"type": "ACTOR", "nom": "Démon infiltré", "def": "Démon qui se fait passer pour un humain (policier) afin de trouver les sorcières via ceux qui les couvrent."},
+    {"type": "ACTOR", "nom": "Source (commanditaire)", "def": "Autorité maléfique non nommée qui envoie des renforts aux démons qui ont localisé les sorcières."},
+    {"type": "THING", "nom": "Boucle temporelle", "def": "Réinitialisation répétée d'une même journée ; seul le démon bénéficiaire garde la mémoire des itérations."},
+    {"type": "THING", "nom": "Sort d'accélération du temps", "def": "Incantation qui pousse le temps vers l'avant, faisant de demain aujourd'hui."},
+    {"type": "THING", "nom": "Mémoire trans-boucle", "def": "Capacité de la sorcière aux prémonitions à percevoir peu à peu la répétition, de plus en plus vite à chaque itération."},
+    {"type": "THING", "nom": "Boule d'énergie", "def": "Projectile démoniaque qui tue une sorcière sur le coup."},
+    {"type": "MOMENT", "nom": "Mort d'un mortel allié", "def": "Événement qui déclenche la réinitialisation de la boucle."},
+    {"type": "SPACE", "nom": "Entre-deux", "def": "Lieu hors du temps où une sorcière inconsciente rencontre l'esprit d'un mort et reçoit un message."},
+    {"type": "NARRATIVE", "nom": "Destin inéluctable", "def": "Certaines prémonitions ne peuvent pas — et ne doivent pas — être empêchées."},
+    {"type": "NARRATIVE", "nom": "Règle morale (ne pas tuer un mortel)", "def": "Les sorcières ne sont pas des meurtrières : elles épargnent un ennemi impuissant."}
+  ],
+  "liens": [
+    {"source": "Source (commanditaire)", "verbe": "ENVOIE", "cible": "Sorcier du temps", "statut": "E", "ep": "S01E22", "preuve": "I've been sent to you, Rodriguez, as a gift"},
+    {"source": "Disparition de démons", "verbe": "RÉVÈLE", "cible": "Sorcière", "statut": "E", "ep": "S01E22", "preuve": "after so many of my colleagues had mysteriously vanished... only one reason"},
+    {"source": "Mortel allié", "verbe": "TRAHIT (involontairement)", "cible": "Secret", "statut": "E", "ep": "S01E22", "preuve": "I believed one was covering for them. And I was right"},
+    {"source": "Sorcier du temps", "verbe": "CRÉE", "cible": "Boucle temporelle", "statut": "E", "ep": "S01E22", "preuve": "Time has been reset. Or, rather, I have reset time"},
+    {"source": "Boucle temporelle", "verbe": "PRÉSERVE LA MÉMOIRE DE", "cible": "Démon infiltré", "statut": "E", "ep": "S01E22", "preuve": "Only you will carry with you the memory of what has happened before"},
+    {"source": "Mort d'un mortel allié", "verbe": "DÉCLENCHE", "cible": "Boucle temporelle", "statut": "C", "ep": "S01E22", "preuve": "I'm willing to bet that his death somehow triggers the time loop"},
+    {"source": "Boucle temporelle", "verbe": "ANNULE", "cible": "Mort de la sorcière", "statut": "E", "ep": "S01E22", "preuve": "But they killed me. That was Wednesday night, this is Wednesday morning"},
+    {"source": "Pouvoir individuel (prémonition)", "verbe": "PERMET", "cible": "Mémoire trans-boucle", "statut": "C", "ep": "S01E22", "preuve": "my power lets me see things that have happened in different times"},
+    {"source": "Mémoire trans-boucle", "verbe": "S'ACCÉLÈRE À CHAQUE", "cible": "Boucle temporelle", "statut": "E", "ep": "S01E22", "preuve": "every time it happens, I think I figure it out just a little bit faster"},
+    {"source": "Sort d'accélération du temps", "verbe": "BRISE", "cible": "Boucle temporelle", "statut": "E", "ep": "S01E22", "preuve": "Let tomorrow be today... it's going to be a gorgeous Monday morning"},
+    {"source": "Sort d'accélération du temps", "verbe": "BANNIT", "cible": "Sorcier du temps", "statut": "E", "ep": "S01E22", "preuve": "Take him out of the time that he's in"},
+    {"source": "Livre des Ombres", "verbe": "DÉCRIT", "cible": "Sorcier du temps", "statut": "E", "ep": "S01E22", "preuve": "The devil's sorcerer, Tempus, he can manipulate time any way he chooses"},
+    {"source": "Boule d'énergie", "verbe": "TUE", "cible": "Sorcière", "statut": "E", "ep": "S01E22", "preuve": "Phoebe. Oh, my God. - She's dead"},
+    {"source": "Pouvoir individuel (gel)", "verbe": "ÉCHOUE SI", "cible": "Attaque anticipée", "statut": "E", "ep": "S01E22", "preuve": "anticipate where she's coming from earlier, before she has the chance to freeze"},
+    {"source": "Pouvoir des Trois", "verbe": "DÉTRUIT", "cible": "Démon infiltré (première boucle)", "statut": "E", "ep": "S01E22", "preuve": "Hurts to die, doesn't it? Especially at the hands of a witch"},
+    {"source": "Démon infiltré", "verbe": "NE PEUT PAS DÉTRUIRE (seul)", "cible": "Sorcière (les trois)", "statut": "C", "ep": "S01E22", "preuve": "He doesn't have the power to kill us. Otherwise, he wouldn't have needed Tempus"},
+    {"source": "Contact (journal)", "verbe": "DÉCLENCHE", "cible": "Prémonition", "statut": "E", "ep": "S01E22", "preuve": "If I touch that paper, I will have a premonition"},
+    {"source": "Prémonition", "verbe": "PEUT ÊTRE", "cible": "Destin inéluctable", "statut": "E", "ep": "S01E22", "preuve": "Phoebe's premonition was one you couldn't stop after all. Weren't supposed to stop"},
+    {"source": "Inconscience", "verbe": "OUVRE", "cible": "Entre-deux", "statut": "?", "ep": "S01E22", "preuve": "Come to me, Prue... Where are we? I'm not quite sure"},
+    {"source": "Esprit (mort récent)", "verbe": "GUIDE", "cible": "Sorcière", "statut": "E", "ep": "S01E22", "preuve": "You need to keep the time loop from being reset again"},
+    {"source": "Règle morale (ne pas tuer un mortel)", "verbe": "CONTRAINT", "cible": "Sorcière", "statut": "E", "ep": "S01E22", "preuve": "You're not a murderer, Prue. You're a good person who does good things"},
+    {"source": "Démon infiltré", "verbe": "PEUT ÊTRE ENTRAVÉ PAR", "cible": "Contact (ligotage)", "statut": "E", "ep": "S01E22", "preuve": "just untie him. Get him out of here"},
+    {"source": "Bien accompli", "verbe": "COMPENSE", "cible": "Destin de protectrice", "statut": "C", "ep": "S01E22", "preuve": "we do good things together. It helps offset the bad things"}
+  ],
+  "actions": [
+    {"acteur": "Sorcier du temps", "action": "RÉINITIALISER LE JOUR", "preconditions": ["échec du démon protégé", "déclencheur (mort d'un mortel allié ?)"], "effet": "La journée recommence ; seul le protégé se souvient", "cout": null, "limite": "Brisé si le temps est poussé en avant par un sort", "statut": "E", "ep": "S01E22", "preuve": "keep resetting time until you learn from your failures"},
+    {"acteur": "Démon infiltré", "action": "RÉUNIR LES TROIS SORCIÈRES", "preconditions": ["chantage sur un mortel allié", "rendez-vous avant minuit"], "effet": "Les trois sont au même endroit, piégées", "cout": null, "limite": "Doit agir avant minuit", "statut": "E", "ep": "S01E22", "preuve": "get all three witches together in one place by midnight"},
+    {"acteur": "Démon infiltré", "action": "LANCER UNE BOULE D'ÉNERGIE", "preconditions": ["cible en vue", "ne pas être gelé"], "effet": "Mort instantanée d'une sorcière", "cout": null, "limite": "Neutralisé par le gel ou la télékinésie si elles agissent d'abord", "statut": "E", "ep": "S01E22", "preuve": "This time I'll kill Prue first and then the other two"},
+    {"acteur": "Sorcière", "action": "PERCEVOIR LA BOUCLE", "preconditions": ["pouvoir de prémonition", "itérations répétées"], "effet": "Anticipe les événements de la journée, avertit ses sœurs", "cout": null, "limite": "Perception partielle, plus rapide à chaque cycle", "statut": "C", "ep": "S01E22", "preuve": "Five, four, three, two, one. Car honks, skids, crashes"},
+    {"acteur": "Sorcière", "action": "ACCÉLÉRER LE TEMPS", "preconditions": ["sort du Livre des Ombres", "les trois sœurs"], "effet": "Passe au jour suivant, brise la boucle et éjecte le sorcier du temps", "cout": "Renonce à sauver le mortel mort dans la boucle", "limite": null, "statut": "E", "ep": "S01E22", "preuve": "if we break the time loop, we won't be able to save Andy. - I know"},
+    {"acteur": "Sorcière", "action": "ÉPARGNER UN ENNEMI", "preconditions": ["ennemi sans pouvoir suffisant"], "effet": "Il est relâché vivant", "cout": "L'ennemi reste en liberté", "limite": "Règle morale : ne pas tuer un impuissant", "statut": "E", "ep": "S01E22", "preuve": "We may not be murderers, but we're no angels either"}
+  ],
+  "confirme_ou_contredit": [
+    {"lien": "Prémonition PEUT ÊTRE ÉVITÉE PAR Sorcière", "nouveau_statut": "X", "preuve": "Weren't supposed to stop — certaines prémonitions sont un destin ; note: contredit S01E20 'we have stopped Phoebe's premonitions before'"},
+    {"lien": "Contact DÉCLENCHE prémonition", "nouveau_statut": "E", "preuve": "If I touch that paper, I will have a premonition"},
+    {"lien": "Pouvoir des Trois DÉTRUIT Warlock", "nouveau_statut": "E", "preuve": "étendu aux démons : les trois sœurs tuent le démon lors de la première boucle"}
+  ],
+  "questions_ouvertes": [
+    "Qui est la 'Source' qui envoie le sorcier du temps ?",
+    "La boucle est-elle déclenchée par la mort du mortel ou par la décision du sorcier du temps ? (les deux affirmés)",
+    "Le sort d'accélération bannit-il le sorcier définitivement ou seulement hors de cette journée ?",
+    "Comment une sorcière inconsciente rejoint-elle l'entre-deux et qui l'y appelle ?",
+    "Un démon peut-il posséder un corps humain (policier) ou seulement en prendre l'apparence ?"
+  ]
+}
