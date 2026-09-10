@@ -1,0 +1,13 @@
+'use strict';
+const outils=require('../serveur/charmed/agent-tools');
+const scenario=require('../serveur/charmed/scenario');
+const d=outils.documents(scenario);
+console.log('pointeurs arbitre :',Object.keys(d));
+const c=d.construction();
+console.log('construction type :',Array.isArray(c)?'liste '+c.length:typeof c,Array.isArray(c)?'':Object.keys(c).slice(0,8).join(','));
+console.log('summon-spirit present :',JSON.stringify(c).includes('summon-spirit'));
+const camp=outils.campDocuments(scenario,'commanditaire');
+console.log('pointeurs camp :',Object.keys(camp));
+console.log('connaissances = campKnowledge :',JSON.stringify(camp.connaissances())===JSON.stringify(scenario.campKnowledge.commanditaire));
+console.log('fuite complot :',JSON.stringify(camp.connaissances()).includes('Futur évitable'));
+console.log('pointeurs preparation :',Object.keys(outils.preparationDocuments({period:{season:1,episode:2,moment:'after'}})));

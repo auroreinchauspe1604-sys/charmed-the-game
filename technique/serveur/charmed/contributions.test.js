@@ -18,9 +18,11 @@ test('les nouvelles observations ne rendent pas les pouvoirs futurs disponibles 
  const p=require('../../donnees-bibliotheque/canon/personnages.json');
  assert(!p.milestones.some(m=>m.id.startsWith('contrib:')));
 });
-test('le contexte de l’adversaire ne reçoit pas les biographies et solutions ajoutées',async()=>{
+test('l’adversaire n’a de pointeur ni vers la bibliothèque ni vers les biographies',async()=>{
  let prompt;const ia=new Intelligence(async s=>{prompt=JSON.parse(s);return {moves:[]};});await ia.opponent(engine.initial());
- assert.equal(prompt.expertiseContext.library,undefined);assert.equal(prompt.expertiseContext.characters,undefined);
+ for(const interdit of ['bibliotheque','personnages','magie','construction','faits','scenario','canon'])
+  assert(!prompt.pointeurs.includes(interdit),'pointeur interdit : '+interdit);
+ assert.equal(prompt.expertiseContext,undefined);assert.equal(prompt.knowledge,undefined);
  assert.equal(prompt.canonReference,undefined);assert.equal(prompt.reference,undefined);
 });
 test('sources et identifiants des nouveaux faits restent uniques et résolubles',()=>{

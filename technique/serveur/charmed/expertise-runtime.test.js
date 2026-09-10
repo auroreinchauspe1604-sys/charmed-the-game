@@ -18,20 +18,33 @@ test('Phoebe : la privation reste bloquante et seule la prémonition est rétabl
 test('une référence biographique ne permet plus Prue vivante après la transition',()=>{
  assert(!has({season:4,episode:2,moment:'after'},'character:prue-tk'));
 });
-test('les connaissances adverses ne reçoivent ni le complot complet ni les fiches de solutions',async()=>{
+// Depuis le 10/09/2026 les références ne sont plus injectées dans le message :
+// l'accès est déterminé par la fonction appelante, sous forme de pointeurs.
+// Ce qui ne figure pas dans la liste des pointeurs n'existe pas pour cet appel.
+test('le camp adverse ne dispose que du pointeur de ses connaissances',async()=>{
  let seen;const ia=new Intelligence(async(p)=>{seen=JSON.parse(p);return {moves:[]};});
  const before=JSON.stringify(E.initial());await ia.opponent(E.initial());
- assert.equal(seen.expertiseContext.audience,'camp_only');
+ assert.deepEqual(seen.pointeurs.filter(p=>!['regles','plateau','arbitrage'].includes(p)),['connaissances']);
+ for(const interdit of ['faits','scenario','bibliotheque','canon'])assert(!seen.pointeurs.includes(interdit),'pointeur interdit : '+interdit);
  assert.equal(seen.reference,undefined);assert.equal(seen.canonReference,undefined);
- assert.deepEqual(seen.knowledge,scenario.campKnowledge.commanditaire);
- assert(!JSON.stringify(seen.knowledge).includes('Futur évitable'));
+ assert.equal(seen.knowledge,undefined);assert.equal(seen.expertiseContext,undefined);
+ assert(!JSON.stringify(seen).includes('Futur évitable'));
  assert.equal(JSON.stringify(E.initial()),before);
 });
-test('l’arbitre reçoit les références sans publier le contexte dans le plateau',async()=>{
+test('les connaissances de camp restent bornées au camp',()=>{
+ const outils=require('./agent-tools');
+ const vu=outils.campDocuments(scenario,'commanditaire').connaissances();
+ assert.deepEqual(vu,scenario.campKnowledge.commanditaire);
+ assert(!JSON.stringify(vu).includes('Futur évitable'));
+});
+test('l’arbitre dispose des pointeurs de référence, sans injection ni fuite dans le plateau',async()=>{
  let seen;const ia=new Intelligence(async(p)=>{seen=JSON.parse(p);return {accepted:true,canon:{status:'ordinary',facts:[]}};});
  const s=E.initial();await ia.plan(s,'phoebe',{kind:'resource',text:'Lampe torche'});
- assert.equal(seen.expertiseContext.audience,'director_only');
- assert(seen.expertiseContext.construction.some(e=>e.id==='summon-spirit'));
+ for(const attendu of ['regles','plateau','scenario','faits','canon','bibliotheque','construction'])assert(seen.pointeurs.includes(attendu),'pointeur manquant : '+attendu);
+ assert.equal(seen.expertiseContext,undefined);assert.equal(seen.canonReference,undefined);
+ assert(seen.appels.some(a=>a.name==='lire'));
+ const construction=require('./agent-tools').documents(scenario).construction();
+ assert(JSON.stringify(construction).includes('summon-spirit'));
  assert(!JSON.stringify(E.publicView(s)).includes('director_only'));
 });
 test('résolution : une référence canonique inventée n’interrompt plus la journée',async()=>{
@@ -52,6 +65,10 @@ test('préparation : un brouillon ne démarre pas de partie et conserve les ince
  let prompt;const ia=new Intelligence(async(p)=>{prompt=JSON.parse(p);return structuredClone(draft);});
  const result=await ia.prepareBrief({canonPeriod:{season:1,episode:2,moment:'after'}});
  assert.equal(result.status,'draft_not_started');assert.equal(result.requiresReview,true);
- assert.deepEqual(result.unresolved,['À recouper']);assert.equal(prompt.expertiseContext.period.episode,2);
+ assert.deepEqual(result.unresolved,['À recouper']);
+ // La préparation consulte sa propre spécification, jamais les faits d'une partie en cours.
+ assert(prompt.pointeurs.includes('specification'));
+ assert(!prompt.pointeurs.includes('faits'));
+ assert.equal(prompt.spec.canonPeriod.episode,2);
  draft.finalDay=2;await assert.rejects(ia.prepareBrief({canonPeriod:{season:1}}),/calendrier/);
 });
