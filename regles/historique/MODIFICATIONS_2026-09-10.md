@@ -191,6 +191,46 @@ Sept lignes ajoutées, reprenant les points 1 à 8 ci-dessus.
 | **Après** | Une carte se juge sur le plateau du jour de son examen, pas sur celui du jour où elle a été posée. Si le fait sur lequel elle repose a quitté le plateau — verrou tombé, état redevenu faux, ressource perdue —, elle ne peut pas être établie. La vérification porte sur ce que la carte **dit**, mot pour mot : une carte adossée à une situation nommée tombe avec cette situation, une carte adossée à la chose elle-même y survit. |
 | **Motif** | Relevé par Aurore, et conséquence directe de la règle 17. Le verrou « Zankou garde la cachette » a été posé quand une cachette existait ; le verrou qui l'établissait est tombé depuis. « Garder la cachette » et « garder les ingrédients » ne sont pas la même carte, et le camp qui pose est tenu par les mots qu'il a choisis. |
 
+## 20. L'arbitre n'ajoute rien que le camp n'ait dit
+
+**Ajout** — Partie 3, section 3.3.
+
+| | |
+|---|---|
+| **Avant** | La règle interdisait de changer le sujet, le sens, les conditions ou la temporalité, mais ne disait pas qu'on n'ajoute rien. Et elle ne visait que la formulation initiale, pas le fait établi à l'examen. |
+| **Après** | L'Ange reformule pour la clarté — grammaire, gestes ordinaires implicites, changement obtenu — mais n'introduit ni personne, ni objet, ni lieu, ni condition, ni conséquence que la proposition ne comportait pas. **La même exigence vaut pour le fait établi** : il énonce ce que la carte a produit, rien de plus. Un fait acquis engage la suite de la partie, et tout ce qu'il contient en trop devient opposable au camp qui ne l'a jamais demandé. Un élément non dit mais indispensable relève de la question adverse. |
+| **Motif** | Relevé par Aurore. Elle avait dicté que Phoebe voyait la cachette ; l'Ange a établi en plus que la réserve restait sous la garde de l'Éclaireur et que la cuisine demeurait vide. Cet ajout a servi contre elle pendant deux jours. |
+
+## 21. L'attaque est définitive, le verrou ne l'est pas
+
+**Ajout** — Partie 2, section 8.
+
+| | |
+|---|---|
+| **Avant** | La permanence des effets d'une attaque n'était écrite nulle part ; la règle 17 sur les verrous rendait la distinction nécessaire. |
+| **Après** | Une attaque résolue est définitive : ce qu'elle détruit, consomme ou transfère l'est pour de bon, et une attaque échouée est dépensée, l'avantage du défenseur étant un fait acquis. Le verrou, lui, est une obstruction maintenue qui ne laisse rien quand elle tombe. |
+| **Motif** | Validé par Aurore. La répartition devient nette : l'attaque est un événement aux effets permanents, le verrou une obstruction sans résidu, la clé un fait qui persiste. |
+
+## 22. Anticiper vaut aussi pour la demande de ressource
+
+**Ajout** — Partie 3, section 2 bis.
+
+| | |
+|---|---|
+| **Avant** | La pertinence d'une ressource s'appréciait sur les faits acquis, ce qui obligeait à attendre la validation d'une contribution avant de demander ce dont elle aurait besoin. Comme l'obtention peut elle-même prendre des jours, la perte de temps se cumulait. |
+| **Après** | La pertinence s'apprécie sur le plateau en cours, contributions comprises : une clé en préparation, un sous-état encore faux ou une contre-clé en attente d'examen suffisent à fonder l'utilité du moyen. Une demande n'est jamais refusée comme prématurée. Si la contribution qu'elle devait servir tombe, la ressource reste en main sans effet acquis. |
+| **Motif** | Relevé par Aurore, dans le prolongement de la règle 16. Anticiper une contribution sans pouvoir anticiper les moyens qu'elle exige ne servait à rien. |
+
+## 23. Une carte annulée rend ce qu'elle avait consommé
+
+**Ajout** — Partie 3, section 4.
+
+| | |
+|---|---|
+| **Avant** | Une carte retirée faute d'objet rendait ses pièces engagées, mais rien ne disait ce qu'il advenait de ce qu'elle avait consommé ou perdu au cours de son acte. |
+| **Après** | Un acte qui n'a pas eu lieu ne peut pas avoir usé quoi que ce soit : les ingrédients dépensés, l'objet à usage unique employé, la ressource perdue pendant cet acte reviennent intacts en main. Le camp perd la carte et son fait, jamais ses moyens. La restitution ne porte que sur ce que la carte annulée avait elle-même usé : ce qu'une attaque adverse avait détruit reste détruit. |
+| **Motif** | Question d'Aurore. Retenir la dépense reviendrait à affirmer en même temps que l'acte a eu lieu, puisqu'il a coûté, et qu'il n'a pas eu lieu, puisqu'il ne laisse rien. |
+
 ## Examiné et écarté
 
 **Rendre gratuite la création d'un sous-état.** Proposé dans l'analyse du tempo, refusé par Aurore : créer un sous-état reste une action payante. Le gain de temps passe par la fenêtre de réaction et par l'anticipation, pas par la gratuité des déclarations d'intention.

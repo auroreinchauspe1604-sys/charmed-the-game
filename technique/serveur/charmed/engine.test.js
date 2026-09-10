@@ -181,6 +181,25 @@ test('contre-clé : formable sur un verrou prêt, sans objet si le verrou n’es
  assert.equal(E.resource(s,mienne.id).heldBy,null);
  assert.ok(!(E.resource(s,mienne.id).recoveryUntil>s.day));
 });
+// Règle du 10/09/2026 : un acte qui n'a pas eu lieu n'a rien usé. Ce que la
+// carte annulée avait consommé ou perdu lui revient intact.
+test('carte annulée faute d’objet : ce qu’elle avait consommé revient en main',()=>{
+ const s=E.initial();
+ const mienne=s.resources.find(r=>r.owner==='phoebe'&&E.availability(s,r)==='free');
+ const verrou={id:'advl',owner:'commanditaire',type:'lock',scope:'main',target:'root-phoebe',title:'Obstruction',
+  effect:'La circulation est bloquée.',description:'Obstruction.',pieces:[],locations:[],missing:0,status:'ready',
+  createdDay:1,delay:0,dependsOn:[],recovery:{},maintainers:[],readyDay:1,reactionThroughDay:2,dueDay:2};
+ s.nodes.push(verrou);
+ const contre=E.propose(s,'phoebe',{kind:'key',target:'advl',resource:mienne.id,text:'Une action qui lève cette obstruction.'},plan());
+ // La contre-clé s'est réalisée en consommant sa pièce.
+ contre.spentResources=[mienne.id];
+ E.resource(s,mienne.id).consumed=true;E.resource(s,mienne.id).heldBy=null;
+ verrou.status='removed';E.refresh(s);
+ assert.equal(E.node(s,contre.id).status,'removed');
+ assert.equal(E.resource(s,mienne.id).consumed,false,'la pièce consommée revient intacte');
+ assert.equal(E.resource(s,mienne.id).lost,false);
+ assert.equal(E.availability(s,E.resource(s,mienne.id)),'free');
+});
 
 test('un lieu ne peut être ni attaqué ni volé',()=>{
  const s=E.initial();

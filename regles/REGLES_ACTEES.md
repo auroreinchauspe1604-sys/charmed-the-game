@@ -169,6 +169,12 @@ La description distingue ce que la ressource **peut permettre** de ce qu’elle 
 
 Une ressource générique conserve des usages ouverts dans les limites de sa fonction. Une ressource nommée pour une cible ou un effet précis reste limitée à cette cible ou à cet effet.
 
+**Une ressource porte avec elle ce qui va de soi pour sa fonction.** Une carte nomme un moyen ; elle n’oblige jamais à acquérir séparément les accessoires ordinaires sans lesquels ce moyen n’aurait aucun sens. Du matériel de potion comprend les ustensiles et les composants courants, un grimoire comprend ses formules et ses recettes, une sorcière comprend son savoir-faire et l’usage de ses propres pouvoirs. Ces éléments ne sont ni des cartes à créer, ni des conditions à établir, ni des obstacles à lever : ils sont déjà là.
+
+Un composant ne devient une carte que lorsqu’il est **rare, disputé, ou retiré du jeu par un fait du plateau** : un ingrédient que le canon désigne comme introuvable, un objet que l’adversaire détient, un élément qu’une carte adverse réalisée a effectivement soustrait. La charge de cette exception est du côté de celui qui l’invoque, et elle disparaît avec le fait qui la fondait.
+
+Hors de ces cas, exiger la carte revient à transformer une évidence en quête. Une partie ne doit pas se consumer à récupérer un moyen secondaire que la ressource principale contenait déjà.
+
 ### 4.3 Lieu
 
 Un lieu est une ressource particulière. Sa carte n’est nécessaire que lorsque le lieu a une importance majeure dans le résultat recherché : sa présence, son accès, son occupation, son contrôle ou l’une de ses propriétés doit déterminer directement l’état, le sous-état, la clé ou le verrou concerné.
@@ -362,6 +368,8 @@ L’Ange du destin l’examine dans cet ordre :
 
 Une ressource sans apport dans la partie est refusée pour ce motif. Une ressource dont l’emploi résoudrait directement une condition de l’objectif est refusée au même titre qu’une ressource initiale qui donnerait la solution : la ressource est un moyen, jamais une réponse.
 
+**La pertinence s’apprécie sur le plateau en cours, contributions comprises.** Une demande n’est pas refusée comme prématurée au motif que la carte qu’elle servira n’est pas encore acquise : une clé en préparation, un sous-état encore faux ou une contre-clé en attente d’examen font partie de la situation et suffisent à fonder l’utilité du moyen. Le camp n’a donc pas à attendre la validation d’une contribution pour demander ce dont elle aura besoin, d’autant que l’obtention peut elle-même demander des jours. Une ressource accordée reste un moyen : si la contribution qu’elle devait servir tombe, la ressource demeure en main, sans effet acquis.
+
 En revanche, **un moyen n’est pas refusé parce qu’une carte du camp le vise déjà**. Ce qui fonde le refus, c’est un fait du plateau — la chose demandée est ailleurs, gardée, détruite, ou la demande n’indique aucune source concrète d’où l’obtenir — jamais l’existence d’une clé ou d’un sous-état du demandeur qui aurait vocation à s’en occuper.
 
 L’Ange du destin fixe le délai et les conditions réelles d’obtention. Une ressource accordée n’est pas immédiatement disponible si son obtention exige un déplacement, une négociation, une préparation ou un concours extérieur.
@@ -439,6 +447,8 @@ Le verrou disparaît lorsque sa clé d’ouverture est réalisée ou lorsque les
 **Un verrou qui tombe n’a pas eu lieu.** Un verrou ne décrit pas un événement révolu mais une obstruction maintenue ; lorsqu’il tombe, il ne laisse aucune trace. Le fait qu’il avait établi quitte le plateau, l’interdiction cesse entièrement et immédiatement, et ce qu’elle empêchait redevient possible sans qu’aucune action nouvelle soit nécessaire : la contribution qu’il gelait reprend son cours exactement à l’état où elle était avant lui. Aucune conséquence matérielle ne subsiste : il n’y a rien à conserver d’une obstruction qui n’a pas tenu.
 
 **La clé qui a ouvert le verrou quitte le plateau avec lui.** Elle était valable — c’est elle qui a fait tomber le verrou — mais elle n’a plus d’objet une fois l’obstruction effacée : elle est retirée sans être un échec, elle rend ses ressources sans usure ni récupération, et le fait qu’elle avait établi disparaît lui aussi. Les deux cartes s’annulent ensemble et le chemin qu’elles formaient est invalidé.
+
+**Ce qu’elle avait consommé ou perdu lui revient.** Un acte qui n’a pas eu lieu ne peut pas avoir usé quoi que ce soit : les ingrédients dépensés, l’objet à usage unique employé, la ressource perdue au cours de cet acte reviennent intacts en main. Retenir cette dépense serait affirmer à la fois que l’acte a eu lieu, puisqu’il a coûté, et qu’il n’a pas eu lieu, puisqu’il ne laisse rien — le camp perd la carte et son fait, jamais ses moyens. Cette restitution ne vaut que pour ce que la carte annulée avait elle-même consommé ou perdu : ce qu’une **attaque** adverse avait détruit reste détruit, une attaque étant un événement définitif.
 
 Il en va de même de tout ce qui n’existait que par ce verrou : une carte dont la cible a ainsi quitté le plateau tombe à son tour, sans coûter d’échec à son camp.
 
@@ -651,7 +661,8 @@ Il tient compte :
 - des erreurs évidentes de dictée ou de transcription ;
 - des gestes ordinaires compris dans une action possible ;
 - des conséquences logiques des ressources et des faits présents ;
-- des usages plausibles qui respectent la fonction d’une ressource sans être écrits mot pour mot sur sa carte.
+- des usages plausibles qui respectent la fonction d’une ressource sans être écrits mot pour mot sur sa carte ;
+- des accessoires ordinaires que la ressource porte déjà avec elle, qui n’ont jamais à être acquis séparément (Partie 2, §4.2).
 
 Prendre un objet accessible, appeler une sœur, la rejoindre, traverser le manoir ou sortir dans la rue ne demande pas automatiquement une nouvelle carte ou une nouvelle clé. En revanche, un obstacle explicitement établi, une localisation incompatible, une ressource indisponible ou une limite réelle du pouvoir demeure déterminant.
 

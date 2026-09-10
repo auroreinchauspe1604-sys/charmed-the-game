@@ -44,6 +44,13 @@ function refresh(s){for(const n of s.nodes){
   const vise=s.nodes.find(x=>x.id===n.target);
   if(vise&&terminal(vise)){
    if(n.established&&!n.factWithdrawn){s.facts=s.facts.filter(f=>f!==n.established);n.factWithdrawn=true;}
+   // Un acte qui n'a pas eu lieu n'a rien usé : ce que cette carte avait
+   // consommé ou perdu lui revient intact.
+   for(const rid of n.spentResources||[]){
+    const r=s.resources.find(x=>x.id===rid);
+    if(r){r.consumed=false;r.lost=false;r.recoveryUntil=0;}
+   }
+   n.spentResources=[];
    n.status='removed';n.voided=true;
    n.voidReason=vise.type==='lock'
     ?'Le verrou visé n’a pas eu lieu : cette clé n’a plus d’objet et quitte le plateau avec lui.'
@@ -179,6 +186,9 @@ function applyResolution(s,j,list){requireRule(j&&Array.isArray(j.outcomes)&&Arr
   for(const tr of out.controlChanges||[]){const r=resource(s,tr.id);requireRule(out.success&&n.type==='key'&&(n.locations||[]).includes(tr.id)&&tr.owner===n.owner&&r.category==='lieu','Changement de contrôle du lieu hors de portée.');requireRule(out.established.toLocaleLowerCase('fr').includes(r.title.toLocaleLowerCase('fr'))&&/contrôl|occup/i.test(out.established),'Le fait acquis doit établir explicitement le contrôle ou l’occupation du lieu.');}
  }
  for(const out of j.outcomes){const n=node(s,out.id);
+  // On mémorise ce que CETTE carte a usé, pour pouvoir le rendre si elle est
+  // ensuite annulée faute d'objet : un acte qui n'a pas eu lieu n'a rien coûté.
+  n.spentResources=[...new Set([...(n.spentResources||[]),...(out.losses||[]),...(out.consume||[])].filter(id=>(n.pieces||[]).includes(id)))];
   for(const id of out.losses||[]){const r=resource(s,id);r.lost=true;r.heldBy=null;}
   for(const id of out.consume||[]){const r=resource(s,id);r.consumed=true;r.heldBy=null;}
   for(const x of out.recovery||[]){if(n.pieces.includes(x.id))n.recovery[x.id]=x.days;else resource(s,x.id).recoveryUntil=s.day+x.days;}
