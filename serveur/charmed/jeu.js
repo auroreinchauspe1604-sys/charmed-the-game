@@ -1,11 +1,10 @@
 'use strict';
 const {spawn}=require('child_process'),path=require('path');
-const E=require('./engine'),S=require('./operations'),scenario=require('./scenario'),canon=require('./canon');
+const S=require('./operations'),canon=require('./canon');
 const {serve}=require('./agent-mcp'),{createTools,rules}=require('./agent-tools');
-const {opponentView,documents,campDocuments}=require('./agent-context');
 const text={type:'string'},camp={type:'string',enum:['phoebe','commanditaire']};
 const action={type:'object',properties:{type:{type:'string',enum:['propose','place','question','answer','end']},kind:{type:'string',enum:['key','lock','attack','subgoal','resource']},target:text,resource:text,text},required:['type'],additionalProperties:false};
-const verdict=p=>{const checked=canon.verify(p,scenario.canonPeriod);E.requireRule(!p.accepted||checked.accepted,checked.reason);return checked;};
+const verdictFor=(E,s)=>p=>{const checked=canon.verify(p,E.period(s));E.requireRule(!p.accepted||checked.accepted,checked.reason);return checked;};
 
 async function invoke(seed,event,board,docs,operations=[],schema=S.obj({message:text})){
  const access=createTools({board,documents:docs}),tools=[...access.tools,...operations],bridge=await serve(tools);
@@ -23,9 +22,9 @@ async function invoke(seed,event,board,docs,operations=[],schema=S.obj({message:
 }
 
 class Jeu{
- constructor(store,call=invoke){this.store=store;this.call=call;}
- turn(revision,id,event){return this.store.transact(revision,id,async s=>{
-  let failure;
+ constructor(store,call=invoke){this.store=store;this.call=call;this.E=store.E||require('./engine');this.context=require('./agent-context').createContext(this.E);}
+ turn(revision,id,event){const E=this.E,{opponentView,documents,campDocuments}=this.context;return this.store.transact(revision,id,async s=>{
+  let failure;const verdict=verdictFor(E,s);
   const board=()=>({...E.clone(s),candidats:E.immediateCandidates(s)});
   const operation=(name,description,properties,apply)=>({name,description,inputSchema:S.obj(properties),run:args=>{
    const copy=E.clone(s),before=copy.arbitration.length;apply(copy,args);E.refresh(copy);
@@ -53,10 +52,10 @@ class Jeu{
    operation('publier','Ajouter un message au fil public.',{text},(s,a)=>s.arbitration.push({day:s.day,text:a.text})),
    {name:'opponent',description:'Demander au camp adverse son prochain coup sur le plateau actuel.',inputSchema:S.obj({message:text}),run:a=>{
     E.requireRule(s.phase==='ai','Le camp adverse ne joue pas actuellement.');
-    return this.call(this.store.seed+':commanditaire',{camp:'commanditaire',message:a.message},()=>opponentView(s),campDocuments('commanditaire'),[],S.obj({action,message:text})).catch(error=>{failure=error;throw error;});
+    return this.call(this.store.seed+':commanditaire',{camp:'commanditaire',message:a.message},()=>opponentView(s),campDocuments('commanditaire',s),[],S.obj({action,message:text})).catch(error=>{failure=error;throw error;});
    }}
   ];
-  const result=await this.call(this.store.seed+':arbitrage',event,board,documents(),operations);
+  const result=await this.call(this.store.seed+':arbitrage',event,board,documents(s),operations);
   if(failure)throw failure;
   if(result.message)s.arbitration.push({day:s.day,text:result.message});
  });}

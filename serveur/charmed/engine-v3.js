@@ -1,11 +1,13 @@
 "use strict";
-const scenario=require('./scenario');
 const clone=x=>JSON.parse(JSON.stringify(x));
 class RuleError extends Error {}
 function requireRule(ok,message){if(!ok)throw new RuleError(message);}
+// Un moteur par scénario : le serveur peut en tenir plusieurs, chacun avec son journal.
+function createEngine(scenario){
 const terminal=n=>['failed','removed'].includes(n.status);
 const campaigns=['phoebe','commanditaire'];
-function initial(){return {version:3,ruleset:'charmed-soir-2026-09-08',revision:0,day:1,phase:'player',spent:{phoebe:false,commanditaire:false},nextId:1,title:scenario.title,subgoalSlots:clone(scenario.subgoalSlots),resources:clone(scenario.resources),nodes:scenario.goals.map(g=>({...g,type:'state',parent:null,goalMode:g.initialValue?'maintain':g.goalMode||'achieve',status:g.initialValue?'true':'open',description:g.title})),questions:[],facts:clone(scenario.initialFacts||['Élise est vivante. Phoebe a reçu la vision initiale.']),result:null,radio:[{day:1,text:scenario.opening}],arbitration:[],opponent:[],appliedEvents:[]};}
+function initial(){return {version:3,ruleset:'charmed-soir-2026-09-08',revision:0,day:1,phase:'player',spent:{phoebe:false,commanditaire:false},nextId:1,title:scenario.title,subgoalSlots:clone(scenario.subgoalSlots),resources:clone(scenario.resources),nodes:scenario.goals.map(g=>({...g,type:'state',parent:null,goalMode:g.initialValue?'maintain':g.goalMode||'achieve',status:g.initialValue?'true':'open',description:g.title})),questions:[],facts:clone(scenario.initialFacts||['Élise est vivante. Phoebe a reçu la vision initiale.']),result:null,radio:[{day:1,text:scenario.opening}],arbitration:[],opponent:[],appliedEvents:[],...(scenario.infinite?{infinite:scenario.infinite.initial()}:{})};}
+const period=s=>scenario.periodFor?scenario.periodFor(s):scenario.canonPeriod;
 function node(s,id){const n=s.nodes.find(n=>n.id===id);requireRule(n,'Carte introuvable.');return n;}
 function resource(s,id){const r=s.resources.find(r=>r.id===id);requireRule(r,'Ressource introuvable.');return r;}
 const newId=s=>'c'+s.nextId++;
@@ -96,8 +98,41 @@ function candidates(s,day){return s.nodes.filter(n=>{
  }).map(n=>({...clone(n),forcedFailure:n.type==='attack'&&(!n.deadlineReady&&n.deadlineReady!==undefined||n.status!=='ready'||!usable(s,n,day)||suspended(s,n.id)||blocks(s,n.id).length>0||dependencyFailure(s,n))||!usable(s,n,day)||dependencyFailure(s,n)}));}
 const morningCandidates=s=>candidates(s,s.day+1);
 const immediateCandidates=s=>candidates(s,s.day);
+// Infinite : quand plus aucun personnage adverse n'est vivant, la vague est vaincue et la suivante apparaît.
+function infiniteEnemies(s){return s.resources.filter(r=>r.owner==='commanditaire'&&r.category==='personnage');}
+function infiniteCleared(s){const enemies=infiniteEnemies(s);return enemies.length>0&&enemies.every(r=>r.lost||r.consumed);}
+function infiniteMorning(s){
+ if(s.result||!infiniteCleared(s))return [];
+ const c=s.infinite,messages=[],{waves,transitions}=scenario.infinite;
+ const root=s.nodes.find(n=>n.type==='state'&&!n.parent&&n.owner==='commanditaire'&&!terminal(n));
+ if(root){root.status='failed';root.failReason='Vague vaincue : plus aucun personnage adverse vivant.';}
+ const gone=new Set();
+ for(const n of s.nodes){if(terminal(n))continue;if(n.owner==='commanditaire'&&n.type!=='state'||n.type==='state'&&n.parent&&node(s,n.parent).owner==='commanditaire')gone.add(n.id);}
+ // Contributions du joueur qui visaient la vague vaincue : verrous sur ses cartes, clés levant ses verrous, attaques sur ses personnages perdus.
+ let grew=true;while(grew){grew=false;for(const n of s.nodes){if(terminal(n)||gone.has(n.id)||n.type==='state')continue;if(gone.has(n.target)||n.type==='attack'&&infiniteEnemies(s).some(r=>r.id===n.target)){gone.add(n.id);grew=true;}}}
+ for(const id of gone){const n=node(s,id);n.status=n.type==='state'?'failed':'removed';release(s,n);}
+ for(const q of s.questions)if(!q.resolved&&gone.has(q.target))q.resolved=true;
+ for(const r of s.resources)if(r.owner==='commanditaire'){r.heldBy=null;r.lost=true;r.retired=true;}
+ c.cleared.push(c.wave.id);const fact=c.wave.name+' est vaincu ; sa menace est levée.';if(!s.facts.includes(fact))s.facts.push(fact);
+ messages.push('Vague '+(c.index+1)+' vaincue : '+c.wave.name+' n’est plus une menace.');
+ const next=waves[c.index+1];
+ if(!next){s.result={winner:'phoebe',reason:'Toutes les menaces documentées sont vaincues : la partie infinie est gagnée.'};messages.push(s.result.reason);return messages;}
+ for(const t of transitions.filter(t=>t.season>c.season&&t.season<=next.season)){
+  for(const id of t.departures||[]){const r=s.resources.find(r=>r.id===id);if(r&&!r.lost){r.heldBy=null;r.lost=true;r.retired=true;}}
+  for(const spec of t.arrivals||[])if(!s.resources.some(r=>r.id===spec.id))s.resources.push({...clone(spec),owner:'phoebe',availableDay:s.day,preparation:false,heldBy:null,lost:false,consumed:false});
+  for(const f of t.facts||[])if(!s.facts.includes(f))s.facts.push(f);
+  messages.push(t.message);
+ }
+ for(const spec of next.resources)s.resources.push({...clone(spec),owner:'commanditaire',availableDay:s.day,preparation:false,heldBy:null,lost:false,consumed:false});
+ const index=c.index+1;
+ s.nodes.push({id:'root-commanditaire-'+(index+1),owner:'commanditaire',type:'state',parent:null,goalMode:'achieve',status:'open',title:next.goal.title,shortTitle:next.goal.shortTitle,description:next.goal.title});
+ Object.assign(c,{index,wave:{id:next.id,name:next.name,title:next.title,season:next.season,episode:next.episode},period:clone(next.period),season:next.season,knowledge:next.knowledge});
+ messages.push(next.announcement);
+ return messages;
+}
 function prepareMorning(s){requireRule(s.phase==='morning','La journée n’est pas terminée.');s.day++;const messages=[];
  for(const e of scenario.calendar.filter(e=>e.morning===s.day&&!s.appliedEvents.includes(e.id))){if(e.grants){for(const camp of campaigns){for(const spec of e.grants){const id=e.id+'-'+camp+'-'+spec.id;if(!s.resources.some(r=>r.id===id))s.resources.push({...clone(spec),id,owner:camp,heldBy:null,availableDay:s.day,lost:false,consumed:false});}messages.push(e.title+' : un exemplaire est ajouté à la main de '+scenario.camps.find(c=>c.id===camp).name+'.');}s.appliedEvents.push(e.id);}}
+ if(scenario.infinite)messages.push(...infiniteMorning(s));
  for(const n of s.nodes.filter(n=>n.type==='attack'&&!terminal(n)&&n.status!=='resolved')){
   if(n.revealDay===s.day)messages.push(`${n.title} : ${n.requiredCount} pièces nécessaires. Attaque au matin du jour ${n.dueDay}. Résultat visé : ${n.effect}.`);
   if(n.dueDay===s.day)n.deadlineReady=n.status==='ready'&&usable(s,n,s.day);
@@ -144,9 +179,12 @@ function evaluateVictory(s,verdicts){const roots=s.nodes.filter(n=>n.type==='sta
 }
 function finishMorning(s,j){const list=immediateCandidates(s);const messages=[...(s.morningMessages||[]),...applyResolution(s,j,list)];delete s.morningMessages;s.radio.push({day:s.day,text:messages.join('\n')||'Aucun effet à échéance. La journée commence.'});s.spent={phoebe:false,commanditaire:false};s.phase=s.result?'finished':'player';}
 function morning(s,j){prepareMorning(s);finishMorning(s,j);}
-function publicView(s){const v=clone(s);v.camps=scenario.camps;v.finalDay=scenario.finalDay;v.calendar=clone(scenario.calendar).map(e=>({...e,timing:e.morning<s.day?'passé':e.morning===s.day?'aujourd’hui':'à venir'}));delete v.morningMessages;
+function publicView(s){const v=clone(s);v.camps=scenario.camps;v.finalDay=Number.isFinite(scenario.finalDay)?scenario.finalDay:null;if(s.infinite){delete v.infinite.knowledge;v.camps=v.camps.map(c=>c.id==='commanditaire'?{...c,name:s.infinite.wave.name}:c);}v.calendar=clone(scenario.calendar).map(e=>({...e,timing:e.morning<s.day?'passé':e.morning===s.day?'aujourd’hui':'à venir'}));delete v.morningMessages;
  for(const n of v.nodes){if(n.type!=='attack'){delete n.requiredCount;delete n.missing;}delete n.recovery;delete n.maintainers;if(n.type==='attack'&&s.day<n.revealDay){for(const k of ['requiredCount','missing','delay','dueDay','effect','dependsOn','deadlineReady'])delete n[k];}n.suspended=suspended(s,n.id);n.blockedBy=blocks(s,n.id).map(x=>x.id);if(n.type==='state')n.value=n.status==='true';}
  for(const r of v.resources){r.availability=availability(s,r);r.frozenBy=[];}
  return v;
 }
-module.exports={initial,clone,RuleError,requireRule,node,resource,availability,refresh,publicView,checkTurn,spend,propose,place,validatePlace,question,answer,submitAnswer,adjudicateAnswer,endPassage,morning,morningCandidates,immediateCandidates,prepareMorning,finishMorning,applyResolution,targetCheck,discoveryFeedback};
+return {initial,period,infiniteCleared,clone,RuleError,requireRule,scenario,node,resource,availability,refresh,publicView,checkTurn,spend,propose,place,validatePlace,question,answer,submitAnswer,adjudicateAnswer,endPassage,morning,morningCandidates,immediateCandidates,prepareMorning,finishMorning,applyResolution,targetCheck,discoveryFeedback};
+}
+const E=createEngine(require('./scenario'));
+module.exports={...E,createEngine};

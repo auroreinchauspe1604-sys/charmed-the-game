@@ -6,7 +6,8 @@ const catalog={
  'nexus-sous-tension':path.join(CHEMINS.scenarios,'nexus-sous-tension','scenario.js'),
  'manoir-assiege-souple':path.join(CHEMINS.scenarios,'manoir-assiege-souple','scenario.js'),
  'manoir-assiege':path.join(CHEMINS.scenarios,'manoir-assiege','scenario.js'),
- 'avant-la-vision':path.join(CHEMINS.scenarios,'avant-la-vision','scenario.js')
+ 'avant-la-vision':path.join(CHEMINS.scenarios,'avant-la-vision','scenario.js'),
+ 'infinite':path.join(CHEMINS.scenarios,'infinite','scenario.js')
 };
 const key=process.env.CHARMED_SCENARIO||'avant-la-vision';
 if(!catalog[key])throw new Error('Scénario inconnu : '+key);
