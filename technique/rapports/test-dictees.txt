@@ -1,0 +1,40 @@
+
+==============================================================================
+1. Clé, voie principale, dictée brute
+Dictée : « disposition des cristaux autour du livre et des souer qui sont protége par le bouclier energique des critaux et leur permetttent de conserver le livre. les demon de peuvent pas franchir le bouclier »
+→ REFUSÉ (gratuitement) — 12 s
+  Ange  : Le refus porte sur le sens, pas sur le plan : la phrase peut se lire de deux façons qui produiraient deux cartes différentes. Soit les cristaux forment un dispositif autour du Livre des Ombres, soit ils forment un bouclier autour des sœurs elles-mêmes — et les deux ne protègent pas la même chose ni ne produisent le même fait. Reformule pendant le même passage en désignant ce que le dispositif entoure ; le refus est gratuit et ne consomme pas ton coup payant.
+
+==============================================================================
+2. Ressource : trois mots
+Dictée : « creature magique allié »
+→ REFUSÉ (gratuitement) — 36 s
+  Ange  : Refus gratuit : la demande n'est pas écartée pour un motif d'univers — des créatures magiques alliées existent bien à cette période. Elle est écartée sur la situation du plateau. D'une part, aucun apport identifiable : les faits acquis établissent que les sœurs ignorent encore sur quels moyens concrets repose le contrôle des circulations, si bien qu'un allié sans nature ni fonction déterminée ne comble aucun manque nommable et se prêterait à n'importe quel besoin futur — ce serait une réponse, pas un moyen. D'autre part, aucun concours concret d'obtention n'existe dans la position : Piper, Phoebe et Paige sont retranchées au grenier, les entrées et les circulations intérieures sont tenues par les agents de Zankou, et aucune ressource en main, aucun fait acquis ni aucun événement du calendrier n'établit un contact, une voie ou un intermédiaire vers un allié extérieur. Aucune action payante n'est consommée et aucun droit gratuit n'est entamé.
+
+==============================================================================
+3. Ressource : demande de concours
+Dictée : « Demander de l'aide aux fondateurs »
+→ ACCEPTÉ — 66 s
+  Ressource accordée : Fondateur (disponible J3)
+  Ange  : Les Fondateurs existent à cette période et une sorcière peut solliciter leur avis : la demande est possible dans l'univers. Sur le plateau, les sœurs sont coupées du reste de la maison et n'ont aucun appui extérieur ; un interlocuteur d'en haut apporte donc quelque chose qui leur manque réellement. Mais les Fondateurs ne descendent pas se battre dans le manoir et ne règlent rien à la place des sœurs : ce qui est accordé, c'est un interlocuteur qui accepte d'être consulté, pas une intervention. La demande doit être portée là-haut et une audience se négocie : la ressource n'est pas disponible tout de suite. Incertitude signalée : la disposition des Fondateurs à cette période est documentée comme divisée et réservée, et rien ne garantit que la réponse obtenue soit celle qu'on attend.
+
+==============================================================================
+4. Ressource : lacune documentaire assumée
+Dictée : « Etre magique -les fées »
+→ REFUSÉ (gratuitement) — 45 s
+  Ange  : Refusé au titre de la pertinence sur le plateau : la position est celle d'un manoir dont les circulations intérieures sont tenues par des moyens concrets que les sœurs n'ont pas encore identifiés, et le grenier est déjà un espace de recherche à l'écart avec le Livre des Ombres et les trois sœurs libres. Un concours de fées n'apporte rien qui manque réellement ici, et rien sur le plateau n'établit un lien, un canal d'appel ou une contrepartie par lesquels ce concours s'obtiendrait depuis un grenier isolé.
+
+==============================================================================
+5. Verrou sur une ressource adverse ENGAGÉE (doit être accepté comme verrou)
+Dictée : « Paige s'orbe avec des potions et neutralise l'eclaireur ce qui empeche l'obstruction materielle des cirulation »
+→ REFUSÉ (gratuitement) — 33 s
+  Ange  : Le canal est correct : l'Éclaireur est engagé dans une contribution adverse, il relève donc du verrou et non de l'attaque. Le refus porte sur un fait du plateau : ton camp ne détient aucune potion. La seule carte de cette famille est Matériel de potion, qui ne produit rien à lui seul, et aucune potion prête n'a été distribuée dans cette partie. L'obstruction annoncée repose ainsi sur un moyen qui n'existe pas encore dans ta main. Ce refus est gratuit : ni ton coup payant ni aucun droit n'est consommé, et tu peux reformuler pendant ce même passage.
+
+==============================================================================
+6. Attaque sur cette même ressource engagée (doit être refusée : elle n’est pas en main)
+Dictée : « Neutralisation de l'eclaireuer par Paige à l'aide de potions »
+→ REFUSÉ ou ERREUR (0 s)
+  Une attaque vise une ressource libre dans la main adverse. Une ressource déjà engagée dans une contribution se bloque par un verrou.
+
+==============================================================================
+Fin des essais.

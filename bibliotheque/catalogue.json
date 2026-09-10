@@ -1,0 +1,15 @@
+{
+  "versionSchema": 1,
+  "activation": "en_attente_de_validation",
+  "categories": [
+    "personnages",
+    "pouvoirs-et-capacites",
+    "etres-et-creatures",
+    "organisations-et-groupes",
+    "objets",
+    "sorts-rituels-potions",
+    "lieux-et-mondes",
+    "phenomenes-et-principes"
+  ],
+  "fichesActivees": []
+}

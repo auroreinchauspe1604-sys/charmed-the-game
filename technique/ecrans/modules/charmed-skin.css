@@ -1,0 +1,252 @@
+/* Selected B: actual UI skin; the game engine and compact tree geometry stay independent. */
+:root{--leather:#10271d;--gilt:#af873e;--paper:#ead9b9;--sepia:#352717;--left-rail:clamp(178px,13.3vw,218px);--right-rail:clamp(185px,13.3vw,225px)}
+body{color:var(--sepia);background-color:var(--leather);background-image:radial-gradient(ellipse at 40% 20%,#23423066,transparent 70%),url('/modules/charmed-assets/leather.svg');background-size:auto,120px 120px}
+body:after{content:'';position:fixed;inset:5px;border:1px solid #a8853d99;border-radius:9px;pointer-events:none;z-index:6}
+.masthead{height:70px;min-height:70px;flex:0 0 70px;border:0;background:transparent;box-shadow:none;padding:0 12px 0 36px;display:grid;grid-template-columns:minmax(0,1fr) auto var(--right-rail);gap:12px;position:relative}
+.brand{min-width:0;display:block;font-size:20px;letter-spacing:0}.brand:before{display:none}.brand #game-title{display:block;margin:0;font:italic 20px/1.25 Georgia,serif;color:#e9c66f;max-width:none;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.charmed-logo{justify-self:center;align-self:start;width:104px;height:43px;margin-top:5px;background:linear-gradient(120deg,#ffe0a0,#c1903a 60%,#e1b55b);mask:url('/modules/charmed-assets/logo.png') center/contain no-repeat;-webkit-mask:url('/modules/charmed-assets/logo.png') center/contain no-repeat}
+.masthead .facts{height:auto;align-self:center;margin:0}.masthead .facts button{color:#c4a364;font-size:10px;padding:3px 8px}.clock{display:none}
+.layout{width:100%;max-width:none;grid-template-columns:var(--left-rail) minmax(0,1fr) var(--right-rail);padding:3px 12px 22px;gap:9px;min-height:0;flex:1;overflow:hidden}
+.layout>main{min-width:0;min-height:0;padding:0}#board{height:100%;grid-template-rows:minmax(0,1fr) minmax(0,1fr);gap:9px}
+.broadcast{display:grid;grid-template-rows:minmax(0,1fr) minmax(0,1fr);gap:9px;height:100%}.judgement{display:grid;grid-template-rows:250px minmax(0,1fr);gap:9px;height:100%}
+.broadcast,.judgement{position:static;max-height:none;padding:0;border:0;background:none;box-shadow:none;overflow:hidden}
+.radio-section,.calendar-section,.judgement .turn-panel,.judgement .arbiter-page{position:relative;height:100%;min-height:0;margin:0;padding:17px 16px;border:1px solid #ba9656;border-radius:7px 5px 8px 4px;color:var(--sepia);background-color:var(--paper);background-image:radial-gradient(ellipse at 45% 35%,#fff4d733,transparent 78%),url('/modules/charmed-assets/parchment.svg');box-shadow:inset 0 0 0 3px #8b632d2b,inset 0 0 22px #76522932,0 3px 9px #0006;overflow:hidden}
+.radio-section:after,.calendar-section:after,.judgement .turn-panel:after,.judgement .arbiter-page:after{content:'';position:absolute;inset:4px;border:1px solid #94703870;border-radius:8px 3px;pointer-events:none;background:url('/modules/charmed-assets/corner.svg') top left/24px 24px no-repeat,url('/modules/charmed-assets/corner.svg') bottom right/24px 24px no-repeat}
+.radio-section:before{display:none!important}
+.broadcast h2.illuminated,.judgement h2.illuminated{font-family:Gabriola,'Palatino Linotype',Georgia,serif;font-size:29px;font-weight:400;font-variant:normal;line-height:1.04;letter-spacing:0;text-align:center;color:#422b16;margin:0 0 16px;padding:0 0 10px;border-bottom:1px solid #a47d4555;flex:none}
+.illuminated .initial{display:inline-block;font-size:1.6em;line-height:.64;vertical-align:-.07em;color:#6a3c21;font-style:italic;text-shadow:1px 0 #d8b96b,-1px 0 #a58e46,0 1px #233d21;font-family:'Palatino Linotype',Georgia,serif;background:linear-gradient(130deg,#4d682e,#8a391e,#b69a40);background-clip:text;-webkit-text-fill-color:transparent}
+.illuminated .subtitle{font-size:.82em}.morning-label{text-transform:uppercase;letter-spacing:.8px;font-size:10px;text-align:center;color:#3a2816;margin:0 0 13px;flex:none}
+.radio-section #radio,.judgement #arbitration{display:flex;flex-direction:column;flex:1;min-height:0;overflow:hidden}
+#radio>.dispatch,#arbitration>.dispatch{display:flex;flex-direction:column;flex:1;min-height:0;background:none;border:0;padding:0;max-height:none!important;overflow:hidden;color:var(--sepia)}
+#radio .dispatch time,#arbitration .dispatch time{color:#50341b;font-size:12px;letter-spacing:.4px;margin:0 0 12px;flex:none}
+#radio .dispatch-excerpt,#arbitration .dispatch-excerpt{color:var(--sepia);font:14px/1.5 Georgia,serif;margin:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:7;overflow:hidden}
+#arbitration .dispatch-excerpt{-webkit-line-clamp:11}
+.dispatch .read-message{background:linear-gradient(#23432e,#0e291d);color:#f3dca5;border:1px solid #aa8949;box-shadow:0 2px 3px #50341655;margin:14px 0 0;padding:6px 10px;font-size:11px;flex:none;align-self:flex-start}
+#radio .panel-navigation,#arbitration .panel-navigation{margin:12px 0 0;padding:0;flex:none;color:#423019;font:12px Georgia}.panel-navigation button{background:linear-gradient(#284533,#122b20);color:#efd395;border:1px solid #ac8a4d;box-shadow:0 2px 3px #50341633;padding:3px 9px}
+.judgement .arbiter-page{display:flex;flex-direction:column}.triquetra{align-self:flex-end;flex:0 0 96px;width:102px;height:96px;margin:12px 0 0;pointer-events:none}.triquetra svg{width:100%;height:100%;overflow:visible;filter:drop-shadow(0 2px 1px #563b1a55)}.knot-shadow{fill:none;stroke:#5a3719;stroke-width:7;stroke-linejoin:round}.knot-gold{fill:none;stroke:url('#knot-gold');stroke-width:3.8;stroke-linejoin:round}
+.calendar-note{color:#5c482f;font-size:11px;margin:0 0 12px}.calendar-day{background:#f4e7ca99;border-color:#b39361;color:#503b22}.calendar-day.selected{background:#183e2a;color:#f5e4b9}.calendar-day.has-event:not(.selected){background:#d8c99a80;color:#30462b}.calendar-legend{color:#685335}.calendar-selected h3{color:#49341e}.calendar-selected{border-color:#a58557}.no-event{color:#5d482f}.selected-event{background:#f5e7c6;color:#43331d}
+.judgement .turn-panel{display:flex;flex-direction:column;text-align:center}.turn-panel #turn-copy strong{color:#382b1b;font:19px/1.45 Georgia,serif}.turn-panel .playbar{margin:12px 0 0;gap:8px;padding:0;border:0;box-shadow:none;background:none}.turn-panel .playbar strong{font:13px/1.4 Georgia,serif;color:#413019}.turn-panel .playbar #hint{font:10px/1.4 Georgia,serif;color:#655036;margin:7px 0 0}.turn-panel .playbar>button{background:linear-gradient(#254431,#102b1f);color:#f3dba0;border:1px solid #a98544;padding:7px 5px;box-shadow:0 2px 3px #50341655;font-size:11px}
+#board .territory{padding:3px;border:1px solid #b1904b;border-radius:6px;box-shadow:inset 0 0 0 2px #86653355,0 3px 7px #0004;color:#3e301e;background:#e3d0ac url('/modules/charmed-assets/parchment.svg')}
+#board .banner,#board .player .banner.active-turn{height:30px;min-height:30px;padding:3px 7px;background:#102b1eea!important;color:#efd8a7;border-color:#a37e3d;box-shadow:none}
+#board .enemy .banner{background:linear-gradient(90deg,#3c2715,#20180e)!important}#board .banner h2{font:17px/1.2 Georgia;color:#f1d599}#board .banner .turn-label{color:#e4c887;font-size:9px}#board .camp-side .dispatch,#board .camp-side .dispatch-excerpt{color:#efdbb8}#board .camp-side .read-message{margin:0;padding:2px 4px;font-size:10px;color:#e5c683;background:transparent;box-shadow:none}
+#board .hand{background:linear-gradient(90deg,#eadbb7ed,#eadbb7e0),url('/modules/charmed-assets/parchment.svg');border-color:#a5845466}#board .hand h3{color:#483522;font-size:9px;letter-spacing:.4px}#board .hand-group+.hand-group{border-color:#9c805b77}
+#board .camp-play{background-image:linear-gradient(90deg,#ecdfc4 0%,#ecdfc4f5 29%,#ecdfc4cc 48%,#ecdfc466 71%,#ecdfc433 100%),url('/modules/charmed-assets/grenier.png');background-size:cover;background-position:center,right center;background-repeat:no-repeat;scrollbar-color:#a28143 #d5c29b}
+#board .battle{background:none}#board .branches{border-left-color:#537457}#board .branch:before,#board .state-zone:after{background:#537457}.lane>.cards:empty{border-bottom-color:#537457}
+#board .card.state{background:#173d29;border-color:#779166}#board .card.state .face{background:radial-gradient(ellipse at 35% 15%,#2d5740,#0b2a1c);color:#f6e4ba;box-shadow:inset 0 0 0 2px #a9b57f28,inset 0 0 16px #0003}
+#board .empty-subgoal{color:#486241;border-color:#7d8962}.create-resource{background:#1b3c28;color:#edd39d;border-color:#b59453}.attack-zone{background:#e7d4ae66;border-color:#a8875677}.attack-zone h3{color:#6d402c}.attack-zone .empty{color:#5c4b32}
+dialog{background:#eee0c2 url('/modules/charmed-assets/parchment.svg');color:#372817;border:2px solid #a18243;box-shadow:0 20px 90px #0008}dialog h2{color:#593b22}dialog label{color:#49371f}dialog textarea,dialog select{background:#fff4de;color:#352817;border-color:#a48b60}dialog button{background:#23402d;color:#f3ddad;border-color:#a58a51}dialog .writing-help,dialog #composer-context{background:#ded0ac;color:#3d301f}dialog .writing-help p,dialog .cost{color:#635035}.page-count{color:#654829!important}
+@media(min-width:1800px){.judgement{grid-template-rows:270px minmax(0,1fr)}.broadcast h2.illuminated,.judgement h2.illuminated{font-size:32px}.triquetra{width:112px;flex-basis:104px;height:104px}#arbitration .dispatch-excerpt{-webkit-line-clamp:15}}
+@media(max-height:800px){.masthead{height:58px;min-height:58px;flex-basis:58px}.charmed-logo{height:34px;width:88px;margin-top:4px}.layout{padding-bottom:14px;gap:7px}.broadcast,#board,.judgement{gap:7px}.judgement{grid-template-rows:225px minmax(0,1fr)}.radio-section,.calendar-section,.judgement .turn-panel,.judgement .arbiter-page{padding:12px 12px}.broadcast h2.illuminated,.judgement h2.illuminated{display:block;font-size:25px;margin-bottom:10px;padding-bottom:7px}.morning-label{font-size:9px;margin-bottom:10px}#radio .dispatch-excerpt,#arbitration .dispatch-excerpt{font-size:12px;line-height:1.4;-webkit-line-clamp:5}.triquetra{width:83px;height:78px;flex-basis:78px;margin-top:9px}.turn-panel #turn-copy strong{font-size:16px}.turn-panel .playbar{margin-top:7px;gap:6px}.turn-panel .playbar strong{font-size:12px}.dispatch .read-message{margin-top:10px}.calendar-note{font-size:10px;margin-bottom:8px}}
+@media(max-width:1100px){:root{--left-rail:155px;--right-rail:165px}.masthead{padding-left:18px}.brand #game-title{font-size:16px}.radio-section,.calendar-section,.judgement .turn-panel,.judgement .arbiter-page{padding-left:10px;padding-right:10px}.broadcast h2.illuminated,.judgement h2.illuminated{font-size:24px}.masthead .facts{display:none}}
+/* Reusable artwork derived from the selected mockup, with live cards above it. */
+#board .camp-play{background-color:#ecdfc4;background-image:linear-gradient(90deg,#ecdfc4 0%,#ecdfc4f5 29%,#ecdfc4cc 48%,#ecdfc47a 71%,#ecdfc44d 100%),url('/modules/charmed-assets/grenier-selection.png');background-size:100% 100%,cover;background-position:center,right center}
+.triquetra{background:url('/modules/charmed-assets/triquetra.png') center/contain no-repeat}.triquetra svg{display:none}
+/* Keep the primary action visible; decorative initials never set the panel height. */
+.illuminated .initial{font-family:Parchment,'Palatino Linotype',serif;font-size:2em;line-height:.45;vertical-align:-.08em;font-style:normal}
+.judgement .turn-panel{padding-top:12px;padding-bottom:12px}.judgement .turn-panel h2.illuminated{font-size:27px;line-height:28px;padding-bottom:5px;margin-bottom:8px}.turn-panel #turn-copy strong{font-size:17px;line-height:1.3}.turn-panel .playbar{margin-top:9px;gap:7px}.turn-panel .playbar>div{display:contents}.turn-panel .playbar strong{order:0;font-size:12px}.turn-panel .playbar>button{order:1}.turn-panel .playbar #hint{order:2;font-size:9px;line-height:1.3;margin:0}.triquetra{font-size:0;line-height:0}
+body:before{content:'';position:fixed;inset:7px;pointer-events:none;z-index:5;background:url('/modules/charmed-assets/corner.svg') top left/38px 38px no-repeat,url('/modules/charmed-assets/corner.svg') bottom right/38px 38px no-repeat}
+@media(max-height:800px){.judgement .turn-panel{padding:9px 10px}.judgement .turn-panel h2.illuminated{font-size:24px;line-height:25px;margin-bottom:6px;padding-bottom:4px}.turn-panel #turn-copy strong{font-size:15px;line-height:1.25}.turn-panel .playbar{gap:6px;margin-top:7px}.turn-panel .playbar #hint{font-size:9px}.turn-panel .playbar strong{font-size:11px;line-height:1.25}.turn-panel .playbar>button{padding:6px 4px}}
+
+/* Reference correction: painted materials, restrained readable initials, reserved emblem area. */
+body{background-color:#071b13;background-image:url('/modules/charmed-assets/leather-v2.png');background-size:640px 640px}
+body:before{display:none}body:after{border-color:#9c783b66;border-radius:3px}
+.radio-section,.calendar-section,.judgement .turn-panel,.judgement .arbiter-page{background:#ebd8b5 url('/modules/charmed-assets/parchment-v2.png') center/100% 100% no-repeat;border:0;border-radius:2px;box-shadow:0 2px 5px #0009;padding:20px 18px}
+.radio-section:after,.calendar-section:after,.judgement .turn-panel:after,.judgement .arbiter-page:after{display:none}
+.broadcast h2.illuminated,.judgement h2.illuminated,.judgement .turn-panel h2.illuminated{font-family:'Palatino Linotype',Georgia,serif;font-size:23px;line-height:1.2;font-weight:400;color:#392516;letter-spacing:-.5px;margin:0 0 17px;padding:0 0 12px;border-color:#94704450}
+.illuminated .initial{font-family:'Palatino Linotype',Georgia,serif;font-size:1.48em;line-height:1;vertical-align:-.035em;font-style:italic;font-weight:600;color:#79572b;background:none;-webkit-text-fill-color:currentColor;text-shadow:none;margin-right:1px}
+.illuminated .subtitle{font-size:.88em;letter-spacing:0}
+.judgement .arbiter-page{display:grid;grid-template-rows:auto minmax(0,1fr) 150px;row-gap:10px}
+.triquetra{align-self:center;justify-self:center;width:122px;height:122px;min-height:0;margin:0;flex:none;background-position:center;background-size:contain}
+#arbitration .dispatch-excerpt{-webkit-line-clamp:7}
+#arbitration .panel-navigation{margin-top:10px}
+#board .territory{background:#e7d4b1 url('/modules/charmed-assets/parchment-v2.png') center/100% 100%;border:1px solid #a18144;border-radius:3px;box-shadow:0 2px 5px #0007}
+#board .hand{background:linear-gradient(90deg,#e8d5b2c9,#e8d5b2c9),url('/modules/charmed-assets/parchment-v2.png') center/cover}
+#board .banner,#board .player .banner.active-turn{background:#071b13 url('/modules/charmed-assets/leather-v2.png') center/640px!important}
+#board .card.state .face{background:radial-gradient(ellipse at 35% 15%,#18392b,#051e15);box-shadow:inset 0 0 0 1px #77916a44,inset 0 0 8px #0004}
+#board .card.state{background:#0b251b;border-color:#617e5e}
+@media(min-width:1800px){.judgement .arbiter-page{grid-template-rows:auto minmax(0,1fr) 175px}.triquetra{width:135px;height:135px}.broadcast h2.illuminated,.judgement h2.illuminated{font-size:25px}}
+@media(max-height:800px){.radio-section,.calendar-section,.judgement .turn-panel,.judgement .arbiter-page{padding:15px 14px}.broadcast h2.illuminated,.judgement h2.illuminated,.judgement .turn-panel h2.illuminated{font-size:19px;line-height:1.2;padding-bottom:8px;margin-bottom:10px}.judgement .arbiter-page{grid-template-rows:auto minmax(0,1fr) 110px;row-gap:7px}.triquetra{width:94px;height:94px}#arbitration .dispatch-excerpt{-webkit-line-clamp:5}}
+.judgement>section.arbiter-page{display:grid;grid-template-rows:auto minmax(0,1fr) 150px;row-gap:10px;padding:20px 18px;background:#ebd8b5 url('/modules/charmed-assets/parchment-v2.png') center/100% 100% no-repeat;border:0;border-radius:2px}
+body{background-image:linear-gradient(#04130dcc,#04130dcc),url('/modules/charmed-assets/leather-v2.png')}
+#board .camp-play{background-image:linear-gradient(90deg,#ecdfc4 0%,#ecdfc4 30%,#ecdfc4ce 43%,#ecdfc46b 67%,#ecdfc445 100%),url('/modules/charmed-assets/grenier-selection.png');background-size:100% 100%,70% 100%;background-position:center,right center}
+@media(min-width:1800px){.judgement>section.arbiter-page{grid-template-rows:auto minmax(0,1fr) 175px}}
+@media(max-height:800px){.judgement>section.arbiter-page{padding:15px 14px;grid-template-rows:auto minmax(0,1fr) 110px;row-gap:7px}}
+/* Wordmark sized by its actual portrait source proportions, with a protected header margin. */
+.masthead{height:88px;min-height:88px;flex-basis:88px}
+.charmed-logo{width:102px;height:74px;margin-top:6px;align-self:start;justify-self:center;mask-size:contain;-webkit-mask-size:contain}
+@media(max-height:800px){.masthead{height:76px;min-height:76px;flex-basis:76px}.charmed-logo{width:88px;height:61px;margin-top:5px}}
+.masthead{grid-template-columns:minmax(0,1fr) var(--right-rail)}
+.judgement>section.arbiter-page{grid-template-rows:auto minmax(0,1fr) 28px 140px;row-gap:7px}
+.arbiter-page .facts{height:28px;margin:0;text-align:center;display:flex;justify-content:center;align-items:center}
+.arbiter-page .facts button{color:#5c3c1b;font:12px Georgia,serif;border-bottom:1px solid #97723b66;padding:4px 10px}
+body:before{display:block;inset:3px;background:url('/modules/charmed-assets/gold-corner-v2.png') top left/48px 48px no-repeat;z-index:5}
+.radio-section:after,.calendar-section:after,.judgement .turn-panel:after,.judgement .arbiter-page:after{display:block;inset:auto;left:4px;top:4px;width:25px;height:25px;border:0;border-radius:0;background:url('/modules/charmed-assets/gold-corner-v2.png') center/contain no-repeat;opacity:.65}
+@media(min-width:1800px){.judgement>section.arbiter-page{grid-template-rows:auto minmax(0,1fr) 28px 165px}}
+@media(max-height:800px){.judgement>section.arbiter-page{grid-template-rows:auto minmax(0,1fr) 24px 106px;row-gap:5px}.arbiter-page .facts{height:24px}}
+/* Four manuscript headings are image artwork; accessible text remains in the DOM. */
+.broadcast h2.illuminated,.judgement h2.illuminated,.judgement .turn-panel h2.illuminated{height:60px;min-height:60px;box-sizing:border-box;font-size:0;line-height:0;color:transparent;padding:0;border:0;margin:0 0 12px;background-image:url('/modules/charmed-assets/headings-v2.png');background-repeat:no-repeat;background-size:240px 240px;background-position:center 0}
+.illuminated .initial,.illuminated .subtitle{font-size:0;line-height:0;color:transparent;-webkit-text-fill-color:transparent}
+.calendar-section h2.illuminated{background-position:center -60px}
+.judgement .turn-panel h2.illuminated{background-position:center -120px}
+.judgement .arbiter-page h2.illuminated{background-position:center -180px}
+@media(max-height:800px){.broadcast h2.illuminated,.judgement h2.illuminated,.judgement .turn-panel h2.illuminated{height:52px;min-height:52px;margin-bottom:8px;background-size:208px 208px}.calendar-section h2.illuminated{background-position:center -52px}.judgement .turn-panel h2.illuminated{background-position:center -104px}.judgement .arbiter-page h2.illuminated{background-position:center -156px}}
+.broadcast h2.illuminated,.judgement h2.illuminated{mix-blend-mode:multiply}
+body:before{display:none}
+.book-corners{position:fixed;inset:3px;z-index:6;pointer-events:none}
+.book-corners i{position:absolute;width:48px;height:48px;background:url('/modules/charmed-assets/gold-corner-v2.png') center/contain no-repeat}
+.book-corners i:nth-child(1){top:0;left:0}
+.book-corners i:nth-child(2){top:0;right:0;transform:rotate(90deg)}
+.book-corners i:nth-child(3){bottom:0;right:0;transform:rotate(180deg)}
+.book-corners i:nth-child(4){bottom:0;left:0;transform:rotate(270deg)}
+.broadcast h2.illuminated,.judgement h2.illuminated,.judgement .turn-panel h2.illuminated{background-image:url('/modules/charmed-assets/headings-v3-alpha.png');mix-blend-mode:normal}
+.masthead{height:98px;min-height:98px;flex-basis:98px}
+.charmed-logo{width:130px;height:80px;margin-top:5px;mask-size:contain;-webkit-mask-size:contain}
+@media(max-height:800px){.masthead{height:86px;min-height:86px;flex-basis:86px}.charmed-logo{width:116px;height:69px;margin-top:5px}}
+.charmed-logo{background:url('/modules/charmed-assets/logo-dore-fourni.png') center/contain no-repeat;mask:none;-webkit-mask:none;width:142px;height:80px}
+.book-corners:after{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:105px;height:28px;background:url('/modules/charmed-assets/arabesque-haut.png') center/contain no-repeat}
+.judgement .arbiter-page h2.illuminated{background-position:center -170px;height:66px;min-height:66px}
+@media(max-height:800px){.charmed-logo{width:123px;height:69px}.judgement .arbiter-page h2.illuminated{background-position:center -147px;height:58px;min-height:58px}}
+.charmed-logo{filter:saturate(.66) brightness(.91) sepia(.12)}
+.broadcast h2.illuminated,.judgement h2.illuminated{clip-path:inset(1px 0 4px)}
+.judgement>section.arbiter-page{grid-template-rows:auto minmax(0,1fr) 150px}
+.arbiter-page .dispatch .facts{flex:none;justify-content:flex-start;margin-top:7px;height:28px;text-align:left}
+.arbiter-page .dispatch .facts button{padding:4px 0}
+@media(min-width:1800px){.judgement>section.arbiter-page{grid-template-rows:auto minmax(0,1fr) 175px}}
+@media(max-height:800px){.judgement>section.arbiter-page{grid-template-rows:auto minmax(0,1fr) 110px}}
+.book-corners:after{width:160px;height:40px;top:0;background-image:url('/modules/charmed-assets/arabesque-haut-alpha-v3.png')}
+@media(max-height:800px){.book-corners:after{width:145px;height:36px}}
+/* Final wordmark alignment: centered over the right parchment column, lowered 5 px. */
+.charmed-logo{justify-self:center;margin-top:10px}
+.book-corners:after{width:220px;height:52px}
+@media(max-height:800px){.book-corners:after{width:195px;height:46px}}
+/* Longer central flourish and subdued antique-gold game labels. */
+.book-corners:after{width:290px;height:58px;background-size:100% 100%}
+.brand #game-title,#board .banner h2{color:#bfa166}
+@media(max-height:800px){.book-corners:after{width:260px;height:52px}}
+.arbiter-page .empty{color:#705d3f}
+/* Fond fourni et validé : les dorures et le cadre font partie de l'image. */
+body{background:#071b13 url('/modules/charmed-assets/fond-livre-fourni.png') center/100% 100% no-repeat fixed}
+body:before,body:after,.book-corners{display:none}
+/* Cartes fournies : cadrage CSS des marges externes, textes vivants au-dessus. */
+.masthead{padding-left:140px;padding-right:0}
+.charmed-logo{position:absolute;right:calc(var(--right-rail) - 59px);top:0;transform:none}
+#board .card.state{height:96px;border:0;background:transparent;border-radius:6px}
+#board .card.state.root-card{height:116px}
+#board .card.state .face.front{background: url('/modules/charmed-assets/carte-sous-etat-fournie.png') center/120% 114% no-repeat;box-shadow:none;padding:40% 9% 18%;justify-content:center;gap:0}
+#board .card.state.root-card .face.front{background-image:url('/modules/charmed-assets/carte-etat-initial-fournie.png');background-size:113% 107%;padding:49% 9% 18%}
+#board .card.state .status{bottom:10%;color:#d8b566;font-size:8px}
+#board .card.state .short{color:#e7d3a6}
+#board .card.resource{border:0;background:transparent;border-radius:5px}
+#board .card.resource .face.front{background:url('/modules/charmed-assets/carte-ressource-fournie.png') center/120% 114% no-repeat;box-shadow:none;padding:9% 10% 16%;color:#f2dfb2}
+#board .card.resource.unavailable .face.front{filter:grayscale(1);opacity:.65}
+#board .card.resource.lost .short{text-decoration:line-through;text-decoration-color:#d45545;text-decoration-thickness:2px}
+#board .card.resource .status{bottom:7%}
+#board .card.key,#board .card.lock{height:96px;border:0;background:transparent}
+#board .card.key .face.front,#board .card.lock .face.front{background:url('/modules/charmed-assets/carte-cle-fournie.png') center/120% 114% no-repeat;box-shadow:none;padding:10% 10% 20%}
+#board .card.lock .face.front{background-image:url('/modules/charmed-assets/carte-verrou-fournie.png')}
+#board .card.key .short,#board .card.key .status{color:#39250d;text-shadow:0 1px #fff3bd66}
+#board .card.lock .short,#board .card.lock .status{color:#f6e0a8}
+#board .card.key .status,#board .card.lock .status{bottom:8%}
+#board .card.pending{outline:1px dashed #b38c43;outline-offset:2px}
+/* Fenêtres illustrées : décor fixe et contenu de partie indépendant. */
+#illustrated-detail{color:#292313;max-height:92dvh;overflow:auto;border:0;box-shadow:0 20px 90px #000b}
+#illustrated-detail .close{position:absolute;right:22px;top:14px;background:transparent;border:0;color:#332810;font:28px Georgia;z-index:2}
+#illustrated-detail.root-book{width:min(880px,96vw);max-width:880px;padding:34px 28px;background:url('/modules/charmed-assets/livre-ouvert-vierge.png') center/100% 100% no-repeat}
+#illustrated-detail.root-book[open]{display:grid;grid-template-columns:1fr 1fr;gap:42px}
+.book-page{min-width:0;text-align:center;padding:8px 14px;display:flex;flex-direction:column;align-items:center}
+.book-page h2{font:28px/1.15 Georgia;color:#172315;border-bottom:1px solid #b68e47;padding-bottom:12px;width:100%}
+.book-page .book-title{font:bold 32px/1.1 Georgia;border:0;margin:14px 0}
+.book-kicker{text-transform:uppercase;letter-spacing:2px;font-size:11px}
+.truth-pill{background:#204228;color:#e6d2a3;border:1px solid #a98a45;border-radius:30px;padding:5px 18px;margin:4px 0 16px}
+.book-page h3{font:19px Georgia;margin:5px 0 8px}
+.book-statement{font:16px/1.5 Georgia;margin:0;white-space:pre-line}
+.book-deadline{border-top:1px solid #b68e47;margin-top:18px;padding-top:12px;font-size:12px}
+.book-resources{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;width:100%;margin:8px 0 14px}
+#illustrated-detail .book-resource{width:100%;aspect-ratio:3/4;min-width:0;padding:8px 5px;background:url('/modules/charmed-assets/carte-ressource-fournie.png') center/120% 114%;border:0;color:#f2dfb2;font:12px/1.2 Georgia;overflow-wrap:anywhere}
+.book-help{font-size:12px;line-height:1.4}
+#illustrated-detail .book-return{background:#153b2b;color:#e8d0a0;border:1px solid #b39851;padding:8px 24px;margin:12px auto 0;min-width:150px}
+#illustrated-detail.calendar-parchment{width:min(570px,94vw);max-width:570px;text-align:center;padding:26px;background:#eddbb8 url('/modules/charmed-assets/parchment-v2.png') center/100% 100%}
+.founders-heading{height:64px;font-size:0;background:url('/modules/charmed-assets/headings-v3-alpha.png') center top/256px 256px no-repeat;margin:0}
+.event-photo{display:block;width:100%;height:180px;object-fit:cover;border:1px solid #ae8a4d;margin:12px 0}
+.event-day{font-size:13px;text-transform:uppercase;border-bottom:1px solid #bd9b5c;padding-bottom:8px;margin:12px 0}
+.event-title{font:22px/1.2 Georgia;margin:10px 0}
+.event-text{white-space:pre-line;font:15px/1.45 Georgia}
+.event-navigation{display:flex;justify-content:center;align-items:center;gap:18px}
+.book-fixed-objective{width:100%;max-width:250px;height:auto;mix-blend-mode:multiply}
+.book-fixed-resource{width:100%;height:auto;mix-blend-mode:multiply;clip-path:inset(10% 0 0);margin-top:-10px;margin-bottom:6px}
+.book-divider{width:90%;height:auto;mix-blend-mode:multiply;margin-top:16px}
+.book-deadline{border:0;margin-top:8px;padding-top:0}
+.book-fixed-objective,.book-fixed-resource,.book-divider{filter:grayscale(1) contrast(3) brightness(1.1);mix-blend-mode:multiply;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+@media(max-width:650px){#illustrated-detail.root-book{padding:30px 14px}.book-page{padding:0 5px}.book-page .book-title{font-size:23px}.book-page h2{font-size:21px}.book-statement{font-size:13px}.book-resources{grid-template-columns:repeat(2,minmax(0,1fr))}#illustrated-detail.root-book[open]{gap:20px}}
+/* Disposition aérée fournie : main latérale et objectifs face à face. */
+#board .territory-body{display:grid;grid-template-columns:minmax(0,1fr) 182px;flex:1;min-height:0;overflow:hidden}
+#board .camp-play{display:grid;grid-template-columns:82px minmax(0,1fr);gap:8px;padding:8px;align-items:start}
+#board .battle{min-width:0;padding:0;display:flex;flex-direction:column;gap:8px}
+#board .branches{display:flex;flex-direction:column;gap:8px;padding:0;margin-left:0;border-left:0;min-width:0}
+#board .branch:before{display:none}
+#board .empty-slots{display:flex;flex-direction:column;gap:8px;margin:0}
+#board .branch,#board .objective{margin:0;min-height:0;padding:0;display:flex;gap:12px}
+#board .empty-subgoal{width:72px;height:80px;flex:none}
+#board .card.state{height:80px}
+#board .card.state.root-card{height:94px}
+#board .attack-zone{min-width:0;width:82px;padding:0;margin:0;border:1px solid #a35a4d;border-radius:5px;background:#bc6d5522;overflow:visible;align-self:start}
+#board .enemy .attack-zone{align-self:end}
+#board .attack-zone.vacant{border-style:dashed}
+#board .attack-zone h3{font:11px/1.3 Georgia;margin:0;padding:7px 3px;background:#763d33;color:#f0d9aa;text-align:center;border-radius:4px 4px 0 0}
+#board .attack-add{display:block;width:42px;height:42px;border:1px solid #9d5a49;border-radius:50%;margin:12px auto;background:transparent;color:#884637;font:30px Georgia;padding:0}
+#board .attack-entry{display:flex;flex-direction:column;gap:4px}
+#board .attack-target{font-size:10px;padding:3px}
+#board .hand{height:auto!important;min-height:0;display:flex;flex-direction:column;gap:8px;padding:9px!important;border:0;border-left:1px solid #b29461;overflow:auto}
+#board .hand .hand-group,#board .hand .hand-group:first-child{flex:none;overflow:visible;min-width:0;border:0;padding:0}
+#board .hand h3{font:12px Georgia;margin:0 0 5px}
+#board .hand .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));height:auto;gap:4px;overflow:visible;min-height:0}
+#board .hand .cards:empty:after{content:'Aucune';font:italic 11px Georgia;color:#79684b;grid-column:1/-1}
+#board .hand .combo{height:58px;min-width:0;width:100%;margin:0}
+#board .hand .card.resource{width:100%;height:58px;min-width:0}
+#board .hand .create-resource{width:100%;height:auto;min-height:28px;margin-top:auto;font-size:11px;padding:6px}
+#board .card.key:not(.pending) .face.front,#board .card.lock:not(.pending) .face.front{background-image:url('/modules/charmed-assets/carte-cle-formee.png');background-size:100% 100%;padding:26% 10% 32%}
+#board .card.lock:not(.pending) .face.front{background-image:url('/modules/charmed-assets/carte-verrou-forme.png')}
+#board .card.key:not(.pending) .status,#board .card.lock:not(.pending) .status{bottom:30%}
+#detail.card-detail{width:min(620px,94vw);min-height:480px;padding:55px 48px;background:url('/modules/charmed-assets/recto-resource.png') center/100% 100% no-repeat;border:0;color:#342815}
+#detail.detail-state{background-image:url('/modules/charmed-assets/recto-state.png')}
+#detail.detail-lock{background-image:url('/modules/charmed-assets/recto-lock.png')}
+#detail.detail-key{background-image:url('/modules/charmed-assets/recto-key.png')}
+#detail.card-detail h2,#detail.card-detail #detail-text{color:#342815;text-shadow:none}
+#detail.card-detail #card-actions{margin-top:20px}
+#detail.card-detail .close{top:18px;right:22px}
+.destiny-parchment .founders-heading{height:84px;background-position:center -256px;background-size:360px 360px}
+/* Les ressources engagées prennent la couleur de leur contribution. */
+#board .card.resource.committed.for-key .face.front{background-image:url('/modules/charmed-assets/carte-cle-fournie.png');filter:none;opacity:1;color:#39250d}
+#board .card.resource.committed.for-lock .face.front{background-image:url('/modules/charmed-assets/carte-verrou-fournie.png');filter:none;opacity:1;color:#f6e0a8}
+#board .card.resource.committed.for-key .short,#board .card.resource.committed.for-key .status{color:#39250d;text-shadow:none}
+#board .card.resource.committed.for-lock .short,#board .card.resource.committed.for-lock .status{color:#f6e0a8;text-shadow:none}
+.rules-access{display:block;margin:8px auto 0;padding:3px 6px;font:11px Georgia;color:#70532e;background:transparent;border:0;text-decoration:underline}
+#illustrated-detail.rules-parchment{width:min(850px,94vw);max-width:850px;text-align:left}
+#illustrated-detail.rules-parchment .event-text{font-size:14px;line-height:1.6}
+
+/* Plateau valide du 10 septembre 2026 : fond ornementé et zones de jeu latérales. */
+body{background:#06180f url('/modules/charmed-assets/fond-interface-ornements.png?v=logo-reduit-1') center/100% 100% no-repeat fixed}
+.masthead{display:flex;align-items:center;justify-content:flex-start;padding:0 0 0 clamp(110px,7.8vw,140px)}
+.masthead .brand{align-self:center;justify-self:auto}
+.masthead .charmed-logo{display:none}
+
+/* Dans chaque camp : main à gauche, progression au centre, attaque à droite. */
+#board .territory-body{grid-template-columns:clamp(190px,14vw,235px) minmax(0,1fr)}
+#board .hand{grid-column:1;grid-row:1;border-left:0;border-right:1px solid #b29461}
+#board .camp-play{grid-column:2;grid-row:1;grid-template-columns:minmax(0,1fr) clamp(110px,8vw,132px)}
+#board .battle{grid-column:1;grid-row:1}
+#board .attack-zone{grid-column:2;grid-row:1;width:100%;align-self:start;position:relative;z-index:3;border:2px dashed #9f3e32;background:#d98a755c;box-shadow:0 0 0 2px #f0c6a84d,inset 0 0 18px #9f3e322e}
+#board .attack-zone h3{padding:8px 4px;background:#8e352d;color:#ffe1b5;font-weight:bold;letter-spacing:.3px}
+#board .enemy .attack-zone{align-self:end}
+#board .player .attack-zone{align-self:start}
+#board .attack-add{background:#f2d7c880;border:2px solid #963c32;color:#7c291f}
+/* Chez l'adversaire, la progression part de l'état initial central et remonte : 1, 2, 3. */
+#board .enemy .branches{flex-direction:column-reverse}
+#board .enemy .empty-slots{flex-direction:column-reverse}
+
+@media(max-width:1100px){
+  .masthead{padding-left:96px}
+  #board .territory-body{grid-template-columns:160px minmax(0,1fr)}
+  #board .camp-play{grid-template-columns:minmax(0,1fr) 92px;gap:5px;padding:5px}
+  #board .hand{padding:6px!important}
+}

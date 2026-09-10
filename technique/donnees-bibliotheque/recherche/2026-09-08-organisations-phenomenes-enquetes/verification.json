@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "organisations": 4,
+    "phenomenes": 4,
+    "alterations": 4,
+    "enquete-communication": 4
+  },
+  "total": 16,
+  "sourceCoverage": "16 extraits indexés, dont 2 de transcriptions",
+  "checks": {
+    "idsUniquesEtSansCollision": true,
+    "episodesExistants": true,
+    "corpusActifInchangePendantGeneration": true
+  },
+  "empreintesCorpusActif": {
+    "serveur/charmed/expertise-runtime.js": "c73ab3d7797e077f976025d591a3d96e471c254a79f3a2463664e4690d21144d",
+    "Charmed/canon/base.json": "ea3274e77d370e5c02b93e1baadb2d7174930df281e3022dba594382b7317124",
+    "Charmed/canon/construction.json": "87ab70743a03fc9cb1999b6894edb6be6ac9b57b10e4176b6373cc96ba393771",
+    "Charmed/canon/magie-demons.json": "79b00b27dfcdda5ee399a8549f3fa428ab628c60500c7ef5ae5366448a0a6558",
+    "Charmed/canon/personnages.json": "e1e78be543dadd6e2a34909992750fe2d3c5ce620e50d05c47873ab8f5f86ba7"
+  },
+  "scope": "Contrôle structurel et empreintes ; pas validation exhaustive du canon."
+}

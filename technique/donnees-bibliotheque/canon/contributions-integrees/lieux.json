@@ -1,0 +1,189 @@
+{
+  "id": "lieux",
+  "reviewedAt": "2026-09-08",
+  "status": "integrated_documentary",
+  "origin": "Charmed/contributions/lieux/PROPOSITION_A_INTEGRER.md",
+  "sources": {
+    "S01": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e15&tv-show=charmed"
+      ],
+      "evidence": "| S01 | [Springfield — S01E15](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e15&tv-show=charmed) | *Is There a Woogy in the House?* : fuite suspectée, cave ; échanges Whittlesey/Josh ; étude des cinq éléments ; exclusion des sœurs | Page de transcription non officielle consultée ; dialogues, sans validation des images |"
+    },
+    "S02": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed"
+      ],
+      "evidence": "| S02 | [Springfield — S07E17](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed) | *Scry Hard* : rangement initial ; instructions à Craven ; tentative sur le Nexus ; explication de Leo après l’Ombre ; offre de direction finale | Passages de transcription non officielle consultés ; ne pas transformer les affirmations de Zankou en règles universelles |"
+    },
+    "S03": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e22&tv-show=charmed"
+      ],
+      "evidence": "| S03 | [Springfield — S07E22](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e22&tv-show=charmed) | *Something Wicca This Way Goes...?* : expulsions ; discussion du Suxen ; entrée à l’école ; sort final et constat de dégâts | Passages de transcription non officielle consultés ; mécanisme visuel final non visionné |"
+    },
+    "S04": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e14&tv-show=charmed"
+      ],
+      "evidence": "| S04 | [Springfield — S06E14](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e14&tv-show=charmed) | *The Legend of Sleepy Halliwell* : arrivée ; Gideon ; sortie du Cavalier par la porte et distinction intérieur/extérieur | Passages de transcription non officielle consultés |"
+    },
+    "S05": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e01&tv-show=charmed"
+      ],
+      "evidence": "| S05 | [Springfield — S02E01](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e01&tv-show=charmed) | *Witch Trial* : achat du club ; financement final ; Penny au grenier | Passages de transcription non officielle consultés ; pas date d’ouverture exacte |"
+    },
+    "S06": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e16&tv-show=charmed"
+      ],
+      "evidence": "| S06 | [Springfield — S04E16](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e16&tv-show=charmed) | *The Fifth Halliwheel* : lettres de Karen, Elise, délai de rédaction ; échange final sur l’emploi | Passages de transcription non officielle consultés ; recherche du nom « Mirror » sans résultat dans ce texte |"
+    },
+    "S07": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e20&tv-show=charmed"
+      ],
+      "evidence": "| S07 | [Springfield — S04E20](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e20&tv-show=charmed) | *Long Live the Queen* : travail de Cole après couronnement ; risque de révolte | Passages de transcription non officielle consultés ; insuffisant pour la topographie |"
+    },
+    "S08": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e01&tv-show=charmed"
+      ],
+      "evidence": "| S08 | [Springfield — S03E01](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e01&tv-show=charmed) | *The Honeymoon’s Over* : absence de Piper ; comparaison un jour/un mois ; souvenirs après retour | Passages de transcription non officielle consultés ; décalage rapporté, pas chronométré |"
+    },
+    "S09": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Malice_in_Wonderland/Script",
+        "https://charmed.fandom.com/wiki/Malice_in_Wonderland"
+      ],
+      "evidence": "| S09 | [Fandom — S08E02, transcription](https://charmed.fandom.com/wiki/Malice_in_Wonderland/Script) et [notice](https://charmed.fandom.com/wiki/Malice_in_Wonderland) | *Malice in Wonderland* : Black Heart évoque la prise de l’école ; notice sur les pouvoirs démoniaques | Extraits indexés seulement ; accès direct à la transcription en erreur. La scène complète n’a pas été consultée |"
+    },
+    "S10": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e12&tv-show=charmed"
+      ],
+      "evidence": "| S10 | [Springfield — S01E12](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e12&tv-show=charmed) | *The Wendigo* : inspection de Quake ; bracelet, expertise et vente aux enchères | Passages de transcription non officielle consultés |"
+    },
+    "S10b": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e22&tv-show=charmed"
+      ],
+      "evidence": "| S10b | [Springfield — S04E22](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e22&tv-show=charmed) | *Witch Way Now?* : explications de Cole sur la Décharge ; rappel de Phoebe ; apparition de Cole et nouveaux pouvoirs | Passages de transcription non officielle consultés ; collecte non reconstituée visuellement |"
+    },
+    "S11": {
+      "urls": [
+        "https://tv.apple.com/us/episode/awakened/umc.cmc.7kjooszp8iy9801ltwaqubxu?showId=umc.cmc.40n1r7702nhwxpw1muur9c23v"
+      ],
+      "evidence": "| S11 | [Apple TV — Awakened](https://tv.apple.com/us/episode/awakened/umc.cmc.7kjooszp8iy9801ltwaqubxu?showId=umc.cmc.40n1r7702nhwxpw1muur9c23v) | S02E12 : démission de Prue explicitement mentionnée dans le synopsis | Page de distributeur consultée ; confirme ce fait, pas les dialogues ni les conditions détaillées de départ |"
+    },
+    "S12": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e04&tv-show=charmed"
+      ],
+      "evidence": "| S12 | [Springfield — S02E04](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e04&tv-show=charmed) | *The Devil’s Music* : nom P3, concert de Dishwalla, explications de Leo sur Masselin | Passages de transcription non officielle consultés |"
+    },
+    "S13": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/From_Fear_to_Eternity/Script"
+      ],
+      "evidence": "| S13 | [Fandom — S01E13, transcription](https://charmed.fandom.com/wiki/From_Fear_to_Eternity/Script) | *From Fear to Eternity* : appel à Prue lorsqu’elle arrive à Buckland | Extrait indexé de transcription ; la page Springfield correspondante a également été ouverte, sans analyse complète |"
+    },
+    "S14": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Ask_Phoebe_%28Column%29"
+      ],
+      "evidence": "| S14 | [Fandom — Ask Phoebe](https://charmed.fandom.com/wiki/Ask_Phoebe_%28Column%29) | Identification de la chronique avec le Bay Mirror ; pas d’épisode précis fourni par l’extrait | Extrait secondaire indexé seulement, utilisé pour le nom et la fonction |"
+    }
+  },
+  "fiches": [
+    {
+      "id": "lieux:1",
+      "titre": "3.1 Manoir Halliwell — `lieu-manoir` / socle `manor`",
+      "canon": "### 3.1 Manoir Halliwell — `lieu-manoir` / socle `manor`\n\n**Fiche pour l’Ange.** Maison familiale et ensemble d’espaces distincts. S01E15 associe son emplacement à un Nexus spirituel susceptible de servir le Bien ou le Mal, en lien avec cinq éléments. L’épisode rapporte une reconstruction après le séisme de 1906 ; ce récit ne fournit pas un plan architectural exploitable au centimètre. [S01]\n\n**Fonctionnement et exception.** Dans ce même épisode, la maison passe sous une influence hostile qui en interdit l’entrée aux sœurs. Il existe donc un précédent contraire à une protection inconditionnelle des propriétaires par leur demeure. L’effet appartient à cette situation magique, pas aux murs par défaut. [S01]\n\n**Conditions proposées.** Décrire les espaces concernés, occupants, accès et protections effectivement établis. Contrôle juridique, présence physique et maîtrise magique doivent être constatés séparément. Une intrusion ne prouve pas l’acquisition de tout le bâtiment.\n\n**Limites.** Aucun plan complet, temps de parcours fixe ni protection universelle contre la téléportation n’a été vérifié. La psychologie à considérer est celle des occupants et adversaires ; aucune volonté permanente du bâtiment n’est postulée.\n\n**Carte proposée — Manoir Halliwell**\n\n> Maison familiale des Halliwell, comprenant plusieurs pièces, un grenier et un sous-sol. Ses espaces, occupants et biens restent distincts.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:2",
+      "titre": "3.2 Grenier du manoir — `lieu-grenier` / socle `attic`",
+      "canon": "### 3.2 Grenier du manoir — `lieu-grenier` / socle `attic`\n\n**Fiche pour l’Ange.** Espace de rangement et de travail magique. Le début de S07E17 décrit son réaménagement par Leo, notamment le rangement des bouchons de fioles. S02E01 associe le grenier au Livre et à la manifestation de Penny. Ces scènes ne fixent pas un inventaire permanent. [S02, S05]\n\n**Conditions proposées.** Accès réel à la pièce ; disponibilité séparée du matériel, des documents et des personnes. La consultation et la préparation peuvent y être envisagées, mais le lieu ne connaît ni n’exécute une formule.\n\n**Variantes et limites.** Organisation matérielle modifiable ; présence du Livre à constater. Ne pas convertir un rangement en stock inépuisable, ni une manifestation de Penny en pouvoir d’invocation attaché au grenier. Aucun bonus propre à toute magie exécutée dans cette pièce n’a été établi.\n\n**Carte proposée — Grenier du manoir**\n\n> Pièce du manoir utilisée pour le rangement et le travail magique, où le Livre des Ombres est habituellement conservé. Son contenu dépend de la situation.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:3",
+      "titre": "3.3 Sous-sol et site du Nexus — `lieu-cave`",
+      "canon": "### 3.3 Sous-sol et site du Nexus — `lieu-cave`\n\n**Fiche pour l’Ange.** Le sous-sol est un espace matériel ; le Nexus est un pouvoir lié au site. S01E15 situe la manifestation du Woogyman dans la cave. [S01]\n\n**Mécanisme situé.** S07E17 distingue recherche du Nexus et libération de l’Ombre. L’occupation démoniaque ne suffit pas à la tentative tant que le Bien demeure présent. Leo, alors mortel, devient le réceptacle présenté comme neutre face à Zankou et au Pouvoir des Trois. C’est une exception documentée, pas une capacité générale conférée aux humains. [S02]\n\n**Contre-moyens et chronologie.** S07E22 différencie l’expulsion répétée hors de Zankou et le recours final destiné à détruire le Nexus. La séquence finale et ses dialogues étayent la destruction ; les images de l’effet n’ont pas été vérifiées. Ne pas rétablir ce pouvoir après l’épisode comme si rien ne s’était produit. [S03]\n\n**Conditions proposées.** Constater séparément accès au sous-sol, accès au site et opération magique. Pour un effet nouveau : vérifier identité de l’entité, procédé et situation. Ne pas transformer la seule occupation d’une pièce en absorption automatique.\n\n**Limites.** La terminologie Nexus/Ombre/Woogyman varie ; conserver les termes de chaque épisode. Le Hollow reste un autre objet d’étude. Aucun modèle exhaustif de choix du réceptacle ni recette transposable à toute circonstance n’est certifié.\n\n**Carte proposée — Sous-sol du manoir**\n\n> Espace inférieur du manoir abritant le site du Nexus. L’accès à cette pièce et la maîtrise du pouvoir qui lui est lié sont distincts.\n\n**Condition éditoriale.** Cette carte convient à une période où le Nexus existe encore. Après S07E22, remplacer sa seconde phrase par : « Le pouvoir du Nexus qui lui était lié a été détruit. » [S03] Ce remplacement concerne la période du scénario, pas une modification de la partie en cours.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:4",
+      "titre": "3.4 Buckland — `lieu-buckland`",
+      "canon": "### 3.4 Buckland — `lieu-buckland`\n\n**Fiche pour l’Ange.** Maison de ventes liée à l’activité professionnelle de Prue. S01E12 décrit expertise, lots et enchères autour d’un bracelet ; S01E13 nomme Buckland. La démission de Prue en S02E12 est confirmée par le synopsis Apple TV consulté. [S10, S13, S11]\n\n**Fonction et portée.** Un objet peut y être examiné ou vendu. L’intrigue du bracelet associe son examen à des recherches complémentaires : la provenance n’est pas automatiquement connue par la possession du lieu. [S10]\n\n**Conditions proposées.** Identifier le lot, le dossier ou le spécialiste concerné et l’accès possible à la période retenue. Après la démission, ne plus attribuer à Prue un accès d’employée par défaut ; son ancienne expertise reste une question distincte.\n\n**Limites.** La date de fermeture éventuelle du lieu n’est pas établie. La fin d’un emploi ne détruit pas l’entreprise. Aucun catalogue illimité d’artefacts magiques ni pouvoir d’authentification surnaturelle propre au bâtiment n’est documenté.\n\n**Carte proposée — Buckland**\n\n> Maison de ventes aux enchères, avec activité d’expertise et de présentation des lots. Les objets proposés et les dossiers disponibles dépendent de la période.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:5",
+      "titre": "3.5 Quake — `lieu-quake`",
+      "canon": "### 3.5 Quake — `lieu-quake`\n\n**Fiche pour l’Ange.** Restaurant où Piper exerce une fonction de responsable dans S01E12 : elle se présente comme manager lors d’une inspection, qui porte notamment sur la cuisine. Le contrôle illustre les contraintes civiles auxquelles le lieu reste soumis. [S10]\n\n**Chronologie.** S02E01 présente Piper sans emploi et cherchant à acheter un club. Ce repère ne suffit pas à établir la date exacte de sa démission de Quake, ni la disparition du restaurant. [S05]\n\n**Conditions proposées.** Distinguer accueil de la clientèle, cuisine et accès du personnel ; fixer horaires, personnes présentes et matériel dans la préparation du scénario. Une invitation n’assure pas le concours de tous les employés.\n\n**Limites.** Ni sanctuaire ni stock illimité d’ingrédients de potion. Aucun pouvoir intrinsèque du restaurant établi. Une inspection canonique ne crée pas automatiquement un événement identique dans une aventure originale.\n\n**Carte proposée — Quake**\n\n> Restaurant comportant une salle et une cuisine professionnelle. La fréquentation, le personnel et l’accès aux espaces de travail dépendent de la situation.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:6",
+      "titre": "3.6 P3 — nouvel identifiant proposé `lieu-p3` / socle `p3`",
+      "canon": "### 3.6 P3 — nouvel identifiant proposé `lieu-p3` / socle `p3`\n\n**Fiche pour l’Ange.** Club dirigé par Piper. S02E01 documente son projet d’achat avec un soutien financier de ses sœurs ; S02E04 confirme le nom P3, l’association des trois sœurs et l’accueil de concerts. Ne pas confondre le projet d’achat avec une date d’ouverture précise. [S05, S12]\n\n**Fonction et exception.** Public, artistes et organisation professionnelle peuvent coexister avec une menace surnaturelle : S02E04 place l’affaire Masselin dans le contexte d’un concert. Le P3 n’est donc pas un lieu garanti sans danger du fait de Piper. [S12]\n\n**Conditions proposées.** Horaires, accès du public et zones de service définis par le scénario. Le concours de Piper, d’un artiste ou d’un employé doit être établi séparément. Ne pas attribuer au lieu une influence automatique sur son public.\n\n**Limites.** Aucun calendrier universel ni capacité d’accueil chiffrée vérifiés. Les variantes ultérieures de gestion et d’enseigne restent à compléter avant une adaptation qui en dépend.\n\n**Carte proposée — P3**\n\n> Club de Piper accueillant du public et des concerts. Il comprend des espaces de rencontre et de travail liés à son activité.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:7",
+      "titre": "3.7 Bay Mirror — nouvel identifiant proposé `lieu-bay-mirror` / socle `bay-mirror`",
+      "canon": "### 3.7 Bay Mirror — nouvel identifiant proposé `lieu-bay-mirror` / socle `bay-mirror`\n\n**Fiche pour l’Ange.** Journal auquel est associée la chronique de conseils de Phoebe. Le nom du journal et cette association sont corroborés ici par un extrait secondaire ; le texte de S04E16 consulté décrit le journal et Elise sans employer « Bay Mirror ». Ne pas lui attribuer une vérification nominale qu’il ne fournit pas. [S14, S06]\n\n**Chronologie et fonctionnement.** Dans S04E16, Phoebe remplace Karen pour sa chronique ; la fin de l’épisode introduit la possibilité de son recrutement. Lettres reçues, rédaction et délai de publication sont des éléments professionnels concrets. [S06]\n\n**Conditions proposées.** Pour une carte de lieu, viser les bureaux, pas la totalité du réseau médiatique. L’accès à un bureau ne donne pas accès à toutes les archives ; lire une lettre et publier sont deux actes différents. La coopération de la rédaction n’est pas automatique.\n\n**Limites.** Liste des propriétaires et changements de poste non reconstitués. La description de carte ne doit pas ériger Phoebe en rédactrice en chef permanente. Elise du journal ne doit pas être confondue avec une innocente inventée dans un scénario antérieur.\n\n**Carte proposée — Bureaux du Bay Mirror**\n\n> Locaux de la rédaction du Bay Mirror, journal publiant la chronique de conseils de Phoebe. Documents de travail et courrier y sont liés aux activités de la rédaction.\n\n**Condition éditoriale.** Texte prévu pour une période où cette chronique existe ; vérifier l’emploi et l’identité utilisée par Phoebe si le scénario se déroule au début de la saison 8.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:8",
+      "titre": "3.8 École de magie — `lieu-ecole` / socle `magic-school`",
+      "canon": "### 3.8 École de magie — `lieu-ecole` / socle `magic-school`\n\n**Fiche pour l’Ange.** Institution dirigée par Gideon dans S06E14, avec enseignants, élèves et accès par une porte magique. L’épisode présente des protections qui empêchent les décapitations du Cavalier d’être mortelles à l’intérieur, contrairement à l’extérieur. Ce précédent ne démontre pas une invulnérabilité contre toute cause de mort. [S04]\n\n**Chronologie et variantes.** S07E17 organise le passage de direction de Paige à Leo. S07E22 montre que la protection d’accès est finalement franchie par Zankou après ses acquisitions de pouvoirs. Pour S08E02, l’occupation démoniaque n’a été vérifiée ici que par extraits de transcription et résumé : ne pas la présenter comme une scène directement consultée. [S02, S03, S09]\n\n**Conditions proposées.** Vérifier direction, occupants, protections et voie d’entrée à la date exacte. L’autorisation institutionnelle et la possibilité magique d’entrer sont distinctes ; ne pas imposer une permission administrative comme seule voie canonique possible.\n\n**Limites.** Aucun catalogue exhaustif des accès, bibliothèque complète, immunité universelle ou temps fixe d’apprentissage établi. Les détails de fermeture, reconquête et fonctionnement final en saison 8 restent à documenter.\n\n**Carte proposée — École de magie**\n\n> Établissement d’enseignement magique accessible par une entrée surnaturelle. Ses enseignants, ses ressources et ses protections dépendent de la période.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:9",
+      "titre": "3.9 Monde souterrain — `lieu-enfers`",
+      "canon": "### 3.9 Monde souterrain — `lieu-enfers`\n\n**Fiche pour l’Ange.** Domaine des forces démoniaques, avec pouvoirs et intérêts rivaux. S04E20 décrit l’autorité de Cole après son couronnement et la possibilité d’une révolte. La scène ne décrit donc pas une population automatiquement unanime. [S07]\n\n**Fonction et portée.** La fiche décrit un domaine général, pas un lieu tenu unique. Les dimensions, distances et accès entre repaires ne sont pas établis par les dialogues consultés. L’affirmation architecturale de l’ancienne fiche sur les cavernes n’est pas renforcée ici par des images : conserver son ancien niveau de preuve si elle est maintenue.\n\n**Conditions proposées.** Pour une ressource jouable, définir un repaire précis et un moyen d’accès cohérent. Déterminer occupants, allégeances, surveillance et portion réellement tenue. Aucune alliance de tous les démons ne découle de l’adresse.\n\n**Limites.** Pas de carte géographique exhaustive, de portail universel ni de règle imposant que chaque démon y réside. Ne pas assimiler ce domaine à la Décharge démoniaque.\n\n**Carte proposée — Repaire du monde souterrain**\n\n> Repaire situé dans le domaine démoniaque. Ses occupants, ses accès et les espaces effectivement disponibles sont précisés pour cette ressource.\n\n**Arbitrage de forme.** Ce titre particularise la carte générique existante ; le repaire doit être défini dans la préparation avant toute distribution. À défaut, garder « Monde souterrain » comme connaissance de contexte seulement.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:10",
+      "titre": "3.10 Régions supérieures — `lieu-regions-superieures`",
+      "canon": "### 3.10 Régions supérieures — `lieu-regions-superieures`\n\n**Fiche pour l’Ange.** Domaine associé aux Fondateurs. S03E01 rapporte le séjour de Piper avec Leo : pour elle, environ une journée, contre un mois écoulé pour ses sœurs ; ses souvenirs deviennent flous après le retour. L’épisode mentionne leur départ par éclipse. Il s’agit d’un précédent vécu, pas d’un coefficient temporel permanent. [S08]\n\n**Fonction et limites.** Piper évoque les décisions des Fondateurs concernant sa relation. Elle exprime une impression sur l’effacement des souvenirs ; le dossier ne certifie pas un mécanisme automatique d’amnésie. Aucun droit universel d’audience ou de transport autonome n’est établi.\n\n**Conditions proposées.** Vérifier le voyageur, son accompagnateur, le moyen de transport et la situation des Fondateurs. Le décalage temporel d’un voyage doit être examiné avant de lui attribuer des conséquences de calendrier ; aucun ratio arbitraire n’est ajouté.\n\n**Carte proposée — Régions supérieures**\n\n> Domaine des Fondateurs, accessible dans des circonstances particulières. Le séjour peut différer de l’expérience ordinaire du temps.\n\n**Arbitrage de forme.** Une connaissance du domaine ne donne pas son contrôle à un camp. N’en faire une ressource que si l’accès ou l’espace utilisable est effectivement défini. Le bulletin des Fondateurs reste une convention du jeu distincte.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "lieux:11",
+      "titre": "3.11 Décharge démoniaque — `lieu-decharge`",
+      "canon": "### 3.11 Décharge démoniaque — `lieu-decharge`\n\n**Fiche pour l’Ange.** S04E22 présente un espace où aboutit l’essence des démons vaincus, dévorée par une créature. Cole explique son maintien exceptionnel par son âme ; Phoebe l’atteint par un sort et doit être rappelée alors qu’elle est en danger. Le même épisode lui fait ensuite attribuer sa présence auprès d’elle à de nouveaux pouvoirs. [S10b]\n\n**Variante et contre-moyen.** Le rappel de Phoebe est un précédent de retrait du danger, pas une garantie pour tout visiteur. La proposition de résurrection faite par Cole n’est pas une recette exécutée et validée dans cette scène. [S10b]\n\n**Conditions proposées.** Établir le mécanisme de visite ou de contact, sa portée et une éventuelle possibilité de retour. La carte ne distribue ni pouvoirs récupérés ni résurrection.\n\n**Limites.** La transcription sans indications visuelles ne suffit pas à détailler le geste exact de collecte des pouvoirs, leur liste, ni la nature physique ou astrale de chaque apparition. Première apparition exacte et autres épisodes à recouper si nécessaires. Ne pas généraliser le cas de Cole à tous les morts.\n\n**Carte proposée — Décharge démoniaque**\n\n> Espace où une créature dévore l’essence des démons vaincus. Un lieu dangereux, dont l’accès et le retour demandent des moyens particuliers.\n\n**Arbitrage de forme.** À conserver comme lieu de contexte tant qu’un accès jouable précis n’a pas été établi.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    }
+  ]
+}

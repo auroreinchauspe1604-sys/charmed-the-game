@@ -1,0 +1,17 @@
+/* base.css — les jetons de couleur et la typographie que partie.css attend.
+   Repris de jeu.css du dépôt d'origine, réduits à ce que le plateau lit. */
+:root{
+  --ink:#2b2119; --muted:#7a6a55; --paper:rgba(120,90,50,.07);
+  --bord:rgba(110,85,50,.35); --accent:#a34a22; --braise:#c9683a;
+  --btn:rgba(120,90,50,.10); --btn-hover:rgba(163,74,34,.14); --fond:#f4eee2;
+  --sang:#8f1f1f; --vert:#3f7040; --or-joueur:#c8a020;
+}
+html,body{margin:0;background:var(--fond);color:var(--ink);
+  font-family:Georgia,'Times New Roman',serif;line-height:1.6;font-size:17px;}
+.vue-off{display:none !important;}
+#cartes{min-height:100vh;display:flex;flex-direction:column;}
+#partie{flex:1 1 auto;}
+header.lm{display:flex;gap:14px;align-items:baseline;padding:8px 16px;border-bottom:1px solid var(--bord);}
+header.lm h1{font-size:1.1em;margin:0;font-weight:normal;}
+header.lm a{color:var(--accent);}
+header.lm .lm-liens{margin-left:auto;font-size:.85em;}

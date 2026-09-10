@@ -1,0 +1,17 @@
+{
+  "fiches": 44,
+  "cartes": 44,
+  "sourcesFiches": 68,
+  "episodesDistincts": 61,
+  "correspondancesExistantes": 6,
+  "idsUniques": true,
+  "sourcesResolues": true,
+  "episodesDansIndex": true,
+  "validationCanonique": "non_effectuee_par_les_controles_structurels",
+  "fichiers": {
+    "CATALOGUE_ORGANISATIONS.tsv": "3c46ac8fcc07b57f74f247e03feaa28467db939643bf61b5a4c1d0a0b9b14835",
+    "construire.py": "b7eee472c47dd0ec595b7a57dcbfe829b5db70ef9106814e297c054f8d331dd2",
+    "organisations.json": "962a729db205852ef840a73bb025d2bd517755102adf06b747b0c2b95c91f697",
+    "PROPOSITION_A_INTEGRER.md": "b03dc41086cffa115134bf962b111647f0ded9fa38002d4285ef4c6864ea2b7d"
+  }
+}

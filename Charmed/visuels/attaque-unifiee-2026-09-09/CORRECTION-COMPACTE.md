@@ -1,0 +1,12 @@
+# Correction : attaque compacte
+
+Demande la plus récente : ne pas consommer une colonne complète. Nouvelle proposition 03-attaque-compacte.png : petit encadré à droite près séparation, cible puis micro-cartes, échéance et détail au clic. Les anciennes propositions de panneau horizontal extensible et de colonne pleine hauteur sont rejetées, non applicables.
+
+Image illustrative uniquement. Les cartes Piper/Potion/Éclaireur, 2/3 et J9 sont exemples ; disponibilité dupliquée dans mains par générateur, ne fait pas foi. Aucun code ni mécanique modifiés. Capacité multi-attaques et plus de trois moyens non vérifiée. La lisibilité des micro-cartes est à apprécier à taille réelle, détails au clic.
+
+Outil image_gen, prompt :
+
+Precise edit of original reference game layout. Keep resources on left and EXACT original small attack boxes at far RIGHT near middle seam, all other geometry unchanged. User rejects any full-height attack column. NO reserved full-height column, no new vertical divider, no widening the attack boxes. Attic extends all the way to right edge behind and above/below compact boxes.
+Keep upper empty attack box exactly as in reference: small cream rectangle with 'Attaques' and copper plus.
+Replace ONLY lower empty attack box at x79.5-85.5%, y56-71% of whole screenshot with COMPACT ACTIVE card pocket. Can increase its HEIGHT slightly to end y78%, keep SAME WIDTH x79.5-85.5%. It stays fully inside existing far-right playing margin, all surrounding attic remains visible. Header tiny 'Attaque'. Target BLUE small horizontal card named 'Éclaireur' width 80% box near top, height ~25 px relative whole screenshot. Below tiny label 'Moyens 2/3'. Three micro tiles in a row, BLUE 'Piper', BLUE 'Potion', dashed '+', fit exact box width with minimal margins. Bottom small 'J9' and a little 'Détail' link. No long title, no paragraphs, no big Cible heading, no giant calendar block, no separate full-width button, no extra ornaments. Target and each resource still discrete mini cards. This is example not real gameplay state. Whole attack pocket maximum 7% screen width and 22% height, not larger. Resources LEFT keep their same width; objectives and yellow cards remain unchanged, no new blank reserve columns. Both camps and all four outer panels fully visible. The green state roots face center; all gameplay area except two small pockets remains available. Preserve warm attic and parchment green leather style. Bottom band 'Les sœurs Halliwell · En attente', remove bottom À vous de jouer. Full landscape desktop matching reference.
+

@@ -1,0 +1,13 @@
+Outil : image_gen intégré. Fond PNG avec emplacements et textes permanents. Aucun code modifié.
+Generate ONE production UI background template for the compact attack area of a French Charmed game. This is the standalone parchment asset, not a screenshot, not a popup and not an explanatory slide. Portrait-ish panel aspect ratio 4:5. Warm ivory aged parchment with subtle natural paper grain, thin antique brown gold double border, restrained tiny corner flourishes. Panel fills canvas to edges. No surrounding leather, no exterior shadow, no close cross. Interior type dark brown elegant readable serif. Exact PERMANENT TEXT ONLY:
+top centered heading "Attaque"
+top row left heading "Cible"
+top row over remaining three columns heading "Moyens d’attaque"
+second row small left label "Renfort"
+second row small right label "Verrou"
+third row centered label "Réponses de l’attaquant"
+bottom left label "Exécution :"
+NO other text. In particular no "en cours", no date, no J9, no numbers, no 2/3, no character names, no example captions, no plus symbols, no buttons, no logo, no filled resource cards.
+LAYOUT CRITICAL: Four evenly aligned small portrait card-sized EMPTY slots across FIRST ROW. Column 1 is target, columns 2,3,4 are attacking means. These are only faint dashed warm-brown outline rectangles with plain parchment interior, NOT blue card art, NO icons. Thin short vertical divider between column 1 and columns 2-4.
+SECOND ROW: TWO empty card-sized dashed outline slots only, one directly beneath FIRST column target, labelled "Renfort"; one directly beneath THIRD column attacking means, labelled "Verrou". Connect first-row column1 to second-row column1 with short dotted vertical line; connect first-row column3 to second-row column3 similarly.
+THIRD ROW below label "Réponses de l’attaquant": TWO empty card-sized dashed outline slots, directly beneath each of the two second-row defense slots, with short dotted vertical connections. Exactly EIGHT empty slots in total: 4 top, 2 middle, 2 bottom. Blank area in columns2 and4 on middle/bottom stays parchment. All slots same size, generous separation of labels and outlines. Bottom footer "Exécution :" leaves wide blank area for game-generated date. No dynamic game content baked in. Beautiful subtle compact functional grimoire-paper template with genuinely useful clear positions for the future cards.

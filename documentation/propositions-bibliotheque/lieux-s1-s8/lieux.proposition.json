@@ -1,0 +1,833 @@
+{
+  "id": "lieux-s1-s8",
+  "version": 1,
+  "date": "2026-09-08",
+  "status": "proposition_documentaire_non_integree",
+  "scope": "Série originale, saisons 1 à 8 ; sélection de lieux prioritaires, non exhaustive.",
+  "sources": {
+    "T0115": {
+      "episode": "S01E15",
+      "title": "Is There a Woogy in the House?",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e15&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Cave ; étude des cinq éléments ; maison sous influence hostile. Lecture dans cette recherche.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e15&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Cave ; étude des cinq éléments ; maison sous influence hostile. Lecture dans cette recherche."
+    },
+    "T0717": {
+      "episode": "S07E17",
+      "title": "Scry Hard",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Rangement par Leo ; recherche du Nexus ; neutralité de Leo mortel ; offre de direction de l’école. Lecture dans la session.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Rangement par Leo ; recherche du Nexus ; neutralité de Leo mortel ; offre de direction de l’école. Lecture dans la session."
+    },
+    "T0722": {
+      "episode": "S07E22",
+      "title": "Something Wicca This Way Goes...?",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e22&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Entrée de Zankou à l’école ; Suxen ; expulsion et destruction du Nexus. Lecture dans la session.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e22&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Entrée de Zankou à l’école ; Suxen ; expulsion et destruction du Nexus. Lecture dans la session."
+    },
+    "T0201": {
+      "episode": "S02E01",
+      "title": "Witch Trial",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e01&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage. Reprise d’une consultation antérieure de la session, corroborée par le corpus intégré.",
+      "repere": "Projet de club ; soutien financier des sœurs ; Penny et Livre au grenier.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e01&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Reprise d’une consultation antérieure de la session, corroborée par le corpus intégré. Repère : Projet de club ; soutien financier des sœurs ; Penny et Livre au grenier."
+    },
+    "T0204": {
+      "episode": "S02E04",
+      "title": "The Devil’s Music",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e04&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage. Reprise d’une consultation antérieure de la session.",
+      "repere": "Concert Dishwalla au P3 ; explication de Leo concernant Masselin.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e04&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Reprise d’une consultation antérieure de la session. Repère : Concert Dishwalla au P3 ; explication de Leo concernant Masselin."
+    },
+    "T0112": {
+      "episode": "S01E12",
+      "title": "The Wendigo",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e12&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Bracelet, Claire, vente ; inspection de Quake, Piper manager, cuisine (vers lignes 329–347).",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e12&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Bracelet, Claire, vente ; inspection de Quake, Piper manager, cuisine (vers lignes 329–347)."
+    },
+    "T0416": {
+      "episode": "S04E16",
+      "title": "The Fifth Halliwheel",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e16&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Chronique de Karen à livrer à 20 h ; Elise ; discussion finale d’emploi. Le nom Bay Mirror n’est pas établi par ce texte.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e16&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Chronique de Karen à livrer à 20 h ; Elise ; discussion finale d’emploi. Le nom Bay Mirror n’est pas établi par ce texte."
+    },
+    "T0614": {
+      "episode": "S06E14",
+      "title": "The Legend of Sleepy Halliwell",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e14&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Tête de Sigmund ; corps restant dans l’enceinte ; porte et protection contre le mal.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e14&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Tête de Sigmund ; corps restant dans l’enceinte ; porte et protection contre le mal."
+    },
+    "X0621": {
+      "episode": "S06E21",
+      "title": "Witch Wars",
+      "url": "https://charmed.fandom.com/wiki/Witch_Wars_%28episode%29/Script",
+      "niveau": "Extrait indexé étendu d’une transcription non officielle ; accès direct non certifié.",
+      "repere": "Scène finale explicitement située dans le bureau de Gideon : Sigmund veut prévenir les sœurs ; Gideon le fait exploser.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://charmed.fandom.com/wiki/Witch_Wars_%28episode%29/Script"
+      ],
+      "evidence": "Extrait indexé étendu d’une transcription non officielle ; accès direct non certifié. Repère : Scène finale explicitement située dans le bureau de Gideon : Sigmund veut prévenir les sœurs ; Gideon le fait exploser."
+    },
+    "T0420": {
+      "episode": "S04E20",
+      "title": "Long Live the Queen",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e20&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Cole évoque une révolte du monde souterrain si les démons pensent qu’il joue sur les deux tableaux, vers lignes 289–291.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e20&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Cole évoque une révolte du monde souterrain si les démons pensent qu’il joue sur les deux tableaux, vers lignes 289–291."
+    },
+    "T0301": {
+      "episode": "S03E01",
+      "title": "The Honeymoon’s Over",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e01&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Piper : impression d’une journée ; ses sœurs : un mois ; souvenirs devenant flous au retour.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e01&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Piper : impression d’une journée ; ses sœurs : un mois ; souvenirs devenant flous au retour."
+    },
+    "T0422": {
+      "episode": "S04E22",
+      "title": "Witch Way Now?",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e22&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Cole explique la Décharge et sa survie ; visite de Phoebe, rappel ; nouveaux pouvoirs de Cole.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e22&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Cole explique la Décharge et sa survie ; visite de Phoebe, rappel ; nouveaux pouvoirs de Cole."
+    },
+    "T0601": {
+      "episode": "S06E01",
+      "title": "Valhalley of the Dolls — Part 1",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e01&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Chris décrit Valkyries et guerriers ; éclipse détectable ; pendentif ; Leo gardé, vers lignes 394–412.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e01&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Chris décrit Valkyries et guerriers ; éclipse détectable ; pendentif ; Leo gardé, vers lignes 394–412."
+    },
+    "X0404": {
+      "episode": "S04E04",
+      "title": "Enter the Demon",
+      "url": "https://charmed.fandom.com/wiki/Enter_the_Demon/Script",
+      "niveau": "Extraits indexés étendus de transcription non officielle ; tentative Springfield en erreur ; pas lecture directe intégrale.",
+      "repere": "Explications Leo/An-Ling : blessure suspendue, eau, bol trop petit ; nuages ; arrivée des sœurs et pouvoirs amplifiés.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://charmed.fandom.com/wiki/Enter_the_Demon/Script"
+      ],
+      "evidence": "Extraits indexés étendus de transcription non officielle ; tentative Springfield en erreur ; pas lecture directe intégrale. Repère : Explications Leo/An-Ling : blessure suspendue, eau, bol trop petit ; nuages ; arrivée des sœurs et pouvoirs amplifiés."
+    },
+    "T0314": {
+      "episode": "S03E14",
+      "title": "The Good, the Bad and the Cursed",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e14&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Livre : injustice et boucle ; Cole : plan superposé ; lien Bo/Phoebe ; sortir Bo ne suffit pas, vers ligne 494.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e14&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Livre : injustice et boucle ; Cole : plan superposé ; lien Bo/Phoebe ; sortir Bo ne suffit pas, vers ligne 494."
+    },
+    "X0310a": {
+      "episode": "S03E10",
+      "title": "We All Scream for Ice Cream — The Nothing",
+      "url": "https://charmed.fandom.com/wiki/The_Nothing",
+      "niveau": "Extrait indexé de notice secondaire uniquement.",
+      "repere": "Force située dans une dimension de poche reliée au camion.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://charmed.fandom.com/wiki/The_Nothing"
+      ],
+      "evidence": "Extrait indexé de notice secondaire uniquement. Repère : Force située dans une dimension de poche reliée au camion."
+    },
+    "X0310b": {
+      "episode": "S03E10",
+      "title": "We All Scream for Ice Cream — Plot",
+      "url": "https://charmed.fandom.com/wiki/We_All_Scream_for_Ice_Cream/Plot",
+      "niveau": "Extraits indexés de résumé secondaire uniquement ; ouverture du script en erreur.",
+      "repere": "Enfants pris à tort pour des innocents ; sacrifice du marchand permettant la sortie de Prue et Victor.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://charmed.fandom.com/wiki/We_All_Scream_for_Ice_Cream/Plot"
+      ],
+      "evidence": "Extraits indexés de résumé secondaire uniquement ; ouverture du script en erreur. Repère : Enfants pris à tort pour des innocents ; sacrifice du marchand permettant la sortie de Prue et Victor."
+    },
+    "T0622": {
+      "episode": "S06E22",
+      "title": "It’s a Bad, Bad, Bad, Bad World — Part 1",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e22&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Portail vers monde parallèle inversé, Leo/Chris et doubles (vers 258–275) ; équilibre et présence des deux groupes.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e22&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Portail vers monde parallèle inversé, Leo/Chris et doubles (vers 258–275) ; équilibre et présence des deux groupes."
+    },
+    "T0203": {
+      "episode": "S02E03",
+      "title": "The Painted World",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e03&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Malcolm raconte Nell et 70 ans ; Prue peut dévier des projectiles mais pas se soulever hors du monde ; transfert du tableau ressenti ; libération, récit de Malcolm suspect.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e03&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Malcolm raconte Nell et 70 ans ; Prue peut dévier des projectiles mais pas se soulever hors du monde ; transfert du tableau ressenti ; libération, récit de Malcolm suspect."
+    },
+    "T0606": {
+      "episode": "S06E06",
+      "title": "My Three Witches",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e06&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Gith absorbe énergie des désirs ; vortex ; lien émotionnel comme conduit (504–517) ; échec de l’appel de l’athamé chez Piper (527).",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e06&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Gith absorbe énergie des désirs ; vortex ; lien émotionnel comme conduit (504–517) ; échec de l’appel de l’athamé chez Piper (527)."
+    },
+    "T0619": {
+      "episode": "S06E19",
+      "title": "Crimes and Witch-Demeanors",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e19&tv-show=charmed",
+      "niveau": "Passages de transcription non officielle consultés ; pas de visionnage.",
+      "repere": "Gideon conduit les sœurs ; convocation, conseil mixte ; temps accéléré seulement pour exécution de Darryl (135–179).",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e19&tv-show=charmed"
+      ],
+      "evidence": "Passages de transcription non officielle consultés ; pas de visionnage. Repère : Gideon conduit les sœurs ; convocation, conseil mixte ; temps accéléré seulement pour exécution de Darryl (135–179)."
+    },
+    "LIEUX": {
+      "episode": "LOCAL",
+      "title": "Corpus des 11 lieux déjà intégré",
+      "url": "Charmed/canon/contributions-integrees/lieux.json",
+      "niveau": "Fichier local lu ; constat documentaire du projet, pas nouvelle preuve audiovisuelle.",
+      "repere": "Fiches lieux:1 à lieux:11 et registre S01–S14. Sert notamment au nom Bay Mirror, au départ de Buckland et aux variantes non revérifiées.",
+      "dateConsultation": "2026-09-08",
+      "visionnage": false,
+      "urls": [
+        "Charmed/canon/contributions-integrees/lieux.json"
+      ],
+      "evidence": "Fichier local lu ; constat documentaire du projet, pas nouvelle preuve audiovisuelle. Repère : Fiches lieux:1 à lieux:11 et registre S01–S14. Sert notamment au nom Bay Mirror, au départ de Buckland et aux variantes non revérifiées."
+    }
+  },
+  "fiches": [
+    {
+      "id": "lieux-s1-s8:manoir",
+      "nom": "Manoir Halliwell",
+      "rapprochement": "lieux:1 / lieu-manoir / manor",
+      "episodes": [
+        "S01E15",
+        "S07E22"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Maison familiale composée de plusieurs espaces ; l’emplacement est associé à un Nexus spirituel dans S01E15. [T0115]",
+        "fonctionnement": "L’étude des cinq éléments relie le pouvoir au site. L’influence hostile du Woogyman peut retourner la maison contre les sœurs et leur interdire d’entrer. Ce précédent ne décrit pas une volonté permanente des murs. [T0115]",
+        "variantesEtChronologie": "Le bâtiment et le pouvoir lié au sous-sol n’ont pas une histoire identique : la destruction du Nexus en S07E22 n’équivaut pas à la disparition du lieu familial. [T0722]",
+        "limitesEtIncertitudes": "Aucun plan métrique complet ni immunité universelle des occupants n’est certifié ici. Protection, propriété et occupation ne sont pas synonymes. La psychologie pertinente est celle des occupants."
+      },
+      "applicationProposee": "Contexte par défaut. Une carte séparée se justifie si une propriété du bâtiment ou un accès disputé est déterminant ; traverser ses pièces n’impose pas de clé supplémentaire.",
+      "carte": {
+        "nom": "Manoir Halliwell",
+        "description": "Maison familiale des Halliwell, avec plusieurs pièces, un grenier et un sous-sol."
+      },
+      "sources": [
+        "T0115",
+        "T0722"
+      ],
+      "titre": "Manoir Halliwell",
+      "canon": "Maison familiale composée de plusieurs espaces ; l’emplacement est associé à un Nexus spirituel dans S01E15. [T0115]\n\nL’étude des cinq éléments relie le pouvoir au site. L’influence hostile du Woogyman peut retourner la maison contre les sœurs et leur interdire d’entrer. Ce précédent ne décrit pas une volonté permanente des murs. [T0115]\n\nLe bâtiment et le pouvoir lié au sous-sol n’ont pas une histoire identique : la destruction du Nexus en S07E22 n’équivaut pas à la disparition du lieu familial. [T0722]\n\nAucun plan métrique complet ni immunité universelle des occupants n’est certifié ici. Protection, propriété et occupation ne sont pas synonymes. La psychologie pertinente est celle des occupants.",
+      "limites": "Aucun plan métrique complet ni immunité universelle des occupants n’est certifié ici. Protection, propriété et occupation ne sont pas synonymes. La psychologie pertinente est celle des occupants."
+    },
+    {
+      "id": "lieux-s1-s8:grenier",
+      "nom": "Grenier du manoir",
+      "rapprochement": "lieux:2 / lieu-grenier / attic",
+      "episodes": [
+        "S02E01",
+        "S07E17"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Espace de travail magique et de rangement associé au Livre et à la famille. [T0201]",
+        "fonctionnement": "Le réaménagement par Leo et les bouchons de fioles illustrent une organisation matérielle modifiable. Le lieu ne se confond pas avec le matériel ou les textes qu’il contient. [T0717]",
+        "variantesEtChronologie": "Le Livre et une manifestation de Penny apparaissent dans le contexte du grenier en S02E01 ; cette scène ne fixe pas un inventaire perpétuel. [T0201]",
+        "limitesEtIncertitudes": "Ni stock illimité ni amplification de toute magie dans cette pièce démontrés par les passages étudiés. Un précédent de manifestation n’établit pas un service automatique d’invocation."
+      },
+      "applicationProposee": "Contexte du manoir ; ne créer une ressource supplémentaire que si une propriété concrète du grenier joue un rôle déterminant.",
+      "carte": {
+        "nom": "Grenier du manoir",
+        "description": "Pièce du manoir consacrée au rangement et au travail magique, où le Livre des Ombres est habituellement conservé."
+      },
+      "sources": [
+        "T0201",
+        "T0717"
+      ],
+      "titre": "Grenier du manoir",
+      "canon": "Espace de travail magique et de rangement associé au Livre et à la famille. [T0201]\n\nLe réaménagement par Leo et les bouchons de fioles illustrent une organisation matérielle modifiable. Le lieu ne se confond pas avec le matériel ou les textes qu’il contient. [T0717]\n\nLe Livre et une manifestation de Penny apparaissent dans le contexte du grenier en S02E01 ; cette scène ne fixe pas un inventaire perpétuel. [T0201]\n\nNi stock illimité ni amplification de toute magie dans cette pièce démontrés par les passages étudiés. Un précédent de manifestation n’établit pas un service automatique d’invocation.",
+      "limites": "Ni stock illimité ni amplification de toute magie dans cette pièce démontrés par les passages étudiés. Un précédent de manifestation n’établit pas un service automatique d’invocation."
+    },
+    {
+      "id": "lieux-s1-s8:nexus",
+      "nom": "Sous-sol du manoir et site du Nexus",
+      "rapprochement": "lieux:3 / lieu-cave",
+      "episodes": [
+        "S01E15",
+        "S07E17",
+        "S07E22"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Le sous-sol est une pièce ; le Nexus désigne un pouvoir lié au site. Le Woogyman s’y manifeste en S01E15. [T0115]",
+        "fonctionnement": "Dans S07E17, la présence persistante du Bien contrarie la tentative de Zankou. Leo, mortel à cette période, sert de réceptacle présenté comme neutre. Occuper la maison n’entraîne donc pas automatiquement l’absorption. [T0717]",
+        "variantesEtChronologie": "S07E22 distingue expulsion de l’Ombre et destruction finale du Nexus. Cette destruction doit être conservée dans une période postérieure. [T0722]",
+        "limitesEtIncertitudes": "Nexus, Ombre et Woogyman demandent une terminologie située ; le Hollow est distinct. Le cas de Leo ne certifie pas une règle universelle pour tous les humains. Mécanisme visuel non visionné."
+      },
+      "applicationProposee": "Adapter la carte à la période ; préserver l’accès ordinaire au sous-sol sans lui attacher une opération magique obligatoire.",
+      "carte": {
+        "nom": "Sous-sol du manoir et site du Nexus",
+        "description": "Sous-sol du manoir lié au site d’un Nexus spirituel, pouvoir susceptible de servir le Bien ou le Mal.",
+        "varianteApresS07E22": "Sous-sol du manoir, ancien site du Nexus spirituel détruit."
+      },
+      "sources": [
+        "T0115",
+        "T0717",
+        "T0722"
+      ],
+      "titre": "Sous-sol du manoir et site du Nexus",
+      "canon": "Le sous-sol est une pièce ; le Nexus désigne un pouvoir lié au site. Le Woogyman s’y manifeste en S01E15. [T0115]\n\nDans S07E17, la présence persistante du Bien contrarie la tentative de Zankou. Leo, mortel à cette période, sert de réceptacle présenté comme neutre. Occuper la maison n’entraîne donc pas automatiquement l’absorption. [T0717]\n\nS07E22 distingue expulsion de l’Ombre et destruction finale du Nexus. Cette destruction doit être conservée dans une période postérieure. [T0722]\n\nNexus, Ombre et Woogyman demandent une terminologie située ; le Hollow est distinct. Le cas de Leo ne certifie pas une règle universelle pour tous les humains. Mécanisme visuel non visionné.",
+      "limites": "Nexus, Ombre et Woogyman demandent une terminologie située ; le Hollow est distinct. Le cas de Leo ne certifie pas une règle universelle pour tous les humains. Mécanisme visuel non visionné."
+    },
+    {
+      "id": "lieux-s1-s8:p3",
+      "nom": "P3",
+      "rapprochement": "lieux:6 / lieu-p3 / p3",
+      "episodes": [
+        "S02E01",
+        "S02E04"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Club dirigé par Piper, lié au projet d’achat soutenu par ses sœurs. [T0201]",
+        "fonctionnement": "Accueil de concerts et de public ; le concert de Dishwalla sert de cadre à l’affaire Masselin. Le rôle protecteur de Piper ne rend pas ce lieu inviolable. [T0204]",
+        "variantesEtChronologie": "Le projet de S02E01 et le P3 nommé en S02E04 sont des repères distincts ; ils ne donnent pas une date d’ouverture au jour près. [T0201, T0204]",
+        "limitesEtIncertitudes": "Gestion ultérieure et enseignes temporaires non étudiées ici. Pas de capacité d’accueil chiffrée ni d’influence mentale attachée au bâtiment établie."
+      },
+      "applicationProposee": "Contexte social et professionnel ; une propriété du lieu doit compter pour en faire une ressource. La présence de Piper découle de la situation, sans exiger une carte pour chaque déplacement.",
+      "carte": {
+        "nom": "P3",
+        "description": "Club de Piper accueillant du public et des concerts, avec des espaces de rencontre et de travail."
+      },
+      "sources": [
+        "T0201",
+        "T0204"
+      ],
+      "titre": "P3",
+      "canon": "Club dirigé par Piper, lié au projet d’achat soutenu par ses sœurs. [T0201]\n\nAccueil de concerts et de public ; le concert de Dishwalla sert de cadre à l’affaire Masselin. Le rôle protecteur de Piper ne rend pas ce lieu inviolable. [T0204]\n\nLe projet de S02E01 et le P3 nommé en S02E04 sont des repères distincts ; ils ne donnent pas une date d’ouverture au jour près. [T0201, T0204]\n\nGestion ultérieure et enseignes temporaires non étudiées ici. Pas de capacité d’accueil chiffrée ni d’influence mentale attachée au bâtiment établie.",
+      "limites": "Gestion ultérieure et enseignes temporaires non étudiées ici. Pas de capacité d’accueil chiffrée ni d’influence mentale attachée au bâtiment établie."
+    },
+    {
+      "id": "lieux-s1-s8:buckland",
+      "nom": "Buckland",
+      "rapprochement": "lieux:4 / lieu-buckland",
+      "episodes": [
+        "S01E12",
+        "S02E12"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Maison de ventes associée au travail de Prue dans le corpus intégré. [LIEUX]",
+        "fonctionnement": "L’affaire du bracelet montre expertise, présentation de lots, acheteurs et recherches de provenance ; l’établissement ne connaît pas magiquement tout le passé d’un objet. [T0112]",
+        "variantesEtChronologie": "Le corpus intégré rapporte la démission de Prue en S02E12 à partir d’un synopsis de distributeur. Ce détail n’a pas été revérifié en ligne pour ce lot. [LIEUX]",
+        "limitesEtIncertitudes": "La fin de l’emploi de Prue ne prouve ni fermeture de Buckland ni perte de son expertise. Identité des lots et archives dépend de la période ; inventaire magique infini non établi."
+      },
+      "applicationProposee": "Enrichissement éditorial de la fiche existante, pas nouveau lieu. L’accès ordinaire ne devient pas une chaîne de clés ; un dossier précis ou un accès refusé peut être déterminant.",
+      "carte": {
+        "nom": "Buckland",
+        "description": "Maison de ventes aux enchères assurant l’expertise et la présentation de lots et de leurs dossiers."
+      },
+      "sources": [
+        "LIEUX",
+        "T0112"
+      ],
+      "titre": "Buckland",
+      "canon": "Maison de ventes associée au travail de Prue dans le corpus intégré. [LIEUX]\n\nL’affaire du bracelet montre expertise, présentation de lots, acheteurs et recherches de provenance ; l’établissement ne connaît pas magiquement tout le passé d’un objet. [T0112]\n\nLe corpus intégré rapporte la démission de Prue en S02E12 à partir d’un synopsis de distributeur. Ce détail n’a pas été revérifié en ligne pour ce lot. [LIEUX]\n\nLa fin de l’emploi de Prue ne prouve ni fermeture de Buckland ni perte de son expertise. Identité des lots et archives dépend de la période ; inventaire magique infini non établi.",
+      "limites": "La fin de l’emploi de Prue ne prouve ni fermeture de Buckland ni perte de son expertise. Identité des lots et archives dépend de la période ; inventaire magique infini non établi."
+    },
+    {
+      "id": "lieux-s1-s8:quake",
+      "nom": "Quake",
+      "rapprochement": "lieux:5 / lieu-quake",
+      "episodes": [
+        "S01E12",
+        "S02E01"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Restaurant où Piper se présente comme responsable lors de l’inspection sanitaire de S01E12. [T0112]",
+        "fonctionnement": "La scène distingue cuisine et activité professionnelle, soumises à un contrôle civil. Aucun pouvoir intrinsèque du restaurant n’en découle. [T0112]",
+        "variantesEtChronologie": "S02E01 présente Piper sans emploi et porteuse d’un projet de club ; cela ne date pas exactement son départ de Quake et ne prouve pas sa fermeture. [T0201]",
+        "limitesEtIncertitudes": "Menus complets, horaires permanents et disponibilité de tous les ingrédients non étudiés. Les équipements culinaires ne constituent pas à eux seuls un stock de potions prêtes."
+      },
+      "applicationProposee": "Lieu de contexte ; proposer une carte seulement si ses moyens matériels ou son accès sont déterminants dans l’action.",
+      "carte": {
+        "nom": "Quake",
+        "description": "Restaurant doté d’une salle et d’une cuisine professionnelle."
+      },
+      "sources": [
+        "T0112",
+        "T0201"
+      ],
+      "titre": "Quake",
+      "canon": "Restaurant où Piper se présente comme responsable lors de l’inspection sanitaire de S01E12. [T0112]\n\nLa scène distingue cuisine et activité professionnelle, soumises à un contrôle civil. Aucun pouvoir intrinsèque du restaurant n’en découle. [T0112]\n\nS02E01 présente Piper sans emploi et porteuse d’un projet de club ; cela ne date pas exactement son départ de Quake et ne prouve pas sa fermeture. [T0201]\n\nMenus complets, horaires permanents et disponibilité de tous les ingrédients non étudiés. Les équipements culinaires ne constituent pas à eux seuls un stock de potions prêtes.",
+      "limites": "Menus complets, horaires permanents et disponibilité de tous les ingrédients non étudiés. Les équipements culinaires ne constituent pas à eux seuls un stock de potions prêtes."
+    },
+    {
+      "id": "lieux-s1-s8:bay-mirror",
+      "nom": "Bureaux du Bay Mirror",
+      "rapprochement": "lieux:7 / lieu-bay-mirror / bay-mirror",
+      "episodes": [
+        "S04E16"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Locaux du journal associé à la chronique de Phoebe ; le nom Bay Mirror est repris du corpus intégré, pas établi par le texte Springfield de S04E16. [LIEUX]",
+        "fonctionnement": "S04E16 montre Phoebe rédiger la chronique de Karen sous délai, en lien avec Elise. Lettres, rédaction et publication sont des activités professionnelles, pas des pouvoirs du lieu. [T0416]",
+        "variantesEtChronologie": "L’épisode amorce le recrutement de Phoebe ; les étapes ultérieures de sa carrière et les déménagements éventuels restent hors de cette reprise. [T0416]",
+        "limitesEtIncertitudes": "Un bureau ne donne pas accès à toutes les sources du journal ni à une publication instantanée. Elise Rothman, personnage de la série, ne doit pas être fusionnée avec Elise Moreau, innocente inventée du projet. [LIEUX ; construction locale]"
+      },
+      "applicationProposee": "Contexte de rencontre et d’enquête ; ne pas créer une ressource représentant à la fois l’immeuble, tous les journalistes et le réseau médiatique.",
+      "carte": {
+        "nom": "Bureaux du Bay Mirror",
+        "description": "Bureaux d’un journal comprenant des espaces de rédaction et le travail consacré à la chronique de Phoebe."
+      },
+      "sources": [
+        "LIEUX",
+        "T0416"
+      ],
+      "titre": "Bureaux du Bay Mirror",
+      "canon": "Locaux du journal associé à la chronique de Phoebe ; le nom Bay Mirror est repris du corpus intégré, pas établi par le texte Springfield de S04E16. [LIEUX]\n\nS04E16 montre Phoebe rédiger la chronique de Karen sous délai, en lien avec Elise. Lettres, rédaction et publication sont des activités professionnelles, pas des pouvoirs du lieu. [T0416]\n\nL’épisode amorce le recrutement de Phoebe ; les étapes ultérieures de sa carrière et les déménagements éventuels restent hors de cette reprise. [T0416]\n\nUn bureau ne donne pas accès à toutes les sources du journal ni à une publication instantanée. Elise Rothman, personnage de la série, ne doit pas être fusionnée avec Elise Moreau, innocente inventée du projet. [LIEUX ; construction locale]",
+      "limites": "Un bureau ne donne pas accès à toutes les sources du journal ni à une publication instantanée. Elise Rothman, personnage de la série, ne doit pas être fusionnée avec Elise Moreau, innocente inventée du projet. [LIEUX ; construction locale]"
+    },
+    {
+      "id": "lieux-s1-s8:ecole",
+      "nom": "École de magie",
+      "rapprochement": "lieux:8 / lieu-ecole / magic-school",
+      "episodes": [
+        "S06E14",
+        "S06E21",
+        "S07E17",
+        "S07E22"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Établissement magique découvert par les sœurs en S06E14, alors dirigé par Gideon. Découverte ne signifie pas création à cette date. [T0614]",
+        "fonctionnement": "Dans l’affaire du Cavalier, les victimes décapitées restent vivantes tant que leur corps demeure dans l’enceinte. La porte et la protection contre le mal sont décrites dans ce contexte. [T0614]",
+        "variantesEtChronologie": "Un extrait de S06E21 situe la mort de Sigmund dans le bureau de Gideon : il contredit une immunité absolue. S07E17 propose la direction à Leo ; S07E22 montre l’accès de Zankou dans une autre situation de pouvoirs. [X0621, T0717, T0722]",
+        "limitesEtIncertitudes": "Ne pas inventer une exception « tous les Fondateurs contournent la protection » pour résoudre la tension. La validité exacte des protections selon période reste à approfondir, notamment en saison 8."
+      },
+      "applicationProposee": "Carte potentiellement pertinente pour ses propriétés surnaturelles. Examiner la protection effectivement invoquée ; aucune invulnérabilité générale n’est ajoutée.",
+      "carte": {
+        "nom": "École de magie",
+        "description": "Établissement d’enseignement magique doté de passages et de protections surnaturels."
+      },
+      "sources": [
+        "T0614",
+        "X0621",
+        "T0717",
+        "T0722"
+      ],
+      "titre": "École de magie",
+      "canon": "Établissement magique découvert par les sœurs en S06E14, alors dirigé par Gideon. Découverte ne signifie pas création à cette date. [T0614]\n\nDans l’affaire du Cavalier, les victimes décapitées restent vivantes tant que leur corps demeure dans l’enceinte. La porte et la protection contre le mal sont décrites dans ce contexte. [T0614]\n\nUn extrait de S06E21 situe la mort de Sigmund dans le bureau de Gideon : il contredit une immunité absolue. S07E17 propose la direction à Leo ; S07E22 montre l’accès de Zankou dans une autre situation de pouvoirs. [X0621, T0717, T0722]\n\nNe pas inventer une exception « tous les Fondateurs contournent la protection » pour résoudre la tension. La validité exacte des protections selon période reste à approfondir, notamment en saison 8.",
+      "limites": "Ne pas inventer une exception « tous les Fondateurs contournent la protection » pour résoudre la tension. La validité exacte des protections selon période reste à approfondir, notamment en saison 8."
+    },
+    {
+      "id": "lieux-s1-s8:enfers",
+      "nom": "Monde souterrain",
+      "rapprochement": "lieux:9 / lieu-enfers",
+      "episodes": [
+        "S04E20"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Domaine démoniaque regroupant des acteurs et intérêts multiples. [T0420]",
+        "fonctionnement": "Cole évoque une révolte si les démons soupçonnent sa double loyauté. Son autorité politique n’équivaut pas à une adhésion unanime des habitants. [T0420]",
+        "variantesEtChronologie": "Cette observation appartient à la période Cole/Source. Le dossier ne projette pas cette hiérarchie sur toutes les saisons. [T0420]",
+        "limitesEtIncertitudes": "Topographie, distances entre repaires et moyen universel d’entrée non établis ici. Monde souterrain, Décharge et Limbes ne sont pas interchangeables ; leurs mécanismes documentés diffèrent."
+      },
+      "applicationProposee": "Contexte général ; particulariser un repaire seulement si sa place dans l’action le nécessite. Ni contrôle de tous les démons ni téléportation collective attachés à une carte de territoire.",
+      "carte": {
+        "nom": "Monde souterrain",
+        "description": "Domaine des forces démoniaques comprenant différents repaires et groupes d’allégeances variables."
+      },
+      "sources": [
+        "T0420"
+      ],
+      "titre": "Monde souterrain",
+      "canon": "Domaine démoniaque regroupant des acteurs et intérêts multiples. [T0420]\n\nCole évoque une révolte si les démons soupçonnent sa double loyauté. Son autorité politique n’équivaut pas à une adhésion unanime des habitants. [T0420]\n\nCette observation appartient à la période Cole/Source. Le dossier ne projette pas cette hiérarchie sur toutes les saisons. [T0420]\n\nTopographie, distances entre repaires et moyen universel d’entrée non établis ici. Monde souterrain, Décharge et Limbes ne sont pas interchangeables ; leurs mécanismes documentés diffèrent.",
+      "limites": "Topographie, distances entre repaires et moyen universel d’entrée non établis ici. Monde souterrain, Décharge et Limbes ne sont pas interchangeables ; leurs mécanismes documentés diffèrent."
+    },
+    {
+      "id": "lieux-s1-s8:regions",
+      "nom": "Régions supérieures",
+      "rapprochement": "lieux:10 / lieu-regions-superieures",
+      "episodes": [
+        "S03E01"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Domaine associé aux Fondateurs, visité par Piper avec Leo. [T0301]",
+        "fonctionnement": "À son retour, Piper rapporte une expérience proche d’une journée alors que ses sœurs comptent un mois ; elle décrit aussi des souvenirs qui deviennent flous. [T0301]",
+        "variantesEtChronologie": "Il s’agit d’un séjour particulier. Le décalage et l’impression d’effacement ne définissent ni coefficient temporel fixe ni amnésie obligatoire pour tous les voyageurs. [T0301]",
+        "limitesEtIncertitudes": "Pas de géographie complète, droit automatique d’audience ou contrôle du conseil conféré par la présence. Les crises impliquant les Titans demanderaient une fiche complémentaire avant d’en reprendre les protections."
+      },
+      "applicationProposee": "Une carte peut représenter un espace ou accès déterminant ; le bulletin des Fondateurs de l’interface reste une convention distincte.",
+      "carte": {
+        "nom": "Régions supérieures",
+        "description": "Domaine des Fondateurs, où l’expérience du temps peut différer de celle du monde terrestre."
+      },
+      "sources": [
+        "T0301"
+      ],
+      "titre": "Régions supérieures",
+      "canon": "Domaine associé aux Fondateurs, visité par Piper avec Leo. [T0301]\n\nÀ son retour, Piper rapporte une expérience proche d’une journée alors que ses sœurs comptent un mois ; elle décrit aussi des souvenirs qui deviennent flous. [T0301]\n\nIl s’agit d’un séjour particulier. Le décalage et l’impression d’effacement ne définissent ni coefficient temporel fixe ni amnésie obligatoire pour tous les voyageurs. [T0301]\n\nPas de géographie complète, droit automatique d’audience ou contrôle du conseil conféré par la présence. Les crises impliquant les Titans demanderaient une fiche complémentaire avant d’en reprendre les protections.",
+      "limites": "Pas de géographie complète, droit automatique d’audience ou contrôle du conseil conféré par la présence. Les crises impliquant les Titans demanderaient une fiche complémentaire avant d’en reprendre les protections."
+    },
+    {
+      "id": "lieux-s1-s8:decharge",
+      "nom": "Décharge démoniaque",
+      "rapprochement": "lieux:11 / lieu-decharge",
+      "episodes": [
+        "S04E22"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Espace où aboutit l’essence des démons vaincus, dévorée par une créature selon les explications de Cole. [T0422]",
+        "fonctionnement": "Cole attribue sa persistance à son âme. Phoebe l’atteint par un sort puis doit être rappelée face au danger. Ce sont des expériences situées, pas une procédure de voyage universelle. [T0422]",
+        "variantesEtChronologie": "Cole explique ensuite son retour auprès de Phoebe par de nouveaux pouvoirs. La proposition de résurrection qu’il lui avait faite n’est pas la preuve que ce procédé a été exécuté. [T0422]",
+        "limitesEtIncertitudes": "Collecte visuelle précise, inventaire des pouvoirs et nature physique ou astrale de chaque présence non certifiés. Ne pas transformer ce lieu en réserve garantie de pouvoirs ou en retour automatique des morts."
+      },
+      "applicationProposee": "Lieu pertinent si le scénario y situe réellement une action ; ne pas demander au joueur de reproduire à l’identique le voyage de Phoebe pour proposer un autre moyen cohérent.",
+      "carte": {
+        "nom": "Décharge démoniaque",
+        "description": "Espace où une créature dévore l’essence des démons vaincus."
+      },
+      "sources": [
+        "T0422"
+      ],
+      "titre": "Décharge démoniaque",
+      "canon": "Espace où aboutit l’essence des démons vaincus, dévorée par une créature selon les explications de Cole. [T0422]\n\nCole attribue sa persistance à son âme. Phoebe l’atteint par un sort puis doit être rappelée face au danger. Ce sont des expériences situées, pas une procédure de voyage universelle. [T0422]\n\nCole explique ensuite son retour auprès de Phoebe par de nouveaux pouvoirs. La proposition de résurrection qu’il lui avait faite n’est pas la preuve que ce procédé a été exécuté. [T0422]\n\nCollecte visuelle précise, inventaire des pouvoirs et nature physique ou astrale de chaque présence non certifiés. Ne pas transformer ce lieu en réserve garantie de pouvoirs ou en retour automatique des morts.",
+      "limites": "Collecte visuelle précise, inventaire des pouvoirs et nature physique ou astrale de chaque présence non certifiés. Ne pas transformer ce lieu en réserve garantie de pouvoirs ou en retour automatique des morts."
+    },
+    {
+      "id": "lieux-s1-s8:valhalla",
+      "nom": "Valhalla",
+      "rapprochement": "Nouvelle fiche de lieu autonome proposée",
+      "episodes": [
+        "S06E01"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Domaine des Valkyries accueillant des âmes de guerriers pour leur entraînement en vue d’une bataille finale. [T0601]",
+        "fonctionnement": "Chris dit qu’une arrivée par éclipse serait détectée, et présente un pendentif de Valkyrie comme moyen d’entrée sûr. L’accès au domaine et l’approche de Leo gardé sont distingués dans le dialogue. [T0601]",
+        "variantesEtChronologie": "Le rôle assigné aux guerriers et les gardes structurent cette visite. La transformation de Piper relève d’une intervention particulière ; le lieu ne transforme pas automatiquement chaque visiteuse en Valkyrie. [T0601]",
+        "limitesEtIncertitudes": "« Ne pas entrer sans être détecté » ne signifie pas « ne pas pouvoir entrer ». Portée précise des alarmes et autres entrées non cartographiées. Le retour à la normale de Piper en seconde partie reste à approfondir si nécessaire."
+      },
+      "applicationProposee": "Le domaine peut compter par sa surveillance et sa fonction. Le pendentif documente une possibilité, sans devenir l’unique clé obligatoire de toute proposition.",
+      "carte": {
+        "nom": "Valhalla",
+        "description": "Domaine des Valkyries où des âmes de guerriers s’entraînent, sous leur surveillance."
+      },
+      "sources": [
+        "T0601"
+      ],
+      "titre": "Valhalla",
+      "canon": "Domaine des Valkyries accueillant des âmes de guerriers pour leur entraînement en vue d’une bataille finale. [T0601]\n\nChris dit qu’une arrivée par éclipse serait détectée, et présente un pendentif de Valkyrie comme moyen d’entrée sûr. L’accès au domaine et l’approche de Leo gardé sont distingués dans le dialogue. [T0601]\n\nLe rôle assigné aux guerriers et les gardes structurent cette visite. La transformation de Piper relève d’une intervention particulière ; le lieu ne transforme pas automatiquement chaque visiteuse en Valkyrie. [T0601]\n\n« Ne pas entrer sans être détecté » ne signifie pas « ne pas pouvoir entrer ». Portée précise des alarmes et autres entrées non cartographiées. Le retour à la normale de Piper en seconde partie reste à approfondir si nécessaire.",
+      "limites": "« Ne pas entrer sans être détecté » ne signifie pas « ne pas pouvoir entrer ». Portée précise des alarmes et autres entrées non cartographiées. Le retour à la normale de Piper en seconde partie reste à approfondir si nécessaire."
+    },
+    {
+      "id": "lieux-s1-s8:limbes",
+      "nom": "Limbes",
+      "rapprochement": "Nouvelle fiche de lieu autonome proposée",
+      "episodes": [
+        "S04E04"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Région entre vie et mort, liée au passage des âmes vers la réincarnation dans Enter the Demon. [X0404]",
+        "fonctionnement": "Selon Leo, la blessure de Yen-Lo n’y progresse plus ; de retour sur Terre elle peut le tuer. L’accès par l’eau dépend d’un savoir ; An-Ling dit initialement ne pas le maîtriser. Un bol est décrit comme trop petit pour le passage de Yen-Lo. [X0404]",
+        "variantesEtChronologie": "Les nuages permettent à Yen-Lo un retour. Les sœurs constatent une amplification de pouvoirs ; un vortex représente un danger pour les visiteurs. [X0404]",
+        "limitesEtIncertitudes": "Suspension de la blessure n’est pas guérison ni invulnérabilité. Pas de multiplicateur universel de puissance, seuil métrique de surface d’eau ou libre accès de tout magicien démontré. Extraits seulement."
+      },
+      "applicationProposee": "Conserver ces propriétés pour évaluer une action globale ; savoir où se trouvent les Limbes ne donne pas automatiquement un pouvoir de portail.",
+      "carte": {
+        "nom": "Limbes",
+        "description": "Région de passage vers la réincarnation, où certaines blessures cessent de progresser et où la magie peut être amplifiée."
+      },
+      "sources": [
+        "X0404"
+      ],
+      "titre": "Limbes",
+      "canon": "Région entre vie et mort, liée au passage des âmes vers la réincarnation dans Enter the Demon. [X0404]\n\nSelon Leo, la blessure de Yen-Lo n’y progresse plus ; de retour sur Terre elle peut le tuer. L’accès par l’eau dépend d’un savoir ; An-Ling dit initialement ne pas le maîtriser. Un bol est décrit comme trop petit pour le passage de Yen-Lo. [X0404]\n\nLes nuages permettent à Yen-Lo un retour. Les sœurs constatent une amplification de pouvoirs ; un vortex représente un danger pour les visiteurs. [X0404]\n\nSuspension de la blessure n’est pas guérison ni invulnérabilité. Pas de multiplicateur universel de puissance, seuil métrique de surface d’eau ou libre accès de tout magicien démontré. Extraits seulement.",
+      "limites": "Suspension de la blessure n’est pas guérison ni invulnérabilité. Pas de multiplicateur universel de puissance, seuil métrique de surface d’eau ou libre accès de tout magicien démontré. Extraits seulement."
+    },
+    {
+      "id": "lieux-s1-s8:ville",
+      "nom": "Ville fantôme maudite",
+      "rapprochement": "Nouvelle fiche de lieu autonome proposée",
+      "episodes": [
+        "S03E14"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Ville prise dans la répétition d’une injustice dans The Good, the Bad and the Cursed. [T0314]",
+        "fonctionnement": "Cole l’interprète comme un plan superposé au même espace physique et y conduit Prue. Phoebe partage psychiquement les blessures de Bo ; Leo ne résout pas la blessure source en soignant seulement son écho chez elle. [T0314]",
+        "variantesEtChronologie": "Le récit associe la fin de la boucle à la réparation de l’injustice. Faire simplement sortir Bo ne suffit pas dans la scène ; le devenir détaillé de tous les habitants après résolution n’est pas certifié. [T0314]",
+        "limitesEtIncertitudes": "Ce lien psychique n’est pas une propriété automatique de toutes les villes fantômes ni de chaque visiteur. Nom propre, carte urbaine et durée universelle de toutes boucles non établis."
+      },
+      "applicationProposee": "Une autre histoire cohérente peut exploiter la superposition et la malédiction ; ne pas imposer la reproduction exacte du dénouement à toutes les actions.",
+      "carte": {
+        "nom": "Ville fantôme maudite",
+        "description": "Ville maintenue dans une boucle liée à une ancienne injustice, sur un plan superposé au monde ordinaire."
+      },
+      "sources": [
+        "T0314"
+      ],
+      "titre": "Ville fantôme maudite",
+      "canon": "Ville prise dans la répétition d’une injustice dans The Good, the Bad and the Cursed. [T0314]\n\nCole l’interprète comme un plan superposé au même espace physique et y conduit Prue. Phoebe partage psychiquement les blessures de Bo ; Leo ne résout pas la blessure source en soignant seulement son écho chez elle. [T0314]\n\nLe récit associe la fin de la boucle à la réparation de l’injustice. Faire simplement sortir Bo ne suffit pas dans la scène ; le devenir détaillé de tous les habitants après résolution n’est pas certifié. [T0314]\n\nCe lien psychique n’est pas une propriété automatique de toutes les villes fantômes ni de chaque visiteur. Nom propre, carte urbaine et durée universelle de toutes boucles non établis.",
+      "limites": "Ce lien psychique n’est pas une propriété automatique de toutes les villes fantômes ni de chaque visiteur. Nom propre, carte urbaine et durée universelle de toutes boucles non établis."
+    },
+    {
+      "id": "lieux-s1-s8:camion",
+      "nom": "Dimension du camion de glaces",
+      "rapprochement": "Nouvelle fiche de lieu autonome ; chevauchement avec objet camion",
+      "episodes": [
+        "S03E10"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Dimension de poche reliée au camion de glaces, contenant la force appelée The Nothing. [X0310a]",
+        "fonctionnement": "Le résumé consulté par extraits présente des enfants pris à tort pour des innocents ; le dispositif appartient à une chasse aux démons. L’apparence enfantine ne permet pas à elle seule d’identifier la fonction du lieu. [X0310b]",
+        "variantesEtChronologie": "Le marchand se sacrifie pour permettre à Prue et Victor de sortir : le danger atteint aussi les intervenants qui ne sont pas les démons visés. [X0310b]",
+        "limitesEtIncertitudes": "Sources secondaires indexées seulement ; accès exact, mélodie, usage des pouvoirs et mécanisme complet de sortie restent à vérifier dans l’épisode. The Nothing ne doit pas être fusionné avec le Hollow."
+      },
+      "applicationProposee": "Fiche contextuelle prudente ; si une action dépend d’une mécanique non étudiée, approfondir ce point avant intégration. Camion matériel et intérieur dimensionnel ne donnent pas deux cartes obligatoires.",
+      "carte": {
+        "nom": "Dimension du camion de glaces",
+        "description": "Dimension de poche reliée au camion de glaces et parcourue par la force appelée The Nothing."
+      },
+      "sources": [
+        "X0310a",
+        "X0310b"
+      ],
+      "titre": "Dimension du camion de glaces",
+      "canon": "Dimension de poche reliée au camion de glaces, contenant la force appelée The Nothing. [X0310a]\n\nLe résumé consulté par extraits présente des enfants pris à tort pour des innocents ; le dispositif appartient à une chasse aux démons. L’apparence enfantine ne permet pas à elle seule d’identifier la fonction du lieu. [X0310b]\n\nLe marchand se sacrifie pour permettre à Prue et Victor de sortir : le danger atteint aussi les intervenants qui ne sont pas les démons visés. [X0310b]\n\nSources secondaires indexées seulement ; accès exact, mélodie, usage des pouvoirs et mécanisme complet de sortie restent à vérifier dans l’épisode. The Nothing ne doit pas être fusionné avec le Hollow.",
+      "limites": "Sources secondaires indexées seulement ; accès exact, mélodie, usage des pouvoirs et mécanisme complet de sortie restent à vérifier dans l’épisode. The Nothing ne doit pas être fusionné avec le Hollow."
+    },
+    {
+      "id": "lieux-s1-s8:miroir",
+      "nom": "Monde miroir",
+      "rapprochement": "Nouvelle fiche de lieu autonome ; chevauchement avec objet miroir",
+      "episodes": [
+        "S06E22"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Monde parallèle inversé présenté dans le final de saison 6 ; des doubles de Leo et Chris passent en sens contraire lors de l’ouverture. [T0622]",
+        "fonctionnement": "Gideon décrit un équilibre entre deux mondes opposés. Ces explications appartiennent au dialogue d’un personnage impliqué dans la manipulation : distinguer l’explication de ses intentions. [T0622]",
+        "variantesEtChronologie": "La présence des deux groupes de sœurs du même côté intervient dans le déséquilibre. L’état du passage doit être situé dans le final ; ne pas supposer son maintien indéfini après l’épisode. [T0622]",
+        "limitesEtIncertitudes": "Un portail particulier n’établit pas que tout miroir est traversable. Les conséquences exactes du rééquilibrage de la seconde partie ne sont pas reprises ici ; aucun système universel de double pour toute dimension n’est inventé."
+      },
+      "applicationProposee": "Nommer le monde et sa propriété d’inversion ; l’objet qui ouvre le passage constitue une capacité distincte, sans exiger une double pose quand le lieu sert seulement de contexte.",
+      "carte": {
+        "nom": "Monde miroir",
+        "description": "Monde parallèle peuplé de doubles inversés, lié à l’équilibre entre les deux mondes."
+      },
+      "sources": [
+        "T0622"
+      ],
+      "titre": "Monde miroir",
+      "canon": "Monde parallèle inversé présenté dans le final de saison 6 ; des doubles de Leo et Chris passent en sens contraire lors de l’ouverture. [T0622]\n\nGideon décrit un équilibre entre deux mondes opposés. Ces explications appartiennent au dialogue d’un personnage impliqué dans la manipulation : distinguer l’explication de ses intentions. [T0622]\n\nLa présence des deux groupes de sœurs du même côté intervient dans le déséquilibre. L’état du passage doit être situé dans le final ; ne pas supposer son maintien indéfini après l’épisode. [T0622]\n\nUn portail particulier n’établit pas que tout miroir est traversable. Les conséquences exactes du rééquilibrage de la seconde partie ne sont pas reprises ici ; aucun système universel de double pour toute dimension n’est inventé.",
+      "limites": "Un portail particulier n’établit pas que tout miroir est traversable. Les conséquences exactes du rééquilibrage de la seconde partie ne sont pas reprises ici ; aucun système universel de double pour toute dimension n’est inventé."
+    },
+    {
+      "id": "lieux-s1-s8:tableau",
+      "nom": "Monde du tableau de Nell",
+      "rapprochement": "Nouvelle fiche de lieu autonome ; chevauchement avec tableau-prison",
+      "episodes": [
+        "S02E03"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Espace-prison magique contenu dans un tableau. Malcolm s’y présente d’abord comme victime ; son récit ne doit pas être reçu sans tenir compte de sa tromperie. [T0203]",
+        "fonctionnement": "Une inscription provoque l’entrée ; un autre procédé permet la libération. Prue ne peut pas simplement se soulever hors du monde par télékinésie, mais peut y dévier des projectiles : l’enfermement n’annule pas tous ses pouvoirs. [T0203]",
+        "variantesEtChronologie": "Les occupants ressentent le déplacement du tableau. Malcolm rapporte soixante-dix ans sans vieillissement ; ce témoignage ne fixe pas le temps vécu de toute personne ni de tout monde peint. [T0203]",
+        "limitesEtIncertitudes": "Des dangers internes sont présents. Destruction du support et devenir complet de l’espace demandent une vérification ciblée avant d’en tirer une règle ; pas de bonus général pour toute peinture enchantée."
+      },
+      "applicationProposee": "Relier espace et support dans la connaissance. Une action peut utiliser leurs propriétés sans reprendre la solution des sœurs ; ne pas exiger deux ressources pour décrire un même dispositif.",
+      "carte": {
+        "nom": "Monde du tableau de Nell",
+        "description": "Monde-prison contenu dans un tableau enchanté, dont l’espace intérieur réagit aux mouvements du support."
+      },
+      "sources": [
+        "T0203"
+      ],
+      "titre": "Monde du tableau de Nell",
+      "canon": "Espace-prison magique contenu dans un tableau. Malcolm s’y présente d’abord comme victime ; son récit ne doit pas être reçu sans tenir compte de sa tromperie. [T0203]\n\nUne inscription provoque l’entrée ; un autre procédé permet la libération. Prue ne peut pas simplement se soulever hors du monde par télékinésie, mais peut y dévier des projectiles : l’enfermement n’annule pas tous ses pouvoirs. [T0203]\n\nLes occupants ressentent le déplacement du tableau. Malcolm rapporte soixante-dix ans sans vieillissement ; ce témoignage ne fixe pas le temps vécu de toute personne ni de tout monde peint. [T0203]\n\nDes dangers internes sont présents. Destruction du support et devenir complet de l’espace demandent une vérification ciblée avant d’en tirer une règle ; pas de bonus général pour toute peinture enchantée.",
+      "limites": "Des dangers internes sont présents. Destruction du support et devenir complet de l’espace demandent une vérification ciblée avant d’en tirer une règle ; pas de bonus général pour toute peinture enchantée."
+    },
+    {
+      "id": "lieux-s1-s8:gith",
+      "nom": "Mondes de Gith",
+      "rapprochement": "Nouvelle fiche de lieu autonome ; liée au personnage Gith",
+      "episodes": [
+        "S06E06"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Réalités de poche modelées à partir des désirs des victimes. Gith se nourrit de l’énergie de ces désirs. [T0606]",
+        "fonctionnement": "Le vortex est un mode d’enlèvement montré et décrit ; Chris fournit aussi un moyen de viser les sœurs. Les réalités produites diffèrent selon leurs aspirations. [T0606]",
+        "variantesEtChronologie": "Le lien émotionnel avec Gith et le désir commun permettent aux sœurs de se rejoindre. Dans la réalité de Piper, l’appel de l’athamé échoue et l’absence de magie est évoquée. [T0606]",
+        "limitesEtIncertitudes": "Ne pas étendre cette absence à tous les mondes : elle appartient à une variante liée au désir de Piper. Les figures recréées ne donnent pas automatiquement accès aux personnes correspondantes du monde réel."
+      },
+      "applicationProposee": "Documenter la variante utile au scénario ; le désir est une propriété exploitable de façon cohérente, sans imposer une phrase ou une séquence de résolution unique.",
+      "carte": {
+        "nom": "Mondes de Gith",
+        "description": "Réalités de poche façonnées par les désirs des victimes, dont Gith absorbe l’énergie."
+      },
+      "sources": [
+        "T0606"
+      ],
+      "titre": "Mondes de Gith",
+      "canon": "Réalités de poche modelées à partir des désirs des victimes. Gith se nourrit de l’énergie de ces désirs. [T0606]\n\nLe vortex est un mode d’enlèvement montré et décrit ; Chris fournit aussi un moyen de viser les sœurs. Les réalités produites diffèrent selon leurs aspirations. [T0606]\n\nLe lien émotionnel avec Gith et le désir commun permettent aux sœurs de se rejoindre. Dans la réalité de Piper, l’appel de l’athamé échoue et l’absence de magie est évoquée. [T0606]\n\nNe pas étendre cette absence à tous les mondes : elle appartient à une variante liée au désir de Piper. Les figures recréées ne donnent pas automatiquement accès aux personnes correspondantes du monde réel.",
+      "limites": "Ne pas étendre cette absence à tous les mondes : elle appartient à une variante liée au désir de Piper. Les figures recréées ne donnent pas automatiquement accès aux personnes correspondantes du monde réel."
+    },
+    {
+      "id": "lieux-s1-s8:tribunal",
+      "nom": "Salle d’audience du Tribunal",
+      "rapprochement": "Nouvelle fiche de lieu ; organisation déjà documentée",
+      "episodes": [
+        "S06E19"
+      ],
+      "statut": "proposition_documentaire_non_integree",
+      "proofAuthority": "background_with_sources",
+      "ange": {
+        "identite": "Espace d’audience du conseil mixte de Fondateurs et de démons chargé de surveiller le secret de la magie. [T0619]",
+        "fonctionnement": "Gideon y conduit les sœurs puis le conseil est appelé pour contester les Nettoyeurs. Le dialogue élude une localisation ordinaire. Audience, témoignages et décisions relèvent des membres, pas d’un pouvoir autonome de la salle. [T0619]",
+        "variantesEtChronologie": "Le conseil accélère le temps pour l’exécution de Darryl seulement. Cela ne crée pas une accélération de tout le monde ni un changement automatique du calendrier du jeu. [T0619]",
+        "limitesEtIncertitudes": "Pas d’omniscience, détecteur de mensonge infaillible ou droit universel de convocation conférés aux occupants. Exclure développements des comics et nouveau Tribunal. L’Ange du destin de l’interface reste distinct."
+      },
+      "applicationProposee": "Contexte d’audience par défaut ; ressource seulement si l’espace ou son accès joue un rôle déterminant. L’autorité des juges n’est pas transférée au détenteur d’une carte de lieu.",
+      "carte": {
+        "nom": "Salle d’audience du Tribunal",
+        "description": "Espace d’audience du Tribunal, conseil réunissant des représentants du Bien et du Mal pour protéger le secret de la magie."
+      },
+      "sources": [
+        "T0619"
+      ],
+      "titre": "Salle d’audience du Tribunal",
+      "canon": "Espace d’audience du conseil mixte de Fondateurs et de démons chargé de surveiller le secret de la magie. [T0619]\n\nGideon y conduit les sœurs puis le conseil est appelé pour contester les Nettoyeurs. Le dialogue élude une localisation ordinaire. Audience, témoignages et décisions relèvent des membres, pas d’un pouvoir autonome de la salle. [T0619]\n\nLe conseil accélère le temps pour l’exécution de Darryl seulement. Cela ne crée pas une accélération de tout le monde ni un changement automatique du calendrier du jeu. [T0619]\n\nPas d’omniscience, détecteur de mensonge infaillible ou droit universel de convocation conférés aux occupants. Exclure développements des comics et nouveau Tribunal. L’Ange du destin de l’interface reste distinct.",
+      "limites": "Pas d’omniscience, détecteur de mensonge infaillible ou droit universel de convocation conférés aux occupants. Exclure développements des comics et nouveau Tribunal. L’Ange du destin de l’interface reste distinct."
+    }
+  ]
+}

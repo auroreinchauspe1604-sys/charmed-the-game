@@ -1,0 +1,74 @@
+{
+  "version": "contributions-2026-09-08-v2",
+  "reviewedAt": "2026-09-08",
+  "characters": 40,
+  "observations": 150,
+  "additionalAdmissibleFacts": 26,
+  "dossiers": [
+    {
+      "id": "lieux",
+      "file": "lieux.json",
+      "fiches": 11
+    },
+    {
+      "id": "objets",
+      "file": "objets.json",
+      "fiches": 8
+    },
+    {
+      "id": "potions-types-usages",
+      "file": "potions-types-usages.json",
+      "fiches": 7
+    },
+    {
+      "id": "balthazar-cole-allie",
+      "file": "balthazar-cole-allie.json",
+      "fiches": 7
+    },
+    {
+      "id": "objets-magiques",
+      "file": "objets-magiques.json",
+      "fiches": 80
+    },
+    {
+      "id": "demons-documentes",
+      "file": "demons-documentes.json",
+      "fiches": 40
+    }
+  ],
+  "inputs": [
+    {
+      "path": "Charmed/contributions/lieux/PROPOSITION_A_INTEGRER.md",
+      "sha256": "82240cd62f4698c788b3f2399efd60459ff5f2c5c683493b2bdc6fb69a6fb11e"
+    },
+    {
+      "path": "Charmed/contributions/objets/PROPOSITION_A_INTEGRER.md",
+      "sha256": "83e5380a0d23a17ac35ea4b27b80925dd1d7c6b55972a0d50bfad6e2aac815da"
+    },
+    {
+      "path": "Charmed/contributions/potions-types-usages/PROPOSITION_A_INTEGRER.md",
+      "sha256": "551995f127383a275b1df7292b6da1ab356472b83a10d75b893317cc9978a688"
+    },
+    {
+      "path": "Charmed/contributions/balthazar-cole-allie/PROPOSITION_A_INTEGRER.md",
+      "sha256": "e07601d0a37d365c419ac17b8c1c2c04a21c0e018bdb103baa1dac8a485265b2"
+    },
+    {
+      "path": "Charmed/contributions/personnages-expertise-s1-s8/personnages.proposition.json",
+      "sha256": "7c228a6a8ae0c70c991a0b598c98ccf18be0591bbca5b37bf494be3801cecf27"
+    },
+    {
+      "path": "Charmed/contributions/objets-magiques/objets.proposition.json",
+      "sha256": "cb37e6a35f62373a8415863576aee4da4e8d81245372ebef2583cb93ef48bb47"
+    },
+    {
+      "path": "Charmed/contributions/balthazar-cole-allie/demons.proposition.json",
+      "sha256": "b0116a41fcf31164e02fcfca4a8a00586687bfbd60f12885ec0411177dafa2f6"
+    }
+  ],
+  "limitations": [
+    "Revue documentaire et contrôles ciblés, pas visionnage des épisodes ni certification exhaustive.",
+    "Propositions de cartes non injectées dans la sauvegarde.",
+    "Aucun coût, règle de question ou calendrier changé par cette intégration."
+  ]
+}

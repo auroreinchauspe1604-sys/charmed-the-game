@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-08",
+  "statut": "controle_documentaire_non_integration",
+  "fiches": 18,
+  "cartes": 18,
+  "sources": 24,
+  "correspondances_catalogue": 18,
+  "familles_integrees_concernees": 5,
+  "references_resolues": true,
+  "episodes_dans_index": true,
+  "recettes_exactes_nulles": true,
+  "activation": "aucune",
+  "tests_runtime": "non_effectues_hors_perimetre",
+  "visionnage": "aucun",
+  "sha256": {
+    "objets.proposition.json": "c8f8fcd78376eeb7f90062b0e8159dea9625a7067feabe5b0c22c7fd1302a374",
+    "PROPOSITION_A_INTEGRER.md": "3bcc0e97eb3067f41418399904f6d7353b6851cc591bd4181d3c617847dbde6f"
+  }
+}

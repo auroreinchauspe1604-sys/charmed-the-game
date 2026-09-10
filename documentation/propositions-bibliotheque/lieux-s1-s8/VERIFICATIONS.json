@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-08",
+  "status": "passed",
+  "checks": {
+    "json_lisible": true,
+    "19_fiches": true,
+    "22_sources": true,
+    "identifiants_uniques": true,
+    "propositions_non_integrees": true,
+    "references_sources_resolues": true,
+    "episodes_fiches_dans_index": true,
+    "episodes_sources_dans_index": true,
+    "11_reprises_du_corpus": true,
+    "8_fiches_supplementaires": true,
+    "textes_ange_et_cartes_dans_markdown": true,
+    "variante_nexus_dans_markdown": true,
+    "aucun_caractere_de_remplacement": true,
+    "aucun_visionnage_revendique": true
+  },
+  "fiches": 19,
+  "sources": 22,
+  "cardWordCounts": {
+    "Manoir Halliwell": 12,
+    "Grenier du manoir": 18,
+    "Sous-sol du manoir et site du Nexus": 18,
+    "P3": 17,
+    "Buckland": 16,
+    "Quake": 8,
+    "Bureaux du Bay Mirror": 17,
+    "École de magie": 10,
+    "Monde souterrain": 11,
+    "Régions supérieures": 14,
+    "Décharge démoniaque": 9,
+    "Valhalla": 12,
+    "Limbes": 19,
+    "Ville fantôme maudite": 17,
+    "Dimension du camion de glaces": 16,
+    "Monde miroir": 13,
+    "Monde du tableau de Nell": 14,
+    "Mondes de Gith": 13,
+    "Salle d’audience du Tribunal": 20
+  },
+  "sha256": {
+    "lieux.proposition.json": "47a6adac27bdc632976d2f100f2e35d8ddb386ea0c83817b5dc50c14bf0d6a39",
+    "PROPOSITION_A_INTEGRER.md": "557d166ef4d3e2104bed68c3b2569aeabe6cf1b7d7a89941b4aadfa029caba40"
+  },
+  "limites": [
+    "Contrôles structurels et cohérence documentaire interne seulement.",
+    "Aucun visionnage, test de partie, appel du serveur ou validation canonique automatique.",
+    "Ce script lit deux fichiers de référence actifs et n'écrit que VERIFICATIONS.json dans son propre dossier.",
+    "Aucune comparaison globale de l'état du projet : d'autres conversations peuvent y écrire."
+  ]
+}

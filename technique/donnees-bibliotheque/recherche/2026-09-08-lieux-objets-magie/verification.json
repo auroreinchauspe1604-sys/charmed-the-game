@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-08",
+  "checks": {
+    "jsonParse": true,
+    "uniqueIds": true,
+    "sourcesResolvable": true,
+    "episodeIdsExist": true
+  },
+  "counts": {
+    "lieux": 9,
+    "objets": 7,
+    "formules-et-potions": 8
+  },
+  "verificationCounts": {
+    "dialogues_consultes": 6,
+    "mixte_dialogues_et_extrait": 3,
+    "extrait_seulement": 15
+  },
+  "runtimeReferenceHashes": {
+    "serveur/charmed/expertise-runtime.js": "c73ab3d7797e077f976025d591a3d96e471c254a79f3a2463664e4690d21144d",
+    "Charmed/canon/base.json": "ea3274e77d370e5c02b93e1baadb2d7174930df281e3022dba594382b7317124",
+    "Charmed/canon/construction.json": "87ab70743a03fc9cb1999b6894edb6be6ac9b57b10e4176b6373cc96ba393771",
+    "Charmed/canon/magie-demons.json": "79b00b27dfcdda5ee399a8549f3fa428ab628c60500c7ef5ae5366448a0a6558",
+    "Charmed/canon/personnages.json": "e1e78be543dadd6e2a34909992750fe2d3c5ce620e50d05c47873ab8f5f86ba7"
+  },
+  "limits": "Contrôle structurel, pas une validation exhaustive du canon. Aucune session IA ni partie modifiée. Empreintes de référence prises lors de la génération."
+}

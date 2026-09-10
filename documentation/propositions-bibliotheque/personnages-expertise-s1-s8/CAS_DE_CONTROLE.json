@@ -1,0 +1,223 @@
+{
+  "status": "proposed_manual_checks_not_executed",
+  "purpose": "Cas privés pour la revue puis une éventuelle intégration. Aucun appel au moteur ni aucune partie lancée.",
+  "cases": [
+    {
+      "id": "C01",
+      "situation": "Prue en S02E09 projette un double et veut déplacer un objet à distance depuis ce double.",
+      "expected": "Ne pas autoriser automatiquement la télékinésie astrale ; distinguer corps et double et vérifier la scène.",
+      "characters": [
+        "prue"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C02",
+      "situation": "Prue emploie l'empathie plusieurs épisodes après S03E06.",
+      "expected": "La surcharge était temporaire ; demander un mécanisme actuel avant de l'ajouter à son arsenal.",
+      "characters": [
+        "prue"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C03",
+      "situation": "Piper fige Natalie en S03E11.",
+      "expected": "Ne pas refuser par une immunité générale de tous les êtres bénéfiques ; Natalie fournit un contre-exemple.",
+      "characters": [
+        "piper",
+        "natalie"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C04",
+      "situation": "Piper veut faire exploser une cible au début de S03E20.",
+      "expected": "Situer avant/après la première manifestation et tenir compte du contrôle encore imparfait.",
+      "characters": [
+        "piper"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C05",
+      "situation": "Phoebe utilise l'empathie juste après la sanction de S06E19.",
+      "expected": "La sanction retire les trois pouvoirs cités ; aucune restauration totale implicite.",
+      "characters": [
+        "phoebe"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C06",
+      "situation": "Phoebe a une prémonition en S07E05 puis tente de léviter.",
+      "expected": "Le retour observé de la prémonition ne prouve pas celui de la lévitation.",
+      "characters": [
+        "phoebe"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C07",
+      "situation": "Paige seule soigne librement dès S04E02.",
+      "expected": "La guérison avec Leo ne suffit pas comme preuve d'autonomie ; rechercher les conditions du cas.",
+      "characters": [
+        "paige"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C08",
+      "situation": "Leo mortel après S07E16 s'éclipse par ses propres moyens.",
+      "expected": "Son expérience reste disponible, pas ses anciens pouvoirs sans restauration documentée.",
+      "characters": [
+        "leo"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C09",
+      "situation": "Cole humain entre S04E08 et S04E13 lance une boule d'énergie.",
+      "expected": "La variante humaine n'hérite pas de l'arsenal de Belthazor.",
+      "characters": [
+        "cole"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C10",
+      "situation": "Une carte Cole et une carte Belthazor apparaissent comme deux personnes distinctes.",
+      "expected": "Signaler le doublon d'identité ; une dissociation exige un scénario explicite.",
+      "characters": [
+        "cole"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C11",
+      "situation": "Patty reçoit des visions sans être enceinte de Phoebe.",
+      "expected": "La grossesse explique les visions documentées ; ne pas les généraliser sans autre preuve.",
+      "characters": [
+        "patty"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C12",
+      "situation": "Penny voyage dans le temps par simple volonté en se référant à Witchstock.",
+      "expected": "Le mécanisme étudié appartient au sort des vêtements, pas à un pouvoir inné.",
+      "characters": [
+        "penny"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C13",
+      "situation": "Chris révèle à tout le monde le contenu du futur connu de l'Ange.",
+      "expected": "Vérifier son futur d'origine et ses propres informations ; ne pas transmettre automatiquement le dossier privé.",
+      "characters": [
+        "chris-adult"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C14",
+      "situation": "Wyatt enfant possède toutes les capacités de chaque Wyatt adulte.",
+      "expected": "Refuser la fusion documentaire des variantes ; établir âge, branche et acquisitions.",
+      "characters": [
+        "wyatt-adult"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C15",
+      "situation": "Darryl couvre une nouvelle affaire juste après S06E19.",
+      "expected": "Prendre en compte son traumatisme et son refus de S06E20, sans écrire une hostilité éternelle.",
+      "characters": [
+        "darryl"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C16",
+      "situation": "Andy mène normalement une enquête vivante en saison 2.",
+      "expected": "Sa mort termine cet état ; une manifestation ou un autre temps doit être établi.",
+      "characters": [
+        "andy"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C17",
+      "situation": "Tous les Fondateurs connaissent et approuvent le projet de Gideon.",
+      "expected": "Ne pas partager automatiquement intentions et informations entre individus du collectif.",
+      "characters": [
+        "elders",
+        "gideon"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C18",
+      "situation": "Le joueur utilise la bague de Coop pour revendiquer un voyage temporel inné de Leo.",
+      "expected": "Séparer porteur, objet et conditions d'usage ; vérifier les liens et la scène.",
+      "characters": [
+        "coop",
+        "leo"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C19",
+      "situation": "Barbas de S05E07 disparaît obligatoirement dès que la peur est surmontée.",
+      "expected": "Son arsenal acquis requiert une analyse distincte de la première apparition.",
+      "characters": [
+        "barbas"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C20",
+      "situation": "Un personnage secondaire absent des fiches tente une action plausible.",
+      "expected": "Classer comme non documenté et rechercher ; ne pas convertir le manque de fiche en impossibilité ni sanction automatique.",
+      "characters": [],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C21",
+      "situation": "La fiche de Kyra sert à la Prophétesse de saison 4.",
+      "expected": "Conserver deux personnes, histoires et buts distincts.",
+      "characters": [
+        "kyra",
+        "seer"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C22",
+      "situation": "Christy résiste nécessairement à tout feu parce qu'elle en produit.",
+      "expected": "Ne pas déduire une immunité ; le final fournit un contre-exemple à confirmer dans la source primaire.",
+      "characters": [
+        "christy"
+      ],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C23",
+      "situation": "Une source en extrait est promue en preuve audiovisuelle vérifiée.",
+      "expected": "Conserver le niveau de preuve réel et demander la revue appropriée.",
+      "characters": [],
+      "status": "manual_review_case_not_executed"
+    },
+    {
+      "id": "C24",
+      "situation": "La carte d'un antagoniste annonce son plan secret au joueur avant la révélation.",
+      "expected": "Retirer le secret de la variante publique sauf si la situation le rend déjà connu ; conserver le dossier de l'Ange.",
+      "characters": [
+        "gideon",
+        "christy"
+      ],
+      "status": "manual_review_case_not_executed"
+    }
+  ]
+}

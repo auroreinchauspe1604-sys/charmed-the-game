@@ -1,0 +1,583 @@
+{
+  "version": 1,
+  "date": "2026-09-08",
+  "universe": "charmed-tv-1998",
+  "status": "recherche_separee_non_active",
+  "portee": "Premier lot de 24 fiches ; enrichissements et précisions, pas 24 éléments tous absents du corpus précédent. Série originale saisons 1–8 ; ni reboot, ni comics, ni romans, ni fanfiction.",
+  "preuve": "Les transcriptions sont des reproductions non officielles, pas des scripts authentifiés ni un visionnage. Un extrait indexé reste une vérification partielle. Les références d’épisodes servent aussi de repères à contrôler.",
+  "regles": "Les conditionsPourLeJeu et applicationProposee sont des propositions d’exploitation, pas des faits canoniques ni de nouvelles règles validées. Le moteur et les règles actées continuent de primer.",
+  "activation": "Aucun import runtime. Ne pas copier automatiquement dans base.json ou dans les connaissances de la partie active.",
+  "sources": {
+    "woogy": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e15&tv-show=charmed",
+      "niveau": "transcription_non_officielle_dialogues",
+      "repere": "Ouverture : cave ; échange avec Beth Whittlesey sur le site du manoir.",
+      "consulteLe": "2026-09-08"
+    },
+    "scry": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed",
+      "niveau": "transcription_non_officielle_dialogues",
+      "repere": "Ouverture : rangement du grenier ; Piper explique les cristaux installés pour Leo.",
+      "consulteLe": "2026-09-08"
+    },
+    "belthazor": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e08&tv-show=charmed",
+      "niveau": "transcription_non_officielle_dialogues",
+      "repere": "Préparation au début ; invocation et arrivée de Krell ; explication de son interception.",
+      "consulteLe": "2026-09-08"
+    },
+    "verite": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e08&tv-show=charmed",
+      "niveau": "transcription_non_officielle_dialogues",
+      "repere": "Prue explique la portée et les 24 heures ; dernière conversation avec Andy.",
+      "consulteLe": "2026-09-08"
+    },
+    "appel": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e01&tv-show=charmed",
+      "niveau": "transcription_non_officielle_dialogues",
+      "repere": "Deuil de Prue, impossibilité de la ramener ; présence de Paige aux funérailles. La page regroupe des scènes des deux parties : ne pas en déduire un minutage.",
+      "consulteLe": "2026-09-08"
+    },
+    "ecole": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e14&tv-show=charmed",
+      "niveau": "transcription_non_officielle_dialogues",
+      "repere": "Protection de l’école et danger du Cavalier pour les personnes à l’extérieur.",
+      "consulteLe": "2026-09-08"
+    },
+    "attic": {
+      "url": "https://charmed.fandom.com/wiki/Attic",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Grenier et emplacement habituel du Livre.",
+      "consulteLe": "2026-09-08"
+    },
+    "buckland": {
+      "url": "https://charmed.fandom.com/wiki/From_Fear_to_Eternity/Script",
+      "niveau": "extrait_indexe_transcription",
+      "repere": "Extrait indexé d’une transcription : bureau de Prue chez Buckland.",
+      "consulteLe": "2026-09-08"
+    },
+    "quake": {
+      "url": "https://charmed.fandom.com/wiki/The_Wendigo/Script",
+      "niveau": "extrait_indexe_transcription",
+      "repere": "Extrait indexé d’une transcription : Piper, restaurant et inspection sanitaire.",
+      "consulteLe": "2026-09-08"
+    },
+    "enfers": {
+      "url": "https://charmed.fandom.com/wiki/The_Underworld",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Retenir le royaume démoniaque ; écarter Neena et les développements comics.",
+      "consulteLe": "2026-09-08"
+    },
+    "cieux": {
+      "url": "https://charmed.fandom.com/wiki/The_Upper_Regions",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Exemples TV : The Honeymoon’s Over et Oh My Goddess ; pas de conversion temporelle universelle.",
+      "consulteLe": "2026-09-08"
+    },
+    "decharge": {
+      "url": "https://charmed.fandom.com/wiki/The_Demonic_Wasteland",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Parcours TV de Cole ; exclure Heremus, culte de Belthazor et autres développements comics.",
+      "consulteLe": "2026-09-08"
+    },
+    "livre": {
+      "url": "https://charmed.fandom.com/wiki/Book_of_Shadows",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Livre familial convoité et défenses ; ne pas transformer ces défenses en inviolabilité sans exception.",
+      "consulteLe": "2026-09-08"
+    },
+    "grimoire": {
+      "url": "https://charmed.fandom.com/wiki/The_Grimoire",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Contrepartie maléfique du Livre ; ne pas fusionner avec tous les grimoires.",
+      "consulteLe": "2026-09-08"
+    },
+    "cage": {
+      "url": "https://charmed.fandom.com/wiki/Crystal_Cage",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Cinq cristaux ; indication d’orientation dans Charmed and Dangerous.",
+      "consulteLe": "2026-09-08"
+    },
+    "cristaux-trois": {
+      "url": "https://charmed.fandom.com/wiki/Charmed_Noir/Script",
+      "niveau": "extrait_indexe_transcription",
+      "repere": "Extrait de transcription : trois cristaux placés autour de Miss Donovan créent un bouclier ; contre-exemple à une obligation universelle de cinq cristaux.",
+      "consulteLe": "2026-09-08"
+    },
+    "cristaux-manoir": {
+      "url": "https://charmed.fandom.com/wiki/Prince_Charmed",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Cristaux utilisés par Paige et Phoebe pour protéger le manoir ; répartition exacte à compléter.",
+      "consulteLe": "2026-09-08"
+    },
+    "cupidon": {
+      "url": "https://charmed.fandom.com/wiki/Cupid_Ring",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Le premier Cupidon utilise sa bague pour reconnaître les liens amoureux.",
+      "consulteLe": "2026-09-08"
+    },
+    "boite": {
+      "url": "https://charmed.fandom.com/wiki/Hollow_Box",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Boîte contenant le Hollow et ouverture par la Source.",
+      "consulteLe": "2026-09-08"
+    },
+    "muses": {
+      "url": "https://charmed.fandom.com/wiki/Ring_of_Inspiration",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Fonction d’inspiration et détournement dans Muse to My Ears.",
+      "consulteLe": "2026-09-08"
+    },
+    "arbalete": {
+      "url": "https://charmed.fandom.com/wiki/Blinded_by_the_Whitelighter/Script",
+      "niveau": "extrait_indexe_transcription",
+      "repere": "Eames vole l’arbalète pour tuer un Être de lumière.",
+      "consulteLe": "2026-09-08"
+    },
+    "transport": {
+      "url": "https://charmed.fandom.com/wiki/The_Torn_Identity",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Billie et Christy se transportent auprès de Pator avec une potion.",
+      "consulteLe": "2026-09-08"
+    },
+    "depouillement": {
+      "url": "https://charmed.fandom.com/wiki/Power_Stripping",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Exemples TV Cole et Richard uniquement ; écarter les développements de Prue et Neena en comics.",
+      "consulteLe": "2026-09-08"
+    },
+    "woogy-formule": {
+      "url": "https://charmed.fandom.com/wiki/The_Woogyman",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Formule retenue par Phoebe puis ajoutée au Livre.",
+      "consulteLe": "2026-09-08"
+    },
+    "nexus-fin": {
+      "url": "https://charmed.fandom.com/wiki/Something_Wicca_This_Way_Goes...%3F/Plot",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Destruction du Nexus et de Zankou ; refuge des sœurs à l’école.",
+      "consulteLe": "2026-09-08"
+    },
+    "ecole-reserve": {
+      "url": "https://charmed.fandom.com/wiki/Magic_School",
+      "niveau": "extrait_indexe_secondaire",
+      "repere": "Notes secondaires sur les méthodes d’accès et exceptions à la protection : à confirmer scène par scène.",
+      "consulteLe": "2026-09-08"
+    }
+  },
+  "fiches": [
+    {
+      "id": "lieu-manoir",
+      "categorie": "lieux",
+      "titre": "Manoir Halliwell",
+      "canon": "La maison familiale est située sur un site présenté comme un Nexus spirituel dans S01E15.",
+      "sources": [
+        "woogy"
+      ],
+      "episodesReperes": [
+        "S01E15"
+      ],
+      "conditionsPourLeJeu": "Distinguer accès à la maison, contrôle d’une pièce et accès aux biens qui s’y trouvent.",
+      "limitesEtIncertitudes": "Posséder la carte du manoir ne prouve ni invulnérabilité ni maîtrise de toute sa magie. Les occupants et protections dépendent de la période.",
+      "applicationProposee": "Un scénario peut être inédit tout en conservant ces espaces et leurs contraintes ; une entrée forcée ne réalise pas à elle seule une conquête complète.",
+      "verification": "dialogues_consultes",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "lieu-grenier",
+      "categorie": "lieux",
+      "titre": "Grenier du manoir",
+      "canon": "Le Livre des Ombres est habituellement conservé au grenier. S07E17 évoque son rangement et les accessoires des fioles de potion.",
+      "sources": [
+        "attic",
+        "scry"
+      ],
+      "episodesReperes": [
+        "S07E17"
+      ],
+      "conditionsPourLeJeu": "Il faut pouvoir atteindre la pièce et disposer des personnes et du matériel nécessaires.",
+      "limitesEtIncertitudes": "La localisation habituelle du Livre ne garantit pas sa présence à cet instant. Aucun stock illimité d’ingrédients n’est établi ici.",
+      "applicationProposee": "Le grenier peut servir de ressource de préparation ; le Livre, les ingrédients et la sorcière restent des moyens distincts.",
+      "verification": "mixte_dialogues_et_extrait",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "lieu-cave",
+      "categorie": "lieux",
+      "titre": "Cave et accès au Nexus",
+      "canon": "Dans S01E15, le Woogyman se manifeste depuis la cave. Le Nexus est détruit lors du dénouement de S07E22.",
+      "sources": [
+        "woogy",
+        "nexus-fin"
+      ],
+      "episodesReperes": [
+        "S01E15",
+        "S07E22"
+      ],
+      "conditionsPourLeJeu": "Fixer la période et la situation physique de la cave avant de proposer une action sur le Nexus.",
+      "limitesEtIncertitudes": "L’accès matériel, l’invocation et le contrôle magique sont des questions différentes. Ne pas rétablir le Nexus après S07E22 sans divergence narrative explicitement définie.",
+      "applicationProposee": "Un sous-état « La cave est accessible » peut soutenir une opération suivante ; il ne signifie pas « Le Nexus est maîtrisé ».",
+      "verification": "mixte_dialogues_et_extrait",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "lieu-buckland",
+      "categorie": "lieux",
+      "titre": "Buckland — maison de ventes",
+      "canon": "Prue travaille chez Buckland dans la période de From Fear to Eternity ; l’épisode montre son bureau.",
+      "sources": [
+        "buckland"
+      ],
+      "episodesReperes": [
+        "S01E13"
+      ],
+      "conditionsPourLeJeu": "Identifier le lot, l’archive ou la personne utile et justifier l’accès professionnel ou une autre voie.",
+      "limitesEtIncertitudes": "Cette fiche n’établit pas que tous les objets vendus sont magiques, ni que Prue y travaille durant toutes les saisons.",
+      "applicationProposee": "Lieu possible d’expertise, de provenance d’un objet ou de rendez-vous ; l’information recherchée doit être précise.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "lieu-quake",
+      "categorie": "lieux",
+      "titre": "Quake — restaurant",
+      "canon": "Dans The Wendigo, Piper est liée au restaurant Quake et à une inspection sanitaire.",
+      "sources": [
+        "quake"
+      ],
+      "episodesReperes": [
+        "S01E12"
+      ],
+      "conditionsPourLeJeu": "Distinguer espaces publics, cuisine, horaires et disponibilité du personnel selon le scénario.",
+      "limitesEtIncertitudes": "Ne pas confondre Quake et P3 ; aucun pouvoir magique propre au restaurant n’est établi par cette fiche.",
+      "applicationProposee": "Un lieu civil peut permettre une rencontre ou imposer des témoins ; sa fonction ne dispense pas de réunir les interlocuteurs.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "lieu-ecole",
+      "categorie": "lieux",
+      "titre": "École de magie",
+      "canon": "Dans S06E14, Gideon dirige l’école. Ses protections sont invoquées pour expliquer pourquoi le Cavalier est plus dangereux pour les personnes à l’extérieur.",
+      "sources": [
+        "ecole"
+      ],
+      "episodesReperes": [
+        "S06E14"
+      ],
+      "conditionsPourLeJeu": "Justifier l’accès, la période, l’interlocuteur et l’accès effectif aux connaissances recherchées.",
+      "limitesEtIncertitudes": "Ne pas convertir cette protection située en garantie absolue contre toute mort ou tout mal. La méthode d’accès de chaque scène reste à documenter.",
+      "applicationProposee": "L’école peut soutenir une recherche ou un apprentissage ; elle ne livre pas instantanément toutes les réponses au joueur.",
+      "verification": "dialogues_consultes",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "lieu-enfers",
+      "categorie": "lieux",
+      "titre": "Monde souterrain — Underworld",
+      "canon": "Le monde démoniaque comprend des cavernes et des repaires liés aux forces du mal.",
+      "sources": [
+        "enfers"
+      ],
+      "episodesReperes": [],
+      "conditionsPourLeJeu": "Le scénario doit identifier le repaire précis, son occupant et le moyen d’y parvenir.",
+      "limitesEtIncertitudes": "Aucune carte exhaustive ni accès universel n’a été vérifié. Les éléments des comics sont exclus.",
+      "applicationProposee": "Une ressource « repaire » donne un lieu défini ; elle ne représente pas le contrôle du monde démoniaque entier.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "lieu-regions-superieures",
+      "categorie": "lieux",
+      "titre": "Régions supérieures — Fondateurs",
+      "canon": "Les régions des Fondateurs sont accessibles dans des circonstances particulières. The Honeymoon’s Over présente un décalage de temps vécu par Piper et Leo.",
+      "sources": [
+        "cieux"
+      ],
+      "episodesReperes": [
+        "S03E01",
+        "S05E22",
+        "S05E23"
+      ],
+      "conditionsPourLeJeu": "Établir qui peut s’y rendre à la date de la partie et par quel moyen effectivement attesté.",
+      "limitesEtIncertitudes": "Ne pas appliquer un ratio fixe entre temps céleste et jours du plateau à partir de ce seul épisode.",
+      "applicationProposee": "Une audience ou un déplacement peut nécessiter un intermédiaire ; le bulletin des Fondateurs reste la convention de jeu déjà validée.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "lieu-decharge",
+      "categorie": "lieux",
+      "titre": "Décharge démoniaque — Demonic Wasteland",
+      "canon": "Des restes de démons vaincus y sont dévorés. Le parcours exceptionnel de Cole lui permet d’y récupérer des pouvoirs puis de revenir.",
+      "sources": [
+        "decharge"
+      ],
+      "episodesReperes": [
+        "S04E22"
+      ],
+      "conditionsPourLeJeu": "Traiter le cas de Cole comme un contexte précis, pas comme une ressource disponible à tout personnage.",
+      "limitesEtIncertitudes": "Le détail des premières apparitions et des modalités du retour doit encore être contrôlé dans les épisodes. Les récits comics sont exclus.",
+      "applicationProposee": "Ne pas proposer un accès gratuit à une réserve de pouvoirs ou une résurrection automatique après une attaque perdue.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "objet-livre",
+      "categorie": "objets",
+      "titre": "Livre des Ombres",
+      "canon": "Le Livre conserve le savoir familial et possède des défenses contre le mal ; il reste convoité par des adversaires.",
+      "sources": [
+        "livre"
+      ],
+      "episodesReperes": [],
+      "conditionsPourLeJeu": "Vérifier sa présence, l’accès à la page utile et les capacités de la personne qui interprète ou exécute son contenu.",
+      "limitesEtIncertitudes": "Les défenses ont une histoire et des exceptions. La fiche ne certifie ni une encyclopédie complète de tous les démons ni un accès automatique à toute solution.",
+      "applicationProposee": "La consultation peut produire une clé d’information. Sa représentation dans le jeu ne doit pas détruire physiquement cet artefact canonique.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "objet-grimoire",
+      "categorie": "objets",
+      "titre": "Grimoire maléfique",
+      "canon": "The Grimoire est présenté comme une contrepartie maléfique au Livre des Ombres.",
+      "sources": [
+        "grimoire"
+      ],
+      "episodesReperes": [],
+      "conditionsPourLeJeu": "Nommer le livre exact et son détenteur ; une autre sorcière ou un démon peut avoir un ouvrage différent.",
+      "limitesEtIncertitudes": "Le contenu précis, les protections et la disponibilité nécessitent une vérification par épisode avant utilisation comme solution.",
+      "applicationProposee": "Ne pas donner à toute carte « grimoire » les propriétés du Grimoire de la Source.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "objet-cristaux",
+      "categorie": "objets",
+      "titre": "Cristaux de protection",
+      "canon": "Piper protège Leo avec des cristaux dans S07E17. Prince Charmed montre un usage pour protéger le manoir ; Charmed Noir décrit un bouclier formé par trois cristaux autour de Miss Donovan.",
+      "sources": [
+        "scry",
+        "cristaux-manoir",
+        "cristaux-trois"
+      ],
+      "episodesReperes": [
+        "S07E17",
+        "S06E12",
+        "S07E08"
+      ],
+      "conditionsPourLeJeu": "Distinguer les cristaux disponibles de leur disposition effective autour d’une cible ou d’un espace.",
+      "limitesEtIncertitudes": "Cet exemple ne prouve pas que n’importe quel cristal protège contre n’importe quel adversaire.",
+      "applicationProposee": "Les cristaux constituent les ressources ; l’effet de protection installé constitue une clé ou un verrou selon la cible et les règles. Adapter la configuration à l’usage attesté, sans imposer un pentagramme universel.",
+      "verification": "mixte_dialogues_et_extrait",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "objet-bague-cupidon",
+      "categorie": "objets",
+      "titre": "Bague de Cupidon",
+      "canon": "Le premier Cupidon rencontré utilise sa bague pour reconnaître des liens amoureux.",
+      "sources": [
+        "cupidon"
+      ],
+      "episodesReperes": [],
+      "conditionsPourLeJeu": "Identifier le Cupidon et la fonction de la bague montrée dans l’épisode choisi.",
+      "limitesEtIncertitudes": "Les capacités des différents Cupidons et des bagues ne doivent pas être fusionnées. Les propriétés de voyage temporel ne sont pas validées par cette fiche.",
+      "applicationProposee": "Reconnaître un lien ne signifie ni imposer un sentiment ni obliger un personnage à accepter une relation.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "objet-boite-hollow",
+      "categorie": "objets",
+      "titre": "Boîte du Hollow",
+      "canon": "La boîte contient le Hollow ; la Source le libère dans Charmed and Dangerous.",
+      "sources": [
+        "boite"
+      ],
+      "episodesReperes": [
+        "S04E13"
+      ],
+      "conditionsPourLeJeu": "Vérifier l’emplacement, les gardiens, l’accès et l’état d’ouverture dans le scénario.",
+      "limitesEtIncertitudes": "Le contenant, l’entité et une méthode de confinement sont distincts. Ne pas assimiler le Hollow au Nexus.",
+      "applicationProposee": "Obtenir le contenant ne prouve pas que son contenu est sous contrôle ; le scénario doit anticiper les effets sur les deux camps.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "objet-bague-inspiration",
+      "categorie": "objets",
+      "titre": "Anneau d’inspiration",
+      "canon": "Dans Muse to My Ears, cet objet destiné à l’inspiration est détourné pour capturer des Muses ; elles sont finalement libérées.",
+      "sources": [
+        "muses"
+      ],
+      "episodesReperes": [
+        "S04E09"
+      ],
+      "conditionsPourLeJeu": "Établir qui détient l’anneau et quelles Muses y sont effectivement enfermées.",
+      "limitesEtIncertitudes": "L’inspiration ne doit pas être traduite automatiquement en savoir exact, omniscience ou réussite certaine.",
+      "applicationProposee": "La libération d’une Muse ou la récupération de l’anneau peut constituer un fait vérifiable soutenant un objectif plus large.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "objet-arbalete",
+      "categorie": "objets",
+      "titre": "Arbalète d’Être des ténèbres",
+      "canon": "Dans Blinded by the Whitelighter, Eames recherche l’arbalète d’un Être des ténèbres pour tuer un Être de lumière.",
+      "sources": [
+        "arbalete"
+      ],
+      "episodesReperes": [
+        "S03E11"
+      ],
+      "conditionsPourLeJeu": "Vérifier possession, projectile disponible, portée, identité et nature actuelle de la cible.",
+      "limitesEtIncertitudes": "Ne pas traiter toute arbalète ordinaire comme cet objet ni appliquer la même vulnérabilité à tous les personnages.",
+      "applicationProposee": "Une attaque doit engager des moyens concrets ; annoncer cette arme ne garantit pas que le tir touche.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "magie-cage",
+      "categorie": "formules-et-potions",
+      "titre": "Installation d’une cage de cristaux",
+      "canon": "La cage à cinq cristaux en pentagramme est une configuration décrite, pas une obligation pour toute protection de cristaux : Charmed Noir présente un bouclier avec trois cristaux, et Prince Charmed une protection du manoir.",
+      "sources": [
+        "cage",
+        "cristaux-trois",
+        "cristaux-manoir"
+      ],
+      "episodesReperes": [
+        "S04E13",
+        "S07E08",
+        "S06E12"
+      ],
+      "conditionsPourLeJeu": "Identifier la fonction recherchée et sa configuration attestée : confinement local, bouclier local ou protection du manoir. Une configuration observée ne devient pas une recette obligatoire pour toutes les autres.",
+      "limitesEtIncertitudes": "Les propriétés précises de chaque configuration doivent être détaillées séparément. Le schéma proposé par la joueuse avec des cristaux aux extrémités, au grenier et au sous-sol reste à vérifier ; ne pas le rejeter ni le certifier par défaut. Aucun nombre universel ni durée universelle ne sont établis.",
+      "applicationProposee": "Une proposition peut rester en préparation tant que le dispositif est incomplet ; aucune durée de plateau n’est déduite arbitrairement du canon.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "magie-potion-belthazor",
+      "categorie": "formules-et-potions",
+      "titre": "Potion contre Belthazor",
+      "canon": "S03E08 montre une préparation dont l’achèvement nécessite de la chair de Belthazor. Les sœurs disent ne pas avoir besoin du Pouvoir des Trois pour cette opération.",
+      "sources": [
+        "belthazor"
+      ],
+      "episodesReperes": [
+        "S03E08"
+      ],
+      "conditionsPourLeJeu": "Connaissance de la préparation, accès aux composants attestés, échantillon pertinent et fabrication effective.",
+      "limitesEtIncertitudes": "Recette partielle seulement : ni quantités ni liste complète certifiées. Aucun usage universel contre tous les démons ou toutes les versions de Cole.",
+      "applicationProposee": "L’échantillon peut être un enjeu stratégique. Ne pas dévoiler au joueur le composant manquant si les règles n’autorisent que son nombre.",
+      "verification": "dialogues_consultes",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "magie-verite",
+      "categorie": "formules-et-potions",
+      "titre": "Sort de vérité",
+      "canon": "S01E08 établit une durée de 24 heures, un effet réciproque touchant les sœurs présentes, puis un oubli chez Andy ; les sœurs conservent leur souvenir.",
+      "sources": [
+        "verite"
+      ],
+      "episodesReperes": [
+        "S01E08"
+      ],
+      "conditionsPourLeJeu": "Préciser personnes affectées et moment d’incantation avant d’évaluer ce qu’une conversation révèle.",
+      "limitesEtIncertitudes": "Ne pas confondre parole sincère et connaissance complète. Pas de traduction automatique des 24 heures en coût supplémentaire.",
+      "applicationProposee": "Une clé peut établir qu’un témoin dit ce qu’il croit ; la fiabilité de ses informations doit être examinée séparément.",
+      "verification": "dialogues_consultes",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "magie-appel",
+      "categorie": "formules-et-potions",
+      "titre": "Appeler une sorcière perdue",
+      "canon": "Au début de Charmed Again, les tentatives magiques de Piper ne ramènent pas Prue à la vie. Paige entre dans l’histoire autour des funérailles.",
+      "sources": [
+        "appel"
+      ],
+      "episodesReperes": [
+        "S04E01"
+      ],
+      "conditionsPourLeJeu": "Identifier l’appel, la personne recherchée et le contexte avant de déduire un résultat.",
+      "limitesEtIncertitudes": "La transcription consultée ne suffit pas à certifier tous les accessoires du rituel ni toutes ses variantes. Aucun pouvoir de résurrection garanti.",
+      "applicationProposee": "L’intention déclarée et le résultat constaté restent distincts : une clé ne garantit pas l’effet espéré par sa seule formulation.",
+      "verification": "dialogues_consultes",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "magie-teleportation",
+      "categorie": "formules-et-potions",
+      "titre": "Potion de téléportation",
+      "canon": "Dans The Torn Identity, Billie et Christy utilisent une potion pour rejoindre Pator.",
+      "sources": [
+        "transport"
+      ],
+      "episodesReperes": [
+        "S08E18"
+      ],
+      "conditionsPourLeJeu": "Établir accès à une préparation connue, destination, personnes transportées et date de disponibilité.",
+      "limitesEtIncertitudes": "La recette, les quantités et la portée maximale restent non vérifiées. Ne pas importer le mécanisme différent du reboot.",
+      "applicationProposee": "Transporter un personnage ne lui donne ni permission d’entrée, ni connaissance du lieu, ni protection à l’arrivée.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "magie-retrait-pouvoirs",
+      "categorie": "formules-et-potions",
+      "titre": "Potion de retrait des pouvoirs",
+      "canon": "Le corpus secondaire décrit le retrait des pouvoirs démoniaques de Cole et une tentative de Paige concernant Richard, qui la repousse.",
+      "sources": [
+        "depouillement"
+      ],
+      "episodesReperes": [
+        "S04E08"
+      ],
+      "conditionsPourLeJeu": "Vérifier la préparation adaptée à la cible, sa nature et ses pouvoirs à la période retenue.",
+      "limitesEtIncertitudes": "Recette et modalités exactes à confirmer par épisode. Ne pas universaliser « retire toute magie pour toujours » ni intégrer les événements comics.",
+      "applicationProposee": "Posséder une potion de cette famille ne prouve pas son efficacité sur une autre cible ; le retrait peut laisser subsister une personne.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "magie-woogy",
+      "categorie": "formules-et-potions",
+      "titre": "Bannissement du Woogyman",
+      "canon": "Phoebe se souvient de la formule transmise par sa grand-mère et l’ajoute au Livre après la confrontation.",
+      "sources": [
+        "woogy-formule"
+      ],
+      "episodesReperes": [
+        "S01E15"
+      ],
+      "conditionsPourLeJeu": "Vérifier la cible et la version de la formule ; distinguer mémorisation et lecture effective du Livre.",
+      "limitesEtIncertitudes": "Ce bannissement n’est pas assimilable sans preuve à la destruction du Nexus en saison 7.",
+      "applicationProposee": "Une information peut être détenue par un personnage sans provenir d’un objet actuellement dans sa main ; ses pouvoirs restent liés à sa carte.",
+      "verification": "extrait_seulement",
+      "activation": "non_active_recherche"
+    },
+    {
+      "id": "magie-invocation-belthazor",
+      "categorie": "formules-et-potions",
+      "titre": "Invocation visant Belthazor",
+      "canon": "Dans S03E08, l’invocation préparée pour Belthazor fait arriver Krell, qui explique l’avoir interceptée ; Belthazor est blessé et privé de son déplacement démoniaque.",
+      "sources": [
+        "belthazor"
+      ],
+      "episodesReperes": [
+        "S03E08"
+      ],
+      "conditionsPourLeJeu": "Préciser destinataire, état actuel, moyen magique et éventuelles interférences.",
+      "limitesEtIncertitudes": "Nommer une cible ne garantit pas qu’elle arrive. Ne pas généraliser cette interception à tout adversaire sans moyen pertinent.",
+      "applicationProposee": "Exemple de référence pour une conséquence imprévue liée à la situation réelle entre déclaration et résolution de l’action.",
+      "verification": "dialogues_consultes",
+      "activation": "non_active_recherche"
+    }
+  ]
+}

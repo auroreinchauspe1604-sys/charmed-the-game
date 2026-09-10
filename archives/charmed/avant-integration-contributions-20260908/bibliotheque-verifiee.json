@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "sources": [
+    {"id":"library:charmed-noir-script","url":"https://charmed.fandom.com/wiki/Charmed_Noir/Script","consultedAt":"2026-09-08","evidenceLevel":"transcription non officielle accessible par index de recherche ; accès direct bloqué"},
+    {"id":"library:charmed-dangerous-script","url":"https://charmed.fandom.com/wiki/Charmed_and_Dangerous/Script","consultedAt":"2026-09-08","evidenceLevel":"transcription non officielle accessible par index de recherche ; accès direct bloqué"}
+  ],
+  "facts": [
+    {"id":"library:crystals-three","season":7,"episode":8,"status":"verified","entities":["Paige","cristaux"],"claim":"Dans Charmed Noir, Paige déplace trois cristaux autour de Miss Donovan pour former un bouclier. Cinq cristaux et un pentagramme ne sont donc pas des conditions universelles de tous les dispositifs de cristaux.","sources":["library:charmed-noir-script"],"limits":["Ce précédent ne définit pas à lui seul toutes les configurations possibles ni toutes leurs résistances."]},
+    {"id":"library:crystals-activation-electricity","season":4,"episode":13,"status":"verified","entities":["Paige","Phoebe","cristaux","Source"],"claim":"Dans Charmed and Dangerous, Phoebe et Paige disposent les cristaux autour de la Source ; la pose du dernier cristal par Paige fait apparaître des décharges électriques autour de lui. Une activation par achèvement du dispositif possède donc un précédent.","sources":["library:charmed-dangerous-script"],"limits":["Ne pas confondre la vision de la Prophétesse et la confrontation finale, toutes deux présentes dans la transcription.","Ce fait ne prouve pas une immunité à toute magie ni le blocage de toutes les téléportations."]},
+    {"id":"library:crystals-removal","season":4,"episode":13,"status":"verified","entities":["Source","cristaux"],"claim":"Lors de cette confrontation, la Source utilise le pouvoir dérobé à Paige pour attirer un cristal dans sa main ; le piège disparaît. Retirer un cristal nécessaire peut donc interrompre ce dispositif.","sources":["library:charmed-dangerous-script"],"limits":["Contre-moyen spécifique à un pouvoir effectivement détenu ; aucun accès automatique à ce pouvoir pour les autres démons."]}
+  ]
+}

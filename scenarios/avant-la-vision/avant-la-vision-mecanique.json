@@ -1,0 +1,249 @@
+{
+  "id": "avant-la-vision",
+  "schema": "preparation-scenario-1",
+  "runtime_compatible": false,
+  "started": false,
+  "title": "Avant que la vision s'accomplisse",
+  "period": "Saison 1 ; insertion exacte non revendiquée",
+  "days": {
+    "start": 1,
+    "last_player_day": 11,
+    "final_morning": 12
+  },
+  "turn_order": [
+    "phoebe",
+    "commanditaire"
+  ],
+  "player_budget": 1,
+  "attack_disclosure": "next_morning",
+  "attack_abandon": false,
+  "subgoal_capacity": {
+    "phoebe": 3,
+    "commanditaire": 2
+  },
+  "subgoal_capacity_note": "Capacités dérivées des chemins témoins privés de avant-la-vision-gameplay.json, avec contrôle du calendrier. Les noms ne sont jamais imposés.",
+  "initial_resources": {
+    "phoebe": [
+      "phoebe",
+      "nina",
+      "jules",
+      "carnet",
+      "dossier-reception",
+      "refuge"
+    ],
+    "commanditaire": [
+      "commanditaire",
+      "intermediaire",
+      "gardien",
+      "convocation",
+      "acces-galerie"
+    ]
+  },
+  "world_facts_for_director": {
+    "innocent": "Élise Moreau, assistante administrative ayant conservé une copie de documents compromettants.",
+    "venue": "Galerie fictive des Arcades, verrière intérieure et rideau rouge ; aucun lieu canonique modifié.",
+    "antagonist": "Commanditaire humain fictif. Veut supprimer un témoin, utilise une convocation et des complices. Aucun pouvoir magique.",
+    "copy": "Élise possède une copie ; la détruire ne satisfait pas à elle seule l'objectif de mort du commanditaire.",
+    "vision": "Futur évitable, fragments fixes. Pas de lieu ou coupable réinventé selon les propositions d'Aurore.",
+    "sisters": "Prue et Piper existent. Leur aide éventuelle doit être traitée sans interdiction arbitraire ni disponibilité automatique.",
+    "information": "Actions et pièces déclarées publiques ; faits privés du complot connus au seul camp concerné et à l'arbitre. Aucune IA adverse n'utilise les plans non joués de la joueuse."
+  },
+  "events": [
+    {
+      "morning": 1,
+      "kind": "opening",
+      "public": true,
+      "effect": "Vision initiale et rencontre avec Élise ; aucune pièce engagée."
+    },
+    {
+      "morning": 3,
+      "kind": "opportunity",
+      "public": true,
+      "effect": "Le programme public de la réception devient consultable ; on peut demander un exemplaire. Il ne révèle pas automatiquement le lieu privé."
+    },
+    {
+      "morning": 5,
+      "kind": "conditional",
+      "public": true,
+      "condition": "La réception n'a pas été annulée par une action réalisée.",
+      "effect": "La liste officielle des prestataires est affichée. Nouvelle piste possible, pas une clé gratuite."
+    },
+    {
+      "morning": 8,
+      "kind": "conditional",
+      "public": true,
+      "condition": "L'IA a engagé et réalisé une convocation recevable.",
+      "effect": "Élise reçoit la convocation. Un refuge ou un avertissement déjà obtenu conserve son effet ; pas de déplacement forcé gratuit."
+    },
+    {
+      "morning": 12,
+      "kind": "final",
+      "public": true,
+      "effect": "Résoudre uniquement les actes valides arrivés à échéance puis constater survie et empêchement, ou mort. La vision seule ne tue personne."
+    }
+  ],
+  "ai_policy": {
+    "objective": "Mort d'Élise au plus tard au matin du jour 12.",
+    "priorities": [
+      "Conserver un moyen d'atteindre Élise",
+      "Défendre ce moyen contre les actions publiques de Phoebe",
+      "Déclarer assez tôt une attaque recevable et réunir ses moyens",
+      "Répondre aux justifications pendant son passage"
+    ],
+    "forbidden": [
+      "Pouvoir inventé",
+      "Action gratuite fournie par un événement",
+      "Plus d'un coup par jour",
+      "Utiliser une ressource engagée ailleurs",
+      "Connaître une intention non déclarée",
+      "Obtenir la mort par simple absence de victoire adverse"
+    ],
+    "persona": "Humain calculateur, bref ; aucune voix ou identité de la Source. Narration de ses coups séparée de Radio Halliwell et de l'arbitre."
+  },
+  "attack_templates_for_director": [
+    {
+      "intent": "Saisir la convocation adverse",
+      "needs": 2,
+      "execution_days_after_assembly": 1,
+      "earliest_offset_from_declaration": 3,
+      "effect": "Retirer un moyen de rendez-vous, pas neutraliser toute la menace",
+      "failure": "Objet non obtenu ; sort des personnes selon cause réelle, aucune mort automatique"
+    },
+    {
+      "intent": "Neutraliser physiquement un complice humain",
+      "needs": 3,
+      "execution_days_after_assembly": 1,
+      "earliest_offset_from_declaration": 4,
+      "effect": "Empêcher son intervention précise, sans exécution ni nouvelle capacité magique",
+      "failure": "Échec, fuite, blessure ou capture si les faits le justifient"
+    }
+  ],
+  "attack_template_note": "Conventions de conception déterministes, révélées seulement le lendemain d'une acceptation. Ne pas confondre exemple de faisabilité et liste exhaustive d'actes autorisés. D = déclaration ; révélation D+1 ; N poses D+1..D+N ; résolution au plus tôt D+N+1. Une demande tardive reste refusée si aucun calendrier recevable n'existe, sans inventer une attaque instantanée.",
+  "routes_without_opposition": [
+    {
+      "id": "protection-directe",
+      "purpose": "Protéger la personne sans résoudre toute l'enquête",
+      "steps": [
+        {
+          "day": 1,
+          "move": "pose",
+          "resource": "nina",
+          "group": "confiance",
+          "scope": "main"
+        },
+        {
+          "day": 2,
+          "move": "pose",
+          "resource": "carnet",
+          "group": "confiance",
+          "scope": "main"
+        },
+        {
+          "day": 3,
+          "move": "pose",
+          "resource": "jules",
+          "group": "mise-abri",
+          "scope": "main"
+        },
+        {
+          "day": 4,
+          "move": "pose",
+          "resource": "refuge",
+          "group": "mise-abri",
+          "scope": "main"
+        }
+      ],
+      "result_morning": 5,
+      "final_claim": "Protection obtenue ; maintenir son efficacité jusqu'à J12 ou neutraliser la tentative. Pas de victoire automatique à J5."
+    },
+    {
+      "id": "enquete-et-interruption",
+      "purpose": "Obtenir une preuve puis empêcher le rendez-vous",
+      "steps": [
+        {
+          "day": 1,
+          "move": "subgoal",
+          "group": "preuve"
+        },
+        {
+          "day": 2,
+          "move": "pose",
+          "resource": "nina",
+          "group": "preuve",
+          "scope": "subgoal"
+        },
+        {
+          "day": 3,
+          "move": "pose",
+          "resource": "dossier-reception",
+          "group": "preuve",
+          "scope": "subgoal"
+        },
+        {
+          "day": 4,
+          "move": "pose",
+          "resource": "jules",
+          "group": "interruption",
+          "scope": "main"
+        },
+        {
+          "day": 5,
+          "move": "pose",
+          "resource": "phoebe",
+          "group": "interruption",
+          "scope": "main"
+        }
+      ],
+      "result_morning": 6,
+      "final_claim": "Confrontation de l'organisateur aux faits et interruption recevable. La causalité et la protection d'Élise doivent être constatées ; le nombre de cartes seul ne fait pas gagner."
+    },
+    {
+      "id": "attaque-du-moyen",
+      "purpose": "Voler un moyen adverse puis protéger Élise",
+      "steps": [
+        {
+          "day": 1,
+          "move": "declare_attack",
+          "group": "saisie"
+        },
+        {
+          "day": 2,
+          "move": "pose",
+          "resource": "phoebe",
+          "group": "saisie",
+          "scope": "attack"
+        },
+        {
+          "day": 3,
+          "move": "pose",
+          "resource": "jules",
+          "group": "saisie",
+          "scope": "attack"
+        },
+        {
+          "day": 4,
+          "move": "pose",
+          "resource": "nina",
+          "group": "protection",
+          "scope": "main"
+        },
+        {
+          "day": 5,
+          "move": "pose",
+          "resource": "refuge",
+          "group": "protection",
+          "scope": "main"
+        }
+      ],
+      "result_morning": 6,
+      "final_claim": "Moyen adverse retiré et protection construite ; autres moyens adverses à examiner. Pas de victoire automatique."
+    }
+  ],
+  "unresolved_general_rules": [
+    "Priorité entre effets simultanés et traitement d'une attaque suspendue à son échéance",
+    "Sort d'une branche devenue irréalisable",
+    "Modalités exactes d'une aide tardive d'une autre sœur",
+    "Couleur des attaques"
+  ],
+  "validation_scope": "Calendriers constructibles sans opposition seulement ; ni preuve d'équilibrage ni simulation exhaustive. Les règles générales non actées restent ouvertes."
+}

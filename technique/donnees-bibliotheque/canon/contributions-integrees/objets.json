@@ -1,0 +1,177 @@
+{
+  "id": "objets",
+  "reviewedAt": "2026-09-08",
+  "status": "integrated_documentary",
+  "origin": "Charmed/contributions/objets/PROPOSITION_A_INTEGRER.md",
+  "sources": {
+    "S01": {
+      "urls": [
+        "https://en.wikipedia.org/wiki/Book_of_Shadows_%28Charmed%29"
+      ],
+      "evidence": "| S01 | [Book of Shadows (Charmed)](https://en.wikipedia.org/wiki/Book_of_Shadows_%28Charmed%29) | IS ; livre, première apparition S01E01, défense contre le mal. |"
+    },
+    "S02": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Death_Becomes_Them/Plot",
+        "https://charmed.fandom.com/wiki/Fight_for_the_Nexus"
+      ],
+      "evidence": "| S02 | [Death Becomes Them — Plot](https://charmed.fandom.com/wiki/Death_Becomes_Them/Plot) et [Fight for the Nexus](https://charmed.fandom.com/wiki/Fight_for_the_Nexus) | IS ; S07E21, usurpation de Piper puis déstabilisation et vol. |"
+    },
+    "S03": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Something_Wicca_This_Way_Goes...%3F/Plot"
+      ],
+      "evidence": "| S03 | [Something Wicca This Way Goes — Plot](https://charmed.fandom.com/wiki/Something_Wicca_This_Way_Goes...%3F/Plot) | IS ; S07E22, Livre détenu par Zankou et réaction à Phoebe. |"
+    },
+    "S04": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/We%27re_Off_to_See_the_Wizard/Script"
+      ],
+      "evidence": "| S04 | [We're Off to See the Wizard — Script](https://charmed.fandom.com/wiki/We%27re_Off_to_See_the_Wizard/Script) | IT ; S04E19, couronnement, plan du sac enchanté, résistance à la potion ; dernière recherche de Phoebe sur carte. |"
+    },
+    "S05": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Sight_Unseen/Script"
+      ],
+      "evidence": "| S05 | [Sight Unseen — Script](https://charmed.fandom.com/wiki/Sight_Unseen/Script) | IT ; S03E05, Prue retire et replace un cristal face à Troxa. |"
+    },
+    "S06": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e13&tv-show=charmed"
+      ],
+      "evidence": "| S06 | [Charmed and Dangerous — dialogues](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e13&tv-show=charmed) | T ; S04E13, gardiens du Hollow, explication du confinement et préparation des cinq cristaux. Dialogue lu dans le contexte des séquences ; pas de visionnage. |"
+    },
+    "S07": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Charmed_Noir/Script"
+      ],
+      "evidence": "| S07 | [Charmed Noir — Script](https://charmed.fandom.com/wiki/Charmed_Noir/Script) | IT ; S07E08, trois cristaux autour de Miss Donovan. |"
+    },
+    "S08": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Prince_Charmed/Script"
+      ],
+      "evidence": "| S08 | [Prince Charmed — Script](https://charmed.fandom.com/wiki/Prince_Charmed/Script) | IT ; S06E12, installation d’alarme, infiltration sous apparence de Darryl, véritable Darryl déplaçant un cristal. |"
+    },
+    "S09": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed"
+      ],
+      "evidence": "| S09 | [Scry Hard — dialogues](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed) | T ; S07E17, dispute Piper/Leo sur les cristaux cachés, avant la miniaturisation. La recherche automatique de « crystal » a d’abord renvoyé zéro ; le passage a ensuite été retrouvé via « protect ». Ne pas confondre recherche de mot infructueuse et absence du dialogue. |"
+    },
+    "S10": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Scry_Hard/Script"
+      ],
+      "evidence": "| S10 | [Scry Hard — Script](https://charmed.fandom.com/wiki/Scry_Hard/Script) | IT ; S07E17, cristal désignant le manoir, hésitation sur un piège. |"
+    },
+    "S11": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Scry_Hard"
+      ],
+      "evidence": "| S11 | [Scry Hard — épisode](https://charmed.fandom.com/wiki/Scry_Hard) | IS ; rubrique artefacts, intervention de Piper sur le cristal. |"
+    },
+    "S12": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Heartbreak_City"
+      ],
+      "evidence": "| S12 | [Heartbreak City — épisode](https://charmed.fandom.com/wiki/Heartbreak_City) | IS ; S02E10, bague volée, pensées, protection contre la potion. |"
+    },
+    "S13": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Heartbreak_City/Script"
+      ],
+      "evidence": "| S13 | [Heartbreak City — Script](https://charmed.fandom.com/wiki/Heartbreak_City/Script) | IT ; S02E10, ouverture avec Cindy et Max, ralentissement et intervention de Cupidon. |"
+    },
+    "S14": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Forever_Charmed/Script"
+      ],
+      "evidence": "| S14 | [Forever Charmed — Script](https://charmed.fandom.com/wiki/Forever_Charmed/Script) | IT ; S08E22, prêt à Piper, consignes de Coop, première arrivée erronée, vol par Dumain ; la fin contient aussi une résolution du Hollow à approfondir. |"
+    },
+    "S15": {
+      "urls": [
+        "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e09&tv-show=charmed"
+      ],
+      "evidence": "| S15 | [Muse to My Ears — dialogues](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e09&tv-show=charmed) | T ; S04E09, explication de la Muse, récupération par Paige, libération suivie d’une nouvelle capture. |"
+    },
+    "S16": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Blinded_by_the_Whitelighter/Script"
+      ],
+      "evidence": "| S16 | [Blinded by the Whitelighter — Script](https://charmed.fandom.com/wiki/Blinded_by_the_Whitelighter/Script) | IT ; S03E11, poison, blessure de Natalie, délai non immédiat. |"
+    },
+    "S17": {
+      "urls": [
+        "https://charmed.fandom.com/wiki/Siren_Song/Script"
+      ],
+      "evidence": "| S17 | [Siren Song — Script](https://charmed.fandom.com/wiki/Siren_Song/Script) | IT ; S05E04, avertissement concernant les gènes d’Être de lumière de Paige. |"
+    }
+  },
+  "fiches": [
+    {
+      "id": "objets:1",
+      "titre": "O01 — Livre des Ombres",
+      "canon": "### O01 — Livre des Ombres\n\n**Fiche Ange.** Livre familial contenant notamment des connaissances magiques, formules et recettes ; la série le présente dès S01E01. Ses défenses contre le mal ne sont pas absolues. En S07E21, Zankou échoue sous l’apparence de Piper puis exploite l’affaiblissement émotionnel des sœurs ; le début de S07E22 établit qu’il détient le Livre. Ce précédent interdit de déduire « impossible à voler » de sa protection habituelle. [S01, S02, S03]\n\nÉvaluer séparément présence du livre, accès effectif, entrée recherchée, compréhension et exécution. Le savoir inscrit n’exécute pas automatiquement le sort. Une page absente de la recherche n’est pas une preuve que le Livre ne peut contenir cette information. Pour un usage opposant sa protection à un adversaire, vérifier l’état du Livre et des sœurs à cet instant. Le vol de fin S07 ne devient pas une faiblesse activable par une simple phrase de déstabilisation.\n\n**Limites et vérification.** Extraits secondaires indexés ; mécanisme complet des protections, premières exceptions et réactions à chaque catégorie d’utilisateur non revus. Ne pas attribuer d’emblée au Livre une réponse à toute question ou une inviolabilité. Ne pas confondre vulnérabilité émotionnelle observée et seuil chiffré de jeu.\n\n**Carte proposée — Livre des Ombres.** « Livre familial de connaissances magiques, de formules et de recettes. Il possède des protections contre le mal, dont l’efficacité dépend du contexte. »",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "objets:2",
+      "titre": "O02 — Grimoire de la Source",
+      "canon": "### O02 — Grimoire de la Source\n\n**Fiche Ange.** Artefact particulier, distinct des autres grimoires. En S04E19, il intervient dans le serment de couronnement : la Source doit y poser la main pendant le serment. Il se protège du Bien ; les sœurs prévoient un sac enchanté et Paige l’y transporte. Une potion de Piper échoue à le détruire. Ce constat n’établit pas son indestructibilité contre tout moyen possible. [S04]\n\nIdentifier l’exemplaire, son accès, le rite ou passage utile et l’utilisateur. La possession seule ne confère pas les pouvoirs de la Source. La protection contre le Bien n’interdit pas toute manipulation indirecte. Le statut de livre maléfique n’assimile pas automatiquement tout autre grimoire à cet artefact.\n\n**Limites et vérification.** Extrait indexé d’une transcription non officielle. Les limites de résistance, la chronologie après cet épisode et le détail des autres formules restent à rechercher selon l’usage. Pas de formule latine reproduite : les transcriptions disponibles ne constituent pas une base suffisante pour en figer l’orthographe.\n\n**Carte proposée — Grimoire de la Source.** « Livre de magie maléfique lié aux rites de la Source. Il se protège du Bien et résiste aux moyens de destruction essayés par Piper. »",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "objets:3",
+      "titre": "O03 — Cristaux de protection et de confinement",
+      "canon": "### O03 — Cristaux de protection et de confinement\n\n**Fiche Ange.** Distinguer au moins quatre contextes : en S03E05, Prue retire puis replace un cristal et interrompt puis rétablit les décharges sur Troxa [S05] ; S04E13 mentionne cinq cristaux magiques orientés est–ouest pour un dispositif précis [S06] ; en S07E08, trois cristaux entourent Miss Donovan [S07] ; S06E12 décrit une installation d’alarme démoniaque au manoir [S08].\n\nDans S06E12, l’extrait décrit des cristaux dans plusieurs espaces, dont près de la porte, dans un couloir et à la fenêtre de Wyatt. Un démon sous l’apparence de Darryl pénètre néanmoins dans la maison. Cela ne prouve ni le mécanisme exact de contournement, ni une immunité générale des métamorphes. Cela empêche de qualifier sans réserve cette installation de barrière interdisant toute entrée démoniaque. [S08]\n\nS07E17 comporte un dialogue où Leo reproche à Piper d’avoir caché des cristaux pour le protéger. Le dialogue corrobore l’intention protectrice ; il ne fournit ni plan complet ni résistance mesurée. [S09]\n\nPour l’Ange : vérifier cristaux réellement présents, installation, cible et propriété demandée. L’achèvement et le maintien du dispositif sont distincts du simple transport des cristaux. Un retrait nécessaire peut interrompre un effet ; ne pas généraliser le comportement de Troxa à tout adversaire. Le corpus actif documente déjà le retrait d’un cristal par la Source avec le pouvoir volé à Paige : conserver cette référence avec ses limites, sans l’attribuer à tout démon.\n\n**Limites et vérification.** Transcriptions indexées, plus dialogues S04E13 et S07E17 consultés directement. Ni cinq cristaux universels, ni immunité à toutes les téléportations, ni protection automatique du grenier au sous-sol ne sont établis. La scène initiale de S04E13 est une vision : ne pas présenter son résultat comme celui de la confrontation finale.\n\n**Carte proposée — Cristaux magiques.** « Cristaux destinés à des dispositifs de confinement, de protection ou d’alarme. L’effet dépend de leur préparation et de leur disposition ; certaines configurations produisent des décharges. »",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "objets:4",
+      "titre": "O04 — Cristal de localisation",
+      "canon": "### O04 — Cristal de localisation\n\n**Fiche Ange.** Pendule employé avec une carte géographique dans une recherche magique. La fin de S04E19 décrit déjà Paige recherchant Phoebe et le cristal désignant un point : S07E17 n’est donc pas son premier usage établi dans ce lot. [S04]\n\nS07E17 associe une recherche infructueuse puis un cristal qui se soulève et pointe le manoir ; les sœurs s’interrogent sur un piège. La fiche d’épisode attribue ce signal à l’intervention de Piper. Distinguer résultat de recherche spontanée et signal provoqué : le cristal n’est pas une preuve universelle de sécurité du lieu. [S10, S11]\n\nÉvaluer pratiquant, cible, lien utilisé, support cartographique et protections pertinentes. Un repère n’établit ni accès, ni consentement, ni absence d’ennemi. Ne pas exiger systématiquement du sang : la nécessité du lien et sa forme doivent correspondre au cas étudié.\n\n**Limites et vérification.** Extraits de transcription et résumé d’épisode indexés. La page générale de scrying mélange règles générales, procédés de tournage et comics : elle n’est pas retenue comme preuve d’une interdiction absolue visant mortels, Enfers ou autres plans. Ces limites doivent être vérifiées par scènes et contre-exemples avant arbitrage.\n\n**Carte proposée — Cristal de localisation.** « Pendule utilisé avec une carte géographique pour une recherche magique. La cible, le lien employé et les conditions de recherche déterminent la pertinence du repère obtenu. »",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "objets:5",
+      "titre": "O05 — Bagues de Cupidon : deux descriptions selon la période",
+      "canon": "### O05 — Bagues de Cupidon : deux descriptions selon la période\n\n**Fiche Ange, précédent S02E10.** La bague du Cupidon rencontré dans Heartbreak City intervient dans la reconnaissance de liens et l’influence sur les pensées des personnes concernées. Drazi la vole et l’utilise ; la synthèse de l’épisode lui attribue aussi une protection contre la potion essayée, perdue lorsqu’il est privé de la bague. L’extrait de transcription d’ouverture montre un ralentissement du temps et l’intervention du Cupidon auprès du couple. [S12, S13]\n\nNe pas imposer « seul un Cupidon autorisé peut l’utiliser ». À l’inverse, ce précédent ne prouve pas que tout porteur obtient toutes les capacités de tous les Cupidons. L’influence observée n’équivaut pas à un consentement garanti ni à l’obtention certaine d’une relation.\n\n**Carte proposée — Bague du Cupidon, S02.** « Bague magique permettant au Cupidon d’identifier des liens amoureux et d’intervenir auprès des personnes concernées. Elle peut être volée et détournée. »\n\n**Fiche Ange, précédent S08E22.** Coop prête sa bague à Piper. Le voyage suit un lien d’amour : penser à la personne et à l’amour ressenti sert d’activation. Leo accompagne Piper en la tenant par la main. La première arrivée ne correspond pas à la date recherchée. Plus tard, Dumain vole la bague et l’emploie avec Christy. L’usage n’est donc pas exclusivement personnel à Coop ; l’objet n’est pas pour autant une commande précise de date et de destination. [S14]\n\n**Carte proposée — Bague de Coop, S08.** « Bague permettant notamment de voyager dans le temps en suivant un lien d’amour. Elle peut être prêtée ; la destination obtenue ne correspond pas nécessairement à la date souhaitée. »\n\n**Limites et vérification communes.** Extraits indexés de transcription et synthèse secondaire. Ne pas rétroprojeter le voyage S08 sur la bague S02. Portée globale, nombre maximal de voyageurs, toutes les fonctions et conditions d’usage par un voleur non établis. Aucun de ces objets n’est attribué automatiquement à une partie.",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "objets:6",
+      "titre": "O06 — Boîte du Hollow",
+      "canon": "### O06 — Boîte du Hollow\n\n**Fiche Ange.** Contenant associé au confinement du Hollow, distinct de l’entité absorbant la magie du Bien comme du Mal. Dans S04E13, des gardiens des deux camps protègent ce danger commun. Le dialogue indique que des magies du Bien et du Mal doivent coopérer pour lire l’inscription de la boîte et rétablir le confinement. La Source libère le Hollow malgré le risque commun. [S06]\n\nVérifier état du contenant, accès, inscription et intervenants. Détenir la boîte ne confère pas le contrôle de l’entité ; absorber des pouvoirs relève du Hollow, pas d’une fonction passive de la boîte vide.\n\n**Limites et vérification.** Dialogues non officiels consultés. Ce mécanisme de S04E13 doit rester contextualisé : la fin S08 comporte une autre résolution à examiner avant d’en déduire une nécessité universelle de coopération Bien/Mal. Ne pas confondre boîte du Hollow, boîte de Pandore et Nexus. Aucune immunité du porteur, portée ou possibilité de copie établie.\n\n**Carte proposée — Boîte du Hollow.** « Contenant lié au confinement du Hollow, entité qui absorbe la magie. Son inscription intervient dans le rituel de confinement ; posséder la boîte ne suffit pas à maîtriser son contenu. »",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "objets:7",
+      "titre": "O07 — Anneau d’inspiration",
+      "canon": "### O07 — Anneau d’inspiration\n\n**Fiche Ange.** Dans S04E09, l’anneau permet à son porteur de voir et capturer les Muses. Créé par une magie bénéfique pour canaliser l’inspiration en période de besoin, il est détourné par Devlin. Paige récupère l’anneau par son pouvoir et les Muses sont libérées, mais Devlin le reprend et recommence à capturer : une libération ne détruit donc pas automatiquement l’artefact ni sa capacité de capture. [S15]\n\nIdentifier porteur, Muses réellement enfermées et accès. L’inspiration ne constitue ni omniscience, ni acquisition automatique du pouvoir d’une Muse, ni réussite certaine d’un projet. La récupération par Paige dépend de son pouvoir disponible : ce n’est pas une propriété d’auto-retour de l’anneau.\n\n**Limites et vérification.** Passages de transcription non officielle consultés directement. Le geste complet d’activation, une capacité maximale, une durée de captivité et les résistances exactes ne sont pas établis dans ce lot. Ne pas attribuer au transfert de l’anneau une protection définitive des Muses.\n\n**Carte proposée — Anneau d’inspiration.** « Anneau permettant de voir et de capturer des Muses afin de canaliser leur inspiration. Créé par une magie bénéfique, il peut être détourné ; les Muses enfermées peuvent être libérées. »",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    },
+    {
+      "id": "objets:8",
+      "titre": "O08 — Arbalète et projectiles d’Être des ténèbres",
+      "canon": "### O08 — Arbalète et projectiles d’Être des ténèbres\n\n**Fiche Ange.** En S03E11, Eames s’empare d’une arbalète d’Être des ténèbres. Les projectiles portent un poison létal pour les Êtres de lumière. Natalie est blessée avec une flèche utilisée directement ; Leo précise que le poison ne tue pas immédiatement. La menace ne se réduit donc pas au tir de l’arbalète, et son désarmement ne guérit pas une blessure déjà infligée. [S16]\n\nLes pouvoirs permettant à Eames de changer d’apparence ou de voler des capacités ne sont pas ceux de l’arme. S05E04 évoque expressément le danger pour Paige en raison de son ascendance d’Être de lumière. [S17]\n\nÉvaluer arme, projectile, poison, contact ou trajectoire et nature actuelle de la cible. Un projectile peut être esquivé ou intercepté si un moyen pertinent existe. Ne pas fixer une mort au tour suivant ou une guérison automatique ; rechercher le cas clinique magique précis selon la scène. L’absence de vulnérabilité démontrée au poison ne signifie pas invulnérabilité à une blessure physique.\n\n**Limites et vérification.** Extraits de transcriptions non officielles indexés. Quantité de poison, délai exact, approvisionnement et ensemble des remèdes non revus. Le cas de Paige ne suffit pas à établir toutes les vulnérabilités de chaque hybride ou enfant à toute période.\n\n**Carte proposée — Arbalète d’Être des ténèbres.** « Arbalète tirant des projectiles empoisonnés, particulièrement dangereux pour les Êtres de lumière. Le poison peut agir progressivement ; une flèche peut également blesser par contact direct. »",
+      "status": "reviewed_documentary",
+      "proofAuthority": "background_with_sources",
+      "limites": "Référence contextuelle ; distinguer observation, interprétation et proposition de carte. Les détails non établis ne sont pas des impossibilités."
+    }
+  ]
+}

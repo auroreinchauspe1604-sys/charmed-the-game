@@ -1,0 +1,305 @@
+{
+  "checks": [
+    {
+      "viewport": [
+        1536,
+        960
+      ],
+      "pageOverflow": false,
+      "panels": [
+        {
+          "s": ".calendar-section",
+          "top": 524,
+          "bottom": 938,
+          "left": 12,
+          "right": 216.28125,
+          "width": 204.28125,
+          "height": 414,
+          "overflow": false
+        },
+        {
+          "s": ".arbiter-page",
+          "top": 360,
+          "bottom": 938,
+          "left": 1319.71875,
+          "right": 1524,
+          "width": 204.28125,
+          "height": 578,
+          "overflow": false
+        },
+        {
+          "s": "#board .player",
+          "top": 524,
+          "bottom": 938,
+          "left": 225.28125,
+          "right": 1310.71875,
+          "width": 1085.4375,
+          "height": 414,
+          "overflow": false
+        },
+        {
+          "s": ".radio-section",
+          "top": 101,
+          "bottom": 515,
+          "left": 12,
+          "right": 216.28125,
+          "width": 204.28125,
+          "height": 414,
+          "overflow": false
+        },
+        {
+          "s": ".turn-panel",
+          "top": 101,
+          "bottom": 351,
+          "left": 1319.71875,
+          "right": 1524,
+          "width": 204.28125,
+          "height": 250,
+          "overflow": true
+        }
+      ],
+      "logo": {
+        "top": 5,
+        "bottom": 85,
+        "left": 1350.859375,
+        "right": 1492.859375,
+        "width": 142,
+        "height": 80,
+        "overflow": false
+      },
+      "symbol": {
+        "top": 782,
+        "bottom": 904,
+        "left": 1360.859375,
+        "right": 1482.859375,
+        "width": 122,
+        "height": 122,
+        "overflow": false
+      },
+      "message": {
+        "top": 465,
+        "bottom": 761,
+        "left": 1337.71875,
+        "right": 1506,
+        "width": 168.28125,
+        "height": 296,
+        "overflow": false
+      },
+      "cards": [
+        {
+          "w": 88,
+          "h": 96,
+          "color": "radial-gradient(at 35% 15%, rgb(24, 57, 43), rgb(5, 30, 21))"
+        },
+        {
+          "w": 88,
+          "h": 96,
+          "color": "radial-gradient(at 35% 15%, rgb(24, 57, 43), rgb(5, 30, 21))"
+        }
+      ],
+      "oldLinks": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "pageOverflow": false,
+      "panels": [
+        {
+          "s": ".calendar-section",
+          "top": 425,
+          "bottom": 754,
+          "left": 12,
+          "right": 193.671875,
+          "width": 181.671875,
+          "height": 329,
+          "overflow": false
+        },
+        {
+          "s": ".arbiter-page",
+          "top": 321,
+          "bottom": 754,
+          "left": 1169,
+          "right": 1354,
+          "width": 185,
+          "height": 433,
+          "overflow": false
+        },
+        {
+          "s": "#board .player",
+          "top": 425,
+          "bottom": 754,
+          "left": 200.671875,
+          "right": 1162,
+          "width": 961.328125,
+          "height": 329,
+          "overflow": false
+        },
+        {
+          "s": ".radio-section",
+          "top": 89,
+          "bottom": 418,
+          "left": 12,
+          "right": 193.671875,
+          "width": 181.671875,
+          "height": 329,
+          "overflow": false
+        },
+        {
+          "s": ".turn-panel",
+          "top": 89,
+          "bottom": 314,
+          "left": 1169,
+          "right": 1354,
+          "width": 185,
+          "height": 225,
+          "overflow": false
+        }
+      ],
+      "logo": {
+        "top": 5,
+        "bottom": 74,
+        "left": 1200,
+        "right": 1323,
+        "width": 123,
+        "height": 69,
+        "overflow": false
+      },
+      "symbol": {
+        "top": 637,
+        "bottom": 731,
+        "left": 1214.5,
+        "right": 1308.5,
+        "width": 94,
+        "height": 94,
+        "overflow": false
+      },
+      "message": {
+        "top": 407,
+        "bottom": 624,
+        "left": 1183,
+        "right": 1340,
+        "width": 157,
+        "height": 217,
+        "overflow": false
+      },
+      "cards": [
+        {
+          "w": 88,
+          "h": 96,
+          "color": "radial-gradient(at 35% 15%, rgb(24, 57, 43), rgb(5, 30, 21))"
+        },
+        {
+          "w": 88,
+          "h": 96,
+          "color": "radial-gradient(at 35% 15%, rgb(24, 57, 43), rgb(5, 30, 21))"
+        }
+      ],
+      "oldLinks": 0
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pageOverflow": false,
+      "panels": [
+        {
+          "s": ".calendar-section",
+          "top": 584,
+          "bottom": 1058,
+          "left": 12,
+          "right": 230,
+          "width": 218,
+          "height": 474,
+          "overflow": false
+        },
+        {
+          "s": ".arbiter-page",
+          "top": 380,
+          "bottom": 1058,
+          "left": 1683,
+          "right": 1908,
+          "width": 225,
+          "height": 678,
+          "overflow": false
+        },
+        {
+          "s": "#board .player",
+          "top": 584,
+          "bottom": 1058,
+          "left": 239,
+          "right": 1674,
+          "width": 1435,
+          "height": 474,
+          "overflow": false
+        },
+        {
+          "s": ".radio-section",
+          "top": 101,
+          "bottom": 575,
+          "left": 12,
+          "right": 230,
+          "width": 218,
+          "height": 474,
+          "overflow": false
+        },
+        {
+          "s": ".turn-panel",
+          "top": 101,
+          "bottom": 371,
+          "left": 1683,
+          "right": 1908,
+          "width": 225,
+          "height": 270,
+          "overflow": false
+        }
+      ],
+      "logo": {
+        "top": 5,
+        "bottom": 85,
+        "left": 1724.5,
+        "right": 1866.5,
+        "width": 142,
+        "height": 80,
+        "overflow": false
+      },
+      "symbol": {
+        "top": 883,
+        "bottom": 1018,
+        "left": 1728,
+        "right": 1863,
+        "width": 135,
+        "height": 135,
+        "overflow": false
+      },
+      "message": {
+        "top": 485,
+        "bottom": 856,
+        "left": 1701,
+        "right": 1890,
+        "width": 189,
+        "height": 371,
+        "overflow": false
+      },
+      "cards": [
+        {
+          "w": 88,
+          "h": 96,
+          "color": "radial-gradient(at 35% 15%, rgb(24, 57, 43), rgb(5, 30, 21))"
+        },
+        {
+          "w": 88,
+          "h": 96,
+          "color": "radial-gradient(at 35% 15%, rgb(24, 57, 43), rgb(5, 30, 21))"
+        }
+      ],
+      "oldLinks": 0
+    }
+  ],
+  "errors": [],
+  "revision": 25,
+  "day": 6,
+  "readOnlyInteractions": true
+}

@@ -1,0 +1,231 @@
+{
+  "universe": "Charmed, série originale de 1998, sans mélange avec le reboot",
+  "checkedAt": "2026-09-08",
+  "coverage": "Socle vérifié pour le premier test saison 1 ; repères complémentaires de saisons ultérieures. Pas une encyclopédie exhaustive.",
+  "sources": [
+    {
+      "id": "pilot",
+      "url": "https://en.wikipedia.org/wiki/Something_Wicca_This_Way_Comes",
+      "type": "résumé secondaire de l'épisode pilote",
+      "scope": "Attribution initiale des pouvoirs et Livre des Ombres"
+    },
+    {
+      "id": "s1",
+      "url": "https://www.peacocktv.com/watch-online/tv/charmed/6319188864539161112/seasons/1",
+      "type": "synopsis du diffuseur",
+      "scope": "Saison 1, repères d'épisodes ; pas recettes ou limites détaillées des pouvoirs"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.peacocktv.com/watch-online/tv/charmed/6319188864539161112/seasons/4",
+      "type": "synopsis du diffuseur",
+      "scope": "Repères de saison 4 uniquement"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.peacocktv.com/watch-online/tv/charmed/6319188864539161112/seasons/5",
+      "type": "synopsis du diffuseur",
+      "scope": "Repères de saison 5 uniquement"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.peacocktv.com/watch-online/tv/charmed/6319188864539161112/seasons/7",
+      "type": "synopsis du diffuseur",
+      "scope": "Repères de saison 7 uniquement"
+    },
+    {
+      "id": "scry-hard-transcript",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed",
+      "type": "transcription du dialogue, consultée le 8 septembre 2026",
+      "scope": "Siège, Léo mortel et cristaux ; pas recette exhaustive"
+    }
+  ],
+  "facts": [
+    {
+      "id": "initial-powers",
+      "season": 1,
+      "episode": 1,
+      "entities": [
+        "Prue",
+        "Piper",
+        "Phoebe"
+      ],
+      "claim": "Au début de la série, Prue déplace les objets par télékinésie, Piper fige, Phoebe reçoit des prémonitions.",
+      "sources": [
+        "pilot"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "book-awakening",
+      "season": 1,
+      "episode": 1,
+      "entities": [
+        "Phoebe",
+        "Livre des Ombres"
+      ],
+      "claim": "Phoebe trouve le Livre des Ombres dans le grenier et lit l'incantation qui éveille les pouvoirs des sœurs.",
+      "sources": [
+        "pilot"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "vision-investigation",
+      "season": 1,
+      "episode": 8,
+      "entities": [
+        "Phoebe",
+        "Prue",
+        "Piper"
+      ],
+      "claim": "Une prémonition de Phoebe conduit les sœurs à tenter d'arrêter un meurtrier.",
+      "sources": [
+        "s1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "woogy",
+      "season": 1,
+      "episode": 15,
+      "entities": [
+        "Phoebe",
+        "manoir"
+      ],
+      "claim": "Un séisme libère un démon d'ombre qui retourne Phoebe contre sa famille.",
+      "sources": [
+        "s1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "time-travel",
+      "season": 1,
+      "episode": 17,
+      "entities": [
+        "Prue",
+        "Piper",
+        "Phoebe",
+        "Patty"
+      ],
+      "claim": "Les sœurs voyagent dans les années 1970, lorsque leur mère est encore vivante. Cet épisode n'accorde pas un voyage temporel libre à volonté.",
+      "sources": [
+        "s1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "cole-altered-reality",
+      "season": 5,
+      "episode": 12,
+      "entities": [
+        "Cole",
+        "Phoebe"
+      ],
+      "claim": "Cole modifie la réalité pour détruire le Pouvoir des Trois ; Phoebe cherche à le vaincre. Ne pas attribuer cette capacité à Cole à toute époque.",
+      "sources": [
+        "s5"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "piper-birth",
+      "season": 5,
+      "episode": 15,
+      "entities": [
+        "Piper",
+        "Wyatt"
+      ],
+      "claim": "Piper entre en travail pendant que des forces maléfiques complotent pour emporter son bébé.",
+      "sources": [
+        "s5"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "zankou-premonition",
+      "season": 7,
+      "episode": 22,
+      "entities": [
+        "Zankou",
+        "Phoebe"
+      ],
+      "claim": "Zankou vole la prémonition de Phoebe et l'utilise pour anticiper les attaques des sœurs. C'est un événement situé dans le temps, pas un pouvoir disponible en saison 1.",
+      "sources": [
+        "s7"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "scry-hard-siege",
+      "entities": [
+        "Zankou",
+        "Nexus",
+        "manoir"
+      ],
+      "claim": "Zankou organise une diversion avec des guerriers pour éloigner les sœurs et faire localiser le Nexus dans le manoir ; la localisation ne vaut pas encore maîtrise de son pouvoir.",
+      "season": 7,
+      "episode": 17,
+      "sources": [
+        "scry-hard-transcript"
+      ],
+      "status": "verified",
+      "evidenceLevel": "episode_dialogue_transcript",
+      "limits": [
+        "Transcription du dialogue, pas visionnage ni démonstration exhaustive de portée."
+      ]
+    },
+    {
+      "id": "scry-hard-crystals",
+      "entities": [
+        "Piper",
+        "cristaux",
+        "Léo"
+      ],
+      "claim": "Piper indique avoir disposé des cristaux pour protéger Léo au manoir. Cela établit un usage protecteur situé, pas une invulnérabilité universelle ni une recette complète.",
+      "season": 7,
+      "episode": 17,
+      "sources": [
+        "scry-hard-transcript"
+      ],
+      "status": "verified",
+      "evidenceLevel": "episode_dialogue_transcript",
+      "limits": [
+        "Transcription du dialogue, pas visionnage ni démonstration exhaustive de portée."
+      ]
+    },
+    {
+      "id": "scry-hard-leo-mortal",
+      "entities": [
+        "Léo"
+      ],
+      "claim": "Léo est mortel, ne peut plus s’éclipser ni se guérir après avoir renoncé à ses pouvoirs.",
+      "season": 7,
+      "episode": 17,
+      "sources": [
+        "scry-hard-transcript"
+      ],
+      "status": "verified",
+      "evidenceLevel": "episode_dialogue_transcript",
+      "limits": [
+        "Transcription du dialogue, pas visionnage ni démonstration exhaustive de portée."
+      ]
+    }
+  ],
+  "scenarioConstraints": [
+    "Premier test : saison 1 ; seul le pouvoir initial de prémonition est établi pour Phoebe.",
+    "Pas de lévitation, empathie, télékinésie ou attaque magique attribuée à Phoebe dans ce premier test.",
+    "Prue et Piper existent ; leur aide exige une présence et un concours plausibles, jamais une interdiction de principe.",
+    "Élise Moreau, Nina, Jules, la Galerie des Arcades et le commanditaire sont des créations du scénario, pas des personnages ou lieux de la série.",
+    "Une vision ne garantit ni réponse exhaustive, ni déclenchement à volonté, ni réussite future.",
+    "Les pouvoirs restent liés aux personnages ; une exception canonique exige sa preuve et son contexte temporel."
+  ],
+  "unverified": [
+    "Catalogue complet des démons, immunités et méthodes de destruction",
+    "Formules et ingrédients exacts de toutes les potions",
+    "Chronologie épisode par épisode des gains et pertes de pouvoirs",
+    "Toutes les relations et connaissances des personnages à chaque épisode",
+    "Saisons 2, 3, 6 et 8 : plusieurs pages Peacock ont renvoyé une restriction géographique lors de cette vérification"
+  ]
+}

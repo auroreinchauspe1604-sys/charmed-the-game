@@ -1,0 +1,1510 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "library:charmed-noir-script",
+      "url": "https://charmed.fandom.com/wiki/Charmed_Noir/Script",
+      "consultedAt": "2026-09-08",
+      "evidenceLevel": "transcription non officielle accessible par index de recherche ; accès direct bloqué"
+    },
+    {
+      "id": "library:charmed-dangerous-script",
+      "url": "https://charmed.fandom.com/wiki/Charmed_and_Dangerous/Script",
+      "consultedAt": "2026-09-08",
+      "evidenceLevel": "transcription non officielle accessible par index de recherche ; accès direct bloqué"
+    },
+    {
+      "id": "contribution-personnages:ss0101",
+      "title": "Something Wicca This Way Comes",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e01&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0103",
+      "title": "Thank You for Not Morphing",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e03&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0109",
+      "title": "The Witch Is Back",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e09&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0113",
+      "title": "From Fear to Eternity",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e13&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0117",
+      "title": "That '70s Episode",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e17&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0120",
+      "title": "The Power of Two",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e20&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0121",
+      "title": "Love Hurts",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e21&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0122",
+      "title": "Déjà Vu All Over Again",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e22&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0205",
+      "title": "She's a Man, Baby, a Man!",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e05&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0209",
+      "title": "Ms. Hellfire",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e09&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0301",
+      "title": "The Honeymoon's Over",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e01&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0306",
+      "title": "Primrose Empath",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e06&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0307",
+      "title": "Power Outage",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e07&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0308",
+      "title": "Sleuthing with the Enemy",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e08&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0311",
+      "title": "Blinded by the Whitelighter",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e11&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0315",
+      "title": "Just Harried",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e15&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0316",
+      "title": "Death Takes a Halliwell",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e16&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0320",
+      "title": "Exit Strategy",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e20&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0322",
+      "title": "All Hell Breaks Loose",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e22&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0401",
+      "title": "Charmed Again, Part 1",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e01&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Page regroupant Charmed Again 1 et 2 ; aligner chaque scène sur S04E01 ou S04E02."
+    },
+    {
+      "id": "contribution-personnages:ss0403",
+      "title": "Hell Hath No Fury",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e03&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0408",
+      "title": "Black as Cole",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e08&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0413",
+      "title": "Charmed and Dangerous",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e13&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0414",
+      "title": "The Three Faces of Phoebe",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e14&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0420",
+      "title": "Long Live the Queen",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e20&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0421",
+      "title": "Womb Raider",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e21&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0422",
+      "title": "Witch Way Now?",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e22&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0507",
+      "title": "Sympathy for the Demon",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e07&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0509",
+      "title": "Sam I Am",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e09&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0512",
+      "title": "Centennial Charmed",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e12&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0522",
+      "title": "Oh My Goddess (1)",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e22&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Page regroupant Oh My Goddess 1 et 2 ; promotion finale de Leo située dans S05E23."
+    },
+    {
+      "id": "contribution-personnages:ss0601",
+      "title": "Valhalley of the Dolls, Part 1",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e01&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0604",
+      "title": "The Power of Three Blondes",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e04&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0606",
+      "title": "My Three Witches",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e06&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0610",
+      "title": "Chris-Crossed",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e10&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0611",
+      "title": "Witchstock",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e11&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0613",
+      "title": "Used Karma",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e13&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0615",
+      "title": "I Dream of Phoebe",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e15&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0618",
+      "title": "Spin City",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e18&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0619",
+      "title": "Crimes and Witch-Demeanors",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e19&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0620",
+      "title": "A Wrong Day's Journey Into Right",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e20&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0623",
+      "title": "It's a Bad, Bad, Bad, Bad World, Part 2",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e23&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0701",
+      "title": "A Call to Arms",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e01&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0705",
+      "title": "Styx Feet Under",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e05&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0710",
+      "title": "Witchness Protection",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e10&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0714",
+      "title": "Carpe Demon",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e14&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0716",
+      "title": "The Seven Year Witch",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e16&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0722",
+      "title": "Something Wicca This Way Goes",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e22&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0804",
+      "title": "Desperate Housewitches",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e04&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0807",
+      "title": "The Lost Picture Show",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e07&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0810",
+      "title": "Vaya Con Leos",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e10&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0811",
+      "title": "Mr. & Mrs. Witch",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e11&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0812",
+      "title": "Payback's a Witch",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e12&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0815",
+      "title": "The Last Temptation of Christy",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e15&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "coordinateur",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:ss0821",
+      "title": "Kill Billie: Vol. 2",
+      "publisher": "Springfield! Springfield!",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e21&tv-show=charmed",
+      "level": "unofficial_transcript_consulted",
+      "consultedAt": "2026-09-08",
+      "publicationDate": null,
+      "accessedBy": "agent de recherche",
+      "scope": "Passages pertinents consultés ; texte sans garantie d'attribution des répliques ou des gestes ; aucun visionnage."
+    },
+    {
+      "id": "contribution-personnages:fd0816",
+      "title": "Engaged and Confused — transcription S08E16",
+      "url": "https://transcripts.foreverdreaming.org/viewtopic.php?t=6347",
+      "level": "unofficial_transcript_consulted",
+      "scope": "Page ouverte, passages Coop et Triade contrôlés ; didascalies non officielles.",
+      "publisher": "Forever Dreaming",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:fw0209",
+      "title": "Ms. Hellfire — transcription S02E09",
+      "url": "https://charmed.fandom.com/wiki/Ms._Hellfire_(episode)/Script",
+      "level": "unofficial_transcript_consulted",
+      "scope": "Ouverture et passages contrôlés par agent sœurs.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent sœurs"
+    },
+    {
+      "id": "contribution-personnages:fw0402",
+      "title": "Charmed Again, Part 2 — transcription S04E02",
+      "url": "https://charmed.fandom.com/wiki/Charmed_Again,_Part_2/Script",
+      "level": "unofficial_transcript_consulted",
+      "scope": "Ouverture et scène de guérison Cole avec Paige/Leo contrôlées.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent sœurs"
+    },
+    {
+      "id": "contribution-personnages:e0208",
+      "title": "P3 H2O — transcription S02E08",
+      "url": "https://charmed.fandom.com/wiki/P3_H2O/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Patty, Sam et démon de l'eau ; ouverture 402.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0117",
+      "title": "That '70s Episode — transcription S01E17",
+      "url": "https://charmed.fandom.com/wiki/That_%2770s_Episode/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Télékinésie Penny ; ouverture non obtenue.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0521",
+      "title": "Necromancing the Stone — transcription S05E21",
+      "url": "https://charmed.fandom.com/wiki/Necromancing_the_Stone/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Penny, Nécromancien, attitude envers Wyatt.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0515",
+      "title": "The Day the Magic Died — transcription S05E15",
+      "url": "https://charmed.fandom.com/wiki/The_Day_the_Magic_Died/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Doris et Victor ; extraits seulement.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0614",
+      "title": "The Legend of Sleepy Halliwell — transcription S06E14",
+      "url": "https://charmed.fandom.com/wiki/The_Legend_of_Sleepy_Halliwell/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Révélation filiation Chris à Phoebe ; extrait seulement.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0601",
+      "title": "Valhalley of the Dolls, Part 1 — transcription S06E01",
+      "url": "https://charmed.fandom.com/wiki/Valhalley_of_the_Dolls%2C_Part_1/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Chris ne sait pas guérir dans cet épisode.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0608",
+      "title": "Sword and the City — transcription S06E08",
+      "url": "https://charmed.fandom.com/wiki/Sword_and_the_City/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Wyatt et Excalibur ; extrait seulement.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0622",
+      "title": "It's a Bad, Bad, Bad, Bad World, Part 1 — transcription S06E22",
+      "url": "https://charmed.fandom.com/wiki/It%27s_a_Bad%2C_Bad%2C_Bad%2C_Bad_World%2C_Part_1/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Wyatt, bouclier et athamé ; extrait seulement.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0720",
+      "title": "Imaginary Fiends — transcription S07E20",
+      "url": "https://charmed.fandom.com/wiki/Imaginary_Fiends/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Wyatt enfant/adulte et Vicus ; transcription attribuée à Janelle Hackbart, extraits seulement.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0410",
+      "title": "A Paige from the Past — résumé S04E10",
+      "url": "https://charmed.fandom.com/wiki/A_Paige_from_the_Past/Plot",
+      "level": "secondary_search_excerpt",
+      "scope": "Orbes réflexes lors de l'accident ; résumé indexé, non visionné.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0707",
+      "title": "Someone to Witch Over Me — transcription S07E07",
+      "url": "https://charmed.fandom.com/wiki/Someone_to_Witch_Over_Me/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Pression des Avatars et consentement Leo ; extraits.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0707plot",
+      "title": "Someone to Witch Over Me — fiche épisode S07E07",
+      "url": "https://charmed.fandom.com/wiki/Someone_to_Witch_Over_Me",
+      "level": "secondary_search_excerpt",
+      "scope": "Transformation Leo et retour des sœurs ; résumé indexé.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0712",
+      "title": "Extreme Makeover: World Edition — transcription S07E12",
+      "url": "https://charmed.fandom.com/wiki/Extreme_Makeover%3A_World_Edition/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Kyle, Beta, potion et affaiblissement collectif ; extraits.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0713",
+      "title": "Charmageddon — transcription S07E13",
+      "url": "https://charmed.fandom.com/wiki/Charmageddon/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Utopia, retrait des personnes en conflit ; extraits.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0822",
+      "title": "Forever Charmed — transcription S08E22",
+      "url": "https://charmed.fandom.com/wiki/Forever_Charmed/Script",
+      "level": "unofficial_transcript_search_excerpt",
+      "scope": "Voyages, Billie/Christy, famille ; accès direct 402, extraits.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille ; extraits partiellement recoupés par coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0210",
+      "title": "Heartbreak City — résumé S02E10",
+      "url": "https://charmed.fandom.com/wiki/Heartbreak_City/Plot",
+      "level": "secondary_search_excerpt",
+      "scope": "Cupidon, bague et Drazi ; extrait secondaire substantiel.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:e0210episode",
+      "title": "Heartbreak City — fiche épisode S02E10",
+      "url": "https://charmed.fandom.com/wiki/Heartbreak_City",
+      "level": "secondary_search_excerpt",
+      "scope": "Effets et protection de la bague ; extrait secondaire.",
+      "publisher": "Charmed Wiki / Fandom",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:apple0603",
+      "title": "Forget Me Not — synopsis S06E03",
+      "url": "https://tv.apple.com/ca/episode/forget-me-not/umc.cmc.6x3unjvt8wf256tuud4911jv9?showId=umc.cmc.40n1r7702nhwxpw1muur9c23v",
+      "level": "catalogue_synopsis_consulted",
+      "scope": "Dragon de Wyatt et intervention des Nettoyeurs ; ne prouve pas tout le mécanisme.",
+      "publisher": "Apple TV",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "agent famille"
+    },
+    {
+      "id": "contribution-personnages:itv0822",
+      "title": "Forever Charmed — synopsis S08E22",
+      "url": "https://www.itv.com/watch/charmed/10a3379/10a3379a0178",
+      "level": "broadcaster_synopsis_consulted",
+      "scope": "Bague de Coop utilisée par Piper et Leo pour changer les événements.",
+      "publisher": "ITVX",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:wiki-billie",
+      "title": "Billie Jenkins — section télévision",
+      "url": "https://en.wikipedia.org/wiki/Billie_Jenkins",
+      "level": "secondary_consulted",
+      "scope": "Novice, apprentissage, recherche de Christy, télékinésie/projection ; autres continuités exclues.",
+      "publisher": "Wikipedia",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "contribution-personnages:wiki-finale",
+      "title": "Forever Charmed — résumé de l'épisode S08E22",
+      "url": "https://en.wikipedia.org/wiki/Forever_Charmed",
+      "level": "secondary_search_excerpt",
+      "scope": "Retour de la boule de feu de Christy par Billie ; extrait de recherche seulement.",
+      "publisher": "Wikipedia",
+      "publicationDate": null,
+      "consultedAt": "2026-09-08",
+      "accessedBy": "coordinateur"
+    },
+    {
+      "id": "integrated:potions-types-usages:S4",
+      "url": "https://charmed.fandom.com/wiki/Sympathy_for_the_Demon/Script",
+      "evidenceLevel": "| S4 | [Fandom — Sympathy for the Demon/Script](https://charmed.fandom.com/wiki/Sympathy_for_the_Demon/Script) | Passage de transcription non officielle obtenu par recherche indexée ; pas d'ouverture directe réussie ; didascalies de la flaque et du retour des pouvoirs. |",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "integrated:potions-types-usages:S2",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e08&tv-show=charmed",
+      "evidenceLevel": "| S2 | [Springfield — S04E08](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e08&tv-show=charmed) | Page consultée ; transcription non officielle ; préparation et dénouement examinés. |",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "integrated:objets:S05",
+      "url": "https://charmed.fandom.com/wiki/Sight_Unseen/Script",
+      "evidenceLevel": "| S05 | [Sight Unseen — Script](https://charmed.fandom.com/wiki/Sight_Unseen/Script) | IT ; S03E05, Prue retire et replace un cristal face à Troxa. |",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "integrated:objets:S08",
+      "url": "https://charmed.fandom.com/wiki/Prince_Charmed/Script",
+      "evidenceLevel": "| S08 | [Prince Charmed — Script](https://charmed.fandom.com/wiki/Prince_Charmed/Script) | IT ; S06E12, installation d’alarme, infiltration sous apparence de Darryl, véritable Darryl déplaçant un cristal. |",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "integrated:lieux:S02",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed",
+      "evidenceLevel": "| S02 | [Springfield — S07E17](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e17&tv-show=charmed) | *Scry Hard* : rangement initial ; instructions à Craven ; tentative sur le Nexus ; explication de Leo après l’Ombre ; offre de direction finale | Passages de transcription non officielle consultés ; ne pas transformer les affirmations de Zankou en règles universelles |",
+      "consultedAt": "2026-09-08"
+    }
+  ],
+  "facts": [
+    {
+      "id": "library:crystals-three",
+      "season": 7,
+      "episode": 8,
+      "status": "verified",
+      "entities": [
+        "Paige",
+        "cristaux"
+      ],
+      "claim": "Dans Charmed Noir, Paige déplace trois cristaux autour de Miss Donovan pour former un bouclier. Cinq cristaux et un pentagramme ne sont donc pas des conditions universelles de tous les dispositifs de cristaux.",
+      "sources": [
+        "library:charmed-noir-script"
+      ],
+      "limits": [
+        "Ce précédent ne définit pas à lui seul toutes les configurations possibles ni toutes leurs résistances."
+      ]
+    },
+    {
+      "id": "library:crystals-activation-electricity",
+      "season": 4,
+      "episode": 13,
+      "status": "verified",
+      "entities": [
+        "Paige",
+        "Phoebe",
+        "cristaux",
+        "Source"
+      ],
+      "claim": "Dans Charmed and Dangerous, Phoebe et Paige disposent les cristaux autour de la Source ; la pose du dernier cristal par Paige fait apparaître des décharges électriques autour de lui. Une activation par achèvement du dispositif possède donc un précédent.",
+      "sources": [
+        "library:charmed-dangerous-script"
+      ],
+      "limits": [
+        "Ne pas confondre la vision de la Prophétesse et la confrontation finale, toutes deux présentes dans la transcription.",
+        "Ce fait ne prouve pas une immunité à toute magie ni le blocage de toutes les téléportations."
+      ]
+    },
+    {
+      "id": "library:crystals-removal",
+      "season": 4,
+      "episode": 13,
+      "status": "verified",
+      "entities": [
+        "Source",
+        "cristaux"
+      ],
+      "claim": "Lors de cette confrontation, la Source utilise le pouvoir dérobé à Paige pour attirer un cristal dans sa main ; le piège disparaît. Retirer un cristal nécessaire peut donc interrompre ce dispositif.",
+      "sources": [
+        "library:charmed-dangerous-script"
+      ],
+      "limits": [
+        "Contre-moyen spécifique à un pouvoir effectivement détenu ; aucun accès automatique à ce pouvoir pour les autres démons."
+      ]
+    },
+    {
+      "id": "library:contrib:piper:3",
+      "season": 3,
+      "episode": 8,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "piper",
+        "Piper Halliwell"
+      ],
+      "claim": "Elle libère la tête de Krell en laissant le reste immobilisé : précédent de défigement partiel.",
+      "sources": [
+        "contribution-personnages:ss0308"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Résistances à la combustion à relever adversaire par adversaire.",
+        "Grossesse Wyatt, échanges de pouvoirs, transformations et pertes ponctuelles : inventaire à poursuivre.",
+        "Ne pas calculer un rayon ou une durée standard depuis l'effet visuel."
+      ]
+    },
+    {
+      "id": "library:contrib:piper:4",
+      "season": 3,
+      "episode": 20,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "piper",
+        "Piper Halliwell"
+      ],
+      "claim": "Leo explique son figement par le ralentissement des molécules et les explosions nouvelles par leur accélération. Piper explose d'abord alors qu'elle voulait figer : capacité et maîtrise ne coïncident pas immédiatement.",
+      "sources": [
+        "contribution-personnages:ss0320"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Résistances à la combustion à relever adversaire par adversaire.",
+        "Grossesse Wyatt, échanges de pouvoirs, transformations et pertes ponctuelles : inventaire à poursuivre.",
+        "Ne pas calculer un rayon ou une durée standard depuis l'effet visuel."
+      ]
+    },
+    {
+      "id": "library:contrib:phoebe:5",
+      "season": 6,
+      "episode": 19,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "phoebe",
+        "Phoebe Halliwell"
+      ],
+      "claim": "Le Tribunal lui retire explicitement empathie, prémonitions et lévitation pour l'usage personnel de ses visions ; une restitution peut être méritée. Le dialogue ne retire pas son expérience magique ni son identité de sorcière.",
+      "sources": [
+        "contribution-personnages:ss0619"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Canalisation offensive de l'empathie S06E02 et S06E13 à documenter plus précisément.",
+        "Évolutions tardives des visions, chronologie professionnelle et relations Cole/Jason/Coop à compléter.",
+        "Retour éventuel des autres pouvoirs : non démontré ici, pas impossibilité définitive."
+      ]
+    },
+    {
+      "id": "library:contrib:phoebe:6",
+      "season": 7,
+      "episode": 5,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "phoebe",
+        "Phoebe Halliwell"
+      ],
+      "claim": "Une prémonition revient et elle reconnaît avoir retrouvé au moins un pouvoir. La scène ne rétablit pas les deux autres ; la vision porte sur des circonstances modifiables.",
+      "sources": [
+        "contribution-personnages:ss0705"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Canalisation offensive de l'empathie S06E02 et S06E13 à documenter plus précisément.",
+        "Évolutions tardives des visions, chronologie professionnelle et relations Cole/Jason/Coop à compléter.",
+        "Retour éventuel des autres pouvoirs : non démontré ici, pas impossibilité définitive."
+      ]
+    },
+    {
+      "id": "library:contrib:paige:4",
+      "season": 6,
+      "episode": 4,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "paige",
+        "Paige Matthews"
+      ],
+      "claim": "Après le vol des pouvoirs de sorcières, ses orbes corporelles persistent ; un sort anti-orbes bloque ensuite sa tentative. Ascendances distinctes et possibilité d'obstacle magique sont documentées.",
+      "sources": [
+        "contribution-personnages:ss0604"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Transport des passagers, perceptions et missions de guide : progression à compléter.",
+        "Chronologie des formes prises, blocages, intoxications et sortilèges à poursuivre.",
+        "Vérifier les gestes sans attribuer automatiquement toute téléportation à la télékinésie à orbes."
+      ]
+    },
+    {
+      "id": "library:contrib:paige:5",
+      "season": 8,
+      "episode": 12,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "paige",
+        "Paige Matthews"
+      ],
+      "claim": "Elle guérit Henry blessé par balle ; la conversation confirme qu'elle a agi seule et propose l'amour comme déclencheur. Cela ne limite pas ses soins à son partenaire.",
+      "sources": [
+        "contribution-personnages:ss0812"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Transport des passagers, perceptions et missions de guide : progression à compléter.",
+        "Chronologie des formes prises, blocages, intoxications et sortilèges à poursuivre.",
+        "Vérifier les gestes sans attribuer automatiquement toute téléportation à la télékinésie à orbes."
+      ]
+    },
+    {
+      "id": "library:contrib:leo:5",
+      "season": 7,
+      "episode": 16,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "leo",
+        "Leo Wyatt"
+      ],
+      "claim": "Les Fondateurs lui retirent pouvoirs et souvenirs pour une épreuve. Son retour vers Piper aboutit à une vie mortelle ; ses connaissances et aptitudes ordinaires ne sont pas équivalentes à une guérison magique restaurée.",
+      "sources": [
+        "contribution-personnages:ss0716"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Interruptions plus anciennes, notamment mortalité/probation S2, à compléter avant frise exhaustive.",
+        "Gestes offensifs de Fondateur, mort de Gideon et de Zola, retrait des pouvoirs Avatar : chronologie détaillée encore à contrôler.",
+        "Camouflage, métamorphose, orbes, perception : catalogue de variantes non exhaustif."
+      ]
+    },
+    {
+      "id": "library:contrib:cole:2",
+      "season": 3,
+      "episode": 8,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "cole",
+        "Cole Turner / Belthazor"
+      ],
+      "claim": "Son père est mortel ; la forme humaine n'est pas qu'un déguisement. Blessé, il se téléporte difficilement et Leo ne soigne que sa moitié humaine. La blessure est une restriction circonstancielle.",
+      "sources": [
+        "contribution-personnages:ss0308"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "S04E19, tentative de renoncement à la Source : accès manquant ; indispensable pour une lecture morale complète.",
+        "Inventaire des pouvoirs acquis, d'Avatar et de leurs interruptions incomplet.",
+        "Formulations des cartes Source/retour exigent sélection de capacités attestées pour la scène."
+      ]
+    },
+    {
+      "id": "library:contrib:cole:3",
+      "season": 4,
+      "episode": 8,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "cole",
+        "Cole Turner / Belthazor"
+      ],
+      "claim": "La potion retire ses pouvoirs démoniaques ; sa tentative de téléportation échoue ensuite. Il conserve son expérience mais exprime une crise d'identité. Les paroles sur sa responsabilité et celle de Belthazor restent des points de vue de personnages.",
+      "sources": [
+        "contribution-personnages:ss0408"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "S04E19, tentative de renoncement à la Source : accès manquant ; indispensable pour une lecture morale complète.",
+        "Inventaire des pouvoirs acquis, d'Avatar et de leurs interruptions incomplet.",
+        "Formulations des cartes Source/retour exigent sélection de capacités attestées pour la scène."
+      ]
+    },
+    {
+      "id": "library:contrib:cole:4",
+      "season": 4,
+      "episode": 13,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "cole",
+        "Cole Turner / Belthazor"
+      ],
+      "claim": "La Prophétesse le fait absorber le Hollow pour recevoir les pouvoirs de la Source ; ceux-ci restent après le renfermement du Hollow. Ce n'est pas le simple retour de Belthazor.",
+      "sources": [
+        "contribution-personnages:ss0413"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "S04E19, tentative de renoncement à la Source : accès manquant ; indispensable pour une lecture morale complète.",
+        "Inventaire des pouvoirs acquis, d'Avatar et de leurs interruptions incomplet.",
+        "Formulations des cartes Source/retour exigent sélection de capacités attestées pour la scène."
+      ]
+    },
+    {
+      "id": "library:contrib:cole:8",
+      "season": 5,
+      "episode": 7,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "cole",
+        "Cole Turner / Belthazor"
+      ],
+      "claim": "Barbas reçoit ses pouvoirs après leur retrait ; Cole les reprend pour secourir les sœurs. Cette privation temporaire ne rétablit pas leur confiance ni son couple.",
+      "sources": [
+        "contribution-personnages:ss0507"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "S04E19, tentative de renoncement à la Source : accès manquant ; indispensable pour une lecture morale complète.",
+        "Inventaire des pouvoirs acquis, d'Avatar et de leurs interruptions incomplet.",
+        "Formulations des cartes Source/retour exigent sélection de capacités attestées pour la scène."
+      ]
+    },
+    {
+      "id": "library:contrib:cole:9",
+      "season": 5,
+      "episode": 12,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "cole",
+        "Cole Turner / Belthazor"
+      ],
+      "claim": "Devenu Avatar pour retrouver Phoebe, il change la réalité. Dans la réalité Belthazor, il est vulnérable à une préparation adaptée à cette forme ; son invulnérabilité précédente ne se transpose pas.",
+      "sources": [
+        "contribution-personnages:ss0512"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "S04E19, tentative de renoncement à la Source : accès manquant ; indispensable pour une lecture morale complète.",
+        "Inventaire des pouvoirs acquis, d'Avatar et de leurs interruptions incomplet.",
+        "Formulations des cartes Source/retour exigent sélection de capacités attestées pour la scène."
+      ]
+    },
+    {
+      "id": "library:contrib:cole:10",
+      "season": 7,
+      "episode": 16,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "cole",
+        "Cole Turner / Belthazor"
+      ],
+      "claim": "Il se présente entre vie et mort et aide indirectement Piper puis Phoebe par Drake. Cette apparition ne prouve pas un retour corporel libre ni la récupération de tous ses anciens pouvoirs.",
+      "sources": [
+        "contribution-personnages:ss0716"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "S04E19, tentative de renoncement à la Source : accès manquant ; indispensable pour une lecture morale complète.",
+        "Inventaire des pouvoirs acquis, d'Avatar et de leurs interruptions incomplet.",
+        "Formulations des cartes Source/retour exigent sélection de capacités attestées pour la scène."
+      ]
+    },
+    {
+      "id": "library:contrib:darryl:2",
+      "season": 2,
+      "episode": 9,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "darryl",
+        "Darryl Morris"
+      ],
+      "claim": "Les sœurs lui déclarent explicitement être des sorcières ; il les aide dans cette affaire. La relation évolue donc par étapes.",
+      "sources": [
+        "contribution-personnages:ss0209"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Évolution ultérieure de son aide et départ professionnel à compléter.",
+        "Le refus de S06E20 ne doit pas devenir une interdiction permanente pour toute la suite."
+      ]
+    },
+    {
+      "id": "library:contrib:darryl:3",
+      "season": 6,
+      "episode": 19,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "darryl",
+        "Darryl Morris"
+      ],
+      "claim": "Les manipulations des Nettoyeurs le conduisent à une condamnation à mort ; cela ne prouve pas qu'il a réellement commis le crime.",
+      "sources": [
+        "contribution-personnages:ss0619"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Évolution ultérieure de son aide et départ professionnel à compléter.",
+        "Le refus de S06E20 ne doit pas devenir une interdiction permanente pour toute la suite."
+      ]
+    },
+    {
+      "id": "library:contrib:darryl:4",
+      "season": 6,
+      "episode": 20,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "darryl",
+        "Darryl Morris"
+      ],
+      "claim": "Marqué par cette épreuve, il refuse de continuer à couvrir les sœurs afin de protéger sa famille. Chris se trompe en comptant encore sur son aide habituelle.",
+      "sources": [
+        "contribution-personnages:ss0620"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Évolution ultérieure de son aide et départ professionnel à compléter.",
+        "Le refus de S06E20 ne doit pas devenir une interdiction permanente pour toute la suite."
+      ]
+    },
+    {
+      "id": "library:contrib:elders:3",
+      "season": 7,
+      "episode": 16,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "elders",
+        "Les Fondateurs"
+      ],
+      "claim": "L'épreuve de Leo révèle des désaccords, notamment autour de l'intervention d'Odin. Le collectif ne possède pas une volonté parfaitement uniforme.",
+      "sources": [
+        "contribution-personnages:ss0716"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Pouvoirs individuels, règles et exceptions de nomination à détailler.",
+        "Une carte de collectif nécessite un périmètre de représentation décidé par le scénario."
+      ]
+    },
+    {
+      "id": "library:contrib:natalie:1",
+      "season": 3,
+      "episode": 11,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "natalie",
+        "Natalie"
+      ],
+      "claim": "Elle impose des protocoles stricts face à Eames. Piper peut la figer : les Êtres de lumière ne sont pas automatiquement protégés de cet effet.",
+      "sources": [
+        "contribution-personnages:ss0311"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Scène de sa mort et pouvoirs personnels autres que sa fonction à consolider."
+      ]
+    },
+    {
+      "id": "library:contrib:rodriguez:1",
+      "season": 1,
+      "episode": 22,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "rodriguez",
+        "Inspecteur Rodriguez"
+      ],
+      "claim": "Il exploite sa position policière pour atteindre les Halliwell, lance des attaques d'énergie et bénéficie des reprises de Tempus. Le pouvoir temporel vient de son allié.",
+      "sources": [
+        "contribution-personnages:ss0122"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Nature exacte, durée de l'infiltration et limites offensives peu documentées."
+      ]
+    },
+    {
+      "id": "library:contrib:tempus:1",
+      "season": 1,
+      "episode": 22,
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "tempus",
+        "Tempus"
+      ],
+      "claim": "Il recommence la journée au bénéfice de Rodriguez. Phoebe perçoit les répétitions ; les sœurs interrompent le mécanisme en faisant avancer le temps, sans preuve de destruction de Tempus.",
+      "sources": [
+        "contribution-personnages:ss0122"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observation située dans cet épisode ; ne pas en déduire une capacité permanente, une recette exhaustive ni une disponibilité matérielle.",
+        "Étendue des réécritures, souvenirs conservés et preuve de son état final à consolider."
+      ]
+    },
+    {
+      "id": "library:potion-repandue",
+      "season": 5,
+      "episode": 7,
+      "claim": "Paige applique par télékinésie à orbes la potion répandue sur Barbas ; les pouvoirs de Cole lui reviennent. Briser une fiole ne neutralise donc pas nécessairement son contenu.",
+      "sources": [
+        "integrated:potions-types-usages:S4"
+      ],
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "potions-types-usages"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Précédent spécifique ; ni transfert libre vers tout destinataire ni effet garanti de toute potion."
+      ]
+    },
+    {
+      "id": "library:cole-humain-potion",
+      "season": 4,
+      "episode": 8,
+      "claim": "La potion utilisée dans Black as Cole retire les pouvoirs démoniaques de Cole et laisse subsister Cole humain.",
+      "sources": [
+        "integrated:potions-types-usages:S2"
+      ],
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "potions-types-usages"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Ne pas confondre retrait des pouvoirs et destruction de la personne."
+      ]
+    },
+    {
+      "id": "library:cristaux-retrait-troxa",
+      "season": 3,
+      "episode": 5,
+      "claim": "Prue retire puis replace un cristal, interrompant puis rétablissant les décharges autour de Troxa.",
+      "sources": [
+        "integrated:objets:S05"
+      ],
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "objets"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Dispositif situé ; aucune immunité universelle ni nombre universel de cristaux."
+      ]
+    },
+    {
+      "id": "library:cristaux-alarme-manoir",
+      "season": 6,
+      "episode": 12,
+      "claim": "Une installation de cristaux d’alarme est disposée dans plusieurs espaces du manoir ; un démon sous l’apparence de Darryl entre néanmoins.",
+      "sources": [
+        "integrated:objets:S08"
+      ],
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "objets"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Ne prouve ni barrière interdisant toute entrée ni mécanisme universel de contournement par métamorphose."
+      ]
+    },
+    {
+      "id": "library:ecole-direction-leo",
+      "season": 7,
+      "episode": 17,
+      "claim": "À la fin de Scry Hard, la direction de l’École de magie passe de Paige à Leo.",
+      "sources": [
+        "integrated:lieux:S02"
+      ],
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "lieux"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Contexte institutionnel ; accès et protections à vérifier séparément."
+      ]
+    },
+    {
+      "id": "library:nexus-occupation-insuffisante",
+      "season": 7,
+      "episode": 17,
+      "claim": "Dans Scry Hard, l’occupation démoniaque du sous-sol ne suffit pas à maîtriser l’Ombre : la présence du Bien dans le manoir contrarie la tentative de Zankou.",
+      "sources": [
+        "integrated:lieux:S02"
+      ],
+      "status": "verified",
+      "kind": "historical_observation",
+      "entities": [
+        "lieux"
+      ],
+      "evidenceLevel": "documentary_review_not_audiovisual",
+      "limits": [
+        "Observer cette confrontation sans transformer une déclaration de Zankou en règle universelle de contrôle du Nexus."
+      ]
+    }
+  ]
+}
