@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Charmed — Avant que la vision s’accomplisse</title><link rel="stylesheet" href="/modules/charmed.css?v=grimoire2"></head>
+<body>
+<header class="masthead"><div class="brand">CHARMED<span id="game-title">Avant que la vision s’accomplisse</span></div><div class="clock"><span id="day">Jour 1</span><small id="phase">Chargement…</small></div><a href="/ancien">Anciennes parties</a></header>
+<div id="notice" role="status" aria-live="polite"></div>
+<div class="layout">
+<aside class="broadcast">
+<section class="radio-section"><h2>📻 Radio Halliwell</h2><div id="radio"></div></section>
+<section class="calendar-section"><h2>🗓 Calendrier de la partie</h2><p class="calendar-note">Toute la partie · sélectionne un jour.</p><div id="calendar"></div></section>
+<details class="rules"><summary>Les règles actées</summary><p>Un jour : Radio Halliwell le matin, puis un passage chacun. Un seul coup payé par passage ; une ressource par pose. Questions et réponses gratuites, uniquement pendant son passage. Création de ressource gratuite hors Radio.</p><p>Un état est une affirmation constatable. Plusieurs clés peuvent être nécessaires pour le rendre vrai. Posez une ressource et expliquez son rôle : l’arbitre formule la clé ou le verrou et indique combien de moyens manquent, sans dire lesquels. Résolution immédiate si possible ; sinon à la date nécessaire.</p><p>Clé principale réalisée : pièces libérées. Dans un sous-état : pièces retenues jusqu’au constat vrai. La récupération dépend de la ressource, indiquée sur sa carte. La clé réalisée reste jaune et affiche le fait obtenu.</p><p>Une question et une réponse soumise par clé ou verrou pour toute la partie. Réponse impossible ou incomplète : retrait sans seconde chance. Le verrou reste près de sa cible ; il ne regèle pas automatiquement les anciennes pièces.</p><p>Attaque acceptée : un coup, aucun abandon. Nombre de pièces et date révélés le lendemain matin. Échec : avantage concret proportionné au défenseur. Une réponse encore due peut suspendre la résolution, sans autoriser des poses après l’échéance.</p><p>Victoire : toutes les conditions de l’état initial sont vraies et l’adversaire ne peut plus concrètement les défaire. Un état initial vrai doit être maintenu. Les emplacements de sous-états sont limités par le gameplay.</p><p>Canon : références de la série et capacités liées à la période, encore en cours d’enrichissement. Une magie non établie demande vérification.</p></details>
+</aside>
+<main>
+<div id="board" aria-label="Plateau des deux camps"></div>
+
+<section class="facts" id="facts"></section>
+</main><aside class="judgement"><section class="turn-panel"><h2>Le tour</h2><div id="turn-copy"></div><section class="playbar"><div><strong id="budget"></strong><p id="hint">Glissez une ressource sur sa cible, puis expliquez son rôle.</p></div><button id="end" type="button">Terminer mon passage</button><button id="resume" type="button" hidden>Reprendre la séquence</button></section></section><section><h2>⚖️ L’arbitre</h2><div id="arbitration"></div></section>
+
+</aside></div>
+<dialog id="composer" class="composer"><button id="close-composer" type="button" class="close" aria-label="Fermer la proposition">×</button><h2 id="composer-title">Votre proposition</h2><p id="composer-context"></p>
+<div id="receipt" hidden aria-live="polite"></div>
+<form id="action-form">
+<label id="effect-label">Cette ressource sert de<select id="effect-kind"><option value="key">Clé — rendre un état vrai ou lever un verrou</option><option value="lock">Verrou — empêcher un effet précis</option></select></label>
+<section id="writing-help" class="writing-help" hidden aria-label="Aide à la rédaction"><strong id="writing-help-title"></strong><ol id="writing-questions"></ol><p id="writing-reminder"></p></section>
+<label id="text-label">Qui ou quoi, comment et dans quel but ?<textarea id="proposal" aria-describedby="writing-help cost" rows="5" maxlength="3000" required minlength="8" placeholder="Décris précisément ton action et l’effet recherché…"></textarea></label>
+<p class="cost" id="cost"></p><button type="submit" id="submit">Soumettre à l’arbitre</button>
+</form></dialog>
+<dialog id="detail"><button id="close-detail" class="close" aria-label="Fermer le détail">×</button><h2 id="detail-title"></h2><p id="detail-text"></p><div id="card-actions"></div></dialog>
+<script src="/modules/charmed.js?v=grimoire2"></script>
+</body></html>

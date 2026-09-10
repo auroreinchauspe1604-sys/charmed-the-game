@@ -1,0 +1,798 @@
+{
+  "version": 1,
+  "universe": "charmed-tv-1998",
+  "checkedAt": "2026-09-08",
+  "status": "research_baseline",
+  "coverage": "13 règles magiques, 15 fiches de menaces démoniaques, 4 fiches d'autres êtres surnaturels et le Nexus du manoir. Sources principalement secondaires, plusieurs extraits de recherche seulement. Aucun épisode visionné, aucune recette exhaustive ni autorisation automatique d'action.",
+  "sources": [
+    {"id":"grimlocks","url":"https://charmed.fandom.com/wiki/Grimlock","level":"secondary_search_excerpt","scope":"Vol de la vue des enfants, perception des auras et potion employée contre Janor."},
+    {"id":"javna","url":"https://90sflashback.wordpress.com/2024/06/22/charmed-1-2-ive-got-you-under-my-skin-are-you-a-good-witch-or-a-bad-witch/","level":"secondary_search_excerpt","scope":"Javna/Stefan, vol de force vitale et bannissement par la Main de Fatima."},
+    {"id":"death-angel","url":"https://charmed.fandom.com/wiki/Angel_of_Death","level":"secondary_search_excerpt","scope":"Neutralité et rôle de l'Ange de la Mort ; modalités détaillées à recouper."},
+    {"id":"destiny-angels","url":"https://charmed.fandom.com/wiki/Angels_of_Destiny","level":"secondary_search_excerpt","scope":"Interventions des Anges du Destin autour de Leo et de la bataille finale."},
+    {"id":"destiny-offer","url":"https://en.wikipedia.org/wiki/Paige_Matthews","level":"secondary_search_excerpt","scope":"Fin de saison 4 : proposition de vie sans pouvoirs ni démons et refus des sœurs."},
+    {"id":"cupid","url":"https://charmed.fandom.com/wiki/Unnamed_Cupid","level":"secondary_search_excerpt","scope":"Cupidon de Heartbreak City, bague volée par Drazi ; distinct de Coop."},
+    {"id":"cupid-ring","url":"https://charmed.fandom.com/wiki/Cupid_Ring","level":"secondary_search_excerpt","scope":"Le premier Cupidon utilise sa bague pour détecter des liens amoureux destinés à se former."},
+    {"id":"coop-finale","url":"https://en.wikipedia.org/wiki/Forever_Charmed","level":"secondary_search_excerpt","scope":"Usage temporel de la bague de Coop et relation à Phoebe dans le final ; ne pas importer les comics."},
+    {"id":"darklighters","url":"https://charmed.fandom.com/wiki/Darklighter","level":"secondary_search_excerpt","scope":"Arbalète et poison contre Êtres de lumière, hybrides et Fondateurs."},
+    {"id":"love-hurts-heal","url":"https://charmed.fandom.com/wiki/Piper_Halliwell_and_Leo_Wyatt","level":"secondary_search_excerpt","scope":"Piper guérit Leo après échange de pouvoirs dans Love Hurts : exception contextualisée."},
+    {"id":"rodriguez","url":"https://charmed.fandom.com/wiki/Inspector_Rodriguez","level":"secondary_search_excerpt","scope":"Couverture policière, piège contre Andy et destruction par renvoi de sa boule d'énergie après la fin de la boucle."},
+    {"id":"banshee","url":"https://charmed.fandom.com/wiki/Banshee","level":"secondary_search_excerpt","scope":"Cri et transformation de Phoebe ; distinguer la créature de sa victime transformée."},
+    {"id":"banshee-plot","url":"https://charmed.fandom.com/wiki/Look_Who%27s_Barking/Plot","level":"secondary_search_excerpt","scope":"Cibles en souffrance et confusion initiale de la prémonition avec Cole."},
+    {"id":"banshee-reversal","url":"https://it.wikipedia.org/wiki/Episodi_di_Streghe_(serie_televisiva_1998)_(terza_stagione)","level":"secondary_search_excerpt","scope":"Look Who's Barking : l'aveu de la souffrance de Cole contribue au retour de Phoebe à la normale."},
+    {"id":"furies","url":"https://charmed.fandom.com/wiki/Fury","level":"secondary_search_excerpt","scope":"Fumée et transformation d'une sorcière dont la colère est refoulée."},
+    {"id":"furies-analysis","url":"https://omc.obta.al.uw.edu.pl/myth-survey/item-export/329","level":"secondary_search_excerpt","scope":"Analyse d'Amanda Potter : Hell Hath No Fury, colère de Piper, intervention de Paige et Leo à la tombe de Prue."},
+    {"id":"manor-nexus","url":"https://charmed.fandom.com/wiki/Halliwell_Manor","level":"secondary_search_excerpt","scope":"Nexus neutre sous le manoir, cinq éléments et destruction lors de l'affrontement avec Zankou."},
+    {
+      "id": "power-three",
+      "url": "https://en.wikipedia.org/wiki/Power_of_Three_(Charmed)",
+      "level": "secondary_search_excerpt",
+      "scope": "Pouvoir collectif ; exceptions de transfert à vérifier séparément."
+    },
+    {
+      "id": "book",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Shadows_(Charmed)",
+      "level": "secondary",
+      "scope": "Page consultée : transmission, contenu et protections variables du Livre."
+    },
+    {
+      "id": "gain",
+      "url": "https://charmed.fandom.com/wiki/Charmed_(TV_series)",
+      "level": "secondary_search_excerpt",
+      "scope": "Power Outage et Morality Bites : lien entre sœurs et bénéfice personnel."
+    },
+    {
+      "id": "healing",
+      "url": "https://charmed.fandom.com/wiki/Healing",
+      "level": "secondary_search_excerpt",
+      "scope": "Limites et cas de transition vers la mort ; ne constitue pas une table exhaustive."
+    },
+    {
+      "id": "channeling",
+      "url": "https://charmed.fandom.com/wiki/Channeling",
+      "level": "secondary_search_excerpt",
+      "scope": "Guérison avec contribution de plusieurs Êtres de lumière."
+    },
+    {
+      "id": "crystals",
+      "url": "https://charmed.fandom.com/wiki/Crystal_Cage",
+      "level": "secondary_search_excerpt",
+      "scope": "Disposition, enchantement et orientation des cristaux."
+    },
+    {
+      "id": "scry",
+      "url": "https://charmed.fandom.com/wiki/Scry_Hard",
+      "level": "secondary_search_excerpt",
+      "scope": "Exemple de cristal et carte pour une localisation."
+    },
+    {
+      "id": "source",
+      "url": "https://charmed.fandom.com/wiki/The_Source_of_All_Evil",
+      "level": "secondary_search_excerpt",
+      "scope": "Essence, hôtes et recours au Hollow."
+    },
+    {
+      "id": "hollow",
+      "url": "https://charmed.fandom.com/wiki/The_Hollow",
+      "level": "secondary_search_excerpt",
+      "scope": "Absorption magique et rupture de l'accord de garde."
+    },
+    {
+      "id": "belthazor",
+      "url": "https://charmed.fandom.com/wiki/Sleuthing_with_the_Enemy/Plot",
+      "level": "secondary_search_excerpt",
+      "scope": "Fragment de chair indispensable à la potion préparée ; ouverture complète en erreur."
+    },
+    {
+      "id": "cole-human",
+      "url": "https://charmed.fandom.com/wiki/Black_as_Cole/Plot",
+      "level": "secondary_search_excerpt",
+      "scope": "Potion retirant les pouvoirs démoniaques plutôt que tuant Cole."
+    },
+    {
+      "id": "barbas",
+      "url": "https://charmed.fandom.com/wiki/Barbas",
+      "level": "secondary_search_excerpt",
+      "scope": "Exploitation de la peur ; contre-moyens selon apparition."
+    },
+    {
+      "id": "shax",
+      "url": "https://en.wikipedia.org/wiki/Prue_Halliwell",
+      "level": "secondary_search_excerpt",
+      "scope": "Attaque de Shax et reconstitution du trio en saison 4."
+    },
+    {
+      "id": "shax-spell",
+      "url": "https://en.wikipedia.org/wiki/Phoebe_Halliwell",
+      "level": "secondary_search_excerpt",
+      "scope": "Paige aide à reconstituer le Pouvoir des Trois et vaincre Shax."
+    },
+    {
+      "id": "zankou",
+      "url": "https://charmed.fandom.com/wiki/Zankou",
+      "level": "secondary_search_excerpt",
+      "scope": "Stratégie autour du Nexus ; ouverture complète en erreur."
+    },
+    {
+      "id": "nexus",
+      "url": "https://charmed.fandom.com/wiki/Nexus",
+      "level": "secondary_search_excerpt",
+      "scope": "Invocation et destruction du Nexus dans la confrontation à Zankou."
+    },
+    {
+      "id": "triad",
+      "url": "https://charmed.fandom.com/wiki/The_Triad",
+      "level": "secondary_search_excerpt",
+      "scope": "Destructions physiques puis confrontation avec potions ; ouverture complète en erreur."
+    },
+    {
+      "id": "seer",
+      "url": "https://charmed.fandom.com/wiki/The_Seer",
+      "level": "secondary_search_excerpt",
+      "scope": "Manipulation de la succession et tonique de Phoebe."
+    },
+    {
+      "id": "tempus",
+      "url": "https://charmed.fandom.com/wiki/D%C3%A9j%C3%A0_Vu_All_Over_Again/Plot",
+      "level": "secondary_search_excerpt",
+      "scope": "Boucles temporelles avec Rodriguez."
+    },
+    {
+      "id": "abraxas",
+      "url": "https://charmed.fandom.com/wiki/Abraxas",
+      "level": "secondary_search_excerpt",
+      "scope": "Lecture inversée du Livre annulant des destructions."
+    },
+    {
+      "id": "itv-abraxas",
+      "url": "https://www.itv.com/watch/charmed/10a3379/10a3379a0023",
+      "level": "broadcaster_search_excerpt",
+      "scope": "Confirme Abraxas et le vol du Livre ; ne prouve pas la recette de destruction."
+    },
+    {
+      "id": "woogy",
+      "url": "https://charmed.fandom.com/wiki/The_Woogyman",
+      "level": "secondary_search_excerpt",
+      "scope": "Formule transmise par Penny et retenue par Phoebe."
+    },
+    {
+      "id": "warlock",
+      "url": "https://charmed.fandom.com/wiki/Warlock",
+      "level": "secondary_search_excerpt",
+      "scope": "Vol des pouvoirs des sorcières ; taxonomie détaillée à vérifier."
+    },
+    {
+      "id": "antagonists",
+      "url": "https://en.wikipedia.org/wiki/Charmed",
+      "level": "secondary_search_excerpt",
+      "scope": "Gideon, Avatars, Billie et Christy ne sont pas tous des démons."
+    },
+    {
+      "id": "visions",
+      "url": "https://en.wikipedia.org/wiki/Phoebe_Halliwell",
+      "level": "secondary_search_excerpt",
+      "scope": "Pouvoirs de Phoebe et évolutions ; distinction des pouvoirs."
+    },
+    {
+      "id": "itv-source",
+      "url": "https://www.itv.com/watch/charmed/10a3379/10a3379a0079",
+      "level": "broadcaster_search_excerpt",
+      "scope": "Repère de titre et numéro de Charmed and Dangerous seulement."
+    }
+  ],
+  "rules": [
+    {
+      "id": "power-of-three",
+      "title": "Pouvoir des Trois",
+      "claim": "Pouvoir collectif des Charmed Ones ; le trio change après Prue. Une exception de transfert exige son contexte.",
+      "sources": [
+        "power-three",
+        "shax-spell"
+      ],
+      "episodeRefs": [
+        "S01E01",
+        "S04E01",
+        "S04E02"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Vérifier participantes, période et capacité de coopérer avant un effet collectif."
+      },
+      "notImplied": "Trois ressources quelconques ne forment pas le Pouvoir des Trois.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "sister-bond",
+      "title": "Lien entre les sœurs",
+      "claim": "Power Outage montre une rupture du lien accompagnée d'une perte de pouvoirs sous influence démoniaque.",
+      "sources": [
+        "gain"
+      ],
+      "episodeRefs": [
+        "S03E07"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Distinguer désaccord ordinaire et mécanisme magique constaté."
+      },
+      "notImplied": "Une dispute ne supprime pas automatiquement tous les pouvoirs.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "personal-gain",
+      "title": "Bénéfice personnel",
+      "claim": "L'usage intéressé ou vengeur de la magie peut produire des conséquences ; Morality Bites en explore le danger.",
+      "sources": [
+        "gain"
+      ],
+      "episodeRefs": [
+        "S02E02"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Examiner intention, bénéficiaires et mécanisme ; motiver la conséquence retenue."
+      },
+      "notImplied": "Ne pas inventer une sanction systématique, identique et immédiate pour toute utilisation utile au personnage.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "book-of-shadows",
+      "title": "Livre des Ombres",
+      "claim": "Livre familial enrichi de connaissances, formules et potions. Ses protections existent mais varient et peuvent être contournées.",
+      "sources": [
+        "book",
+        "itv-abraxas"
+      ],
+      "episodeRefs": [
+        "S01E01",
+        "S02E01"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Séparer accès au Livre, lecture d'une entrée et réalisation de la méthode."
+      },
+      "notImplied": "Posséder le Livre ne donne ni toutes les réponses ni les moyens nécessaires.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "specific-potions",
+      "title": "Potions et ingrédients spécifiques",
+      "claim": "Dans la préparation contre Belthazor, un fragment de sa chair est nécessaire. Black as Cole distingue retrait des pouvoirs et destruction.",
+      "sources": [
+        "belthazor",
+        "cole-human"
+      ],
+      "episodeRefs": [
+        "S03E08",
+        "S04E08"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Nommer effet visé, cible, provenance des ingrédients et étapes établies."
+      },
+      "notImplied": "Ni recette universelle ni substitution d'ingrédient déclarée canonique sans preuve.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "spell-effect",
+      "title": "Formules et effets distincts",
+      "claim": "Une formule peut protéger, invoquer ou bannir selon son usage ; le Livre conserve des méthodes différentes.",
+      "sources": [
+        "book",
+        "woogy"
+      ],
+      "episodeRefs": [
+        "S01E15"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Distinguer effet demandé, moyens, cible et résultat observé."
+      },
+      "notImplied": "Une phrase bien formulée par le joueur ne crée pas à elle seule un pouvoir illimité.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "healing",
+      "title": "Guérison",
+      "claim": "La guérison connaît des limites et des cas particuliers ; une contribution avec Leo ne prouve pas l'autonomie du second intervenant.",
+      "sources": [
+        "healing",
+        "channeling"
+      ],
+      "episodeRefs": [
+        "S04E02"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Vérifier soignant, époque, blessure, victime et état vital ; consulter la chronologie de Paige."
+      },
+      "notImplied": "Ne pas confondre guérison et résurrection libre ; ne pas généraliser les exceptions.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "scrying",
+      "title": "Localisation au cristal",
+      "claim": "Scry Hard montre l'utilisation d'un cristal avec une carte pour localiser.",
+      "sources": [
+        "scry"
+      ],
+      "episodeRefs": [
+        "S07E17"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Vérifier méthode, lien à la cible et protections ; les conditions exactes restent à documenter."
+      },
+      "notImplied": "Localiser ne révèle pas automatiquement intentions, contenu d'un document ou moyen de vaincre la cible.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "crystal-cage",
+      "title": "Cage de cristaux",
+      "claim": "Un dispositif de cristaux enchantés forme un piège ; sa disposition et son orientation comptent.",
+      "sources": [
+        "crystals"
+      ],
+      "episodeRefs": [
+        "S04E13"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Vérifier mise en place, activation, emplacement de la cible et maintien du dispositif."
+      },
+      "notImplied": "Avoir un cristal dans la main n'établit pas qu'une cage complète retient déjà l'ennemi.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "time-travel",
+      "title": "Temps et futurs",
+      "claim": "Tempus provoque des répétitions temporelles dans son action avec Rodriguez.",
+      "sources": [
+        "tempus"
+      ],
+      "episodeRefs": [
+        "S01E22"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Identifier le moyen temporel et la continuité ; distinguer expérience du voyageur et connaissances des autres."
+      },
+      "notImplied": "Ni recommencement gratuit d'un tour ni capacité temporelle attribuée à tous.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "possession-transfer",
+      "title": "Possession et transfert",
+      "claim": "La Source peut agir à travers des hôtes ; le Hollow absorbe la magie dans un contexte particulier.",
+      "sources": [
+        "source",
+        "hollow"
+      ],
+      "episodeRefs": [
+        "S04E13"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Séparer identité de l'hôte, influence, pouvoirs effectivement acquis et conditions de retrait."
+      },
+      "notImplied": "La possession ou le vol observé ne donne pas toutes les capacités de toutes les versions d'un personnage.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "vanquish-return",
+      "title": "Vaincre, bannir et revenir",
+      "claim": "Abraxas annule des destructions en lisant le Livre à rebours ; cette exception a un mécanisme précis.",
+      "sources": [
+        "abraxas",
+        "itv-abraxas",
+        "woogy"
+      ],
+      "episodeRefs": [
+        "S02E01"
+      ],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Nommer le résultat : repoussé, emprisonné, banni, privé de pouvoirs ou détruit."
+      },
+      "notImplied": "Une disparition visuelle n'est pas une preuve universelle de mort définitive ; un retour exige aussi un moyen.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    },
+    {
+      "id": "entity-types",
+      "title": "Nature de l'adversaire",
+      "claim": "La série distingue démons, warlocks et autres antagonistes ; Gideon, les Avatars et les sœurs Jenkins ne doivent pas être classés indistinctement comme démons.",
+      "sources": [
+        "warlock",
+        "antagonists"
+      ],
+      "episodeRefs": [],
+      "status": "documented_baseline",
+      "application": {
+        "status": "implementation_guidance",
+        "text": "Vérifier la nature précise avant d'appliquer une vulnérabilité."
+      },
+      "notImplied": "Une potion contre un démon n'est pas démontrée efficace contre toute créature hostile.",
+      "unknowns": [
+        "Les modalités non prouvées par les sources restent à vérifier ; aucune recette exacte n'est fournie."
+      ]
+    }
+  ],
+  "beings": [
+    {"id":"angel-of-death","name":"L'Ange de la Mort","aliases":["Angel of Death"],"entityType":"neutral_angel","nature":"Entité neutre liée au passage des morts, distincte d'un démon et de Javna.","effects":["Intervient dans le parcours des morts ; sa neutralité le distingue du combat entre Bien et Mal."],"limits":["Ne pas en faire un assassin au service d'un camp ni le confondre avec l'Ange du Destin.","Une potion démoniaque ou un pouvoir offensif ne prouve pas qu'il peut être vaincu.","Distinguer mort, passage de l'âme et intervention exceptionnelle."],"interaction":"Examiner les conditions de son intervention et les exceptions constatées dans l'épisode ; il n'accorde pas une résurrection libre sur demande.","episodeRefs":["S03E16","S07E05"],"sources":["death-angel"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Règles détaillées du passage, personnes capables de le voir et limites des négociations."]},
+    {"id":"angel-of-destiny","name":"L'Ange du Destin","aliases":["Angels of Destiny","Anges du Destin"],"entityType":"destiny_angel","nature":"Fonction surnaturelle représentée par plusieurs anges au cours de la série.","effects":["En fin de saison 4, un ange propose aux sœurs de renoncer à leur vie magique.","Une autre intervention concerne Leo et les conditions de la bataille finale."],"limits":["Ne pas fusionner les interventions et conditions de tous les anges en une permission illimitée.","Ne remplace ni les Fondateurs ni l'arbitre du jeu.","Le choix proposé dans un épisode n'est pas une action disponible à volonté."],"interaction":"Situer l'ange, la mission, l'offre et ses conditions ; préserver les choix du joueur dans le cadre du scénario.","episodeRefs":["S04E22","S08E22"],"sources":["destiny-angels","destiny-offer"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Étendue exacte de son autorité, exceptions et chronologie complète autour de Leo."]},
+    {"id":"cupid","name":"Cupidon","aliases":["Cupid","Cupidons"],"entityType":"cupid","nature":"Être lié à l'amour ; le Cupidon de la saison 2 est distinct de Coop en saison 8.","effects":["Le premier Cupidon emploie une bague pour son action sur les liens amoureux.","La bague de Coop sert aussi à un déplacement temporel particulier dans le final."],"limits":["Distinguer pouvoir personnel, bague et capacités documentées pour chacun.","Ne pas supposer que retirer la bague prive tous les Cupidons de tous leurs pouvoirs.","Une intervention amoureuse n'autorise pas à inventer le consentement ou les sentiments d'une cible.","Les arcs et anneaux des comics ne sont pas importés dans la télévision."],"interaction":"Préciser le Cupidon concerné, la bague accessible et l'effet recherché ; la fonction n'est pas un contrôle universel de l'amour.","episodeRefs":["S02E10","S08E22"],"sources":["cupid","cupid-ring","coop-finale"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Pouvoirs sans bague, portée et mécanismes spécifiques pour chaque Cupidon."]},
+    {"id":"darklighters","name":"Les Êtres des ténèbres","aliases":["Darklighter","Darklighters","Être des ténèbres"],"entityType":"darklighter","nature":"Êtres maléfiques distincts des Êtres de lumière, avec une fiche d'espèce propre.","effects":["Arbalètes aux projectiles empoisonnés, dangereux pour les Êtres de lumière, les hybrides et les Fondateurs."],"limits":["Posséder une arbalète ne prouve pas que le projectile est empoisonné ni que la cible a été touchée.","Ne pas importer le poison issu de l'arbre d'ambre noir du reboot.","Ne pas déclarer toute guérison impossible : Love Hurts montre un sauvetage de Leo dans un contexte précis."],"interaction":"Identifier attaquant, arme, projectile, atteinte et victime. Pour soigner, prouver les moyens disponibles : Piper utilise un échange de pouvoirs pour guérir Leo dans Love Hurts.","episodeRefs":["S01E21","S03E11","S04E13"],"sources":["darklighters","love-hurts-heal"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Variantes d'Êtres des ténèbres, moyens de destruction et effets exacts du poison selon la victime."]}
+  ],
+  "places": [
+    {"id":"nexus","name":"Nexus du manoir Halliwell","aliases":["Nexus spirituel","Spiritual Nexus"],"entityType":"place_of_power","nature":"Point de pouvoir neutre situé sous le manoir, à équidistance de cinq éléments : terre, eau, feu, bois et métal.","effects":["Son pouvoir peut être convoité par le Bien comme par le Mal."],"limits":["Ne pas l'assimiler à un démon, au Hollow ou automatiquement au Woogyman.","Contrôler le manoir, accéder au sous-sol, invoquer le pouvoir et le maîtriser sont des conditions distinctes.","Le Nexus du manoir est détruit dans l'affrontement final avec Zankou : ne pas le rétablir gratuitement ensuite."],"application":{"status":"implementation_guidance","text":"Peut constituer un lieu ou un enjeu du scénario. La proposition doit préciser l'accès, le procédé et l'effet recherché ; la seule présence sur place ne prouve pas sa maîtrise."},"episodeRefs":["S01E15","S07E17","S07E22"],"sources":["nexus","manor-nexus"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Articulation exacte Nexus/Ombre/Woogyman selon chaque épisode ; conditions complètes d'invocation et de contrôle."]}
+  ],
+  "demons": [
+    {"id":"grimlocks","name":"Les Grimlocks","aliases":["Grimlock"],"entityType":"creature_type","nature":"Démons qui volent la vue, notamment celle des enfants, pour percevoir les auras des personnes bonnes.","motivation":"Repérer et attaquer leurs victimes grâce à la vue dérobée.","capabilities":["Vol de la vue ; perception des auras conditionnée par ce vol."],"limits":["Ne pas leur attribuer cette perception sans la ressource sensorielle volée.","Ne pas transformer tous les cas de cécité en un même effet réversible automatiquement."],"counter":{"status":"partial_method_not_recipe","text":"Une potion est employée contre les Grimlocks. La recette exacte et les conditions de restitution de la vue doivent être vérifiées pour la scène concernée.","exactRecipe":null},"sources":["grimlocks"],"episodeRefs":["S01E19"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Durée du vol, portée des attaques, recette complète et différences entre victimes."]},
+    {"id":"javna","name":"Javna","aliases":["Stefan"],"entityType":"individual","nature":"Démon qui dérobe la force vitale et la jeunesse sous une identité humaine.","motivation":"Se maintenir jeune aux dépens de ses victimes.","capabilities":["Prélèvement de force vitale ; couverture humaine de Stefan."],"limits":["Personnage distinct de l'Ange de la Mort.","Ne pas en faire un pouvoir universel de mort instantanée."],"counter":{"status":"partial_method_not_recipe","text":"La Main de Fatima est le moyen de bannissement mentionné dans l'épisode. La formule et sa réalisation exacte restent à documenter avant utilisation automatique.","exactRecipe":null},"sources":["javna"],"episodeRefs":["S01E02"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Périodicité, procédé complet de prélèvement et mise en œuvre exacte de la Main de Fatima."]},
+    {"id":"rodriguez","name":"Inspecteur Rodriguez","aliases":["Inspector Rodriguez"],"entityType":"individual","nature":"Démon infiltré sous une identité d'inspecteur enquêtant sur Andy.","motivation":"Atteindre les Charmed Ones en utilisant l'enquête et Andy comme moyens de pression.","capabilities":["Manipulation sous couverture policière ; projection de boules d'énergie."],"limits":["Les recommencements temporels proviennent de Tempus, pas d'un pouvoir personnel de Rodriguez.","Ses informations et ses souvenirs doivent être situés dans la bonne tentative."],"counter":{"status":"partial_method_not_recipe","text":"Après la fin de la boucle temporelle, Prue le détruit en lui renvoyant sa propre boule d'énergie. Le neutraliser pendant une tentative ne démontre pas la fin de la boucle.","exactRecipe":null},"sources":["rodriguez","tempus"],"episodeRefs":["S01E21","S01E22"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Portée complète des capacités et chronologie précise des informations acquises."]},
+    {"id":"banshee","name":"Banshee","aliases":["Banshees"],"entityType":"creature_type","nature":"Créature dont le cri est lié à la souffrance de ses victimes ; Phoebe subit une transformation en Banshee.","motivation":"Traquer des personnes en grande souffrance.","capabilities":["Cri aigu ; transformation observée chez Phoebe."],"limits":["Distinguer la Banshee qui attaque et Phoebe transformée.","La souffrance seule ne suffit pas à déclarer une transformation sans mécanisme.","Ne pas importer automatiquement les propriétés de la Banshee folklorique."],"counter":{"status":"partial_method_not_recipe","text":"Pour sauver Phoebe, l'intervention de Cole et l'expression de sa propre souffrance participent à la levée de la transformation. Ce sauvetage n'est pas une méthode universelle de destruction de toutes les Banshees.","exactRecipe":null},"sources":["banshee","banshee-plot","banshee-reversal"],"episodeRefs":["S03E21"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Portée du cri, conditions complètes de transformation, résistances et destruction de la créature d'origine."]},
+    {"id":"furies","name":"Les Furies","aliases":["Fury","Furies"],"entityType":"creature_type","nature":"Créatures vengeresses ; leur fumée peut transformer une sorcière dont la colère est refoulée.","motivation":"S'en prendre aux personnes qu'elles punissent et exploiter la colère.","capabilities":["Fumée insufflée à Piper ; transformation liée à sa colère non exprimée."],"limits":["Une émotion n'est pas à elle seule une transformation magique.","Piper transformée reste une victime à sauver ; ne pas confondre son sauvetage avec la destruction d'une Furie."],"counter":{"status":"partial_method_not_recipe","text":"Leo et Paige conduisent Piper à la tombe de Prue ; l'expression de sa colère et de son deuil permet son retour. Une simple injonction à se calmer ne prouve pas le même résultat.","exactRecipe":null},"sources":["furies","furies-analysis"],"episodeRefs":["S04E03"],"status":"research_baseline","availability":"requires_scenario_review","unknowns":["Modalités complètes de punition, résistances et destruction des Furies non transformées depuis une sœur."]},
+    {
+      "id": "source",
+      "name": "La Source du Mal",
+      "aliases": [
+        "The Source of All Evil"
+      ],
+      "nature": "Autorité et essence démoniaque avec plusieurs incarnations.",
+      "motivation": "Domination des Enfers et destruction des Charmed Ones.",
+      "capabilities": [
+        "Possession d'hôtes ; recours au Hollow pour absorber des pouvoirs dans un contexte particulier."
+      ],
+      "limits": [
+        "Séparer l'incarnation rencontrée, la Source en Cole et les pouvoirs acquis temporairement."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "Étudier séparément Charmed and Dangerous et la confrontation à Cole-Source ; la recette de l'un n'est pas transposable sans preuve.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "source",
+        "hollow",
+        "itv-source"
+      ],
+      "episodeRefs": [
+        "S04E13",
+        "S04E20"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "belthazor",
+      "name": "Balthazar",
+      "aliases": [
+        "Belthazor",
+        "Cole Turner"
+      ],
+      "nature": "Identité démoniaque de Cole ; ne décrit pas toutes ses incarnations.",
+      "motivation": "Mission contre les sœurs en conflit avec son attachement à Phoebe.",
+      "capabilities": [
+        "Pouvoirs démoniaques associés à sa forme ; inventaire détaillé à compléter."
+      ],
+      "limits": [
+        "Cole humain et Cole investi de pouvoirs ultérieurs ne sont pas la même cible magique."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "La potion préparée en S03E08 exige un fragment de sa chair. En S04E08, une autre potion retire les pouvoirs démoniaques ; elle ne tue pas Cole.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "belthazor",
+        "cole-human"
+      ],
+      "episodeRefs": [
+        "S03E08",
+        "S04E08"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "barbas",
+      "name": "Barbas",
+      "aliases": [
+        "Démon de la Peur"
+      ],
+      "nature": "Démon récurrent.",
+      "motivation": "Exploiter les peurs des victimes.",
+      "capabilities": [
+        "Perception et exploitation de leurs peurs."
+      ],
+      "limits": [
+        "Les conditions de présence et les pouvoirs supplémentaires varient selon son retour."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "Surmonter la peur intervient dans les confrontations ; une potion intervient aussi. Identifier l'apparition avant de fixer le moyen suffisant.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "barbas"
+      ],
+      "episodeRefs": [
+        "S01E13",
+        "S07E01"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "shax",
+      "name": "Shax",
+      "aliases": [],
+      "nature": "Assassin démoniaque au service de la Source.",
+      "motivation": "Éliminer les cibles désignées par la Source.",
+      "capabilities": [
+        "Attaque meurtrière de fin de saison 3 ; pouvoirs précis à recouper."
+      ],
+      "limits": [
+        "L'attaque, le retour temporel et la destruction ultérieure sont des événements distincts."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "Le trio reconstitué avec Paige parvient à le vaincre. Vérifier la formule spécifique et sa mise en œuvre ; elle n'est pas transcrite ici.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "shax",
+        "shax-spell"
+      ],
+      "episodeRefs": [
+        "S03E22",
+        "S04E01",
+        "S04E02"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "zankou",
+      "name": "Zankou",
+      "aliases": [],
+      "nature": "Démon stratège.",
+      "motivation": "S'emparer du pouvoir, du manoir et du Nexus.",
+      "capabilities": [
+        "Stratégies autour des liens entre les sœurs et le Nexus."
+      ],
+      "limits": [
+        "Pouvoirs volés et accès au Nexus sont des acquisitions de scénario, pas des moyens disponibles à toute époque."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "La confrontation implique le Nexus et un sort employé contre lui ; les étapes finales et l'état de Zankou doivent être recoupés avant d'en faire une méthode jouable.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "zankou",
+        "nexus"
+      ],
+      "episodeRefs": [
+        "S07E17",
+        "S07E22"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "triad",
+      "name": "La Triade",
+      "aliases": [
+        "The Triad"
+      ],
+      "nature": "Collectif démoniaque.",
+      "motivation": "Combattre les Charmed Ones ; rôle dans l'intrigue de Billie et Christy.",
+      "capabilities": [
+        "Actions collectives ; attaques et retours selon les phases."
+      ],
+      "limits": [
+        "Distinguer membres, corps et retours ; ne pas additionner toutes leurs incarnations."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "Une confrontation emploie le renvoi d'une attaque contre un membre ; une autre des potions. Préciser la phase avant de décider qu'une destruction suffit.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "triad",
+        "antagonists"
+      ],
+      "episodeRefs": [
+        "S08E16",
+        "S08E22"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "seer",
+      "name": "La Prophétesse de la Source",
+      "aliases": [
+        "The Seer"
+      ],
+      "nature": "Conseillère démoniaque de l'arc de la Source.",
+      "motivation": "Manipuler la succession de la Source.",
+      "capabilities": [
+        "Anticipation et manipulation ; tonique administré à Phoebe."
+      ],
+      "limits": [
+        "À distinguer de Kyra et de l'Oracle ; une vision ne prouve pas l'omniscience."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "La destruction finale et ses conditions restent à recouper. Aucun contre universel n'est établi dans cette fiche.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "seer"
+      ],
+      "episodeRefs": [
+        "S04E13",
+        "S04E21"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "tempus",
+      "name": "Tempus",
+      "aliases": [],
+      "nature": "Démon associé à la manipulation temporelle.",
+      "motivation": "Aider Rodriguez à réussir son attaque contre les sœurs.",
+      "capabilities": [
+        "Répétition temporelle permettant de corriger les tentatives."
+      ],
+      "limits": [
+        "Les bénéficiaires, souvenirs conservés et déclencheurs doivent être précisés."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "Le moyen exact de rompre la boucle reste à recouper ; une attaque physique sur Rodriguez ne démontre pas à elle seule la fin du dispositif.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "tempus"
+      ],
+      "episodeRefs": [
+        "S01E22"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "abraxas",
+      "name": "Abraxas",
+      "aliases": [],
+      "nature": "Démon voleur du Livre.",
+      "motivation": "Défaire les accomplissements magiques des sœurs.",
+      "capabilities": [
+        "Lecture inversée du Livre annulant des destructions."
+      ],
+      "limits": [
+        "Le procédé dépend de son accès au Livre ; ce n'est pas une résurrection générale sans support."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "Reprendre le Livre et empêcher la progression du procédé sont des enjeux établis ; la mise à mort exacte reste à documenter.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "abraxas",
+        "itv-abraxas"
+      ],
+      "episodeRefs": [
+        "S02E01"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    },
+    {
+      "id": "woogyman",
+      "name": "Le Woogyman",
+      "aliases": [
+        "Woogy"
+      ],
+      "nature": "Entité d'ombre liée à l'intrigue du sous-sol du manoir.",
+      "motivation": "Influencer et prendre le contrôle.",
+      "capabilities": [
+        "Influence sur Phoebe dans l'épisode d'origine ; détails dans la base initiale."
+      ],
+      "limits": [
+        "Ne pas fusionner sans examen le Woogyman, le Nexus et tous les démons d'ombre."
+      ],
+      "counter": {
+        "status": "partial_method_not_recipe",
+        "text": "Phoebe se souvient de la formule transmise par Penny ; l'effet de bannissement doit être distingué d'une destruction définitive.",
+        "exactRecipe": null
+      },
+      "sources": [
+        "woogy"
+      ],
+      "episodeRefs": [
+        "S01E15",
+        "S02E01"
+      ],
+      "status": "research_baseline",
+      "availability": "requires_scenario_review",
+      "unknowns": [
+        "Chronologie complète des apparitions et retours, portée, immunités et méthode exacte à approfondir."
+      ]
+    }
+  ],
+  "policy": {
+    "gameRules": "Complément documentaire : ne remplace ni les coûts, ni les tours, ni les décisions de REGLES_ACTEES.md.",
+    "sourceLimits": "Les repères d'épisodes situent une preuve ou un problème à contrôler ; ils ne sont pas des intervalles de disponibilité. Un synopsis officiel ne prouve que ce qu'il décrit.",
+    "newStories": "Intrigues inédites permises dans le cadre validé ; propriétés canoniques conservées. Un moyen nouveau reste proposition de scénario, pas fait de la série.",
+    "adjudication": "Distinguer ce qui est établi, ce qui manque, ce qui est contredit et ce qui est inventé. Une autre solution peut être examinée sans recopier celle de l'épisode.",
+    "spoilers": "Réservé au système ; ne pas divulguer les contre-moyens ou secrets aux personnages sans accès narratif.",
+    "integration": "Consultation documentaire seulement ; pas encore injecté dans l'arbitre actif."
+  }
+}

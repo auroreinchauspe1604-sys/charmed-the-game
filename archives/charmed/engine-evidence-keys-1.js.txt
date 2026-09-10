@@ -1,0 +1,152 @@
+"use strict";
+const scenario = require('./scenario');
+const clone = x => JSON.parse(JSON.stringify(x));
+class RuleError extends Error {}
+function requireRule(ok,message){if(!ok)throw new RuleError(message);}
+function initial(){return {version:2,ruleset:'evidence-keys-1',recoveryDays:1,revision:0,day:1,phase:'player',spent:{phoebe:false,commanditaire:false},nextId:1,
+ title:scenario.title,subgoalSlots:clone(scenario.subgoalSlots),resources:clone(scenario.resources),nodes:scenario.goals.map(x=>({...x,goalMode:x.goalMode||'achieve',type:'state',parent:null,status:x.initialValue?'true':'open',description:x.title})),
+ questions:[],facts:['Élise est vivante. Phoebe a reçu la vision initiale.'],result:null,
+ radio:[{day:1,text:scenario.opening}],arbitration:[],opponent:[]};}
+function node(s,id){const n=s.nodes.find(x=>x.id===id);requireRule(n,'Carte introuvable.');return n;}
+function resource(s,id){const r=s.resources.find(x=>x.id===id);requireRule(r,'Ressource introuvable.');return r;}
+function newId(s){return 'c'+s.nextId++;}
+function slotsFor(s,camp){return s.subgoalSlots?.[camp]??Math.max(scenario.subgoalSlots[camp],s.nodes.filter(n=>n.type==='state'&&n.parent&&n.owner===camp).length);}
+function suspended(s,id){return s.questions.some(q=>q.target===id&&!q.resolved);}
+function live(n){return !['failed','removed'].includes(n.status);}
+function blocks(s,id){return s.nodes.filter(n=>n.type==='lock'&&n.target===id&&n.status==='active'&&!suspended(s,n.id));}
+function frozenBy(s,r){return s.nodes.filter(n=>n.type==='key'&&n.scope==='main'&&(n.pieces||[]).includes(r.id)&&blocks(s,n.id).length).map(n=>n.id);}
+function availability(s,r){if(r.lost||r.consumed)return 'lost';if(r.heldBy)return 'engaged';if(r.recoveryUntil>s.day)return 'recovering';if(r.availableDay>s.day)return r.preparation?'preparing':'incoming';if(frozenBy(s,r).length)return 'frozen';return 'free';}
+function checkTurn(s,camp,paid=false){requireRule(s.phase===(camp==='phoebe'?'player':'ai'),'Ce n’est pas votre passage.');requireRule(!s.result,'La partie est terminée.');if(paid)requireRule(!s.spent[camp],'Votre coup du jour est déjà joué.');}
+function spend(s,camp){checkTurn(s,camp,true);s.spent[camp]=true;}
+function scopeOf(s,target){const t=node(s,target);if(t.type==='state')return t.parent?'subgoal':'main';return t.scope||'main';}
+function subgoalOf(s,n){if(n.scope!=='subgoal')return null;let t=node(s,n.target);const seen=new Set();while(t.type!=='state'){requireRule(!seen.has(t.id),'Lien circulaire.');seen.add(t.id);t=node(s,t.target);}return t.parent?t.id:null;}
+function release(s,n){for(const id of n.pieces||[]){const r=resource(s,id);if(r.heldBy===n.id){r.heldBy=null;if(n.discovery&&!r.lost&&!r.consumed){r.recoveryUntil=Math.max(r.recoveryUntil||0,s.day+(s.recoveryDays||1));}}}}
+function refresh(s){for(const n of s.nodes){
+ if(n.pieces)n.effectUnavailable=n.ongoing&&n.pieces.some(id=>{const r=resource(s,id);return r.lost||r.consumed||r.owner!==n.owner||r.availableDay>s.day;});
+ if(n.type==='key'&&n.status==='acquired'){
+  const sub=subgoalOf(s,n);if(sub){if(node(s,sub).status==='true')release(s,n);}else if(!n.ongoing)release(s,n);
+ }
+ if(n.type==='lock'&&n.status==='active'&&!n.ongoing)release(s,n);
+ if(n.type==='lock'&&live(n)&&n.effectUnavailable){n.status='removed';release(s,n);}
+ }}
+function targetCheck(s,camp,kind,target){
+ if(kind==='attack'){const r=resource(s,target);requireRule(r.owner!==camp&&!r.lost&&!r.consumed,'Choisissez une ressource adverse encore présente.');return;}
+ const t=node(s,target);requireRule(live(t),'Cette carte n’est plus active.');
+ if(kind==='subgoal'){requireRule(t.type==='state'&&!t.parent&&t.owner===camp,'Un sous-objectif dépend de votre objectif principal.');requireRule(s.nodes.filter(n=>n.type==='state'&&n.parent===t.id).length<slotsFor(s,camp),'Tous les emplacements de sous-objectifs de cette partie sont occupés.');}
+ if(kind==='key')requireRule((t.type==='state'&&t.owner===camp&&(t.status!=='true'||(!t.parent&&t.goalMode==='maintain')))||(t.type==='lock'&&t.owner!==camp&&t.status==='active'),'Une clé sert votre état ou lève un verrou adverse actif.');
+ if(kind==='lock'){
+  requireRule(t.owner!==camp,'On ne verrouille pas son propre camp.');
+  if(t.type==='state')requireRule(!!t.parent&&t.status!=='true','Sur la voie principale, visez la dernière clé, pas la racine.');
+  else if(t.type==='key'){
+   requireRule(t.scope==='main','Sur une branche, le verrou vise le sous-objectif.');
+   const keys=s.nodes.filter(x=>x.type==='key'&&x.owner===t.owner&&x.scope==='main'&&x.target===t.target&&live(x));
+   requireRule(keys.at(-1)?.id===t.id,'Le verrou doit viser la dernière clé de cette voie.');
+  } else requireRule(t.type==='attack'&&t.status!=='resolved','Ce type de carte ne peut pas être verrouillé.');
+ }
+}
+function validatePlan(s,camp,kind,target,p){
+ requireRule(p&&typeof p.accepted==='boolean'&&typeof p.reason==='string','Réponse d’arbitrage invalide.');
+ if(!p.accepted)return;
+ requireRule(typeof p.title==='string'&&p.title.length>0&&typeof p.effect==='string'&&p.effect.length>0,'L’action doit avoir un résultat précis.');
+ if(kind==='subgoal'){requireRule(!/^(obtenir|trouver|parler|surveiller|protéger|empêcher|voler|identifier|faire|mettre|aller|interroger)\b/i.test(p.title.trim()),'Un état décrit un fait constatable, jamais une action à effectuer.');return;}
+ if(kind==='key'&&typeof p.sufficient==='boolean'){requireRule(Number.isInteger(p.delay)&&p.delay>=1&&p.delay<=12,'Délai invalide.');return;}
+ requireRule(Array.isArray(p.requirements)&&p.requirements.length>0&&p.requirements.length<=8,'Moyens nécessaires invalides.');
+ for(const slot of p.requirements){requireRule(typeof slot.role==='string'&&Array.isArray(slot.eligible)&&slot.eligible.length>0,'Chaque moyen doit avoir un rôle et des pièces possibles.');for(const id of slot.eligible)requireRule(resource(s,id).owner===camp,'Moyen attribué au mauvais camp.');}
+ // A matching ensures roles cannot require the very same unique resource twice.
+ function fit(i,used){if(i===p.requirements.length)return true;return p.requirements[i].eligible.some(id=>!used.has(id)&&fit(i+1,new Set([...used,id])));}
+ requireRule(fit(0,new Set()),'Cette combinaison exige plusieurs fois la même ressource.');
+ requireRule(Number.isInteger(p.delay)&&p.delay>=1&&p.delay<=12,'Délai de réalisation invalide.');
+ if(kind!=='attack'&&scopeOf(s,target)==='main')requireRule(p.requirements.length>=2,'Une clé ou un verrou de la voie principale exige au moins deux ressources.');
+ if(kind==='attack')requireRule(s.day+p.requirements.length+p.delay<=scenario.finalDay,'Il ne reste pas assez de passages pour préparer cette attaque.');
+}
+function place(s,camp,id,rid,verdict){checkTurn(s,camp,true);const n=node(s,id),r=resource(s,rid);
+ requireRule(n.owner===camp&&['key','lock','attack'].includes(n.type),'Cette combinaison ne vous appartient pas.');
+ requireRule(['preparing','declared'].includes(n.status),'La combinaison n’attend plus de ressource.');
+ requireRule(n.type!=='attack'||s.day>=n.revealDay,'Attendez la révélation de Radio Halliwell.');
+ requireRule(r.owner===camp&&availability(s,r)==='free','Cette ressource n’est pas disponible.');
+ requireRule(!n.pieces.includes(rid),'Cette pièce est déjà posée.');
+ if(n.discovery){
+  requireRule(verdict&&verdict.accepted===true&&typeof verdict.sufficient==='boolean','Évaluation de la contribution nécessaire.');
+  requireRule(Number.isInteger(verdict.delay)&&verdict.delay>=1&&verdict.delay<=12,'Délai invalide.');
+  spend(s,camp);n.pieces.push(rid);r.heldBy=n.id;
+  if(verdict.sufficient&&(n.scope!=='main'||n.pieces.length>=2)){n.status='ready';n.readyDay=s.day;n.delay=verdict.delay;n.dueDay=s.day+n.delay;}
+  return;
+ }
+ // Match all pieces again, avoiding greedy assignment to overlapping slots.
+ const pieces=[...n.pieces,rid];
+ function match(i,used){if(i===pieces.length)return [];for(let j=0;j<n.requirements.length;j++)if(!used.has(j)&&n.requirements[j].eligible.includes(pieces[i])){const rest=match(i+1,new Set([...used,j]));if(rest)return [j,...rest];}return null;}
+ requireRule(match(0,new Set())!==null,'Cette ressource ne remplit aucun rôle encore nécessaire.');
+ spend(s,camp);n.pieces.push(rid);r.heldBy=n.id;
+ if(n.pieces.length===n.requirements.length){n.status='ready';n.readyDay=s.day;if(n.type!=='attack')n.dueDay=s.day+n.delay;}
+}
+function propose(s,camp,action,plan){if(action.kind!=='resource')checkTurn(s,camp,true);
+ requireRule(typeof action.text==='string'&&action.text.trim().length>=8,'Décrivez précisément quoi, comment et dans quel but.');
+ if(action.kind==='resource'){
+  requireRule(['player','ai'].includes(s.phase),'Aucune création pendant Radio Halliwell.');
+  requireRule(plan&&typeof plan.accepted==='boolean'&&typeof plan.reason==='string','Arbitrage invalide.');
+  if(!plan.accepted){s.arbitration.push({day:s.day,text:plan.reason});return null;}
+  requireRule(plan.resource&&Number.isInteger(plan.delay)&&plan.delay>=1,'Préparation de ressource invalide.');
+  const costs=plan.costs||[];requireRule(new Set(costs).size===costs.length,'Coût dupliqué.');
+  for(const id of costs){const r=resource(s,id);requireRule(r.owner===camp&&availability(s,r)==='free'&&r.category!=='personnage','Ingrédient indisponible ou irremplaçable.');}
+  requireRule(plan.resource.category!=='personnage'||!s.resources.some(r=>r.title.toLowerCase()===plan.resource.title.toLowerCase()),'Ce personnage existe déjà.');
+  for(const id of costs)resource(s,id).consumed=true;
+  const r={id:newId(s),owner:camp,title:plan.resource.title,description:plan.resource.description,category:plan.resource.category,icon:plan.resource.icon||'📦',availableDay:s.day+plan.delay,preparation:true,heldBy:null,lost:false,consumed:false};s.resources.push(r);s.arbitration.push({day:s.day,text:`${r.title} : ${plan.reason} Disponible au jour ${r.availableDay}.`});return r;
+ }
+ targetCheck(s,camp,action.kind,action.target);validatePlan(s,camp,action.kind,action.target,plan);
+ if(!plan.accepted){s.arbitration.push({day:s.day,text:plan.reason});return null;}
+ if(action.kind==='subgoal'){spend(s,camp);const n={id:newId(s),type:'state',owner:camp,parent:action.target,title:plan.title,description:action.text,effect:plan.effect,status:'open'};s.nodes.push(n);s.arbitration.push({day:s.day,text:plan.reason});return n;}
+ const n={id:newId(s),type:action.kind,owner:camp,title:plan.title,description:action.text,target:action.target,scope:action.kind==='attack'?'attack':scopeOf(s,action.target),pieces:[],requirements:clone(plan.requirements||[]),delay:plan.delay,effect:plan.effect,ongoing:!!plan.ongoing,status:'preparing',createdDay:s.day,risks:plan.risks||'',readyDay:null,dueDay:null};
+ if(n.type==='key'&&typeof plan.sufficient==='boolean'){n.discovery=true;n.requirements=[];}
+ if(n.type==='attack'){spend(s,camp);n.title=action.text.slice(0,100);n.status='declared';n.revealDay=s.day+1;n.dueDay=s.day+n.requirements.length+n.delay;}
+ else requireRule(action.resource,'Choisissez la première pièce à engager.');
+ s.nodes.push(n);
+ if(n.type!=='attack')place(s,camp,n.id,action.resource,plan);
+ s.arbitration.push({day:s.day,text:n.discovery?discoveryFeedback(n):n.type==='attack'?'Tentative acceptée et engagée. Exigences révélées demain matin.':`${plan.reason}\n${n.requirements.length} ressource(s) nécessaire(s), ${n.pieces.length} engagée(s). ${n.status==='ready'?'Moyens réunis ; résolution au matin du jour '+n.dueDay+'.':'Préparation en cours ; '+(n.requirements.length-n.pieces.length)+' ressource(s) encore nécessaire(s).'}\nRôles : ${n.requirements.map(x=>x.role).join(' + ')}.\nCondition attendue après réalisation : ${n.effect}`});
+ return n;
+}
+function discoveryFeedback(n){return (n.status==='ready'?'Contribution suffisamment préparée. Résolution au matin du jour '+n.dueDay+'.':'Proposition de clé recevable. Les moyens engagés ne suffisent pas encore : la clé reste en préparation. À vous de proposer une autre contribution pertinente.')+'\nCondition visée : '+n.effect+'\nL’état ciblé ne devient pas vrai par cette seule acceptation.';}
+function question(s,camp,target,text){checkTurn(s,camp);const n=node(s,target);requireRule(n.owner!==camp&&n.type!=='state'&&live(n)&&n.status!=='resolved','Questionnez une action adverse encore en jeu.');requireRule(text&&text.trim().length>=5,'Précisez la justification demandée.');requireRule(!s.questions.some(q=>q.target===target&&(!q.resolved||q.factCount===s.facts.length||q.text.trim()===text.trim())),'Cette action a déjà été questionnée ; un fait nouveau est nécessaire.');s.questions.push({id:newId(s),target,owner:camp,text,answer:null,resolved:false,factCount:s.facts.length});}
+function answer(s,camp,id,text,judgment){checkTurn(s,camp);const q=s.questions.find(x=>x.id===id);requireRule(q&&!q.resolved&&node(s,q.target).owner===camp,'Vous ne pouvez pas répondre à cette question.');requireRule(text&&text.trim().length>=5,'Précisez votre réponse.');requireRule(judgment&&typeof judgment.accepted==='boolean','Réponse d’arbitrage invalide.');q.answer=text;if(judgment.accepted)q.resolved=true;s.arbitration.push({day:s.day,text:judgment.reason});}
+function morningCandidates(s){const day=s.day+1;return s.nodes.filter(n=>n.type!=='state'&&live(n)&&!['acquired','active','resolved'].includes(n.status)&&n.dueDay&&n.dueDay<=day&&!suspended(s,n.id)&&n.status==='ready'&&!blocks(s,n.id).length&&n.pieces.every(id=>{const r=resource(s,id);return !r.lost&&!r.consumed&&r.owner===n.owner&&r.availableDay<=day;}));}
+function morning(s,judgment){requireRule(s.phase==='morning','La journée n’est pas terminée.');
+ requireRule(judgment&&Array.isArray(judgment.outcomes)&&Array.isArray(judgment.states)&&Array.isArray(judgment.facts),'Résolution matinale invalide.');
+ const candidates=morningCandidates(s);const ids=new Set(candidates.map(n=>n.id));
+ requireRule(judgment.outcomes.length===ids.size&&new Set(judgment.outcomes.map(x=>x.id)).size===ids.size&&judgment.outcomes.every(x=>ids.has(x.id)),'Chaque action arrivée à échéance doit être résolue une fois.');
+ // All verdicts refer to the pre-morning snapshot: no order-dependent surprise.
+ s.day++;let messages=[];
+ for(const n of s.nodes.filter(n=>n.type==='attack'&&live(n)&&n.status!=='resolved')){
+  if(n.revealDay===s.day)messages.push(`${n.title} : ${n.requirements.length} pièces nécessaires (${n.requirements.map(x=>x.role).join(' + ')}). Attaque au matin du jour ${n.dueDay}. Effet si réussite : ${n.effect}. Risques : ${n.risks||'selon la situation'}.`);
+  if(n.dueDay<=s.day&&(n.status!=='ready'||n.pieces.some(id=>{const r=resource(s,id);return r.lost||r.consumed||r.owner!==n.owner||r.availableDay>s.day;}))){n.status='failed';release(s,n);messages.push(`${n.title} : échec, pièces manquantes ou indisponibles à l’échéance. Aucun report.`);}
+  else if(n.dueDay<=s.day&&(suspended(s,n.id)||blocks(s,n.id).length)){n.status='failed';release(s,n);messages.push(`${n.title} : échec à l’échéance, action suspendue ou bloquée. Aucun report.`);}
+ }
+ for(const out of judgment.outcomes){const n=node(s,out.id);requireRule(typeof out.success==='boolean'&&typeof out.reason==='string','Verdict incomplet.');
+  requireRule(Array.isArray(out.losses)&&Array.isArray(out.consume),'Sort des ressources invalide.');
+  for(const rid of [...out.losses,...out.consume]){const r=resource(s,rid);requireRule(n.pieces.includes(rid)||(n.type==='attack'&&rid===n.target),'Conséquence hors de portée de cette action.');}
+  for(const rid of out.losses){const r=resource(s,rid);r.lost=true;r.heldBy=null;}
+  for(const rid of out.consume){const r=resource(s,rid);requireRule(r.category!=='personnage','Une personne ne peut pas être consommée comme un ingrédient.');r.consumed=true;r.heldBy=null;}
+  for(const transfer of out.transfers||[]){requireRule(n.type==='attack'&&transfer.id===n.target&&transfer.owner===n.owner&&out.success,'Transfert hors de portée.');const r=resource(s,transfer.id);requireRule(r.category!=='personnage'&&!r.lost&&!r.consumed,'Ce vol ne peut pas transférer une personne ou un objet perdu.');r.owner=transfer.owner;r.heldBy=null;}
+  for(const injury of out.injuries||[]){requireRule(n.pieces.includes(injury.id)||(n.type==='attack'&&injury.id===n.target),'Blessure hors de portée.');requireRule(Number.isInteger(injury.days)&&injury.days>=1&&injury.days<=12,'Durée de récupération invalide.');const r=resource(s,injury.id);r.availableDay=s.day+injury.days;r.preparation=false;}
+  if(!out.success){n.status='failed';release(s,n);}else if(n.type==='key'){n.status='acquired';n.acquiredDay=s.day;if(node(s,n.target).type==='lock'){const lock=node(s,n.target);lock.status='removed';release(s,lock);}}
+  else if(n.type==='lock')n.status='active';else {n.status='resolved';release(s,n);}
+  if(out.success)n.established=out.established||n.effect;messages.push(`${n.title} — ${out.success?'réalisé':'échec'} : ${out.reason}${out.success?'\nFait obtenu : '+n.established:''}`);
+ }
+ refresh(s);
+ for(const fact of judgment.facts){requireRule(typeof fact==='string','Fait invalide.');if(!s.facts.includes(fact)){s.facts.push(fact);if(scenario.calendar.some(e=>e.morning===s.day))messages.push('Fait du matin : '+fact);}}
+ for(const v of judgment.states){const n=node(s,v.id);requireRule(n.type==='state'&&typeof v.reason==='string','Constat invalide.');if(v.value===false&&!n.parent){n.status='open';messages.push(`${n.title} — constaté faux : ${v.reason}`);}if(v.value===true){if(Array.isArray(v.supports)&&n.status!=='true'){requireRule(v.supports.length>0,'Un état faux exige des acquis constatés pour devenir vrai.');for(const id of v.supports){const proof=node(s,id);requireRule(((proof.type==='key'&&proof.status==='acquired')||(proof.type==='state'&&proof.status==='true'&&proof.parent===n.id)||(proof.type==='attack'&&proof.status==='resolved'))&&!suspended(s,id)&&!blocks(s,id).length&&!proof.effectUnavailable,'Cette contribution ne prouve pas encore un fait.');}n.supports=clone(v.supports);}requireRule(!blocks(s,n.id).length,'Un verrou actif empêche ce constat.');requireRule(!s.nodes.some(k=>k.owner===n.owner&&k.type==='key'&&k.target===n.id&&blocks(s,k.id).length),'Une clé nécessaire est verrouillée.');n.status='true';messages.push(`${n.title} — constaté vrai : ${v.reason}`);}}
+ refresh(s);
+ for(const r of s.resources)if(r.availableDay===s.day)messages.push(`${r.title} est disponible.`);
+ if(s.day===3)messages.push('Le programme public de la réception devient consultable. Vous pouvez en demander un exemplaire.');
+ if(s.day===5)messages.push('Calendrier : publication prévue de la liste des prestataires si la réception est maintenue. Les faits établis précisent sa disponibilité.');
+ const winners=s.nodes.filter(n=>n.type==='state'&&!n.parent&&n.status==='true'&&(n.goalMode!=='maintain'||s.day>=scenario.finalDay));requireRule(winners.length<=1,'Les objectifs de cette partie sont incompatibles.');
+ if(winners.length)s.result={winner:winners[0].owner,reason:winners[0].title};
+ else if(s.day>=scenario.finalDay)s.result={winner:null,reason:'Échéance atteinte sans objectif constaté vrai.'};
+ s.radio.push({day:s.day,text:messages.join('\n')||'Aucun effet arrivé à échéance. La journée commence.'});s.spent={phoebe:false,commanditaire:false};s.phase=s.result?'finished':'player';
+}
+function publicView(s){const v=clone(s);v.camps=scenario.camps;v.finalDay=scenario.finalDay;v.calendar=clone(scenario.calendar).map(e=>({...e,timing:e.morning<s.day?'passé':e.morning===s.day?'aujourd’hui':'à venir'}));v.subgoalSlots=Object.fromEntries(scenario.camps.map(c=>[c.id,slotsFor(s,c.id)]));
+ for(const n of v.nodes)if(n.discovery){delete n.requirements;delete n.risks;}
+ for(const n of v.nodes)if(n.type==='attack'&&s.day<n.revealDay){delete n.requirements;delete n.delay;delete n.dueDay;delete n.effect;delete n.risks;delete n.ongoing;}
+ for(const r of v.resources){r.availability=availability(s,r);r.frozenBy=frozenBy(s,r);}
+ for(const n of v.nodes){if(n.type==='state'){n.value=n.status==='true';n.goalMode=n.goalMode||'achieve';}n.suspended=suspended(s,n.id);n.blockedBy=blocks(s,n.id).map(x=>x.id);}
+ return v;
+}
+module.exports={initial,clone,RuleError,requireRule,node,resource,availability,refresh,publicView,checkTurn,spend,propose,place,question,answer,morning,morningCandidates,targetCheck,discoveryFeedback};

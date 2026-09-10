@@ -1,0 +1,1685 @@
+{
+  "version": 1,
+  "proposalSchema": "contribution-demons-v1",
+  "universe": "charmed-tv-1998-s1-s8",
+  "createdAt": "2026-09-08",
+  "status": "proposal_not_integrated",
+  "coverage": "40 fiches : individus, incarnations, collectifs, espèces et un ancien démon. Sélection de priorité éditoriale, pas classement canonique de puissance. Aucun épisode visionné.",
+  "sources": [
+    {
+      "id": "T0102",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e02&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S01E02",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0113",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e13&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S01E13",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0115",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e15&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S01E15",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0119",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e19&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S01E19",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0122",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e22&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S01E22",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0201",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e01&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S02E01",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0204",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s02e04&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S02E04",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0305",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e05&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E05",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0306",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e06&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E06",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0307",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e07&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E07",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0308",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e08&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E08",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0316",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e16&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E16",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0319",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e19&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E19",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0320",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e20&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E20",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0321",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e21&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E21",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0322",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s03e22&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S03E22",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0401",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e01&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S04E01",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0403",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e03&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S04E03",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0408",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e08&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S04E08",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0413",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e13&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S04E13",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0415",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e15&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S04E15",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0507",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e07&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S05E07",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0510",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e10&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S05E10",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0512",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s05e12&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S05E12",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0606",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e06&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S06E06",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0607",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s06e07&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S06E07",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0701",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e01&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S07E01",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0710",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e10&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S07E10",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0714",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e14&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S07E14",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0716",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e16&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S07E16",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0719",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e19&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S07E19",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0722",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s07e22&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S07E22",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0804",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e04&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S08E04",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "T0821",
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s08e21&tv-show=charmed",
+      "level": "transcription_non_officielle_consultee",
+      "episode": "S08E21",
+      "scope": "Passages utiles consultés ; ni vidéo visionnée ni transcription officielle. Attribution des répliques parfois absente.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-TRIADE",
+      "url": "https://charmed.fandom.com/wiki/Engaged_and_Confused/Plot",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S08E16 : combat et affaiblissement du collectif ; attribution du lanceur de feu divergente entre résultats Plot et Script.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-FINAL",
+      "url": "https://charmed.fandom.com/wiki/Forever_Charmed/Script",
+      "level": "extrait_recherche_transcription_non_officielle",
+      "scope": "S08E22 : potions contre la Triade ; extrait de transcription non officielle, page intégrale non consultée.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-DUMAIN",
+      "url": "https://charmed.fandom.com/wiki/Dumain",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S8 : manipulation, bague de Coop, deux versions temporelles ; exclure toute extension hors télévision.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-SEER",
+      "url": "https://charmed.fandom.com/wiki/Womb_Raider/Plot",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S04E21 : transfert du fœtus et affrontement ; page Springfield inaccessible.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-ZANKOU",
+      "url": "https://charmed.fandom.com/wiki/Zankou",
+      "level": "extrait_recherche_secondaire",
+      "scope": "Sections télévision : absorption du métamorphe et pouvoirs volés en S7. Sections comics, résurrection par Tyler et portails exclus.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-BARBAS",
+      "url": "https://charmed.fandom.com/wiki/Barbas",
+      "level": "extrait_recherche_secondaire",
+      "scope": "Condition du premier retour S01E13 ; ne pas l'étendre aux autres saisons.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-BROTHER",
+      "url": "https://charmed.fandom.com/wiki/Brotherhood_of_the_Thorn",
+      "level": "extrait_recherche_secondaire",
+      "scope": "Confrérie, rôle de Raynor et opérations ; ne pas déduire extinction de tout membre de la chute des chefs.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-VORNAC",
+      "url": "https://charmed.fandom.com/wiki/The_Demon_Who_Came_in_from_the_Cold/Plot",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S03E19 : infiltration, défiance et Klea.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-KLEA",
+      "url": "https://charmed.fandom.com/wiki/Klea",
+      "level": "extrait_recherche_secondaire",
+      "scope": "Observation à distance (voyeurism), shimmering ; aucune télépathie ajoutée.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-SYKES",
+      "url": "https://charmed.fandom.com/wiki/Black_as_Cole/Plot",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S04E08 : résistance à l'attaque de Cole, duel démoniaque, retrait des pouvoirs de Cole.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-LUDLOW",
+      "url": "https://charmed.fandom.com/wiki/Ludlow",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S04E12 uniquement : école des firestarters, récupération des pouvoirs et résistance au feu.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-TYLER",
+      "url": "https://charmed.fandom.com/wiki/Tyler_Michaels",
+      "level": "extrait_recherche_secondaire",
+      "scope": "Uniquement résumé télévisé de Lost and Bound : Ludlow résiste, sort collectif. Tout contenu comics/Archai/portail exclu.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-WATER",
+      "url": "https://charmed.fandom.com/wiki/P3_H2O/Script",
+      "level": "extrait_recherche_transcription_non_officielle",
+      "scope": "S02E08 : gel inefficace et électricité dans le récit ; extrait non officiel.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-WATER-PLOT",
+      "url": "https://charmed.fandom.com/wiki/P3_H2O/Plot",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S02E08 : mort de Patty et affrontement avec Sam.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-ILLUSION",
+      "url": "https://charmed.fandom.com/wiki/Demon_of_Illusion",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S02E18 : passage entre écran et monde réel, fausse élimination.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-CHICK",
+      "url": "https://charmed.fandom.com/wiki/Chick_Flick/Script",
+      "level": "extrait_recherche_transcription_non_officielle",
+      "scope": "S02E18 : extrait de transcription ; vérifier audiovisuellement le dénouement.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-DRAZI",
+      "url": "https://charmed.fandom.com/wiki/Heartbreak_City/Plot",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S02E10 : démon de haine, bague volée à Cupidon.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-DRAZI-SCRIPT",
+      "url": "https://charmed.fandom.com/wiki/Heartbreak_City/Script",
+      "level": "extrait_recherche_transcription_non_officielle",
+      "scope": "S02E10 : perte de protection après reprise de la bague.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-SIREN",
+      "url": "https://charmed.fandom.com/wiki/Siren_Song",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S05E04 : chant, baiser, feu, pouvoirs échangés entre Piper et Leo.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-SIREN-SCRIPT",
+      "url": "https://charmed.fandom.com/wiki/Siren_Song/Script",
+      "level": "extrait_recherche_transcription_non_officielle",
+      "scope": "S05E04 : chant atteignant Cole, potion et sort envisagés ; recette non auditée.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-ORACLE",
+      "url": "https://charmed.fandom.com/wiki/Brain_Drain/Plot",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S04E07 : illusion hospitalière de la Source, Oracle interceptant l'attaque de Cole.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-JERIC",
+      "url": "https://charmed.fandom.com/wiki/Y_Tu_Mummy_Tambi%C3%A9n",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S05E10 selon index local ; Jeric, Isis, momification et mort de Jeric.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "F-IMARA",
+      "url": "https://charmed.fandom.com/wiki/Freaky_Phoebe/Plot",
+      "level": "extrait_recherche_secondaire",
+      "scope": "S07E19 : échange de corps et renversement.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "OFF-JERIC",
+      "url": "https://www.intl.paramountplus.com/fr/shows/video/8galC93ngmySfhek0SDdqQw4acRJ9Y6z/",
+      "level": "extrait_recherche_synopsis_officiel",
+      "scope": "Identité de Jeric et amour pour Isis uniquement. Plateforme indique S5E9 ; index TVmaze S05E10.",
+      "consultedAt": "2026-09-08"
+    },
+    {
+      "id": "ACA-ILLUSION",
+      "url": "https://gloria-withalm.uni-ak.ac.at/withalm/wit-pdfs/Withalm2018_13IASS-Kaunas_all.pdf",
+      "level": "extrait_recherche_etude_secondaire",
+      "scope": "Chick Flick : dénouement lié à la pellicule et au projecteur. PDF non lu intégralement.",
+      "consultedAt": "2026-09-08"
+    }
+  ],
+  "demons": [
+    {
+      "id": "source",
+      "name": "La Source du Mal",
+      "entityType": "titre_et_incarnations",
+      "priority": 1,
+      "episodeRefs": [
+        "S04E13",
+        "S04E21",
+        "S08E04"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Autorité démoniaque ; distinguer le détenteur initial, Cole possédé et les successions de S4. [T0413, F-SEER]",
+      "powers": "En S04E13, elle exploite le Néant pour absorber de la magie : ce moyen externe ne constitue pas son équipement inné. [T0413]",
+      "conditions": "La destruction d'un détenteur ne démontre pas la disparition de toute possibilité de succession. Le retour de S08E04 dépend d'une conjuration particulière. [T0804]",
+      "counter": "Le lien avec la conjuratrice permet de supprimer ce retour en S8. Ce cas ne prouve pas que tuer un invocateur détruit toute créature invoquée. [T0804]",
+      "psychology": "Domination et conservation du pouvoir ; la Seer peut poursuivre son propre projet sous couvert de servir la Source. [F-SEER]",
+      "card": "La Source du Mal — souverain démoniaque. Ses moyens dépendent de son incarnation et des forces qu'elle a effectivement acquises.",
+      "sourceIds": [
+        "T0413",
+        "F-SEER",
+        "T0804"
+      ],
+      "uncertainties": "Inventaire inné non exhaustif ; liens entre essence, titre et héritage à relire scène par scène. Aucune règle automatique de succession proposée.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "source",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "barbas",
+      "name": "Barbas",
+      "entityType": "individu",
+      "priority": 1,
+      "episodeRefs": [
+        "S01E13",
+        "S05E07",
+        "S07E01"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon de la peur, antagoniste récurrent. [T0113]",
+      "powers": "Exploite les peurs de ses victimes. En S5, obtient les pouvoirs retirés à Cole ; leur maîtrise n'est pas instantanée. [T0113, T0507]",
+      "conditions": "Le premier épisode impose une fenêtre et un quota spécifiques (vendredi 13, 24 heures, treize sorcières non mariées selon l'extrait). Ne pas imposer ces conditions à chacun de ses retours. [F-BARBAS]",
+      "counter": "Surmonter la peur est décisif en S1 ; le retrait des pouvoirs acquis structure S05E07. Une même réponse ne règle donc pas toutes ses versions. [T0113, T0507]",
+      "psychology": "Manipulateur : transforme les vulnérabilités personnelles en pièges et pousse les proches à se méfier les uns des autres. [T0507]",
+      "card": "Barbas — démon de la peur. Il exploite les terreurs personnelles et manipule les perceptions ; ses pouvoirs supplémentaires dépendent de son retour.",
+      "sourceIds": [
+        "T0113",
+        "T0507",
+        "T0701",
+        "F-BARBAS"
+      ],
+      "uncertainties": "Retours intermédiaires et dénouement de S07E01 à compléter ; ni calendrier universel ni immunité générale déduits.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "barbas",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "zankou",
+      "name": "Zankou",
+      "entityType": "individu",
+      "priority": 1,
+      "episodeRefs": [
+        "S07E10",
+        "S07E22"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Rival de la Source emprisonné puis libéré face à la menace des Avatars. [T0710]",
+      "powers": "Absorbe les moyens d'un métamorphe et utilise l'apparence d'autrui. Prémonition de Phoebe et pouvoirs de Piper sont acquis plus tard par potion. [F-ZANKOU, T0722]",
+      "conditions": "Le déguisement n'est pas à rétroattribuer avant son acquisition. L'accès au Livre est lié à l'affaiblissement des sœurs et à sa progression dans l'épisode. [F-ZANKOU, T0722]",
+      "counter": "Sa fin de S7 intervient lorsqu'il contient le Nexus et que celui-ci est détruit : contexte destructeur exceptionnel, pas vulnérabilité à n'importe quelle formule. [T0722]",
+      "psychology": "Patient, calculateur ; comprend les vulnérabilités humaines. Sa coopération contre les Avatars ne vaut pas loyauté durable. [F-ZANKOU]",
+      "card": "Zankou — stratège démoniaque puissant. Il absorbe certaines capacités et emploie des apparences acquises pour infiltrer et manipuler.",
+      "sourceIds": [
+        "T0710",
+        "T0722",
+        "F-ZANKOU"
+      ],
+      "uncertainties": "Ne pas importer les portails ou la résurrection via Tyler des comics. Catalogue des attaques natives à compléter par scènes.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "zankou",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "triad",
+      "name": "La Triade",
+      "entityType": "collectif",
+      "priority": 1,
+      "episodeRefs": [
+        "S03E07",
+        "S08E16",
+        "S08E21",
+        "S08E22"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Commanditaires démoniaques de Cole en S3, adversaires organisant le conflit final en S8. [T0307, T0821]",
+      "powers": "Collectif dont la force et la persistance ne se réduisent pas aux corps présents : retour sous forme d'esprits puis reconstitution évoqués explicitement. [T0821]",
+      "conditions": "La perte d'un membre affaiblit le combat collectif de S08E16. Les circonstances du retour importent ; aucun délai fixe ajouté. [F-TRIADE, T0821]",
+      "counter": "Les potions de S08E22 ciblent leur retour spirituel. La documentation consultée ne suffit pas à transformer la victoire finale en impossibilité métaphysique de tout retour. [F-FINAL]",
+      "psychology": "Agit à travers agents et manipulation prolongée, notamment Dumain et Christy. [F-DUMAIN]",
+      "card": "La Triade — conseil de trois démons. Sa puissance collective et sa faculté de revenir sous forme spirituelle en font une autorité persistante.",
+      "sourceIds": [
+        "T0307",
+        "F-TRIADE",
+        "T0821",
+        "F-FINAL",
+        "F-DUMAIN"
+      ],
+      "uncertainties": "Extraits Plot/Script divergent sur le nom du lanceur de feu de S08E16 ; ne pas figer cette attribution. Scripts Springfield S08E16 et S08E22 inaccessibles.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "triad",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "belthazor",
+      "name": "Cole Turner / Balthazar (Belthazor)",
+      "entityType": "hybride_individuel",
+      "priority": 1,
+      "episodeRefs": [
+        "S03E08",
+        "S03E19",
+        "S03E20",
+        "S03E21",
+        "S04E08",
+        "S04E13",
+        "S05E12",
+        "S07E16"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Ancien assassin de la Triade et membre de la Confrérie, parfois allié des Halliwell ; même personne que l'identifiant personnage cole. [T0308, T0319]",
+      "powers": "Téléportation démoniaque, attaques énergétiques et transformation ; leur disponibilité dépend de l'état. Maîtriser sa conduite ne signifie pas perdre toute magie. [T0308, T0408]",
+      "conditions": "S04E08 : retrait des pouvoirs, Cole humain. S04E13 : possession par la Source, à ne pas fusionner avec Balthazar. S5 : pouvoirs ultérieurs distincts. [T0408, T0413]",
+      "counter": "Potion liée à Balthazar et potion retirant les pouvoirs sont distinctes ; modification du sang par un alchimiste en S03E21 change la pertinence du contre-moyen antérieur. [T0321]",
+      "psychology": "L'amour pour Phoebe peut soutenir ses choix ; manipulation, chantage et actes ultérieurs empêchent d'en faire une garantie morale. [T0320]",
+      "card": "Cole Turner / Balthazar — ancien assassin démoniaque, allié possible des Halliwell. Dans sa phase démoniaque maîtrisée, il conserve des pouvoirs et une connaissance des démons.",
+      "sourceIds": [
+        "T0308",
+        "T0319",
+        "T0320",
+        "T0321",
+        "T0408",
+        "T0413",
+        "T0512",
+        "T0716"
+      ],
+      "uncertainties": "Voir FICHE_COLE_BALTHAZAR.md pour les textes détaillés et variantes. La carte ci-dessus concerne seulement la phase alliée avec pouvoirs.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "belthazor",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [
+          "cole"
+        ],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "seer",
+      "name": "La Prophétesse / Seer de la saison 4",
+      "entityType": "individu",
+      "priority": 1,
+      "episodeRefs": [
+        "S04E13",
+        "S04E15",
+        "S04E21"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Conseillère démoniaque de la Source ; distincte de Kyra et de l'Oracle. [T0413]",
+      "powers": "Visions et manipulation de projets futurs ; orchestre l'emploi du Néant puis intervient dans le mariage de Cole. [T0413, T0415]",
+      "conditions": "Ses visions orientent ses actes, sans lui assurer un succès inévitable. Le transfert du fœtus de Phoebe en fin de S4 lui donne une puissance spécifique, non permanente. [F-SEER]",
+      "counter": "L'affrontement après transfert tourne contre elle face aux trois sœurs. Ne pas transformer cet événement en recette générique contre toutes les voyantes. [F-SEER]",
+      "psychology": "Ambitieuse ; instrumentalise le service de la Source au profit de son accession au pouvoir. [F-SEER]",
+      "card": "La Prophétesse — conseillère démoniaque douée de visions. Elle manipule alliances et événements pour orienter l'avenir à son avantage.",
+      "sourceIds": [
+        "T0413",
+        "T0415",
+        "F-SEER"
+      ],
+      "uncertainties": "Nature exacte du fœtus et portée des affirmations de la Seer demandent une lecture critique ; les propos du personnage ne sont pas une vérité biologique neutre.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "seer",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "kyra",
+      "name": "Kyra",
+      "entityType": "individu",
+      "priority": 1,
+      "episodeRefs": [
+        "S07E10"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Voyante démoniaque négociant avec les Halliwell pour devenir humaine. [T0710]",
+      "powers": "Prémonitions et partage de vision avec Phoebe ; la téléportation est évoquée dans leur échange. [T0710]",
+      "conditions": "La vision révèle un avenir possible et nourrit une négociation. Elle ne permet pas de tout savoir ou d'imposer le futur. [T0710]",
+      "counter": "Zankou l'approche sous une fausse apparence et la tue : percevoir l'avenir ne donne pas une protection automatique contre la tromperie. [T0710, F-ZANKOU]",
+      "psychology": "Désire l'expérience humaine ; l'étiquette démon n'efface pas cette motivation ni son aptitude à coopérer. [T0710]",
+      "card": "Kyra — voyante démoniaque. Elle peut partager ses visions et aspire à devenir humaine.",
+      "sourceIds": [
+        "T0710",
+        "F-ZANKOU"
+      ],
+      "uncertainties": "Résurrection et développements des comics exclus. La transformation souhaitée n'est pas considérée accomplie.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "shax",
+      "name": "Shax",
+      "entityType": "individu",
+      "priority": 1,
+      "episodeRefs": [
+        "S03E22",
+        "S04E01",
+        "S04E02"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Assassin envoyé par la Source, au centre de la transition entre Prue et Paige. [T0322, T0401]",
+      "powers": "Se déplace sous forme de vent et porte des attaques projetant violemment ses cibles. [T0322]",
+      "conditions": "Les attaques de S3 et le retour en début de S4 doivent être distingués ; une dispersion apparente ne suffit pas à confirmer sa destruction. [T0322, T0401]",
+      "counter": "Les tentatives partielles repoussent Shax ; le Pouvoir des Trois reconstitué intervient dans sa défaite. [T0401]",
+      "psychology": "Exécuteur poursuivant ses cibles et les témoins gênants ; aucun projet politique personnel établi dans ce relevé. [T0322]",
+      "card": "Shax — assassin démoniaque de la Source. Il se déplace dans le vent et frappe par de violentes projections d'air.",
+      "sourceIds": [
+        "T0322",
+        "T0401"
+      ],
+      "uncertainties": "La page Springfield S04E01 regroupe Charmed Again en deux parties : conserver S04E01–E02 sans prétendre attribuer chaque réplique à une partie.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "shax",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "tempus",
+      "name": "Tempus",
+      "entityType": "individu",
+      "priority": 1,
+      "episodeRefs": [
+        "S01E22",
+        "S03E22"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon du temps qui appuie Rodriguez, puis intervient à la demande de la Source. [T0122, T0322]",
+      "powers": "Recommence la séquence de S01E22 après les échecs de l'assassin ; avantage de mémoire pour celui-ci. [T0122]",
+      "conditions": "Phoebe perçoit des répétitions. En S3, la Source annonce qu'un nouveau retour temporel épuisera mortellement Tempus déjà affaibli ; ne pas généraliser un coût chiffré. [T0322]",
+      "counter": "Le sort avançant le temps casse la boucle de S1 ; cet arrêt ne prouve pas la mort de Tempus à cette date. [T0122]",
+      "psychology": "Met sa capacité au service de la hiérarchie démoniaque ; autonomie de ses motivations peu documentée. [T0122]",
+      "card": "Tempus — démon du temps. Il peut recommencer une séquence temporelle au service d'un plan démoniaque.",
+      "sourceIds": [
+        "T0122",
+        "T0322"
+      ],
+      "uncertainties": "Amplitude et répétitions maximales non établies. Éviter toute durée ou coût inventé.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "tempus",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "abraxas",
+      "name": "Abraxas",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S02E01"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon qui dérobe le Livre des Ombres. [T0201]",
+      "powers": "Lit ses textes à rebours, défait des effets antérieurs et fait revenir des adversaires déjà vaincus. [T0201]",
+      "conditions": "L'opération dépend du Livre dérobé ; ne pas transformer cette procédure en résurrection innée de n'importe qui. [T0201]",
+      "counter": "La récupération du Livre et l'interruption de la lecture sont au centre de la résolution ; détails du rituel et de son accès à revérifier avant prescription. [T0201]",
+      "psychology": "Attaque la continuité de la magie des Halliwell en remontant leur histoire plutôt qu'en visant seulement leurs corps. [T0201]",
+      "card": "Abraxas — démon capable d'inverser les effets de textes magiques en les lisant à rebours dans le Livre des Ombres.",
+      "sourceIds": [
+        "T0201"
+      ],
+      "uncertainties": "Portée hors de cet artefact, dimensions accessibles et conditions calendaires non complètement auditées.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "abraxas",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "woogyman",
+      "name": "Woogyman / Woogy",
+      "entityType": "entite_possessive",
+      "priority": 2,
+      "episodeRefs": [
+        "S01E15"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Entité maléfique enfermée sous le manoir puis libérée lors d'une secousse ; distincte du Nexus neutre. [T0115]",
+      "powers": "Possède des personnes et se sert de Phoebe pour agir ; manifestations et création d'objet observées ne deviennent pas les pouvoirs naturels de Phoebe. [T0115]",
+      "conditions": "La présence de l'entité et son influence sur un hôte sont des états à identifier. Ne pas assimiler une possession à un choix volontaire. [T0115]",
+      "counter": "Une formule transmise par Penny permet le renvoi ; expulsion de l'entité et destruction du Nexus ne sont pas la même opération. [T0115, T0722]",
+      "psychology": "Cherche à étendre son emprise à travers ses hôtes. La part d'action autonome de ceux-ci doit rester distinguée. [T0115]",
+      "card": "Woogyman — entité maléfique capable de posséder des humains et d'agir à travers eux.",
+      "sourceIds": [
+        "T0115",
+        "T0722"
+      ],
+      "uncertainties": "Rapprochement terminologique Woogy/Shadow/Suxen à conserver explicite ; aucune corruption permanente automatiquement attribuée à un hôte.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "woogyman",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "rodriguez",
+      "name": "Inspecteur Rodriguez",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S01E22"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Assassin démoniaque sous couverture policière, collaborant avec Tempus. [T0122]",
+      "powers": "Attaques énergétiques ; bénéficie du recommencement temporel organisé par son allié. [T0122]",
+      "conditions": "Sa connaissance des tentatives précédentes ne constitue pas un pouvoir temporel personnel. [T0122]",
+      "counter": "La sortie de la boucle permet un affrontement décisif ; l'énergie renvoyée se retourne contre lui. La protection de Tempus est une condition séparée. [T0122]",
+      "psychology": "Exploite son autorité policière et répète ses tentatives meurtrières. [T0122]",
+      "card": "Rodriguez — assassin démoniaque infiltré dans la police, doté d'attaques énergétiques et soutenu par Tempus dans sa mission.",
+      "sourceIds": [
+        "T0122"
+      ],
+      "uncertainties": "Fiche liée à S01E22 ; ne pas réattribuer son dispositif temporel à un Rodriguez isolé.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "rodriguez",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "dumain",
+      "name": "Dumain",
+      "entityType": "individu",
+      "priority": 1,
+      "episodeRefs": [
+        "S08E21",
+        "S08E22"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Agent démoniaque de la Triade, intermédiaire de la manipulation de Christy et Billie. [F-DUMAIN]",
+      "powers": "Téléportation démoniaque ; le voyage temporel du dénouement passe par la bague de Coop. [F-DUMAIN]",
+      "conditions": "Le soutien aux esprits de la Triade et les interventions dans le passé sont des opérations distinctes, dépendantes du contexte. [T0821, F-DUMAIN]",
+      "counter": "La confrontation finale implique ses versions présente et passée ; ne pas en déduire qu'il faut toujours tuer deux exemplaires d'un voyageur temporel. [F-DUMAIN]",
+      "psychology": "Entretenait le récit destiné à dresser les deux sorcières contre les Halliwell ; leur nature de sorcières n'en fait pas des démons. [F-DUMAIN]",
+      "card": "Dumain — agent de la Triade. Il entretient ses manipulations et peut se téléporter ; ses voyages temporels dépendent d'un artefact.",
+      "sourceIds": [
+        "T0821",
+        "F-DUMAIN"
+      ],
+      "uncertainties": "Mécanisme exact de soutien à la reconstitution à approfondir. L'usage temporel de la bague n'est pas un pouvoir inné.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "majeur_ou_recurrent",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "brotherhood-thorn",
+      "name": "Confrérie de l'Épine / Brotherhood of the Thorn",
+      "entityType": "organisation",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E19",
+        "S03E20"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Organisation de démons supérieurs liée à la Source ; Cole en a été membre. [F-BROTHER]",
+      "powers": "Infiltration, substitution d'identité et opérations contre des entreprises ; les compétences appartiennent à des membres précis. [F-VORNAC]",
+      "conditions": "Être membre ne donne pas automatiquement les pouvoirs de tous les autres. La réintégration de Cole est surveillée. [F-VORNAC]",
+      "counter": "Une opération peut être déjouée et ses chefs tués sans que cela prouve l'extinction de toute l'organisation. [F-BROTHER]",
+      "psychology": "Loyauté contrôlée et instrumentalisation de liens personnels. [F-BROTHER]",
+      "card": "Confrérie de l'Épine — organisation de démons supérieurs spécialisée dans l'infiltration et la prise d'influence.",
+      "sourceIds": [
+        "F-BROTHER",
+        "F-VORNAC"
+      ],
+      "uncertainties": "Hiérarchie complète et sort de tous les membres non établis ; pas de ressource cumulant leur arsenal.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "raynor",
+      "name": "Raynor",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E19",
+        "S03E20"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Figure d'autorité de la Confrérie et ancien mentor de Cole. [F-BROTHER]",
+      "powers": "Intervient magiquement sur Cole tout en le travaillant psychologiquement. [T0320]",
+      "conditions": "Le chantage porte notamment sur l'âme du père de Cole ; il ne se réduit pas à une malédiction de corruption mesurable. [T0320]",
+      "counter": "Cole se retourne contre lui après la manipulation. Aucun pouvoir de contrôle universel et irrésistible n'est établi. [T0320]",
+      "psychology": "Exploite filiation, culpabilité et besoin d'appartenance. [T0320]",
+      "card": "Raynor — mentor démoniaque de la Confrérie. Il associe influence magique, autorité et chantage pour reprendre le contrôle de ses agents.",
+      "sourceIds": [
+        "F-BROTHER",
+        "T0320"
+      ],
+      "uncertainties": "Télépathie et portée exacte de l'influence non suffisamment vérifiées ici ; ne pas ajouter une lecture de toutes les pensées.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "vornac",
+      "name": "Vornac",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E19"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Cadre de la Confrérie impliqué dans une opération d'infiltration économique. [F-VORNAC]",
+      "powers": "Prend une autre apparence dans l'opération ; le jeu des identités brouille la responsabilité des attaques. [T0319]",
+      "conditions": "La substitution doit être attribuée à son auteur, sans déduire que copier une apparence copie les pouvoirs. [T0319]",
+      "counter": "Son imposture est déjouée dans l'épisode ; aucune méthode universelle de détection des déguisements établie. [T0319]",
+      "psychology": "Soupçonne Cole et exige des preuves de sa fidélité. [F-VORNAC]",
+      "card": "Vornac — démon de la Confrérie capable d'emprunter une autre apparence pour infiltrer ses cibles.",
+      "sourceIds": [
+        "F-VORNAC",
+        "T0319"
+      ],
+      "uncertainties": "Ne pas remplacer Raynor par Vornac comme unique chef de toute la Confrérie sans préciser fonction et période.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "klea",
+      "name": "Klea",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E19"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Membre de la Confrérie chargée de vérifier le récit de Cole. [F-VORNAC]",
+      "powers": "Observation à distance, désignée comme voyeurism dans la source secondaire, et téléportation. [F-KLEA]",
+      "conditions": "Observer une situation ne signifie pas lire les pensées ni connaître automatiquement la vérité derrière une mise en scène. [F-KLEA, F-VORNAC]",
+      "counter": "Le dossier ne vérifie pas un contre-sort propre à Klea : laisser la recette et la portée de son observation ouvertes. [F-KLEA]",
+      "psychology": "Surveillance au service de la défiance collective envers Cole. [F-VORNAC]",
+      "card": "Klea — démon de la Confrérie capable d'observer à distance et de se téléporter.",
+      "sourceIds": [
+        "F-KLEA",
+        "F-VORNAC"
+      ],
+      "uncertainties": "Pouvoir encore soutenu principalement par extrait de fiche secondaire ; distance, obstacle et condition d'accroche inconnus.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "sykes",
+      "name": "Sykes",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S04E08"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon meurtrier qui réactive chez Cole le conflit avec son ancienne identité. [T0408]",
+      "powers": "Résiste à une attaque énergétique de Cole ; le duel conduit Cole à reprendre sa forme démoniaque. [F-SYKES]",
+      "conditions": "Une résistance observée ne signifie ni invulnérabilité ni immunité à toutes les attaques du même type. [F-SYKES]",
+      "counter": "Sa confrontation avec Balthazar doit être distinguée de la potion qui retire ensuite les pouvoirs de Cole. [T0408]",
+      "psychology": "Cruauté et opposition à Cole ; aucun mécanisme de rédemption ou d'alliance établi pour lui ici. [T0408]",
+      "card": "Sykes — démon meurtrier résistant aux attaques, adversaire de Cole dans sa lutte contre son ancienne nature.",
+      "sourceIds": [
+        "T0408",
+        "F-SYKES"
+      ],
+      "uncertainties": "Arsenal exhaustif et arme exacte du coup final à contrôler visuellement avant spécification mécanique.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "krell",
+      "name": "Krell",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E08"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Chasseur démoniaque envoyé sur la piste de Balthazar. [T0308]",
+      "powers": "Suit la trace démoniaque et tire parti du sang de sa cible ; l'apparence humaine complique le pistage. [T0308]",
+      "conditions": "Cole blessé ne peut plus se téléporter mais conserve d'autres moyens : ni la blessure ni le camouflage ne le rendent simplement humain. [T0308]",
+      "counter": "Le pistage a des limites contextuelles. Ne pas faire de Krell un localisateur infaillible à travers toute protection ou tout plan. [T0308]",
+      "psychology": "Traqueur déterminé ; peut communiquer des informations sur sa cible sans devenir un allié fiable. [T0308]",
+      "card": "Krell — chasseur de démons spécialisé dans les traces démoniaques et le pistage de Balthazar.",
+      "sourceIds": [
+        "T0308"
+      ],
+      "uncertainties": "Nom d'espèce, distance de détection et brouillage par cimetière à recouper ; aucune immunité ou portée ajoutée.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "andras",
+      "name": "Andras",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E07"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Esprit de rage recruté dans le plan de Cole contre les sœurs. [T0307]",
+      "powers": "Amplifie une colère préexistante et peut prendre possession d'un hôte. [T0307]",
+      "conditions": "Il ne crée pas n'importe quelle émotion à partir de rien ; les tensions déjà présentes donnent prise à son influence. [T0307]",
+      "counter": "La confrontation vise à dissocier l'influence et le conflit familial. Une disparition du symptôme ne prouve pas à elle seule la destruction du démon. [T0307]",
+      "psychology": "Se nourrit narrativement de la discorde et pousse les adversaires à s'entre-détruire. [T0307]",
+      "card": "Andras — esprit démoniaque de la rage. Il amplifie une colère déjà présente et peut posséder un hôte.",
+      "sourceIds": [
+        "T0307"
+      ],
+      "uncertainties": "Moyen précis de destruction non prescrit ; aucun compteur obligatoire de colère ni contagion illimitée.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "grimlocks",
+      "name": "Grimlocks",
+      "entityType": "espece",
+      "priority": 2,
+      "episodeRefs": [
+        "S01E19"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démons prédateurs qui volent la vue d'enfants pour percevoir leurs cibles. [T0119]",
+      "powers": "Repèrent les auras du bien et s'en servent pour étrangler leurs victimes. [T0119]",
+      "conditions": "La vue volée dure 24 heures et exige que les enfants restent vivants dans l'explication du Livre. Ce sont des conditions de ce pouvoir, pas un quota de jeu. [T0119]",
+      "counter": "Une préparation à base de racine de schisandra intervient contre eux ; la recette complète et ses quantités ne sont pas auditées. [T0119]",
+      "psychology": "Prédation organisée : maintiennent en vie les enfants dont dépend leur vision. [T0119]",
+      "card": "Grimlocks — démons qui utilisent la vue volée à des enfants pour distinguer les auras du bien et attaquer leurs porteurs.",
+      "sourceIds": [
+        "T0119"
+      ],
+      "uncertainties": "Variations dans les retours ultérieurs et restauration de la vue à compléter ; ne pas confondre vue naturelle et vision d'auras.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "grimlocks",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "furies",
+      "name": "Furies",
+      "entityType": "espece_et_transformation",
+      "priority": 2,
+      "episodeRefs": [
+        "S04E03"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Entités punitives poursuivant ceux qu'elles jugent coupables ; Piper subit une transformation dans l'épisode. [T0403]",
+      "powers": "Fumée, voix accusatrices et influence transformante sur une personne vulnérable. Les pouvoirs de Piper échouent contre elles dans la scène observée. [T0403]",
+      "conditions": "Le chagrin et la colère de Piper après Prue sont essentiels à son cas ; ils ne prouvent pas que toute personne endeuillée devient une Furie. [T0403]",
+      "counter": "Le retour de Piper passe par l'expression de sa douleur et l'aide de ses proches. Ce n'est pas une formule garantissant la destruction de toute Furie. [T0403]",
+      "psychology": "Punition disproportionnée ; distinguer cet impératif de la psychologie de l'hôte transformé. [T0403]",
+      "card": "Furies — entités démoniaques punitives. Leur fumée et les voix de leurs victimes peuvent tourmenter et transformer une cible vulnérable.",
+      "sourceIds": [
+        "T0403"
+      ],
+      "uncertainties": "Seuils d'immunité et portée de la fumée non chiffrés ; garder séparés démons d'origine et Piper transformée.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "furies",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "banshee",
+      "name": "Banshee",
+      "entityType": "espece_et_transformation",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E21"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Banshees décrites par Leo comme d'anciennes sorcières ; Phoebe subit cette transformation en S03E21. [T0321]",
+      "powers": "Cri surnaturel et perception de la douleur ; une sorcière peut être transformée au lieu de suivre le sort d'une victime ordinaire. [T0321]",
+      "conditions": "Le cri tue les victimes ordinaires mais transforme les sorcières selon Leo. Il annonce qu'un premier meurtre fixerait l'état de Phoebe : ne pas omettre cette condition avant de proposer son retour. [T0321]",
+      "counter": "Soulager la douleur liée à Cole permet le retour de Phoebe avant un meurtre. Cela ne prouve pas une guérison verbale universelle. [T0321]",
+      "psychology": "La douleur de l'hôte nourrit la prédation ; ne pas confondre cette conduite avec son intention humaine habituelle. [T0321]",
+      "card": "Banshee — ancienne sorcière transformée en créature prédatrice, sensible à la souffrance et dotée d'un cri surnaturel.",
+      "sourceIds": [
+        "T0321"
+      ],
+      "uncertainties": "Le caractère permanent après meurtre est rapporté comme l'avertissement de Leo, pas testé ici sur toutes les exceptions. Contre-moyens contre d'autres Banshees à approfondir.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "banshee",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "lazarus",
+      "name": "Démons Lazarus",
+      "entityType": "espece",
+      "priority": 2,
+      "episodeRefs": [
+        "S04E15"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon utilisé par la Seer pour détourner le mariage de Phoebe et Cole. [T0415]",
+      "powers": "Se reconstitue après destruction ; se renforce à mesure qu'il reste hors de la terre d'un cimetière. [T0415]",
+      "conditions": "L'ensevelissement dans cette terre empêche le retour. Le retour par déterrement est donc une condition réelle de disponibilité. [T0415]",
+      "counter": "Il faut considérer les restes et leur mise en terre, et non compter toute explosion comme définitive. Aucun temps de résurrection exact ajouté. [T0415]",
+      "psychology": "Violent et peu fiable : l'agent met en danger la personne que son commanditaire veut préserver. [T0415]",
+      "card": "Démon Lazarus — démon capable de se reconstituer, dont la persistance est liée à son éloignement de la terre des cimetières.",
+      "sourceIds": [
+        "T0415"
+      ],
+      "uncertainties": "S04E15, pas S04E14. L'expression 'éternellement impossible à tuer' dépasserait ce qui est établi.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "vinceres",
+      "name": "Vinceres",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E06"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Assassin démoniaque neutralisé par une empathie imposée. [T0306]",
+      "powers": "Puissance physique et forte résistance ; l'afflux d'émotions provenant de l'empathie l'immobilise avant sa libération. [T0306]",
+      "conditions": "L'empathie est transférée dans une rencontre précise ; ce n'est pas son pouvoir naturel. L'allégation 'les démons n'ont pas d'émotions' ne doit pas être universalisée face à Cole ou Kyra. [T0306]",
+      "counter": "Prue transforme l'empathie en moyen décisif dans cet épisode. Ne pas conclure que toute empathie tue instantanément tous les démons. [T0306]",
+      "psychology": "Orientation meurtrière ; la souffrance empathique ne signifie pas une conversion morale. [T0306]",
+      "card": "Vinceres — assassin démoniaque très résistant, dont l'état peut être profondément perturbé par une empathie imposée.",
+      "sourceIds": [
+        "T0306"
+      ],
+      "uncertainties": "Geste final et rôle précis de la projection astrale à revoir sur vidéo avant de proposer une procédure exacte.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "troxa",
+      "name": "Troxa",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E05"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Assassin invisible envoyé contre les Halliwell. [T0305]",
+      "powers": "Invisibilité utilisée pour approcher ses cibles. [T0305]",
+      "conditions": "Le froid compromet son camouflage et le rend perceptible dans l'épisode ; aucune température seuil vérifiée. [T0305]",
+      "counter": "Rendre Troxa visible permet de le viser, mais ne constitue pas en soi sa destruction. [T0305]",
+      "psychology": "Prédateur discret ; Cole peut exploiter sa faiblesse dans une rivalité entre agents. [T0305]",
+      "card": "Troxa — assassin démoniaque invisible, dont le camouflage est sensible au froid.",
+      "sourceIds": [
+        "T0305"
+      ],
+      "uncertainties": "Ne pas en déduire que tout froid est létal ou que toute invisibilité de la série fonctionne de cette façon.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "ludlow",
+      "name": "Ludlow",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S04E12"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Dirige une école démoniaque pour recruter et exploiter des êtres capables de produire du feu. [F-LUDLOW]",
+      "powers": "Résiste au feu de Tyler ; sa position de force dépasse ce qu'un simple incendie permet de résoudre. [F-LUDLOW, F-TYLER]",
+      "conditions": "La formation masque une entreprise de récupération des pouvoirs ; ne pas assimiler les enfants recrutés à des démons consentants. [F-LUDLOW]",
+      "counter": "Un sort collectif des sœurs le détruit ; le caractère non rimé du texte n'empêche pas sa fonction. Recette non transcrite ici. [F-TYLER]",
+      "psychology": "Exploite la vulnérabilité et le besoin d'apprentissage des jeunes recrues. [F-LUDLOW]",
+      "card": "Ludlow — directeur d'une école démoniaque, résistant au feu et spécialisé dans l'exploitation de jeunes détenteurs de pouvoirs.",
+      "sourceIds": [
+        "F-LUDLOW",
+        "F-TYLER"
+      ],
+      "uncertainties": "Sources secondaires par extraits seulement ; page Springfield S04E12 inaccessible. Les développements comics de Tyler sont exclus.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "masselin",
+      "name": "Masselin",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S02E04"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon associé par pacte à l'agent musical Carlton. [T0204]",
+      "powers": "Engloutit des victimes et les conserve prisonnières en lui ; leur souffrance participe à son fonctionnement. [T0204]",
+      "conditions": "Les personnes absorbées ne sont pas simplement considérées mortes : l'intérieur du démon est un état de captivité. [T0204]",
+      "counter": "Le contre-moyen est introduit dans sa bouche. Son accès interne compte ; le dossier ne prescrit ni quantités ni réussite d'une potion jetée sur la peau. [T0204]",
+      "psychology": "Prédation liée à un intermédiaire humain, qui utilise l'attrait du spectacle pour lui livrer des victimes. [T0204]",
+      "card": "Masselin — démon qui engloutit des humains et les maintient captifs à l'intérieur de son corps.",
+      "sourceIds": [
+        "T0204"
+      ],
+      "uncertainties": "Aucune contenance maximale ni survie illimitée des prisonniers établie ; pacte ne signifie pas pouvoir universel sur toute musique.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "water-demon",
+      "name": "Démon de l'eau",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S02E08"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Entité aquatique impliquée dans la mort de Patty. [F-WATER-PLOT]",
+      "powers": "Agit à travers l'eau et peut noyer ses victimes ; le gel de Patty/Piper est décrit comme inefficace contre lui. [F-WATER, F-WATER-PLOT]",
+      "conditions": "Cette résistance appartient au cas présenté. Ne pas attribuer l'immunité au gel à toute créature liée à l'eau. [F-WATER]",
+      "counter": "L'électricité intervient dans le dénouement. La formulation pseudo-scientifique du dialogue n'est pas un fait réel de chimie ; pas de procédure électrique réelle proposée. [F-WATER]",
+      "psychology": "Prédation ; la culpabilité de Sam relève de son histoire avec Patty, pas d'un pouvoir mental du démon démontré ici. [F-WATER-PLOT]",
+      "card": "Démon de l'eau — entité prédatrice qui agit dans l'eau et résiste au pouvoir de gel observé chez les Halliwell.",
+      "sourceIds": [
+        "F-WATER",
+        "F-WATER-PLOT"
+      ],
+      "uncertainties": "Sources par extraits. Portée hors de l'eau et limites géographiques inconnues ; ne pas inventer une impossibilité d'en sortir.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "illusion-demon",
+      "name": "Démon de l'Illusion",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S02E18"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Fait communiquer des films et le monde des personnages de la série. [F-ILLUSION]",
+      "powers": "Entre dans les projections et en fait sortir des figures meurtrières. Une disparition vers l'écran peut simuler une élimination. [F-ILLUSION]",
+      "conditions": "Les figures issues du film suivent une logique différente d'un humain ordinaire. Cela ne rend pas le démon tout-puissant sur toute fiction. [F-CHICK]",
+      "counter": "La destruction de la pellicule dans le projecteur intervient dans sa défaite ; support et accès importent. [ACA-ILLUSION]",
+      "psychology": "Transforme le divertissement horrifique en violence réelle dans l'univers de la série. [F-ILLUSION]",
+      "card": "Démon de l'Illusion — démon capable de traverser l'écran et de faire sortir des personnages de films.",
+      "sourceIds": [
+        "F-ILLUSION",
+        "F-CHICK",
+        "ACA-ILLUSION"
+      ],
+      "uncertainties": "Étendue à la télévision, aux fichiers numériques ou à un autre support non vérifiée ; ne pas l'inventer.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "imara",
+      "name": "Imara",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S07E19"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon qui prend le corps de Phoebe par échange d'âmes. [T0719]",
+      "powers": "Rituel d'échange utilisant des cheveux fraîchement prélevés ; un simple cheveu ancien sur une brosse ne remplit pas la condition citée. [T0719]",
+      "conditions": "Identité de l'âme et corps occupé doivent être suivis séparément. L'apparence de Phoebe ne garantit donc ni son identité ni son consentement. [T0719]",
+      "counter": "Le renversement de l'échange exige de reconstituer correctement la situation. Détruire sans examen le corps démoniaque peut atteindre Phoebe. [T0719, F-IMARA]",
+      "psychology": "Recherche la puissance et l'avantage d'une apparence de confiance. [F-IMARA]",
+      "card": "Imara — démon capable d'échanger son âme avec celle d'une cible par un rituel nécessitant des cheveux fraîchement prélevés.",
+      "sourceIds": [
+        "T0719",
+        "F-IMARA"
+      ],
+      "uncertainties": "Ne pas présumer que tous les pouvoirs suivent l'âme plutôt que le corps ; inventaire après échange à vérifier capacité par capacité.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "javna",
+      "name": "Javna / Stefan",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S01E02"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon prédateur qui prend une apparence séduisante. [T0102]",
+      "powers": "Vole la force vitale pour conserver sa jeunesse ; l'Œil maléfique intervient dans l'attaque. [T0102]",
+      "conditions": "Le Livre décrit une période d'activité d'une semaine par an. Ce calendrier n'est pas celui des autres démons. [T0102]",
+      "counter": "La Main de Fatima est employée par les trois sœurs. Le texte exact n'est pas reproduit et aucune équivalence universelle n'est inventée. [T0102]",
+      "psychology": "Séduction et exploitation de victimes attirées par une promesse photographique. [T0102]",
+      "card": "Javna — démon voleur de force vitale, utilisant une apparence séduisante pour préserver sa jeunesse.",
+      "sourceIds": [
+        "T0102"
+      ],
+      "uncertainties": "Les références religieuses appartiennent à la fiction ; ne pas les présenter comme des propriétés historiques réelles.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": "javna",
+        "action": "enrich_existing_after_review",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "drazi",
+      "name": "Drazi",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S02E10"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon de la haine qui vole la bague de Cupidon. [F-DRAZI]",
+      "powers": "S'en prend aux liens amoureux ; une partie de ses moyens et de sa protection vient de la bague dérobée. [F-DRAZI, F-DRAZI-SCRIPT]",
+      "conditions": "La bague est un objet externe. Son emploi ne donne pas à Drazi l'identité ou tous les attributs naturels d'un Cupidon. [F-DRAZI]",
+      "counter": "La reprise de l'objet fait tomber une protection essentielle. Le dossier ne généralise pas 'retirer toute bague rend tout démon mortel'. [F-DRAZI-SCRIPT]",
+      "psychology": "Vengeance alimentée par une relation contrariée ; transforme ce ressentiment en attaque contre les couples. [F-DRAZI]",
+      "card": "Drazi — démon de la haine qui attaque les liens amoureux et peut exploiter les capacités d'une bague de Cupidon volée.",
+      "sourceIds": [
+        "F-DRAZI",
+        "F-DRAZI-SCRIPT"
+      ],
+      "uncertainties": "Version avec bague à distinguer de la version sans bague ; arsenal natif et dénouement visuel à compléter.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "siren",
+      "name": "La Sirène / The Siren",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S05E04"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon lié à une histoire de relation adultère et de vengeance, distinct d'une sirène aquatique. [F-SIREN]",
+      "powers": "Chant de séduction surnaturelle, baiser meurtrier et feu ; ses attaques atteignent aussi Cole dans l'épisode. [F-SIREN, F-SIREN-SCRIPT]",
+      "conditions": "Le statut démoniaque de Cole ne prouve pas une immunité au chant. Les pouvoirs de Piper et Leo sont échangés à cette période. [F-SIREN]",
+      "counter": "Une potion est préparée et un sort envisagé ; leur mention ne vaut pas vérification d'une recette complète ni preuve que le sort a été lancé. [F-SIREN-SCRIPT]",
+      "psychology": "Reproduit sa vengeance à travers les couples qu'elle cible. [F-SIREN]",
+      "card": "La Sirène — démon au chant ensorcelant, capable d'un baiser meurtrier et de manipuler le feu.",
+      "sourceIds": [
+        "F-SIREN",
+        "F-SIREN-SCRIPT"
+      ],
+      "uncertainties": "Dénouement exact à revoir avant d'attribuer une élimination à un pouvoir personnel de Leo ; ne pas importer la mythologie antique comme mécanisme.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "gith",
+      "name": "Gith",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S06E06"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon qui enferme les sœurs dans des réalités adaptées à leurs désirs. [T0606]",
+      "powers": "Crée des mondes de poche et se nourrit de l'énergie liée aux désirs. [T0606]",
+      "conditions": "Les scénarios sont centrés sur les personnes piégées ; cela ne démontre pas un pouvoir illimité de réécrire tout l'univers. [T0606]",
+      "counter": "La compréhension des désirs et la reconnexion entre les sœurs participent à la sortie du piège. Déroulé final à contrôler avant toute recette de résolution. [T0606]",
+      "psychology": "Exploite ce que ses victimes pensent vouloir ; le souhait accompli peut devenir une prison. [T0606]",
+      "card": "Gith — démon créateur de mondes de poche façonnés par les désirs de ses victimes, dont il tire sa puissance.",
+      "sourceIds": [
+        "T0606"
+      ],
+      "uncertainties": "S06E06 My Three Witches, pas S06E03. L'information fournie par Chris dans ce cas n'est pas une condition universelle prouvée.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "drake",
+      "name": "Drake",
+      "entityType": "ancien_demon",
+      "priority": 2,
+      "episodeRefs": [
+        "S07E14",
+        "S07E16"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Ancien démon devenu humain par contrat pour un an, ensuite enseignant et proche de Phoebe. [T0714, T0716]",
+      "powers": "Conserve des pouvoirs dans cette transformation : humanité et absence de magie ne sont donc pas synonymes dans ce cas. [T0714]",
+      "conditions": "Le contrat encadre leur emploi ; l'usage offensif au sens de l'accord permet au sorcier d'en profiter. Ce n'est pas un coût magique universel. [T0714]",
+      "counter": "La résolution du conflit contractuel ne suffit pas à effacer toute limite de durée. Ne pas transformer le contrat en antidote à toute mortalité. [T0714]",
+      "psychology": "Attachement aux livres et désir d'expérimenter la vie ; son aide à Phoebe s'inscrit aussi dans l'intervention de Cole. [T0714, T0716]",
+      "card": "Drake — ancien démon devenu humain pour une durée limitée, lettré et encore doté de pouvoirs encadrés par un contrat.",
+      "sourceIds": [
+        "T0714",
+        "T0716"
+      ],
+      "uncertainties": "Liste complète des pouvoirs conservés non auditée. Ne pas fusionner ce contrat avec la potion retirant les pouvoirs de Cole.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "oracle-source",
+      "name": "L'Oracle de la Source",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S04E07"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Conseillère démoniaque de la Source ; distincte de la Seer de S4 et de Kyra. [F-ORACLE]",
+      "powers": "Participe au dispositif de l'illusion hospitalière imposée à Piper ; le pouvoir structurant du piège est attribué à la Source. [F-ORACLE]",
+      "conditions": "Le dossier ne lui attribue pas par défaut la création autonome de mondes mentaux. Sa fonction de conseil n'établit pas une omniscience. [F-ORACLE]",
+      "counter": "Elle intercepte l'attaque de Cole destinée à la Source et en meurt selon le résumé ; protection du maître n'est pas immunité. [F-ORACLE]",
+      "psychology": "Loyauté sacrificielle dans cet épisode. [F-ORACLE]",
+      "card": "L'Oracle — conseillère démoniaque au service de la Source, impliquée dans ses manipulations et sa protection.",
+      "sourceIds": [
+        "F-ORACLE"
+      ],
+      "uncertainties": "Fiche préliminaire : pouvoirs divinatoires détaillés et autres apparitions à documenter ; aucun pouvoir actif spécifique ajouté à la carte.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "seekers",
+      "name": "Seekers / démons chercheurs",
+      "entityType": "espece",
+      "priority": 2,
+      "episodeRefs": [
+        "S03E16"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Traqueurs qui cherchent Cole et interrogent mortellement des humains. [T0316]",
+      "powers": "Détectent des traces démoniaques et extraient des informations en s'attaquant au cerveau de leurs victimes. [T0316]",
+      "conditions": "Une formule de dialogue les décrit comme détecteurs de mensonges ; ne pas traduire ce propos en connaissance universelle sans contact ni trace. [T0316]",
+      "counter": "Le Livre contient un sort du Pouvoir des Trois contre eux. La formule complète n'est pas auditée ici ; Cole dit ignorer comment les détruire, ce qui limite son expertise dans cette scène. [T0316]",
+      "psychology": "Interrogateurs prédateurs ; leurs actes sont distincts de la fonction neutre de l'Ange de la Mort présent dans l'épisode. [T0316]",
+      "card": "Seekers — traqueurs démoniaques capables de repérer des traces de démons et d'extraire mortellement les connaissances d'une victime.",
+      "sourceIds": [
+        "T0316"
+      ],
+      "uncertainties": "Ne pas les confondre avec les Collectors, ni avec l'Ange de la Mort. Portée, exigences de contact et autres cibles à compléter.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "jeric",
+      "name": "Jeric",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S05E10"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon cherchant à préserver et réincarner Isis dans un corps d'accueil. [OFF-JERIC, F-JERIC]",
+      "powers": "Momification et emprisonnement de l'esprit ; participe à une opération de possession. [T0510]",
+      "conditions": "Deux âmes dans un même hôte posent un problème de cohabitation et de durée. Isis intervient dans la réanimation ; ne pas tout attribuer à Jeric seul. [T0510]",
+      "counter": "L'extraction de l'âme et la sauvegarde de l'hôte doivent être distinguées de la mort du démon. Jeric est détruit après le sauvetage de Phoebe selon le résumé. [F-JERIC]",
+      "psychology": "Attachement possessif à Isis et instrumentalisation des corps d'autrui. [T0510]",
+      "card": "Jeric — démon capable de momifier et de retenir un esprit, engagé dans la recherche d'un corps d'accueil pour Isis.",
+      "sourceIds": [
+        "T0510",
+        "F-JERIC",
+        "OFF-JERIC"
+      ],
+      "uncertainties": "S05E10 selon TVmaze, S5E9 sur le synopsis Paramount consulté. Statut précis d'Isis et durée de survie de chaque hôte à vérifier.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    },
+    {
+      "id": "zahn",
+      "name": "Zahn",
+      "entityType": "individu",
+      "priority": 2,
+      "episodeRefs": [
+        "S06E07"
+      ],
+      "status": "proposal_not_integrated",
+      "role": "Démon marchand d'âmes qui accumule des pouvoirs par ses transactions. [T0607]",
+      "powers": "Son arsenal a progressé depuis une ancienne description du Livre ; les pouvoirs acquis ne doivent pas être traités comme innés et constants. [T0607]",
+      "conditions": "Les contrats structurent son emprise. Zahn affirme qu'une clause condamne les âmes détenues si lui-même est détruit : sa mort seule n'est donc pas un sauvetage. [T0607]",
+      "counter": "Piper détruit le coffre des contrats avant l'élimination de Zahn ; Larry est ensuite dit sauvé. Ce résultat dépend des contrats de cet épisode, pas d'une loi générale sur tout pacte. [T0607]",
+      "psychology": "Cupidité et négociation : monnaye les âmes plutôt que de rechercher uniquement le meurtre immédiat. [T0607]",
+      "card": "Zahn — marchand démoniaque d'âmes, dont les transactions lui permettent d'acquérir de nouveaux pouvoirs.",
+      "sourceIds": [
+        "T0607"
+      ],
+      "uncertainties": "S06E07 Soul Survivor. Inventaire daté des acquisitions et applicabilité des clauses à d'autres pactes laissés ouverts.",
+      "exactRecipe": null,
+      "integration": {
+        "activeDemonId": null,
+        "action": "propose_new_after_deduplication",
+        "relatedCharacterIds": [],
+        "automaticActivation": false
+      },
+      "priorityLabel": "complement_specialise",
+      "authority": "background_proposal_only"
+    }
+  ]
+}

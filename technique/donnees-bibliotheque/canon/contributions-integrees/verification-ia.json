@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-08T10:27:05.279Z",
+  "pass": true,
+  "scope": "Un contrôle documentaire réel, pas une partie complète ; aucune sauvegarde utilisée.",
+  "result": {
+    "accepted": true,
+    "reason": "Oui. En S05E07, Paige applique par télékinésie à orbes la potion répandue sur Barbas après la rupture de la fiole ; les pouvoirs reviennent à Cole. Ce précédent antérieur à S07E17 montre que briser le contenant ne neutralise pas nécessairement son contenu. Il ne garantit ni l'efficacité de toute potion répandue ni un pouvoir permanent de transfert libre des pouvoirs.",
+    "sufficient": true,
+    "missing": 0,
+    "delay": 0,
+    "situationChanged": false,
+    "changeReason": "",
+    "dependsOn": [],
+    "canon": {
+      "status": "verified",
+      "facts": [
+        "library:potion-repandue"
+      ],
+      "reason": "Précédent admis dans la bibliothèque fournie, documenté par un passage indexé de transcription non officielle de S05E07 ; aucun visionnage ni vérification exhaustive de portée."
+    }
+  }
+}

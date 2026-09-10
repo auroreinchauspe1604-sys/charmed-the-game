@@ -1,0 +1,2406 @@
+{
+  "id": "objets-magiques",
+  "status": "integrated_documentary",
+  "reviewedAt": "2026-09-08",
+  "origin": "Charmed/contributions/objets-magiques/objets.proposition.json",
+  "sources": {
+    "S001": {
+      "url": "https://charmed.fandom.com/wiki/Book_of_Shadows",
+      "titre": "Book of Shadows",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:001"
+      ]
+    },
+    "S002": {
+      "url": "https://charmed.fandom.com/wiki/The_Grimoire",
+      "titre": "The Grimoire",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:002"
+      ]
+    },
+    "S003": {
+      "url": "https://charmed.fandom.com/wiki/Womb_Raider/Script",
+      "titre": "Womb Raider/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:002",
+        "objets-magiques:038"
+      ]
+    },
+    "S004": {
+      "url": "https://charmed.fandom.com/wiki/Crystal_Cage",
+      "titre": "Crystal Cage",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:003"
+      ]
+    },
+    "S005": {
+      "url": "https://charmed.fandom.com/wiki/Sight_Unseen/Script",
+      "titre": "Sight Unseen/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:003"
+      ]
+    },
+    "S006": {
+      "url": "https://charmed.fandom.com/wiki/Scry_Hard",
+      "titre": "Scry Hard",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:004"
+      ]
+    },
+    "S007": {
+      "url": "https://charmed.fandom.com/wiki/Witch_Wars_%28episode%29",
+      "titre": "Witch Wars (episode)",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:004"
+      ]
+    },
+    "S008": {
+      "url": "https://charmed.fandom.com/wiki/Cupid_Ring",
+      "titre": "Cupid Ring",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:005"
+      ]
+    },
+    "S009": {
+      "url": "https://charmed.fandom.com/wiki/Hollow_Box",
+      "titre": "Hollow Box",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:006"
+      ]
+    },
+    "S010": {
+      "url": "https://charmed.fandom.com/wiki/Ring_of_Inspiration",
+      "titre": "Ring of Inspiration",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:007"
+      ]
+    },
+    "S011": {
+      "url": "https://charmed.fandom.com/wiki/Darklighter_Crossbow",
+      "titre": "Darklighter Crossbow",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:008"
+      ]
+    },
+    "S012": {
+      "url": "https://charmed.fandom.com/wiki/Blinded_by_the_Whitelighter/Script",
+      "titre": "Blinded by the Whitelighter/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:008"
+      ]
+    },
+    "S013": {
+      "url": "https://charmed.fandom.com/wiki/Siren_Song/Script",
+      "titre": "Siren Song/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:008"
+      ]
+    },
+    "S014": {
+      "url": "https://charmed.fandom.com/wiki/Protection_Ring",
+      "titre": "Protection Ring",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:009"
+      ]
+    },
+    "S015": {
+      "url": "https://charmed.fandom.com/wiki/Ring_of_Immunity",
+      "titre": "Ring of Immunity",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:010"
+      ]
+    },
+    "S016": {
+      "url": "https://charmed.fandom.com/wiki/Protection_Amulet",
+      "titre": "Protection Amulet",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:011"
+      ]
+    },
+    "S017": {
+      "url": "https://charmed.fandom.com/wiki/Magical_Amulets",
+      "titre": "Magical Amulets",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:012"
+      ]
+    },
+    "S018": {
+      "url": "https://charmed.fandom.com/wiki/Witch_Hunter_Amulets",
+      "titre": "Witch Hunter Amulets",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:013"
+      ]
+    },
+    "S019": {
+      "url": "https://charmed.fandom.com/wiki/Eye_of_Aghbar",
+      "titre": "Eye of Aghbar",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:014"
+      ]
+    },
+    "S020": {
+      "url": "https://charmed.fandom.com/wiki/The_Evil_Eye",
+      "titre": "The Evil Eye",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:015"
+      ]
+    },
+    "S021": {
+      "url": "https://charmed.fandom.com/wiki/Sarpedon%27s_Amulet",
+      "titre": "Sarpedon's Amulet",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:016"
+      ]
+    },
+    "S022": {
+      "url": "https://charmed.fandom.com/wiki/Valkyrie_Pendant",
+      "titre": "Valkyrie Pendant",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:017"
+      ]
+    },
+    "S023": {
+      "url": "https://charmed.fandom.com/wiki/Monkey_Totem",
+      "titre": "Monkey Totem",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:018"
+      ]
+    },
+    "S024": {
+      "url": "https://charmed.fandom.com/wiki/Chinese_Talisman",
+      "titre": "Chinese Talisman",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:019"
+      ]
+    },
+    "S025": {
+      "url": "https://charmed.fandom.com/wiki/All_Halliwell%27s_Eve",
+      "titre": "All Halliwell's Eve",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:020"
+      ]
+    },
+    "S026": {
+      "url": "https://charmed.fandom.com/wiki/Broomstick",
+      "titre": "Broomstick",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:020",
+        "objets-magiques:076"
+      ]
+    },
+    "S027": {
+      "url": "https://charmed.fandom.com/wiki/Witch_Doctor%27s_Talisman",
+      "titre": "Witch Doctor's Talisman",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:021"
+      ]
+    },
+    "S028": {
+      "url": "https://charmed.fandom.com/wiki/Tuatha%27s_Wand",
+      "titre": "Tuatha's Wand",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:022"
+      ]
+    },
+    "S029": {
+      "url": "https://charmed.fandom.com/wiki/Gammill",
+      "titre": "Gammill",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:023"
+      ]
+    },
+    "S030": {
+      "url": "https://charmed.fandom.com/wiki/Size_Matters/Plot",
+      "titre": "Size Matters/Plot",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:023"
+      ]
+    },
+    "S031": {
+      "url": "https://charmed.fandom.com/wiki/Rathmere%27s_Wand",
+      "titre": "Rathmere's Wand",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:024"
+      ]
+    },
+    "S032": {
+      "url": "https://charmed.fandom.com/wiki/Excalibur",
+      "titre": "Excalibur",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:025"
+      ]
+    },
+    "S033": {
+      "url": "https://charmed.fandom.com/wiki/Dragon_Blade",
+      "titre": "Dragon Blade",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:026"
+      ]
+    },
+    "S034": {
+      "url": "https://charmed.fandom.com/wiki/Crystal_Sword",
+      "titre": "Crystal Sword",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:027"
+      ]
+    },
+    "S035": {
+      "url": "https://charmed.fandom.com/wiki/Power-Sucking_Athame",
+      "titre": "Power-Sucking Athame",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:028"
+      ]
+    },
+    "S036": {
+      "url": "https://charmed.fandom.com/wiki/Witch_Wars_%28episode%29/Plot",
+      "titre": "Witch Wars (episode)/Plot",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:028",
+        "objets-magiques:051"
+      ]
+    },
+    "S037": {
+      "url": "https://charmed.fandom.com/wiki/Cursed_Athame",
+      "titre": "Cursed Athame",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:029"
+      ]
+    },
+    "S038": {
+      "url": "https://charmed.fandom.com/wiki/Athame",
+      "titre": "Athame",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:030"
+      ]
+    },
+    "S039": {
+      "url": "https://charmed.fandom.com/wiki/Pewter_Heart",
+      "titre": "Pewter Heart",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:031"
+      ]
+    },
+    "S040": {
+      "url": "https://charmed.fandom.com/wiki/Egyptian_Urn",
+      "titre": "Egyptian Urn",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:032"
+      ]
+    },
+    "S041": {
+      "url": "https://charmed.fandom.com/wiki/Magical_Lantern",
+      "titre": "Magical Lantern",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:033"
+      ]
+    },
+    "S042": {
+      "url": "https://charmed.fandom.com/wiki/Genie_Bottle",
+      "titre": "Genie Bottle",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:034"
+      ]
+    },
+    "S043": {
+      "url": "https://charmed.fandom.com/wiki/Pandora%27s_Box",
+      "titre": "Pandora's Box",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:035"
+      ]
+    },
+    "S044": {
+      "url": "https://charmed.fandom.com/wiki/Seven_Deadly_Sins",
+      "titre": "Seven Deadly Sins",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:036"
+      ]
+    },
+    "S045": {
+      "url": "https://charmed.fandom.com/wiki/Sin_Francisco",
+      "titre": "Sin Francisco",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:037"
+      ]
+    },
+    "S046": {
+      "url": "https://charmed.fandom.com/wiki/The_Seer%27s_Cage",
+      "titre": "The Seer's Cage",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:038"
+      ]
+    },
+    "S047": {
+      "url": "https://charmed.fandom.com/wiki/Sense_and_Sense_Ability",
+      "titre": "Sense and Sense Ability",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:039"
+      ]
+    },
+    "S048": {
+      "url": "https://charmed.fandom.com/wiki/Sense_and_Sense_Ability/Script",
+      "titre": "Sense and Sense Ability/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:039"
+      ]
+    },
+    "S049": {
+      "url": "https://charmed.fandom.com/wiki/Urn_of_Divine_Powers",
+      "titre": "Urn of Divine Powers",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:040"
+      ]
+    },
+    "S050": {
+      "url": "https://charmed.fandom.com/wiki/Doll_House",
+      "titre": "Doll House",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:041"
+      ]
+    },
+    "S051": {
+      "url": "https://charmed.fandom.com/wiki/Cursed_Painting",
+      "titre": "Cursed Painting",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:042"
+      ]
+    },
+    "S052": {
+      "url": "https://charmed.fandom.com/wiki/Crossed%2C_Double-Crossed",
+      "titre": "Crossed, Double-Crossed",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:043"
+      ]
+    },
+    "S053": {
+      "url": "https://charmed.fandom.com/wiki/Vaklav%27s_Camera",
+      "titre": "Vaklav's Camera",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:044"
+      ]
+    },
+    "S054": {
+      "url": "https://charmed.fandom.com/wiki/The_Lost_Picture_Show/Plot",
+      "titre": "The Lost Picture Show/Plot",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:044"
+      ]
+    },
+    "S055": {
+      "url": "https://charmed.fandom.com/wiki/The_Lost_Picture_Show/Script",
+      "titre": "The Lost Picture Show/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:044"
+      ]
+    },
+    "S056": {
+      "url": "https://charmed.fandom.com/wiki/Spirit_Board",
+      "titre": "Spirit Board",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:045"
+      ]
+    },
+    "S057": {
+      "url": "https://charmed.fandom.com/wiki/Grams%27s_Ring",
+      "titre": "Grams's Ring",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:046"
+      ]
+    },
+    "S058": {
+      "url": "https://charmed.fandom.com/wiki/Grams%27s_Go-Go_Boots",
+      "titre": "Grams's Go-Go Boots",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:047"
+      ]
+    },
+    "S059": {
+      "url": "https://charmed.fandom.com/wiki/Witchstock",
+      "titre": "Witchstock",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:047"
+      ]
+    },
+    "S060": {
+      "url": "https://charmed.fandom.com/wiki/Buddha%27s_Mystical_Staff",
+      "titre": "Buddha's Mystical Staff",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:048"
+      ]
+    },
+    "S061": {
+      "url": "https://charmed.fandom.com/wiki/Golden_Belt_of_Gaea",
+      "titre": "Golden Belt of Gaea",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:049"
+      ]
+    },
+    "S062": {
+      "url": "https://charmed.fandom.com/wiki/Crystal_of_Kasimar",
+      "titre": "Crystal of Kasimar",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:050"
+      ]
+    },
+    "S063": {
+      "url": "https://charmed.fandom.com/wiki/Battle_of_the_Hexes/Script",
+      "titre": "Battle of the Hexes/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:050"
+      ]
+    },
+    "S064": {
+      "url": "https://charmed.fandom.com/wiki/Ronyx_Crystal",
+      "titre": "Ronyx Crystal",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:051"
+      ]
+    },
+    "S065": {
+      "url": "https://charmed.fandom.com/wiki/Witch_Wars_%28episode%29/Script",
+      "titre": "Witch Wars (episode)/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:051",
+        "objets-magiques:057"
+      ]
+    },
+    "S066": {
+      "url": "https://charmed.fandom.com/wiki/Paranoia_Crystal",
+      "titre": "Paranoia Crystal",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:052"
+      ]
+    },
+    "S067": {
+      "url": "https://charmed.fandom.com/wiki/Dream_Crystal",
+      "titre": "Dream Crystal",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:053"
+      ]
+    },
+    "S068": {
+      "url": "https://charmed.fandom.com/wiki/Dream_Leaping",
+      "titre": "Dream Leaping",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:053"
+      ]
+    },
+    "S069": {
+      "url": "https://charmed.fandom.com/wiki/Crystal",
+      "titre": "Crystal",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:054"
+      ]
+    },
+    "S070": {
+      "url": "https://charmed.fandom.com/wiki/Cloaking",
+      "titre": "Cloaking",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:055",
+        "objets-magiques:071"
+      ]
+    },
+    "S071": {
+      "url": "https://charmed.fandom.com/wiki/Vaya_Con_Leos/Script",
+      "titre": "Vaya Con Leos/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:056"
+      ]
+    },
+    "S072": {
+      "url": "https://charmed.fandom.com/wiki/The_Light_of_Eternal_Love",
+      "titre": "The Light of Eternal Love",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:058"
+      ]
+    },
+    "S073": {
+      "url": "https://charmed.fandom.com/wiki/Hourglass",
+      "titre": "Hourglass",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:059"
+      ]
+    },
+    "S074": {
+      "url": "https://charmed.fandom.com/wiki/Mirror_Between_Worlds",
+      "titre": "Mirror Between Worlds",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:060"
+      ]
+    },
+    "S075": {
+      "url": "https://charmed.fandom.com/wiki/Mirror",
+      "titre": "Mirror",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:061"
+      ]
+    },
+    "S076": {
+      "url": "https://charmed.fandom.com/wiki/Magic_Mirror",
+      "titre": "Magic Mirror",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:062"
+      ]
+    },
+    "S077": {
+      "url": "https://charmed.fandom.com/wiki/Fairy_Tale_Book",
+      "titre": "Fairy Tale Book",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:063"
+      ]
+    },
+    "S078": {
+      "url": "https://charmed.fandom.com/wiki/Happily_Ever_After",
+      "titre": "Happily Ever After",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:063"
+      ]
+    },
+    "S079": {
+      "url": "https://charmed.fandom.com/wiki/Poisoned_Apple",
+      "titre": "Poisoned Apple",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:064"
+      ]
+    },
+    "S080": {
+      "url": "https://charmed.fandom.com/wiki/Glass_Slippers",
+      "titre": "Glass Slippers",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:065"
+      ]
+    },
+    "S081": {
+      "url": "https://charmed.fandom.com/wiki/Red_Cloak",
+      "titre": "Red Cloak",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:066"
+      ]
+    },
+    "S082": {
+      "url": "https://charmed.fandom.com/wiki/Phoebe_Halliwell/Magical_Transformations",
+      "titre": "Phoebe Halliwell/Magical Transformations",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:067"
+      ]
+    },
+    "S083": {
+      "url": "https://charmed.fandom.com/wiki/Shillelagh",
+      "titre": "Shillelagh",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:068"
+      ]
+    },
+    "S084": {
+      "url": "https://charmed.fandom.com/wiki/Crimes_and_Witch-Demeanors",
+      "titre": "Crimes and Witch-Demeanors",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:069"
+      ]
+    },
+    "S085": {
+      "url": "https://charmed.fandom.com/wiki/Dream_Dust",
+      "titre": "Dream Dust",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:070"
+      ]
+    },
+    "S086": {
+      "url": "https://charmed.fandom.com/wiki/Fairy",
+      "titre": "Fairy",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:071"
+      ]
+    },
+    "S087": {
+      "url": "https://charmed.fandom.com/wiki/Coma_Induction_Potion",
+      "titre": "Coma Induction Potion",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:072"
+      ]
+    },
+    "S088": {
+      "url": "https://charmed.fandom.com/wiki/Egyptian_Scarabs",
+      "titre": "Egyptian Scarabs",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:073"
+      ]
+    },
+    "S089": {
+      "url": "https://charmed.fandom.com/wiki/The_Circle_of_Truth",
+      "titre": "The Circle of Truth",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:074"
+      ]
+    },
+    "S090": {
+      "url": "https://charmed.fandom.com/wiki/Death%27s_List",
+      "titre": "Death's List",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:075"
+      ]
+    },
+    "S091": {
+      "url": "https://charmed.fandom.com/wiki/Tuatha%27s_Grimoire",
+      "titre": "Tuatha's Grimoire",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:077"
+      ]
+    },
+    "S092": {
+      "url": "https://charmed.fandom.com/wiki/Phoenix_Grimoire",
+      "titre": "Phoenix Grimoire",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:078"
+      ]
+    },
+    "S093": {
+      "url": "https://charmed.fandom.com/wiki/We_All_Scream_for_Ice_Cream/Plot",
+      "titre": "We All Scream for Ice Cream/Plot",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:079"
+      ]
+    },
+    "S094": {
+      "url": "https://charmed.fandom.com/wiki/We_All_Scream_for_Ice_Cream/Script",
+      "titre": "We All Scream for Ice Cream/Script",
+      "niveau": "extrait_indexe_transcription_non_officielle",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:079"
+      ]
+    },
+    "S095": {
+      "url": "https://charmed.fandom.com/wiki/Morality_Scepter",
+      "titre": "Morality Scepter",
+      "niveau": "extrait_indexe_secondaire",
+      "consulteLe": "2026-09-08",
+      "acces": "Extrait renvoyé par recherche web ; page intégrale non acquise.",
+      "repere": "Voir les fiches liées : épisodes et scènes résumées. Aucun minutage de vidéo vérifié.",
+      "fiches": [
+        "objets-magiques:080"
+      ]
+    },
+    "S096": {
+      "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s04e13&tv-show=charmed",
+      "titre": "Charmed and Dangerous — dialogues",
+      "niveau": "transcription_non_officielle_page_consultee",
+      "consulteLe": "2026-09-08",
+      "acces": "Page ouverte ; dialogues consultés, sans authentification du script ni visionnage.",
+      "repere": "S04E13 : explication du Hollow ; coopération Bien/Mal et inscription ; préparation des cinq cristaux. Les scènes initiales de vision ne sont pas la confrontation finale.",
+      "fiches": [
+        "objets-magiques:003",
+        "objets-magiques:006"
+      ]
+    }
+  },
+  "fiches": [
+    {
+      "id": "objets-magiques:001",
+      "titre": "Livre des Ombres",
+      "canon": "Livre familial de connaissances, formules et recettes transmis depuis Melinda Warren. Ses défenses dépendent notamment de l'état des sœurs : la corruption de Bride and Gloom affecte le livre ; Bacarra contourne sa protection avec une potion masquant le Bien ; Zankou exploite leur déstabilisation. L'exception de S01E03 permet déjà de toucher et déplacer le livre jusqu'au seuil.",
+      "sources": [
+        "S001"
+      ],
+      "episodesReperes": [
+        "S01E01",
+        "S01E03",
+        "S03E13",
+        "S05E08",
+        "S07E21"
+      ],
+      "limitesEtIncertitudes": "La protection n'est donc ni une impossibilité absolue de vol ni un détecteur infaillible d'identité. Possession, lecture et exécution d'une formule restent distinctes. Aucune encyclopédie exhaustive ni indestructibilité universelle établie. Les pouvoirs ajoutés dans les comics sont écartés.",
+      "descriptionCarteProposee": "Livre familial de connaissances magiques, de formules et de recettes, doté de protections contre le mal dont l'efficacité dépend du contexte.",
+      "provenanceAjustements": "Ajout proposé : autres exceptions aux protections (S01E03, S03E13, S05E08), d'après Book of Shadows. Le cas Zankou et la séparation lecture/exécution sont déjà présents : les conserver, sans les revendiquer comme nouveaux.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:002",
+      "titre": "Grimoire de la Source",
+      "canon": "Livre maléfique associé aux rites de couronnement et de transfert de la Source. Il se défend contre le Bien et résiste à la potion essayée par Piper. Le transfert envisagé avec le Sorcier dépend d'un rite, du sang et d'une incantation, pas de la seule possession. Après les événements de Womb Raider, Leo emporte le livre pour le cacher dans les Andes occidentales.",
+      "sources": [
+        "S002",
+        "S003"
+      ],
+      "episodesReperes": [
+        "S04E19",
+        "S04E21"
+      ],
+      "limitesEtIncertitudes": "La résistance constatée ne prouve pas une invulnérabilité à tout moyen. Le rite de transfert n'est pas accompli comme prévu : ne pas le déclarer réussi. Sa dissimulation affecte sa disponibilité ultérieure. Exclure les développements avec Rennek issus des comics.",
+      "descriptionCarteProposee": "Livre de magie maléfique lié aux rites de la Source. Il se protège du Bien et résiste aux moyens de destruction essayés contre lui.",
+      "provenanceAjustements": "Ajout proposé : rite de transfert et devenir du livre après S04E21, d'après The Grimoire et Womb Raider/Script. La manipulation indirecte par sac enchanté et la résistance à la potion figurent déjà dans objets:2 : les conserver lors d'une fusion.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:003",
+      "titre": "Cristaux de protection, d'alarme et de confinement",
+      "canon": "Prue décrit des cristaux de sidérite enchantés formant un réseau : l'entrée d'une cible déclenche des décharges et fait luire un cristal témoin. Le corpus local documente aussi trois cristaux protecteurs autour de Miss Donovan en S07E08, et l'activation puis le retrait d'un cristal en S04E13. Ces configurations doivent rester distinctes.",
+      "sources": [
+        "S004",
+        "S005",
+        "S096"
+      ],
+      "episodesReperes": [
+        "S03E05",
+        "S04E13",
+        "S07E08"
+      ],
+      "limitesEtIncertitudes": "Cinq cristaux ne constituent pas un nombre universel. Le dialogue S03E05 soulève le risque pour un humain ou Kit sans établir leur immunité. Ne pas confondre alarme, barrière et cage. La disposition, l'enchantement et le maintien du dispositif comptent ; pas de rayon global inventé.",
+      "descriptionCarteProposee": "Cristaux enchantés pour former des dispositifs d'alarme, de protection ou de confinement. Leur préparation et leur disposition déterminent l'effet produit.",
+      "provenanceAjustements": "Ajout proposé : préparation en sidérite, cristal témoin et réserve explicite sur les humains/Kit, tirés de Sight Unseen/Script. Les trois cristaux de Miss Donovan, la vision de S04E13 et l'infiltration S06E12 sont déjà documentés ; cette fiche ne les remplace pas. Les autres variantes de cristaux du catalogue sont des fiches séparées à rapprocher sans les fusionner magiquement.",
+      "verification": "mixte_extraits_indexes_et_dialogues_non_officiels_consultes",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:004",
+      "titre": "Cristal de localisation",
+      "canon": "Pendule employé sur une carte pour une recherche magique. Dans Witch Wars, une bague de la grand-mère de Tali sert de lien pour rechercher son amulette. Dans Scry Hard, la recherche des parents miniaturisés échoue, puis Piper déplace le cristal pour désigner le manoir.",
+      "sources": [
+        "S006",
+        "S007"
+      ],
+      "episodesReperes": [
+        "S06E21",
+        "S07E17"
+      ],
+      "limitesEtIncertitudes": "Un signal peut être provoqué par une personne : il ne garantit ni la sécurité du lieu ni la réussite spontanée du procédé. Le lien pertinent dépend de la recherche ; le sang n'est pas une condition universelle. Ces épisodes sont des précédents, pas des dates d'invention.",
+      "descriptionCarteProposee": "Pendule utilisé avec une carte géographique et un lien pertinent pour mener une recherche magique.",
+      "provenanceAjustements": "Ajout proposé : exemple précis de lien entre la bague familiale et l'amulette de Tali en S06E21, tiré de Witch Wars. Le précédent S04E19, la manipulation du pendule par Piper et les réserves sur la localisation sont déjà présents ; à conserver.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:005",
+      "titre": "Bagues de Cupidon — Cupidon S02 et Coop S08",
+      "canon": "La bague du Cupidon de Heartbreak City intervient dans la perception et l'action sur les liens amoureux ; Drazi la vole et détourne son usage. Celle de Coop permet des voyages liés à l'amour, notamment avec Piper et Leo dans Forever Charmed. La destination suit le lien affectif et ne se comporte pas comme une sélection précise de date.",
+      "sources": [
+        "S008"
+      ],
+      "episodesReperes": [
+        "S02E10",
+        "S08E17",
+        "S08E22"
+      ],
+      "limitesEtIncertitudes": "Conserver deux variantes chronologiques : le voyage temporel S08 ne prouve pas cette fonction dès S02. Prêt et vol sont possibles ; ne pas réserver l'usage à un propriétaire autorisé. Exclure les propriétés décrites seulement dans les comics. Le nombre maximal de voyageurs n'est pas établi.",
+      "descriptionCarteProposee": "Variante S02 : bague permettant de percevoir et d'influencer des liens amoureux, susceptible d'être détournée. Variante Coop S08 : bague permettant notamment de voyager dans le temps en suivant un lien d'amour, avec une destination parfois imprécise.",
+      "provenanceAjustements": "Consolidation : garder les deux variantes S02/S08 et leurs sources d'épisodes existantes. Cupid Ring sert à élargir la navigation et à repérer les passages de comics à exclure ; il ne remplace pas les précédents documentaires sur Drazi et Dumain. Aucune nouvelle capacité universelle proposée.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:006",
+      "titre": "Boîte du Hollow",
+      "canon": "Contenant du Hollow, entité qui absorbe la magie du Bien comme du Mal. En S04E13, son inscription participe au confinement par une coopération du Bien et du Mal. En S08E21, une invocation atteint le Hollow sans transport préalable de la boîte : contenu, contenant et mode d'appel ne sont pas identiques.",
+      "sources": [
+        "S009",
+        "S096"
+      ],
+      "episodesReperes": [
+        "S04E13",
+        "S08E21"
+      ],
+      "limitesEtIncertitudes": "La transcription S04E13 consultée directement soutient la coopération et l'inscription. Elle ne justifie pas une maîtrise automatique par le porteur. Distinguer renvoi du Hollow et devenir des pouvoirs absorbés ; le cas de Cole appelle une lecture contextualisée. Ne pas généraliser la méthode S04 à toute résolution S08.",
+      "descriptionCarteProposee": "Contenant lié au confinement du Hollow, une entité absorbant la magie. Son inscription intervient dans un rituel de confinement ; sa possession ne donne pas le contrôle de l'entité.",
+      "provenanceAjustements": "Ajout proposé : distinction entre appel du Hollow en S08E21 et transport de son contenant, d'après Hollow Box. Le rituel S04E13 est corroboré par les dialogues ouverts. Le dénouement S08E22 et la restitution des pouvoirs restent à approfondir ; aucun nouveau confinement universel acté.",
+      "verification": "mixte_extraits_indexes_et_dialogues_non_officiels_consultes",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:007",
+      "titre": "Anneau d'inspiration",
+      "canon": "Anneau créé par une magie bénéfique pour voir et capturer des Muses et canaliser leur inspiration. Devlin le détourne. Les Muses enfermées peuvent être libérées ; la récupération de l'objet n'est pas en elle-même une destruction de ses capacités.",
+      "sources": [
+        "S010"
+      ],
+      "episodesReperes": [
+        "S04E09"
+      ],
+      "limitesEtIncertitudes": "L'inspiration n'est ni une connaissance exacte de tous les événements ni une garantie de création réussie. Capacité maximale, durée de captivité et résistance exhaustive non établies. Distinguer les Muses effectivement capturées des Muses simplement présentes.",
+      "descriptionCarteProposee": "Anneau permettant de voir et d'enfermer des Muses pour canaliser leur inspiration. Les Muses captives peuvent être libérées.",
+      "provenanceAjustements": "Consolidation et confirmation secondaire par Ring of Inspiration. La capture, la libération puis la reprise par Devlin sont déjà documentées : préserver les dialogues cités dans la fiche existante, de niveau plus direct que cet extrait. Pas de nouveau plafond ou de résistance inventée.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:008",
+      "titre": "Arbalète et projectiles d'Être des ténèbres",
+      "canon": "Arbalète associée à des projectiles empoisonnés menaçant les Êtres de lumière. Eames s'empare de l'arme ; Natalie est blessée par contact direct avec une flèche. Le poison n'agit pas nécessairement immédiatement. Le dialogue de Siren Song relève le risque pour Paige lié à son ascendance d'Être de lumière.",
+      "sources": [
+        "S011",
+        "S012",
+        "S013"
+      ],
+      "episodesReperes": [
+        "S01E21",
+        "S03E11",
+        "S05E04"
+      ],
+      "limitesEtIncertitudes": "Arme, projectile, poison, blessure et effet doivent être suivis séparément. Un vol n'empêche pas tout usage par un autre être. Ne pas attribuer les pouvoirs d'Eames à l'arbalète. Aucun délai de mort, stock infini ou remède universel établi ici.",
+      "descriptionCarteProposee": "Arbalète utilisant des projectiles empoisonnés particulièrement dangereux pour les Êtres de lumière. Une flèche peut aussi blesser par contact direct.",
+      "provenanceAjustements": "Complément de navigation : précédent S01E21 associé à Darklighter Crossbow. Eames, la blessure directe de Natalie, le poison progressif et la vulnérabilité de Paige sont déjà documentés ; les transcriptions indexées les confortent sans être une nouvelle validation indépendante.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:009",
+      "titre": "Bague protectrice de Victor",
+      "canon": "Bague à pierres de chrysolite portée par Victor dans Thank You for Not Morphing. Elle le protège contre les conséquences mortelles de la formule de sécurité employée par ses filles, sans empêcher toute douleur.",
+      "sources": [
+        "S014"
+      ],
+      "episodesReperes": [
+        "S01E03"
+      ],
+      "limitesEtIncertitudes": "Ce précédent ne vaut pas immunité à toute magie ou toute blessure. La provenance complète, les modalités d'enchantement et la disponibilité après l'épisode restent à préciser.",
+      "descriptionCarteProposee": "Bague protectrice portée par Victor, capable de le préserver de la formule de sécurité des sœurs sans supprimer toute douleur.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:010",
+      "titre": "Bague d'immunité de Nicholas",
+      "canon": "Nicholas obtient sous la contrainte la bénédiction de Patty sur une bague qui doit le protéger des pouvoirs de ses filles. Le voyage en 1975 permet de défaire cette bénédiction ; la bague ne le protège plus au présent. Son retour en Witch Trial ne démontre pas une protection restaurée.",
+      "sources": [
+        "S015"
+      ],
+      "episodesReperes": [
+        "S01E17",
+        "S02E01"
+      ],
+      "limitesEtIncertitudes": "L'immunité dépend de cet enchantement particulier et de sa chronologie. Ne pas la transformer en protection contre tous les êtres ou tous les dommages. La variante enchantée et la variante privée de bénédiction ont des propriétés différentes.",
+      "descriptionCarteProposee": "Bague dont la bénédiction de Patty protège Nicholas des pouvoirs de ses filles. Cette protection peut être annulée en agissant sur l'enchantement.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:011",
+      "titre": "Amulette protectrice d'Anton et de P. Russell",
+      "canon": "Amulette liée à Anton et P. Russell, puis à l'histoire de Phoebe dans Pardon My Past. Elle protège contre une magie de sorcières, notamment la malédiction concernée par l'épisode. Le retrait de l'amulette modifie l'efficacité de cette protection lors des échanges entre passé et présent.",
+      "sources": [
+        "S016"
+      ],
+      "episodesReperes": [
+        "S02E14"
+      ],
+      "limitesEtIncertitudes": "Le récit de 1924 et les corps concernés sont essentiels. Ne pas inférer un rayon protecteur collectif ou une résistance à toute magie démoniaque. Les transferts de corps relèvent aussi de formules distinctes.",
+      "descriptionCarteProposee": "Amulette protégeant son porteur contre la magie de sorcières, notamment la malédiction rencontrée dans Pardon My Past.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:012",
+      "titre": "Amulettes jumelles de Leeza et Janna",
+      "canon": "Deux amulettes complémentaires confiées à des sorcières. Chacune procure une protection et gêne la localisation. Leur réunion avec une formule est présentée comme donnant une protection supérieure. Belthazor parvient à franchir la défense d'une amulette isolée.",
+      "sources": [
+        "S017"
+      ],
+      "episodesReperes": [
+        "S03E20"
+      ],
+      "limitesEtIncertitudes": "L'invincibilité annoncée pour l'ensemble n'est pas une démonstration face à toutes les attaques. Ne pas confondre moitié, paire et rite accompli. Le devenir matériel final n'est pas suffisamment établi pour affirmer leur destruction.",
+      "descriptionCarteProposee": "Deux amulettes complémentaires de protection. Leur efficacité dépend de leur réunion et du rituel associé ; une amulette isolée possède déjà une défense limitée.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:013",
+      "titre": "Amulettes de chasse aux sorcières de Jackman",
+      "canon": "Jackman utilise des amulettes contre la magie des sorcières, sur lui puis disposées autour du manoir. Elles entravent les sœurs mais pas l'intervention démoniaque de Cole. Leur retrait du périmètre permet de mettre fin à l'entrave.",
+      "sources": [
+        "S018"
+      ],
+      "episodesReperes": [
+        "S04E22"
+      ],
+      "limitesEtIncertitudes": "La protection contre les sorcières n'est pas une annulation de toute magie. Les commentaires du wiki sur ce que l'orbing de Paige aurait dû permettre sont des interprétations, pas une correction de la scène.",
+      "descriptionCarteProposee": "Amulettes capables d'entraver la magie des sorcières, portées ou disposées autour d'un périmètre. Leur effet ne couvre pas toute magie démoniaque.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:014",
+      "titre": "Œil d'Aghbar",
+      "canon": "Amulette protectrice portée par Bosk. Elle le préserve de la magie et des potions essayées par les sorcières. La boule de feu de Jinny détruit Bosk et l'amulette.",
+      "sources": [
+        "S019"
+      ],
+      "episodesReperes": [
+        "S06E15"
+      ],
+      "limitesEtIncertitudes": "Le contre-exemple démoniaque interdit une immunité universelle. Après la destruction de l'exemplaire montré, sa présence dans un scénario ultérieur exigerait une provenance explicite.",
+      "descriptionCarteProposee": "Amulette protectrice contre la magie des sorcières et leurs potions. Cette protection ne résiste pas à la boule de feu démoniaque montrée dans I Dream of Phoebe.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:015",
+      "titre": "Evil Eye — talisman de Nicolae",
+      "canon": "Talisman qui amplifie et canalise les pouvoirs de son utilisateur. L'histoire de Nicolae et Lydia comporte un usage offensif ; Phoebe développe une expérience de prémonition astrale en lien avec le talisman et le déblocage de ses prémonitions. Ava en devient gardienne.",
+      "sources": [
+        "S020"
+      ],
+      "episodesReperes": [
+        "S05E06"
+      ],
+      "limitesEtIncertitudes": "Distinguer l'amplification des capacités du porteur d'une liste de pouvoirs automatiquement attribués à tous. Ne pas confondre cet objet avec le pouvoir de Javna nommé Evil Eye. Le contexte culturel est celui de la fiction.",
+      "descriptionCarteProposee": "Talisman amplifiant et canalisant les capacités magiques de son utilisateur. Son effet dépend des pouvoirs qu'il peut mobiliser.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:016",
+      "titre": "Amulette de Sarpedon",
+      "canon": "Sarpedon capture des anges gardiens dans une amulette afin de profiter de leur guidance et de leur protection. Phoebe s'empare de l'objet, le privant de cet avantage ; les gardiens peuvent être libérés.",
+      "sources": [
+        "S021"
+      ],
+      "episodesReperes": [
+        "S07E07"
+      ],
+      "limitesEtIncertitudes": "Ces anges gardiens ne sont pas assimilables aux Êtres de lumière. Ne pas attribuer une invulnérabilité absolue ni une capacité infinie. Le devenir final de l'amulette reste moins documenté que celui de ses captifs.",
+      "descriptionCarteProposee": "Amulette capable de retenir des anges gardiens et de canaliser leur guidance protectrice. Les gardiens enfermés peuvent être libérés.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:017",
+      "titre": "Pendentif de Valkyrie",
+      "canon": "Pendentif utilisé pour accéder à Valhalla et prendre l'apparence ou l'état de Valkyrie. L'expérience de Piper s'accompagne d'un effacement affectif et d'une perte d'attaches, dans le contexte de sa souffrance. Ses capacités antérieures ne disparaissent pas toutes.",
+      "sources": [
+        "S022"
+      ],
+      "episodesReperes": [
+        "S06E01",
+        "S06E02"
+      ],
+      "limitesEtIncertitudes": "Ne pas transposer toute la psychologie de Piper à chaque porteuse. Accès au lieu, transformation et capacités propres restent distincts. Ni un effacement universel immédiat des émotions ni une suppression totale des pouvoirs n'est établi.",
+      "descriptionCarteProposee": "Pendentif lié aux Valkyries, permettant l'accès à Valhalla et une transformation de sa porteuse.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:018",
+      "titre": "Totem des trois singes",
+      "canon": "Totem de Kheel détourné par la Crone. Un singe s'anime pour voler la vue de Piper, l'ouïe de Phoebe et la voix de Paige ; les pertes se manifestent lorsqu'elles en ont besoin. La Crone exploite les sens dérobés avec sa propre magie. La destruction finale accompagne leur restitution.",
+      "sources": [
+        "S023"
+      ],
+      "episodesReperes": [
+        "S05E20"
+      ],
+      "limitesEtIncertitudes": "Ne pas confondre voix et totalité de la communication. L'utilisation des sens par la Crone ne confère pas automatiquement ses perceptions à tout détenteur du totem. La séquence d'activation requiert davantage qu'une simple proximité.",
+      "descriptionCarteProposee": "Totem capable de dérober la vue, l'ouïe et la voix par l'intermédiaire d'un singe animé.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:019",
+      "titre": "Talisman chinois contre les esprits",
+      "canon": "Talisman posé à une entrée pour écarter les esprits. Mark, pourtant allié, ne peut franchir la protection chez Tony tant que Piper ne retire pas le talisman.",
+      "sources": [
+        "S024"
+      ],
+      "episodesReperes": [
+        "S01E04"
+      ],
+      "limitesEtIncertitudes": "La protection n'est pas limitée aux esprits hostiles. Ce précédent n'établit pas une barrière contre les démons, les êtres vivants ou toutes les entités surnaturelles.",
+      "descriptionCarteProposee": "Talisman placé à une entrée pour empêcher le passage des esprits, y compris d'un esprit bienveillant.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:020",
+      "titre": "Talismans de Ruth Cobb",
+      "canon": "En 1670, Ruth Cobb utilise des talismans qui détectent ou repoussent les sorcières. Phoebe mobilise un balai enchanté pour faire tomber ces protections.",
+      "sources": [
+        "S025",
+        "S026"
+      ],
+      "episodesReperes": [
+        "S03E04"
+      ],
+      "limitesEtIncertitudes": "Le contexte de Samhain et l'enchantement du balai doivent être conservés. Ne pas attribuer ce contournement à n'importe quel balai ni étendre les talismans à toutes les espèces magiques.",
+      "descriptionCarteProposee": "Talismans employés par Ruth Cobb pour détecter ou repousser les sorcières.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:021",
+      "titre": "Talisman du sorcier-guérisseur",
+      "canon": "Objet utilisé par le Witch Doctor de House Call pour retirer et recueillir les résidus maléfiques accumulés au manoir après les attaques.",
+      "sources": [
+        "S027"
+      ],
+      "episodesReperes": [
+        "S05E13"
+      ],
+      "limitesEtIncertitudes": "Le sort qui amplifie les obsessions des sœurs est une autre action du personnage. Posséder ce talisman ne suffit pas à disposer de ce sort. Capacité de stockage et catégories exactes d'entités capturables non établies.",
+      "descriptionCarteProposee": "Talisman utilisé pour retirer et recueillir les résidus maléfiques d'un lieu.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:022",
+      "titre": "Baguette de Tuatha",
+      "canon": "Baguette liée à Tuatha et à Kyle, l'Élu capable de la vaincre. Elle canalise l'intention ; la confiance de Kyle compte dans son utilisation. L'ambre de la baguette se brise à l'issue de la confrontation et l'objet perd sa magie.",
+      "sources": [
+        "S028"
+      ],
+      "episodesReperes": [
+        "S02E06"
+      ],
+      "limitesEtIncertitudes": "Ne pas en faire une machine réalisant tout souhait pour tout porteur. L'objet intact et sa version privée de magie ne sont pas interchangeables. La prétendue potion de courage ne constitue pas une propriété de la baguette.",
+      "descriptionCarteProposee": "Baguette canalisant l'intention, liée à Tuatha et à l'Élu. Sa magie dépend notamment de l'intégrité de son ambre.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:023",
+      "titre": "Baguette de Gammill",
+      "canon": "Gammill emploie une baguette alimentée par l'électricité pour miniaturiser ses victimes et réduire leur puissance. Une attaque de Piper peut fournir l'énergie nécessaire. Les sœurs utilisent ensuite le dispositif contre Gammill ; sa destruction accompagne leur retour à la taille normale.",
+      "sources": [
+        "S029",
+        "S030"
+      ],
+      "episodesReperes": [
+        "S04E05"
+      ],
+      "limitesEtIncertitudes": "La réduction des pouvoirs n'est pas une suppression absolue. Ne pas supposer un rayon inverse universel ni attribuer la croissance spontanée à toute manipulation de la baguette. L'espèce exacte de Gammill n'est pas établie ici.",
+      "descriptionCarteProposee": "Baguette activée par une énergie électrique, capable de miniaturiser une cible et d'affaiblir ses pouvoirs.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:024",
+      "titre": "Baguette de Rathmere",
+      "canon": "Baguette conservée à l'École de magie et liée à Rathmere. Une tentative de retrouver son propriétaire par son intermédiaire échoue ; Rathmere est mort.",
+      "sources": [
+        "S031"
+      ],
+      "episodesReperes": [
+        "S06E18"
+      ],
+      "limitesEtIncertitudes": "L'objet est nommé et rattaché à un détenteur, mais ses effets propres ne sont pas décrits avec assez de précision. Ne pas lui attribuer tous les sorts de Rathmere ou une capacité offensive inventée. Fiche d'identification, pas ressource à pouvoirs établis.",
+      "descriptionCarteProposee": "Baguette ayant appartenu à Rathmere et conservée à l'École de magie. Ses propriétés propres restent à documenter.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:025",
+      "titre": "Excalibur",
+      "canon": "Épée dont Wyatt est présenté comme le détenteur légitime. Piper la retire temporairement du rocher ; un détenteur illégitime risque d'être corrompu. Piper décide de la remettre dans la pierre jusqu'à ce que Wyatt soit prêt.",
+      "sources": [
+        "S032"
+      ],
+      "episodesReperes": [
+        "S06E08",
+        "S06E23"
+      ],
+      "limitesEtIncertitudes": "Cette décision maternelle n'est pas une interdiction magique universelle avant la majorité. L'image de Wyatt liée à la peur en fin S06 n'établit pas à elle seule une histoire réelle de l'épée. Exclure l'Empyreal Sword et les développements des comics.",
+      "descriptionCarteProposee": "Épée liée au destin de Wyatt, son détenteur légitime. Sa puissance et les risques de corruption dépendent de celui qui la manie.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:026",
+      "titre": "Lame du Dragon",
+      "canon": "Arme employée dans Enter the Demon pour retirer et retenir une âme. Paige récupère l'âme de Piper par télékinésie orbitale. Yen Lo est capturé ; le Maître emporte l'arme vers le passage de réincarnation.",
+      "sources": [
+        "S033"
+      ],
+      "episodesReperes": [
+        "S04E04",
+        "S06E10"
+      ],
+      "limitesEtIncertitudes": "Le pouvoir de récupération de Paige n'appartient pas à l'arme. Une pièce exposée dans le futur de Chris-Crossed pourrait être un exemplaire apparent ou une réplique : continuité matérielle incertaine. Ne pas déclarer l'arme détruite faute de retour montré.",
+      "descriptionCarteProposee": "Lame capable de retirer et de retenir une âme, distincte du corps de sa victime.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:027",
+      "titre": "Épée de cristal de Gabriel",
+      "canon": "Arme de Gabriel Statler, Seigneur de la guerre, associée à l'absorption d'âmes et de leurs qualités. Gabriel peut l'appeler ; la protection décrite contre les armes humaines dépend de son usage. Sa propre épée finit par le tuer et disparaît avec lui.",
+      "sources": [
+        "S034"
+      ],
+      "episodesReperes": [
+        "S01E16"
+      ],
+      "limitesEtIncertitudes": "Ne pas attribuer automatiquement l'ensemble de la nature de Gabriel à tout porteur. Le précédent de Brianna, qui l'en avait séparé, montre l'importance de distinguer être armé et être désarmé.",
+      "descriptionCarteProposee": "Épée de cristal liée à Gabriel, capable d'absorber des âmes et de renforcer son détenteur dans les conditions décrites pour lui.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:028",
+      "titre": "Athamé absorbant les pouvoirs",
+      "canon": "Les participants de Witch Wars utilisent un athamé qui absorbe des pouvoirs et peut les transmettre à son porteur. Phoebe reçoit ainsi des pouvoirs démoniaques, qui affectent son comportement. Paige les retire en la poignardant avec l'athamé, Leo étant prêt à la soigner.",
+      "sources": [
+        "S035",
+        "S036"
+      ],
+      "episodesReperes": [
+        "S06E21"
+      ],
+      "limitesEtIncertitudes": "Une description centrée sur les victimes tuées ne prouve pas que leur mort est toujours nécessaire : Phoebe survit. Ne pas conclure non plus que chaque simple contact extrait tous les pouvoirs. Cet athamé est distinct d'une lame rituelle ordinaire.",
+      "descriptionCarteProposee": "Athamé capable d'absorber des pouvoirs et de les transmettre à son porteur. Des pouvoirs démoniaques absorbés peuvent altérer son comportement.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:029",
+      "titre": "Athamé maudit des pirates",
+      "canon": "Lame de Black Jack dont une blessure entraîne un vieillissement accéléré. Brenda succombe ; Paige et les pirates sont concernés par la malédiction. L'eau de la Fontaine de Jouvence intervient dans son renversement.",
+      "sources": [
+        "S037"
+      ],
+      "episodesReperes": [
+        "S07E04"
+      ],
+      "limitesEtIncertitudes": "Distinguer vieillissement, durée de vie et immortalité des pirates. L'exemple d'un remède ne prouve ni que toute eau agit ni que tout autre moyen serait impossible. Ne pas confondre avec l'athamé de Witch Wars.",
+      "descriptionCarteProposee": "Lame maudite dont les blessures provoquent un vieillissement accéléré.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:030",
+      "titre": "Athamé enchanté de Gideon",
+      "canon": "Gideon prépare une lame pour franchir la protection de Wyatt. Dans la confrontation, elle blesse mortellement Chris.",
+      "sources": [
+        "S038"
+      ],
+      "episodesReperes": [
+        "S06E23"
+      ],
+      "limitesEtIncertitudes": "La fonction vise la défense de Wyatt dans cette intrigue : ne pas généraliser à toutes les barrières. Aucun pouvoir de vieillissement ou de collecte des pouvoirs n'est établi pour cette lame. L'Ancient Athame des comics est un autre objet.",
+      "descriptionCarteProposee": "Lame enchantée par Gideon pour pénétrer la protection de Wyatt.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:031",
+      "titre": "Cœur en étain de Melinda",
+      "canon": "Médaillon-prison dans lequel Melinda enferme Matthew. Prue, descendante de Melinda, le libère en ouvrant le cœur. Le nouvel enfermement nécessite les moyens magiques de Melinda ; le cœur repart avec elle.",
+      "sources": [
+        "S039"
+      ],
+      "episodesReperes": [
+        "S01E09"
+      ],
+      "limitesEtIncertitudes": "La fermeture matérielle seule ne suffit pas à établir un pouvoir de capture générique. Distinguer l'ouverture par la lignée concernée de toute ouverture par n'importe qui. Disponibilité après l'épisode à justifier.",
+      "descriptionCarteProposee": "Cœur en étain ayant servi de prison magique à Matthew, lié à Melinda Warren et à sa descendance.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:032",
+      "titre": "Urne égyptienne maudite",
+      "canon": "Urne volée associée à une malédiction et à sa gardienne. Les voleurs sont poursuivis ; le geste désintéressé de Clay protégeant Phoebe change son sort. L'urne est destinée à être rendue au musée du Caire.",
+      "sources": [
+        "S040"
+      ],
+      "episodesReperes": [
+        "S01E11"
+      ],
+      "limitesEtIncertitudes": "La propriété concerne la malédiction du vol et la cupidité, pas un pouvoir librement accordé au porteur. Ne pas confondre avec l'urne de pouvoirs divins de S05.",
+      "descriptionCarteProposee": "Urne égyptienne protégée par une malédiction liée au vol et à la cupidité, avec une gardienne surnaturelle.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:033",
+      "titre": "Lanterne de collecte des pouvoirs",
+      "canon": "Lanterne utilisée pour recueillir les pouvoirs abandonnés par les sœurs dans Wicca Envy. La cession dépend d'une formule ; le rétablissement du Livre avec l'aide de Leo participe à leur retour.",
+      "sources": [
+        "S041"
+      ],
+      "episodesReperes": [
+        "S01E10"
+      ],
+      "limitesEtIncertitudes": "La présence de la lanterne ne prouve pas une absorption passive à distance. Réutilisation, capacité maximale et procédure exacte de transfert à un autre porteur restent à vérifier.",
+      "descriptionCarteProposee": "Lanterne servant de réceptacle à des pouvoirs cédés par une formule.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:034",
+      "titre": "Bouteilles de génie",
+      "canon": "Deux intrigues présentent des bouteilles associées à un génie et à trois vœux. Le génie peut exploiter la formulation du souhait. En S06, libérer Jinny piège Phoebe à sa place ; la fin de S02 présente une liberté devenue vie mortelle sans ce même remplacement final.",
+      "sources": [
+        "S042"
+      ],
+      "episodesReperes": [
+        "S02E22",
+        "S06E15"
+      ],
+      "limitesEtIncertitudes": "Conserver les variantes plutôt qu'une règle unique de succession. Possession du contenant, statut du génie et vœux encore disponibles doivent être établis. Aucun souhait formulé par le joueur ne garantit sa réalisation littérale.",
+      "descriptionCarteProposee": "Bouteille liée à un génie qui exauce un nombre limité de vœux. Les conditions de liberté et les conséquences des souhaits dépendent du génie et de son enchantement.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:035",
+      "titre": "Boîte de Pandore",
+      "canon": "Boîte contenant les maux que Nina, puis Hope, doivent garder. La charge passe à Hope après la mort de Nina ; l'objet tente sa gardienne et son ouverture libère les maux. La gardienne intervient aussi dans leur rappel.",
+      "sources": [
+        "S043"
+      ],
+      "episodesReperes": [
+        "S07E18"
+      ],
+      "limitesEtIncertitudes": "L'affirmation d'indestructibilité par Katya reste une affirmation de personnage, pas une épreuve de tous les moyens. Ne pas confondre avec le Hollow ou le coffre des péchés. Un détenteur quelconque n'acquiert pas automatiquement les fonctions de la gardienne.",
+      "descriptionCarteProposee": "Boîte contenant des maux surnaturels et confiée à une gardienne. Elle exerce une tentation sur celle qui doit la garder fermée.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:036",
+      "titre": "Coffre des sept péchés capitaux",
+      "canon": "Coffre associé à des sphères qui contaminent leurs victimes par les péchés capitaux. L'influence amplifie une disposition jusqu'à des comportements dangereux. Dans Sin Francisco, le désintéressement intervient dans la libération ; l'orgueil de Prue constitue une exception importante.",
+      "sources": [
+        "S044"
+      ],
+      "episodesReperes": [
+        "S03E18",
+        "S08E20"
+      ],
+      "limitesEtIncertitudes": "Distinguer le contenant, les sphères et l'action de Lukas. Une recette uniforme fondée sur un seul geste altruiste ferait disparaître l'exception de l'orgueil. La réutilisation en S08 ne dispense pas d'établir le contenu disponible.",
+      "descriptionCarteProposee": "Coffre contenant des manifestations des sept péchés capitaux, capables d'amplifier dangereusement les dispositions des personnes qu'elles contaminent.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:037",
+      "titre": "Baguette de Lukas",
+      "canon": "Lukas utilise une baguette pour ouvrir un passage vers un lieu de tourment. Prue peut s'en servir pour refermer le passage.",
+      "sources": [
+        "S045"
+      ],
+      "episodesReperes": [
+        "S03E18"
+      ],
+      "limitesEtIncertitudes": "Le contre-usage montre qu'elle n'est pas exclusivement manipulable par Lukas. Il ne démontre pas un choix libre de n'importe quelle dimension, époque ou destination. La corruption par les péchés est distincte de cette fonction de passage.",
+      "descriptionCarteProposee": "Baguette employée par Lukas pour ouvrir un passage vers un lieu de tourment et susceptible de le refermer.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:038",
+      "titre": "Cage de la Prophétesse",
+      "canon": "Prison permettant une action magique vers l'intérieur tout en empêchant une attaque de sortir. Les sœurs peuvent y employer une protection : ce n'est pas un espace sans aucune magie. Après la confrontation explosive, Piper peut en sortir en forçant la cage.",
+      "sources": [
+        "S046",
+        "S003"
+      ],
+      "episodesReperes": [
+        "S04E21"
+      ],
+      "limitesEtIncertitudes": "L'indestructibilité annoncée doit être rapprochée de cette sortie après neutralisation. Les résumés ne départagent pas avec certitude le rôle de l'explosion et celui de la mort de la Prophétesse. Ne pas acter que toute mort du propriétaire détruit automatiquement sa cage.",
+      "descriptionCarteProposee": "Cage enchantée qui laisse entrer la magie tout en empêchant des attaques magiques de sortir. Son confinement dépend du maintien de son enchantement.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:039",
+      "titre": "Cage aquatique de la Crone",
+      "canon": "La Crone enferme Leo dans un récipient rempli d'eau pour l'empêcher d'avertir les sœurs. Piper brise le contenant et permet sa libération.",
+      "sources": [
+        "S047",
+        "S048"
+      ],
+      "episodesReperes": [
+        "S05E20"
+      ],
+      "limitesEtIncertitudes": "Cette cage ne partage pas automatiquement les propriétés de celle de la Prophétesse. Le précédent établit la captivité de Leo dans ce dispositif, pas une capture universelle de toute entité par toute eau.",
+      "descriptionCarteProposee": "Prison aquatique utilisée par la Crone pour retenir Leo ; son contenant peut être brisé.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:040",
+      "titre": "Urne des pouvoirs divins",
+      "canon": "Réceptacle de puissances divines que Leo mobilise pour transformer temporairement les sœurs en déesses lors de la menace des Titans. Il reprend ensuite ces pouvoirs.",
+      "sources": [
+        "S049"
+      ],
+      "episodesReperes": [
+        "S05E22",
+        "S05E23"
+      ],
+      "limitesEtIncertitudes": "L'urne conserve des puissances disponibles ; elle n'en fabrique pas à l'infini. Détention du récipient, invocation et choix des bénéficiaires restent distincts. Les effets psychologiques des transformations doivent être suivis selon chaque sœur.",
+      "descriptionCarteProposee": "Urne contenant des puissances divines susceptibles d'être conférées temporairement à des bénéficiaires par un intermédiaire capable de les mobiliser.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:041",
+      "titre": "Maison de poupées Halliwell",
+      "canon": "Réplique du manoir utilisée comme espace de captivité miniature. En S07, Wyatt réduit ses parents et les protège ; en S08, des démons exploitent un dispositif de miniaturisation et des doubles pour détourner les pouvoirs des sœurs. Une communication extérieure est possible via la planchette spirite.",
+      "sources": [
+        "S050"
+      ],
+      "episodesReperes": [
+        "S07E17",
+        "S08E13"
+      ],
+      "limitesEtIncertitudes": "La réduction, la protection et le vol de pouvoirs dépendent d'intervenants et de dispositifs précis : la maquette ne les produit pas tous spontanément. Sa destruction et la libération doivent rester liées à l'intrigue concernée, sans fusionner les deux épisodes.",
+      "descriptionCarteProposee": "Réplique miniature du manoir pouvant servir d'espace de confinement lorsqu'elle est associée à une magie de miniaturisation.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:042",
+      "titre": "Tableau maudit de Nell",
+      "canon": "Tableau contenant une prison pour Malcolm. Une inscription cachée sous la peinture attire à l'intérieur celui qui la lit ; une autre formule permet la sortie. Brûler le tableau menace ceux qui s'y trouvent.",
+      "sources": [
+        "S051"
+      ],
+      "episodesReperes": [
+        "S02E03"
+      ],
+      "limitesEtIncertitudes": "Le seul regard porté sur l'image n'est pas établi comme déclencheur. Les captifs et les textes d'entrée et de sortie comptent. Sa destruction finale interdit de supposer l'exemplaire intact après l'épisode sans justification.",
+      "descriptionCarteProposee": "Tableau-prison dont une inscription provoque l'entrée. Sa matière reste liée au sort des personnes enfermées.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:043",
+      "titre": "Roman Crossed, Double-Crossed",
+      "canon": "Roman enchanté de Mullen qui attire des lecteurs dans son intrigue noire. Les pouvoirs actifs y sont neutralisés. Depuis l'extérieur, des personnages peuvent écrire des rebondissements, mais les protagonistes doivent accomplir l'histoire ; un mort n'en ressort pas vivant.",
+      "sources": [
+        "S052"
+      ],
+      "episodesReperes": [
+        "S07E08"
+      ],
+      "limitesEtIncertitudes": "Écrire une fin arbitraire ne garantit pas de libérer les captifs. L'achèvement de l'histoire et sa neutralisation affectent la réutilisation du livre. Ce fonctionnement fictionnel n'est pas une règle générale à imposer au jeu.",
+      "descriptionCarteProposee": "Roman enchanté capable d'enfermer des lecteurs dans son histoire, où leurs pouvoirs actifs sont neutralisés. Le récit peut être influencé depuis l'extérieur.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:044",
+      "titre": "Appareil photo de Vaklav",
+      "canon": "Appareil qui emprisonne les personnes photographiées dans des images assemblées par Vaklav. Paige peut l'utiliser contre son propriétaire. Le résumé détaillé et la transcription indexée placent la libération de Sam, puis des autres captifs, lorsque Paige l'appelle « Dad », avant la photographie qui piège Vaklav.",
+      "sources": [
+        "S053",
+        "S054",
+        "S055"
+      ],
+      "episodesReperes": [
+        "S08E07"
+      ],
+      "limitesEtIncertitudes": "La formulation de la page de l'objet doit être nuancée par cette chronologie : photographier Vaklav n'est pas la cause de la libération collective décrite. Le lien entre Paige et Sam est invoqué dans le dialogue ; sa généralisation à tout captif n'est pas établie. Aucun visionnage effectué.",
+      "descriptionCarteProposee": "Appareil photo capable de piéger des personnes dans ses images, y compris lorsqu'il est retourné contre son propriétaire.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:045",
+      "titre": "Planchette spirite des Halliwell",
+      "canon": "Support de communication surnaturelle qui guide Phoebe vers le grenier au début de la série. Dans Repo Manor, les sœurs miniaturisées peuvent communiquer avec Billie par son intermédiaire : les correspondants ne sont donc pas nécessairement des morts. La planchette peut être endommagée.",
+      "sources": [
+        "S056"
+      ],
+      "episodesReperes": [
+        "S01E01",
+        "S02E21",
+        "S08E13"
+      ],
+      "limitesEtIncertitudes": "La réponse reçue ne certifie pas à elle seule l'identité, l'exhaustivité ou l'honnêteté de l'interlocuteur. La disponibilité du support et l'existence d'un interlocuteur doivent être distinguées.",
+      "descriptionCarteProposee": "Planche et curseur permettant une communication surnaturelle, y compris avec des personnes vivantes dans certaines situations magiques.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:046",
+      "titre": "Alliance ensorcelée de Grams",
+      "canon": "Bague qui impose à Phoebe un idéal de femme au foyer et modifie son apparence jusque dans une représentation en noir et blanc. Son influence entrave aussi sa volonté de s'en séparer ; le retrait met fin à la transformation.",
+      "sources": [
+        "S057"
+      ],
+      "episodesReperes": [
+        "S04E12",
+        "S08E20"
+      ],
+      "limitesEtIncertitudes": "Ce n'est pas la bague à fleur utilisée dans Witchstock. L'effet provient d'un enchantement et du modèle de comportement qu'il véhicule, pas d'une propriété générale de toute alliance familiale.",
+      "descriptionCarteProposee": "Alliance ensorcelée qui pousse sa porteuse à incarner un idéal de femme au foyer et peut transformer son apparence.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:047",
+      "titre": "Vêtements de Grams renvoyant à leur propriétaire",
+      "canon": "Les bottes de Grams portent un enchantement de retour à leur propriétaire : Paige est renvoyée en 1967. Piper utilise les boucles d'oreilles et Phoebe une bague à fleur dans la même intrigue. Penny retire les objets pour permettre leur retour.",
+      "sources": [
+        "S058",
+        "S059"
+      ],
+      "episodesReperes": [
+        "S06E11"
+      ],
+      "limitesEtIncertitudes": "Trois accessoires nommés, un mécanisme familial regroupé ici : bottes, boucles d'oreilles, bague à fleur. Aucun choix libre d'époque n'est démontré. Ne pas confondre la bague à fleur avec l'alliance de Lost and Bound.",
+      "descriptionCarteProposee": "Accessoires de Grams portant un enchantement de retour à leur propriétaire, capable de ramener leur porteuse à une époque antérieure.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:048",
+      "titre": "Bâton mystique de Bouddha",
+      "canon": "Objet transmis entre gardiens du zodiaque au nouvel an. Il peut projeter la volonté et l'état intérieur de son détenteur, avec des effets même involontaires. Son passage à minuit constitue un moment de vulnérabilité exploité dans l'intrigue.",
+      "sources": [
+        "S060"
+      ],
+      "episodesReperes": [
+        "S08E14"
+      ],
+      "limitesEtIncertitudes": "L'effet dépend du porteur et de ses intentions ; ne pas en faire un contrôle parfaitement précis. La garde et la transmission font partie de sa disponibilité. Le nom et la mythologie sont ceux de la fiction, pas une affirmation sur le bouddhisme réel.",
+      "descriptionCarteProposee": "Bâton mystique capable de projeter la volonté de son détenteur, avec des effets qui peuvent dépasser ses intentions conscientes.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:049",
+      "titre": "Ceinture dorée de Gaïa",
+      "canon": "Ceinture associée à Hippolyta. Elle amplifie notamment force, vitesse et capacités offensives de Billie, mais sa puissance menace sa santé et son équilibre mental. Zira, maléfique, est détruite lorsqu'elle essaie de la porter. Un sort intervient pour en débarrasser Billie.",
+      "sources": [
+        "S061"
+      ],
+      "episodesReperes": [
+        "S08E08"
+      ],
+      "limitesEtIncertitudes": "Ne pas traiter tous les porteurs comme compatibles ni cet équipement comme sans coût. Les capacités propres de Billie, notamment la projection, ne doivent pas toutes être attribuées à la ceinture.",
+      "descriptionCarteProposee": "Ceinture amplifiant fortement les capacités de sa porteuse, au risque d'épuiser sa vie et sa raison. Elle n'est pas compatible avec tout être.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:050",
+      "titre": "Cristal de Kasimar",
+      "canon": "Sollal évoque un cristal dont les pouvoirs seraient dormants en cherchant l'origine d'une émission magique. Il comprend ensuite qu'il s'agit de la ceinture de Gaïa. Le nom apparaît aussi avec la graphie Kazimar dans une transcription.",
+      "sources": [
+        "S062",
+        "S063"
+      ],
+      "episodesReperes": [
+        "S08E08"
+      ],
+      "limitesEtIncertitudes": "Mention d'existence, sans démonstration d'un effet du cristal. Ne pas lui attribuer les pouvoirs de la ceinture. Réveil, activation et capacités ne sont pas établis ; conserver comme objet à documenter plutôt que comme ressource fonctionnelle.",
+      "descriptionCarteProposee": "Cristal mentionné comme porteur de pouvoirs dormants. Sa fonction et son activation restent inconnues dans les éléments relevés.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:051",
+      "titre": "Cristaux Ronyx",
+      "canon": "Dispositifs de surveillance de Witch Wars : cristaux noirs pour observer, rouges pour projeter les images. Gideon fabrique une page explicative ; pendant que Phoebe lit la prétendue formule, il fait discrètement un geste qui active la projection.",
+      "sources": [
+        "S064",
+        "S065",
+        "S036"
+      ],
+      "episodesReperes": [
+        "S06E21"
+      ],
+      "limitesEtIncertitudes": "L'efficacité de la formule n'est pas démontrée indépendamment de Gideon. Sa présentation d'une origine très ancienne est aussi intéressée : ne pas la valider comme histoire certaine. Portée, enregistrement et accès à des lieux protégés restent à contextualiser.",
+      "descriptionCarteProposee": "Cristaux de surveillance et de projection d'images, employés en réseau dans Witch Wars.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:052",
+      "titre": "Cristal de paranoïa",
+      "canon": "Cristal transmis à Kyle par Zankou pour susciter la paranoïa. Le contact permet une contamination qui peut ensuite passer entre les sorcières. La destruction de l'objet met fin à cette influence dans l'épisode.",
+      "sources": [
+        "S066"
+      ],
+      "episodesReperes": [
+        "S07E12"
+      ],
+      "limitesEtIncertitudes": "Les récits historiques racontés par Zankou ne sont pas des événements montrés. Ne pas assimiler suspicion ordinaire et contamination, ni fixer un rayon de diffusion. La propagation requiert les contacts et circonstances du précédent.",
+      "descriptionCarteProposee": "Cristal capable d'induire une paranoïa contagieuse par contact dans les conditions décrites pour son usage.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:053",
+      "titre": "Cristal des rêves",
+      "canon": "Billie utilise un cristal pour entrer dans les rêves des sœurs et en ressortir. Plusieurs dormeuses proches peuvent être concernées. L'endormissement profond résulte d'un autre moyen ; le cristal sert au déplacement dans les rêves.",
+      "sources": [
+        "S067",
+        "S068"
+      ],
+      "episodesReperes": [
+        "S08E19"
+      ],
+      "limitesEtIncertitudes": "La page Dream Leaping annonce un maximum de trois, tandis que Dream Crystal parle de plusieurs personnes proches. Trois cas dans une scène ne prouvent pas un plafond : garder ce point incertain. Aucun contrôle intégral du contenu des rêves établi.",
+      "descriptionCarteProposee": "Cristal permettant d'entrer dans les rêves de dormeurs proches et d'en ressortir.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:054",
+      "titre": "Cristaux de pyrite d'alarme",
+      "canon": "Des cristaux de pyrite sont employés pour signaler une présence maléfique par un effet sonore ou harmonique dans Witchstock.",
+      "sources": [
+        "S069"
+      ],
+      "episodesReperes": [
+        "S06E11"
+      ],
+      "limitesEtIncertitudes": "Détection ne signifie pas blocage physique de l'entrée. Préparation et emplacement sont à conserver selon l'épisode ; aucun rayon universel ou identification nominative de l'intrus établi.",
+      "descriptionCarteProposee": "Cristaux employés dans un dispositif d'alarme signalant une présence maléfique.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:055",
+      "titre": "Cristaux de dissimulation",
+      "canon": "Des configurations de cristaux servent à masquer une présence aux recherches magiques. Le retrait d'un élément peut rompre le dispositif.",
+      "sources": [
+        "S070"
+      ],
+      "episodesReperes": [
+        "S06E17",
+        "S08E17"
+      ],
+      "limitesEtIncertitudes": "Dissimuler à une recherche ne signifie pas empêcher une entrée, rendre invisible à l'œil ou annuler une attaque. Ces effets dépendent de la configuration et ne sont pas ceux de tout cristal isolé.",
+      "descriptionCarteProposee": "Cristaux disposés pour dissimuler une présence à certaines recherches magiques.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:056",
+      "titre": "Dispositif de cristaux de Burke",
+      "canon": "Burke utilise des cristaux insérés et manipulés dans un dispositif pour immobiliser puis conserver ses victimes comme trophées ; Leo est placé dans cet état. Le dialogue distingue la capacité de torturer de celle de réaliser cette congélation.",
+      "sources": [
+        "S071"
+      ],
+      "episodesReperes": [
+        "S08E10"
+      ],
+      "limitesEtIncertitudes": "Les gestes, l'installation et le savoir de Burke comptent. Un cristal transporté seul ne vaut pas machine complète. L'intervention ultérieure de l'Ange du destin sur Leo n'est pas une propriété du dispositif.",
+      "descriptionCarteProposee": "Dispositif à cristaux employé par Burke pour immobiliser et conserver des victimes dans un état de congélation magique.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:057",
+      "titre": "Boule de cristal de Gideon",
+      "canon": "Gideon observe les sœurs, Leo et Chris dans une boule de cristal à l'École de magie ; un geste met fin à la vision.",
+      "sources": [
+        "S065"
+      ],
+      "episodesReperes": [
+        "S06E21"
+      ],
+      "limitesEtIncertitudes": "Cette boule ne se confond pas avec les cristaux Ronyx de la même intrigue. L'usage montré ne prouve pas l'observation de toute personne, de tout lieu ou de toute époque, ni la connaissance des pensées.",
+      "descriptionCarteProposee": "Boule de cristal employée par Gideon pour observer à distance des personnes dans le contexte de l'École de magie.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:058",
+      "titre": "Lumière de l'amour éternel",
+      "canon": "Objet lumineux associé au mariage de Piper et Leo et au symbole de leur amour éternel. Il se brise au cours de l'épisode.",
+      "sources": [
+        "S072"
+      ],
+      "episodesReperes": [
+        "S03E16"
+      ],
+      "limitesEtIncertitudes": "Un symbole magique de l'amour ne crée pas nécessairement l'amour et n'en garantit pas le devenir. Aucun pouvoir de contrainte affective établi. L'état brisé doit être pris en compte après ce précédent.",
+      "descriptionCarteProposee": "Lumière magique liée symboliquement à l'amour éternel de Piper et Leo.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:059",
+      "titre": "Sablier de Tempus",
+      "canon": "Sablier associé aux reprises temporelles orchestrées par Tempus lors des échecs de Rodriguez. Le déclenchement relève de leur dispositif et de l'action du démon.",
+      "sources": [
+        "S073"
+      ],
+      "episodesReperes": [
+        "S01E22"
+      ],
+      "limitesEtIncertitudes": "Ne pas attribuer au seul sablier un nombre illimité de retours utilisables par n'importe quel porteur. Déclencheur, souvenirs conservés et durée du cycle doivent rester ceux de l'intrigue étudiée.",
+      "descriptionCarteProposee": "Sablier associé à la magie de Tempus et à ses cycles de retour dans le temps.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:060",
+      "titre": "Miroir entre les deux mondes",
+      "canon": "Miroir permettant des échanges entre les versions de Gideon et de son monde opposé. Les interactions dépassent l'image seule, notamment dans les échanges observés. Les Leo détruisent le lien des miroirs.",
+      "sources": [
+        "S074"
+      ],
+      "episodesReperes": [
+        "S06E22",
+        "S06E23"
+      ],
+      "limitesEtIncertitudes": "Ne pas assimiler automatiquement ce miroir à tous les portails de voyage des épisodes. Il relie cette paire de mondes ; aucun sélecteur universel de dimension établi. Sa destruction affecte sa disponibilité.",
+      "descriptionCarteProposee": "Miroir mettant en relation deux mondes opposés et permettant des échanges entre leurs correspondants.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:061",
+      "titre": "Miroir de Kali",
+      "canon": "Kali apparaît par un miroir et agit sur Aviva, jusqu'à la possession. Briser le miroir intervient dans son bannissement.",
+      "sources": [
+        "S075"
+      ],
+      "episodesReperes": [
+        "S01E07"
+      ],
+      "limitesEtIncertitudes": "Les pouvoirs de Kali ne deviennent pas tous des fonctions du miroir. Ne pas confondre cet objet avec le miroir de conte ou celui des mondes opposés. Un miroir ordinaire peut interagir avec la magie sans être cet artefact.",
+      "descriptionCarteProposee": "Miroir servant de point de contact à Kali pour apparaître et agir sur une personne.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:062",
+      "titre": "Miroir magique des contes",
+      "canon": "Miroir-prison de la sorcière des contes. Sa destruction permet sa libération ; elle le rétablit et y enferme l'apprenti. Dans cette configuration, il sert de moyen d'interrogation et de vision. La mort de la sorcière libère l'apprenti.",
+      "sources": [
+        "S076"
+      ],
+      "episodesReperes": [
+        "S05E03"
+      ],
+      "limitesEtIncertitudes": "Les fonctions dépendent de l'enchantement et de la personne enfermée. Ne pas en faire une réponse omnisciente et autonome à toute question. La libération par bris peut aussi libérer un danger.",
+      "descriptionCarteProposee": "Miroir enchanté pouvant emprisonner un être et servir de moyen de vision ou d'interrogation dans la magie des contes.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:063",
+      "titre": "Livre magique des contes",
+      "canon": "Livre original gardé avec les objets des contes, qui permet d'en mobiliser des personnages. Une copie ordinaire des Halliwell intervient aussi comme support de passage en combinaison avec la cape rouge et une magie appropriée.",
+      "sources": [
+        "S077",
+        "S078"
+      ],
+      "episodesReperes": [
+        "S05E03"
+      ],
+      "limitesEtIncertitudes": "Ne pas assimiler l'original magique à tout exemplaire imprimé des mêmes histoires. Les pouvoirs des personnages appelés ne sont pas ceux du papier seul. Distinguer appel et contrôle durable du personnage.",
+      "descriptionCarteProposee": "Livre magique lié aux personnages des contes et à leur manifestation. Il se distingue des copies ordinaires de ces histoires.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:064",
+      "titre": "Pomme empoisonnée des contes",
+      "canon": "Pomme d'apparence attirante qui place Paige dans un état évoquant la mort de Blanche-Neige après une bouchée. La guérison ordinaire tentée ne suffit pas ; la fin de l'enchantement de la sorcière la libère.",
+      "sources": [
+        "S079"
+      ],
+      "episodesReperes": [
+        "S05E03"
+      ],
+      "limitesEtIncertitudes": "Ne pas annoncer le baiser comme seule solution : le récit emploie une autre résolution. Une résistance au soin essayé n'établit pas une impossibilité de tout soin magique. L'effet relève de cette pomme ensorcelée.",
+      "descriptionCarteProposee": "Pomme ensorcelée dont une bouchée peut plonger sa victime dans un état de mort apparente résistant aux soins essayés dans l'épisode.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:065",
+      "titre": "Pantoufles de verre",
+      "canon": "Les pantoufles transforment Phoebe en figure de Cendrillon et entraînent ses pas vers le bal. La disparition de la dernière chaussure dépend de la résolution affective de son histoire avec Cole.",
+      "sources": [
+        "S080"
+      ],
+      "episodesReperes": [
+        "S05E03"
+      ],
+      "limitesEtIncertitudes": "La contrainte sur les pas ne signifie pas une suppression de toute conscience. Ne pas imposer une relation amoureuse comme condition universelle de délivrance : le pardon et le contexte comptent.",
+      "descriptionCarteProposee": "Pantoufles enchantées qui transforment leur porteuse en Cendrillon et orientent ses pas selon la magie du conte.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:066",
+      "titre": "Cape rouge des contes",
+      "canon": "Cape liée au Petit Chaperon rouge. Elle peut servir avec le livre de contes à un passage vers l'espace magique de l'intrigue. Des cheveux associés au dispositif permettent aussi un leurre pour une recherche magique.",
+      "sources": [
+        "S081"
+      ],
+      "episodesReperes": [
+        "S05E03"
+      ],
+      "limitesEtIncertitudes": "Les effets proviennent de la combinaison des éléments et de la magie employée ; la cape seule n'est pas un portail autonome établi. Un lien de localisation peut conduire vers un leurre.",
+      "descriptionCarteProposee": "Cape enchantée liée au Petit Chaperon rouge, utilisable avec le livre de contes dans une magie de passage.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:067",
+      "titre": "Carrosse-citrouille",
+      "canon": "Phoebe est enfermée dans un carrosse qui redevient citrouille à minuit dans l'intrigue de Cendrillon.",
+      "sources": [
+        "S082"
+      ],
+      "episodesReperes": [
+        "S05E03"
+      ],
+      "limitesEtIncertitudes": "Cette transformation programmée appartient au conte activé. Ne pas attribuer une téléportation ou un transport entre dimensions au véhicule sans scène supplémentaire. Il ne s'agit pas de n'importe quelle citrouille.",
+      "descriptionCarteProposee": "Carrosse enchanté du conte de Cendrillon, qui reprend sa forme de citrouille à minuit.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:068",
+      "titre": "Bâton de leprechaun — shillelagh",
+      "canon": "Bâton employé par les leprechauns dans leur magie de chance et de déplacement par arc-en-ciel. Paige reçoit celui de Seamus ; ce lien permet d'appeler Riley. Les leprechauns peuvent reprendre les objets qu'ils ont confiés.",
+      "sources": [
+        "S083"
+      ],
+      "episodesReperes": [
+        "S05E17",
+        "S06E18",
+        "S08E20"
+      ],
+      "limitesEtIncertitudes": "Le don, la révocation et les capacités du détenteur comptent. Ne pas transformer une influence sur la chance en certitude de résultat. Exclure les développements des comics liés à d'autres armes.",
+      "descriptionCarteProposee": "Bâton de leprechaun lié à la magie de chance et aux déplacements par arc-en-ciel ; un exemplaire confié peut aussi servir de lien d'appel.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:069",
+      "titre": "Baguette de capture des phantasmes",
+      "canon": "Paige et Chris utilisent une baguette pour capturer un phantasme après son expulsion par une potion.",
+      "sources": [
+        "S084"
+      ],
+      "episodesReperes": [
+        "S06E19"
+      ],
+      "limitesEtIncertitudes": "Séparer l'expulsion de l'être possédé et la capture de l'entité libérée. La baguette n'est pas démontrée comme exorcisme autonome ni comme prison de toute espèce d'esprit.",
+      "descriptionCarteProposee": "Baguette utilisée pour capturer un phantasme déjà expulsé de son hôte.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:070",
+      "titre": "Poussière du marchand de sable",
+      "canon": "Poudre employée auprès des dormeurs pour leur activité onirique. Un excès de poussière provoque la manifestation de figures issues des rêves dans Sand Francisco Dreamin'.",
+      "sources": [
+        "S085"
+      ],
+      "episodesReperes": [
+        "S05E14"
+      ],
+      "limitesEtIncertitudes": "Ne pas assimiler production de rêves, endormissement et maîtrise de leur contenu. Le surdosage n'est pas une recette sûre de création d'un être choisi. Quantités exactes non établies.",
+      "descriptionCarteProposee": "Poussière liée aux rêves des dormeurs, dont un excès peut faire apparaître des figures oniriques.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:071",
+      "titre": "Poussière de fée",
+      "canon": "La poussière de fée intervient dans l'accès à une perception enfantine, dans une combinaison destinée à renverser une pétrification et dans la dissimulation d'Êtres de lumière supérieurs lors de la menace des Titans.",
+      "sources": [
+        "S086",
+        "S070"
+      ],
+      "episodesReperes": [
+        "S03E03",
+        "S05E22",
+        "S05E23"
+      ],
+      "limitesEtIncertitudes": "Les usages reposent sur des contextes et parfois des ingrédients associés. Ne pas attribuer à la poudre seule toutes les propriétés de la formule contre la pétrification. Les quantités, la réserve et le renouvellement restent à définir selon la provenance.",
+      "descriptionCarteProposee": "Poussière féerique employée dans plusieurs magies de perception, de dissimulation ou de transformation, selon sa préparation et les éléments associés.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:072",
+      "titre": "Fiole de capture d'âme",
+      "canon": "Une fiole retient l'âme de Darryl séparée de son corps pendant l'opération liée à Valhalla. La séparation dépend d'une potion et le corps reste vivant.",
+      "sources": [
+        "S087"
+      ],
+      "episodesReperes": [
+        "S06E01",
+        "S06E02"
+      ],
+      "limitesEtIncertitudes": "Distinguer induction de l'état, séparation de l'âme, conservation dans la fiole et réunification avec le corps. Une fiole vide ne provoque pas à elle seule une séparation d'âme. Aucun délai universel de conservation établi.",
+      "descriptionCarteProposee": "Fiole employée pour conserver une âme préalablement séparée d'un corps vivant.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:073",
+      "titre": "Scarabées égyptiens de transfert",
+      "canon": "Scarabées placés sur les corps dans le rite de Jeric destiné au transfert d'Isis. Les objets fonctionnent au sein d'une procédure de transfert, avec une formule.",
+      "sources": [
+        "S088"
+      ],
+      "episodesReperes": [
+        "S05E10"
+      ],
+      "limitesEtIncertitudes": "Ne pas confondre conservation corporelle, momification et transfert d'identité. Les deux corps, l'identité transférée et le rite sont nécessaires à l'analyse ; les scarabées seuls ne confèrent pas l'immortalité.",
+      "descriptionCarteProposee": "Scarabées rituels utilisés par Jeric sur les corps impliqués dans un transfert d'identité.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:074",
+      "titre": "Cercle de vérité du Tribunal",
+      "canon": "Dispositif du Tribunal servant à projeter des souvenirs ou événements examinés durant le procès des sœurs.",
+      "sources": [
+        "S089"
+      ],
+      "episodesReperes": [
+        "S06E19"
+      ],
+      "limitesEtIncertitudes": "Un dispositif judiciaire ancré dans son lieu n'est pas automatiquement une carte transportable. La restitution d'un souvenir ne prouve pas la connaissance de tout événement absent de celui-ci. Activation et personnes impliquées à conserver.",
+      "descriptionCarteProposee": "Dispositif du Tribunal permettant de présenter des souvenirs sous forme de projections lors d'un examen.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:075",
+      "titre": "Liste de la Mort",
+      "canon": "Liste des personnes que l'Ange de la Mort doit recueillir ; Piper y accède pendant son rôle temporaire. Son contenu et ses priorités évoluent avec la situation.",
+      "sources": [
+        "S090"
+      ],
+      "episodesReperes": [
+        "S07E05"
+      ],
+      "limitesEtIncertitudes": "Ne pas inverser la causalité : écrire un nom ne constitue pas ici un pouvoir de tuer et l'effacer ne démontre pas une résurrection. Accès au document et fonction d'Ange de la Mort restent distincts.",
+      "descriptionCarteProposee": "Liste évolutive liée aux personnes que l'Ange de la Mort doit recueillir.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:076",
+      "titre": "Balai enchanté de Phoebe",
+      "canon": "Dans le contexte de 1670 et de Samhain, Phoebe enchante un balai et l'emploie notamment contre des protections ; l'épisode comporte aussi son usage comme moyen de vol.",
+      "sources": [
+        "S026"
+      ],
+      "episodesReperes": [
+        "S03E04"
+      ],
+      "limitesEtIncertitudes": "Le support ordinaire devient magique par cette préparation. Ne pas déduire que tous les balais du manoir volent ou neutralisent toute barrière. Le contexte historique et rituel doit être documenté pour une réutilisation.",
+      "descriptionCarteProposee": "Balai enchanté pouvant servir de support de déplacement et d'action magique dans le contexte de Samhain.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:077",
+      "titre": "Grimoire de Tuatha",
+      "canon": "Livre de magie de Tuatha contenant des formules, dont une action relative à la suppression des pouvoirs.",
+      "sources": [
+        "S091"
+      ],
+      "episodesReperes": [
+        "S02E06"
+      ],
+      "limitesEtIncertitudes": "Le contenu consultable ne s'exécute pas automatiquement. Aucune défense autonome analogue au Grimoire de la Source n'est établie. Le devenir de l'exemplaire après l'épisode reste à préciser.",
+      "descriptionCarteProposee": "Grimoire de Tuatha contenant des formules magiques, notamment liées aux pouvoirs.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:078",
+      "titre": "Grimoire des Phoenix",
+      "canon": "Livre lié aux sorcières Phoenix, dissimulé puis appelé dans l'intrigue de Bianca et de sa mère. Une formule d'inhibition des pouvoirs intervient dans son contenu.",
+      "sources": [
+        "S092"
+      ],
+      "episodesReperes": [
+        "S06E10"
+      ],
+      "limitesEtIncertitudes": "L'objet de tournage réutilisé depuis le grimoire de Tuatha ne prouve pas qu'il s'agit du même livre dans l'histoire. Possession du livre et aptitude à réaliser sa formule sont distinctes.",
+      "descriptionCarteProposee": "Grimoire des sorcières Phoenix, contenant notamment une formule liée à l'inhibition des pouvoirs.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:079",
+      "titre": "Camion du marchand de glaces",
+      "canon": "Véhicule dont la mélodie attire les enfants démoniaques vers un espace intérieur où le Néant les poursuit. Prue et Phoebe y sont aussi entraînées. Leurs pouvoirs actifs ne fonctionnent pas, mais Phoebe a une prémonition. Victor peut ouvrir un accès qui résiste à Prue.",
+      "sources": [
+        "S093",
+        "S094"
+      ],
+      "episodesReperes": [
+        "S03E10"
+      ],
+      "limitesEtIncertitudes": "Le Néant ne distingue pas le Bien du Mal. Ne pas dire que tous les pouvoirs, y compris passifs, sont annulés. Le camion, son composant musical, son opérateur et l'espace intérieur sont distincts ; ce n'est pas un véhicule de téléportation libre.",
+      "descriptionCarteProposee": "Camion magique attirant des enfants démoniaques vers un espace de captivité dangereux, susceptible d'engloutir aussi d'autres personnes.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    },
+    {
+      "id": "objets-magiques:080",
+      "titre": "Sceptre de moralité de l'Ordre",
+      "canon": "L'Ordre emploie un sceptre pour faire basculer Wyatt vers le Mal ; plusieurs tentatives précèdent le résultat. Piper l'utilise ensuite pour rétablir son orientation bénéfique.",
+      "sources": [
+        "S095"
+      ],
+      "episodesReperes": [
+        "S06E12"
+      ],
+      "limitesEtIncertitudes": "Ce changement ne prouve pas un contrôle détaillé de toutes les pensées ou de toutes les décisions. Le nombre de tentatives observé n'est pas un coût fixe applicable à toute cible. La résistance et les conditions d'usage contre d'autres êtres restent à établir.",
+      "descriptionCarteProposee": "Sceptre capable de modifier l'orientation morale d'un être vers le Bien ou le Mal, avec un effet réversible dans le cas montré.",
+      "provenanceAjustements": "Proposition d'ajout issue des sources web citées. Pas de fiche autonome correspondante dans le lot intégré objets:1–8 ni dans les sept fiches objets du premier dossier de recherche ; ce constat ne prétend pas exclure toute mention ailleurs dans le projet.",
+      "verification": "extraits_indexes_non_validation_exhaustive",
+      "status": "documented_partial"
+    }
+  ],
+  "review": "Structure, provenance, limites et correspondances revues. Sources secondaires et transcriptions non officielles conservées à leur niveau ; pas de validation audiovisuelle exhaustive ni de distribution automatique."
+}
