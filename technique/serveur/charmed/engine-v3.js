@@ -32,7 +32,9 @@ function refresh(s){for(const n of s.nodes){
  }
  // Contre-clé formée avant l'activation du verrou : si le verrou n'est finalement
  // pas établi, elle est sans objet. Elle tombe et rend ses pièces, sans les user.
- if(n.type==='key'&&!terminal(n)){
+ // Une contre-clé DÉJÀ RÉALISÉE a fait son travail : c'est elle qui a fait
+ // tomber le verrou. Elle ne devient jamais sans objet.
+ if(n.type==='key'&&!terminal(n)&&n.status!=='acquired'){
   const vise=s.nodes.find(x=>x.id===n.target);
   if(vise&&vise.type==='lock'&&vise.owner!==n.owner&&terminal(vise)){
    n.status='removed';n.voidReason='Le verrou visé n’a pas été établi : cette contre-clé est sans objet.';release(s,n);continue;
@@ -154,7 +156,14 @@ function applyResolution(s,j,list){requireRule(j&&Array.isArray(j.outcomes)&&Arr
   messages.push(n.title+' — '+(out.success?'réalisé : '+out.established:'échec : '+out.reason));
  }
  for(const f of j.facts){requireRule(typeof f==='string','Fait invalide.');if(!s.facts.includes(f)){s.facts.push(f);messages.push(f);}}
- for(const id of j.fallenLocks||[]){const n=node(s,id);requireRule(n.type==='lock'&&n.status==='active','Verrou à retirer invalide.');n.status='removed';release(s,n);}
+ // Un id qui ne désigne pas un verrou actif ne peut pas tomber : c'est sans
+ // effet, jamais une raison de refuser tout l'examen de la journée. Refuser
+ // bloquait la partie à la phase du matin, sans issue et sans message utile.
+ for(const id of j.fallenLocks||[]){
+  const n=s.nodes.find(x=>x.id===id);
+  if(!n||n.type!=='lock'||n.status!=='active')continue;
+  n.status='removed';release(s,n);
+ }
  refresh(s);
  for(const v of [...j.states].sort((a,b)=>Number(!!node(s,b.id).parent)-Number(!!node(s,a.id).parent))){const n=node(s,v.id);if(suspended(s,n.id))continue;requireRule(n.type==='state'&&typeof v.value==='boolean'&&v.reason?.trim(),'Constat invalide.');if(!v.value){if(n.status==='true'&&n.goalMode==='maintain')n.maintenanceBroken=true;n.status='open';n.supports=[];}else{
    requireRule(!blocks(s,n.id).length,'Un verrou actif empêche ce constat.');requireRule(Array.isArray(v.supports),'Preuves nécessaires.');if(n.status!=='true')requireRule(v.supports.length>0,'Un état faux exige des acquis constatés.');
