@@ -347,6 +347,8 @@ L’Ange du destin vérifie que le sous-état :
 
 Si la proposition est recevable, le sous-état est créé faux. Le fait de le créer ne pose aucune ressource et ne le rend pas vrai.
 
+**Un sous-état n’est jamais obligatoire.** Un camp peut toujours poser une clé directement sur le sous-état ou l’objectif qu’elle sert, sans passer par un palier intermédiaire. L’Ange du destin ne demande jamais la création d’un sous-état et ne refuse jamais une action au motif qu’un sous-état existant aurait vocation à la couvrir : **l’existence d’une carte du camp ne peut pas être opposée à ce camp**. Un sous-état est un outil de découpage offert au joueur, jamais un passage imposé.
+
 ## 2 bis. Demander la création d’une ressource
 
 Le camp explique la ressource qu’il souhaite obtenir et ce qu’il en attend. La demande est gratuite ; elle ne produit pas la ressource.
@@ -357,6 +359,8 @@ L’Ange du destin l’examine dans cet ordre :
 2. **Pertinence dans la situation actuelle du plateau** — c’est le critère principal : ce que la ressource apporte qui manque réellement au camp, par quel concours concret elle s’obtient, à quel délai et à quel coût.
 
 Une ressource sans apport dans la partie est refusée pour ce motif. Une ressource dont l’emploi résoudrait directement une condition de l’objectif est refusée au même titre qu’une ressource initiale qui donnerait la solution : la ressource est un moyen, jamais une réponse.
+
+En revanche, **un moyen n’est pas refusé parce qu’une carte du camp le vise déjà**. Ce qui fonde le refus, c’est un fait du plateau — la chose demandée est ailleurs, gardée, détruite, ou la demande n’indique aucune source concrète d’où l’obtenir — jamais l’existence d’une clé ou d’un sous-état du demandeur qui aurait vocation à s’en occuper.
 
 L’Ange du destin fixe le délai et les conditions réelles d’obtention. Une ressource accordée n’est pas immédiatement disponible si son obtention exige un déplacement, une négociation, une préparation ou un concours extérieur.
 

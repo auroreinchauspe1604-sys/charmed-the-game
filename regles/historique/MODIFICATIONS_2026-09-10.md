@@ -171,6 +171,16 @@ Sept lignes ajoutées, reprenant les points 1 à 8 ci-dessus.
 | **Après** | Un verrou décrit une obstruction **maintenue**, pas un événement révolu : quand il tombe, le fait qu'il avait établi cesse d'être vrai et quitte le plateau. Ce qu'il empêchait redevient possible sans action nouvelle. Une conséquence matérielle qui survit réellement doit être établie comme un fait à part entière, avec son propre motif. Un verrou contré avant d'être actif n'a rien établi du tout. |
 | **Motif** | Relevé par Aurore. Le verrou de la cuisine était tombé, et le plateau continuait d'affirmer que les sœurs ignoraient où était la réserve — alors qu'une prémonition acquise disait l'inverse. |
 
+## 18. L'existence d'une carte du camp ne peut pas lui être opposée
+
+**Ajout** — Partie 3, sections 2 et 2 bis.
+
+| | |
+|---|---|
+| **Avant** | Rien ne disait qu'un sous-état est facultatif. Une demande de ressource a été refusée au motif que « les reprendre est précisément l'objet du sous-état c12 » — c'est-à-dire au motif d'une carte que le demandeur avait lui-même créée. |
+| **Après** | Un sous-état n'est jamais obligatoire : une clé peut se poser directement sur le sous-état ou l'objectif qu'elle sert. L'Ange du destin ne demande jamais la création d'un palier intermédiaire et ne refuse jamais une action au motif qu'une carte du camp aurait vocation à la couvrir. Un moyen se refuse sur un fait du plateau — la chose est ailleurs, gardée, détruite, ou aucune source concrète n'est indiquée — jamais sur l'existence d'une clé ou d'un sous-état du demandeur. |
+| **Motif** | Relevé par Aurore. Le sous-état créé pour résoudre le problème est devenu la raison de refuser la solution : elle a payé un coup pour c12, et c12 a ensuite servi à lui refuser les ingrédients. Le sous-état n'était pas nécessaire — la clé de récupération pouvait se poser directement sur c1. |
+
 ## Examiné et écarté
 
 **Rendre gratuite la création d'un sous-état.** Proposé dans l'analyse du tempo, refusé par Aurore : créer un sous-état reste une action payante. Le gain de temps passe par la fenêtre de réaction et par l'anticipation, pas par la gratuité des déclarations d'intention.
