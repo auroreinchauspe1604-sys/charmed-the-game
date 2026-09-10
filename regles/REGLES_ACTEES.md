@@ -250,6 +250,8 @@ Une attaque reste une tentative jusqu’à sa date d’exécution. Son résultat
 
 Après sa révélation, le défenseur peut construire un verrou contre l’attaque ou l’un de ses éléments, ou engager une ressource pour renforcer directement la cible. Ces deux défenses produisent des effets différents et sont examinées avec l’attaque lors de sa résolution.
 
+**Une attaque résolue est définitive.** C’est ce qui la distingue du verrou : le verrou est une obstruction maintenue et ne laisse rien derrière lui quand il tombe, l’attaque est un événement qui a lieu une fois. Ce qu’elle détruit, consomme ou transfère l’est pour de bon, et aucune carte postérieure ne défait ce résultat — il faut une action nouvelle pour en changer les suites. Une attaque échouée est également définitive : elle est dépensée, et l’avantage concret qu’elle vaut au défenseur est un fait acquis comme un autre.
+
 ## 9. Événement
 
 Un événement est un fait ou une information de scénario associé à une date du calendrier. Il peut modifier la situation, annoncer une possibilité, faire arriver une ressource, créer une contrainte ou produire des effets différents pour les deux camps.
@@ -395,6 +397,12 @@ Une clé ne doit pas être refusée parce qu’un renfort facultatif aurait ét�
 ### 3.3 Formulation et portée
 
 La formulation de la clé détermine ce qu’elle pourra produire. Un camp ne peut pas lui attribuer après coup une portée plus large que celle qui a été acceptée.
+
+**L’Ange du destin n’ajoute rien que le camp n’ait dit.** Il reformule pour la clarté : il corrige la grammaire, restitue les gestes ordinaires implicites, nomme le changement obtenu. Il n’introduit ni personne, ni objet, ni lieu, ni condition, ni conséquence que la proposition ne comportait pas, et il ne complète pas la scène par ce qui lui paraît vraisemblable. Ce qui n’a pas été dit n’entre pas dans la carte.
+
+**Cette exigence vaut autant pour le fait établi à l’examen que pour la formulation initiale.** Le fait constaté énonce ce que la carte a produit, rien de plus : il ne décrit pas la situation alentour, ne tranche pas le sort de ce que la carte ne visait pas, et n’ajoute aucun élément dont le camp ne s’était pas prévalu. Un fait acquis engage la suite de la partie — tout ce qu’il contient en trop devient opposable au camp qui ne l’a jamais demandé.
+
+Si un élément non dit est réellement indispensable pour trancher, il relève de la question du camp adverse, jamais d’un ajout de l’arbitre.
 
 Une clé placée sur la voie principale doit établir directement une condition inscrite dans l’objectif initial. Si elle ne fait que préparer cette condition, elle doit être rattachée à un sous-état.
 
