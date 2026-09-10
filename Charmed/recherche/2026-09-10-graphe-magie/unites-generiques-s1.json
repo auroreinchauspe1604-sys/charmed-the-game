@@ -1,0 +1,288 @@
+{
+  "titre": "Unités génériques, saison 1 — les « sans nom » des deux camps",
+  "genereLe": "2026-09-10",
+  "statut": "proposition, non actée ; même vocabulaire que bestiaire-s1.json et camp-du-bien-s1.json",
+  "principe": "Une unité générique est un gabarit réutilisable : on l'instancie autant de fois que le scénario le demande, sans nom ni intrigue propre. Ses valeurs sont le minimum commun de tous les cas nommés de la saison 1 qui relèvent de ce type.",
+  "avertissement": "Aucun chiffre inventé. `effectif` dit seulement si le type agit seul ou en groupe dans la série ; le nombre exact reste une décision de scénario.",
+
+  "mal": [
+    {
+      "id": "warlock",
+      "nom": "Warlock",
+      "role": "l'ennemi de base de la saison 1",
+      "effectif": "seul, mais nombreux dans le monde",
+      "rang": 2,
+      "fentes": [
+        {"fente": "deguisement", "portee": "contact", "note": "vit comme un mortel"},
+        {"fente": "teleportation", "portee": "vue", "note": "clignement"},
+        {"fente": "absorption", "portee": "contact", "note": "meurtre rituel à l'athamé"}
+      ],
+      "immunites": [],
+      "vulnerabilites": ["une sorcière qui n'est pas isolée", "son supérieur, s'il échoue"],
+      "loi": {"proie": "sorcières, surtout isolées", "motivation": "voler des pouvoirs", "condition": "le vol exige un meurtre rituel"},
+      "cleParDefaut": [
+        {"moyen": "Pouvoir des Trois", "rangMoyen": 3, "issue": "detruit"},
+        {"moyen": "sort nommé du Livre", "rangMoyen": 2, "issue": "detruit"}
+      ],
+      "comportement": "s'infiltre, isole une sorcière, frappe ; fuit s'il affronte les trois",
+      "fondement": ["warlock-athame", "matthew-tate", "nicholas", "rex-et-hannah", "coven-rowe"],
+      "statut": "E",
+      "preuve": "I'm not the only one! I'm one of millions."
+    },
+    {
+      "id": "metamorphe",
+      "nom": "Métamorphe",
+      "role": "infiltrateur",
+      "effectif": "groupe",
+      "rang": 2,
+      "fentes": [
+        {"fente": "deguisement", "portee": "contact", "note": "copie le corps, pas les souvenirs"},
+        {"fente": "acces", "portee": "lieu", "note": "entre sur invitation ou par une porte ouverte"}
+      ],
+      "immunites": [],
+      "vulnerabilites": ["une question sur un souvenir", "un sort d'expulsion dans la maison"],
+      "loi": {"proie": "le Livre des Ombres", "motivation": "le voler", "condition": "une sœur doit lui faire franchir le seuil avec le Livre"},
+      "cleParDefaut": [
+        {"moyen": "sort d'expulsion", "rangMoyen": 2, "issue": "detruit"}
+      ],
+      "comportement": "prend l'apparence d'un proche, évite l'affrontement direct",
+      "fondement": ["metamorphes"],
+      "statut": "E",
+      "preuve": "They're shape-shifters."
+    },
+    {
+      "id": "suivant-demoniaque",
+      "nom": "Suivant démoniaque",
+      "role": "serviteur d'un démon majeur",
+      "effectif": "groupe",
+      "rang": 0,
+      "fentes": [
+        {"fente": "force", "portee": "contact"},
+        {"fente": "deguisement", "portee": "contact"}
+      ],
+      "immunites": [],
+      "vulnerabilites": ["le gel", "le sort de son maître : banni avec lui"],
+      "loi": {"proie": "innocents et ennemis du maître", "motivation": "servir", "condition": "lié à son maître"},
+      "cleParDefaut": [
+        {"moyen": "vaincre son maître", "rangMoyen": null, "issue": "banni"}
+      ],
+      "comportement": "garde, tue les mortels gênants",
+      "fondement": ["hecate"],
+      "statut": "E",
+      "note": "rang 0 par défaut : rien dans le dialogue ne dit qu'il faut plus que la force pour en arrêter un"
+    },
+    {
+      "id": "grimlock",
+      "nom": "Grimlock",
+      "role": "chasseur d'auras",
+      "effectif": "groupe",
+      "rang": 2,
+      "fentes": [
+        {"fente": "absorption", "portee": "contact", "note": "vole la vue d'un enfant"},
+        {"fente": "perception", "portee": "vue", "note": "voit les auras du bien"},
+        {"fente": "force", "portee": "vue", "note": "étrangle à distance"}
+      ],
+      "immunites": [],
+      "vulnerabilites": ["le gel", "sans vue volée, il ne voit pas les auras"],
+      "loi": {"proie": "êtres à l'aura bonne", "motivation": "tuer le bien", "condition": "vue volée valable 24 h tant que l'enfant vit"},
+      "cleParDefaut": [
+        {"moyen": "potion aveuglante à la schisandra", "rangMoyen": 2, "issue": "detruit"}
+      ],
+      "comportement": "enlève des enfants, repère, étrangle ; vit sous terre",
+      "fondement": ["grimlocks"],
+      "statut": "E",
+      "preuve": "Keep on freezing those Grimlocks - until I get there."
+    },
+    {
+      "id": "etre-des-tenebres",
+      "nom": "Être des ténèbres",
+      "role": "chasseur des Êtres de lumière",
+      "effectif": "seul",
+      "rang": 2,
+      "fentes": [
+        {"fente": "pistage", "portee": "exceptionnelle"},
+        {"fente": "outil", "portee": "vue", "note": "arbalète, flèches empoisonnées"},
+        {"fente": "energie", "portee": "contact", "note": "toucher de mort"}
+      ],
+      "immunites": [],
+      "vulnerabilites": ["une proie occultée lui échappe"],
+      "loi": {"proie": "Êtres de lumière et futurs Êtres de lumière", "motivation": "les tuer", "condition": null},
+      "cleParDefaut": [
+        {"moyen": "retourner son propre pouvoir contre lui", "rangMoyen": 2, "issue": "detruit"}
+      ],
+      "comportement": "traque, tire, séduit sa proie",
+      "fondement": ["etre-des-tenebres"],
+      "statut": "E"
+    },
+    {
+      "id": "esprit-malefique",
+      "nom": "Esprit maléfique",
+      "role": "mort revenu nuire",
+      "effectif": "seul",
+      "rang": 2,
+      "fentes": [
+        {"fente": "possession", "portee": "hote"},
+        {"fente": "force", "portee": "contact"}
+      ],
+      "immunites": [
+        {"famille": "fente", "detail": "les pouvoirs des sorcières n'agissent pas sur lui tant qu'il est désincarné"},
+        {"famille": "destruction", "detail": "on ne peut pas le vaincre sur le plan physique"}
+      ],
+      "vulnerabilites": ["incarné dans un hôte, il peut être figé", "l'eau le bloque sans hôte"],
+      "loi": {"proie": null, "motivation": "vengeance ou désir de revivre", "condition": "lié à un lieu, un objet ou sa tombe"},
+      "cleParDefaut": [
+        {"moyen": "sort de bannissement depuis le plan astral", "rangMoyen": 2, "issue": "banni"},
+        {"moyen": "détruire l'objet qui le lie", "rangMoyen": 2, "issue": "detruit"}
+      ],
+      "comportement": "cherche un hôte, frappe ceux qui l'ont lésé",
+      "fondement": ["kali", "woogyman", "jackson-ward"],
+      "statut": "E"
+    },
+    {
+      "id": "mortel-hostile",
+      "nom": "Mortel hostile",
+      "role": "criminel ou menace ordinaire",
+      "effectif": "seul ou groupe",
+      "rang": 0,
+      "fentes": [
+        {"fente": "force", "portee": "contact"},
+        {"fente": "outil", "portee": "vue", "note": "arme ordinaire"}
+      ],
+      "immunites": [],
+      "vulnerabilites": ["tous les pouvoirs agissent sur lui"],
+      "loi": {"proie": "variable", "motivation": "gain ordinaire", "condition": null},
+      "cleParDefaut": [
+        {"moyen": "force ou pouvoir, sans le tuer", "rangMoyen": 0, "issue": "neutralise"}
+      ],
+      "contrainte": "règle morale : la sorcière ne doit pas le tuer",
+      "comportement": "menace un proche pour contraindre",
+      "fondement": ["S01E14", "S01E19"],
+      "statut": "E"
+    },
+    {
+      "id": "mortel-pactisant",
+      "nom": "Mortel pactisant",
+      "role": "humain qui a vendu quelque chose au mal",
+      "effectif": "seul",
+      "rang": 0,
+      "fentes": [
+        {"fente": "lien", "portee": "contact", "note": "sert le démon avec qui il a pactisé"}
+      ],
+      "immunites": [],
+      "vulnerabilites": ["le pacte est irrévocable : il ne peut pas se retirer"],
+      "loi": {"proie": null, "motivation": "richesse, jeunesse ou pouvoir", "condition": "le pacte coûte un proche"},
+      "cleParDefaut": [],
+      "comportement": "livre au démon ce que le pacte exige",
+      "fondement": ["hecate"],
+      "statut": "E"
+    }
+  ],
+
+  "bien": [
+    {
+      "id": "sorciere-novice",
+      "nom": "Sorcière novice",
+      "role": "sorcière isolée qui ne maîtrise pas encore son pouvoir",
+      "effectif": "seule",
+      "pouvoirs": [
+        {"fente": "au choix : telekinesie, contrainte ou premonition", "portee": "piece", "rangMoyen": 0, "declencheur": "émotion non maîtrisée", "sansEffetSur": ["sorcière bonne"]}
+      ],
+      "vulnerabilites": ["isolée : cible de choix pour un warlock", "la peur paralyse son pouvoir", "sans Livre des Ombres"],
+      "obligations": ["règle morale", "secret"],
+      "comportement": "cache son pouvoir, appelle à l'aide quand elle est menacée",
+      "fondement": ["max", "victimes de S01E01"],
+      "statut": "E"
+    },
+    {
+      "id": "sorciere-eveillee",
+      "nom": "Sorcière de lignée éveillée",
+      "role": "sorcière qui a son Livre et a commencé à maîtriser son pouvoir",
+      "effectif": "seule",
+      "pouvoirs": [
+        {"fente": "au choix", "portee": "piece", "rangMoyen": 0, "declencheur": "émotion propre au pouvoir, ou volonté après pratique", "sansEffetSur": ["sorcière bonne", "esprit désincarné"]}
+      ],
+      "moyens": ["formule", "consommable", "savoir (Livre des Ombres)"],
+      "vulnerabilites": ["la peur", "l'entrave du canal corporel", "un warlock copieur"],
+      "obligations": ["règle morale", "bénéfice personnel", "secret", "protéger les innocents"],
+      "comportement": "consulte le Livre, identifie la clé, prépare sort ou potion",
+      "fondement": ["prue", "piper", "phoebe"],
+      "statut": "E"
+    },
+    {
+      "id": "innocent",
+      "nom": "Innocent",
+      "role": "mortel à protéger",
+      "effectif": "seul ou foule",
+      "pouvoirs": [
+        {"fente": "force", "portee": "contact", "rangMoyen": 0}
+      ],
+      "vulnerabilites": ["tous les pouvoirs et attaques agissent sur lui", "peut être possédé, envoûté, pactiser"],
+      "perception": "en général ne voit ni les fantômes ni la magie ; exceptions constatées",
+      "memoire": "oublie à la fin d'un sort ou pendant un gel",
+      "comportement": "témoin, victime ou enjeu",
+      "fondement": ["S01E01-S01E22"],
+      "statut": "E"
+    },
+    {
+      "id": "mortel-allie",
+      "nom": "Mortel allié",
+      "role": "mortel qui connaît le secret",
+      "effectif": "seul",
+      "pouvoirs": [
+        {"fente": "autorite", "portee": "contact", "rangMoyen": 0},
+        {"fente": "force", "portee": "contact", "rangMoyen": 0}
+      ],
+      "vulnerabilites": ["mortel", "levier de chantage pour le mal", "peut trahir le secret malgré lui"],
+      "comportement": "couvre les sorcières, enquête pour elles",
+      "fondement": ["andy"],
+      "statut": "E"
+    },
+    {
+      "id": "ordre-mortel",
+      "nom": "Membre d'un ordre mortel",
+      "role": "prêtre ou initié qui combat un mal précis",
+      "effectif": "groupe",
+      "pouvoirs": [
+        {"fente": "formule", "portee": "contact", "rangMoyen": 2, "note": "arme liée + formule transmise"}
+      ],
+      "vulnerabilites": ["mortel", "échoue seul face au mal qu'il combat"],
+      "comportement": "garde un secret, transmet l'arme ou la formule",
+      "fondement": ["father-trask"],
+      "statut": "E"
+    },
+    {
+      "id": "etre-de-lumiere",
+      "nom": "Être de lumière",
+      "role": "guide des sorcières",
+      "effectif": "seul, un par groupe de protégées",
+      "pouvoirs": [
+        {"fente": "savoir", "portee": "contact", "rangMoyen": null, "note": "guérison par amour, pas sur soi"},
+        {"fente": "invisibilite", "portee": "exceptionnelle", "rangMoyen": null, "note": "occultation d'un protégé"},
+        {"fente": "vecteur", "portee": "exceptionnelle", "rangMoyen": null, "note": "télépathie avec ses protégées"}
+      ],
+      "vulnerabilites": ["flèche d'un Être des ténèbres", "interdit d'aimer une sorcière", "rappel par les Fondateurs"],
+      "comportement": "conseille, soigne, n'agit pas à la place des sorcières",
+      "fondement": ["leo"],
+      "statut": "E"
+    },
+    {
+      "id": "fantome-bienveillant",
+      "nom": "Fantôme",
+      "role": "mort qui demande de l'aide",
+      "effectif": "seul",
+      "pouvoirs": [
+        {"fente": "vecteur", "portee": "contact", "rangMoyen": null, "note": "parle à qui peut le voir"}
+      ],
+      "vulnerabilites": ["collecteur d'âmes si son corps n'est pas enterré", "talisman qui le bloque"],
+      "limites": ["ne peut pas toucher les vivants", "seules les sorcières le voient, en général"],
+      "comportement": "cherche une sorcière pour régler une affaire inachevée",
+      "fondement": ["S01E04"],
+      "statut": "E"
+    }
+  ],
+
+  "horsSaison1": {
+    "note": "Types génériques qui n'apparaissent qu'à partir de la saison 2 ; ils seront renseignés quand ces saisons seront lues. Aucune valeur n'est proposée d'ici là.",
+    "aDocumenter": ["démon de bas niveau", "démon de haut niveau", "chasseur de primes démoniaque", "sorcière maléfique", "génération suivante de sorcières novices"]
+  }
+}
