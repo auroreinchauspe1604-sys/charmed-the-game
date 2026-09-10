@@ -34,6 +34,10 @@ class Service{
    if(!verdict.accepted){s.arbitration.push({day:s.day,text:'Question irrecevable : '+verdict.reason+' Aucun coup ni droit de question consommé.'});return;}
    return E.question(s,camp,a.target,a.text);
   }
+  // Consulter un document qu'on détient est un geste ordinaire : gratuit, sans
+  // examen ni délai. Le contenu est fixé d'avance dans le scénario ; l'Ange n'a
+  // rien à juger, il transmet. Ce qu'on en FAIT ensuite reste une contribution.
+  if(a.type==='consult'){E.checkTurn(s,camp);E.consult(s,camp,a.resource);return;}
   if(a.type==='answer'){E.checkTurn(s,camp);E.submitAnswer(s,camp,a.target,a.text);return;}
   if(a.type==='end'){E.endPassage(s,camp);return;}
   throw new E.RuleError('Action inconnue.');

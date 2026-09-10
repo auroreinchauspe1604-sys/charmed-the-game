@@ -163,6 +163,10 @@ Une carte Personnage n’est nécessaire, comme une carte Lieu, que lorsqu’ell
 
 ### 4.2 Objet, formule, potion et autre moyen
 
+**Consulter un document que l’on détient est une action gratuite.** Ouvrir une enveloppe, lire un registre ou examiner ce qu’une carte porte écrit est un geste ordinaire : le contenu est fixé d’avance, l’Ange du destin n’a rien à juger, il le transmet immédiatement et sans délai. Ce contenu n’est connu que du camp qui a réellement consulté, et une consultation suffit — relire n’apprend rien de neuf.
+
+Ce que le camp FAIT ensuite de ce qu’il a lu — l’opposer, l’interpréter, le porter devant quelqu’un, en tirer un effet — reste une contribution entière, avec son coup payant et son examen.
+
 Une carte Objet décrit la nature de l’objet, sa fonction et ses propriétés pertinentes. Une formule ou une potion indique sa fonction propre sans dicter la scène complète dans laquelle elle doit être employée.
 
 La description distingue ce que la ressource **peut permettre** de ce qu’elle **a déjà accompli**. Posséder des cristaux capables de protéger ou de confiner ne signifie pas qu’un dispositif de protection est déjà actif.
@@ -329,6 +333,7 @@ Sont gratuites, dans les conditions prévues par leur règle propre :
 - répondre à une question ;
 - demander la création ou l’obtention d’une nouvelle ressource ;
 - consulter les cartes, les faits établis, les questions, les réponses et les messages déjà accessibles ;
+- **consulter un document que l’on détient** et en apprendre le contenu ;
 - corriger la formulation d’une proposition avant qu’elle soit acceptée et jouée.
 
 Une action gratuite ne produit pas gratuitement un fait, une ressource ou un effet. Demander la création d’une ressource permet seulement d’examiner si elle peut être obtenue et par quels moyens.

@@ -141,6 +141,23 @@ function adjudicateAnswer(s,id,p){const q=s.questions.find(q=>q.id===id);require
  s.arbitration.push({day:s.day,text:p.accepted?(p.missing?'Justification recevable ; la contribution reste à compléter suivant le chemin justifié.':p.reason):'Justification refusée : '+p.reason+(n.type==='state'?' L’état est faux ; son objectif reste sur le plateau.':' La contribution est retirée sans seconde réponse.')});refresh(s);
 }
 function answer(s,camp,id,text,p){submitAnswer(s,camp,id,text);adjudicateAnswer(s,id,p);}
+// Consulter un document détenu : action gratuite, contenu fixe, aucun délai.
+// Le contenu n'est transmis qu'après une consultation effective, et une seule
+// fois : la relecture n'apporte rien de neuf.
+function consult(s,camp,rid){
+ checkTurn(s,camp);
+ const r=resource(s,rid);
+ requireRule(r.owner===camp,'Vous ne pouvez consulter qu’un document que vous détenez.');
+ requireRule(availability(s,r)!=='lost'&&availability(s,r)!=='incoming'&&availability(s,r)!=='preparing','Ce document n’est pas encore entre vos mains.');
+ const contenu=(scenario.privateFacts?.documents||{})[r.title];
+ requireRule(contenu,'Cette carte ne porte aucun contenu à consulter.');
+ r.consultedBy=[...new Set([...(r.consultedBy||[]),camp])];
+ // Le contenu va au fil du camp qui consulte, jamais au fil commun : lire un
+ // document n'apprend rien à l'adversaire.
+ const message={day:s.day,text:'Consultation de « '+r.title+' » : '+contenu};
+ if(camp==='phoebe')s.arbitration.push(message);else s.opponent.push(message);
+ return r;
+}
 function endPassage(s,camp){checkTurn(s,camp);for(const q of s.questions.filter(q=>!q.resolved&&node(s,q.target).owner===camp&&q.answerDueDay<=s.day))q.opportunityPassed=true;s.spent[camp]=true;s.phase=camp==='phoebe'?'ai':'morning';}
 
 function usable(s,n,day){return n.pieces.every(id=>{const r=resource(s,id);return !r.lost&&!r.consumed&&r.owner===n.owner&&r.availableDay<=day&&!(r.recoveryUntil>day)&&!blocks(s,id).length;});}
@@ -225,7 +242,10 @@ function finishMorning(s,j){const list=immediateCandidates(s);const messages=[..
 function morning(s,j){prepareMorning(s);finishMorning(s,j);}
 function publicView(s){const v=clone(s);v.camps=scenario.camps;v.finalDay=scenario.finalDay;v.calendar=clone(scenario.calendar).map(e=>({...e,timing:e.morning<s.day?'passé':e.morning===s.day?'aujourd’hui':'à venir'}));delete v.morningMessages;
  for(const n of v.nodes){if(n.type!=='attack'){delete n.requiredCount;delete n.missing;}delete n.recovery;delete n.maintainers;if(n.type==='attack'&&s.day<n.revealDay){for(const k of ['requiredCount','missing','delay','dueDay','effect','dependsOn','deadlineReady'])delete n[k];}n.suspended=suspended(s,n.id);n.blockedBy=blocks(s,n.id).map(x=>x.id);if(n.type==='state')n.value=n.status==='true';}
- for(const r of v.resources){r.availability=availability(s,r);r.frozenBy=[];}
+ // Un document porte un contenu fixe consultable ; on signale son existence sans
+ // rien dire de ce qu'il contient, et sans révéler qui l'a déjà lu.
+ const documents=scenario.privateFacts?.documents||{};
+ for(const r of v.resources){r.availability=availability(s,r);r.frozenBy=[];r.document=Object.hasOwn(documents,r.title);r.consultedBy=(r.consultedBy||[]).filter(c=>c==='phoebe');}
  return v;
 }
-module.exports={initial,clone,RuleError,requireRule,node,resource,availability,refresh,publicView,checkTurn,spend,propose,place,validatePlace,defend,withdraw,question,answer,submitAnswer,adjudicateAnswer,endPassage,morning,morningCandidates,immediateCandidates,prepareMorning,finishMorning,applyResolution,targetCheck,discoveryFeedback};
+module.exports={initial,clone,RuleError,requireRule,node,resource,availability,refresh,publicView,checkTurn,spend,propose,place,validatePlace,defend,withdraw,question,answer,submitAnswer,adjudicateAnswer,consult,endPassage,morning,morningCandidates,immediateCandidates,prepareMorning,finishMorning,applyResolution,targetCheck,discoveryFeedback};

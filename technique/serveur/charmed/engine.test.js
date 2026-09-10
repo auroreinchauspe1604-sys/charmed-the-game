@@ -201,6 +201,25 @@ test('carte annulée faute d’objet : ce qu’elle avait consommé revient en m
  assert.equal(E.availability(s,E.resource(s,mienne.id)),'free');
 });
 
+// Règle du 10/09/2026 : consulter un document qu'on détient est gratuit, le
+// contenu est fixe, et il ne va qu'au fil du camp qui consulte.
+test('consultation d’un document : gratuite, immédiate, privée',()=>{
+ const s=E.initial();
+ const documents=require('./scenario').privateFacts?.documents||{};
+ const titre=Object.keys(documents)[0];
+ if(!titre)return; // scénario sans document : rien à vérifier
+ const r=s.resources.find(x=>x.title===titre)||s.resources.find(x=>x.owner==='phoebe');
+ r.title=titre;r.owner='phoebe';r.availableDay=1;
+ const avantOpponent=s.opponent.length;
+ E.consult(s,'phoebe',r.id);
+ assert.equal(s.spent.phoebe,false,'la consultation ne coûte pas le coup payant');
+ assert.match(s.arbitration.at(-1).text,/Consultation de/);
+ assert(s.arbitration.at(-1).text.includes(String(documents[titre]).slice(0,40)),'le contenu fixe est transmis');
+ assert.equal(s.opponent.length,avantOpponent,'rien n’est dit à l’adversaire');
+ assert.deepEqual(E.publicView(s).resources.find(x=>x.id===r.id).consultedBy,['phoebe']);
+ assert.throws(()=>E.consult(s,'phoebe','grenier'),/aucun contenu à consulter/);
+});
+
 test('un lieu ne peut être ni attaqué ni volé',()=>{
  const s=E.initial();
  assert.throws(()=>E.targetCheck(s,'commanditaire','attack','refuge'),/lieu ne peut être ni attaqué ni volé/i);
