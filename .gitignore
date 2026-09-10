@@ -2,3 +2,8 @@ __pycache__/
 *.pyc
 etat/joueurs/
 node_modules/
+# Verrous et fils de session : etat d execution, jamais de la partie.
+*.lock
+technique/rapports/serveur*.log
+etat/charmed/*/sessions/
+etat/charmed/*/sessions-*/
