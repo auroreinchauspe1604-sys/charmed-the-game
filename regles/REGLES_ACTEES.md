@@ -584,6 +584,10 @@ Une ressource unique ne peut pas être dupliquée. Une potion peut être reprodu
 - les attaques arrivées à leur date d’exécution ;
 - les effets et événements dont l’échéance est atteinte.
 
+**Une carte se juge sur le plateau du jour de son examen, pas sur celui du jour où elle a été posée.** Si le fait sur lequel elle repose a quitté le plateau entre-temps — verrou tombé, état redevenu faux, ressource perdue —, elle ne peut pas être établie : son objet a disparu. Le camp qui l’a posée ne perd que cette carte et ses moyens engagés, jamais les faits qu’il avait déjà acquis.
+
+Cette vérification porte sur ce que la carte **dit**, mot pour mot, et non sur ce qu’elle aurait pu dire. Une carte adossée à une situation nommée tombe avec cette situation ; une carte adossée à la chose elle-même y survit.
+
 Il ne valide pas une clé à chaque pose de ressource et ne rend pas de verdict final sur une carte suspendue avant l’examen de sa réponse.
 
 L’Ange du destin juge la proposition complète à partir de l’effet annoncé, des ressources engagées, des faits établis, des obstacles et de la réponse éventuelle. Il n’exige pas que chaque détail ordinaire du déplacement ou de la narration soit représenté par une carte distincte.
@@ -996,4 +1000,6 @@ Les questions qui restent réellement ouvertes sont présentées séparément à
 | 10 septembre 2026 | **La contre-clé se forme sur un verrou prêt** (Partie 3, §4) : un verrou prêt est contestable pendant son délai de réaction, comme une attaque révélée se défend avant sa résolution. La contre-clé ne produit aucun effet avant l’activation du verrou et tombe sans objet, ressources rendues, si le verrou n’est pas établi. | Règle validée par Aurore ; appliquée au moteur et à l’interface. |
 | 10 septembre 2026 | **Tempo.** La fenêtre de réaction s’ouvre une seule fois et ne se renouvelle plus à chaque renfort (Partie 3, §6). Une contribution peut être posée en anticipation d’une autre encore en cours : elle attend son sort au lieu d’être refusée d’avance, et tombe avec elle si celle-ci échoue (Partie 3, §6.1). Créer un sous-état reste payant, proposition examinée et écartée. | Règles validées par Aurore ; appliquées au moteur. |
 | 10 septembre 2026 | **Le fait produit par un verrou n’est acquis que tant que le verrou tient** (Partie 3, §4) : un verrou décrit une obstruction maintenue ; quand il tombe, son fait quitte le plateau et ce qu’il empêchait redevient possible sans action nouvelle. | Règle validée par Aurore ; appliquée au moteur. |
+| 10 septembre 2026 | **L’existence d’une carte du camp ne peut pas lui être opposée** (Partie 3, §2 et §2 bis) : un sous-état n’est jamais obligatoire, une clé peut se poser directement sur l’objectif qu’elle sert, et un moyen ne se refuse que sur un fait du plateau. | Règle validée par Aurore. |
+| 10 septembre 2026 | **Une carte se juge sur le plateau du jour de son examen** (Partie 3, §10) : si le fait qui la fondait a quitté le plateau, elle ne peut pas être établie. La vérification porte sur ce que la carte dit, mot pour mot. | Règle validée par Aurore. |
 | 10 septembre 2026 | **Ce qui est visible sur le plateau est connu des deux camps** (Partie 4, §5) : les cartes adverses posées, leur nature et leur description publique sont une connaissance commune, opposable à l’Ange du destin. | Règle nouvelle, issue de la contestation du verdict c4 du 10 septembre. |

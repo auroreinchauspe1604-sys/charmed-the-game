@@ -181,6 +181,16 @@ Sept lignes ajoutées, reprenant les points 1 à 8 ci-dessus.
 | **Après** | Un sous-état n'est jamais obligatoire : une clé peut se poser directement sur le sous-état ou l'objectif qu'elle sert. L'Ange du destin ne demande jamais la création d'un palier intermédiaire et ne refuse jamais une action au motif qu'une carte du camp aurait vocation à la couvrir. Un moyen se refuse sur un fait du plateau — la chose est ailleurs, gardée, détruite, ou aucune source concrète n'est indiquée — jamais sur l'existence d'une clé ou d'un sous-état du demandeur. |
 | **Motif** | Relevé par Aurore. Le sous-état créé pour résoudre le problème est devenu la raison de refuser la solution : elle a payé un coup pour c12, et c12 a ensuite servi à lui refuser les ingrédients. Le sous-état n'était pas nécessaire — la clé de récupération pouvait se poser directement sur c1. |
 
+## 19. Une carte se juge sur le plateau du jour de son examen
+
+**Ajout** — Partie 3, section 10.
+
+| | |
+|---|---|
+| **Avant** | Rien ne disait explicitement ce qu'il advient d'une carte dont la situation qui la fondait a disparu entre sa pose et son examen. |
+| **Après** | Une carte se juge sur le plateau du jour de son examen, pas sur celui du jour où elle a été posée. Si le fait sur lequel elle repose a quitté le plateau — verrou tombé, état redevenu faux, ressource perdue —, elle ne peut pas être établie. La vérification porte sur ce que la carte **dit**, mot pour mot : une carte adossée à une situation nommée tombe avec cette situation, une carte adossée à la chose elle-même y survit. |
+| **Motif** | Relevé par Aurore, et conséquence directe de la règle 17. Le verrou « Zankou garde la cachette » a été posé quand une cachette existait ; le verrou qui l'établissait est tombé depuis. « Garder la cachette » et « garder les ingrédients » ne sont pas la même carte, et le camp qui pose est tenu par les mots qu'il a choisis. |
+
 ## Examiné et écarté
 
 **Rendre gratuite la création d'un sous-état.** Proposé dans l'analyse du tempo, refusé par Aurore : créer un sous-état reste une action payante. Le gain de temps passe par la fenêtre de réaction et par l'anticipation, pas par la gratuité des déclarations d'intention.
