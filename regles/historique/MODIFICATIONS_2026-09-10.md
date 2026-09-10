@@ -111,6 +111,26 @@ Validée par Aurore le 10 septembre 2026. Sauvegarde des fichiers d'origine dans
 
 Sept lignes ajoutées, reprenant les points 1 à 8 ci-dessus.
 
+## 12. L'acte composé n'est pas une ambiguïté
+
+**Ajout** — Partie 3, section 0.
+
+| | |
+|---|---|
+| **Avant** | La règle écrite ne connaissait que l'ambiguïté de sens : « deux lectures qui produiraient deux cartes différentes ». La précision figurait dans les consignes d'arbitrage, donc nulle part dans les règles. |
+| **Après** | Une proposition qui enchaîne plusieurs effets liés, vise plusieurs objets de même nature ou se déroule en plusieurs temps donne **une seule carte** couvrant l'ensemble annoncé ; les moyens s'apprécient à la mesure de cet ensemble et une réalisation partielle s'établit comme fait partiel. Une conséquence énoncée après l'acte n'ouvre aucune seconde lecture. |
+| **Motif** | Trois refus consécutifs pour « ambiguïté » sur des propositions parfaitement claires. La formulation de la règle invitait à cette lecture ; une consigne d'arbitrage ne pouvait pas la corriger, puisque les règles doivent primer. |
+
+## 13. Ce qui est visible sur le plateau est connu des deux camps
+
+**Ajout** — Partie 4, section 5.
+
+| | |
+|---|---|
+| **Avant** | Les connaissances d'un camp comprenaient « les informations publiques du plateau », sans dire que la description publique d'une carte adverse en fait partie ni que cette connaissance est opposable à l'arbitre. |
+| **Après** | Les cartes adverses posées, leur nature et leur description publique sont une connaissance commune, au même titre qu'un fait acquis. L'Ange du destin ne peut pas refuser une proposition au motif qu'un camp ignorerait ce que la description publique d'une ressource adverse énonce. Restent privés : justifications, recettes, plans non joués et exigences d'une attaque avant révélation. |
+| **Motif** | Contestation du verdict sur la clé c4. L'Ange avait écrit qu'aucun fait du plateau n'établissait la nature des démons du camp adverse, alors que les deux cartes portent « Démon de bas grade » dans leur description publique. |
+
 ---
 
 ## Ce qui n'a pas été modifié, après examen
