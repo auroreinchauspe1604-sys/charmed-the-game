@@ -1,49 +1,17 @@
-# Entrée des tours IA
+# Appels de jeu
 
-Chaque appel est construit dans `serveur/charmed/intelligence-v3.js` avec la même consigne :
+`python jeu.py` lance le site sur http://localhost:3129.
 
-> Joue ce tour selon les règles. Utilise les appels disponibles.
+Chaque message de la joueuse appelle une seule session MJ. Elle reçoit les règles, le plateau courant, les pointeurs documentaires, les appels disponibles et les nouveaux messages du fil. La consigne est : « Joue ce tour selon les règles. Utilise les appels disponibles. »
 
-Le JSON transmis contient :
+Le MJ effectue les opérations du moteur par outils : proposer, poser, questionner, répondre, juger une réponse, terminer un passage, résoudre, préparer et finir le matin, publier. Ces opérations ne font aucun appel IA. Il décide des appels et de leur ordre selon les règles.
 
-- `tour` : la demande en cours et ses données (camp, proposition, question, candidats à résoudre).
-- `regles` : le contenu intégral de `Charmed/REGLES_ACTEES.md`.
-- `plateau` : l'état actuel visible pour cet appel, sans les messages déjà transmis.
-- `fil` : seulement les nouveaux messages d’arbitrage, de radio et du récit adverse.
-- `pointeurs` : les documents consultables.
-- `appels` : le catalogue des outils et leurs paramètres.
+L’outil `opponent` appelle une seconde session avec les règles, son plateau et ses connaissances. Elle consulte ses outils de lecture et renvoie son prochain coup au MJ. Le MJ en applique le jugement et les conséquences. Aucun arbitre intermédiaire.
 
-Aucun champ `role`, aucune personnalité spéciale, aucune surinstruction ajoutée selon une chaîne de caractères. Les références ne sont plus injectées intégralement dans le prompt.
+`jeu.py --appel` exécute `claude -p` avec le message sur stdin. La première invocation utilise un UUID dérivé de la seed de partie et du fil ; les suivantes utilisent `--continue` dans le dossier propre à cette session. Les curseurs retirent les anciens messages du prompt. Le pointeur `arbitrage` permet une relecture explicite.
 
-## Appels
+`serveur/charmed/jeu.js` expose les outils du moteur et l’appel à Python. `agent-mcp.js` transporte ces outils. `store.js` enregistre un état complet après réussite du tour ; une erreur annule la transaction. Aucun code serveur ou écran ne choisit les phases à enchaîner.
 
-Les outils sont servis par un endpoint MCP local temporaire, connecté à `claude -p` pour la durée de l'appel.
+Les parties restent dans `etat/`. Les anciens chemins sous `technique/serveur` rejoignent le même serveur.
 
-| Appel | Résultat |
-| --- | --- |
-| `plateau()` | Le plateau actualisé. |
-| `lire({pointeur, chemin?, debut?, limite?})` | Les champs d'un document, un fragment JSON ou une page de liste. |
-| `chercher({pointeur, texte, limite?})` | Les valeurs correspondantes et leurs chemins JSON. |
-| `jouer({type, kind?, target?, resource?, text?})` | Le résultat du geste et le plateau actualisé. `type: "end"` termine le passage. |
-
-Tous les appels disposent du pointeur `arbitrage` pour relire ou rechercher les avis précédents. Les sessions Claude persistent. Leur UUID est dérivé de la seed de partie et du fil. Le premier appel utilise `--session-id`, les suivants `--continue` dans un dossier propre à cet UUID. Les compteurs des messages déjà transmis sont conservés ; seuls les nouveaux messages sont envoyés. Le fil complet reste consultable explicitement.
-
-Le passage adverse dispose de `jouer` et du pointeur `connaissances`. Les demandes d'examen disposent des pointeurs `scenario`, `faits`, `canon`, `bibliotheque`, `personnages`, `magie` et `construction`. Cette disponibilité est définie par les fonctions appelantes ; elle ne dépend pas du texte du prompt. Les informations privées du joueur restent retirées de sa vue adverse.
-
-L'agent peut consulter, jouer, lire le résultat puis choisir son prochain geste dans le même appel Claude. Il n'y a plus de liste de huit gestes planifiée à l'avance. Les examens utilisent la même entrée et renvoient un résultat conforme au schéma JSON attendu par le moteur.
-
-Le moteur conserve les règles mécaniques et la validation des références. Le passage entier reste une transaction : il est enregistré après l'appel explicite de fin et la réussite de l'opération. Une interruption ou une erreur technique annule les modifications de cette transaction. Les anciens journaux ne sont pas réécrits.
-
-## Fichiers
-
-- `serveur/charmed/intelligence-v3.js` : entrée commune et demandes.
-- `serveur/charmed/agent-context.js` : vues et pointeurs.
-- `serveur/charmed/agent-tools.js` : consultation et action.
-- `serveur/charmed/agent-mcp.js` : transport MCP local.
-- `serveur/charmed/intelligence-transport.js` : lancement Claude avec outils et reprise de session.
-- `serveur/charmed/agent-schemas.js` : formats des résultats.
-- `serveur/charmed/service.js` : application des actions au moteur.
-
-Validation : `node --test serveur/charmed/*.test.js`. Le contrôle `node scripts/verify_charmed_live.js` appelle réellement Claude sur un journal temporaire et utilise le quota IA.
-
-La seed peut être fixée avec `CHARMED_PARTY_SEED`. À défaut, elle est dérivée du chemin absolu du journal. Les fils de l’arbitrage et du camp adverse ont chacun leur session : cela permet les appels imbriqués sans collision et évite de transmettre les consultations privées de l’arbitre au camp adverse. Il n’y a aucun prompt de rôle associé. Les dossiers de reprise sont dans `~/.charmed/sessions/<uuid>/`. `CHARMED_CLAUDE` permet de choisir le binaire Claude.
+Vérification : `node --test serveur/charmed/*.test.js`, `python scripts/test_jeu.py`. `node scripts/verify_jeu_live.cjs` joue un passage réel avec Claude dans une partie temporaire.

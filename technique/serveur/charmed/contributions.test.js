@@ -1,7 +1,7 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict');
 const library=require('./bibliotheque'),runtime=require('./expertise-runtime'),canon=require('./canon');
-const {Intelligence}=require('./intelligence-v3'),engine=require('./engine');
+const engine=require('./engine');
 test('les quatre dossiers spécialisés sont effectivement injectés avec leurs sources',()=>{
  const d=runtime.directorContext({canonPeriod:{season:7,episode:17,moment:'after'}});
  assert.equal(d.characters.length,40);
@@ -17,11 +17,6 @@ test('les nouvelles observations ne rendent pas les pouvoirs futurs disponibles 
  assert(!ids.has('library:contrib:paige:5'));
  const p=require('../../donnees-bibliotheque/canon/personnages.json');
  assert(!p.milestones.some(m=>m.id.startsWith('contrib:')));
-});
-test('le contexte de l’adversaire ne reçoit pas les biographies et solutions ajoutées',async()=>{
- let prompt;const ia=new Intelligence(async s=>{prompt=JSON.parse(s);return {moves:[]};});await ia.opponent(engine.initial());
- assert.equal(prompt.expertiseContext.library,undefined);assert.equal(prompt.expertiseContext.characters,undefined);
- assert.equal(prompt.canonReference,undefined);assert.equal(prompt.reference,undefined);
 });
 test('sources et identifiants des nouveaux faits restent uniques et résolubles',()=>{
  const b=library.read(),sourceIds=new Set(b.sources.map(s=>s.id));assert.equal(sourceIds.size,b.sources.length);

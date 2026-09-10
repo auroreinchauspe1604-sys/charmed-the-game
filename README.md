@@ -1,44 +1,9 @@
-> **Moteur avec sessions Claude** : le refactor dans `serveur/` utilise `claude -p`, les outils MCP et les nouveaux messages du fil uniquement. Voir [les appels IA](docs/appels-ia.md). Il se lance avec `node serveur/serveur.js` et se vérifie avec `node --test serveur/charmed/*.test.js`. La copie réorganisée sous `technique/` est conservée ci-dessous.
+# Charmed The Game
 
-# Charmed The Game — copie de travail du project manager
+Lancer : `python jeu.py` puis ouvrir http://localhost:3129.
 
-Cette copie applique l’architecture préparée le 10 septembre 2026. Le projet actif n’est pas modifié par cette réorganisation.
+Une session MJ joue le tour avec les règles, le plateau et les outils. Elle appelle l’opponent au besoin. [Fonctionnement et fichiers](docs/appels-ia.md).
 
-## Points d’entrée
+Tests : `node --test serveur/charmed/*.test.js` et `python scripts/test_jeu.py`.
 
-- Règles actées : `regles/REGLES_ACTEES.md`
-- Historique des décisions : `regles/historique/DECISIONS_ACTEES.md`
-- Bibliothèque éditoriale : `bibliotheque/`
-- Scénarios : `scenarios/`
-- Serveur et écrans : `technique/serveur/` et `technique/ecrans/`
-- Scripts et tests : `technique/scripts/`
-- Données historiques encore lues par le moteur : `technique/donnees-bibliotheque/`
-- Visuels utilisés par le jeu : `visuels/jeu/`
-- Ateliers et maquettes : `visuels/atelier/`
-- Parties et états : `etat/`
-
-## Bibliothèque
-
-La nouvelle bibliothèque comporte huit catégories fixes. Sa structure est prête, mais aucune nouvelle fiche experte n’est activée tant qu’Aurore n’a pas validé son intégration. Le moteur continue donc temporairement à lire les données compatibles conservées dans `technique/donnees-bibliotheque/`.
-
-## Lancer les scénarios depuis cette copie
-
-```powershell
-node technique/scripts/jouer-manoir-assiege.cjs
-node technique/scripts/jouer-manoir-souple.cjs
-```
-
-Le scénario par défaut se lance avec :
-
-```powershell
-node technique/serveur/serveur.js
-```
-
-## Vérifications
-
-```powershell
-node --test technique/serveur/charmed/*.test.js
-python -m pytest technique/scripts/tests -q
-```
-
-Les procédures de sauvegarde, de migration et de retour arrière restent dans la documentation technique de l’équipe. Les parties du dossier `etat/` doivent toujours être sauvegardées et comparées avant une intégration.
+Les règles, scénarios, bibliothèques, visuels et parties existantes sont conservés. Les points d’entrée serveur sous `technique/` utilisent le même jeu.

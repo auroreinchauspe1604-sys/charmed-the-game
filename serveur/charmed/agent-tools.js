@@ -7,7 +7,7 @@ function position(board){if(!board)return board;const {arbitration,radio,opponen
 
 // Each invocation receives an explicit set of pointers and calls. No prompt
 // text or character name determines its access to game data.
-function createTools({board,documents={},play}){
+function createTools({board,documents={}}){
  const sources={regles:rules,plateau:()=>position(board()),arbitrage:()=>board()?.arbitration||[],...documents};
  const read=(pointer,fragment='')=>{
   if(!Object.hasOwn(sources,pointer))throw Error('Pointeur inconnu.');
@@ -40,8 +40,6 @@ function createTools({board,documents={},play}){
     walk(read(pointeur),'');return found;
    }}
  ];
- if(play)tools.push({name:'jouer',description:'Jouer une action et lire son résultat avec le plateau actualisé. type=end termine le passage.',
-  inputSchema:{...object({type:{type:'string',enum:['propose','place','question','answer','end']},kind:{type:'string',enum:['key','lock','attack','subgoal','resource']},target:string,resource:string,text:string}),required:['type']},run:play});
  return {pointers:Object.keys(sources),tools};
 }
 module.exports={createTools,rules,position};

@@ -1,7 +1,7 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict');
 const B=require('./bibliotheque'),C=require('./canon'),R=require('./expertise-runtime');
-const {Intelligence}=require('./intelligence-v3');
+
 test('les faits revus possèdent des sources et passent le contrôle après leur épisode',()=>{
  const library=B.read(),ids=new Set(library.sources.map(s=>s.id));
  assert(library.dossiers.flatMap(d=>d.fiches).length>=40);
@@ -21,12 +21,6 @@ test('la bibliothèque complète est privée à l’Ange ; pas transmise au camp
  assert(R.directorContext(s).library.dossiers.length>=2);
  assert.equal(R.opponentContext(s,'commanditaire').library,undefined);
 });
-test('une lacune de bibliothèque ne bloque plus la partie : verdict rendu, incertitude signalée',async()=>{
- const ia=new Intelligence(async()=>({accepted:true,canon:{status:'unverified',facts:[],reason:'Capacité absente du corpus'}}));
- const verdict=await ia.judge({role:'arbitre de la réponse unique'},{});
- assert.equal(verdict.accepted,true);
- assert.match(verdict.canonNote,/non documenté/);
-});
 test('seule une contradiction appuyée sur une source du corpus refuse',async()=>{
  const connu=C.context({season:1,episode:1,moment:'after'}).facts[0].id;
  const fonde=C.verify({accepted:true,canon:{status:'contradicted',facts:[connu],reason:'Le corpus établit l’inverse.'}},{season:1,episode:1,moment:'after'});
@@ -34,10 +28,6 @@ test('seule une contradiction appuyée sur une source du corpus refuse',async()=
  const sansSource=C.verify({accepted:true,canon:{status:'contradicted',facts:[],reason:'Impression personnelle.'}},{season:1,episode:1,moment:'after'});
  assert.equal(sansSource.accepted,true);
  assert.match(sansSource.canonNote,/non retenue/);
-});
-test('un refus motivé sans lacune conserve la règle de réponse unique',async()=>{
- const result={accepted:false,reason:'Moyen sans rapport',canon:{status:'ordinary',facts:[],reason:'Situation ordinaire'}};
- const ia=new Intelligence(async()=>result);assert.deepEqual(await ia.judge({role:'arbitre'},{}),result);
 });
 test('le brouillon inventorie ressources, objectifs, événements et épisodes sans certifier la recherche',()=>{
  const r=B.preparationReview({resources:[{id:'cristaux',title:'Cristaux'}],goals:[{owner:'phoebe',title:'Livre protégé'}],calendar:[{publicText:'Éclipse'}]},{referencedEpisodes:['S07E17']});
