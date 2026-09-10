@@ -2,6 +2,7 @@
 const path=require('path');
 const {CHEMINS}=require('../contexte');
 const catalog={
+ 'sentence-des-fondateurs':path.join(CHEMINS.scenarios,'sentence-des-fondateurs','scenario.js'),
  'la-chasse-aux-guides':path.join(CHEMINS.scenarios,'la-chasse-aux-guides','scenario.js'),
  'nexus-sous-tension':path.join(CHEMINS.scenarios,'nexus-sous-tension','scenario.js'),
  'manoir-assiege-souple':path.join(CHEMINS.scenarios,'manoir-assiege-souple','scenario.js'),
