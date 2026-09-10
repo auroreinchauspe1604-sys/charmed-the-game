@@ -1,7 +1,8 @@
 "use strict";
 const E=require('./engine');const scenario=require('./scenario');const enemyName=scenario.camps.find(c=>c.id==='commanditaire').name;
+const {position}=require('./agent-tools');
 class Service{
- constructor(store,intelligence){this.store=store;this.ia=intelligence;}
+ constructor(store,intelligence){this.store=store;this.ia=intelligence;if(store?.seed)this.ia.bindParty?.(store.seed);}
  async execute(s,camp,a){
   E.requireRule(a&&typeof a.type==='string','Action invalide.');
   if(a.type==='propose'){
@@ -42,9 +43,24 @@ class Service{
  async action(revision,id,a){return this.store.transact(revision,id,s=>this.execute(s,'phoebe',a));}
  async advance(revision,id){return this.store.transact(revision,id,async s=>{
   if(s.phase==='ai'){
-   const decision=await this.ia.opponent(s);E.requireRule(Array.isArray(decision.moves)&&decision.moves.length<=8,'Passage IA invalide.');
-   let messages=[];for(const move of decision.moves){if(s.phase!=='ai')break;const before=E.clone(s);try{const n=await this.execute(s,'commanditaire',move);if(n&&n.title)messages.push(n.type==='attack'?enemyName+' a engagé une tentative : '+n.description:n.title);else if(move.type==='place')messages.push(enemyName+' engage une pièce dans '+E.node(s,move.target).title);}catch(e){if(!(e instanceof E.RuleError))throw e;Object.keys(s).forEach(k=>delete s[k]);Object.assign(s,before);s.arbitration.push({day:s.day,text:'Action adverse refusée : '+e.message});}}
-   if(s.phase==='ai')await this.execute(s,'commanditaire',{type:'end'});
+   const messages=[];let failure;
+   await this.ia.opponent(s,async move=>{
+    if(failure)throw failure;
+    E.requireRule(s.phase==='ai','Le passage est terminé.');
+    const before=E.clone(s),count=s.arbitration.length;
+    try{
+     const n=await this.execute(s,'commanditaire',move);
+     if(n&&n.title)messages.push(n.type==='attack'?enemyName+' a engagé une tentative : '+n.description:n.title);
+     else if(move.type==='place'&&s.spent.commanditaire!==before.spent.commanditaire)messages.push(enemyName+' engage une pièce dans '+E.node(s,move.target).title);
+     return {plateau:position(require('./agent-context').opponentView(s)),resultat:s.arbitration.slice(count)};
+    }catch(e){
+     Object.keys(s).forEach(k=>delete s[k]);Object.assign(s,before);
+     if(!(e instanceof E.RuleError)){failure=e;throw e;}
+     return {erreur:e.message,plateau:position(require('./agent-context').opponentView(s))};
+    }
+   });
+   if(failure)throw failure;
+   E.requireRule(s.phase!=='ai','Le passage IA n’a pas été terminé avec jouer(type=end). Opération non enregistrée.');
    // Narration generated only from committed moves: never publish private model prose.
    s.opponent.push({day:s.day,text:messages.join('\n')||enemyName+' termine son passage sans nouveau coup accepté.'});
   }else if(s.phase==='morning'){await this.evening(s);if(s.result)return;E.prepareMorning(s);E.finishMorning(s,await this.ia.resolve(s,E.immediateCandidates(s),true));}

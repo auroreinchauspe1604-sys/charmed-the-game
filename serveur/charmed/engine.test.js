@@ -48,10 +48,10 @@ test('maintien rompu ne se répare pas en victoire à la date finale',()=>{const
 test('échéance sans vainqueur, aucun coup payé après échéance',()=>{const s=E.initial();s.day=11;s.phase='morning';E.morning(s,judgment());assert.equal(s.result.winner,null);const t=E.initial();t.day=12;assert.throws(()=>propose(t),/échéance/);});
 test('lot de résolutions incomplet refusé',()=>{const s=E.initial();propose(s);assert.throws(()=>E.applyResolution(s,judgment(),E.immediateCandidates(s)),/une fois/);});
 test('journal : transaction atomique, verrou, rejeu et révision',withStore(async store=>{let done;const p=store.transact(0,'request-0001',async s=>{await new Promise(r=>done=r);s.facts.push('Test');});await assert.rejects(()=>store.transact(0,'request-0002',()=>{}),/cours/);done();await p;await assert.rejects(()=>store.transact(0,'request-0003',()=>{}),/changé/);await assert.rejects(()=>store.transact(1,'request-0004',s=>{s.day=99;throw new Error('échec');}),/échec/);assert.equal(store.load().day,1);assert.equal((await store.transact(0,'request-0001',()=>{throw Error();})).revision,1);}));
-test('service : proposition sans résolution, jugement le soir puis bulletin du matin',withStore(async store=>{const ia={plan:async()=>plan(),resolve:async(s,list)=>judgment(list.map(n=>out(n))),opponent:async()=>({moves:[{type:'end'}]})};const service=new Service(store,ia);let s=await service.action(0,'request-0001',{type:'propose',kind:'key',target:'root-phoebe',resource:'phoebe',text:'Conversation précisément expliquée.'});assert.equal(s.nodes.at(-1).status,'ready');assert.equal(s.day,1);s=await service.action(1,'request-0002',{type:'end'});assert.equal(s.phase,'ai');s=await service.advance(2,'request-0003');assert.equal(s.phase,'morning');s=await service.advance(3,'request-0004');assert.equal(s.day,2);assert.equal(s.phase,'player');assert.equal(s.nodes.at(-1).status,'ready');s=await service.action(4,'request-0005',{type:'end'});s=await service.advance(5,'request-0006');s=await service.advance(6,'request-0007');assert.equal(s.day,3);assert.equal(s.nodes.at(-1).status,'acquired');assert.match(s.radio.at(-1).text,/réalisé/);}));
-test('service : panne du soir préserve les poses et ne produit aucun verdict partiel',withStore(async store=>{const service=new Service(store,{plan:async()=>plan(),opponent:async()=>({moves:[{type:'end'}]}),resolve:async()=>{throw Error('connexion');}});await service.action(0,'request-0001',{type:'propose',kind:'key',target:'root-phoebe',resource:'phoebe',text:'Une explication précise de l’acte.'});await service.action(1,'request-0002',{type:'end'});await service.advance(2,'request-0003');const before=JSON.stringify(store.load());await assert.rejects(()=>service.advance(3,'request-0004'),/connexion/);assert.equal(JSON.stringify(store.load()),before);assert.equal(store.load().nodes.at(-1).status,'ready');}));
+test('service : proposition sans résolution, jugement le soir puis bulletin du matin',withStore(async store=>{const ia={plan:async()=>plan(),resolve:async(s,list)=>judgment(list.map(n=>out(n))),opponent:async(s,play)=>play({type:'end'})};const service=new Service(store,ia);let s=await service.action(0,'request-0001',{type:'propose',kind:'key',target:'root-phoebe',resource:'phoebe',text:'Conversation précisément expliquée.'});assert.equal(s.nodes.at(-1).status,'ready');assert.equal(s.day,1);s=await service.action(1,'request-0002',{type:'end'});assert.equal(s.phase,'ai');s=await service.advance(2,'request-0003');assert.equal(s.phase,'morning');s=await service.advance(3,'request-0004');assert.equal(s.day,2);assert.equal(s.phase,'player');assert.equal(s.nodes.at(-1).status,'ready');s=await service.action(4,'request-0005',{type:'end'});s=await service.advance(5,'request-0006');s=await service.advance(6,'request-0007');assert.equal(s.day,3);assert.equal(s.nodes.at(-1).status,'acquired');assert.match(s.radio.at(-1).text,/réalisé/);}));
+test('service : panne du soir préserve les poses et ne produit aucun verdict partiel',withStore(async store=>{const service=new Service(store,{plan:async()=>plan(),opponent:async(s,play)=>play({type:'end'}),resolve:async()=>{throw Error('connexion');}});await service.action(0,'request-0001',{type:'propose',kind:'key',target:'root-phoebe',resource:'phoebe',text:'Une explication précise de l’acte.'});await service.action(1,'request-0002',{type:'end'});await service.advance(2,'request-0003');const before=JSON.stringify(store.load());await assert.rejects(()=>service.advance(3,'request-0004'),/connexion/);assert.equal(JSON.stringify(store.load()),before);assert.equal(store.load().nodes.at(-1).status,'ready');}));
 test('service : panne IA ne saute pas son tour',withStore(async store=>{const service=new Service(store,{opponent:async()=>{throw Error('connexion');}});await service.action(0,'request-0001',{type:'end'});await assert.rejects(()=>service.advance(1,'request-0002'),/connexion/);assert.equal(store.load().phase,'ai');}));
-test('arbitre reçoit le budget moteur sans ancien commentaire contradictoire',async()=>{const {Intelligence}=require('./intelligence');const s=E.initial();s.arbitration.push({text:'Faux budget : déjà joué'});let data;const ia=new Intelligence(async p=>{data=JSON.parse(p);return {accepted:false,reason:'Test'};});await ia.plan(s,'phoebe',{});assert.equal(data.position.spent.phoebe,false);assert.equal(data.position.arbitration,undefined);assert(data.canonReference.facts.length);});
+test('la session reçoit le budget courant et le fil des arbitrages précédents',async()=>{const {Intelligence}=require('./intelligence');const s=E.initial();s.arbitration.push({text:'Faux budget : déjà joué'});let data;const ia=new Intelligence(async p=>{data=JSON.parse(p);return {accepted:false,reason:'Test'};});await ia.plan(s,'phoebe',{});assert.equal(data.plateau.spent.phoebe,false);assert.deepEqual(data.plateau.arbitration,s.arbitration);assert(data.pointeurs.includes('arbitrage'));assert(data.pointeurs.includes('canon'));assert.equal(data.canonReference,undefined);});
 test('canon : références tardives et magie inconnue refusées, moyens ordinaires admis',()=>{const C=require('./canon');assert.equal(C.verify({accepted:true,canon:{status:'unverified',reason:'Pouvoir inconnu'}}).accepted,false);assert.equal(C.verify({accepted:true,canon:{status:'verified',facts:['zankou-premonition']}}).accepted,false);assert.equal(C.verify({accepted:true,canon:{status:'verified',facts:['initial-powers']}}).accepted,true);assert.equal(C.verify({accepted:true,canon:{status:'ordinary',facts:[]}}).accepted,true);});
 
 test('aucun usage implicite d’une carte non engagée dans le résultat',()=>{const s=E.initial(),n=propose(s);assert.throws(()=>resolve(s,n,{usedResources:['phoebe','dossier-reception']}),/réellement engagée/);assert.equal(n.status,'ready');});
@@ -82,7 +82,7 @@ test('panne de recevabilité : aucune question enregistrée',async()=>{const s=E
 
 test('nouvelle contribution : jour de réaction complet identique aux deux camps',()=>{for(const camp of ['phoebe','commanditaire']){const s=E.initial();s.phase=camp==='phoebe'?'player':'ai';const r=s.resources.find(r=>r.owner===camp&&E.availability(s,r)==='free');const n=E.propose(s,camp,{kind:'key',target:'root-'+camp,resource:r.id,text:'Une preuve directe de la condition finale.'},plan());assert.equal(n.dueDay,2);s.phase='morning';assert.equal(E.immediateCandidates(s).length,0);E.prepareMorning(s);assert.equal(s.day,2);assert.equal(E.immediateCandidates(s).length,0);E.finishMorning(s,judgment());assert.equal(E.immediateCandidates(s).length,0);s.phase='morning';assert.equal(E.immediateCandidates(s).length,1);}});
 test('nouvelle pose : réaction renouvelée sans raccourcir un délai réel',()=>{const s=E.initial();const n=E.propose(s,'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Un effet avec délai réellement nécessaire.'},plan(0,{delay:4}));next(s);E.place(s,'phoebe',n.id,'carnet',means());assert.equal(n.reactionThroughDay,3);assert.equal(n.dueDay,5);s.phase='morning';assert.equal(E.immediateCandidates(s).length,0);});
-test('voie principale : refus si aucune condition directe identifiée par IA',async()=>{const {Intelligence}=require('./intelligence-v3');const ia=new Intelligence(async()=>({accepted:true,reason:'Préparation utile',mainCondition:''}));const verdict=await ia.plan(E.initial(),'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Une simple préparation.'});assert.equal(verdict.accepted,false);});
+test('une seule consigne commune sans rôle ni surinstruction tactique',async()=>{let prompt;const {Intelligence}=require('./intelligence-v3');const ia=new Intelligence(async p=>{prompt=JSON.parse(p);return {accepted:false,reason:'Préparation seule'};});await ia.plan(E.initial(),'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Une simple préparation.'});assert.equal(prompt.role,undefined);assert.equal(prompt.instruction,'Joue ce tour selon les règles. Utilise les appels disponibles.');assert.equal(prompt.tour.action.text,'Une simple préparation.');assert(prompt.regles.includes('Voie principale'));});
 
 test('un lieu ne peut être ni attaqué ni volé',()=>{
  const s=E.initial();
@@ -96,8 +96,8 @@ test('la consigne sur les lieux ne révèle aucune solution tactique',async()=>{
  const {Intelligence}=require('./intelligence-v3');let prompt;
  const ia=new Intelligence(async p=>{prompt=JSON.parse(p);return {accepted:false,reason:'La proposition ne prouve pas la condition.',mainCondition:'',sufficient:true,missing:0,delay:0,situationChanged:false,changeReason:'',dependsOn:[],canon:{status:'ordinary',facts:[],reason:''},title:'',effect:'',requiredCount:0,resource:{title:'',description:'',category:'',icon:'',canonicalId:'',unique:false},costs:[]};});
  await ia.plan(E.initial(),'commanditaire',{kind:'key',target:'root-commanditaire',resource:'zankou',text:'Une proposition à contrôler.'});
- assert.match(prompt.instruction,/NE DONNE PAS LA SOLUTION/);
- assert.match(prompt.instruction,/ne suggere ni reformulation correcte, ni ressource, ni chaine, ni chemin tactique/i);
+ assert.equal(prompt.instruction,'Joue ce tour selon les règles. Utilise les appels disponibles.');
+ assert(prompt.regles.includes('ressources manquantes'));assert.equal(prompt.role,undefined);
 });
 
 test('une clé peut contester puis transférer le contrôle d’un lieu explicitement déterminant',()=>{
@@ -115,4 +115,32 @@ test('un simple accès ne peut pas transférer le contrôle du lieu',()=>{
  s.day=n.dueDay;s.phase='morning';delete s.morningMessages;
  assert.throws(()=>E.applyResolution(s,judgment([out(n,{established:'Un accès au refuge est ouvert.',controlChanges:[{id:'refuge',owner:'commanditaire'}]})]),E.immediateCandidates(s)),/établir explicitement le contrôle ou l’occupation/i);
  assert.equal(E.resource(s,'refuge').owner,'phoebe');
+});
+
+
+test('réponse : dépendances conservées, suspension propagée et références invalides refusées',()=>{
+ const s=E.initial(),proof=propose(s);next(s);const k=propose(s,'key','phoebe','root-phoebe','nina');
+ s.phase='ai';E.question(s,'commanditaire',k.id,'Quelle preuve justifie cet effet ?');
+ s.phase='player';const q=s.questions[0];E.submitAnswer(s,'phoebe',q.id,'La preuve précédente justifie précisément cet effet.');
+ assert.throws(()=>E.adjudicateAnswer(s,q.id,means(0,{dependsOn:['absente']})),/introuvable/);assert.equal(q.resolved,false);
+ assert.throws(()=>E.adjudicateAnswer(s,q.id,means(0,{dependsOn:[k.id]})),/circulaire/);assert.equal(q.resolved,false);
+ E.adjudicateAnswer(s,q.id,means(0,{dependsOn:[proof.id]}));assert.deepEqual(k.dependsOn,[proof.id]);
+ s.phase='ai';E.question(s,'commanditaire',proof.id,'Comment cette preuve est-elle obtenue ?');
+ assert.equal(E.publicView(s).nodes.find(n=>n.id===k.id).suspended,true);
+});
+test('dépendance : verrou actif et attaque résolue exigés avant le succès',()=>{
+ for(const [type,pending,done] of [['lock','preparing','active'],['attack','ready','resolved']]){
+  const s=E.initial(),k=propose(s);const dependency={id:'dependency',type,status:pending,owner:'phoebe',pieces:[],dependsOn:[],target:'root-commanditaire'};
+  s.nodes.push(dependency);k.dependsOn=[dependency.id];
+  assert.equal(E.immediateCandidates(s).find(n=>n.id===k.id).forcedFailure,true);
+  assert.throws(()=>resolve(s,k),/incomplète/);
+  dependency.status=done;assert.equal(E.immediateCandidates(s).find(n=>n.id===k.id).forcedFailure,false);
+  resolve(s,k);assert.equal(k.status,'acquired');
+ }
+});
+test('lieu unique même si le verdict indique unique false, avec titre normalisé',()=>{
+ const s=E.initial(),loc=s.resources.find(r=>r.category==='lieu');
+ const verdict=plan(0,{resource:{title:'  '+loc.title.toUpperCase()+'  ',description:'Le même lieu.',category:'lieu',unique:false},costs:[]});
+ const before=JSON.stringify(s);assert.throws(()=>propose(s,'resource','phoebe',null,null,verdict),/unique/);assert.equal(JSON.stringify(s),before);
+ verdict.resource.title='Un autre lieu distinct';propose(s,'resource','phoebe',null,null,verdict);assert.equal(s.resources.at(-1).title,'Un autre lieu distinct');
 });

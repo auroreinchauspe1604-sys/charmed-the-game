@@ -1,3 +1,5 @@
+> **Appels IA** : le transport utilise maintenant Claude avec sessions persistantes, outils MCP et nouveaux messages du fil uniquement. Voir [le fonctionnement actuel](docs/appels-ia.md). Les mentions Codex dans les sections historiques ci-dessous sont obsolètes.
+
 > **Charmed — version actée du 8 septembre 2026** : voir [le dossier de construction](Charmed/README.md), [les règles](Charmed/REGLES_ACTEES.md) et [la validation](Charmed/VALIDATION.md). Le serveur sur le port 3129 utilise le moteur v3 et un journal séparé. Les sections v2 ci-dessous sont historiques.
 
 # logic-match
