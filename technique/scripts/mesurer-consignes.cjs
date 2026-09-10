@@ -1,0 +1,20 @@
+'use strict';
+const E=require('../serveur/charmed/engine-v3');
+const {Intelligence}=require('../serveur/charmed/intelligence-v3');
+const fs=require('fs'),path=require('path');
+const octets=s=>Buffer.byteLength(s,'utf8');
+const mesures=[];
+const capte=async(nom,fn)=>{let vu;const ia=new Intelligence(async p=>{vu=JSON.parse(p);return {accepted:true,canon:{status:'ordinary',facts:[]},moves:[],outcomes:[],states:[],facts:[],fallenLocks:[],victory:[]};});
+ await fn(ia);
+ mesures.push({role:nom,instruction:octets(vu.instruction),message:octets(JSON.stringify(vu)),pointeurs:vu.pointeurs.join(',')});};
+(async()=>{
+ const s=E.initial();
+ await capte('plan',ia=>ia.plan(s,'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Un acte.'}));
+ await capte('placement',ia=>ia.placement(s,'phoebe',{kind:'place',target:'root-phoebe',resource:'phoebe'}));
+ await capte('resolve',ia=>ia.resolve(s,[]));
+ await capte('adversaire',ia=>ia.opponent(s));
+ const l=Math.max(...mesures.map(m=>m.role.length));
+ for(const m of mesures)console.log(m.role.padEnd(l)+'  consigne '+String(m.instruction).padStart(6)+' o   message '+String(m.message).padStart(7)+' o   pointeurs: '+m.pointeurs);
+ const regles=fs.statSync(path.resolve(__dirname,'../../regles/REGLES_ACTEES.md')).size;
+ console.log('\nREGLES_ACTEES.md : '+regles+' o, consultable par section (74 sections).');
+})();

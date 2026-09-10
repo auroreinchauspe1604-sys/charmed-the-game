@@ -109,14 +109,26 @@ test('un lieu ne peut être ni attaqué ni volé',()=>{
  assert.throws(()=>resolve(s,n,{losses:['refuge']}),/lieu ne peut pas être détruit ou perdu/i);
 });
 
-test('la consigne sur les lieux ne révèle aucune solution tactique',async()=>{
+test('les règles ne sont plus recopiées dans le prompt : l’arbitre est envoyé les lire',async()=>{
  const {Intelligence}=require('./intelligence-v3');let prompt;
  const ia=new Intelligence(async p=>{prompt=JSON.parse(p);return {accepted:false,reason:'La proposition ne prouve pas la condition.',mainCondition:'',sufficient:true,missing:0,delay:0,situationChanged:false,changeReason:'',dependsOn:[],canon:{status:'ordinary',facts:[],reason:''},title:'',effect:'',requiredCount:0,resource:{title:'',description:'',category:'',icon:'',canonicalId:'',unique:false},costs:[]};});
  await ia.plan(E.initial(),'commanditaire',{kind:'key',target:'root-commanditaire',resource:'zankou',text:'Une proposition à contrôler.'});
- assert.match(prompt.instruction,/NE DONNE PAS LA SOLUTION/);
- assert.match(prompt.instruction,/jamais la reformulation correcte, la ressource à choisir, la chaîne ou le chemin tactique/i);
- assert.match(prompt.instruction,/Ne demande JAMAIS au joueur de reformuler, de développer/);
- assert.match(prompt.instruction,/TOUT REFUS SE FONDE SUR UN FAIT DU PLATEAU/);
+ // Tri du 10/09/2026 : ces exigences sont des RÈGLES et ne sont plus paraphrasées
+ // dans le prompt. On vérifie les deux moitiés du contrat : le message envoie
+ // l arbitre lire les règles, et les règles disent bien ce qu elles doivent dire.
+ assert.match(prompt.instruction,/LES RÈGLES DU JEU NE SONT PAS RECOPIÉES DANS CE MESSAGE/);
+ assert(prompt.pointeurs.includes('regles'));
+ const sections=require('./agent-tools').rulesSections();
+ const refus=Object.entries(sections).find(([t])=>/1\.3 Proposition refusée/.test(t))[1];
+ assert.match(refus,/Tout refus se fonde sur un fait du plateau/i);
+ assert.match(refus,/ne révèle pas la bonne solution/i);
+ const forme=Object.entries(sections).find(([t])=>/0\. Forme attendue/.test(t))[1];
+ assert.match(forme,/ne demande jamais au camp de compléter son plan/i);
+ assert.match(forme,/acte composé n.est pas une ambiguïté/i);
+ assert(!/NE DONNE PAS LA SOLUTION/.test(prompt.instruction),'règle encore recopiée dans le prompt');
+ assert.match(prompt.instruction,/LES RÈGLES L.EMPORTENT/);
+ assert.match(prompt.instruction,/CONTRAT DE SORTIE/);
+ assert(!/TOUT REFUS SE FONDE SUR UN FAIT DU PLATEAU/.test(prompt.instruction),'règle encore recopiée dans le prompt');
 });
 
 test('une clé peut contester puis transférer le contrôle d’un lieu explicitement déterminant',()=>{

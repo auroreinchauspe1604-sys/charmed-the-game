@@ -133,6 +133,22 @@ Sept lignes ajoutées, reprenant les points 1 à 8 ci-dessus.
 
 ---
 
+## Où vivent désormais les règles
+
+Décision technique du 10 septembre 2026, sans effet sur le contenu des règles.
+
+Jusqu'ici, les consignes envoyées à l'Ange du destin reparaphrasaient les règles. Il existait donc deux sources de vérité, et c'est ce qui a produit les refus contestés : l'Ange suivait la paraphrase, pas le document. Les paraphrases ont été supprimées.
+
+- **Ce fichier de règles est la seule source.** L'Ange du destin et le camp adverse y accèdent par un pointeur `regles`, découpé en 74 sections. Ils lisent la table des sections, en ouvrent une par son titre — un titre approximatif suffit — ou cherchent où un point est traité.
+- **Le message ne contient plus que le contrat de sortie**, c'est-à-dire la définition des champs que le moteur attend en retour : ce que compte `missing`, ce que désigne `maintainers`, quand `locations` est rempli, ce que signifient les quatre valeurs de `canon`. Ce ne sont pas des règles du jeu et elles n'ont pas leur place dans ce document.
+- **La consigne dit explicitement qu'en cas de divergence, les règles l'emportent**, et impose de relire la section concernée avant tout verdict.
+
+Conséquence pratique : **modifier une règle ici suffit désormais à changer le comportement de l'Ange du destin.** Il n'y a plus de texte à corriger ailleurs.
+
+Effet mesuré sur le volume transmis : un message d'arbitrage pèse environ 16 Ko, contre 767 Ko au début de la journée. La consigne elle-même passe d'environ 15 Ko de règles empilées à 3 à 5 Ko de contrat.
+
+---
+
 ## Ce qui n'a pas été modifié, après examen
 
 - **Les deux modes d'objectif.** Un état peut commencer vrai ou faux ; ce sont deux façons de jouer et les deux camps jouent de la même manière — un état vrai se renforce par des clés comme un état faux se construit.

@@ -1,0 +1,15 @@
+'use strict';
+const outils=require('../serveur/charmed/agent-tools');
+const s=outils.rulesSections();
+const cles=Object.keys(s);
+console.log('sections : '+cles.length);
+console.log(cles.slice(0,12).join('\n'));
+const acces=outils.createTools({board:()=>({day:1})});
+const lire=acces.tools.find(t=>t.name==='lire').run;
+const table=lire({pointeur:'regles'});
+console.log('\ntable sans chemin : '+(table.champs?table.champs.length+' champs':typeof table));
+const approx=lire({pointeur:'regles',chemin:'/Partie 3 - 0. Forme attendue d une proposition'});
+console.log('\ntitre approche resolu : '+(typeof approx==='string'?'oui, '+approx.length+' caracteres':'NON'));
+console.log(String(approx).split('\n')[0].slice(0,120));
+const cherche=acces.tools.find(t=>t.name==='chercher').run;
+console.log('\nrecherche "connu des deux camps" : '+JSON.stringify(cherche({pointeur:'regles',texte:'connu des deux camps',limite:3}).map(x=>x.chemin)));

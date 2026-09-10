@@ -13,6 +13,37 @@ const fs = require('fs'), path = require('path');
 const { CHEMINS } = require('../contexte');
 
 const rules = () => fs.readFileSync(CHEMINS.regles, 'utf8');
+
+// Les règles sont servies découpées par section : la lecture sans chemin renvoie
+// la table des sections, et un chemin ouvre une section seule. Un arbitre peut
+// donc consulter le point qui le concerne sans recevoir 80 Ko de document.
+let cacheSections = null, cacheEmpreinte = '';
+function rulesSections() {
+  const brut = rules();
+  if (cacheSections && cacheEmpreinte === String(brut.length)) return cacheSections;
+  const sections = {};
+  let partie = '', titre = 'Préambule', tampon = [];
+  const vider = () => {
+    const texte = tampon.join('\n').trim();
+    if (texte) sections[(partie ? partie + ' — ' : '') + titre] = texte;
+    tampon = [];
+  };
+  for (const ligne of brut.split(/\r?\n/)) {
+    const h = /^(#{1,4})\s+(.*)$/.exec(ligne);
+    if (!h) { tampon.push(ligne); continue; }
+    vider();
+    const intitule = h[2].replace(/\//g, ' ').trim();
+    if (h[1].length === 1) { partie = intitule.split('—')[0].trim(); titre = intitule; }
+    else titre = intitule;
+  }
+  vider();
+  cacheSections = sections; cacheEmpreinte = String(brut.length);
+  return sections;
+}
+
+// Tolérance de frappe sur les titres de section : accents, ponctuation et casse
+// ne doivent pas faire échouer une consultation légitime.
+const aplatir = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLocaleLowerCase('fr').replace(/[^a-z0-9]+/g, ' ').trim();
 const object = properties => ({ type: 'object', properties, additionalProperties: false });
 const string = { type: 'string' };
 
@@ -55,13 +86,21 @@ function campDocuments(scenario, camp) {
 }
 
 function createTools({ board, documents = {} }) {
-  const sources = { regles: rules, plateau: () => position(board()), arbitrage: () => board()?.arbitration || [], ...documents };
+  const sources = { regles: rulesSections, plateau: () => position(board()), arbitrage: () => board()?.arbitration || [], ...documents };
   const read = (pointer, fragment = '') => {
     if (!Object.hasOwn(sources, pointer)) throw Error('Pointeur inconnu.');
     let value = sources[pointer]();
     for (const key of fragment.split('/').filter(Boolean).map(s => s.replace(/~1/g, '/').replace(/~0/g, '~'))) {
-      if (value === null || typeof value !== 'object' || !Object.hasOwn(value, key)) throw Error('Chemin introuvable.');
-      value = value[key];
+      if (value === null || typeof value !== 'object') throw Error('Chemin introuvable.');
+      let clef = key;
+      if (!Object.hasOwn(value, clef)) {
+        // Titre approché : accents, ponctuation et casse ne font pas échouer.
+        const vise = aplatir(clef);
+        clef = Object.keys(value).find(k => aplatir(k) === vise)
+          || Object.keys(value).find(k => aplatir(k).includes(vise) && vise.length >= 4);
+        if (!clef) throw Error('Chemin introuvable. Sections disponibles : ' + Object.keys(value).slice(0, 40).join(' | '));
+      }
+      value = value[clef];
     }
     return value;
   };
@@ -98,4 +137,4 @@ function createTools({ board, documents = {} }) {
   return { pointers: Object.keys(sources), tools };
 }
 
-module.exports = { createTools, rules, position, documents, campDocuments, preparationDocuments };
+module.exports = { createTools, rules, rulesSections, position, documents, campDocuments, preparationDocuments };
