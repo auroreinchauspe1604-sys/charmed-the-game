@@ -11,11 +11,11 @@ function cardText(n){if(n.availability)return n.description+'\n\n'+({subject:'Pe
 function attacking(r){return state.nodes.find(n=>n.type==='attack'&&n.target===r.id&&!['failed','resolved','removed'].includes(n.status));}
 function retained(r){return r.heldBy&&byId(r.heldBy)?.status==='acquired';}
 function canQuestion(n){return !own(n)&&['key','lock','state'].includes(n.type)&&!['failed','removed'].includes(n.status)&&!state.questions.some(q=>q.target===n.id);}
-function modes(n){const a=[];if((n.type==='state'&&own(n))||(n.type==='lock'&&!own(n)&&n.status==='active'))a.push('key');if(!own(n)&&((['state','key','attack'].includes(n.type)&&!['failed','removed','resolved'].includes(n.status))||(n.availability&&n.heldBy&&n.availability!=='lost')))a.push('lock');return a;}
+function modes(n){const a=[];if((n.type==='state'&&own(n))||(n.type==='lock'&&!own(n)&&['ready','active'].includes(n.status)))a.push('key');if(!own(n)&&((['state','key','attack'].includes(n.type)&&!['failed','removed','resolved'].includes(n.status))||(n.availability&&n.heldBy&&n.availability!=='lost')))a.push('lock');return a;}
 // Une carte qui ne reçoit aucune pose ne doit pas rester muette : on dit
 // pourquoi, et par où passer à la place.
 function poseImpossible(n){
- if(n.type==='lock'&&!own(n)&&n.status!=='active')return 'Ce verrou n’est pas encore actif : tant qu’il n’a pas été examiné, il ne bloque rien. On n’ouvre par une clé qu’un verrou déjà actif.';
+ if(n.type==='lock'&&!own(n))return 'Ce verrou n’est plus contestable : la contre-clé se forme tant qu’il est prêt ou actif.';
  if(n.type==='lock'&&own(n))return 'C’est votre propre verrou : vous le renforcez tant qu’il est en préparation, vous ne l’ouvrez pas.';
  if(['failed','removed','resolved'].includes(n.status))return 'Cette carte est terminée : elle ne reçoit plus de pose.';
  if(own(n))return 'Cette carte est à vous et n’est plus en préparation : elle ne reçoit plus de renfort.';

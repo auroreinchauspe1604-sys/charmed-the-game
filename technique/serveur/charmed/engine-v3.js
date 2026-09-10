@@ -30,6 +30,14 @@ function refresh(s){for(const n of s.nodes){
   n.effectUnavailable=(n.maintainers||[]).some(id=>{const r=resource(s,id);return r.lost||r.consumed||r.owner!==n.owner||r.availableDay>s.day||r.recoveryUntil>s.day;});
   if(n.effectUnavailable){n.status='removed';release(s,n);}else release(s,n,n.maintainers||[]);
  }
+ // Contre-clé formée avant l'activation du verrou : si le verrou n'est finalement
+ // pas établi, elle est sans objet. Elle tombe et rend ses pièces, sans les user.
+ if(n.type==='key'&&!terminal(n)){
+  const vise=s.nodes.find(x=>x.id===n.target);
+  if(vise&&vise.type==='lock'&&vise.owner!==n.owner&&terminal(vise)){
+   n.status='removed';n.voidReason='Le verrou visé n’a pas été établi : cette contre-clé est sans objet.';release(s,n);continue;
+  }
+ }
  if(n.type==='key'&&n.status==='acquired'&&!suspended(s,n.id)){
   // Un effet continu retient les pièces dont il dépend (bouclier de cristaux laissés
   // en place) ; un effet devenu autonome les libère (portes déjà coincées).
@@ -49,7 +57,11 @@ function targetCheck(s,camp,kind,target){
  }
  const t=node(s,target);requireRule(!terminal(t),'Cette carte n’est plus active.');
  if(kind==='subgoal'){requireRule(t.type==='state'&&!t.parent&&t.owner===camp,'Un sous-état dépend de votre état initial.');requireRule(s.nodes.filter(n=>n.type==='state'&&n.parent===t.id).length<s.subgoalSlots[camp],'Tous les emplacements de sous-états sont occupés.');}
- if(kind==='key')requireRule((t.type==='state'&&t.owner===camp)||(t.type==='lock'&&t.owner!==camp&&t.status==='active'),'Une clé sert votre état ou lève un verrou adverse actif.');
+ // Une contre-clé peut se former dès que le verrou est PRÊT, sans attendre son
+// activation : le verrou est contestable pendant son délai de réaction, comme
+// une attaque révélée se défend avant sa résolution. Elle ne produit son effet
+// qu'une fois le verrou actif, et tombe sans objet s'il n'est jamais établi.
+ if(kind==='key')requireRule((t.type==='state'&&t.owner===camp)||(t.type==='lock'&&t.owner!==camp&&['ready','active'].includes(t.status)),'Une clé sert votre état ou lève un verrou adverse prêt ou actif.');
 }
 function validateVerdict(p){requireRule(p&&typeof p.accepted==='boolean'&&typeof p.reason==='string','Réponse d’arbitrage invalide.');}
 function validateMeans(p){requireRule(typeof p.sufficient==='boolean'&&Number.isInteger(p.missing)&&p.missing>=0&&p.missing<=20&&p.sufficient===(p.missing===0),'Nombre de moyens manquants incohérent.');requireRule(Number.isInteger(p.delay)&&p.delay>=0&&p.delay<=12,'Délai invalide.');}

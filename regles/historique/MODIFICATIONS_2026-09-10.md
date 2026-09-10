@@ -131,6 +131,16 @@ Sept lignes ajoutées, reprenant les points 1 à 8 ci-dessus.
 | **Après** | Les cartes adverses posées, leur nature et leur description publique sont une connaissance commune, au même titre qu'un fait acquis. L'Ange du destin ne peut pas refuser une proposition au motif qu'un camp ignorerait ce que la description publique d'une ressource adverse énonce. Restent privés : justifications, recettes, plans non joués et exigences d'une attaque avant révélation. |
 | **Motif** | Contestation du verdict sur la clé c4. L'Ange avait écrit qu'aucun fait du plateau n'établissait la nature des démons du camp adverse, alors que les deux cartes portent « Démon de bas grade » dans leur description publique. |
 
+## 14. La contre-clé se forme sur un verrou prêt
+
+**Ajout** — Partie 3, section 4.
+
+| | |
+|---|---|
+| **Avant** | Une clé ne pouvait lever qu'un verrou **actif**. Le moteur et l'interface refusaient la pose tant que le verrou n'avait pas été examiné, sans dire pourquoi. |
+| **Après** | La contre-clé se forme dès que le verrou est **prêt**. Elle ne produit aucun effet tant que le verrou n'est pas actif, et si le verrou n'est finalement pas établi, elle tombe sans objet et rend ses ressources — sans usure ni récupération. |
+| **Motif** | Un verrou prêt est contestable pendant son délai de réaction, comme une attaque révélée se défend avant sa résolution. L'attaque avait sa fenêtre de défense, le verrou n'en avait aucune : le camp visé devait attendre l'activation, puis subir le délai de sa propre clé. Le verrou en sortait disproportionné. |
+
 ---
 
 ## Où vivent désormais les règles

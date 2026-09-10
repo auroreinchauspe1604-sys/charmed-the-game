@@ -101,6 +101,29 @@ test('nouvelle contribution : jour de réaction complet identique aux deux camps
 test('nouvelle pose : réaction renouvelée sans raccourcir un délai réel',()=>{const s=E.initial();const n=E.propose(s,'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Un effet avec délai réellement nécessaire.'},plan(0,{delay:4}));next(s);E.place(s,'phoebe',n.id,'carnet',means());assert.equal(n.reactionThroughDay,3);assert.equal(n.dueDay,5);s.phase='morning';assert.equal(E.immediateCandidates(s).length,0);});
 test('voie principale : refus si aucune condition directe identifiée par IA',async()=>{const {Intelligence}=require('./intelligence-v3');const ia=new Intelligence(async()=>({accepted:true,reason:'Préparation utile',mainCondition:''}));const verdict=await ia.plan(E.initial(),'phoebe',{kind:'key',target:'root-phoebe',resource:'phoebe',text:'Une simple préparation.'});assert.equal(verdict.accepted,false);});
 
+// Règle du 10/09/2026 : un verrou prêt est contestable pendant son délai de
+// réaction. La contre-clé se forme sans attendre l'activation, et tombe sans
+// objet si le verrou n'est finalement pas établi.
+test('contre-clé : formable sur un verrou prêt, sans objet si le verrou n’est pas établi',()=>{
+ const s=E.initial();
+ const adverse=s.resources.find(r=>r.owner==='commanditaire'&&E.availability(s,r)==='free');
+ const mienne=s.resources.find(r=>r.owner==='phoebe'&&E.availability(s,r)==='free');
+ const verrou={id:'advl',owner:'commanditaire',type:'lock',scope:'main',target:'root-phoebe',title:'Obstruction',
+  effect:'La circulation est bloquée.',description:'Obstruction en cours.',pieces:[adverse.id],locations:[],
+  missing:0,status:'ready',createdDay:1,delay:0,dependsOn:[],recovery:{},maintainers:[],readyDay:1,reactionThroughDay:2,dueDay:2};
+ s.nodes.push(verrou);adverse.heldBy='advl';
+ // Prêt : la contre-clé est recevable sans attendre l'activation.
+ assert.doesNotThrow(()=>E.targetCheck(s,'phoebe','key','advl'));
+ const contre=E.propose(s,'phoebe',{kind:'key',target:'advl',resource:mienne.id,text:'Une action qui lève cette obstruction.'},plan());
+ assert.equal(E.resource(s,mienne.id).heldBy,contre.id);
+ // Le verrou n'est pas établi : la contre-clé tombe et rend sa pièce intacte.
+ verrou.status='failed';E.refresh(s);
+ assert.equal(E.node(s,contre.id).status,'removed');
+ assert.match(E.node(s,contre.id).voidReason,/sans objet/);
+ assert.equal(E.resource(s,mienne.id).heldBy,null);
+ assert.ok(!(E.resource(s,mienne.id).recoveryUntil>s.day));
+});
+
 test('un lieu ne peut être ni attaqué ni volé',()=>{
  const s=E.initial();
  assert.throws(()=>E.targetCheck(s,'commanditaire','attack','refuge'),/lieu ne peut être ni attaqué ni volé/i);
