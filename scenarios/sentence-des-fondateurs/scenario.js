@@ -5,7 +5,7 @@
 //  - chaque carte distribuée est un MOYEN, utile sur plusieurs chemins, jamais
 //    une solution : aucune condition d'objectif ne peut être établie par une
 //    seule carte employée conformément à sa description ;
-//  - une ressource porte ses accessoires ordinaires (Partie 2 §4.2) : aucune
+//  - une ressource porte ses accessoires ordinaires (Partie 2, §4.3) : aucune
 //    quête annexe n'est nécessaire pour employer ce qu'un camp possède déjà ;
 //  - les ressources qu'un camp voudra CRÉER sont anticipées dans
 //    privateFacts.creations, avec leur obtention concrète, leur délai et ce
@@ -242,7 +242,7 @@ module.exports = {
     'Histoire originale, aucune reproduction d’épisode. Période saison 7 : Phoebe a ses prémonitions, Piper fige et fait exploser, Paige est sorcière et être de lumière mais ses pouvoirs sont suspendus par la décision du conseil.',
     'Les ressources distribuées sont des MOYENS et jamais des solutions : aucune condition d’objectif ne peut être établie par l’emploi d’une seule carte conforme à sa description. Une contribution qui fait seulement faire à une ressource ce qu’elle fait habituellement n’établit aucun changement.',
     'Une ressource porte ses accessoires ordinaires : le Livre comprend ses formules et de quoi les mettre en œuvre, une sorcière comprend son savoir-faire. Aucune quête annexe n’est exigée pour employer ce qu’un camp possède déjà. Un composant ne devient une carte que s’il est rare, disputé, ou retiré du jeu par un fait du plateau.',
-    'Les demandes de création prévisibles sont listées dans privateFacts.creations, avec leur obtention, leur délai et leurs limites. S’en servir pour juger, sans traiter cette liste comme exhaustive : une demande absente s’examine selon la Partie 3 §2 bis.',
+    'Les demandes de création prévisibles sont listées dans privateFacts.creations, avec leur obtention, leur délai et leurs limites. S’en servir pour juger, sans traiter cette liste comme exhaustive : une demande absente s’examine selon la Partie 2, §4.5 (Demander la création d’une ressource).',
     'Quatre faits distincts structurent la partie : ce que la pièce établit, ce que vaut le témoin, ce que le conseil sait de l’origine, et la situation de Paige. Aucun ne se déduit d’un autre. Établir un fait au grenier ne le rend pas opposable : il faut encore le porter devant le conseil dans une forme régulière.',
     'Vaéros ne combat pas et ne se montre pas. Il n’attaque une ressource adverse que si elle est libre en main, et son jeu ordinaire est le verrou, la question et la procédure.',
     'Les gestes et déplacements ordinaires sont compris dans l’action. Une localisation non précisée n’est pas une incohérence.'

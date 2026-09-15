@@ -7,7 +7,7 @@ const RACINE = process.env.LOGIC_MATCH_RACINE
 const CHEMINS = Object.freeze({
   ecrans: path.join(RACINE, "technique", "ecrans"),
   scripts: path.join(RACINE, "technique", "scripts"),
-  regles: path.join(RACINE, "regles", "REGLES_ACTEES.md"),
+  regles: path.join(RACINE, "regles", "REGLES_ACTEES_consolide_150926.md"),
   bibliotheque: path.join(RACINE, "bibliotheque"),
   donneesBibliotheque: path.join(RACINE, "technique", "donnees-bibliotheque"),
   scenarios: path.join(RACINE, "scenarios"),

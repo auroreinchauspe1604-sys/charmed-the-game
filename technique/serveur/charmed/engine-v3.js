@@ -18,7 +18,15 @@ function pendingQuestions(s,id,seen=new Set()){
 }
 const suspended=(s,id)=>pendingQuestions(s,id).length>0;
 function blocks(s,id){return s.nodes.filter(n=>n.type==='lock'&&n.target===id&&n.status==='active'&&!suspended(s,n.id)&&!n.effectUnavailable);}
-function availability(s,r){if(r.lost||r.consumed)return 'lost';if(r.heldBy)return suspended(s,r.heldBy)||blocks(s,r.id).length?'frozen':'engaged';if(r.recoveryUntil>s.day)return 'recovering';if(r.availableDay>s.day)return r.preparation?'preparing':'incoming';return 'free';}
+// Une ressource visée par une attaque adverse non résolue est gelée : ni son
+// propriétaire ni personne ne peut l'engager ailleurs le temps de l'attaque.
+// Sinon le propriétaire pourrait se dépêcher de l'engager dans une autre
+// contribution pendant le délai, et un vol réussi l'arracherait ensuite de
+// cette contribution sans le dire (le transfert écrase heldBy sans condition
+// dans applyResolution) : une clé resterait orpheline, cassée en silence
+// (14 septembre 2026).
+function attackedBy(s,rid){return s.nodes.find(n=>n.type==='attack'&&n.target===rid&&!terminal(n)&&n.status!=='resolved');}
+function availability(s,r){if(r.lost||r.consumed)return 'lost';if(r.heldBy)return suspended(s,r.heldBy)||blocks(s,r.id).length?'frozen':'engaged';if(attackedBy(s,r.id))return 'frozen';if(r.recoveryUntil>s.day)return 'recovering';if(r.availableDay>s.day)return r.preparation?'preparing':'incoming';return 'free';}
 function checkTurn(s,camp,paid=false){requireRule(campaigns.includes(camp),'Camp inconnu.');requireRule(!s.result,'La partie est terminée.');requireRule(s.phase===(camp==='phoebe'?'player':'ai'),'Ce n’est pas votre passage.');if(paid)requireRule(s.day<scenario.finalDay,'L’échéance est passée ; seules les réponses encore dues sont possibles.');if(paid)requireRule(!s.spent[camp],'Votre coup du jour est déjà joué.');}
 function spend(s,camp){checkTurn(s,camp,true);s.spent[camp]=true;}
 function scopeOf(s,target){const n=s.nodes.find(n=>n.id===target);if(n)return n.type==='state'?(n.parent?'subgoal':'main'):n.scope;const r=resource(s,target);requireRule(r.heldBy,'Une ressource libre ne peut pas être verrouillée.');return scopeOf(s,r.heldBy);}
@@ -70,7 +78,12 @@ function refresh(s){for(const n of s.nodes){
   if(maintien.length){
    n.effectUnavailable=maintien.some(id=>{const r=resource(s,id);return r.lost||r.consumed||r.owner!==n.owner;});
    release(s,n,n.effectUnavailable?[]:maintien);
-  }else{const sub=subgoalOf(s,n);if(!sub||node(s,sub).status==='true'||terminal(node(s,sub)))release(s,n);}
+  }else{
+   // Une clé acquise sans mainteneurs déclarés libère toujours ses pièces,
+   // qu'elle serve l'objectif principal ou un sous-état. La branche n'est
+   // jamais à elle seule un motif de rétention (10 septembre 2026).
+   release(s,n);
+  }
  }
 }}
 function targetCheck(s,camp,kind,target){
@@ -78,7 +91,7 @@ function targetCheck(s,camp,kind,target){
  if(kind==='lock'){
   const targetNode=s.nodes.find(n=>n.id===target),targetResource=s.resources.find(r=>r.id===target);
   if(targetResource){requireRule(targetResource.owner!==camp&&!!targetResource.heldBy&&!targetResource.lost&&!targetResource.consumed,'Un verrou sur une ressource vise une ressource adverse actuellement engagée.');return;}
-  requireRule(targetNode&&!terminal(targetNode)&&targetNode.owner!==camp&&['state','key','attack'].includes(targetNode.type),'Un verrou vise un état, une clé, une attaque ou une ressource engagée adverse, avec une portée précise.');return;
+  requireRule(targetNode&&!terminal(targetNode)&&targetNode.owner!==camp&&['state','key','attack'].includes(targetNode.type)&&!(targetNode.type==='state'&&!targetNode.parent),'Un verrou vise un état, une clé, une attaque ou une ressource engagée adverse, avec une portée précise — jamais l’état initial lui-même.');return;
  }
  const t=node(s,target);requireRule(!terminal(t),'Cette carte n’est plus active.');
  if(kind==='subgoal'){requireRule(t.type==='state'&&!t.parent&&t.owner===camp,'Un sous-état dépend de votre état initial.');requireRule(s.nodes.filter(n=>n.type==='state'&&n.parent===t.id).length<s.subgoalSlots[camp],'Tous les emplacements de sous-états sont occupés.');}
@@ -91,8 +104,8 @@ function targetCheck(s,camp,kind,target){
 function validateVerdict(p){requireRule(p&&typeof p.accepted==='boolean'&&typeof p.reason==='string','Réponse d’arbitrage invalide.');}
 function validateMeans(p){requireRule(typeof p.sufficient==='boolean'&&Number.isInteger(p.missing)&&p.missing>=0&&p.missing<=20&&p.sufficient===(p.missing===0),'Nombre de moyens manquants incohérent.');requireRule(Number.isInteger(p.delay)&&p.delay>=0&&p.delay<=12,'Délai invalide.');}
 function validateDependencies(s,n,ids){requireRule(Array.isArray(ids)&&new Set(ids).size===ids.length,'Dépendances invalides.');for(const id of ids){requireRule(id!==n.id,'Lien circulaire.');const d=node(s,id);requireRule(!terminal(d),'Contribution dépendante retirée.');const walk=(x,seen=new Set())=>{if(x.id===n.id)return true;if(seen.has(x.id))return false;seen.add(x.id);return dependents(x).some(y=>walk(node(s,y),seen));};requireRule(!walk(d),'Lien circulaire.');}n.dependsOn=[...new Set([...(n.dependsOn||[]),...ids])];}
-function validatePlace(s,camp,id,rid){checkTurn(s,camp,true);const n=node(s,id),r=resource(s,rid);requireRule(n.owner===camp&&['key','lock','attack'].includes(n.type),'Cette contribution ne vous appartient pas.');requireRule(['preparing','declared'].includes(n.status)||(n.type!=='attack'&&n.status==='ready'),'La contribution n’attend plus de ressource.');requireRule(!suspended(s,id),'La contribution attend sa justification.');if(n.type==='attack'){requireRule(s.day>=n.revealDay,'Attendez Radio Halliwell demain matin.');requireRule(s.day<n.dueDay,'La date de préparation de l’attaque est passée.');}requireRule(r.owner===camp&&availability(s,r)==='free','Cette ressource n’est pas disponible.');return {n,r};}
-function place(s,camp,id,rid,p){const {n,r}=validatePlace(s,camp,id,rid);validateVerdict(p);requireRule(p.accepted,p.reason);validateMeans(p);
+function validatePlace(s,camp,id,rid){checkTurn(s,camp,true);const n=node(s,id),r=resource(s,rid);requireRule(n.owner===camp&&['key','lock','attack'].includes(n.type),'Cette contribution ne vous appartient pas.');requireRule(['preparing','declared'].includes(n.status)||(n.type!=='attack'&&n.status==='ready'),'La contribution n’attend plus de ressource.');if(n.type==='attack'){requireRule(s.day>=n.revealDay,'Attendez Radio Halliwell demain matin.');requireRule(s.day<n.dueDay,'La date de préparation de l’attaque est passée.');}requireRule(r.owner===camp&&availability(s,r)==='free','Cette ressource n’est pas disponible.');return {n,r};}
+function place(s,camp,id,rid,p){const {n,r}=validatePlace(s,camp,id,rid);validateVerdict(p);requireRule(p.accepted,p.reason);validateMeans(p);const gele=suspended(s,id);if(gele)requireRule(p.answersQuestion===true,'La contribution attend sa justification.');
  const total=n.pieces.length+1+p.missing;
  if(n.type==='attack'&&n.requiredCount!==undefined&&total!==n.requiredCount)requireRule(n.type!=='attack'&&p.situationChanged===true&&p.changeReason?.trim(),'Le nombre de moyens ne change pas sans changement pertinent de situation.');
  if(p.dependsOn)validateDependencies(s,n,p.dependsOn);
@@ -103,10 +116,18 @@ function place(s,camp,id,rid,p){const {n,r}=validatePlace(s,camp,id,rid);validat
   // La fenêtre de réaction s'ouvre la PREMIÈRE fois que la carte devient prête.
   // Un renfort ajouté ensuite ne remet plus le compteur à zéro : l'adversaire a
   // déjà eu son passage pour réagir. Un délai réel plus long reste respecté.
-  if(n.readyDay===undefined){n.readyDay=s.day;if(n.type!=='attack')n.reactionThroughDay=s.day+1;}
+  // Un verrou posé contre une attaque révélée est une réaction à son propre
+  // calendrier, pas une contribution ordinaire : la fenêtre générale J/J+1
+  // (examen au soir de J+1, effet au matin de J+2) le rendrait structurellement
+  // inutilisable face au calendrier propre des attaques. Il s'examine donc dès
+  // le soir de sa pose (10 septembre 2026).
+  const reactionSurAttaque=n.type==='lock'&&node(s,n.target).type==='attack';
+  if(n.readyDay===undefined){n.readyDay=s.day;if(n.type!=='attack')n.reactionThroughDay=reactionSurAttaque?s.day:s.day+1;}
   if(n.type!=='attack')n.dueDay=Math.max(n.dueDay||0,n.reactionThroughDay,s.day+Math.max(0,p.delay));
  }else if(n.type!=='attack'){n.status='preparing';n.dueDay=null;}
+ if(gele)resolveQuestionByPlacement(s,id,p.reason);
 }
+function resolveQuestionByPlacement(s,id,reason){for(const q of s.questions.filter(q=>q.target===id&&!q.resolved)){q.resolved=true;q.answer=q.answer||reason;q.reason=reason;q.reviewedDay=s.day;}node(s,id).justification=reason;refresh(s);}
 function defend(s,camp,attackId,rid,text,p){checkTurn(s,camp,true);const n=node(s,attackId),target=resource(s,n.target),r=resource(s,rid);requireRule(n.type==='attack'&&n.owner!==camp&&!terminal(n)&&n.status!=='resolved','Choisissez une attaque adverse en cours.');requireRule(target.owner===camp,'Seul le camp de la cible peut la renforcer.');requireRule(s.day>=n.revealDay&&s.day<n.dueDay,'La défense directe se prépare après la révélation et avant la résolution.');requireRule(r.owner===camp&&availability(s,r)==='free','Cette ressource de défense n’est pas disponible.');requireRule(text?.trim().length>=8,'Expliquez comment cette ressource renforce la cible.');validateVerdict(p);requireRule(p.accepted,p.reason);spend(s,camp);n.defenders??=[];n.defenders.push(rid);r.heldBy=n.id;n.defensePlacements??=[];n.defensePlacements.push({resource:rid,text,day:s.day});return n;}
 function withdraw(s,camp,rid){checkTurn(s,camp,true);const r=resource(s,rid);requireRule(r.owner===camp&&r.heldBy,'Choisissez une ressource engagée dans une clé ou un verrou.');const n=node(s,r.heldBy);requireRule(['key','lock'].includes(n.type),'Les ressources d’une attaque ou de sa défense restent engagées jusqu’à la résolution.');spend(s,camp);r.heldBy=null;n.pieces=(n.pieces||[]).filter(id=>id!==rid);n.maintainers=(n.maintainers||[]).filter(id=>id!==rid);if(['acquired'].includes(n.status))return {resource:r,node:n};if(!n.pieces.length){n.status='removed';release(s,n);}else{n.status='preparing';n.missing=Math.max(1,n.requiredCount-n.pieces.length);n.dueDay=null;delete n.readyDay;delete n.reactionThroughDay;}refresh(s);return {resource:r,node:n};}
 function propose(s,camp,a,p){validateVerdict(p);requireRule(typeof a.text==='string'&&a.text.trim().length>=8,'Décrivez votre action en une phrase.');if(a.kind!=='resource')checkTurn(s,camp,true);else requireRule(!s.result&&['player','ai'].includes(s.phase),'Aucune création pendant Radio Halliwell ou après la fin.');
@@ -133,7 +154,11 @@ function propose(s,camp,a,p){validateVerdict(p);requireRule(typeof a.text==='str
  s.arbitration.push({day:s.day,text:n.type==='attack'?'Tentative acceptée et engagée. Nombre de pièces et date révélés demain matin.':discoveryFeedback(n)});return n;
 }
 function discoveryFeedback(n){return 'Proposition enregistrée : '+n.effect+'\nVous pouvez encore renforcer cette contribution. Le verdict final est rendu en fin de journée ; une question non répondue la suspend.';}
-function question(s,camp,target,text){checkTurn(s,camp);const n=node(s,target);requireRule(n.owner!==camp&&['key','lock','state'].includes(n.type)&&!terminal(n),'Questionnez un état, un sous-état, une clé ou un verrou adverse.');requireRule(text?.trim().length>=5,'Précisez la question.');requireRule(!s.questions.some(q=>q.target===target),'Cette carte a déjà été questionnée, une seule fois par partie.');s.questions.push({id:newId(s),target,owner:camp,text,day:s.day,answer:null,resolved:false,answerDueDay:s.phase==='ai'?s.day+1:s.day});}
+// L'état initial (racine, sans parent) ne peut pas être questionné directement (10 septembre 2026) :
+// applyResolution ignore tout nœud suspendu, donc un état racine gelé par une question ne redevient
+// jamais constatable tant que la question n'est pas résolue, sans aucune échéance de réponse — une
+// question gratuite sur cette carte suspendrait indéfiniment l'objectif adverse.
+function question(s,camp,target,text){checkTurn(s,camp);const n=node(s,target);requireRule(n.owner!==camp&&['key','lock','state'].includes(n.type)&&!(n.type==='state'&&!n.parent)&&!terminal(n),'Questionnez un sous-état, une clé ou un verrou adverse — jamais l’état initial lui-même.');requireRule(text?.trim().length>=5,'Précisez la question.');requireRule(!s.questions.some(q=>q.target===target),'Cette carte a déjà été questionnée, une seule fois par partie.');s.questions.push({id:newId(s),target,owner:camp,text,day:s.day,answer:null,resolved:false,answerDueDay:s.phase==='ai'?s.day+1:s.day});}
 function submitAnswer(s,camp,id,text){checkTurn(s,camp);const q=s.questions.find(q=>q.id===id);requireRule(q&&!q.resolved&&q.answer===null&&node(s,q.target).owner===camp,'Une seule réponse peut être soumise.');requireRule(text?.trim().length>=5,'Précisez la réponse.');q.answer=text;q.submittedDay=s.day;s.arbitration.push({day:s.day,text:'Réponse enregistrée. La carte reste suspendue jusqu’à son examen en fin de journée.'});return q;}
 function adjudicateAnswer(s,id,p){const q=s.questions.find(q=>q.id===id);requireRule(q&&!q.resolved&&q.answer!==null,'Aucune réponse à examiner.');validateVerdict(p);const n=node(s,q.target);if(p.accepted)validateMeans(p);q.resolved=true;q.reason=p.reason;q.reviewedDay=s.day;
  if(!p.accepted){if(n.type==='state'){if(n.status==='true'&&n.goalMode==='maintain')n.maintenanceBroken=true;n.status='open';n.supports=[];}else{n.status='removed';release(s,n);}}
@@ -248,4 +273,4 @@ function publicView(s){const v=clone(s);v.camps=scenario.camps;v.finalDay=scenar
  for(const r of v.resources){r.availability=availability(s,r);r.frozenBy=[];r.document=Object.hasOwn(documents,r.title);r.consultedBy=(r.consultedBy||[]).filter(c=>c==='phoebe');}
  return v;
 }
-module.exports={initial,clone,RuleError,requireRule,node,resource,availability,refresh,publicView,checkTurn,spend,propose,place,validatePlace,defend,withdraw,question,answer,submitAnswer,adjudicateAnswer,consult,endPassage,morning,morningCandidates,immediateCandidates,prepareMorning,finishMorning,applyResolution,targetCheck,discoveryFeedback};
+module.exports={initial,clone,RuleError,requireRule,node,resource,availability,refresh,publicView,checkTurn,spend,propose,place,validatePlace,defend,withdraw,question,answer,submitAnswer,adjudicateAnswer,consult,endPassage,morning,morningCandidates,immediateCandidates,prepareMorning,finishMorning,applyResolution,targetCheck,discoveryFeedback,suspended,resolveQuestionByPlacement};

@@ -220,6 +220,11 @@ body:before,body:after,.book-corners{display:none}
 #board .card.resource.committed.for-lock .face.front{background-image:url('/modules/charmed-assets/carte-verrou-fournie.png');filter:none;opacity:1;color:#f6e0a8}
 #board .card.resource.committed.for-key .short,#board .card.resource.committed.for-key .status{color:#39250d;text-shadow:none}
 #board .card.resource.committed.for-lock .short,#board .card.resource.committed.for-lock .status{color:#f6e0a8;text-shadow:none}
+/* Une ressource adverse engagée en défense sur une attaque bloque tout autant
+   qu'un verrou : elle doit lire comme une menace active (rouge), pas comme une
+   carte simplement indisponible/grisée (14 septembre 2026, retour d'Aurore). */
+#board .card.resource.committed.for-defense .face.front{filter:none;opacity:1;color:#f6e0a8}
+#board .card.resource.committed.for-defense .short,#board .card.resource.committed.for-defense .status{color:#f6e0a8;text-shadow:none}
 .rules-access{display:block;margin:8px auto 0;padding:3px 6px;font:11px Georgia;color:#70532e;background:transparent;border:0;text-decoration:underline}
 #illustrated-detail.rules-parchment{width:min(850px,94vw);max-width:850px;text-align:left}
 #illustrated-detail.rules-parchment .event-text{font-size:14px;line-height:1.6}

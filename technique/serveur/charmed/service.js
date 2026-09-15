@@ -15,8 +15,12 @@ class Service{
    // Check the physical move before spending an IA call, without changing the real state.
    E.validatePlace(s,camp,a.target,a.resource);
    const verdict=await this.ia.placement(s,camp,a);E.requireRule(verdict&&typeof verdict.accepted==='boolean'&&typeof verdict.reason==='string','Justification de pose invalide.');
-   const target=E.node(s,a.target);if(!verdict.accepted){s.arbitration.push({day:s.day,text:target.discovery?'Cette contribution ne justifie pas la clé telle qu’elle est définie. Aucun coup consommé.':verdict.reason});return null;}if(!target.discovery)s.arbitration.push({day:s.day,text:verdict.reason});
-   E.place(s,camp,a.target,a.resource,verdict);const n=E.node(s,a.target);(n.placements??=[]).push({resource:a.resource,text:a.text,day:s.day});s.arbitration.push({day:s.day,text:E.discoveryFeedback(n)});return n;
+   const target=E.node(s,a.target);if(!verdict.accepted){s.arbitration.push({day:s.day,text:target.discovery?'Cette contribution ne justifie pas la clé telle qu’elle est définie. Aucun coup consommé.':verdict.reason});return null;}
+   // Une carte gelée par une question accepte quand même une pose qui répond à
+   // cette question : la pose vaut réponse. Sinon, refus gratuit comme avant.
+   const gele=E.suspended(s,a.target);if(gele&&!verdict.answersQuestion){s.arbitration.push({day:s.day,text:'Cette pose ne répond pas à la question en attente sur cette carte. Répondez à la question, ou posez une ressource qui y répond directement. Aucun coup consommé.'});return null;}
+   if(!target.discovery)s.arbitration.push({day:s.day,text:verdict.reason});
+   E.place(s,camp,a.target,a.resource,verdict);const n=E.node(s,a.target);(n.placements??=[]).push({resource:a.resource,text:a.text,day:s.day});if(gele)s.arbitration.push({day:s.day,text:'La pose répond à la question en attente : la carte est dégelée.'});s.arbitration.push({day:s.day,text:E.discoveryFeedback(n)});return n;
   }
   if(a.type==='defend'){
    E.defend(E.clone(s),camp,a.target,a.resource,a.text,{accepted:true,reason:'Contrôle préalable.',sufficient:true,missing:0,delay:0,situationChanged:false,changeReason:'',dependsOn:[]});
