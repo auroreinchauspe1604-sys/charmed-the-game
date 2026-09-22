@@ -14,7 +14,8 @@ const partie = require("./routes/partie");
 const charmed = require("./charmed/routes");
 
 const TYPES = { ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8",
-                ".html": "text/html; charset=utf-8", ".svg": "image/svg+xml", ".json": "application/json" };
+                ".html": "text/html; charset=utf-8", ".svg": "image/svg+xml", ".json": "application/json",
+                ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp" };
 
 const serveur = http.createServer((req, res) => {
   const url = req.url.split("?")[0];

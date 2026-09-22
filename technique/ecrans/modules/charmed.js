@@ -1,8 +1,9 @@
 "use strict";
 (()=>{
 const $=id=>document.getElementById(id);let state,busy=false,chosen=null,draft=null;
+
 const labels={open:'Faux',true:'Vrai',declared:'Révélation demain',preparing:'En préparation',ready:'À examiner le soir',acquired:'Acquis constaté',active:'Actif',resolved:'Réalisée',failed:'Échec',removed:'Levé'},icons={state:'🎯',key:'🗝️',lock:'🔒',attack:'⚔️'};
-const byId=id=>state.nodes.find(n=>n.id===id)||state.resources.find(r=>r.id===id),own=n=>n.owner==='phoebe',free=r=>own(r)&&r.availability==='free',paid=()=>!busy&&state.phase==='player'&&!state.spent.phoebe&&state.day<state.finalDay;
+const byId=id=>state.nodes.find(n=>n.id===id)||state.resources.find(r=>r.id===id),own=n=>n.owner==='phoebe',free=r=>(own(r)||r.owner===null)&&r.availability==='free',paid=()=>!busy&&state.phase==='player'&&!state.spent.phoebe&&state.day<state.finalDay;
 function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
 function button(text,fn,disabled=false,cls=''){const b=el('button',cls,text);b.type='button';b.disabled=disabled;b.onclick=fn;return b;}
 function notify(text,error=false){$('notice').textContent=text;$('notice').classList.toggle('error',error);}
@@ -114,6 +115,10 @@ function renderState(n){const row=el('div',n.parent?'branch':'objective'),z=el('
 function slots(root){const area=el('div','branches'),existing=state.nodes.filter(n=>n.parent===root.id);(root.owner==='phoebe'?existing:[...existing].reverse()).forEach(n=>area.append(renderState(n)));const empty=el('div','empty-slots'),count=state.subgoalSlots?.[root.owner]??3;for(let i=existing.length;i<count;i++){const b=button('＋',()=>openDraft('subgoal',root.id),!own(root)||!paid(),'empty-subgoal');b.setAttribute('aria-label','Créer le sous-objectif '+(i+1)+' sur '+count);b.append(el('span','','Sous-objectif '+(i+1)));empty.append(b);}if(root.owner==='phoebe')area.append(empty);else area.prepend(empty);area.setAttribute('aria-label','Sous-objectifs : '+existing.length+' sur '+count);return area;}
 function hand(camp){const h=el('div','hand');h.setAttribute('aria-label',camp.id==='phoebe'?'Votre main':'Main adverse');
  const groups=[['Disponibles',r=>['free','subject'].includes(r.availability)],['En attente',r=>!['free','subject','lost'].includes(r.availability)],['Perdues',r=>r.availability==='lost']];
+ // Main partagée : les cartes sans propriétaire n'appartiennent à personne tant
+ // que nul ne les a engagées. On les montre une seule fois, du côté du joueur,
+ // pour qu'elles soient visibles et sélectionnables comme celles de sa main.
+ if(camp.id==='phoebe'&&state.resources.some(r=>r.owner===null)){const g=el('section','hand-group');g.append(el('h3','','Communes — au premier qui les engage'));const cards=el('div','cards');state.resources.filter(r=>r.owner===null&&(!r.heldBy||retained(r))).forEach(r=>{const w=el('div','combo');w.append(makeCard(r));cards.append(w);});g.append(cards);h.append(g);}
  for(const [title,filter] of groups){const g=el('section','hand-group');g.append(el('h3','',title));const cards=el('div','cards');state.resources.filter(r=>r.owner===camp.id&&(!r.heldBy||retained(r))&&filter(r)).forEach(r=>{const w=el('div','combo');const c=makeCard(r);const vise=attacking(r);if(vise){c.classList.add('under-attack');c.title='Ciblée par l’attaque '+vise.id+' — résultat non acquis, la ressource est toujours à vous.';}w.append(c);cards.append(w);});g.append(cards);h.append(g);}
  if(camp.id==='phoebe')h.append(button('＋ Créer une ressource',()=>openDraft('resource'),busy||!['player','ai'].includes(state.phase),'create-resource'));return h;}
 function fitCardTitles(){for(const card of document.querySelectorAll('.card')){const title=card.querySelector('.short'),front=card.querySelector('.front');let size=parseFloat(getComputedStyle(title).fontSize);while(size>6.5&&(title.scrollWidth>title.clientWidth+1||title.getBoundingClientRect().bottom>front.getBoundingClientRect().bottom-10)){size-=.5;title.style.setProperty('font-size',size+'px','important');}}}

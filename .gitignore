@@ -7,3 +7,6 @@ node_modules/
 technique/rapports/serveur*.log
 etat/charmed/*/sessions/
 etat/charmed/*/sessions-*/
+
+# Livre des Ombres : PDF source et 205 pages rendues, trop lourd pour git.
+visuels/livre-des-ombres/

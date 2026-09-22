@@ -10,7 +10,9 @@ function evaluate(preparation,resources,lastMorning=12){
    let day=1;
    for(const branch of route.branches){
     if(!branch.condition||!branch.contribution||!branch.resources.length||new Set(branch.resources).size!==branch.resources.length)throw new Error('Sous-objectif témoin incomplet.');
-    for(const id of branch.resources)if(!resources.some(r=>r.id===id&&r.owner===camp))throw new Error('Ressource témoin inconnue : '+id);
+    // Main partagée (16/09/2026) : une ressource sans propriétaire (owner:null)
+    // est un témoin valide pour les deux camps, puisque chacun peut la réclamer.
+    for(const id of branch.resources)if(!resources.some(r=>r.id===id&&(r.owner===camp||r.owner===null)))throw new Error('Ressource témoin inconnue : '+id);
     // One creation move, N poses on later days, resolution next morning.
     day+=branch.resources.length+1+(branch.attack?1:0);
    }
