@@ -17,7 +17,8 @@ const catalog={
  'la-dette-des-halliwell':path.join(CHEMINS.scenarios,'la-dette-des-halliwell','scenario.js'),
  'le-livre-qui-refuse':path.join(CHEMINS.scenarios,'le-livre-qui-refuse','scenario.js'),
  'le-livre-qui-se-defait':path.join(CHEMINS.scenarios,'le-livre-qui-se-defait','scenario.js'),
- 'ce-qui-sest-noue':path.join(CHEMINS.scenarios,'ce-qui-sest-noue','scenario.js')
+ 'ce-qui-sest-noue':path.join(CHEMINS.scenarios,'ce-qui-sest-noue','scenario.js'),
+ 'le-proces-de-rebecca-warren':path.join(CHEMINS.scenarios,'le-proces-de-rebecca-warren','scenario.js')
 };
 const key=process.env.CHARMED_SCENARIO||'avant-la-vision';
 if(!catalog[key])throw new Error('Scénario inconnu : '+key);
