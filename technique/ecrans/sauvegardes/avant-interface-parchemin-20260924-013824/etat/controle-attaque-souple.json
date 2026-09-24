@@ -1,0 +1,31 @@
+{
+  "accepted": true,
+  "reason": "Déclaration recevable : le camp dispose de ressources libres et aucun obstacle concret établi ne rend l’attaque impossible. L’accord engage la tentative, sans réaliser la vision ni vaincre la cible à ce stade.",
+  "sufficient": true,
+  "missing": 0,
+  "delay": 0,
+  "situationChanged": false,
+  "changeReason": "",
+  "dependsOn": [],
+  "canon": {
+    "status": "verified",
+    "facts": [
+      "character:phoebe-vision-return",
+      "game:premonition-contextuelle",
+      "game:potions"
+    ],
+    "reason": "La prémonition proposée au contact de l’enveloppe est recevable à cette période. Les potions offensives prêtes sont compatibles avec une cible démoniaque de bas grade selon la convention de jeu."
+  },
+  "title": "Vaincre le guetteur repéré par prémonition",
+  "effect": "Phoebe touche l’enveloppe pour reconnaître le guetteur dans la rue par une prémonition, puis appelle Piper afin qu’elle sorte et utilise les potions pour vaincre ce démon de bas grade. Cet effet reste à réaliser à l’échéance de l’attaque.",
+  "requiredCount": 3,
+  "resource": {
+    "title": "",
+    "description": "",
+    "category": "",
+    "icon": "",
+    "canonicalId": "",
+    "unique": false
+  },
+  "costs": []
+}

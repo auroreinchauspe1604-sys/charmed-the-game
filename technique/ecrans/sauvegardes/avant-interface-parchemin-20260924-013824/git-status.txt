@@ -1,0 +1,83 @@
+ M technique/ecrans/charmed.html
+ M technique/ecrans/modules/charmed-skin.css
+ M technique/ecrans/modules/charmed.css
+ M technique/ecrans/modules/charmed.js
+?? Charmed/visuels/cartes-photo-2026-09-23/
+?? etat/charmed/le-proces-de-rebecca-warren/
+?? etat_backup_2026-09-11_gideon/
+?? etat_backup_2026-09-14_cole-turner/
+?? regles-dump.txt
+?? state-dump.json
+?? state-dump2.json
+?? technique/ecrans/sauvegardes/
+?? visuels/atelier/Assets/Abraxas.png
+?? "visuels/atelier/Assets/Amulette de protection.png"
+?? "visuels/atelier/Assets/Athm\303\251.png"
+?? visuels/atelier/Assets/Avatar.png
+?? "visuels/atelier/Assets/Bay miror.png"
+?? visuels/atelier/Assets/Billie.png
+?? visuels/atelier/Assets/Buckland.png
+?? "visuels/atelier/Assets/Christy (1).png"
+?? visuels/atelier/Assets/Coop.png
+?? "visuels/atelier/Assets/Cristaux bouclier.png"
+?? "visuels/atelier/Assets/Cristaux localisation.png"
+?? visuels/atelier/Assets/Gideon.png
+?? visuels/atelier/Assets/Hecata.png
+?? "visuels/atelier/Assets/Inspecteur Rodriguez.png"
+?? visuels/atelier/Assets/Jeremy.png
+?? "visuels/atelier/Assets/Kyle Brody.png"
+?? "visuels/atelier/Assets/L'ange de la mort.png"
+?? "visuels/atelier/Assets/L'ange du Destin.png"
+?? "visuels/atelier/Assets/L'anneau de protection.png"
+?? visuels/atelier/Assets/L'enchanteru.png
+?? "visuels/atelier/Assets/La Boite de pandore.png"
+?? "visuels/atelier/Assets/La bague de Nicholas.png"
+?? "visuels/atelier/Assets/La bague de l'inspiration.png"
+?? "visuels/atelier/Assets/La baguette de Penny.png"
+?? "visuels/atelier/Assets/La baguette de cupidon.png"
+?? "visuels/atelier/Assets/La maison de poup\303\251\303\251.png"
+?? "visuels/atelier/Assets/Le nymphes.png"
+?? "visuels/atelier/Assets/Les Grimolocks.png"
+?? "visuels/atelier/Assets/Les enqueteur.png"
+?? "visuels/atelier/Assets/Les fondateur.png"
+?? "visuels/atelier/Assets/Les f\303\251e.png"
+?? "visuels/atelier/Assets/Les muses.png"
+?? "visuels/atelier/Assets/Les titants.png"
+?? "visuels/atelier/Assets/Les vampires.png"
+?? "visuels/atelier/Assets/Les walkyrie.png"
+?? "visuels/atelier/Assets/Melinda Warren.png"
+?? visuels/atelier/Assets/Nicholas.png
+?? visuels/atelier/Assets/P3.png
+?? "visuels/atelier/Assets/Planche Ouicha.png"
+?? visuels/atelier/Assets/Quake.png
+?? visuels/atelier/Assets/Raynor.png
+?? "visuels/atelier/Assets/Rex et Hanna (1).png"
+?? visuels/atelier/Assets/Troll.png
+?? "visuels/atelier/Assets/Wyatt -enfant.png"
+?? visuels/atelier/Assets/Zankou.png
+?? visuels/atelier/Assets/excalibure.png
+?? "visuels/atelier/Assets/image (34).png"
+?? "visuels/atelier/Assets/jason Dean.png"
+?? "visuels/atelier/Assets/le grimoire.png"
+?? "visuels/atelier/Assets/les 7 nains.png"
+?? visuels/atelier/base-designer-adaptee-2026-09-23/
+?? visuels/atelier/cartes-personnages-entrelacs-jaune-2026-09-23.zip
+?? visuels/atelier/cartes-personnages-entrelacs-jaune-2026-09-23/
+?? visuels/atelier/cartes-personnages-ferronnerie-rouge-2026-09-23.zip
+?? visuels/atelier/cartes-personnages-ferronnerie-rouge-2026-09-23/
+?? visuels/atelier/cartes-personnages-lierre-vert-2026-09-23.zip
+?? visuels/atelier/cartes-personnages-lierre-vert-2026-09-23/
+?? visuels/atelier/cartes-personnages-lierre/
+?? visuels/atelier/cartes-vierges-ivoire-cuivre/
+?? visuels/atelier/cinq-interfaces-livre/
+?? visuels/atelier/cinq-interfaces-sans-livre/
+?? visuels/atelier/concept-livre-vivant-2026-09-23/
+?? visuels/atelier/essais-livre-des-ombres-2026-09-23/
+?? visuels/atelier/nouvelle-interface-livre-ouvert-2026-09-23/
+?? visuels/atelier/propositions-interface-2026-09-23/
+?? visuels/atelier/ressources-dessinees-vert-planches4/
+?? visuels/atelier/systeme-cartes-nouvelle-interface-2026-09-23/
+?? visuels/atelier/vitrail-aquarelle-propositions/
+?? "visuels/carte ressource/"
+?? visuels/contact-cartes.png
+?? visuels/jeu/portraits/
